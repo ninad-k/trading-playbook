@@ -16,7 +16,7 @@ source_file: "Barry Rudd - Stock Patterns For Day Trading And Swing Trading.pdf"
 
 ## Overview
 
-Barry Rudd, an SOES (Small Order Execution System) day trader active through the mid-to-late 1990s Nasdaq market-maker era, distills his own working rules — developed, per the book's "25th Anniversary" framing, since 1975 — into a self-published manual later reprinted by Traders Press. The book merges two originally separate manuals: the core "Stock Patterns" text on day- and swing-trade chart setups, and an appended "Scalping Module" for very short holding periods. The content centers on recognizing intraday consolidation-then-breakout patterns on 5-minute bar charts, reading Nasdaq Level II market-maker and time-of-sales screens, and managing open trades with a proprietary trailing-stop concept Rudd calls the "wiggle" rather than a fixed profit target.
+Barry Rudd, an SOES (Small Order Execution System) day trader active through the mid-to-late 1990s Nasdaq market-maker era, distills his own working rules — developed, per the book's "25th Anniversary" framing, since 1975 — into a self-published manual later reprinted by Traders Press. The book merges two originally separate manuals: the core "Stock Patterns" text on day- and swing-trade chart setups, and an appended "Scalping Module" for very short holding periods. Content centers on recognizing intraday consolidation-then-breakout patterns on 5-minute bar charts, reading Nasdaq Level II market-maker and time-of-sales screens, and managing open trades with a proprietary trailing-stop concept Rudd calls the "wiggle" rather than a fixed profit target.
 
 ## Core thesis
 
@@ -30,8 +30,7 @@ High-probability trades come from watching a stock's own price-action personalit
 - **Breakout** — price moving beyond a level where a stock has consolidated for several bars, especially on the 5-minute chart; the core entry trigger.
 - **Consolidation** — a tight, sideways range preceding a breakout; the longer and tighter it is, the higher-probability the subsequent breakout.
 - **Fill-price** — the actual executed price of an order, used as the reference point for the initial stop.
-- **Market maker screen / time-of-sales (T.O.S.) screen** — Nasdaq quote and print displays used to time entries by watching which side (bid or ask) trades are filling on and whether market makers are stepping up in price.
-- **The "big 4" screens** — market maker, time-of-sales, daily chart, and 5-minute chart, viewed together for each stock under consideration.
+- **Market maker / time-of-sales (T.O.S.) screens** — Nasdaq quote and print displays used to time entries by watching which side (bid or ask) trades are filling on and whether market makers are stepping up in price; viewed together with the daily and 5-minute charts as the "big 4."
 - **Intraday relative strength** — a stock that fails to sell off with a weak market (or fails to rally with a strong one) is treated as a higher-odds candidate in the market's eventual direction.
 - **Round price numbers** — whole numbers (round tens, and especially 50 and 100) tend to stall price, or, once penetrated, produce stronger follow-through.
 - **Compression / price spike (scalping)** — a very tight consolidation at the day's high or low that, once broken, tends to produce a fast, short-lived momentum move — the scalper's entry signal.
@@ -60,14 +59,13 @@ The book is emphatic about cutting losses immediately on any "mistake" fill or i
 
 ## Chapter map
 
-- Intraday Trend Methodology / Why Use Price Bar Charts / Terms and Definitions / How the "Wiggle" Works — core vocabulary: wiggle, standard wiggle, breakout, fill-price, stop-loss.
+- Intraday Trend Methodology / Terms and Definitions / How the "Wiggle" Works — core vocabulary: wiggle, standard wiggle, breakout, fill-price, stop-loss.
 - Day Trades: intraday trading patterns and chart examples — 5-minute-bar consolidation/breakout setups with numbered trade diagrams.
-- 1-to-3 Daily Bar Setups (for day trading) and chart examples — reversal-bar and short daily-bar-count patterns used to trigger day trades.
-- Longer-Term Daily Bar Patterns (for day trading) and chart examples — patterns read off daily bars but still traded intraday.
-- Support and Resistance (S/R) and chart examples — daily S/R levels used as profit-taking and entry filters.
+- 1-to-3 Daily Bar Setups and Longer-Term Daily Bar Patterns (for day trading), with chart examples — reversal-bar and daily-bar-count patterns used to trigger day trades.
+- Support and Resistance (S/R), with chart examples — daily S/R levels used as profit-taking and entry filters.
 - Market Maker and Time of Sales Screens (including ticker) — Nasdaq screen-reading mechanics with worked screen examples.
-- Swing Trades (2 to 5+ days) and chart examples — the same pattern logic applied to multi-day holds.
-- Worksheet (for nightly analysis) — a nightly-scan template plus separate "day trades" and "swing trades" worksheet keys.
+- Swing Trades (2 to 5+ days), with chart examples — the same pattern logic applied to multi-day holds.
+- Worksheet (for nightly analysis) — a nightly-scan template plus "day trades" and "swing trades" worksheet keys.
 - Extra Tips and Trading Ideas — round-number behavior, price targets vs. wiggle, relative strength, handling bad fills.
 - Price Fractions Showing Dollar Amount / Trade Sheets — reference tables (not textually sampled).
 - The 10 Commandments of Trading — closing discipline checklist (title only recovered from the sample).
@@ -75,7 +73,7 @@ The book is emphatic about cutting losses immediately on any "mistake" fill or i
 
 ## Strengths and caveats
 
-The book is a genuine practitioner's field manual from the SOES-trading era, and its market-maker/time-of-sales screen-reading content is now dated: Nasdaq's market-maker structure was substantially reformed in the early 2000s (decimalization, order-handling rules, ECN consolidation), so the specific screen mechanics described no longer map cleanly onto modern electronic order books. Stops and wiggle sizes are quoted in fractional-point (1/8, 1/4, 3/8) pre-decimalization terms rather than cents or percentages, calibrated to individual, mostly tech-sector Nasdaq names of that period; translating both the tick convention and the absolute point sizes to current, decimalized, differently-volatile instruments requires judgment the book does not supply. No systematic backtest, win rate, or drawdown statistic appears anywhere in the sampled pages — all support is anecdotal chart examples.
+The book is a genuine practitioner's field manual from the SOES-trading era, and its market-maker/time-of-sales screen-reading content is now dated: Nasdaq's market-maker structure was substantially reformed in the early 2000s (decimalization, order-handling rules, ECN consolidation), so the screen mechanics described no longer map cleanly onto modern electronic order books. Stops and wiggle sizes are quoted in fractional-point (1/8, 1/4, 3/8) pre-decimalization terms calibrated to individual, mostly tech-sector Nasdaq names of that period; translating both the tick convention and the absolute point sizes to current, decimalized, differently-volatile instruments requires judgment the book does not supply. No systematic backtest, win rate, or drawdown statistic appears anywhere in the sampled pages — all support is anecdotal chart examples.
 
 ## Who should read it
 

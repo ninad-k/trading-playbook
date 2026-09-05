@@ -110,5 +110,10 @@
  "gann-how-to-trade": {
   "status": "no_text",
   "note": "5-page image scan, OCR found no text"
+ },
+ "a-new-interprtation-of-information-rate-kelly": {
+  "status": "duplicate",
+  "dup_of": "kellybetting",
+  "note": "Same Kelly 1956 paper; this copy's text layer is garbled"
  }
 }

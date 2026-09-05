@@ -31,17 +31,17 @@ The kagi chart (from the Japanese word for an old L-shaped key; also called a ke
 
 **Basic signal ("buy on yang, sell on yin")**: buy when the line converts thin-to-thick (breaks a shoulder); sell/short when it converts thick-to-thin (breaks a waist). Whipsaws in sideways markets like the other new-price charts; built to capture sustained trends, not pinpoint exact turns.
 
-**Shoulders and waists (trend-strength read)**: rising shoulders and rising waists show the bulls in control (each pullback holds a higher low); falling shoulders and waists show the bears in control. The first break in that sequence is an early warning the dominant side is losing grip.
+**Shoulders and waists**: rising shoulders and waists show the bulls in control (each pullback holds a higher low); falling shoulders and waists show the bears in control. The first break in that sequence warns the dominant side is losing grip.
 
-**Multi-level break**: wait for a two- or three-level break (2-3 consecutive prior highs/lows exceeded) instead of a single shoulder/waist break for slower, higher-confidence confirmation — explicit reward-for-risk trade-off.
+**Multi-level break**: wait for a two- or three-level break (2-3 prior highs/lows exceeded) instead of a single shoulder/waist break — slower but higher-confidence, an explicit reward-for-risk trade-off.
 
-**Midpoint read**: where a correction stops relative to the vertical midpoint of a long kagi line is diagnostic — a pullback holding above the midpoint (uptrend) or a rally failing to reach it (downtrend) favors the prevailing trend.
+**Midpoint read**: a pullback holding above the vertical midpoint of a long kagi line (uptrend), or a rally failing to reach it (downtrend), favors the prevailing trend continuing.
 
-**Double windows**: a double-window bottom forms when a downtrend shoulder sits below both the waist before and after it (a price gap around that shoulder) — bullish. A double-window top is the mirror — bearish.
+**Double windows**: a double-window bottom forms when a downtrend shoulder sits below both flanking waists (a price gap around it) — bullish; a double-window top is the mirror — bearish.
 
-**Three-Buddha / reverse three-Buddha**: a three-peak (or trough) formation analogous to head-and-shoulders; the signal triggers when the pattern's "right shoulder" is broken, with a two-level break adding confirmation.
+**Three-Buddha / reverse three-Buddha**: a three-peak (or trough) formation analogous to head-and-shoulders; triggers when the pattern's "right shoulder" is broken, with a two-level break adding confirmation.
 
-**Record sessions**: about nine higher shoulders (not necessarily consecutive) is "nine record session highs"; nine lower waists is "nine record session lows" — a Japanese heuristic for watching for a countertrend move.
+**Record sessions**: about nine higher shoulders (not necessarily consecutive) is "nine record session highs," nine lower waists is "nine record session lows" — a Japanese heuristic for watching for a countertrend move.
 
 ## Risk
 

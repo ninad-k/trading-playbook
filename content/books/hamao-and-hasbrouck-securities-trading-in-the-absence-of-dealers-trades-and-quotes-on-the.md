@@ -16,27 +16,27 @@ source_file: "Hamao And Hasbrouck-Securities Trading In The Absence Of Dealers -
 
 ## Summary
 
-Published in the Review of Financial Studies (1995). Question: can a market with no designated dealers or market makers — where all liquidity comes from public limit orders — supply immediacy comparable to dealer-based markets like the NYSE? Data: intraday trade and quote records for three actively traded Tokyo Stock Exchange (TSE) first-section stocks over the first three months of 1990. Method: descriptive statistics on execution delay and price improvement, plus a dynamic vector autoregression (VAR) of trades and quote revisions to study how the TSE's distinctive "warning quote" / "special quote" mechanism (which pauses and re-displays large orders that would otherwise walk through the book) affects price impact and post-trade quote behavior. Finding: liquidity from public orders alone was good — small orders were blocked from immediate execution less than 5% of the time — and about one-fifth of orders held at an indicative quote received price improvement from competing liquidity suppliers, but orders that were delayed this way had a larger cumulative price impact than orders executed immediately in full.
+Published in the Review of Financial Studies (1995). Question: can a market with no dealers or market makers — where all liquidity comes from public limit orders — supply immediacy comparable to dealer-based markets like the NYSE? Data: intraday trade and quote records for three actively traded Tokyo Stock Exchange (TSE) stocks over the first three months of 1990. Method: descriptive statistics on execution delay and price improvement, plus a dynamic VAR of trades and quote revisions to study how the TSE's "warning"/"special" quote mechanism (pausing and re-displaying large orders that would otherwise walk through the book) affects price impact. Finding: public-order liquidity was good — small orders were blocked from immediate execution less than 5% of the time — and about one-fifth of paused orders received price improvement, but delayed orders had a larger cumulative price impact than orders executed immediately in full.
 
 ## Key points
 
-- The TSE prohibits members from placing proprietary limit orders on both sides of the market, structurally preventing de facto dealers from emerging; all liquidity is public.
-- Tick sizes are 0.1%-1% of the stock price; trading runs in morning (9:00-11:00) and afternoon (13:00-15:00) sessions, opening each session with a call auction (itayose) before continuous double-auction trading (zaraba).
-- Large market orders that would "walk" through the limit-order book are only partially executed; the remainder is converted to a limit order and displayed as an indicative "warning" or "special" quote inviting competing liquidity for up to about a minute (at the saitori's discretion).
-- Roughly one-fifth of these indicative quotes get hit by competing liquidity suppliers, delivering price improvement versus letting the order walk the book immediately.
-- Small hypothetical buy/sell orders were prevented from immediate execution (due to no acceptable opposing quote) less than 5% of trading time — evidence of good public liquidity supply.
-- Orders held at an indicative quote (delayed) show a larger cumulative price impact in the VAR analysis than orders executed immediately at the same size, implying the price-limit mechanism affects market depth, not just transient smoothing.
-- Post-trade quotes tend to keep moving in the direction of the initiating trade (positive "continuation"), driven partly by order-flow autocorrelation and partly by cancellation of limit orders that had set the best quote.
-- Orders filled at a single price show continuation; orders filled by walking through multiple price levels tend to show reversals afterward, suggesting liquidity is partially restored following large multi-level trades.
+- TSE prohibits members from placing proprietary limit orders on both sides of the market, structurally preventing de facto dealers from emerging.
+- Tick sizes run 0.1%-1% of price; sessions open with a call auction (itayose) before continuous double-auction trading (zaraba).
+- Large orders that would walk through the book are only partially executed; the remainder becomes a "warning" or "special" indicative quote inviting competing liquidity for up to about a minute.
+- Roughly one-fifth of these indicative quotes get hit by competing liquidity, delivering price improvement.
+- Small hypothetical orders were blocked from immediate execution less than 5% of trading time — good public liquidity supply.
+- Delayed (paused) orders show larger cumulative price impact in the VAR analysis than immediately executed orders of the same size, implying the mechanism affects market depth, not just transient smoothing.
+- Post-trade quotes tend to keep moving in the initiating trade's direction, from order-flow autocorrelation and cancellation of limit orders that set the best quote.
+- Single-price fills show continuation; multi-level fills tend to show reversals afterward, suggesting liquidity partially restores after large trades.
 
 ## Actionable rules
 
-None given as trading signals — this is an empirical market-structure study, not a strategy source. The transferable insight for a trader is structural: in a pure limit-order-book market (no dealers), a large order that triggers a price-limit pause tends to carry more information (larger subsequent price impact) than one that executes immediately, and roughly 1 in 5 such paused orders will see meaningful price improvement if the trader is willing to wait rather than force immediate execution.
+None given as trading signals — an empirical microstructure study. Transferable insight: in a pure limit-order-book market, a large order that triggers a price-limit pause tends to carry more information (larger subsequent impact) than one executing immediately, and roughly 1 in 5 paused orders see meaningful price improvement for a patient trader.
 
 ## Caveats
 
-The sample is narrow — three stocks, three months, data from 1990 — and TSE institutional rules (price-limit and warning-quote procedures) have since evolved; the specific mechanics described (saitori discretion, session times) reflect the exchange as it operated at the time of study. It is a technical academic paper requiring familiarity with VAR-based microstructure methodology (Hasbrouck's own prior work) to follow the identification strategy in full.
+Narrow sample — three stocks, three months, 1990 data — and TSE rules have since evolved. Technical academic paper requiring familiarity with VAR-based microstructure methodology.
 
 ## Who it is for
 
-Market-microstructure researchers, quant traders studying limit-order-book dynamics, or readers comparing dealer vs. non-dealer market designs — not retail traders looking for a system.
+Market-microstructure researchers and quants studying limit-order-book dynamics, not retail traders seeking a system.
