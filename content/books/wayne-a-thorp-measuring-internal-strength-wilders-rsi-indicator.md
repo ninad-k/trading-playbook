@@ -5,8 +5,8 @@ year: 2000
 slug: wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
 tier: B
 category: Indicators
-difficulty: beginner
 tags: [rsi, oscillators, overbought-oversold, divergence, wilder, momentum]
+difficulty: beginner
 doc_type: article
 pages: 5
 one_liner: "AAII Journal primer on Wilder's RSI covering its calculation, overbought/oversold use, divergence signals, failure swings, and the indicator's breakdown in trending markets."

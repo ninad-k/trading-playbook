@@ -17,35 +17,35 @@ source_file: "Miner Robert - High Probability Trading Strategies Entry to Exit T
 
 ## What it is
 
-This is the "conditions with a high probability outcome" filter that must be satisfied before Miner's entry strategies (see [[miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur--entry-exit-trade-management]]) are used. It combines up to four independent factors — multiple-time-frame momentum (the only required factor), Elliott Wave pattern position, Fibonacci price projections, and Fibonacci/cycle time projections — so a trade is only considered when several unrelated lines of evidence point to the same direction and zone. It is market- and time-frame-agnostic: the same rules apply from monthly bars to 5-minute bars, using any two adjacent time frames (e.g. weekly/daily, daily/60-minute, 60-minute/15-minute).
+The "conditions with a high probability outcome" filter that must pass before Miner's entry strategies (see [[miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur--entry-exit-trade-management]]) are used. It combines up to four factors — multiple-time-frame momentum (the only required one), Elliott Wave pattern position, Fibonacci price projections, and Fibonacci/cycle time projections — so a trade is considered only when several independent lines of evidence agree on direction and zone. Market- and time-frame-agnostic: the same rules apply from monthly bars to 5-minute bars, using any two adjacent time frames (weekly/daily, daily/60-minute, 60-minute/15-minute).
 
 ## Rules
 
-**Choose a momentum indicator and lookback.** Any oscillator with clear overbought (OB)/oversold (OS) zones works (Miner's own DTosc, or Stochastics); pick the lookback period (e.g. 13-day) that makes reversals land within a bar or two of actual swing highs/lows on recent data, without excessive mid-range whipsaw. Re-check the setting periodically; it is not fixed forever.
+**Momentum indicator.** Any oscillator with clear overbought (OB)/oversold (OS) zones (Miner's DTosc, or Stochastics); pick the lookback (e.g. 13-day) that lands reversals within a bar or two of actual swing highs/lows on recent data without excessive whipsaw, and re-check it periodically.
 
-**Dual Time Frame Momentum Strategy table.** Identify the higher time frame's momentum state, then apply:
+**Dual Time Frame Momentum table.** Identify the higher time frame's momentum state, then act:
 
 | Higher time frame momentum | Action on lower time frame |
 |---|---|
-| Bullish, not OB | Long following a lower-TF bullish momentum reversal |
+| Bullish, not OB | Long following a lower-TF bullish reversal |
 | Bullish, OB | No new longs; possible short after a lower-TF bearish reversal |
-| Bearish, not OS | Short following a lower-TF bearish momentum reversal |
+| Bearish, not OS | Short following a lower-TF bearish reversal |
 | Bearish, OS | No new shorts; possible long after a lower-TF bullish reversal |
 
-A "momentum reversal" is the oscillator's fast line crossing the slow line. For day trades, Miner recommends stacking three time frames (e.g. 60-minute directional bias, 15-minute reaching OB/OS, 5-minute reversal trigger) for the highest-probability setups.
+A "momentum reversal" is the oscillator's fast line crossing the slow line. For day trades, stack three time frames (e.g. 60-minute bias, 15-minute reaching OB/OS, 5-minute trigger).
 
-**Pattern confirmation (optional but preferred).** Apply the "overlap guideline": if price sections overlap, the market is most likely in a correction (expect eventual resumption of the prior trend to a new extreme); if five non-overlapping sections have formed, the market has likely completed a trend (impulse) and a reversal/correction is due. Three simplified Elliott trend rules apply when reading five-wave structure: Wave-2 cannot retrace beyond the start of Wave-1; Wave-3 cannot be the shortest of waves 1, 3, 5; Wave-4 cannot close back into Wave-1's closing range.
+**Pattern confirmation (preferred).** Overlap guideline: overlapping price sections signal a correction (expect the prior trend to resume to a new extreme); five non-overlapping sections signal a completed trend (impulse), so a reversal is due. Simplified Elliott trend rules: Wave-2 can't retrace beyond Wave-1's start; Wave-3 can't be the shortest of 1/3/5; Wave-4 can't close back into Wave-1's range.
 
-**Price confirmation (optional but preferred).** Compute Fibonacci internal/external retracements and Alternate Price Projections (APP — one price swing projected onto the next at ratios such as 61.8%, 100%, 127%, 162%) for the pattern in progress. A high-probability reversal zone is where several of these price levels cluster narrowly together.
+**Price confirmation (preferred).** Fibonacci internal/external retracements and Alternate Price Projections (one swing projected onto the next at 61.8%, 100%, 127%, 162%). A high-probability zone is where several of these levels cluster narrowly.
 
-**Time confirmation (optional but preferred).** Compute time retracements and Alternate Time Projections (ATP) in bar counts, and/or a Time Band: the overlap of the historical range of high-to-high and low-to-high bar counts (excluding one high/low outlier count on each end if the rest cluster tightly), using roughly 5–12 historical repetitions. A high-probability reversal date/bar falls inside this overlap window.
+**Time confirmation (preferred).** Time retracements, Alternate Time Projections (bar counts), and/or a Time Band — the overlap of historical high-to-high and low-to-high bar-count ranges (drop one outlier count per end if the rest cluster tightly; use ~5–12 repetitions). A high-probability reversal falls inside the overlap window.
 
-**Combine.** The single required condition is the Dual Time Frame Momentum table above. Pattern, price, and time projections are used to raise conviction and to anticipate the zone before it happens, not as independent triggers — no trade is taken on price/time/pattern alone without the qualifying lower-time-frame momentum reversal.
+**Combine.** Only the momentum table is required. Pattern, price, and time raise conviction and anticipate the zone in advance — they are never traded alone without the qualifying lower-time-frame momentum reversal.
 
 ## Risk
 
-This layer identifies direction and zone only; it carries no capital-exposure numbers of its own — risk is fully determined by the entry/stop rules in the linked entry system page. The main risk of misusing this filter is over-fitting the momentum lookback to recent data (Miner concedes settings need periodic re-tuning) and over-trusting Elliott/Fibonacci confluence that is, by the book's own admission, not always present or valid — many corrections and trends simply don't resolve where the projections suggest.
+This layer sets direction and zone only; capital exposure is fully determined by the linked entry/stop system page. Its main risk is over-fitting the momentum lookback to recent data (Miner concedes settings need periodic re-tuning) and over-trusting Elliott/Fibonacci confluence that, by the book's own admission, doesn't always resolve where projected.
 
 ## Caveats
 
-Pattern labeling (assigning Wave-1/2/3 or A/B/C) retains real subjectivity despite the overlap simplification; two analysts can label the same chart differently. Price and time projections are described throughout as probabilistic zones, not guarantees — the book repeatedly shows examples where a reversal happened well outside the projected price or time zone. No formal statistics (hit rate, expectancy) are given for how often momentum + pattern + price + time confluence actually produces a valid reversal versus momentum alone.
+Pattern labeling (Wave-1/2/3 or A/B/C) keeps real subjectivity despite the overlap simplification — two analysts can label a chart differently. Price/time projections are probabilistic zones, not guarantees; the book itself shows reversals landing well outside them. No hit-rate or expectancy statistics are given for confluence versus momentum alone.

@@ -1,5 +1,5 @@
 ---
-title: The Options Edge: Winning the Volatility Game with Options on Futures
+title: "The Options Edge: Winning the Volatility Game with Options on Futures"
 author: William R. Gallacher
 year: 1999
 slug: mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures

@@ -5,6 +5,8 @@ year: 1999
 slug: mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures--defensive-straddle-writing
 tier: A
 category: "Options, Futures & Derivatives"
+tags: [straddle-writing, volatility, options-on-futures, defensive-hedging, implied-volatility]
+difficulty: advanced
 doc_type: system
 parent: mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures
 pages: 294

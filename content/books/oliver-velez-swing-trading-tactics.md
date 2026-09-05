@@ -11,7 +11,7 @@ doc_type: course
 pages: 87
 one_liner: "Pristine.com's slide-deck seminar teaching the 4-stage stock cycle and the Pristine Buy/Sell Setup (three consecutive lower-highs/higher-lows bars) for 1-to-5-bar swing trades."
 related: [ebook-building-wealth-with-pristine-s-guerilla-trading-tactics, pristine-s-cardinal-rules-of-trading, beyond-candlesticks-steve-nison, candlestick-charting-explained, alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s]
-source_file: "Online seminar-Swing.PDF"
+source_file: "Oliver Velez - Swing Trading Tactics.pdf"
 ---
 
 ## Overview

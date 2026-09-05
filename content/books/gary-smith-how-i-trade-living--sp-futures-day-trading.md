@@ -5,6 +5,8 @@ year: 2000
 slug: gary-smith-how-i-trade-living--sp-futures-day-trading
 tier: A
 category: Swing Trading
+tags: [day-trading, stock-index-futures, tape-reading, breakout, momentum-trading]
+difficulty: intermediate
 doc_type: system
 parent: gary-smith-how-i-trade-living
 pages: 284

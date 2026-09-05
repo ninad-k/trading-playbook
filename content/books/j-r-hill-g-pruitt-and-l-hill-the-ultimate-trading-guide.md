@@ -24,18 +24,18 @@ Markets cycle through four repeating stages: accumulation (bottom), markup (run-
 
 ## Key concepts
 
-- **Stages of market action** — accumulation, markup (run-up/thrust), distribution, markdown (run-down); each averages ~85% congestion vs. ~15% trending time.
-- **Selling/buying climax** — a cluster of wide-range bars with an outsized final bar and a volume spike that marks exhaustion and starts accumulation (or distribution).
-- **Sign of strength / sign of weakness** — a breakout that exceeds a prior top (or falls below a prior bottom) by at least one average bar range and holds for several bars, confirming the set-up is complete.
-- **Terminal shakeout** — a sharp break below the whole accumulation range that snaps back just as fast (a "V bottom"); traps late shorts.
-- **Reaccumulation / redistribution** — congestion after a thrust that usually resolves in the same direction it entered, per Newton's-law-style trend persistence.
-- **Spring / upthrust** — price probes below (above) a pivot low (high), finds no follow-through supply/demand, and reverses hard.
+- **Stages of market action** — accumulation, markup (run-up/thrust), distribution, markdown (run-down); ~85% congestion vs. ~15% trending time.
+- **Selling/buying climax** — wide-range bars with an outsized, high-volume final bar marking exhaustion and the start of accumulation (or distribution).
+- **Sign of strength / weakness** — a breakout past a prior top (or bottom) by at least one average bar range that holds for several bars, confirming the set-up is complete.
+- **Terminal shakeout** — a sharp break below the accumulation range that snaps back just as fast (a "V bottom"); traps late shorts.
+- **Reaccumulation / redistribution** — congestion after a thrust that usually resolves in the same direction it entered.
+- **Spring / upthrust** — price probes below (above) a pivot low (high), finds no follow-through, and reverses hard.
 - **Three-Day Equilibrium Reverse (3DE)** — a three-bar reversal test using the nine highs/lows/closes of the last three bars and their average.
 - **0-2 line / 0-4 line** — Elliott-wave-derived trendlines connecting wave pivots, used to time entries on corrective legs.
-- **Drummond Geometry / PLdot** — short-term moving-average "dots" plus two-bar termination lines; support/resistance is judged strong or weak by whether it lines up across coordinated time frames (e.g., daily inside weekly inside monthly).
-- **Risk of ruin** — the statistical probability of losing all trading capital, driven by bet size (risk per trade), win rate, and win:loss ratio.
-- **Capital Allocation Model** — sizing contracts from equity, mean monthly system return, and a market-risk measure (e.g., 30-day average true range in dollars).
-- **Walk-forward / adaptive parameters** — re-testing optimized parameters on unseen data, or letting parameters float with volatility (e.g., channel length scaled to 30-day standard deviation, floored/capped) to reduce curve-fitting.
+- **Drummond Geometry / PLdot** — short-term moving-average "dots" plus two-bar termination lines; support/resistance strength is judged by whether it lines up across coordinated time frames.
+- **Risk of ruin** — probability of losing all trading capital, driven by bet size, win rate, and win:loss ratio.
+- **Capital Allocation Model** — sizing contracts from equity, mean monthly system return, and a market-risk measure (e.g., 30-day ATR in dollars).
+- **Walk-forward / adaptive parameters** — re-testing optimized parameters on unseen data, or floating parameters with volatility, to reduce curve-fitting.
 
 ## Rules and setups
 

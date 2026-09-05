@@ -5,6 +5,8 @@ year: 2000
 slug: gary-smith-how-i-trade-living--momentum-fund-timing
 tier: A
 category: Swing Trading
+tags: [momentum-trading, mutual-funds, seasonality, position-sizing, index-divergence]
+difficulty: intermediate
 doc_type: system
 parent: gary-smith-how-i-trade-living
 pages: 284
