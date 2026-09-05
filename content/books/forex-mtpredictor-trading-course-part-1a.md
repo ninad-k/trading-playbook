@@ -16,18 +16,18 @@ source_file: "(FOREX) MTPredictor Trading Course - Part 1a.pdf"
 
 ## Summary
 
-Part 1 (Third Edition, October 2004) of Steve Griffiths' training manual for the MTPredictor Elliott wave charting software. It teaches basic Elliott wave theory (impulsive/corrective wave rules), then introduces the software's core method: identifying a simple ABC correction against the prevailing trend, confirming the correction's likely end with a Fibonacci-derived Wave Price Target (WPT) zone, and waiting for the software to paint a colored Reversal Bar before entering in the direction of the resumed trend. The course's central argument, developed at length in Chapter 8, is that a trader can never control profit but can always control and minimize initial risk — so trade selection should be filtered primarily on risk size, not on profit potential. Part 2 (a separate Tier A entry in this library) covers the software's advanced manual analysis and trade management.
+Part 1 (Third Edition, October 2004) of Steve Griffiths' training manual for the MTPredictor Elliott wave charting software. It teaches basic Elliott wave theory (impulsive/corrective wave rules), then introduces the software's core method: identifying a simple ABC correction against the prevailing trend, confirming its likely end with a Fibonacci-derived Wave Price Target (WPT) zone, and waiting for a colored Reversal Bar before entering in the direction of the resumed trend. The course's central argument (Chapter 8) is that a trader can never control profit but can always control and minimize initial risk, so trade selection should be filtered primarily on risk size. Part 2 (a separate Tier A entry in this library) covers advanced manual analysis and trade management.
 
 ## Key points
 
-- Basic Elliott rules given: Wave 2 cannot retrace past the start of Wave 1; Wave 3 cannot be the shortest of waves 1/3/5; Wave 4 cannot overlap into Wave 1's price territory; Waves 1 and 5 are often equal in length; Wave 2 usually corrects as a simple ABC.
-- Three standard MTPredictor trade set-ups: TS1 (minor ABC correction within a Wave 2/B swing), TS2 (minor ABC correction within a Wave 4 swing), TS3 (a standalone simple ABC correction).
-- A "simple ABC" correction is one where the C leg exceeds the price extreme of the A leg; once complete, the market is expected to resume its original trend.
-- Wave Price Target (WPT): a Fibonacci-ratio-based price zone projecting where a given wave (e.g., wave C) is statistically likely to end.
-- Reversal Bar: the software paints a bar red (potential sell) or blue (potential buy) when price reacts inside a WPT zone; entry is triggered only once price trades through that bar's high (for a sell) or low (for a buy).
-- A valid set-up requires all three elements together: the WPT zone reached, a colored Reversal Bar painted inside it, and price then confirming by breaking that bar's extreme.
-- Chapter 8's core lesson: because no one can predict future profit, the only actionable control a trader has is initial risk (entry price minus stop price); the book recommends never risking more than 2-3% of trading capital on a single set-up.
-- Worked example: SPY short entered on a break below a red Reversal Bar's low (95.06), stop above the bar's high (97.16) — initial risk of 2.1 points, versus an eventual ~17-point profit.
+- Basic Elliott rules: Wave 2 cannot retrace past the start of Wave 1; Wave 3 cannot be the shortest of waves 1/3/5; Wave 4 cannot overlap Wave 1's price territory; Waves 1 and 5 are often equal in length; Wave 2 usually corrects as a simple ABC.
+- Three standard MTPredictor set-ups: TS1 (minor ABC within a Wave 2/B swing), TS2 (minor ABC within a Wave 4 swing), TS3 (a standalone simple ABC correction).
+- A "simple ABC" correction is one where leg C exceeds leg A's price extreme; once complete, the market is expected to resume its original trend.
+- Wave Price Target (WPT): a Fibonacci-ratio price zone projecting where a given wave is statistically likely to end.
+- Reversal Bar: the software paints a bar red (potential sell) or blue (potential buy) when price reacts inside a WPT zone; entry triggers only once price trades through that bar's high (sell) or low (buy).
+- A valid set-up needs all three together: WPT zone reached, a colored Reversal Bar inside it, and price then confirming by breaking that bar's extreme.
+- Chapter 8: since no one can predict future profit, the only controllable variable is initial risk (entry minus stop); the book recommends never risking more than 2-3% of trading capital per set-up.
+- Worked example: SPY short entered below a red Reversal Bar's low (95.06), stop above its high (97.16) — 2.1-point initial risk versus an eventual ~17-point profit.
 
 ## Actionable rules
 
@@ -40,7 +40,7 @@ Part 1 (Third Edition, October 2004) of Steve Griffiths' training manual for the
 
 ## Caveats
 
-This is course marketing material for a specific commercial software product (MTPredictor) and assumes the reader owns or will buy the program to auto-generate WPTs and Reversal Bars; the manual, hand-calculation method for these projections is deferred to later material. All worked examples in this excerpt are individual illustrative trades (SPY, British American Tobacco, May Oats) rather than a systematic backtest with aggregate win rate or expectancy. Elliott wave counting itself is acknowledged industry-wide as somewhat subjective, though the software's automated pattern recognition is meant to reduce that subjectivity.
+Course material for a specific commercial software product (MTPredictor) that assumes the reader owns or will buy the program to auto-generate WPTs and Reversal Bars; the manual hand-calculation method is deferred to later material. Worked examples (SPY, British American Tobacco, May Oats) are individual illustrative trades, not a systematic backtest with aggregate win rate or expectancy. Elliott wave counting is acknowledged industry-wide as somewhat subjective, though the software's pattern recognition aims to reduce that.
 
 ## Who it is for
 

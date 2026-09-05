@@ -1,1 +1,2 @@
 - mechanical-trading-systems and richard-l-weissman-mechanical-trading-systems are the same book (Weissman). Keep the better page, mark the other duplicate, delete its file.
+- Possible near-duplicates flagged by agents: trend-determination vs john-hayden-how-to-use-the-rsi (same PDF title); foucault-and-kadan-limit-order-book vs foucault-kadan-and-kandel-limit-order-book (working paper vs journal version). Decide at reconciliation.

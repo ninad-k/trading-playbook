@@ -17,7 +17,7 @@ source_file: "Ken Wolff - 2002 - Trading On Momentum Advanced Techniques For Hig
 
 ## What it is
 
-Four niche intraday chart patterns Wolff identified as repeating "a good percentage of the time" in Nasdaq stocks reacting to news: the gainer pattern, the dumper pattern, end-of-day gap plays, and (a scalp-style variant within slow-momentum stocks) the breakout play. All four are read off Level 1/Level 2 quote screens and time-of-sales, not indicators, and all require a daily "tracking diary" of how the pattern behaved so the next day's expectations are evidence-based rather than assumed.
+Four niche intraday chart patterns Wolff found repeating "a good percentage of the time" in Nasdaq stocks reacting to news: the gainer pattern, the dumper pattern, end-of-day gap plays, and (a scalp-style variant within slow-momentum stocks) the breakout play. All four are read off Level 1/Level 2 screens and time-of-sales, not indicators, and require a daily "tracking diary" of pattern behavior so the next day's expectations are evidence-based.
 
 ## Rules
 
@@ -45,7 +45,7 @@ Four niche intraday chart patterns Wolff identified as repeating "a good percent
 
 ## Risk
 
-- **Size by dollar risk**: pick the stop distance (0.15–0.40) first, then size shares to an acceptable equity percentage — e.g., 1,000 shares at $50 with a 0.25 stop risks $250 (0.5% of $50,000); the same $250 is a bigger percentage of a smaller account, so cut size.
+- **Size by dollar risk**: pick the stop distance (0.15–0.40) first, then size shares to an acceptable equity percentage — e.g., 1,000 shares at $50 with a 0.25 stop risks $250 (0.5% of $50,000); a smaller account should cut size.
 - **Spread gate**: avoid any setup with a spread over 0.25.
 - **Two-stop cap**: never take more than two stop-losses chasing one reversal.
 - **News-severity filter**: never trade dumpers facing fraud, SEC investigation, or bankruptcy risk.
@@ -54,4 +54,4 @@ Four niche intraday chart patterns Wolff identified as repeating "a good percent
 
 ## Caveats
 
-The numeric filters (50,000-share threshold, 20% gap, 0.15/0.25 spread gates) come from Wolff's pre-decimalization, SOES/SelectNet-era Nasdaq tracking around 2000–2002 and aren't validated against a modern, decimalized, algorithmic market — treat them as illustrative starting points, not literal thresholds. All four setups assume a human reading Level 2 in real time; they predate the HFT and order-routing changes that altered how retail orders interact with these price levels. The gap play carries acknowledged overnight risk the book says should only be traded with dedicated risk capital.
+The numeric filters (50,000-share threshold, 20% gap, 0.15/0.25 spread gates) come from Wolff's pre-decimalization, SOES/SelectNet-era Nasdaq tracking around 2000–2002 and aren't validated against a modern, decimalized, algorithmic market — treat as illustrative starting points, not literal thresholds. All four setups assume a human reading Level 2 in real time; they predate the HFT and order-routing changes that altered how retail orders interact with these levels. The gap play carries acknowledged overnight risk the book says to trade only with dedicated risk capital.
