@@ -24,16 +24,16 @@ Trading is a learnable, rules-based skill, not an innate talent — Dennis's cor
 
 ## Key concepts
 
-- **N (Average True Range)** — the Turtles' volatility measure: the greatest of (today's high − today's low), (yesterday's close − today's high), (yesterday's close − today's low), averaged over 20 days; used both to size positions and to set stops.
-- **Unit** — the number of contracts representing 2% of account equity at current volatility; the Turtles' basic sizing building block, made comparable across unrelated markets (corn, gold, bonds) because each unit carries roughly equal dollar risk.
-- **System One (S1)** — a 20-day (four-week) breakout entry with a 10-day (two-week) opposite-direction breakout exit, subject to a "last signal was a winner" skip filter.
-- **System Two (S2)** — a 55-day (eleven-week) breakout entry with a 20-day (four-week) opposite-direction exit; used both as its own system and as a fail-safe re-entry when S1 was filtered out of a big trend.
-- **2N stop** — the Turtles' hard stop, set at two times N behind the entry price; whichever of the 2N stop or the opposite breakout exit hit first determined the exit.
+- **N (Average True Range)** — volatility measure: the greatest of (today's high − today's low), (yesterday's close − today's high), (yesterday's close − today's low), averaged over 20 days; used both to size positions and to set stops.
+- **Unit** — contracts representing 2% of account equity at current volatility; the basic sizing building block, made comparable across unrelated markets (corn, gold, bonds) because each unit carries roughly equal dollar risk.
+- **System One (S1)** — a 20-day breakout entry with a 10-day opposite-direction breakout exit, subject to a "last signal was a winner" skip filter.
+- **System Two (S2)** — a 55-day breakout entry with a 20-day opposite-direction exit; used both standalone and as a fail-safe re-entry when S1 was filtered out of a big trend.
+- **2N stop** — the hard stop, two times N behind the entry price; whichever of the 2N stop or the opposite breakout exit hit first determined the exit.
 - **Pyramiding** — adding one unit per 1N favorable move, up to five units per market, with all stops raised to the newest unit's 2N level as each unit is added.
-- **Expectation (edge)** — E = (win% × average win) − (loss% × average loss); the book stresses that win rate alone (the Turtles won roughly 35-40% of trades) is meaningless without the size of wins versus losses.
-- **Unit limits and correlation** — caps of four to five units per market, plus rules for reducing effective risk when trading correlated markets (e.g., corn and soybeans) so a portfolio isn't unknowingly doubling exposure.
-- **Rate-of-decrease drawdown response** — cutting the 2% risk unit as account equity draws down, and restoring it only as equity recovers, to slow losses during a cold streak without abandoning the system.
-- **Random entries** — Eckhardt's research finding, cited in the book, that exit discipline mattered far more than entry timing; a purely random entry with a sound exit rule performed surprisingly well in testing.
+- **Expectation (edge)** — E = (win% × average win) − (loss% × average loss); win rate alone (the Turtles won roughly 35-40% of trades) is meaningless without win/loss size.
+- **Unit limits and correlation** — caps of four to five units per market, plus rules for reducing effective risk when trading correlated markets so a portfolio isn't unknowingly doubling exposure.
+- **Rate-of-decrease drawdown response** — cutting the 2% risk unit as equity draws down, restoring it only as equity recovers.
+- **Random entries** — Eckhardt's finding that exit discipline mattered far more than entry timing; a purely random entry with a sound exit rule performed surprisingly well in testing.
 
 ## Rules and setups
 

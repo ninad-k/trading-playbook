@@ -40,7 +40,7 @@ Trading returns compound multiplicatively, not additively, so any money-manageme
 
 ## Rules and setups
 
-Vince's book has no market timing rules; the "system" is entirely about position sizing given an existing trade history. See the [[mathematicsmoneymanagement--optimal-f-and-the-twr-framework]] sub-page for the exact formulas. Summary of the procedure:
+Vince's book has no market timing rules; the "system" is entirely about position sizing given an existing trade history. See the [[mathematicsmoneymanagement--optimal-f-and-twr-framework]] sub-page for the exact formulas. Summary of the procedure:
 
 1. Reduce every trade in the market system's history to a P&L on a strict 1-unit basis (1 contract, 1 share, or a defined lot size); pyramided add-ons count as separate market systems.
 2. Test candidate f values from 0.01 to 1.00 in increments; for each f compute the sequence of HPR = 1 + f × (-trade ÷ biggest loss) and the resulting TWR.
