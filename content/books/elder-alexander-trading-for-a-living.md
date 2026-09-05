@@ -84,7 +84,3 @@ Traders who want the original, foundational statement of Elder's three-pillar fr
 - [[disciplined-trader]] — another psychology-focused companion on the discipline problem Elder frames through an addiction lens.
 - [[van-tharp-trading-systems]] — a broader framework for evaluating any mechanical system, useful for stress-testing Triple Screen, Parabolic, or Channel systems.
 - [[reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]] — an earlier, narrative account of the same crowd-psychology and discipline failures Elder analyzes clinically.
-
-## Caveats on sourcing
-
-This document was scanned and OCR'd from only a sample of pages (front matter plus evenly spaced pages); most page ranges are blank in the extracted text. These notes are based on the sampled pages that did contain text (including the full Table of Contents, page 83's "three pillars" passage, the Elder-ray and Force Index sections around pages 240–246, the Triple Screen summary around page 258, and the money-management/exit material around pages 282–288); some numeric details that may appear elsewhere in unsampled pages (e.g., the exact original Screen One length parameters) are inferred from the equivalent, explicitly-labeled passage in Elder's own later book rather than read directly in this file.

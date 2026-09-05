@@ -53,23 +53,14 @@ The psychology chapters expand on Volume I with more material on broker relation
 
 ## Chapter map
 
-- Ch 1 — Perspective on Day Trading: Observations, Claims, and Caveats: realistic expectations, self-discipline framing.
-- Ch 2 — A Review of Market Timing Indicators: condensed survey of MA, stochastics/RSI, chart patterns, Parabolic, ADX/DMI, cycles, seasonals, momentum, sentiment, and breakout methods.
-- Ch 3 — Day Trading: Art or Science: why most trading systems don't work; commissions, price fills, S&P's crowded-and-losing trade problem, futures-options myths.
-- Ch 4 — The 30-Minute Breakout: the book's flagship new system (this book's system page).
-- Ch 5 — Day of the Week Patterns: key-date seasonals and the Dual Breakout (DBO) variant.
-- Ch 6 — Trading Systems: Pros and Cons: technical, fundamental, techno-fundamental, and intuitive trader archetypes.
-- Ch 7 — Power of the Inside Day: the inside-day pattern and its breakout rules.
-- Ch 8 — System Testing and Optimization: Friend or Foe?: overfitting risks in backtesting.
-- Ch 9 — Emotions, Traders, and Markets: common ways traders lose money; positive countermeasures.
-- Ch 10 — What Markets to Day Trade?: volume, volatility, and spread day-trading candidates.
-- Ch 11 — Closings and Openings: high/low/close and open/close relationship-based system building blocks.
-- Ch 12 — Gap Methods for Day Trading: basic and multigap methods, exit-on-nth-profitable-opening logic.
-- Ch 13 — Accumulation Distribution Oscillator Derivative: the A/D and Advance/Decline Derivative (ADD) oscillators.
-- Ch 14 — The Importance of Orders: market, MIT, FOK, stop, stop-limit, GTC, and OCO order mechanics; broker/exchange practicalities.
-- Ch 15 — The Psychology of Day Trading: temperament, self-control, discipline components.
-- Ch 16 — The Day Trader's Rules for Success: orientation, trade-every-day question, pyramiding guidance.
-- Ch 17 (sampled as an FAQ-style close) — combining systems, trading frequency, and pyramiding Q&A.
+- Ch 1-3 — Perspective on Day Trading; A Review of Market Timing Indicators; Day Trading: Art or Science: realistic expectations; condensed indicator survey (MA, stochastics/RSI, patterns, Parabolic, ADX/DMI, cycles, seasonals, sentiment); why most systems fail, S&P fill/commission problems.
+- Ch 4-5 — The 30-Minute Breakout; Day of the Week Patterns: the book's flagship system (this book's system page); key-date seasonals and the Dual Breakout (DBO) variant.
+- Ch 6-7 — Trading Systems: Pros and Cons; Power of the Inside Day: trader archetypes; the inside-day pattern and its breakout rules.
+- Ch 8-9 — System Testing and Optimization; Emotions, Traders, and Markets: overfitting risks; common ways traders lose money and countermeasures.
+- Ch 10-11 — What Markets to Day Trade?; Closings and Openings: volume/volatility/spread candidates; high/low/close and open/close relationships as system building blocks.
+- Ch 12-13 — Gap Methods for Day Trading; Accumulation Distribution Oscillator Derivative: basic and multigap methods; the A/D and Advance/Decline Derivative (ADD) oscillators.
+- Ch 14-15 — The Importance of Orders; The Psychology of Day Trading: order-type and broker mechanics; temperament, self-control, discipline.
+- Ch 16-17 — The Day Trader's Rules for Success; FAQ-style close: orientation, trading frequency, pyramiding guidance; combining-systems Q&A.
 
 ## Strengths and caveats
 
