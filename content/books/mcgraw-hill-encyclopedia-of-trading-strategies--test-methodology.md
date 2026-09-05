@@ -1,0 +1,46 @@
+---
+title: The Encyclopedia of Trading Strategies — Standard Test Methodology
+author: "Jeffrey Owen Katz and Donna L. McCormick"
+year: 1999
+slug: mcgraw-hill-encyclopedia-of-trading-strategies--test-methodology
+tier: A
+category: "Quant, Microstructure & Academic Research"
+tags: [backtesting, statistical-significance, portfolio-testing, transaction-costs, curve-fitting]
+difficulty: advanced
+doc_type: system
+parent: mcgraw-hill-encyclopedia-of-trading-strategies
+pages: 386
+one_liner: "The fixed standard-portfolio, dollar-volatility-equalized, cost-inclusive, in/out-of-sample testing framework used to compare every entry and exit method in the book on equal terms."
+related: [mcgraw-hill-encyclopedia-of-trading-strategies, jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual]
+source_file: "Mcgraw.Hill.Encyclopedia Of Trading Strategies.pdf"
+---
+
+## What it is
+
+Not a trading system itself, but the standardized testing rig Katz and McCormick apply to every entry and exit method in the book so that results are comparable across chapters. Because every family of models (breakouts, moving averages, oscillators, neural networks, genetic rules, exit variants) is run through the identical portfolio, cost assumptions, position-sizing rule, and statistical test, differences in reported performance can be attributed to the model being tested rather than to inconsistent test conditions — the single biggest source of misleading claims in retail trading-system literature. A reader building or vetting any mechanical system can reuse this rig directly.
+
+## Rules
+
+**1. Standard portfolio (fixed across all entry tests).** A diversified set of roughly 30 futures markets, chosen for balance across sectors rather than for favorable results: stock indices (S&P 500, NYFE); interest rates (T-Bonds, 90-day T-Bills, 10-Year Notes); currencies (British Pound, Deutschemark, Swiss Franc, Japanese Yen, Canadian Dollar, Eurodollars); energies (Light Crude, #2 Heating Oil, Unleaded Gasoline); metals (Gold, Silver, Platinum, Palladium); livestock (Feeder Cattle, Live Cattle, Live Hogs, Pork Bellies); grains (Soybeans, Soybean Meal, Soybean Oil, Corn, Oats, Wheat); softs/miscellaneous (Coffee, Cocoa, Sugar, Orange Juice, #2 Cotton, Random Lumber). Continuous, back-adjusted contracts from Pinnacle Data, linked per Schwager's (1992) convention.
+
+**2. Sample split (fixed across all entry tests).** In-sample/optimization window: 8/1/1985 through 12/31/1994. Out-of-sample/verification window: 1/1/1995 through 2/1/1999. Parameters are optimized only on the in-sample window and then run unchanged on the out-of-sample window — no parameter is ever adjusted after seeing verification-period results.
+
+**3. Portfolio-level optimization only.** Models are optimized once, across the entire standard portfolio simultaneously — never re-optimized per individual market. This is a deliberate curve-fitting control: with a fixed, small number of parameters (often 1-2 for classical models) and a very large pooled sample (all 30 markets x ~9 years of daily data), the risk of overfitting a handful of parameters is low; the same logic is what lets the neural-network and genetic-algorithm chapters justify training on the whole portfolio instead of one market, since the ratio of data points to free parameters is what governs curve-fitting risk, not the modeling technique itself.
+
+**4. Dollar-volatility equalization (position sizing).** Number of contracts per market is set so every market contributes approximately equal dollar volatility (risk/reward potential) to the portfolio, rather than trading one contract of everything. Method: compute a 200-day moving average of the absolute daily close-to-close change, multiply by the dollar value of a point (tick value / tick size) to get average daily dollar volatility per contract; scale each market's contract count relative to a reference (the book uses 10 new-S&P-500-contracts'-worth of dollar volatility as of 12/31/1998) by dividing the reference market's dollar volatility by the target market's and multiplying by 10, rounding to the nearest integer. No compounding is used — dollar volatility is held constant over time (not scaled to account equity), which keeps monthly-return statistics comparable across the whole test period and keeps t-tests valid even through drawdowns.
+
+**5. Standardized exit (fixed while entries are compared; the reverse — standardized/random entry — is used while exits are compared in Part III).** Every entry test in Part II uses the identical three-part exit: a money-management stop (sized in average-true-range units, not fixed dollars, so it means the same thing across eras/markets), a profit-target limit order (also in ATR units), and a maximum holding period (10 bars/days) after which any still-open trade is closed at market. Whichever of the three triggers first ends the trade; if none trigger within the holding period, the market-order exit forces closure. The book's own optimum for this exit (found by grid search, holding a random entry constant) was approximately a 1.5-ATR stop and a 4.5-ATR profit target with the 10-day cap, though this exact optimum should be re-derived, not assumed, for a different asset class or era.
+
+**6. Transaction costs (included by default).** Baseline cost assumption for futures tests: 3 ticks of slippage plus $15 commission per round turn. Every headline result in the book is reported both with and without costs at least once, specifically to demonstrate how much a system's apparent edge depends on ignoring them (one channel-breakout test flipped from +76% annualized before costs to a loss after costs).
+
+**7. Statistical significance testing.** The core measure is a t-test on the sample of per-trade dollar profit/loss, testing whether the sample mean trade is significantly different from zero. The annualized risk-to-reward ratio (ARRR) used as the book's primary performance statistic is explicitly a rescaled version of this t-statistic, chosen so that "better ARRR" and "more statistically significant" are the same claim. Serial correlation of returns (lag-1) is also checked and its own significance reported, since autocorrelated trade returns violate the independence assumption of a naive t-test. When a parameter set has been chosen by optimization (grid search over N candidate values), the reported significance is corrected for the number of tests performed (multiple-comparisons correction) — a probability that looks significant "raw" can become non-significant once corrected for, e.g., 20 optimization runs, and several of the book's results are shown both ways specifically to make this point.
+
+**8. Baseline comparison — random entry.** To judge whether an entry method beats chance rather than merely beats zero, the book runs a random-entry baseline (a coin-flip long/short signal) through the identical standardized exit and reports its mean and standard deviation of dollars-per-trade and annualized ROA. Every entry family's result is compared against this random baseline, not just against a breakeven line — several "losing" entry models are reported as meaningfully better than chance despite not being outright profitable, a distinction the book treats as practically important (a good exit strategy could plausibly convert a better-than-chance-but-losing entry into a net winner, which Part III tests directly).
+
+## Risk
+
+The methodology's "risk control" is about protecting the validity of the test, not a single trade: the in-sample/out-of-sample wall prevents look-ahead bias; portfolio-wide (not per-market) optimization limits the parameter-to-data ratio; dollar-volatility equalization prevents one high-volatility market (e.g., the S&P 500) from dominating portfolio-level statistics; and cost-inclusive testing prevents an edge that only exists on paper from being reported as tradable. A user adapting this framework to their own system should treat every one of these five controls as mandatory, not optional — the book's own conclusion chapter demonstrates that removing any one of them (e.g., ignoring costs, or optimizing per-market) inflates apparent performance in exactly the ways the book warns against.
+
+## Caveats
+
+The specific numeric conventions (10-tick S&P reference, 3-tick slippage, $15 commission, 1985-1999 window, 10-day exit cap) are tuned to 1990s U.S. futures markets and must be re-derived for other asset classes, eras, or cost structures — they are illustrations of the method, not universal constants. The multiple-comparisons correction is applied informally in most chapters (the book reports "corrected for N optimization runs" without always specifying the exact correction formula used), so a practitioner wanting a fully rigorous replication should apply a standard correction (e.g., Bonferroni) explicitly rather than assume the book's stated corrected probabilities are directly reproducible. The random-entry baseline itself has sampling variability (the book reports its standard deviation across multiple random draws), so a model that is "better than chance" by a small margin should be checked against that baseline's own noise band rather than treated as a single fixed threshold.

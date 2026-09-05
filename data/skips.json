@@ -1,0 +1,54 @@
+{
+ "gann-w-d-1953-magic-words": {
+  "status": "off_topic",
+  "note": "Religious/numerology tract, not a trading text"
+ },
+ "the-forex-method-and-trading-strategies-that-keep-you-on-the-right-side-of-the-market": {
+  "status": "off_topic",
+  "note": "Sales letter only, no method"
+ },
+ "place-of-insurance": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "forex-trading-with-candlestick-and-pattern-2": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "17-money-making-candle-formations": {
+  "status": "duplicate",
+  "dup_of": "17-money-making-candlestick-formations2"
+ },
+ "thermostat-trading-strategy": {
+  "status": "duplicate",
+  "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
+ },
+ "eday-trading-in-mind": {
+  "status": "duplicate",
+  "dup_of": "daytradingmind"
+ },
+ "moriarty-sfsg": {
+  "status": "off_topic",
+  "note": "Regulatory disclosure form"
+ },
+ "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "plan-process": {
+  "status": "off_topic",
+  "note": "Financial planner onboarding flowchart"
+ },
+ "investment-vehicles": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "greatestmoneymakingsecret": {
+  "status": "off_topic",
+  "note": "Prosperity/spirituality book (Joe Vitale)"
+ },
+ "trading-functions": {
+  "status": "off_topic",
+  "note": "MQL4 API function reference, no trading content"
+ }
+}
