@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}{{ m.title }} — {{ m.author }} · {{ site_title }}{% endblock %}
+{% block desc %}{{ m.one_liner }}{% endblock %}
+{% block content %}
+<article class="book">
+  <p class="crumbs"><a href="{{ root }}index.html">Index</a> › <a href="{{ root }}topics/{{ cat_slug }}.html">{{ m.category }}</a>{% if parent %} › <a href="{{ root }}books/{{ parent.slug }}.html">{{ parent.title }}</a>{% endif %}</p>
+  <h1>{{ m.title }}</h1>
+  <p class="byline">{{ m.author }}{% if m.year and m.year != 'unknown' %} · {{ m.year }}{% endif %} · <span class="badge tier-{{ m.tier }}">Tier {{ m.tier }}</span> <span class="badge">{{ m.doc_type }}</span> <span class="badge">{{ m.difficulty }}</span></p>
+  <p class="lead">{{ m.one_liner }}</p>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="{{ root }}topics/{{ cat_slug }}.html">{{ m.category }}</a></td></tr>
+    <tr><th>Tags</th><td>{% for t in m.tags %}<a class="tag" href="{{ root }}search.html?q={{ t|urlencode }}">{{ t }}</a> {% endfor %}</td></tr>
+    {% if m.pages %}<tr><th>Length</th><td>{{ m.pages }} pages</td></tr>{% endif %}
+    <tr><th>Find the book</th><td>Search for “{{ m.title }}” by {{ m.author }} at your bookseller or library.</td></tr>
+  </table>
+  {% if systems %}<div class="callout"><strong>Systems and methods from this book:</strong> {% for s in systems %}<a href="{{ root }}books/{{ s.slug }}.html">{{ s.title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</div>{% endif %}
+  <details class="toc"><summary>On this page</summary>{{ toc|safe }}</details>
+  <div class="prose">{{ body|safe }}</div>
+  {% if related %}
+  <section class="related"><h2>Related in this library</h2><ul>{% for r in related %}<li><a href="{{ root }}books/{{ r.slug }}.html">{{ r.title }}</a> — {{ r.one_liner }}</li>{% endfor %}</ul></section>
+  {% endif %}
+</article>
+{% endblock %}

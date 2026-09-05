@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} · {{ site_title }}{% endblock %}
+{% block content %}
+<article>
+  <p class="crumbs"><a href="{{ root }}index.html">Index</a></p>
+  <h1>{{ title }}</h1>
+  <details class="toc"><summary>On this page</summary>{{ toc|safe }}</details>
+  <div class="prose">{{ body|safe }}</div>
+</article>
+{% endblock %}

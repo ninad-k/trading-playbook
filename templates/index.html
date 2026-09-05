@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="index">
+  <h1>{{ site_title }}</h1>
+  <p class="lead">{{ tagline }} Structured study notes from a library of {{ counts.pdfs }} trading and finance PDFs: {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries, {{ counts.systems }} system write-ups, {{ nav_topics|length }} topic syntheses.</p>
+  <div class="stats">
+    <div><b>{{ counts.tier_a }}</b><span>deep notes</span></div>
+    <div><b>{{ counts.tier_b }}</b><span>concise notes</span></div>
+    <div><b>{{ counts.systems }}</b><span>systems</span></div>
+    <div><b>{{ nav_topics|length }}</b><span>topics</span></div>
+    <div><b>{{ counts.excluded }}</b><span>excluded files</span></div>
+  </div>
+  <p><a class="btn" href="search.html">🔍 Search everything</a> {% if has_paths %}<a class="btn" href="paths.html">🧭 Start here: reading paths</a>{% endif %}</p>
+
+  <h2 id="topics">By topic</h2>
+  <p class="muted">Each topic page synthesizes the principles, rules and debates across all books in that group.</p>
+  {% for g in cat_groups %}
+  <details class="group" {% if loop.index <= 2 %}open{% endif %}>
+    <summary><a href="topics/{{ g.slug }}.html">{{ g.name }}</a> <span class="muted">({{ g.items|length }})</span></summary>
+    <ul class="booklist">{% for b in g.items %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
+  </details>
+  {% endfor %}
+
+  <h2 id="systems">Systems and methods ({{ systems|length }})</h2>
+  <ul class="booklist cols">{% for s in systems %}<li><a href="books/{{ s.slug }}.html">{{ s.title }}</a> <span class="muted">from {{ s.parent_title }}</span></li>{% endfor %}</ul>
+
+  <h2 id="az">A–Z ({{ az|length }})</h2>
+  <ul class="booklist cols">{% for b in az %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span></li>{% endfor %}</ul>
+
+  <h2 id="authors">By author</h2>
+  <ul class="booklist cols">{% for a, items in authors %}<li><b>{{ a }}</b>: {% for b in items %}<a href="books/{{ b.slug }}.html">{{ b.title }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</li>{% endfor %}</ul>
+
+  <h2 id="articles">Articles and papers ({{ articles|length }})</h2>
+  <ul class="booklist cols">{% for b in articles %}<li><a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span></li>{% endfor %}</ul>
+
+  <h2 id="excluded">Excluded files</h2>
+  <p class="muted">Files in the source library that have no page: duplicates, off-topic titles, scans without a text layer, corrupt files, and non-PDF archives.</p>
+  {% for k, v in excluded.items() %}
+  <details><summary>{{ k.replace('_',' ') }} ({{ v|length }})</summary><ul class="plain">{% for f in v %}<li>{{ f }}</li>{% endfor %}</ul></details>
+  {% endfor %}
+</article>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ name }} · {{ site_title }}{% endblock %}
+{% block desc %}{{ m.summary or name }}{% endblock %}
+{% block content %}
+<article class="topic">
+  <p class="crumbs"><a href="{{ root }}index.html">Index</a> › Topics</p>
+  <h1>{{ name }}</h1>
+  {% if m.summary %}<p class="lead">{{ m.summary }}</p>{% endif %}
+  <details class="toc"><summary>On this page</summary>{{ toc|safe }}</details>
+  <div class="prose">{{ body|safe }}</div>
+  {% if in_cat %}
+  <section class="related"><h2>All documents in this category ({{ in_cat|length }})</h2>
+  <ul class="booklist">{% for b in in_cat %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="{{ root }}books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

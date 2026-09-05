@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site_title }}{% endblock %}</title>
+<meta name="description" content="{% block desc %}{{ tagline }}{% endblock %}">
+<link rel="stylesheet" href="{{ root }}assets/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="{{ root }}index.html">📈 {{ site_title }}</a>
+  <form class="hsearch" action="{{ root }}search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search 700+ books, systems, terms…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="{{ root }}index.html">Index</a>
+    <a href="{{ root }}search.html">Search</a>
+    <a href="{{ root }}paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    {% for t in nav_topics %}<a href="{{ root }}topics/{{ t.slug }}.html">{{ t.name }}</a>{% endfor %}
+  </div>
+</nav>
+<main class="content">
+{% block content %}{% endblock %}
+<footer class="foot">
+  <p>{{ disclaimer }}</p>
+  <p>{{ site_title }} · {{ tagline }} · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
