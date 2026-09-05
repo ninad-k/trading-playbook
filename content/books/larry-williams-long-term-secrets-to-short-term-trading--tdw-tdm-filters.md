@@ -17,15 +17,11 @@ source_file: "Larry Williams - Long-Term Secrets To Short-Term Trading.pdf"
 
 ## What it is
 
-Two related calendar-based statistical biases Williams uses as a first-pass filter on nearly every other pattern in the book, but which he also shows produce standalone profits when traded alone. Trading Day of the Week (TDW) measures open-to-close price bias by weekday; Trading Day of the Month (TDM) measures bias by the count of elapsed trading days in the current month (not the calendar date, which shifts around weekends and holidays). Williams attributes the concept partly to researcher Sheldon Knight but says he has relied on it the most of anyone.
+Two related calendar-based statistical biases Williams uses as a first-pass filter on nearly every other pattern in the book, but which also produce standalone profits when traded alone. Trading Day of the Week (TDW) measures open-to-close price bias by weekday; Trading Day of the Month (TDM) measures bias by elapsed trading days in the current month (not the calendar date, which shifts around weekends/holidays). Williams credits the concept partly to researcher Sheldon Knight but says he relies on it most.
 
 ## Rules
 
-**TDW bias (documented, 1968–1998 depending on market):**
-- Stocks (S&P 500): tend to rally on Mondays — open-to-close positive 57% of the time, average +$109/trade.
-- Bonds: tend to rally on Tuesdays — open-to-close positive 55% of the time, average +$53/trade; also positive on Thursdays open-to-close.
-- Grains (all markets tested): tend to rally on Wednesdays.
-- British Pound: rallies off the open 55% of the time on Wednesdays, average +$18/trade.
+**TDW bias (documented, 1968–1998 depending on market):** S&P 500 tends to rally Mondays (open-to-close positive 57% of the time, avg +$109/trade); Bonds tend to rally Tuesdays (55%, avg +$53/trade, also positive Thursdays); grains (all tested) tend to rally Wednesdays; British Pound rallies off the open 55% of the time Wednesdays (avg +$18/trade).
 
 **Standalone tradable TDW system (S&P 500):** buy the open on Monday + 0.05% of Friday's range; exit at the close same day. Backtest: $95,150 net profit, 435 winners of 758 trades (57% accuracy), $125 average profit per trade.
 

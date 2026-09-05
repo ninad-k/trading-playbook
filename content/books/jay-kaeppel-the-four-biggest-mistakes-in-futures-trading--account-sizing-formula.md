@@ -17,33 +17,27 @@ source_file: "Jay Kaeppel - The Four Biggest Mistakes In Futures Trading.pdf"
 
 ## What it is
 
-A step-by-step method for answering "how much capital do I need to trade this market/system?" by combining three independent risk measures — Optimal f, the largest historical overnight gap, and maximum drawdown — into a single suggested capital figure per contract, then rolling per-market figures up into a whole-portfolio account size using two complementary methods ("aggressive" and "conservative") and averaging them. It is not an entry/exit system; it answers only the sizing question, and is meant to be applied to whatever trading approach (mechanical or discretionary) the trader has already chosen.
+A step-by-step method for answering "how much capital do I need to trade this market/system?" by combining three risk measures — Optimal f, the largest historical overnight gap, and maximum drawdown — into a suggested capital figure per contract, then rolling per-market figures into a whole-portfolio account size via two methods ("aggressive" and "conservative") that are averaged. It answers only the sizing question and applies to any entry/exit approach the trader has already chosen.
 
 ## Rules
 
-**Step 1 — Single-market capital, three factors:**
-- **Optimal f** (Ralph Vince, *Portfolio Management Formulas*, 1990): using a trade listing of at least 30 trades, compute for each trade `PR = -(profit or loss) / largest losing trade`, then `HPR = 1 + f × PR` for a trial value of f between .01 and 1.00; the f that maximizes the product of all HPRs (the Terminal Wealth Relative) is the optimal f; suggested capital = largest losing trade ÷ f. (Example: largest loss $2,000, optimal f = 0.40 → suggested capital $5,000.) If you cannot backtest a system, substitute `margin requirement × 3`.
-- **Largest overnight gap in dollars**: the biggest historical open-vs-prior-close jump for that market (e.g., Crude Oil gapped $7,500/contract overnight during the 1991 Gulf War air raid); acknowledges that limit-move markets can still be "locked" against you and non-limit markets have no bound at all.
-- **Maximum drawdown in dollars**: worst peak-to-trough equity decline produced by the system on that market in testing; use out-of-sample data where possible, since over-optimized in-sample results understate real future drawdowns.
-- **Combine (if Optimal f is available)**: `(Optimal f in $ + Largest Overnight Gap in $ + (Maximum Drawdown in $ + Margin Requirement)) / 3`. Worked example (Japanese Yen): Optimal f $3,457, gap $5,938, drawdown $4,124, margin $3,000 → (3,457 + 5,938 + (4,124+3,000)) / 3 = **$5,506** suggested capital for one contract.
-- **Combine (if Optimal f is unavailable)**: `((Initial Margin × 3) + Largest Overnight Gap in $) / 2`. Worked example (same Yen contract, margin $3,000, gap $5,938): ((3,000×3) + 5,938) / 2 = **$7,469**.
+**Step 1 — single-market capital (per contract):**
+- **Optimal f** (Ralph Vince): from ≥30 trades, compute `PR = -(P/L) / largest losing trade` per trade, `HPR = 1 + f×PR`, and find the f (0.01–1.00) that maximizes the product of all HPRs; suggested capital = largest losing trade ÷ f (e.g., loss $2,000, f=0.40 → $5,000). Without a backtest, substitute `margin × 3`.
+- **Largest overnight gap ($)**: biggest historical open-vs-prior-close jump (Crude Oil gapped $7,500/contract in the 1991 Gulf War air raid); limit-move markets can still lock against you, non-limit markets have no bound.
+- **Maximum drawdown ($)**: worst peak-to-trough equity decline in testing; prefer out-of-sample data, since over-optimized results understate future drawdowns.
+- **Combine (Optimal f available)**: `(Optimal f $ + Largest Gap $ + (Max Drawdown $ + Margin)) / 3`. Yen example: (3,457 + 5,938 + (4,124+3,000)) / 3 = **$5,506**.
+- **Combine (no Optimal f)**: `((Margin × 3) + Largest Gap $) / 2`. Yen example: ((3,000×3) + 5,938) / 2 = **$7,469**.
 
-**Step 2 — Portfolio-level sizing, two methods:**
-- **"Aggressive" account size**: sum the per-contract suggested capital for every market in the portfolio (one contract each). Worked 4-market example (Yen $5,506 + T-Bonds $5,982 + Soybeans $5,076 + Natural Gas $4,241) = **$20,805** minimum.
-- **"Conservative" account size**: requires ≥30 months of portfolio monthly P/L data. Compute the standard deviation of monthly returns; multiply by 3 (≈99% of monthly outcomes fall within ±3σ); divide by 0.1 to target a 99% probability of not exceeding a 10% monthly drawdown. Worked example: monthly-return σ = $1,500 → ($1,500 × 3) / 0.1 = **$45,000**.
-- **"Optimum" account size**: average the aggressive and conservative figures. Worked example: (20,805 + 45,000) / 2 = **$32,903**.
+**Step 2 — portfolio sizing:**
+- **"Aggressive"**: sum per-contract capital across markets. Example (Yen $5,506 + T-Bonds $5,982 + Soybeans $5,076 + Nat Gas $4,241) = **$20,805**.
+- **"Conservative"** (needs ≥30 months of P/L data): (σ of monthly returns × 3) / 0.1, targeting a 99% chance of not exceeding a 10% monthly drawdown. Example: σ=$1,500 → $45,000.
+- **"Optimum"**: average the two. Example: (20,805+45,000)/2 = **$32,903**.
 
-**Step 3 — Sanity-check the resulting portfolio (optional, needs the same ≥30-month data set):**
-- Expected Annual % Return = average monthly % return compounded over 12 months.
-- Expected Maximum Drawdown in $ = monthly-return σ × 4.
-- Expected Maximum Drawdown % = (that $ figure) / account equity.
-- P/L-to-Standard-Deviation Ratio = average monthly % return / σ of monthly returns; > 0.5 is "outstanding."
-- Expected Profit/Drawdown Ratio = Expected Annual % Return / Expected Maximum Drawdown %; minimum acceptable ≈ 1-to-1, > 1.5 is "outstanding."
-- % of profitable rolling 3-month and 12-month periods, as a psychological gauge of how easy the approach will be to stick with.
+**Step 3 — optional sanity checks** (same ≥30-month data set): Expected Annual % Return (monthly % compounded ×12); Expected Max Drawdown $ (σ×4) and %; P/L-to-σ Ratio (>0.5 outstanding); Profit/Drawdown Ratio (Annual %/Drawdown %, ≥1 minimum, >1.5 outstanding); % of profitable rolling 3- and 12-month periods, as a gauge of how easy the approach is to stick with.
 
 ## Risk
 
-The entire method is a pre-trade sizing exercise rather than an in-trade risk control — its output (a dollar figure per contract and per portfolio) sets the ceiling on how much leverage is being taken on, but stop-losses and position management still have to be layered on top separately (see Mistake #3 in the parent book). The margin-to-equity ratio (total open margin ÷ account equity) is offered as a fast ongoing check that trading hasn't drifted past the sizing the formula implied; Kaeppel's rule of thumb caps this below roughly 30% for non-aggressive trading. The method explicitly assumes future results resemble past results — every dollar figure it produces (Optimal f capital, historical gap, historical drawdown) is a backward-looking estimate, and the book states plainly that "previous records are made to be broken," so all outputs should be treated as a floor, not a guarantee.
+The method is a pre-trade sizing exercise, not an in-trade control — its output sets a ceiling on leverage, but stop-losses and position management still have to be layered on separately (see Mistake #3 in the parent book). The margin-to-equity ratio (open margin ÷ equity) is offered as an ongoing check that trading hasn't drifted past the implied sizing; Kaeppel's rule of thumb caps it below roughly 30% for non-aggressive trading. The method assumes future results resemble past results — every input is backward-looking, and the book notes "previous records are made to be broken," so outputs should be treated as a floor, not a guarantee.
 
 ## Caveats
 
