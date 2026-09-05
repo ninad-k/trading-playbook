@@ -78,5 +78,13 @@
  "how-effective-is-automated-forex-trading": {
   "status": "off_topic",
   "note": "Vendor advertisement, no content"
+ },
+ "appendix1": {
+  "status": "off_topic",
+  "note": "MQL4 programming appendix"
+ },
+ "derivatives-pricing-and-financial-modelling": {
+  "status": "off_topic",
+  "note": "Unsolved problem sheet, no exposition"
  }
 }

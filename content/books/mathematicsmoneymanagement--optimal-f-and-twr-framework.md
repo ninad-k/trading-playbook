@@ -5,6 +5,8 @@ year: 1992
 slug: mathematicsmoneymanagement--optimal-f-and-twr-framework
 tier: A
 category: Money Management & Position Sizing
+tags: [optimal-f, kelly-criterion, twr, geometric-mean, position-sizing, drawdown]
+difficulty: advanced
 doc_type: system
 parent: mathematicsmoneymanagement
 pages: 106

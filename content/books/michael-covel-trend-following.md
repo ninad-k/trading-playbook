@@ -65,18 +65,18 @@ Three of the book's four parts explain why trend following is psychologically ha
 
 ## Chapter map
 
-- Ch 1 — Trend Following — defines the strategy, its price-only philosophy, and why it presupposes constant market change.
+- Ch 1 — Trend Following — defines the strategy and its price-only philosophy.
 - Ch 2 — Great Trend Followers — trader-by-trader profiles and performance data (Dunn, Henry, Seykota, Campbell, Parker, Abraham, Dennis, Donchian, Livermore).
-- Ch 3 — Performance Data — absolute returns, drawdowns, correlation, and the zero-sum nature of futures trading.
-- Ch 4 — Big Events in Trend Following — five case studies (1987 crash, LTCM, Asian contagion/Niederhoffer, Barings, Metallgesellschaft) framed as money trend followers won on the other side of.
+- Ch 3 — Performance Data — absolute returns, drawdowns, correlation, zero-sum nature of futures trading.
+- Ch 4 — Big Events in Trend Following — five case studies (1987 crash, LTCM, Asian contagion/Niederhoffer, Barings, Metallgesellschaft).
 - Ch 5 — Baseball: Thinking Outside the Batter's Box — Moneyball-style statistical decision-making as an analogy for systematic trading.
 - Ch 6 — Human Behavior — prospect theory, emotional intelligence, the disposition effect, Seykota's Trading Tribe.
 - Ch 7 — Decision-Making — Occam's razor, fast-and-frugal heuristics, process vs. outcome thinking.
 - Ch 8 — Science of Trading — critical thinking, chaos theory, compounding.
-- Ch 9 — Holy Grails — critiques buy-and-hold, "losers average losers," and analysis paralysis.
-- Ch 10 — Trading Systems — the five questions for a trading system; entry, exit, and sizing logic; FAQs on capital, stocks, curve-fitting.
+- Ch 9 — Holy Grails — critiques buy-and-hold, "losers average losers," analysis paralysis.
+- Ch 10 — Trading Systems — the five questions for a trading system; entry, exit, sizing logic; FAQs.
 - Ch 11 — Conclusion — why trend following is slowly accepted; leverage vs. return.
-- Appendices — A: trader personality traits; B: payoff models; C: a fully specified illustrative system (see system page); D: Modern Portfolio Theory and managed futures; E: critical questions for trading systems.
+- Appendices — A: trader personality traits; B: payoff models; C: fully specified illustrative system (see system page); D: Modern Portfolio Theory and managed futures; E: critical questions for trading systems.
 
 ## Strengths and caveats
 

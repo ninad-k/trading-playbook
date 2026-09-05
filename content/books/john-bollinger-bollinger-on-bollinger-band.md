@@ -30,7 +30,7 @@ Bollinger Bands provide a *relative*, volatility-adaptive definition of "high" a
 - **The Squeeze** — the condition where BandWidth falls to its lowest level in six months, signaling that low volatility is likely to be followed by high volatility (a precondition, not a direction).
 - **The Expansion** — the mirror condition: a powerful trend causes the opposite band to turn away from the trend (e.g., the lower band turns down in an uptrend); when that reversal itself reverses, the current leg of the trend is most likely over.
 - **Walking the bands** — sustained trends in which price repeatedly tags or rides along one band without reverting to the average; a close outside the band is a continuation signal in this context, not automatically a reversal signal.
-- **Head fake** — a short false move in the opposite direction right before a Squeeze resolves in its real direction; the main practical hazard when trading Method I.
+- **Head fake** — a short false move opposite a Squeeze's real resolution; the main hazard when trading Method I.
 - **Rational Analysis** — Bollinger's term for combining fundamental screening (a buy list / sell list) with technical, band-based timing signals.
 - **Normalizing indicators with %b** — plotting Bollinger Bands on an indicator (e.g., RSI, MFI) itself and reading %b of the indicator instead of fixed overbought/oversold levels like 70/30.
 - **W-bottoms / M-tops** — reversal patterns where the second low (high) is inside the bands even if it makes a new absolute price low (high), because momentum — and thus the band-relative extreme — is less pronounced on the retest.
@@ -47,7 +47,7 @@ Bollinger Bands provide a *relative*, volatility-adaptive definition of "high" a
 
 ## Risk and money management
 
-The book does not prescribe a position-sizing or percent-risk framework; risk control is handled entirely through exit technique. Two exits are used throughout: a Welles Wilder Parabolic stop (tightens progressively as the trade develops, starting just outside the breakout/entry range) for a more conservative, shorter-duration trade, or a tag of the opposite Bollinger Band as a wider profit target/exit that lets trades run longer through corrections. Bollinger explicitly favors adjusting Squeeze-length and band-width parameters (tighter bands and shorter lookbacks for short-term traders) to fit personal risk tolerance rather than following one fixed rule, and repeats throughout that no single parameter set is "correct" for all traders or all securities — testing on your own universe is required.
+The book does not prescribe a position-sizing or percent-risk framework; risk control is handled entirely through exit technique. Two exits recur throughout: a Welles Wilder Parabolic stop (tightening progressively from just outside the entry range) for a shorter, more conservative trade, or a tag of the opposite band as a wider target that lets trades run through corrections. Bollinger favors adjusting Squeeze-length and bandwidth parameters (tighter and shorter for short-term traders) to fit personal risk tolerance, repeating that no single parameter set is "correct" for all traders or securities — testing on your own universe is required.
 
 ## Psychology and discipline
 

@@ -5,6 +5,8 @@ year: 2003
 slug: candlesticks-fibonacci-and-chart-pattern-trading-tools--confluence-method
 tier: A
 category: "Fibonacci, Gann & Elliott Wave"
+tags: [fibonacci, candlesticks, chart-patterns, retracement, confluence, entry-timing]
+difficulty: intermediate
 doc_type: system
 parent: candlesticks-fibonacci-and-chart-pattern-trading-tools
 pages: 273

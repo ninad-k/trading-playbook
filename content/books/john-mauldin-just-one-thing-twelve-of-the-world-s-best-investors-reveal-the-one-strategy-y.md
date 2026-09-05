@@ -11,7 +11,7 @@ doc_type: book
 pages: 273
 one_liner: "Twelve professional investors and writers each distill their career down to one core rule, spanning trading discipline, behavioral bias, risk, and macro theme selection."
 related: [jack-schwager-stock-market-wizards, trading-in-the-zone, brett-steenbarger-psychology-of-trading, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, money-management-report-van-tharp]
-source_file: "John Mauldin - Just_One_Thing_Twelve_Of_The_World_s_Best_Investors_Reveal_The_One_Strategy_You_Can't_Overlook.pdf"
+source_file: "John Mauldin - Just_One_Thing_Twelve_Of_The_World_s_Best_Investors_Reveal_The_One_Strategy_You_Can_t_Overlook.pdf"
 ---
 
 ## Overview
