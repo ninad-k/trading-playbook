@@ -16,17 +16,17 @@ source_file: "Foucault, Kadan And Kandel-Limit Order Book As A Market For Liquid
 
 ## Summary
 
-Question: how does traders' impatience shape order choice, bid-ask spread dynamics, and how quickly a limit order market recovers after a liquidity shock? Method: a dynamic equilibrium model of an order-driven market where liquidity traders arrive sequentially, are randomly patient or impatient, and choose between market and limit orders to minimize execution cost. Finding: patient traders supply liquidity to impatient traders; market "resiliency" (the probability the spread reverts to its competitive level before the next trade) rises with the proportion of patient traders and falls with the order arrival rate; and reducing the minimum tick size can paradoxically widen average spreads by letting limit orders sit less aggressively close to the market.
+Question: how does traders' impatience shape order choice, spread dynamics, and how quickly a limit order market recovers after a liquidity shock? Method: a dynamic equilibrium model of an order-driven market where liquidity traders arrive sequentially, are randomly patient or impatient, and choose between market and limit orders to minimize execution cost. Finding: patient traders supply liquidity to impatient traders; market "resiliency" (the probability the spread reverts to its competitive level before the next trade) rises with the share of patient traders and falls with the order arrival rate; and reducing the minimum tick size can paradoxically widen average spreads by letting limit orders sit less aggressively.
 
 ## Key points
 
-- Liquidity has three dimensions (per Harris, 1990): tight (small spread), deep (large size), resilient (spread reverts quickly after a shock) — this paper's focus is resiliency, the least-studied of the three.
+- Liquidity has three dimensions (Harris, 1990): tight (small spread), deep (large size), resilient (spread reverts quickly) — this paper's focus is resiliency, the least-studied of the three.
 - Traders must trade for exogenous reasons and are randomly patient or impatient; only the trade-off between waiting cost and immediacy cost drives order choice.
-- Patient traders bid more aggressively (tighter limit prices) when their expected waiting time is longer — i.e. when patient traders are scarce or order arrivals are frequent.
-- Resiliency is maximal (probability 1) only when all traders share the same patience level; heterogeneity leaves a meaningful chance the spread stays wide until the next trade.
-- Markets dominated by impatient traders show spread distributions skewed toward wide spreads and are less resilient.
+- Patient traders bid more aggressively (tighter limit prices) when expected waiting time is longer — i.e. when patient traders are scarce or arrivals are frequent.
+- Resiliency is maximal only when all traders share the same patience level; heterogeneity leaves a meaningful chance the spread stays wide until the next trade.
+- Markets dominated by impatient traders show spreads skewed wide and are less resilient.
 - A smaller tick size can reduce resiliency and increase the average spread where impatient traders dominate, because it lets patient traders shade their limit prices by less.
-- The model predicts a positive correlation between trading frequency and spread size, controlling for order arrival rate, and predicts spreads and trading frequency rise while limit-order aggressiveness falls over the course of the trading day.
+- Predicts a positive correlation between trading frequency and spread, controlling for arrival rate, and predicts spreads and trading frequency rise while limit-order aggressiveness falls over the trading day.
 
 ## Actionable rules
 

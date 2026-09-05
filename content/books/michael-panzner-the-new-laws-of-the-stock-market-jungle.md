@@ -16,36 +16,35 @@ source_file: "Michael Panzner - The New Laws of the Stock Market Jungle.pdf"
 
 ## Summary
 
-Written by an institutional equity trader with 20 years of experience, this book argues that the structural forces reshaping markets since the 1980s and 1990s — technology, electronic communications networks, leverage, globalization, and information overload — have replaced older assumptions about how stocks behave with 10 "New Laws." Part 1 surveys the forces behind the shift; Part 2 devotes one chapter to each New Law, each ending with a practical "Action Plan"; Part 3 offers a brief forward-looking conclusion. It is a thematic, observational book rather than a mechanical trading system — there are no entry/exit formulas.
+Written by an institutional equity trader with 20 years of experience, this book argues that structural forces reshaping markets since the 1980s — technology, ECNs, leverage, globalization, information overload — have replaced older assumptions about stocks with 10 "New Laws." Part 1 surveys the forces behind the shift; Part 2 gives each New Law a chapter ending in a practical "Action Plan"; Part 3 is a brief forward-looking conclusion. It is thematic and observational, not a mechanical trading system — no entry/exit formulas.
 
 ## Key points
 
-- **New Law 1 — Intraday Volatility**: wide intraday swings, once tied to unusual news, are now routine.
-- **New Law 2 — Trading Like Commodities**: institutions increasingly buy and sell stocks with short time horizons rather than traditional long-term analysis.
-- **New Law 3 — Approaches and Attitudes**: speculation and emotion increasingly override reasoned, measured analysis.
-- **New Law 4 — Information and Communications**: more information and faster communication produce unexpected, sometimes destabilizing, consequences.
-- **New Law 5 — Derivatives**: options and futures activity exerts a growing, sometimes dominant, influence on underlying share prices.
-- **New Law 6 — Seasonality and Cycles**: once-reliable seasonal and cyclical patterns are becoming less predictable as they become more widely known.
-- **New Law 7 — Imbalances and Upheavals**: aggressive institutional tactics create more frequent, unstable short-term supply/demand imbalances.
-- **New Law 8 — Form and Fantasy**: reported company and economic data is more prone to error, distortion, and manipulation than before.
-- **New Law 9 — Market Indicators**: many traditional technical and sentiment indicators are becoming less reliable as market structure changes.
-- **New Law 10 — Global Factors**: foreign investors and global capital flows exert a growing influence on domestic share prices.
+- **Intraday Volatility** — wide intraday swings, once tied to unusual news, are now routine.
+- **Trading Like Commodities** — institutions increasingly trade stocks short-term rather than analyzing them for the long run.
+- **Approaches and Attitudes** — speculation and emotion increasingly override reasoned analysis.
+- **Information and Communications** — more information and faster communication produce unexpected, sometimes destabilizing, consequences.
+- **Derivatives** — options and futures activity exerts growing, sometimes dominant, influence on share prices.
+- **Seasonality and Cycles** — once-reliable seasonal patterns grow less predictable as they become more widely known.
+- **Imbalances and Upheavals** — aggressive institutional tactics create more frequent, unstable short-term supply/demand imbalances.
+- **Form and Fantasy** — reported company and economic data is more prone to error, distortion, and manipulation.
+- **Market Indicators** — many traditional technical and sentiment indicators grow less reliable as structure changes.
+- **Global Factors** — foreign investors and global capital flows exert growing influence on domestic prices.
 
 ## Actionable rules
 
-No numbered entry/exit system is given; the book's guidance is qualitative. Practical takeaways drawn from its chapter "Action Plans":
+No numbered entry/exit system is given; guidance is qualitative, drawn from the chapter "Action Plans":
 
-1. Expect wider intraday ranges than historical norms suggest; size positions and set stops for a more volatile regime, not the volatility of decades past.
-2. Treat short holding periods and commodity-like price behavior in individual stocks as normal, not an aberration.
-3. Before assuming a large move reflects pure fundamental news, consider whether derivatives positioning (expiration, hedging flows) is driving it.
-4. Verify that a seasonal pattern (e.g., January effect) still holds in current conditions before relying on it.
+1. Expect wider intraday ranges than historical norms suggest; size positions and stops for the current regime.
+2. Treat short holding periods and commodity-like behavior in individual stocks as normal, not aberrant.
+3. Before assuming a big move reflects fundamentals, check whether derivatives positioning (expiration, hedging) is driving it.
+4. Verify a seasonal pattern (e.g., January effect) still holds in current conditions before relying on it.
 5. Corroborate headline company and economic data rather than taking reported metrics at face value.
-6. Track foreign capital flows and cross-border market linkages as a growing input to domestic price action.
 
 ## Caveats
 
-Published in 2005 and drawing on the author's experience through the dot-com bust, the specifics predate the 2008 financial crisis and the modern algorithmic/HFT era, so some observations (derivatives share of volume, communication speed) are now understated by current standards, though the underlying themes have generally continued. The book is anecdotal and thematic rather than backed by rigorous statistical testing, and the 10 "New Laws" overlap enough in argument that some chapters feel repetitive.
+Published in 2005 and drawing on experience through the dot-com bust, it predates the 2008 crisis and the modern algorithmic era, so some observations are now dated even as the underlying themes persist. It is anecdotal and thematic rather than statistically rigorous, and the 10 Laws overlap enough that some chapters feel repetitive.
 
 ## Who it is for
 
-Intermediate-to-advanced investors and traders who want a veteran institutional trader's framework for how market structure evolved through the 1990s and early 2000s, rather than a specific tradable system.
+Intermediate-to-advanced investors wanting a veteran institutional trader's framework for how market structure evolved through the 1990s and early 2000s, rather than a tradable system.

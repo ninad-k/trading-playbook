@@ -20,27 +20,27 @@ Part of Wiley's "Getting Started In" series, this book is a comprehensive introd
 
 ## Key points
 
-- Bond price and yield move inversely; a bond bought at a discount to its coupon rate yields more than its coupon, and vice versa for a premium.
-- Credit ratings (from agencies such as Moody's and S&P) measure default risk; lower-rated ("junk") bonds carry higher yields and price volatility than investment-grade issues.
-- **Duration** is presented as the central risk-management tool: it estimates a bond's price sensitivity to interest-rate changes, calculated from coupon, yield, and time to maturity (Macaulay duration formula given), and is used to equate different bonds to a common price-volatility measure.
-- A bond's duration lengthens as interest rates fall (prices rising) and shortens as rates rise (prices falling) — professionals shorten portfolio duration when bearish on bonds (defensive) and lengthen it when bullish.
-- **Bond laddering**: buying bonds with staggered maturities (e.g., 2, 4, 6, 8 years) so a portion matures and can be reinvested regularly, reducing reinvestment and interest-rate timing risk.
-- **Barbell strategy**: concentrating holdings at the short and long ends of the maturity spectrum (e.g., 2-year and 12- or 20-year) while avoiding the middle, and weighting the two ends unevenly depending on relative cheapness.
-- **Duration management**: actively shortening duration when defensive (expecting rising rates) or extending duration when bullish (expecting falling rates) by swapping shorter-duration bonds for longer-duration ones or vice versa.
-- Diversification applies across issuer type, sector, and (within a category like municipals) issuer/state, not just across bond types.
-- A rule-of-thumb "Rule of 72" is given: 72 ÷ yield to maturity = approximate years to double your money.
+- Bond price and yield move inversely; a discount bond yields more than its coupon, a premium bond less.
+- Credit ratings (Moody's, S&P) measure default risk; lower-rated "junk" bonds carry higher yields and volatility than investment-grade issues.
+- **Duration** is the central risk tool: it estimates price sensitivity to rate changes from coupon, yield, and maturity (Macaulay duration formula given), and equates different bonds to a common volatility measure.
+- Duration lengthens as rates fall (prices rise) and shortens as rates rise; professionals shorten duration when bearish on bonds, lengthen it when bullish.
+- **Bond laddering**: staggered maturities (e.g., 2, 4, 6, 8 years) so a portion matures and reinvests regularly, reducing reinvestment and rate-timing risk.
+- **Barbell strategy**: concentrate holdings at the short and long ends of the maturity spectrum (e.g., 2-year and 12- to 20-year), avoiding the middle, weighted unevenly toward whichever end is cheaper.
+- **Duration management**: actively shorten duration when defensive or extend it when bullish by swapping shorter- for longer-duration bonds or vice versa.
+- Diversify across issuer type, sector, and (for municipals) issuer/state, not just bond category.
+- Rule of thumb: 72 ÷ yield to maturity = approximate years to double your money.
 
 ## Actionable rules
 
-1. Duration targeting: to bring a portfolio to a target average duration (example given: target 5 years, holding 8- and 6-year-duration bonds), add a bond whose duration solves for the weighted average — illustrated with a worked numeric example in the text.
-2. Risk-averse investors are directed toward lower-duration bonds; investors expecting rates to fall are directed toward longer-duration bonds.
-3. Ladder construction: build maturities in even, staggered intervals (e.g., every 2 years) and reinvest each maturing rung at the long end to maintain the ladder.
-4. Barbell construction: split holdings between short (e.g., 2-year) and long (e.g., 12- to 20-year) maturities, weighting unevenly toward whichever end is priced cheaper on the yield curve.
-5. No single universal position-size or percentage-of-portfolio rule is given; allocation guidance is framed as "use your own common sense, and then diversify."
+1. Duration targeting: to hit a target average duration (worked example: target 5 years while holding 8- and 6-year-duration bonds), add a bond whose duration solves the weighted average.
+2. Risk-averse investors: favor lower-duration bonds. Investors expecting falling rates: favor longer-duration bonds.
+3. Ladder construction: stagger maturities at even intervals (e.g., every 2 years); reinvest each maturing rung at the long end.
+4. Barbell construction: split short (e.g., 2-year) and long (e.g., 12- to 20-year) maturities, weighting toward whichever end is cheaper on the yield curve.
+5. No universal position-size or percentage-of-portfolio rule is given; allocation is framed as "use common sense, and then diversify."
 
 ## Caveats
 
-As a 2003-era beginner guide, some market-structure details (electronic trading adoption, specific product availability, historical rate levels used in examples) are dated, though the core mechanics of duration, yield curves, and laddering/barbell strategies remain standard and widely taught. This Tier B note covers the book's core strategy chapters (duration, laddering, barbells, duration management) rather than the full 16-chapter, 306-page text; readers wanting exhaustive detail on individual bond types (municipal, mortgage-backed, convertible mechanics) should consult the source directly.
+As a 2003-era beginner guide, some market-structure and rate-level examples are dated, though duration, yield-curve, and ladder/barbell mechanics remain standard. This note covers the book's core strategy chapters rather than its full 16 chapters; readers wanting exhaustive detail on individual bond types (municipal, mortgage-backed, convertible) should consult the source directly.
 
 ## Who it is for
 

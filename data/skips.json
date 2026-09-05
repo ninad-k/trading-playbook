@@ -66,5 +66,13 @@
  "client-expectations": {
   "status": "off_topic",
   "note": "Financial adviser marketing flyer"
+ },
+ "aust-vs-int-l-equity-portfolio-journal": {
+  "status": "no_text",
+  "note": "Text layer garbled (letter substitution)"
+ },
+ "basic-financial-strategies": {
+  "status": "no_text",
+  "note": "No usable text layer"
  }
 }

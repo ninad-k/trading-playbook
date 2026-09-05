@@ -16,18 +16,18 @@ source_file: "Realtime_Forex.pdf"
 
 ## Summary
 
-A broker-produced "Introduction to Online Trading" tutorial covering the mechanics of retail forex trading end to end: what forex is, order types, basic technical analysis (support/resistance, trend, chart patterns), candlestick patterns, a glossary of 14 technical indicators with construction logic, spot/forward mechanics, and a glossary of 30+ macro economic indicators (CPI, GDP, nonfarm payrolls, ISM, etc.) that move currency pairs. It functions as a reference manual rather than a strategy book, though it opens with 8 core trading recommendations.
+A broker-produced "Introduction to Online Trading" tutorial covering retail forex mechanics end to end: what forex is, order types, basic technical analysis (support/resistance, trend, chart patterns), candlesticks, a glossary of 14 indicators with construction logic, spot/forward mechanics, and a glossary of 30+ macro economic releases (CPI, GDP, nonfarm payrolls, ISM) that move currency pairs. It reads as a reference manual, though it opens with 8 core trading recommendations.
 
 ## Key points
 
-- Forex is OTC, roughly 24-hour, with no central exchange; quoted in pairs (base/quote currency), traded via a bid/ask spread.
+- Forex is OTC, roughly 24-hour, with no central exchange; quoted in pairs (base/quote), traded via a bid/ask spread.
 - Six order types: Market, Limit, Stop, OCO (One Cancels the Other), IF DONE (two-legged conditional order), and Loop (repeating range order for cyclical markets).
 - GTC orders stay open until cancelled, including over weekends; Day orders expire at 23:00 CET.
 - Core chart concepts covered: support, resistance, trend, channel, double top/bottom, triangle, head and shoulders, Fibonacci retracement.
-- Candlestick patterns covered: doji variants (Gravestone, Dragonfly, Rickshaw), engulfing lines, hammer/hanging man, harami, and star/three-line formations.
+- Candlestick patterns covered: doji variants, engulfing lines, hammer/hanging man, harami, and star/three-line formations.
 - 14 indicators defined with construction logic: ATR, Bollinger Bands, CCI, linear regression, MACD, Momentum, Moving Average, Parabolic SAR, ROC, RSI, Slow Stochastic, Standard Deviation, Stochastic, Williams %R.
-- Spot/forward mechanics explained: bid/offer, forward outright, FX swap, and premium/discount calculation.
-- Broker notes an initial margin as low as EUR 20,000 with leverage up to 40x (2.5% margin), commission-free market-making model.
+- Spot/forward mechanics explained: bid/offer, forward outright, FX swap, premium/discount calculation.
+- Broker notes initial margin as low as EUR 20,000 with leverage up to 40x, commission-free market-making model.
 
 ## Actionable rules
 
@@ -41,7 +41,7 @@ A broker-produced "Introduction to Online Trading" tutorial covering the mechani
 
 ## Caveats
 
-Produced by a market-making forex broker as client education and marketing collateral, so it favors the broker's own order types and platform and does not discuss dealing-desk/counterparty risk inherent to a market-maker model. Indicator and chart-pattern definitions are generic textbook material with no original research or backtested performance data. Leverage and minimum-deposit figures (40x, EUR 20,000) reflect mid-2000s regulatory norms that are far looser than post-2010 retail leverage caps in most jurisdictions.
+Produced by a market-making forex broker as client education and marketing collateral, so it favors the broker's own order types and platform and does not discuss dealing-desk/counterparty risk. Indicator and chart-pattern definitions are generic textbook material with no original research or backtested performance data. Leverage and deposit figures (40x, EUR 20,000) reflect mid-2000s norms far looser than post-2010 retail leverage caps in most jurisdictions.
 
 ## Who it is for
 
