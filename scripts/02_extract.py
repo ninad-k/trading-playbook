@@ -8,10 +8,15 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import re
+import shutil
 import subprocess
 import sys
 
+import fitz  # PyMuPDF
+
 from common import PDF_DIR, TXT_DIR, load_manifest, save_manifest
+
+PDFTOTEXT = shutil.which("pdftotext") or r"C:\Program Files\Git\mingw64\bin\pdftotext.exe"
 
 NO_TEXT_THRESHOLD = 150  # chars per page below this = scanned image PDF
 
@@ -30,21 +35,25 @@ def extract(row: dict, force: bool) -> dict:
     if txt.exists() and not force and row.get("text_status") == "ok":
         return row
     try:
-        rc, out, _ = run(["pdfinfo", str(pdf)], timeout=120)
-        m = re.search(r"Pages:\s+(\d+)", out)
-        row["pages"] = int(m.group(1)) if m else 0
-        t = re.search(r"Title:\s+(.+)", out)
-        row["pdf_title"] = t.group(1).strip()[:200] if t else ""
-        a = re.search(r"Author:\s+(.+)", out)
-        row["pdf_author"] = a.group(1).strip()[:120] if a else ""
-        rc, _, err = run(["pdftotext", "-layout", "-enc", "UTF-8", str(pdf), str(txt)])
-        if rc != 0 and not txt.exists():
-            row["text_status"] = "corrupt"
-            row["error"] = err.strip()[:200]
-            return row
-        text = txt.read_text(encoding="utf-8", errors="replace")
-        # collapse whitespace-only pages for the density measure
+        doc = fitz.open(pdf)
+        row["pages"] = doc.page_count
+        meta = doc.metadata or {}
+        row["pdf_title"] = (meta.get("title") or "").strip()[:200]
+        row["pdf_author"] = (meta.get("author") or "").strip()[:120]
+        parts = []
+        for page in doc:
+            parts.append(page.get_text("text"))
+        doc.close()
+        text = "".join(parts)
         dense = re.sub(r"\s+", " ", text)
+        # fall back to pdftotext when PyMuPDF yields little text but the file is large
+        if len(dense) / max(row["pages"], 1) < NO_TEXT_THRESHOLD and pdf.stat().st_size > 200_000:
+            rc, _, err = run([PDFTOTEXT, "-layout", "-enc", "UTF-8", str(pdf), str(txt)])
+            if rc == 0 and txt.exists():
+                alt = txt.read_text(encoding="utf-8", errors="replace")
+                if len(re.sub(r"\s+", " ", alt)) > len(dense):
+                    text, dense = alt, re.sub(r"\s+", " ", alt)
+        txt.write_text(text, encoding="utf-8")
         row["chars"] = len(dense)
         row["chars_per_page"] = round(len(dense) / max(row["pages"], 1))
         row["text_status"] = "ok" if row["chars_per_page"] >= NO_TEXT_THRESHOLD else "no_text"

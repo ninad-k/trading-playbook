@@ -1,0 +1,3705 @@
+{
+ "ebook-finance-trading-ebook-stock-trading-system-sl4-confidential-proprietary": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ebook-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks": {
+  "tier": "C",
+  "reason": "manual: duplicate of wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2",
+  "status": "duplicate"
+ },
+ "ebook-self-help-life-skills-finance-credit-repair-6th-ed-by-nolo-press": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "ebooks-finance-mba-in-finance": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "forex-mtpredictor-trading-course-part-1a": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "forex-mtpredictor-trading-course-part2": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "sm-momentum-investing-screening-for": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "1-a-mehanical-trading-system-tom-joseph": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "1-a-mehanical-trading-system-tom-joseph-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "1-the-mathematics-of-financial-derivatives": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "10-minute-guide-to-investing-in-stocks": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "101-money-secrets-by-blue-dolphin-group": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "101-option-trading-secrets-kenneth-r-trester": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "10-bankrupt": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "10-bankrupt-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "10keystosuccess": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "15-minutestf": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "17-money-making-candle-formations": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "17-money-making-candlestick-formations2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "18-trading-champions-share-their-keys-to-top-trading-profits": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "1fta-forex-trading-course": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "241forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "241forex-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "25-rules-of-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "25-rules-of-millionaire-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "3-how-to-access-and-trade-the-world-s-biggest-market": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "4-handbook-for-small-business": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "50-per-day-trading-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "5-13-62": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "7-habits-of-a-higly-sucsessfull-trader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "9-forex-systems": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "financial-market-trading-ebook-bollinger-john-a-cfa-cmt-market-master": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-bollinger-john-bollinger-bands-done": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "trading-hill-arthur-introduction-to-candlesticks": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "a-realistic-and-effective-strategy-for-using-candlestick-sri-0032": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "a-short-course-in-technical-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "a-new-interprtation-of-information-rate-kelly": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "a-complete-guide-to-technical-trading-tactics-2004": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "a-course-in-miracles": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "a-practical-guide-to-swing-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "abcdelforex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "adct-trader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "advanced-international-trade": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "adx": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "aggarwal-and-conroy-price-discovery-in-initial-public-offerings-and-the-role-of-the-lead-u": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "corrupt"
+ },
+ "alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "alan-farley-the-master-swing-trader": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "alex-saenz-10-minute-guide-to-investing-in-stocks": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "algora-myths-of-the-free-market-2003-isbn0875862233": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "all-about-forex-market-in-usa-eng": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "all-about-stocks-esme-faerber": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "alma-miranda-math-and-money": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "amazing-forex-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "andrews-pitchfork": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "andrews-scott-understanding-gaps": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "appendix1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "application-of-multi-agent-games-to-the-prediction-of-financial-time-series": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "article-arbitrage-pricing-theory": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "article-finance-some-quantitative-tests-for-stock-price-generating-models-and-trading-folk": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "asset-pricing-with-speculative-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "asset-valuation-allocation-models": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "atrainer-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "aust-vs-int-l-equity-portfolio-journal": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "automated-forex-ea": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "automated-intraday-open-pivot-setup": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "avoiding-mistakes-in-forex-trading-forextrader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "back-to-basics-historical-option-pricing-revisited": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "balsara-nauzer-j-money-management-strategies-for-futures-traders": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "bangia-diebold-schuermann-and-stroughair-modeling-liquidity-risk-with-implications-for-tra": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "barbara-star-hidden-divergence": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "barclay-and-hendershott-price-discovery-and-trading-after-hours": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "barry-rudd-stock-patterns-for-day-trading-and-swing-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "bars": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "basic-financial-strategies": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "basic-guide-to-understanding-elliot-wave": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bass-the-basics-of-financial-mathematics": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bass-financial-mathematics-2003-lecture-notes-series": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "batfink-daily-range-a": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bella-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ben-branch-the-predictive-power-of-stock-market-indicator": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "benjamin-van-vliet-2004-modeling-financial-markets-using-visual-basic-net-and-databases-to": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "bernstein-jake-the-compleat-day-trader-vol-i": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "bernstein-jake-the-compleat-day-trader-vol-ii": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "bessembinder-and-venkataraman-does-an-electronic-stock-exchange-need-an-upstairs-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "beyond-candlesticks-steve-nison": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "big-ben-breakout": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bill-poulos-the-truth-about-fibonacci-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "bill-williams-trading-chaos": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "black-scholes-option-pricing-model": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bollinger-band": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "bollinger-bandit-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bollingerbands": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bonus-thoughts-on-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bonus-thoughts-on-trading-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "boot-camp-papers-2": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "borsellino-lewis-2001-trading-es-and-nq-futures-course": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "breakup-0-1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "brenda-lange-the-stock-market-crash-of-1929-the-end-of-prosperity": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "brett-steenbarger-psychology-of-trading": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "brooks-and-kim-the-individual-investor-and-the-weekend-effect-a-reexamination-with-intrada": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "building-winning-trading-systems-with-tradestation-wiley": {
+  "tier": "C",
+  "reason": "manual: duplicate of george-pruitt-building-winning-trading-systems-with-tradestation",
+  "status": "duplicate"
+ },
+ "bunny-cross-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "bunnygirlfaq": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "buy-and-hold-is-dead": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "c-c-gaither-a-e-cavazos-gaither-statistically-speaking-a-dictionary-of-quotations": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "c-r-geisst-undue-influence-how-the-wall-street-elite-puts-the-financial-system-at-risk": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "cai-discretionary-risk-matrix": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "calming-the-mind": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "camarilla-levels": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "candlestick-patterns-for-day-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "candlestick-charting-explained": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "candlestick-and-pattern-1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "candlesticks-fibonacci-and-chart-pattern-trading-tools": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "cantor-1997-split-ratings-and-the-pricing-of-credit-risk": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "cashing-in-on-short-term-currency-trends": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "catfx50-rules": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "cbot-a-six-part-study-guide-to-market-profile": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "cci-manual": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chan-chockalingam-and-lai-overnight-information-and-intraday-trading-behavior-evidence-fro": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chande-kroll-the-new-technical-trader": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "channeltrading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chart-formations": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chart-patterns-and-technical-indicators": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chart-patterns-tutorial": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chinn": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "choosing-a-trading-system-that-actually-works": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chordia-roll-and-subrahmanyam-commonality-in-liquidity": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "client-expectations": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "colour-of-money-22d": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "come-into-my-trading-room-elder-alexander": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "commodity-futures-trading-for-beginners": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "common-sense-commodities-a-common-sense-approach-to-trading-commodities": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "competition-between-exchanges-euronext-versus-xetra": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "congestion-markets-estimating-a-breakout-target": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "coreconcepts-automatedtrading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "cornflower": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "cot": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "course1lesson1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "credit-derivatives": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "credit-risk-modeling-and-valuation-an-introduction": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "currency-trader0205": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "currency-trading-vehicles": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "curtis-faith-way-of-the-turtle": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "cutlosses": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "cynthia-kase-multi-dimensional-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "daily-open-sr-technique": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "damodaran-aswath-investment-fables": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "daniel-a-strachman-essential-stock-picking-strategies": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "david-c-stendahl-money-management-strategies-for-serious-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "david-dreman-contrarian-investment-strategies-the-next-generation": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "day-trading-basket-stocks-underground-trader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "day-trading-the-currency-market": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "day-trading-university": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "daytradeforex-com-the-day-trade-forex-system-the-ultimate-step-by-step-guide-to-online-cur": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "daytrading-university-advanced-daytrading-two-day-seminar": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "daytrading-university-trading-course": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "daytradingmind": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "dean-lebaron-s-treasury-of-investment-wisdom-30-great-investing-minds-wiley": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "deborah-owen-mapping-the-markets": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "demarchi-and-foucault-equity-trading-systems-in-europe-a-survey-of-recent-changes": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "demark-tom-demark-on-day-trading-options": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "demark-tom-demark-on-day-trading-options-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "depth-volatility": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "derivatives-pricing-and-financial-modelling": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "detecting-breakouts-from-flags-pennants": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "deutsche-bank-asset-valuation-allocation-models-2001": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "deutsche-bank-asset-valuation-allocation-models-2001-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "deutsche-borse-group-from-trading-floor-to-virtual-marketplace": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "disciplined-trader": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "divergence-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "divergence": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "divorcing-the-dow-using-revolutionary-market-indicators-to-profit-from-the-stealth-boom-ah": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "does-trendfollowing-work-on-stocks": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "doestawork": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "donald-coxe-the-new-reality-of-wall-street": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "doubletopsandbottoms": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "doug-henwood-wall-street-how-it-works": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "douglas-hubbard-the-failure-of-risk-management": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "dow": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "dynamic-trading-by-robert-c-miner": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "dynamic-breakout-ii-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "e-a-s-y-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "e123system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ebook-building-wealth-with-pristine-s-guerilla-trading-tactics": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ebook-ken-wolff-trading-on-momentum-2002-mcgraw-hill": {
+  "tier": "C",
+  "reason": "manual: duplicate of ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading",
+  "status": "duplicate"
+ },
+ "ebook-ken-wolff-trading-on-momentum-2002-mcgraw-hill-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "ebook-trading-commodities-investing-people": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "economics-how-the-stock-market-works": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "eday-trading-in-mind": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "edward-dobson-understanding-spreads": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "elder-alexander-trading-for-a-living": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "electronic-trading-systems-in-europe-and-development-potentialities-for-russia": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "eleswarapu-and-venkataraman-the-impact-of-legal-and-political-institutions-on-equity-tradi": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "eleswarapu-thompson-and-venkataraman-the-impact-of-regulation-fair-disclosure-trading-cost": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "elite-trader-s-secrets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "elliott-waves-principle": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "elliott-waves-principle-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "emotion-free-trading-book": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "engle-the-econometric-of-high-frequency-data": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "epocketbook": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "eswingtradingbook": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "etheebookoftechnicalmarketindicators": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "evaluation-of-value-at-risk-models": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "exchange-rules-for-the-frankfurt-stock-exchange": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "exchange-traded-funds": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "exchange-traded-funds-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "exploring-value-at-risk": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "expose-yourself": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ez-trade-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "f-e-james-jr-monthly-moving-averages-an-effective-investment-tool": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "fabozzi-2004-default-rates-on-structured-finance-securities": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fairygoodtrader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fallon-w-calculating-value-at-risk": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fc-power-trading-course-forex-capital-markets-2003": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "fernando-commonality-in-liquidity-transmission-of-liquidity-shocks-across-investors-and-se": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fi-lecture16-exotic-options-credit-derivatives": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fibonacci-ratios-with-pattern-recognition": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "fibonacci-ratios-with-pattern-recognition-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "fibonacci-studies": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fibonaccimathinnature": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "financial-times-series-tbx-ug": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "fine-tuning-your-money-management": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fischer-robert-fibonacci-applications-and-strategies-for": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "fishea-and-robeb-the-impact-of-illegal-insider-trading-in-dealer-and-specialist-markets-ev": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "fixed-income-securities": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-for-everyone-revised": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forex-for-everyone-revised-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forex-gladiator": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-intraday-pivots-trading-system-complete-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-manual-10-keys-to-successful-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-manual-in-english": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "forex-misc-money-management-ryan-jones": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "forex-report-predicting-price-movement": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-study-book-for-successful-foreign-exchange-dealing": {
+  "tier": "C",
+  "reason": "manual: duplicate of trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex-com-pdf",
+  "status": "duplicate"
+ },
+ "forex-trading-avoiding-mistakes": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forex-trading-education": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-trading-is-challenging": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-amazing-forex-system": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forex-money-management": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-nfa": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-as-trader-s-alternative": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-education-seminar2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-report-when-totrade": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-trader-e-book": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-trading-course-turn-1-260-into-12-300-in-30-days-by-david-c-arena": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forex-trading-machine-ebook": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "forex-trading-with-candlestick-and-pattern": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forex-trading-with-candlestick-and-pattern-2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "forexintro": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "forexmanual": {
+  "tier": "C",
+  "reason": "manual: duplicate of forex-manual-in-english",
+  "status": "duplicate"
+ },
+ "forexovereasy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "foucault-and-kadan-limit-order-book-as-a-market-for-liquidity": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "foucault-and-lescourret-information-sharing-liquidity-and-transaction-costs-in-floor-based": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fractal": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fundamentalsoftradingplan": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fundamentalsoftradingplan-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "futures-magazine-the-art-of-day-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "futuresintro": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fx-engines-predicting-price-action": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fx10": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fx-crossing-over-to-the-forex-market": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "fx-crossing-over-to-the-forex-market-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "fx-power-trading-course": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "fx-wizard": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fxfutures": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "fxfutures-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "gann-how-to-trade": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "gann-w-d-new-stock-trend-detector": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "gann-w-d-1953-magic-words": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "gannwheel": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "gapenski-an-introduction-to-accounting-and-financial-management": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "gary-smith-how-i-trade-living": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "general-observations-thoughts-on-trading-gbp": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "george-a-fontanills-the-option-course-with-exercise": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "george-alexander-maclean-fibonacci-and-gann-applications": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "george-angell-sniper-trading-workbook-pdf": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "george-fontanills-the-options-course-high-profit-low-stress-trading-methods": {
+  "tier": "C",
+  "reason": "manual: duplicate of fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed",
+  "status": "duplicate"
+ },
+ "george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "george-pruitt-building-winning-trading-systems-with-tradestation": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "georgemuzea-the-vital-few-vs-the-trivial-many-invest-with-the-insiders-not-the-masses": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "gg38-world-bank-reshaping-the-future-2005-yyepg-lotb": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "ghost-trader-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "gimmibar": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "giuciao-atspace-org-building-your-e-mini-trading-strategy": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "glenn-neely-masterelliotwav-low-quality": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "glossary-of-forex-terms": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "got-your-trading-style-figured-out": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "greatestmoneymakingsecret": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "greg-morris-candlestick-charting-explained": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "griffiths-turnbullb-and-white-re-examining-the-small-cap-myth-problems-in-portfolio-format": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "guy-cohen-the-bible-of-options-strategies": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "harris-sofianos-and-shapiro-program-trading-and-intraday-volatility": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "harrison-waldron-mathematical-economics-and-finance": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "harry-d-schultz-bear-market-investing-strategies": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "he-global-money-markets": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "hedges-on-hedge-funds-how-to-successfully-analyze-2005": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "hilda-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "historicaltesting": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "how-effective-is-automated-forex-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "how-i-made-2-million-in-the-stock-market": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "how-i-trade-living": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "how-large-is-liquidity-risk-in-an-automated": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "how-the-stock-market-works": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "how-to-make-money-in-stocks-pdf-forex": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "how-to-make-money-shorting-stocks-in-up-and-down-markets": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "how-to-stop-worrying-and-start-living-dale-carnegie": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "howtothinklikeawinningtrader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "hrishikesh-d-vinod-preparing-for-the-worst": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "hull-options-futures-and-other-derivative-securities-5th-ed": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "hw-brands-masters-of-enterprise": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "i-guide-to-currency-trading-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "icwr-forex-trading-strategy": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "impulsive-wave": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "inside-the-guru-mind-warren-buffet-r-heller": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "insurances-strategies": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "inter-l-vs-aust-shares": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "interest-rate-models": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "international-macro-economics-and-finance": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "intraday-trading-techniques": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "introduction-to-arbitrage-pricing-of-financial-derivatives": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "introduction-to-forex-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "introduction-to-monte-carlo-methods": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "introduction-to-statistical-pattern-recognition-2nd-ed-keinosuke-fukunaga": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "introduction-to-charting": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "investing-strategies-for-the-high-net-worth-investor": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "investment-performance-and-investor-behavior": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "investment-psychology-explained-classic-strategies-to-beat-the-markets-wiley": {
+  "tier": "C",
+  "reason": "manual: duplicate of investmentpsychologyexplained",
+  "status": "duplicate"
+ },
+ "investment-science": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "investment-valuation-damodaran": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "investment-vehicles": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "investmentpsychologyexplained": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "j-k-lasser-pick-stocks-like-warren-buffett": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "j-r-hedges-iv-hedges-on-hedge-funds-how-to-successfully-analyze-and-select-an-investment": {
+  "tier": "C",
+  "reason": "manual: duplicate of hedges-on-hedge-funds-how-to-successfully-analyze-2005",
+  "status": "duplicate"
+ },
+ "j-r-hill-g-pruitt-and-l-hill-the-ultimate-trading-guide": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "jack-schwager-stock-market-wizards": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "jack-schwager-stock-market-wizards-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "jaeckel-p-monte-carlo-methods-in-finance-wiley-2002-t-c-232s": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "jake-bernstein-dearborn-trade-publishing-no-bull-investing": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "jake-bernstein-how-to-trade-the-new-single-stock-futures": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "jake-bernstein-market-masters": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "jake-bernstein-stock-market-strategies-that-work": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "jake-bernstein-the-compleat-day-trader-vol-i": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "jake-bernstein-the-compleat-day-trader-vol-ii": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "jake-bernstein-trade-your-way-to-riches": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "jamie-rogers-strategy-value-and-risk-the-real-options-approach": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "jan-l-arps-surfing-the-market-waves-the-swing-trader-s": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "jay-kaeppel-the-four-biggest-mistakes-in-futures-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "jeff-cooper-intra-day-trading-strategies-proven-steps": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "jeff-cooper-intra-day-trading-strategies-proven-steps-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "jen-matshall-practical-fibonacci-methode-for-forex-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "jens-clever-master-trader": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "jesse-livermore-reminiscences-of-a-stock-operator": {
+  "tier": "C",
+  "reason": "manual: duplicate of reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore",
+  "status": "duplicate"
+ },
+ "jet-heat-mechanical-discretion": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "joe-ross-how-to-spot-a-trend": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "joe-ross-trading-spreads-and-seasonals": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "joe-ross-trading-the-ross-hook": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "joerosstrading-manual-intro-1-13": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "joerosstrading-manual-appendices-269-320": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "john-allen-paulos-mathematician-plays-the-stock-market": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "john-bollinger-bollinger-on-bollinger-band": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "john-grisham-the-broker": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "john-hayden-how-to-use-the-rsi": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "john-j-murphy-charting-made-easy": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "john-l-person-swing-trading-using-candlestick-charting-with-pivot-point": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "john-mauldin-just-one-thing-twelve-of-the-world-s-best-investors-reveal-the-one-strategy-y": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "john-piper-the-way-to-trade": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "john-wiley-the-portable-mba-in-finance-and-accounting-3rd-edition": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "john-wiley-sons-valuation-maximizing-corporate-value": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "john-wiley-sons-stock-trader-almanac-2005-38th-ed": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "john-wiley-sons-stock-trader-almanac-2005-38th-ed-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "john-allen-paulos-mathematician-plays-the-stock-market-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "john-grisham-the-broker-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "jorda-and-marcellino-modeling-high-frequency-fx-data-dynamics": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "jp-candlesticks": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "kahneman-daniel-investor-psychology": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "kalman-filter-for-arbitrage-identification-in-high-frequency-data": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "kellybetting": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "kenneth-l-fisher-super-stocks": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "kenneth-r-trester-101-option-trading-secrets": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "kevin-hagerty-day-trading-course": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "kiesel-financial-mathematics": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "king-keltner-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "krugman-hedge-funds": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "larry-leven-emotion-free-trading-book": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "larry-leven-emotion-free-trading-book-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "larry-swing-practical-guide-to-swingtrading": {
+  "tier": "C",
+  "reason": "manual: duplicate of a-practical-guide-to-swing-trading",
+  "status": "duplicate"
+ },
+ "larry-williams-how-to-trade-better": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "larry-williams-long-term-secrets-to-short-term-trading": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "latest-developments-at-the-fwb-xetra-best-slide-13": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lawrence-g-mcmillan-profit-with-options": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "lbr-scalp-setups": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "learning-to-trade": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lecture-notes-in-mathematical-finance-lin-1996": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lee-fok-and-liu-explaining-intraday-pattern-of-trading-volume-from-the-order-flow-data": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lehman-currency-hedging-in-fixed-income-portfolios": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "leslie-n-masonson-all-about-market-timing": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "letting-your-profits-run": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lifestyle": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "liquidity-in-forex-markets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "lss-3-day-cycle-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "macd": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "madhavan-market-microstructure-a-survey": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "maitei-ma-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "managed-forex-trading-software": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "managing-credit-risk-with-credit-and-macro-derivatives": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "managing-your-money": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "manifesto": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "marc-boucher-short-term-trading-course": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "marcel-petro-market-timing": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "mark-crisp-7-habits-of-a-higly-sucsessfull-trader": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "market-making-and-reversal-on-the-stock-exchange": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "market-movement": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "market-turns": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "marketneutralstrategies": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "marketwise-trading-school-options-trading-primer": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "markus-heitkoetter-how-to-make-money-with-trading-systems": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "martin-j-pring-investment-psychology-part-1": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "martinez-jared-the-10-keys-to-successful-trading-not-complete": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "masteelliowav": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "master-trader-by-jens-clever": {
+  "tier": "C",
+  "reason": "manual: duplicate of jens-clever-master-trader",
+  "status": "duplicate"
+ },
+ "math-mathematics-mathematical-economics-and-finance": {
+  "tier": "C",
+  "reason": "manual: duplicate of harrison-waldron-mathematical-economics-and-finance",
+  "status": "duplicate"
+ },
+ "mathematicsmoneymanagement": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "maximizing-gains-with-trade-management": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-understanding-stocks": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading-i": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "mcgraw-hill-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading-i-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "mcgraw-hill-corporate-finance-book": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "mcgraw-hill-how-to-read-a-financial-statement": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-osborne-media-the-personal-finance-calculator": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "mcgraw-hill-quality-management-demystified-a-self-teaching-guide": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "mcgraw-hill-stock-options-and-the-new-rules": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "mcgraw-hill-all-about-market-timing": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "mcgraw-hill-encyclopedia-of-trading-strategies": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "mcgraw-hill-finance-for-the-non-financial-manager-ebook-lib": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "mcgraw-hill-the-new-reality-of-wall-street-ebook-lib": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "mcmillan-and-speight-nonlinear-dynamics-in-high-frequency-intra-day-financial-data": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mcrae-mark-sure-fire-forex-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mechanical-trading-systems": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "mental-fitness-for-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "metastock-chart-patterns-tutorial": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "michael-covel-trend-following": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "michael-panzner-the-new-laws-of-the-stock-market-jungle": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "michael-sheimo-stock-market-rules": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "mike-sincere-understanding-stocksreduced": {
+  "tier": "C",
+  "reason": "manual: duplicate of mcgraw-hill-understanding-stocks",
+  "status": "duplicate"
+ },
+ "mindset-of-millionaire-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "miracle-of-discipline": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mmts-2-0": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "money-management-report-van-tharp": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "money-management-risk-control-for-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "money-management-strategies": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "money-management1": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "money-management-by-david-landry": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "money-management-for-gambler": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "money-management-in-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "money-manager-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "moral-reasoning": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "moriarty-sfsg": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "morris-and-song-shin-liquidity-black-holes": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mostmarketmoving08-09-06": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "mql-4-metatrader-4-development-course": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "mulitple-patterns-and-time-periods": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "my-forex-strategy-no-10": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "myfairygodtrader-booker-forex-trading-auctions": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "neural-prediction-of-weekly-stock-market-index-1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "new-concepts-in-technical-trading-systems-welles-wilder": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "new-twist-on-an-old-indicator": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "nfp": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "nicktrader-on-no-price-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "norman-frumkin-guide-to-economic-indicators": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "not-so-squeezy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "oh-crap-free": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "oliver-velez-swing-trading-tactics": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "oliver-velez-swing-trading-tactics-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "online-trading-academy-electronic-trading-guide-for-nasdaq-l2-9908-2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "online-manual-for-succesful-trading": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "optimal-ma-crossovers": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "options-and-options-trading-a-simplified-course": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "options-essential-concepts-and-trading-strategies-2nd-edition": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "options-trading-primer-by-marketwise-trading-school": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "parlour-and-seppi-liquidity-based-competition-for-order-flow": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "patterns-in-three-centuries-of-stock-market-prices": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "paul-wilmott-quantitative-finance": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "peaks-and-troughs-pring": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "performance-asx-resources": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "perry-kaufman-smarter-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "persaud-liquidity-black-holes": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "personal-trading-behaviour": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "phantom-of-the-20-pits": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "phoenix-2007-how-to-optimize-phoenix": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "phoenix-2007-how-to-optimize-phoenix-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "picking-tops": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "pis-fsg": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "pivots": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "place-of-insurance": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "plan-process": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "pocketbook-of-economic-indicator": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "pocketbook-of-economic-indicator-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "portfolio-risk-reduction": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "position-sizing": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "pouria-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "practicalew": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "practicalew-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "prechter-robert-the-major-works-of-r-n-elliott-low-quality": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "predicting-price-movement": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "pristine-s-cardinal-rules-of-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "prob-tables-article": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "professional-trader-business-plan": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "professional-traders-still-day-trade": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "profit-with-options-essential-methods-for-investing-success-wiley": {
+  "tier": "C",
+  "reason": "manual: duplicate of lawrence-g-mcmillan-profit-with-options",
+  "status": "duplicate"
+ },
+ "profitfromprices": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "prospect-theory": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "protecting-your-wealth-in-good-times-and-bad": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "putting-it-all-together": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "quick-guide-to-trade-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "quick-guide-to-trade-forex-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "r-g-hagstrom-the-warren-buffett-way-2nd-edition": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "raveshmokhatereh": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "real-options-in-practice": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "realtime-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "reminiscences-of-a-stock-operator": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "resource-stocks-in-portfolio": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "reverse-divergence-and-momentum": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "rich-dad-poor-dad-by-robert-t-kiyosaki": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "richard-l-weissman-mechanical-trading-systems": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "richard-smitten-trade-like-jesse-livermore-2005": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "risk-management-systems": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "risk-reward-margin": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "risk-control-and-money-management": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "rob-booker-fairygod-trader": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "robert-fisher-fibonacci-applications-and-strategies-for-traders": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "robert-slater-soros-unauthorized-biography": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "robert-slater-soros-unauthorized-biography-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "royalforex": {
+  "tier": "C",
+  "reason": "manual: duplicate of trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex-com-pdf",
+  "status": "duplicate"
+ },
+ "rubinstein-mark-rubinstein-on-derivatives": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "russel-l-olson-handbook-for-investment-committee-members": {
+  "tier": "C",
+  "reason": "manual: duplicate of handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organizatio",
+  "status": "duplicate"
+ },
+ "ryan-jones-money-management": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "s-a-mccrary-hedge-fund-course": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "s-and-c": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "secrets-of-the-millionaire-traders-vol-i": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "secrets-of-todays-top-traders": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "sfo-raschke-0803": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "sharpeningskills": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "sharpeningskills-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "sidus-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "sienna-currency-trading-system-results": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "signalselection": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "signalselection-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "singlestockfutures": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "six-forces-of-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "speculative-investor-behavior-in-a-stock-market": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "no_text"
+ },
+ "spread-trade-to-win": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "staying-out-of-trouble-trading-currencies-with-channels": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": "",
+  "ocr": true
+ },
+ "steven-bolten-stock-market-cycles": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "stock-market-rules-50-of-the-most-widely-held-investment-axioms-explained-examined-and-exp": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "stops": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "street-smarts-laurence-connors": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "streetsmart-guide-to-valuing-a-stock": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "study-guide-for-entries-and-exits-visits-to-16-trading-rooms": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "study-book-for-forex": {
+  "tier": "C",
+  "reason": "manual: duplicate of trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex-com-pdf",
+  "status": "duplicate"
+ },
+ "sundial-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "super-combo-day-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "supply-demand": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "sure-fire-forex-trading-mark-mcrae": {
+  "tier": "C",
+  "reason": "manual: duplicate of mcrae-mark-sure-fire-forex-trading",
+  "status": "duplicate"
+ },
+ "t2w-trading-plan-template-2005-asb": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "take-the-money-and-run": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "taleb-nassim-fooled-by-randomness": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "td-sequential": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "technical-indicators-tutorial": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tfefuturecourse": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "the-1hr-tunnel-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-bat-by-ta": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-bird-watching-lion-country": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "the-boomerang": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-complete-turtletrader-the-legend-the-lessons-the-results": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "the-e-book-of-technical-market-indicators": {
+  "tier": "C",
+  "reason": "manual: duplicate of etheebookoftechnicalmarketindicators",
+  "status": "duplicate"
+ },
+ "the-economics-of-european-integration": {
+  "tier": "C",
+  "reason": "manual: not trading related",
+  "status": "off_topic"
+ },
+ "the-equity-options-strategy-guide": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-five-minute-investor": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-forex-market-phenomena": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-forex-method-and-trading-strategies-that-keep-you-on-the-right-side-of-the-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-intelligent-investor-benjamin-graham": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-little-book": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "the-magic-of-forex-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-mathematics-of-financial-modeling-and-investment-management": {
+  "tier": "B",
+  "reason": "manual: concise is enough",
+  "status": ""
+ },
+ "the-option-trader-handbook-strategies-and-trade-adjustments-2004-isbn0471567078": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "the-outsider-method": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-penny-stock-trading-sysyem": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "the-pocketbook-of-economic-indicators": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "the-pocketbook-of-economic-indicators-2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-secret-to-selecting-automated-trading-software": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-stock-market-for-dummies": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-superstock-investor-profiting-from-wall-streets-best-undervalued-companies": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "the-ultimate-step-by-step-guide-to-online-currency-trading": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "the-nyse-tick-index-and-candlesticks": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "the-forex-chartist-companion": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "the-logical-trader-applying-a-method-to-the-madness": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "the-market-as-mass-mind": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "thermostat-trading-strategy": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "thomas-and-patnaik-serial-correlation-in-high-frequency-data-and-the-link-with-liquidity": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tick": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tom-dorsey-s-trading-tips-a-playbook-for-stock-market-success": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "tom-peters-100ways": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "tony-oz-how-i-make-a-living-trading-stocks": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "trade-easy-with-an-automated-forex-trading-system": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trade-7-chart-patterns-that-consistantly-make-money-downs": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trade-book": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trade-breakouts": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trade-your-way-to-financial-freedom": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "trader-trading-style": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "traders-trick-entry": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "traders-trick-entry-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "tradetables-1-6-2003": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-forex-predicting-price-movement": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "trading-forex-online-manual-for-successful-trading": {
+  "tier": "C",
+  "reason": "manual: duplicate of forex-manual-in-english",
+  "status": "duplicate"
+ },
+ "trading-and-investment-applied-quantitative-methods-for": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-as-a-business": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "trading-ebook-trading-forex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-for-a-living-in-the-forex-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-functions": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-psychology": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-strategies-john-murphy-s-ten-laws-of-technical-trading": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-with-macd-a-lesson-on-divergence": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trading-in-the-zone": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "tradings-3r-s": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tradingyourgut": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "training-intelligent-agents-using-human-internet-data-sklar-iat99": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "trend-determination": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "trend-vs-no-trend": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "triangletradingmethod": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "truth-about-money-management": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tte": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "tte-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "turtlerules": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "turtles-matter": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "turtletrader": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "turtletrader-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "tyler-bollhorn-market-perspectives": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "u-s-key-economic-indica": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "understanding-forex-candlestick": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "using-up-gaps-to-anticipate-upward-price-moves": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "using-volatility-in-option-tradingpart-1": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "usingprocessresults": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "valuation-of-cash-flows-investment-decisions-capital-bud": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "van-tharp-stop-worrying-yourself-out-of-profits": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "van-tharp-the-flow-of-the-markets": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "van-tharp-trading-systems": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "vanessafx-advanced-systems": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "vern-c-hayden-getting-an-investing-game-plan-creating-it-working-it-winning-it": {
+  "tier": "C",
+  "reason": "manual: duplicate of getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003",
+  "status": "duplicate"
+ },
+ "version9i": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "vladimir-daragan-how-to-win-the-stock-market-game": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "volatility-part-2": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "volatility": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time-2": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "walter-bressert-intraday-timing-for-low-risk-swing-trading": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": "",
+  "ocr": true
+ },
+ "warren-buffet-inside-the-guru-mind-warren-buffet-r-heller": {
+  "tier": "C",
+  "reason": "manual: duplicate of inside-the-guru-mind-warren-buffet-r-heller",
+  "status": "duplicate"
+ },
+ "wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "wayne-a-thorp-screening-for-momentum-stocks": {
+  "tier": "C",
+  "reason": "manual: duplicate of sm-momentum-investing-screening-for",
+  "status": "duplicate"
+ },
+ "wayne-a-thorp-testing-trading-success": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "wayne-gorman-how-you-can-identify-turning-points-using-fibonacci": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "welcometoforex": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "what-moves-the-currency-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "whats-in-your-head": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "when-buy-means-sell-mcgraw-hill": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "whitneytilson-more-mortgage-meltdown": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "wiley-trading-study-guide-for-come-into-my-trading-room-a-complete-guide-to-trading-2002-i": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "william-n-goetzmann-fibonacci-and-the-financial-revolution": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "williams-undeclared-stockmarket-secrets": {
+  "tier": "B",
+  "reason": "long but not a core trading text",
+  "status": ""
+ },
+ "williams-larry-trade-stocks-and-commodities-with-the-insiders": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "withdrawal": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "off_topic"
+ },
+ "wolfe-waves": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks": {
+  "tier": "C",
+  "reason": "triage: C",
+  "status": "duplicate"
+ },
+ "wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2": {
+  "tier": "A",
+  "reason": "triage: A",
+  "status": ""
+ },
+ "wyser-pratte-guy-risk-arbitrage": {
+  "tier": "A",
+  "reason": "manual: core trading text",
+  "status": ""
+ },
+ "xavier-gabaix-a-theory-of-large-fluctuations-in-stock-market": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "xetra-xxl-the-new-dimension": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "xetraxxl-marketmodel": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ },
+ "yale-hirsch-stock-traders-almanac-2005": {
+  "tier": "C",
+  "reason": "manual: duplicate of john-wiley-sons-stock-trader-almanac-2005-38th-ed",
+  "status": "duplicate"
+ },
+ "you-can-choose-to-be-rich-workbook-by-robert-t-kiyosaki": {
+  "tier": "C",
+  "reason": "scanned PDF without text layer (no OCR)",
+  "status": "no_text"
+ },
+ "your-trading-plan": {
+  "tier": "B",
+  "reason": "triage: B",
+  "status": ""
+ }
+}
