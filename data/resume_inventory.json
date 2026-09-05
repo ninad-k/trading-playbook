@@ -1,0 +1,4032 @@
+{
+  "scope": "Local manifest; live listing not reverified",
+  "manifest_files": 794,
+  "manifest_pdfs": 733,
+  "tiers": {
+    "B": 459,
+    "C": 143,
+    "A": 131,
+    "unassigned": 61
+  },
+  "book_notes": 189,
+  "system_notes": 65,
+  "missing_notes": 401,
+  "missing_by_tier": {
+    "A": 77,
+    "B": 324
+  },
+  "provisional_skips": 13,
+  "remaining_candidates": 388,
+  "backlog": [
+    {
+      "slug": "101-option-trading-secrets-kenneth-r-trester",
+      "tier": "A",
+      "filename": "101 Option Trading Secrets - Kenneth.R.Trester.pdf",
+      "pages": 336,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "3-how-to-access-and-trade-the-world-s-biggest-market",
+      "tier": "A",
+      "filename": "3. How to Access and Trade the World's Biggest Market.pdf",
+      "pages": 315,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "a-complete-guide-to-technical-trading-tactics-2004",
+      "tier": "A",
+      "filename": "A_Complete_Guide_to_Technical_Trading_Tactics_2004_.pdf",
+      "pages": 287,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "a-short-course-in-technical-trading",
+      "tier": "A",
+      "filename": "A Short Course in Technical Trading.PDF",
+      "pages": 339,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "barry-rudd-stock-patterns-for-day-trading-and-swing-trading",
+      "tier": "A",
+      "filename": "Barry Rudd - Stock Patterns For Day Trading And Swing Trading.pdf",
+      "pages": 196,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bernstein-jake-the-compleat-day-trader-vol-i",
+      "tier": "A",
+      "filename": "Bernstein, Jake - The Compleat Day Trader Vol I.pdf",
+      "pages": 242,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bernstein-jake-the-compleat-day-trader-vol-ii",
+      "tier": "A",
+      "filename": "Bernstein, Jake - The Compleat Day Trader Vol II.pdf",
+      "pages": 260,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "beyond-candlesticks-steve-nison",
+      "tier": "A",
+      "filename": "Beyond_Candlesticks__Steve_Nison_.pdf",
+      "pages": 276,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit",
+      "tier": "A",
+      "filename": "Bill Williams - New Trading Dimensions - How To Profit From Chaos In Stocks, Bonds, And Commodities.pdf",
+      "pages": 102,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bill-williams-trading-chaos",
+      "tier": "A",
+      "filename": "Bill Williams - Trading Chaos.pdf",
+      "pages": 251,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "brett-steenbarger-psychology-of-trading",
+      "tier": "A",
+      "filename": "Brett Steenbarger - Psychology Of Trading.pdf",
+      "pages": 274,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "buy-and-hold-is-dead",
+      "tier": "A",
+      "filename": "Buy and Hold Is Dead.pdf",
+      "pages": 322,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "candlesticks-fibonacci-and-chart-pattern-trading-tools",
+      "tier": "A",
+      "filename": "Candlesticks Fibonacci and Chart Pattern Trading Tools.pdf",
+      "pages": 273,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chande-kroll-the-new-technical-trader",
+      "tier": "A",
+      "filename": "Chande Kroll - The New Technical Trader.pdf",
+      "pages": 115,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "come-into-my-trading-room-elder-alexander",
+      "tier": "A",
+      "filename": "Come Into My Trading Room - Elder Alexander.pdf",
+      "pages": 322,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "curtis-faith-way-of-the-turtle",
+      "tier": "A",
+      "filename": "Curtis Faith - Way of the Turtle.pdf",
+      "pages": 313,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cynthia-kase-multi-dimensional-trading",
+      "tier": "A",
+      "filename": "Cynthia Kase - Multi-Dimensional Trading.pdf",
+      "pages": 3,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "david-dreman-contrarian-investment-strategies-the-next-generation",
+      "tier": "A",
+      "filename": "David Dreman - Contrarian Investment Strategies - The Next Generation.pdf",
+      "pages": 478,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "day-trading-the-currency-market",
+      "tier": "A",
+      "filename": "Day Trading the Currency Market.pdf",
+      "pages": 259,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "dean-lebaron-s-treasury-of-investment-wisdom-30-great-investing-minds-wiley",
+      "tier": "A",
+      "filename": "Dean Lebaron's Treasury Of Investment Wisdom 30 Great Investing Minds - Wiley.pdf",
+      "pages": 320,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "demark-tom-demark-on-day-trading-options",
+      "tier": "A",
+      "filename": "DeMark,Tom - DeMark on day-trading options.pdf",
+      "pages": 364,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "divorcing-the-dow-using-revolutionary-market-indicators-to-profit-from-the-stealth-boom-ah",
+      "tier": "A",
+      "filename": "Divorcing the Dow - Using Revolutionary Market Indicators to Profit From the Stealth Boom Ahead.pdf",
+      "pages": 273,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "elder-alexander-trading-for-a-living",
+      "tier": "A",
+      "filename": "Elder Alexander - Trading For A Living.pdf",
+      "pages": 312,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "elliott-waves-principle",
+      "tier": "A",
+      "filename": "Elliott Waves Principle.pdf",
+      "pages": 111,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fischer-robert-fibonacci-applications-and-strategies-for",
+      "tier": "A",
+      "filename": "Fischer, Robert - Fibonacci Applications and Strategies for .pdf",
+      "pages": 93,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-misc-money-management-ryan-jones",
+      "tier": "A",
+      "filename": "Forex Misc - Money Management - Ryan Jones.pdf",
+      "pages": 115,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "gann-how-to-trade",
+      "tier": "A",
+      "filename": "Gann - How To Trade.pdf",
+      "pages": 5,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "gann-w-d-new-stock-trend-detector",
+      "tier": "A",
+      "filename": "Gann, W D  - New Stock Trend Detector.pdf",
+      "pages": 52,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "gary-smith-how-i-trade-living",
+      "tier": "A",
+      "filename": "Gary Smith - How_i_trade_living.pdf",
+      "pages": 284,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003",
+      "tier": "A",
+      "filename": "Getting An Investing Game Plan - Creating It Working It Winning It (Wiley - 2003).pdf",
+      "pages": 255,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "how-i-made-2-million-in-the-stock-market",
+      "tier": "A",
+      "filename": "How I Made 2 Million In The Stock Market.pdf",
+      "pages": 120,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hull-options-futures-and-other-derivative-securities-5th-ed",
+      "tier": "A",
+      "filename": "Hull-Options_ Futures And Other Derivative Securities_ 5Th Ed.pdf",
+      "pages": 756,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "icwr-forex-trading-strategy",
+      "tier": "A",
+      "filename": "ICWR_Forex_Trading_Strategy.pdf",
+      "pages": 126,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "investmentpsychologyexplained",
+      "tier": "A",
+      "filename": "InvestmentPsychologyExplained.pdf",
+      "pages": 134,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "j-r-hill-g-pruitt-and-l-hill-the-ultimate-trading-guide",
+      "tier": "A",
+      "filename": "J R Hill G Pruitt And L Hill - The Ultimate Trading Guide.pdf",
+      "pages": 302,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual",
+      "tier": "A",
+      "filename": "Jack Schwager - Guide To Winning With Automated Trading Systems (Course Manual).pdf",
+      "pages": 95,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jake-bernstein-market-masters",
+      "tier": "A",
+      "filename": "Jake Bernstein - Market Masters.pdf",
+      "pages": 91,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jake-bernstein-trade-your-way-to-riches",
+      "tier": "A",
+      "filename": "Jake Bernstein - Trade Your Way To Riches.pdf",
+      "pages": 105,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jay-kaeppel-the-four-biggest-mistakes-in-futures-trading",
+      "tier": "A",
+      "filename": "Jay Kaeppel - The Four Biggest Mistakes In Futures Trading.pdf",
+      "pages": 123,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jeff-cooper-intra-day-trading-strategies-proven-steps",
+      "tier": "A",
+      "filename": "Jeff Cooper - Intra-Day Trading Strategies, Proven Steps.pdf",
+      "pages": 48,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "joe-ross-trading-spreads-and-seasonals",
+      "tier": "A",
+      "filename": "Joe Ross - Trading Spreads And Seasonals.pdf",
+      "pages": 161,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "joe-ross-trading-the-ross-hook",
+      "tier": "A",
+      "filename": "Joe Ross - Trading The Ross Hook.pdf",
+      "pages": 180,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-bollinger-bollinger-on-bollinger-band",
+      "tier": "A",
+      "filename": "John Bollinger - Bollinger On Bollinger Band.pdf",
+      "pages": 264,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-j-murphy-charting-made-easy",
+      "tier": "A",
+      "filename": "John J Murphy - Charting Made Easy.pdf",
+      "pages": 82,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-mauldin-just-one-thing-twelve-of-the-world-s-best-investors-reveal-the-one-strategy-y",
+      "tier": "A",
+      "filename": "John Mauldin - Just_One_Thing_Twelve_Of_The_World_s_Best_Investors_Reveal_The_One_Strategy_You_Can_t_Overlook.pdf",
+      "pages": 273,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-piper-the-way-to-trade",
+      "tier": "A",
+      "filename": "John Piper - The Way To Trade.pdf",
+      "pages": 304,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading",
+      "tier": "A",
+      "filename": "Ken Wolff - 2002 - Trading On Momentum Advanced Techniques For High Percentage Day Trading.pdf",
+      "pages": 288,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "kenneth-l-fisher-super-stocks",
+      "tier": "A",
+      "filename": "KENNETH L. FISHER - Super Stocks.pdf",
+      "pages": 289,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "kevin-hagerty-day-trading-course",
+      "tier": "A",
+      "filename": "Kevin Hagerty - Day Trading Course.pdf",
+      "pages": 66,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "larry-williams-long-term-secrets-to-short-term-trading",
+      "tier": "A",
+      "filename": "Larry Williams - Long-Term Secrets To Short-Term Trading.pdf",
+      "pages": 254,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains",
+      "tier": "A",
+      "filename": "Larry Williams - The Secret Of Selecting Stocks For Immediate And Substantial Gains.pdf",
+      "pages": 131,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "lawrence-g-mcmillan-profit-with-options",
+      "tier": "A",
+      "filename": "LAWRENCE G. McMILLAN - Profit With Options.pdf",
+      "pages": 286,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "leslie-n-masonson-all-about-market-timing",
+      "tier": "A",
+      "filename": "Leslie N Masonson - All About Market Timing.pdf",
+      "pages": 275,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness",
+      "tier": "A",
+      "filename": "Mark B Fisher, - The Logical Trader. Applying A Method To The Madness.pdf",
+      "pages": 137,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "marketneutralstrategies",
+      "tier": "A",
+      "filename": "Marketneutralstrategies.pdf",
+      "pages": 304,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mathematicsmoneymanagement",
+      "tier": "A",
+      "filename": "MathematicsMoneyManagement.pdf",
+      "pages": 106,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures",
+      "tier": "A",
+      "filename": "Mcgraw Hill - The Options Edge Winning The Volatility Game With Options On Futures.pdf",
+      "pages": 294,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "michael-covel-trend-following",
+      "tier": "A",
+      "filename": "Michael Covel - Trend Following.pdf",
+      "pages": 344,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur",
+      "tier": "A",
+      "filename": "Miner Robert - High Probability Trading Strategies Entry to Exit Tactics for the Forex, Futures, and Stock Markets.pdf",
+      "pages": 290,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "money-management-report-van-tharp",
+      "tier": "A",
+      "filename": "Money Management Report - Van Tharp.pdf",
+      "pages": 70,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "new-concepts-in-technical-trading-systems-welles-wilder",
+      "tier": "A",
+      "filename": "New Concepts in Technical Trading Systems (Welles Wilder).pdf",
+      "pages": 0,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": false,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "oliver-velez-swing-trading-tactics",
+      "tier": "A",
+      "filename": "Oliver Velez - Swing Trading Tactics.pdf",
+      "pages": 87,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "options-essential-concepts-and-trading-strategies-2nd-edition",
+      "tier": "A",
+      "filename": "Options Essential Concepts and Trading Strategies, 2nd Edition.pdf",
+      "pages": 449,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "paul-wilmott-quantitative-finance",
+      "tier": "A",
+      "filename": "Paul Wilmott-Quantitative Finance.pdf",
+      "pages": 72,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "perry-kaufman-smarter-trading",
+      "tier": "A",
+      "filename": "Perry Kaufman - Smarter Trading.pdf",
+      "pages": 257,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "phantom-of-the-20-pits",
+      "tier": "A",
+      "filename": "Phantom of the 20 Pits.pdf",
+      "pages": 110,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "r-g-hagstrom-the-warren-buffett-way-2nd-edition",
+      "tier": "A",
+      "filename": "R G Hagstrom - The Warren Buffett Way  2nd Edition.pdf",
+      "pages": 268,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "rubinstein-mark-rubinstein-on-derivatives",
+      "tier": "A",
+      "filename": "Rubinstein_ Mark - Rubinstein on Derivatives.pdf",
+      "pages": 498,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "streetsmart-guide-to-valuing-a-stock",
+      "tier": "A",
+      "filename": "Streetsmart Guide To Valuing A Stock.pdf",
+      "pages": 290,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "study-guide-for-entries-and-exits-visits-to-16-trading-rooms",
+      "tier": "A",
+      "filename": "Study Guide for Entries and Exits Visits to 16 Trading Rooms.pdf",
+      "pages": 176,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "taleb-nassim-fooled-by-randomness",
+      "tier": "A",
+      "filename": "Taleb___Nassim_-_Fooled_by_Randomness.pdf",
+      "pages": 110,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-complete-turtletrader-the-legend-the-lessons-the-results",
+      "tier": "A",
+      "filename": "The Complete TurtleTrader - The Legend, the Lessons, the Results.pdf",
+      "pages": 269,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "trading-bollinger-john-bollinger-bands-done",
+      "tier": "A",
+      "filename": "[Trading] Bollinger_ John - Bollinger Bands (Done).pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "turtlerules",
+      "tier": "A",
+      "filename": "turtlerules.pdf",
+      "pages": 37,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "walter-bressert-intraday-timing-for-low-risk-swing-trading",
+      "tier": "A",
+      "filename": "Walter Bressert - Intraday Timing For Low Risk Swing Trading.pdf",
+      "pages": 20,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2",
+      "tier": "A",
+      "filename": "Wyckoff, Richard D  - The Day Trader's Bible - Or My Secret In Day Trading Of Stocks_2.pdf",
+      "pages": 116,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wyser-pratte-guy-risk-arbitrage",
+      "tier": "A",
+      "filename": "Wyser-Pratte, Guy - Risk Arbitrage.pdf",
+      "pages": 305,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "1-the-mathematics-of-financial-derivatives",
+      "tier": "B",
+      "filename": "1 The Mathematics Of Financial Derivatives.pdf",
+      "pages": 338,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "10-bankrupt",
+      "tier": "B",
+      "filename": "10__bankrupt.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "10-minute-guide-to-investing-in-stocks",
+      "tier": "B",
+      "filename": "10 Minute Guide To Investing In Stocks.pdf",
+      "pages": 248,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "10keystosuccess",
+      "tier": "B",
+      "filename": "10KeystoSuccess.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "15-minutestf",
+      "tier": "B",
+      "filename": "15 MinutesTF.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "17-money-making-candle-formations",
+      "tier": "B",
+      "filename": "17 Money Making Candle Formations.pdf",
+      "pages": 20,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:duplicate"
+    },
+    {
+      "slug": "1fta-forex-trading-course",
+      "tier": "B",
+      "filename": "1fta Forex Trading Course.pdf",
+      "pages": 58,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "241forex",
+      "tier": "B",
+      "filename": "241FOREX.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "25-rules-of-millionaire-traders",
+      "tier": "B",
+      "filename": "25_Rules_of_Millionaire_Traders.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "25-rules-of-trading",
+      "tier": "B",
+      "filename": "25 rules of trading.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "50-per-day-trading-forex",
+      "tier": "B",
+      "filename": "50_Per_Day_Trading_Forex.pdf",
+      "pages": 44,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "7-habits-of-a-higly-sucsessfull-trader",
+      "tier": "B",
+      "filename": "7 Habits Of A Higly Sucsessfull Trader.pdf",
+      "pages": 31,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "a-new-interprtation-of-information-rate-kelly",
+      "tier": "B",
+      "filename": "a-new-interprtation-of-information-rate-kelly.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "a-realistic-and-effective-strategy-for-using-candlestick-sri-0032",
+      "tier": "B",
+      "filename": "A Realistic And Effective Strategy For Using Candlestick - SRI-0032.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "algora-myths-of-the-free-market-2003-isbn0875862233",
+      "tier": "B",
+      "filename": "Algora, Myths Of The Free Market [2003 Isbn0875862233].pdf",
+      "pages": 277,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "alma-miranda-math-and-money",
+      "tier": "B",
+      "filename": "Alma Miranda - Math and Money.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "amazing-forex-system",
+      "tier": "B",
+      "filename": "Amazing Forex System.pdf",
+      "pages": 48,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "andrews-pitchfork",
+      "tier": "B",
+      "filename": "Andrews Pitchfork.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "andrews-scott-understanding-gaps",
+      "tier": "B",
+      "filename": "Andrews, Scott - Understanding Gaps.pdf",
+      "pages": 61,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence",
+      "tier": "B",
+      "filename": "Anshumana And Kalay-Can Splits Create Market Liquidity - Theory And Evidence.pdf",
+      "pages": 43,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "appendix1",
+      "tier": "B",
+      "filename": "Appendix1.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "article-arbitrage-pricing-theory",
+      "tier": "B",
+      "filename": "article - Arbitrage Pricing Theory.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000",
+      "tier": "B",
+      "filename": "Article - Market-Neutral Investing - Long-Short Hedge Fund Strategies_ Joseph G Nicholas_ 2000.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "asset-pricing-with-speculative-trading",
+      "tier": "B",
+      "filename": "Asset Pricing With Speculative Trading.pdf",
+      "pages": 40,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "asset-valuation-allocation-models",
+      "tier": "B",
+      "filename": "Asset Valuation Allocation Models.pdf",
+      "pages": 28,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "atrainer-method",
+      "tier": "B",
+      "filename": "Atrainer Method.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "aust-vs-int-l-equity-portfolio-journal",
+      "tier": "B",
+      "filename": "Aust Vs Int'l Equity Portfolio Journal.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "automated-forex-ea",
+      "tier": "B",
+      "filename": "Automated Forex EA.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "avoiding-mistakes-in-forex-trading-forextrader",
+      "tier": "B",
+      "filename": "Avoiding Mistakes In Forex Trading -Forextrader.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "back-to-basics-historical-option-pricing-revisited",
+      "tier": "B",
+      "filename": "Back To Basics -- Historical Option Pricing Revisited.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "barbara-star-hidden-divergence",
+      "tier": "B",
+      "filename": "Barbara Star - Hidden Divergence.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "basic-financial-strategies",
+      "tier": "B",
+      "filename": "Basic Financial Strategies.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "basic-guide-to-understanding-elliot-wave",
+      "tier": "B",
+      "filename": "Basic_Guide_To_Understanding_Elliot_Wave.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bass-financial-mathematics-2003-lecture-notes-series",
+      "tier": "B",
+      "filename": "Bass_Financial Mathematics (2003)(Lecture Notes Series).pdf",
+      "pages": 64,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "batfink-daily-range-a",
+      "tier": "B",
+      "filename": "Batfink Daily Range (A).pdf",
+      "pages": 16,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bella-method",
+      "tier": "B",
+      "filename": "Bella Method.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bessembinder-and-venkataraman-does-an-electronic-stock-exchange-need-an-upstairs-market",
+      "tier": "B",
+      "filename": "Bessembinder And Venkataraman-Does An Electronic Stock Exchange Need An Upstairs Market.pdf",
+      "pages": 43,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "big-ben-breakout",
+      "tier": "B",
+      "filename": "Big_Ben_Breakout.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow",
+      "tier": "B",
+      "filename": "Big Profit Patterns Using Candlestick Signals And Gaps - Stephen W  Bigalow.pdf",
+      "pages": 51,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bill-poulos-the-truth-about-fibonacci-trading",
+      "tier": "B",
+      "filename": "Bill Poulos The Truth About Fibonacci Trading.pdf",
+      "pages": 22,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bollinger-band",
+      "tier": "B",
+      "filename": "bollinger_band.pdf",
+      "pages": 5,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bollinger-bandit-trading-strategy",
+      "tier": "B",
+      "filename": "Bollinger_Bandit_Trading_Strategy.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "bonus-thoughts-on-trading",
+      "tier": "B",
+      "filename": "bonus_thoughts_on_trading.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "boot-camp-papers-2",
+      "tier": "B",
+      "filename": "Boot Camp Papers 2.pdf",
+      "pages": 149,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "borsellino-lewis-2001-trading-es-and-nq-futures-course",
+      "tier": "B",
+      "filename": "Borsellino Lewis 2001 - Trading Es And Nq Futures Course.pdf",
+      "pages": 45,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "breakup-0-1",
+      "tier": "B",
+      "filename": "Breakup 0.1.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "brooks-and-kim-the-individual-investor-and-the-weekend-effect-a-reexamination-with-intrada",
+      "tier": "B",
+      "filename": "Brooks And Kim-The Individual Investor And The Weekend Effect - A Reexamination With Intraday Dat.pdf",
+      "pages": 13,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cai-discretionary-risk-matrix",
+      "tier": "B",
+      "filename": "CAI discretionary risk matrix.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "camarilla-levels",
+      "tier": "B",
+      "filename": "Camarilla_Levels.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "candlestick-and-pattern-1",
+      "tier": "B",
+      "filename": "Candlestick_And_Pattern_1.pdf",
+      "pages": 49,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "candlestick-charting-explained",
+      "tier": "B",
+      "filename": "Candlestick-Charting-Explained.pdf",
+      "pages": 28,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cci-manual",
+      "tier": "B",
+      "filename": "cci_manual.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chan-chockalingam-and-lai-overnight-information-and-intraday-trading-behavior-evidence-fro",
+      "tier": "B",
+      "filename": "Chan, Chockalingam And Lai-Overnight Information And Intraday Trading Behavior - Evidence From Ny.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "channeltrading",
+      "tier": "B",
+      "filename": "ChannelTrading.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chart-formations",
+      "tier": "B",
+      "filename": "chart_formations.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chart-patterns-and-technical-indicators",
+      "tier": "B",
+      "filename": "Chart_Patterns_and_technical_indicators.pdf",
+      "pages": 41,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chart-patterns-tutorial",
+      "tier": "B",
+      "filename": "Chart_Patterns_Tutorial.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "choosing-a-trading-system-that-actually-works",
+      "tier": "B",
+      "filename": "Choosing A Trading System That Actually Works.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chordia-roll-and-subrahmanyam-commonality-in-liquidity",
+      "tier": "B",
+      "filename": "Chordia, Roll And Subrahmanyam -Commonality In Liquidity.pdf",
+      "pages": 26,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity",
+      "tier": "B",
+      "filename": "Chordia, Roll And Subrahmanyam -Market Liquidity And Trading Activity.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "client-expectations",
+      "tier": "B",
+      "filename": "Client Expectations.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "commodity-futures-trading-for-beginners",
+      "tier": "B",
+      "filename": "Commodity_Futures_Trading_For_Beginners.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "competition-between-exchanges-euronext-versus-xetra",
+      "tier": "B",
+      "filename": "Competition Between Exchanges Euronext Versus Xetra.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "congestion-markets-estimating-a-breakout-target",
+      "tier": "B",
+      "filename": "Congestion_Markets_-_Estimating_a_Breakout_Target.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "coreconcepts-automatedtrading",
+      "tier": "B",
+      "filename": "coreconcepts_automatedtrading.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cornflower",
+      "tier": "B",
+      "filename": "Cornflower.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cot",
+      "tier": "B",
+      "filename": "COT.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "credit-derivatives",
+      "tier": "B",
+      "filename": "Credit Derivatives.pdf",
+      "pages": 146,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "credit-risk-modeling-and-valuation-an-introduction",
+      "tier": "B",
+      "filename": "Credit Risk Modeling and Valuation_An Introduction.pdf",
+      "pages": 40,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "currency-trader0205",
+      "tier": "B",
+      "filename": "Currency_Trader0205.pdf",
+      "pages": 52,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "cutlosses",
+      "tier": "B",
+      "filename": "CutLosses.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "daily-open-sr-technique",
+      "tier": "B",
+      "filename": "Daily Open-SR Technique.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "david-c-stendahl-money-management-strategies-for-serious-traders",
+      "tier": "B",
+      "filename": "David C  Stendahl - Money Management Strategies For Serious Traders.pdf",
+      "pages": 46,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "daytrading-university-advanced-daytrading-two-day-seminar",
+      "tier": "B",
+      "filename": "Daytrading University - Advanced Daytrading Two-Day Seminar.pdf",
+      "pages": 31,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "daytrading-university-trading-course",
+      "tier": "B",
+      "filename": "Daytrading University Trading Course.pdf",
+      "pages": 0,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": false,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat",
+      "tier": "B",
+      "filename": "De Matos And Fernandes-Testing The Markov Property With Ultra-High Frequency Financial Data.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "demarchi-and-foucault-equity-trading-systems-in-europe-a-survey-of-recent-changes",
+      "tier": "B",
+      "filename": "Demarchi And Foucault-Equity Trading Systems In Europe - A Survey Of Recent Changes.pdf",
+      "pages": 54,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "derivatives-pricing-and-financial-modelling",
+      "tier": "B",
+      "filename": "Derivatives Pricing and Financial Modelling.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "deutsche-bank-asset-valuation-allocation-models-2001",
+      "tier": "B",
+      "filename": "Deutsche Bank - Asset Valuation Allocation Models 2001.pdf",
+      "pages": 28,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "divergence",
+      "tier": "B",
+      "filename": "Divergence.pdf",
+      "pages": 13,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "divergence-system",
+      "tier": "B",
+      "filename": "Divergence System.pdf",
+      "pages": 44,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "doestawork",
+      "tier": "B",
+      "filename": "DoesTAWork.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "donald-coxe-the-new-reality-of-wall-street",
+      "tier": "B",
+      "filename": "Donald Coxe - The New Reality Of Wall Street.pdf",
+      "pages": 290,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "doubletopsandbottoms",
+      "tier": "B",
+      "filename": "DoubleTopsAndBottoms.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "douglas-hubbard-the-failure-of-risk-management",
+      "tier": "B",
+      "filename": "Douglas Hubbard - The Failure of Risk Management.pdf",
+      "pages": 300,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "dow",
+      "tier": "B",
+      "filename": "Dow.pdf",
+      "pages": 27,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "e123system",
+      "tier": "B",
+      "filename": "E123system.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "ebook-finance-trading-ebook-stock-trading-system-sl4-confidential-proprietary",
+      "tier": "B",
+      "filename": "(eBook) - Finance - Trading ebook] Stock_Trading_System_SL4_Confidential_Proprietary.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "economics-how-the-stock-market-works",
+      "tier": "B",
+      "filename": "Economics - How The Stock Market Works.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "eday-trading-in-mind",
+      "tier": "B",
+      "filename": "Eday - Trading In Mind.pdf",
+      "pages": 17,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:duplicate"
+    },
+    {
+      "slug": "edward-dobson-understanding-spreads",
+      "tier": "B",
+      "filename": "Edward Dobson - Understanding Spreads.pdf",
+      "pages": 42,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "electronic-trading-systems-in-europe-and-development-potentialities-for-russia",
+      "tier": "B",
+      "filename": "Electronic Trading Systems In Europe And Development Potentialities For Russia.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "eleswarapu-and-venkataraman-the-impact-of-legal-and-political-institutions-on-equity-tradi",
+      "tier": "B",
+      "filename": "Eleswarapu And Venkataraman-The Impact Of Legal And Political Institutions On Equity Trading Cost.pdf",
+      "pages": 26,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "eleswarapu-thompson-and-venkataraman-the-impact-of-regulation-fair-disclosure-trading-cost",
+      "tier": "B",
+      "filename": "Eleswarapu, Thompson And Venkataraman-The Impact Of Regulation Fair Disclosure Trading Costs And .pdf",
+      "pages": 31,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth",
+      "tier": "B",
+      "filename": "Engle And Lange-Predicting Vnet - A Model Of The Dynamics Of Market Depth.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "etheebookoftechnicalmarketindicators",
+      "tier": "B",
+      "filename": "Etheebookoftechnicalmarketindicators.pdf",
+      "pages": 49,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "evaluation-of-value-at-risk-models",
+      "tier": "B",
+      "filename": "Evaluation Of Value At Risk-Models.pdf",
+      "pages": 58,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "exchange-rules-for-the-frankfurt-stock-exchange",
+      "tier": "B",
+      "filename": "Exchange Rules For The Frankfurt Stock Exchange.pdf",
+      "pages": 61,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "exchange-traded-funds",
+      "tier": "B",
+      "filename": "Exchange-Traded-Funds.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "exploring-value-at-risk",
+      "tier": "B",
+      "filename": "Exploring_Value_at_Risk.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "ez-trade-forex",
+      "tier": "B",
+      "filename": "EZ Trade forex.pdf",
+      "pages": 67,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fabozzi-2004-default-rates-on-structured-finance-securities",
+      "tier": "B",
+      "filename": "Fabozzi - 2004 - Default Rates on Structured Finance Securities.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fairygoodtrader",
+      "tier": "B",
+      "filename": "FairyGoodTrader.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fc-power-trading-course-forex-capital-markets-2003",
+      "tier": "B",
+      "filename": "Fc Power Trading Course -Forex Capital Markets- (2003).pdf",
+      "pages": 143,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fernando-commonality-in-liquidity-transmission-of-liquidity-shocks-across-investors-and-se",
+      "tier": "B",
+      "filename": "Fernando-Commonality In Liquidity-Transmission Of Liquidity Shocks Across Investors And Securitie.pdf",
+      "pages": 45,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fi-lecture16-exotic-options-credit-derivatives",
+      "tier": "B",
+      "filename": "fi_lecture16_exotic_options_credit_derivatives.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fibonaccimathinnature",
+      "tier": "B",
+      "filename": "FibonacciMathInNature.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "financial-market-trading-ebook-bollinger-john-a-cfa-cmt-market-master",
+      "tier": "B",
+      "filename": "[Financial Market Trading ebook] BOLLINGER John A. CFA_ CMT - Market Master.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "financial-times-series-tbx-ug",
+      "tier": "B",
+      "filename": "Financial_Times_Series_Tbx_UG.pdf",
+      "pages": 286,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fine-tuning-your-money-management",
+      "tier": "B",
+      "filename": "fine-tuning-your-money-management.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fixed-income-securities",
+      "tier": "B",
+      "filename": "fixed-income_securities.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-education-seminar2",
+      "tier": "B",
+      "filename": "Forex_Education_seminar2.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional",
+      "tier": "B",
+      "filename": "Forex For Everyone - Learn To Trade The Forex Market Like A Professional.pdf",
+      "pages": 102,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:no_text"
+    },
+    {
+      "slug": "forex-gladiator",
+      "tier": "B",
+      "filename": "Forex Gladiator.pdf",
+      "pages": 59,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-intraday-pivots-trading-system-complete-system",
+      "tier": "B",
+      "filename": "Forex Intraday Pivots Trading System - Complete System.pdf",
+      "pages": 59,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-manual-10-keys-to-successful-trading",
+      "tier": "B",
+      "filename": "FOREX Manual - 10 keys to successful trading.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-manual-in-english",
+      "tier": "B",
+      "filename": "Forex Manual In English.pdf",
+      "pages": 141,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-money-management",
+      "tier": "B",
+      "filename": "Forex-Money-Management.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-mtpredictor-trading-course-part-1a",
+      "tier": "B",
+      "filename": "(FOREX) MTPredictor Trading Course - Part 1a.pdf",
+      "pages": 144,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-nfa",
+      "tier": "B",
+      "filename": "forex-nfa.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-report-predicting-price-movement",
+      "tier": "B",
+      "filename": "Forex Report - Predicting Price Movement.pdf",
+      "pages": 25,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-report-when-totrade",
+      "tier": "B",
+      "filename": "Forex_Report_-_When_toTrade.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-strategy",
+      "tier": "B",
+      "filename": "ForEx Strategy.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005",
+      "tier": "B",
+      "filename": "FOREX_Systems_Research_-_Practical_Fibonacci_Methods_For_Forex_Trading_2005.pdf",
+      "pages": 31,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-trader-e-book",
+      "tier": "B",
+      "filename": "Forex_Trader_E-book.pdf",
+      "pages": 116,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-trading-education",
+      "tier": "B",
+      "filename": "Forex Trading Education.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-trading-is-challenging",
+      "tier": "B",
+      "filename": "Forex trading is Challenging.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-trading-machine-ebook",
+      "tier": "B",
+      "filename": "Forex_Trading_Machine_eBook.pdf",
+      "pages": 184,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "forex-trading-with-candlestick-and-pattern-2",
+      "tier": "B",
+      "filename": "Forex_Trading_With_Candlestick_And_Pattern_2.pdf",
+      "pages": 33,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:no_text"
+    },
+    {
+      "slug": "forexovereasy",
+      "tier": "B",
+      "filename": "Forexovereasy.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "foucault-and-kadan-limit-order-book-as-a-market-for-liquidity",
+      "tier": "B",
+      "filename": "Foucault And Kadan-Limit Order Book As A Market For Liquidity.pdf",
+      "pages": 59,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "foucault-and-lescourret-information-sharing-liquidity-and-transaction-costs-in-floor-based",
+      "tier": "B",
+      "filename": "Foucault And Lescourret-Information Sharing, Liquidity And Transaction Costs In Floor-Based Tradi.pdf",
+      "pages": 43,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity",
+      "tier": "B",
+      "filename": "Foucault, Kadan And Kandel-Limit Order Book As A Market For Liquidity.pdf",
+      "pages": 65,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fractal",
+      "tier": "B",
+      "filename": "fractal.pdf",
+      "pages": 171,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fundamentalsoftradingplan",
+      "tier": "B",
+      "filename": "FundamentalsOfTradingPlan.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fx-engines-predicting-price-action",
+      "tier": "B",
+      "filename": "FX Engines Predicting Price Action.pdf",
+      "pages": 25,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fx-wizard",
+      "tier": "B",
+      "filename": "FX_Wizard.pdf",
+      "pages": 52,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "fxfutures",
+      "tier": "B",
+      "filename": "FXFutures.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "gann-w-d-1953-magic-words",
+      "tier": "B",
+      "filename": "Gann, W.D. (1953)_Magic Words.pdf",
+      "pages": 91,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "general-observations-thoughts-on-trading-gbp",
+      "tier": "B",
+      "filename": "General_Observations___Thoughts_On_Trading_GBP.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "georgemuzea-the-vital-few-vs-the-trivial-many-invest-with-the-insiders-not-the-masses",
+      "tier": "B",
+      "filename": "GeorgeMuzea - The_Vital_Few_Vs_The_Trivial_Many_-_Invest_With_The_Insiders__Not_The_Masses_.pdf",
+      "pages": 227,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "gimmibar",
+      "tier": "B",
+      "filename": "gimmibar.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market",
+      "tier": "B",
+      "filename": "Giot And Grammig-How Large Is Liquidity Risk In An Automated Auction Market.pdf",
+      "pages": 32,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "giuciao-atspace-org-building-your-e-mini-trading-strategy",
+      "tier": "B",
+      "filename": "Giuciao Atspace Org-Building Your E-Mini Trading Strategy.pdf",
+      "pages": 121,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "glossary-of-forex-terms",
+      "tier": "B",
+      "filename": "Glossary-of-Forex-Terms.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "got-your-trading-style-figured-out",
+      "tier": "B",
+      "filename": "Got_Your_Trading_Style_Figured_Out.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "greatestmoneymakingsecret",
+      "tier": "B",
+      "filename": "GreatestMoneyMakingSecret.pdf",
+      "pages": 111,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "griffiths-turnbullb-and-white-re-examining-the-small-cap-myth-problems-in-portfolio-format",
+      "tier": "B",
+      "filename": "Griffiths, Turnbullb And White-Re-Examining The Small-Cap Myth Problems In Portfolio Formation An.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the",
+      "tier": "B",
+      "filename": "Hamao And Hasbrouck-Securities Trading In The Absence Of Dealers - Trades, And Quotes On The Toky.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz",
+      "tier": "B",
+      "filename": "Handbook For Investment Committee Members How To Make Prudent Investments For Your Organization Wiley Finance Series Ebook-Yyepg.pdf",
+      "pages": 178,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "harrison-waldron-mathematical-economics-and-finance",
+      "tier": "B",
+      "filename": "Harrison_ Waldron - Mathematical Economics and Finance.pdf",
+      "pages": 153,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market",
+      "tier": "B",
+      "filename": "Hartmann, Manna And Manzanares-The Microstructure Of The Euro Money Market.pdf",
+      "pages": 54,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies",
+      "tier": "B",
+      "filename": "Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies.pdf",
+      "pages": 63,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hedges-on-hedge-funds-how-to-successfully-analyze-2005",
+      "tier": "B",
+      "filename": "Hedges On Hedge Funds How To Successfully Analyze (2005).pdf",
+      "pages": 258,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hilda-system",
+      "tier": "B",
+      "filename": "Hilda System.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "historicaltesting",
+      "tier": "B",
+      "filename": "historicaltesting.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets",
+      "tier": "B",
+      "filename": "Hollifield, Miller, Sandas And Slive-Liquidity Supply And Demand In Limit Order Markets.pdf",
+      "pages": 55,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "how-effective-is-automated-forex-trading",
+      "tier": "B",
+      "filename": "How Effective is Automated Forex Trading.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "how-the-stock-market-works",
+      "tier": "B",
+      "filename": "How The Stock Market Works.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "i-guide-to-currency-trading-forex",
+      "tier": "B",
+      "filename": "I Guide To Currency Trading - Forex.pdf",
+      "pages": 45,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "impulsive-wave",
+      "tier": "B",
+      "filename": "Impulsive wave.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "inside-the-guru-mind-warren-buffet-r-heller",
+      "tier": "B",
+      "filename": "Inside The Guru Mind Warren Buffet [R  Heller].pdf",
+      "pages": 13,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "insurances-strategies",
+      "tier": "B",
+      "filename": "Insurances Strategies.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "intraday-trading-techniques",
+      "tier": "B",
+      "filename": "Intraday Trading Techniques.pdf",
+      "pages": 66,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "introduction-to-monte-carlo-methods",
+      "tier": "B",
+      "filename": "Introduction To Monte Carlo Methods.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "investing-strategies-for-the-high-net-worth-investor",
+      "tier": "B",
+      "filename": "Investing Strategies for the High Net-Worth Investor.pdf",
+      "pages": 321,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "investment-vehicles",
+      "tier": "B",
+      "filename": "Investment Vehicles.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:no_text"
+    },
+    {
+      "slug": "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia",
+      "tier": "B",
+      "filename": "Ito And Hashimoto-High-Frequency Contagion Of Currency Crises In Asia.pdf",
+      "pages": 55,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "j-k-lasser-pick-stocks-like-warren-buffett",
+      "tier": "B",
+      "filename": "J K  Lasser - Pick Stocks Like Warren Buffett.pdf",
+      "pages": 305,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jake-bernstein-dearborn-trade-publishing-no-bull-investing",
+      "tier": "B",
+      "filename": "Jake Bernstein - Dearborn Trade Publishing - No Bull Investing.pdf",
+      "pages": 224,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jake-bernstein-how-to-trade-the-new-single-stock-futures",
+      "tier": "B",
+      "filename": "Jake Bernstein - How To Trade The New Single Stock Futures.pdf",
+      "pages": 214,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jamie-rogers-strategy-value-and-risk-the-real-options-approach",
+      "tier": "B",
+      "filename": "Jamie Rogers - Strategy, Value And Risk-The Real Options Approach.pdf",
+      "pages": 156,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jen-matshall-practical-fibonacci-methode-for-forex-trading",
+      "tier": "B",
+      "filename": "Jen Matshall -  Practical Fibonacci Methode For Forex Trading.pdf",
+      "pages": 31,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jet-heat-mechanical-discretion",
+      "tier": "B",
+      "filename": "Jet Heat - Mechanical Discretion.pdf",
+      "pages": 44,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "joe-ross-how-to-spot-a-trend",
+      "tier": "B",
+      "filename": "Joe Ross - How To Spot A Trend.pdf",
+      "pages": 25,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "joerosstrading-manual-appendices-269-320",
+      "tier": "B",
+      "filename": "JoeRossTrading Manual_Appendices_269_320.pdf",
+      "pages": 52,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "joerosstrading-manual-intro-1-13",
+      "tier": "B",
+      "filename": "JoeRossTrading Manual Intro 1 13.pdf",
+      "pages": 13,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-allen-paulos-mathematician-plays-the-stock-market",
+      "tier": "B",
+      "filename": "John Allen Paulos - Mathematician Plays The Stock Market.pdf",
+      "pages": 221,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-hayden-how-to-use-the-rsi",
+      "tier": "B",
+      "filename": "John Hayden - How To Use The Rsi.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-l-person-swing-trading-using-candlestick-charting-with-pivot-point",
+      "tier": "B",
+      "filename": "John L Person - Swing Trading Using Candlestick Charting With Pivot Point.pdf",
+      "pages": 16,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-wiley-sons-stock-trader-almanac-2005-38th-ed",
+      "tier": "B",
+      "filename": "John Wiley Sons Stock Trader Almanac 2005 38th Ed.pdf",
+      "pages": 195,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "john-wiley-sons-valuation-maximizing-corporate-value",
+      "tier": "B",
+      "filename": "John Wiley Sons - Valuation - Maximizing Corporate Value.pdf",
+      "pages": 211,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jorda-and-marcellino-modeling-high-frequency-fx-data-dynamics",
+      "tier": "B",
+      "filename": "Jorda And Marcellino-Modeling High-Frequency Fx Data Dynamics.pdf",
+      "pages": 32,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "jp-candlesticks",
+      "tier": "B",
+      "filename": "jp_candlesticks.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "kahneman-daniel-investor-psychology",
+      "tier": "B",
+      "filename": "Kahneman_ Daniel - Investor Psychology.pdf",
+      "pages": 22,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "kellybetting",
+      "tier": "B",
+      "filename": "kellybetting.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "kiesel-financial-mathematics",
+      "tier": "B",
+      "filename": "Kiesel_ Financial mathematics.pdf",
+      "pages": 142,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "krugman-hedge-funds",
+      "tier": "B",
+      "filename": "krugman_hedge_funds.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "latest-developments-at-the-fwb-xetra-best-slide-13",
+      "tier": "B",
+      "filename": "Latest Developments At The Fwb - Xetra Best Slide 13.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "learning-to-trade",
+      "tier": "B",
+      "filename": "Learning-to-Trade.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "lecture-notes-in-mathematical-finance-lin-1996",
+      "tier": "B",
+      "filename": "Lecture Notes In Mathematical Finance (Lin_1996).pdf",
+      "pages": 114,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "lee-fok-and-liu-explaining-intraday-pattern-of-trading-volume-from-the-order-flow-data",
+      "tier": "B",
+      "filename": "Lee, Fok And Liu - Explaining Intraday Pattern Of Trading Volume From The Order Flow Data.pdf",
+      "pages": 32,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "letting-your-profits-run",
+      "tier": "B",
+      "filename": "Letting Your Profits Run.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "liquidity-in-forex-markets",
+      "tier": "B",
+      "filename": "Liquidity in Forex Markets.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "lss-3-day-cycle-method",
+      "tier": "B",
+      "filename": "lss_3_day_cycle_method.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "macd",
+      "tier": "B",
+      "filename": "MACD.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "madhavan-market-microstructure-a-survey",
+      "tier": "B",
+      "filename": "Madhavan-Market Microstructure-A Survey.pdf",
+      "pages": 54,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "managed-forex-trading-software",
+      "tier": "B",
+      "filename": "Managed Forex Trading Software.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "managing-credit-risk-with-credit-and-macro-derivatives",
+      "tier": "B",
+      "filename": "Managing Credit Risk With Credit And Macro Derivatives.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "managing-your-money",
+      "tier": "B",
+      "filename": "Managing_your_money.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro",
+      "tier": "B",
+      "filename": "Mann, Venkataraman And Waisburd-Stock Liquidity And The Value Of A Designated Liquidity Provider Evidence From Paris Euronext.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "marcel-petro-market-timing",
+      "tier": "B",
+      "filename": "Marcel Petro - Market Timing.pdf",
+      "pages": 58,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "market-movement",
+      "tier": "B",
+      "filename": "Market_Movement.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "marketwise-trading-school-options-trading-primer",
+      "tier": "B",
+      "filename": "Marketwise Trading School - Options Trading Primer .pdf",
+      "pages": 61,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "markus-heitkoetter-how-to-make-money-with-trading-systems",
+      "tier": "B",
+      "filename": "Markus Heitkoetter - How To Make Money With Trading Systems.pdf",
+      "pages": 28,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "martinez-jared-the-10-keys-to-successful-trading-not-complete",
+      "tier": "B",
+      "filename": "Martinez_ Jared - The 10 Keys to Successful Trading (not complete).pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "maximizing-gains-with-trade-management",
+      "tier": "B",
+      "filename": "Maximizing Gains With Trade Management.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mcgraw-hill-how-to-read-a-financial-statement",
+      "tier": "B",
+      "filename": "McGraw-Hill - How to Read a Financial Statement.pdf",
+      "pages": 192,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mcgraw-hill-stock-options-and-the-new-rules",
+      "tier": "B",
+      "filename": "Mcgraw-Hill - Stock options and the new rules.pdf",
+      "pages": 226,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mcgraw-hill-understanding-stocks",
+      "tier": "B",
+      "filename": "Mcgraw Hill - Understanding Stocks.pdf",
+      "pages": 210,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mcmillan-and-speight-nonlinear-dynamics-in-high-frequency-intra-day-financial-data",
+      "tier": "B",
+      "filename": "Mcmillan And Speight-Nonlinear Dynamics In High Frequency Intra-Day Financial Data.pdf",
+      "pages": 30,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "metastock-chart-patterns-tutorial",
+      "tier": "B",
+      "filename": "Metastock_Chart_Patterns_Tutorial.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "michael-panzner-the-new-laws-of-the-stock-market-jungle",
+      "tier": "B",
+      "filename": "Michael Panzner - The New Laws of the Stock Market Jungle.pdf",
+      "pages": 316,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "michael-sheimo-stock-market-rules",
+      "tier": "B",
+      "filename": "Michael Sheimo - Stock Market Rules.pdf",
+      "pages": 240,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mindset-of-millionaire-traders",
+      "tier": "B",
+      "filename": "Mindset_of_Millionaire_Traders.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "miracle-of-discipline",
+      "tier": "B",
+      "filename": "Miracle_of_Discipline.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mmts-2-0",
+      "tier": "B",
+      "filename": "MMTS 2.0.pdf",
+      "pages": 130,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "money-management-for-gambler",
+      "tier": "B",
+      "filename": "money_management_for_gambler.pdf",
+      "pages": 0,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": false,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "money-management-risk-control-for-traders",
+      "tier": "B",
+      "filename": "Money Management Risk Control For Traders.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "money-management1",
+      "tier": "B",
+      "filename": "money-management1.pdf",
+      "pages": 17,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "money-manager-trading-strategy",
+      "tier": "B",
+      "filename": "Money_Manager_Trading_Strategy.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "moriarty-sfsg",
+      "tier": "B",
+      "filename": "Moriarty Sfsg.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "morris-and-song-shin-liquidity-black-holes",
+      "tier": "B",
+      "filename": "Morris And Song Shin-Liquidity Black Holes.pdf",
+      "pages": 28,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mostmarketmoving08-09-06",
+      "tier": "B",
+      "filename": "MostMarketMoving08.09.06.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mql-4-metatrader-4-development-course",
+      "tier": "B",
+      "filename": "Mql 4- Metatrader 4 Development Course.pdf",
+      "pages": 258,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "mulitple-patterns-and-time-periods",
+      "tier": "B",
+      "filename": "Mulitple_Patterns_and_Time_Periods.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng",
+      "tier": "B",
+      "filename": "Nasdaq Education Foundation - A Guide to U.S. Stock Markets(eng) .pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "nfp",
+      "tier": "B",
+      "filename": "NFP.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "nicktrader-on-no-price-trading",
+      "tier": "B",
+      "filename": "nicktrader_on_no_price_trading.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "norman-frumkin-guide-to-economic-indicators",
+      "tier": "B",
+      "filename": "Norman Frumkin - Guide to Economic Indicators.pdf",
+      "pages": 305,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "oh-crap-free",
+      "tier": "B",
+      "filename": "oh_crap_free.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "online-trading-academy-electronic-trading-guide-for-nasdaq-l2-9908-2",
+      "tier": "B",
+      "filename": "Online Trading Academy - Electronic Trading Guide For Nasdaq L2(9908)_2.pdf",
+      "pages": 119,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "parlour-and-seppi-liquidity-based-competition-for-order-flow",
+      "tier": "B",
+      "filename": "Parlour And Seppi-Liquidity-Based Competition For Order Flow.pdf",
+      "pages": 43,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "peaks-and-troughs-pring",
+      "tier": "B",
+      "filename": "Peaks_and_Troughs_Pring.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "personal-trading-behaviour",
+      "tier": "B",
+      "filename": "Personal_Trading_Behaviour.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "phoenix-2007-how-to-optimize-phoenix",
+      "tier": "B",
+      "filename": "Phoenix-2007-How-To-Optimize-phoenix.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "pis-fsg",
+      "tier": "B",
+      "filename": "Pis Fsg.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "pivots",
+      "tier": "B",
+      "filename": "Pivots.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "place-of-insurance",
+      "tier": "B",
+      "filename": "Place Of Insurance.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:no_text"
+    },
+    {
+      "slug": "plan-process",
+      "tier": "B",
+      "filename": "Plan Process.pdf",
+      "pages": 1,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "portfolio-risk-reduction",
+      "tier": "B",
+      "filename": "Portfolio Risk Reduction.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "position-sizing",
+      "tier": "B",
+      "filename": "position_sizing.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "practicalew",
+      "tier": "B",
+      "filename": "PracticalEW.pdf",
+      "pages": 47,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "pristine-s-cardinal-rules-of-trading",
+      "tier": "B",
+      "filename": "Pristine's Cardinal Rules Of Trading.pdf",
+      "pages": 44,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "prob-tables-article",
+      "tier": "B",
+      "filename": "prob tables article.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "profitfromprices",
+      "tier": "B",
+      "filename": "profitfromprices.pdf",
+      "pages": 182,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "prospect-theory",
+      "tier": "B",
+      "filename": "Prospect Theory.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "putting-it-all-together",
+      "tier": "B",
+      "filename": "Putting_it_all_together.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies",
+      "tier": "B",
+      "filename": "R Imperiale - The Micro Cap Investor - Strategies For Making Big Returns In Small Companies.pdf",
+      "pages": 209,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "realtime-forex",
+      "tier": "B",
+      "filename": "Realtime_Forex.pdf",
+      "pages": 117,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "resource-stocks-in-portfolio",
+      "tier": "B",
+      "filename": "Resource Stocks In Portfolio.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "rich-dad-poor-dad-by-robert-t-kiyosaki",
+      "tier": "B",
+      "filename": "Rich Dad_ Poor Dad by Robert T. Kiyosaki.pdf",
+      "pages": 130,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "risk-reward-margin",
+      "tier": "B",
+      "filename": "risk-reward-margin.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "robert-slater-soros-unauthorized-biography",
+      "tier": "B",
+      "filename": "Robert Slater - Soros Unauthorized Biography.pdf",
+      "pages": 261,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "s-a-mccrary-hedge-fund-course",
+      "tier": "B",
+      "filename": "S A Mccrary - Hedge Fund Course.pdf",
+      "pages": 305,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "secrets-of-the-millionaire-traders-vol-i",
+      "tier": "B",
+      "filename": "Secrets Of The Millionaire Traders Vol I.pdf",
+      "pages": 27,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition",
+      "tier": "B",
+      "filename": "Sharon Saltzgiver Wright - Getting_Started_In_Bonds_2nd_Edition.pdf",
+      "pages": 306,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "sharpeningskills",
+      "tier": "B",
+      "filename": "SharpeningSkills.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "sidus-method",
+      "tier": "B",
+      "filename": "Sidus Method.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "signalselection",
+      "tier": "B",
+      "filename": "signalselection.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "singlestockfutures",
+      "tier": "B",
+      "filename": "SingleStockFutures.pdf",
+      "pages": 168,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "six-forces-of-forex",
+      "tier": "B",
+      "filename": "Six Forces of Forex.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "sm-momentum-investing-screening-for",
+      "tier": "B",
+      "filename": "(sm) Momentum Investing - Screening for.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "staying-out-of-trouble-trading-currencies-with-channels",
+      "tier": "B",
+      "filename": "Staying Out Of Trouble Trading Currencies With Channels.pdf",
+      "pages": 28,
+      "text_status": "no_text",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "stock-market-rules-50-of-the-most-widely-held-investment-axioms-explained-examined-and-exp",
+      "tier": "B",
+      "filename": "Stock Market Rules - 50 of the Most Widely Held Investment Axioms Explained, Examined, and Exposed.2005.pdf",
+      "pages": 240,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "stops",
+      "tier": "B",
+      "filename": "stops.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "sundial-system",
+      "tier": "B",
+      "filename": "Sundial System.pdf",
+      "pages": 43,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "super-combo-day-trading-strategy",
+      "tier": "B",
+      "filename": "Super_Combo_Day_Trading_Strategy.pdf",
+      "pages": 15,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "supply-demand",
+      "tier": "B",
+      "filename": "supply_demand.pdf",
+      "pages": 41,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "t2w-trading-plan-template-2005-asb",
+      "tier": "B",
+      "filename": "T2W_Trading_Plan_Template_2005-asb.pdf",
+      "pages": 29,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "take-the-money-and-run",
+      "tier": "B",
+      "filename": "Take The Money and Run.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "td-sequential",
+      "tier": "B",
+      "filename": "TD_Sequential.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "tfefuturecourse",
+      "tier": "B",
+      "filename": "tfefuturecourse.pdf",
+      "pages": 191,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-1hr-tunnel-method",
+      "tier": "B",
+      "filename": "THE 1HR TUNNEL METHOD.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-boomerang",
+      "tier": "B",
+      "filename": "The Boomerang.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-equity-options-strategy-guide",
+      "tier": "B",
+      "filename": "The Equity Options Strategy Guide.pdf",
+      "pages": 32,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-forex-market-phenomena",
+      "tier": "B",
+      "filename": "The Forex Market Phenomena.pdf",
+      "pages": 52,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-forex-method-and-trading-strategies-that-keep-you-on-the-right-side-of-the-market",
+      "tier": "B",
+      "filename": "The Forex Method and Trading Strategies That Keep You On The Right Side Of The Market.pdf",
+      "pages": 9,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex",
+      "tier": "B",
+      "filename": "The Interaction Between The Frequency Of Market Quotes Spread And Volatility In Forex.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-magic-of-forex-trading",
+      "tier": "B",
+      "filename": "The magic of Forex trading.pdf",
+      "pages": 10,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-market-as-mass-mind",
+      "tier": "B",
+      "filename": "The_Market_as_Mass_Mind.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-nyse-tick-index-and-candlesticks",
+      "tier": "B",
+      "filename": "the-nyse-tick-index-and-candlesticks.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-outsider-method",
+      "tier": "B",
+      "filename": "The Outsider Method.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-penny-stock-trading-sysyem",
+      "tier": "B",
+      "filename": "The Penny Stock Trading Sysyem.pdf",
+      "pages": 214,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-secret-to-selecting-automated-trading-software",
+      "tier": "B",
+      "filename": "The Secret To Selecting Automated Trading Software.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-stock-market-for-dummies",
+      "tier": "B",
+      "filename": "The Stock Market For Dummies.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "the-superstock-investor-profiting-from-wall-streets-best-undervalued-companies",
+      "tier": "B",
+      "filename": "The Superstock Investor - Profiting From Wall Streets Best Undervalued Companies.pdf",
+      "pages": 314,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "thermostat-trading-strategy",
+      "tier": "B",
+      "filename": "Thermostat_Trading_Strategy.pdf",
+      "pages": 7,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:duplicate"
+    },
+    {
+      "slug": "thomas-and-patnaik-serial-correlation-in-high-frequency-data-and-the-link-with-liquidity",
+      "tier": "B",
+      "filename": "Thomas And Patnaik-Serial Correlation In High-Frequency Data And The Link With Liquidity.pdf",
+      "pages": 26,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "trade-easy-with-an-automated-forex-trading-system",
+      "tier": "B",
+      "filename": "Trade Easy with an Automated Forex Trading System.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "traders-trick-entry",
+      "tier": "B",
+      "filename": "Traders_Trick_Entry.pdf",
+      "pages": 57,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "trading-functions",
+      "tier": "B",
+      "filename": "Trading functions.pdf",
+      "pages": 21,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "reconcile_skip:off_topic"
+    },
+    {
+      "slug": "trading-psychology",
+      "tier": "B",
+      "filename": "Trading Psychology.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "trend-determination",
+      "tier": "B",
+      "filename": "Trend_Determination.pdf",
+      "pages": 11,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "trend-vs-no-trend",
+      "tier": "B",
+      "filename": "Trend_vs_no_trend.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "triangletradingmethod",
+      "tier": "B",
+      "filename": "TriangleTradingMethod.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "turtles-matter",
+      "tier": "B",
+      "filename": "turtles-matter.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "tyler-bollhorn-market-perspectives",
+      "tier": "B",
+      "filename": "Tyler Bollhorn - Market Perspectives.pdf",
+      "pages": 62,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "u-s-key-economic-indica",
+      "tier": "B",
+      "filename": "U.S._KEY_ECONOMIC_INDICA.pdf",
+      "pages": 24,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "understanding-forex-candlestick",
+      "tier": "B",
+      "filename": "Understanding Forex Candlestick.pdf",
+      "pages": 14,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns",
+      "tier": "B",
+      "filename": "Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns.pdf",
+      "pages": 166,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "using-up-gaps-to-anticipate-upward-price-moves",
+      "tier": "B",
+      "filename": "Using Up Gaps To Anticipate Upward Price Moves.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "using-volatility-in-option-tradingpart-1",
+      "tier": "B",
+      "filename": "Using volatility in Option Tradingpart 1.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "usingprocessresults",
+      "tier": "B",
+      "filename": "UsingProcessResults.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "valuation-of-cash-flows-investment-decisions-capital-bud",
+      "tier": "B",
+      "filename": "Valuation Of Cash Flows Investment Decisions Capital Bud.pdf",
+      "pages": 32,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "van-tharp-stop-worrying-yourself-out-of-profits",
+      "tier": "B",
+      "filename": "Van Tharp - Stop Worrying Yourself out of Profits.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "van-tharp-the-flow-of-the-markets",
+      "tier": "B",
+      "filename": "Van-Tharp - The Flow of the Markets.pdf",
+      "pages": 2,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "vanessafx-advanced-systems",
+      "tier": "B",
+      "filename": "VanessaFX_Advanced_Systems.pdf",
+      "pages": 25,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "version9i",
+      "tier": "B",
+      "filename": "Version9i.PDF",
+      "pages": 16,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "vladimir-daragan-how-to-win-the-stock-market-game",
+      "tier": "B",
+      "filename": "Vladimir Daragan - How_to_Win_the_Stock_Market_Game.pdf",
+      "pages": 57,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "volatility",
+      "tier": "B",
+      "filename": "Volatility.pdf",
+      "pages": 4,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "volatility-part-2",
+      "tier": "B",
+      "filename": "volatility part 2.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator",
+      "tier": "B",
+      "filename": "Wayne A. Thorp - Measuring Internal Strength - Wilders RSI Indicator.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wayne-a-thorp-testing-trading-success",
+      "tier": "B",
+      "filename": "Wayne A. Thorp - Testing Trading Success.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds",
+      "tier": "B",
+      "filename": "Wayne A. Thorp - The MACD A Combo of Indicators for the Best of Both Worlds.pdf",
+      "pages": 5,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wayne-gorman-how-you-can-identify-turning-points-using-fibonacci",
+      "tier": "B",
+      "filename": "Wayne Gorman - How You Can Identify Turning Points Using Fibonacci.pdf",
+      "pages": 42,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "what-moves-the-currency-market",
+      "tier": "B",
+      "filename": "What moves the currency market.pdf",
+      "pages": 3,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wiley-trading-study-guide-for-come-into-my-trading-room-a-complete-guide-to-trading-2002-i",
+      "tier": "B",
+      "filename": "Wiley Trading, Study Guide For Come Into My Trading Room - A Complete Guide To Trading [2002 Isbn0471225401].pdf",
+      "pages": 210,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "william-n-goetzmann-fibonacci-and-the-financial-revolution",
+      "tier": "B",
+      "filename": "William N. Goetzmann - Fibonacci and the Financial Revolution.pdf",
+      "pages": 44,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "williams-undeclared-stockmarket-secrets",
+      "tier": "B",
+      "filename": "Williams - Undeclared Stockmarket Secrets.pdf",
+      "pages": 129,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "wolfe-waves",
+      "tier": "B",
+      "filename": "Wolfe Waves.pdf",
+      "pages": 6,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "xavier-gabaix-a-theory-of-large-fluctuations-in-stock-market",
+      "tier": "B",
+      "filename": "Xavier Gabaix -  A Theory of Large Fluctuations in Stock Market.pdf",
+      "pages": 52,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "xetraxxl-marketmodel",
+      "tier": "B",
+      "filename": "Xetraxxl Marketmodel.pdf",
+      "pages": 12,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    },
+    {
+      "slug": "your-trading-plan",
+      "tier": "B",
+      "filename": "Your_trading_plan.pdf",
+      "pages": 7,
+      "text_status": "ok",
+      "pdf_present": true,
+      "text_present": true,
+      "status": "needs_source_review"
+    }
+  ]
+}

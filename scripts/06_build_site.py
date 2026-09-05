@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import re
 import shutil
+import csv
 from collections import defaultdict
 
 import frontmatter
@@ -19,7 +20,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from common import BOOKS, CATEGORIES, CONTENT, DOCS, ROOT, TOPICS, load_manifest
 
 SITE_TITLE = "Trading Playbook"
-TAGLINE = "700+ trading books, distilled and indexed."
+TAGLINE = "A partial library of trading study notes, indexed for research."
 DISCLAIMER = "Educational summaries only. Nothing here is financial advice. Test every rule before risking capital."
 
 env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
@@ -75,11 +76,11 @@ def main() -> None:
     for name in CATEGORIES:
         ts = topic_slug(name)
         f = TOPICS / f"{ts}.md"
-        if f.exists():
-            topics.append({"name": name, "slug": ts, "post": frontmatter.load(f, encoding="utf-8")})
+        post = frontmatter.load(f, encoding="utf-8") if f.exists() else None
+        topics.append({"name": name, "slug": ts, "post": post})
     nav_topics = [{"name": t["name"], "slug": t["slug"]} for t in topics]
 
-    base_ctx = dict(site_title=SITE_TITLE, tagline=TAGLINE, disclaimer=DISCLAIMER, nav_topics=nav_topics)
+    base_ctx = dict(site_title=SITE_TITLE, tagline=TAGLINE, disclaimer=DISCLAIMER, nav_topics=nav_topics, has_paths=(CONTENT / "paths.md").exists())
 
     # ---- book pages
     tpl_book = env.get_template("book.html")
@@ -95,28 +96,44 @@ def main() -> None:
         cat_slug = topic_slug(m.get("category", ""))
         out = tpl_book.render(**base_ctx, root="../", m=m, body=html, related=related, parent=parent, systems=systems, cat_slug=cat_slug, toc=MD.toc)
         (DOCS / "books" / f"{s}.html").write_text(out, encoding="utf-8")
-        # search text: strip markdown, keep headings + first 1200 words
+        # Keep the complete note in the local search index. The browser search is
+        # intentionally simple, so it can also run when search.html is opened via file://.
         plain = re.sub(r"[#*`>\[\]_]|\[\[|\]\]", " ", p.content)
-        plain = re.sub(r"\s+", " ", plain)[:6000]
+        plain = re.sub(r"\s+", " ", plain).strip()
         search_rows.append({
             "slug": s, "title": m["title"], "author": str(m.get("author", "")), "year": str(m.get("year", "")),
             "category": m.get("category", ""), "tier": m.get("tier", ""), "difficulty": m.get("difficulty", ""),
             "doc_type": m.get("doc_type", ""), "tags": " ".join(m.get("tags", [])), "one_liner": m.get("one_liner", ""),
-            "text": plain,
+            "text": plain, "url": f"books/{s}.html",
         })
-    (DOCS / "search-index.json").write_text(json.dumps(search_rows, ensure_ascii=False), encoding="utf-8")
 
     # ---- topic pages
     tpl_topic = env.get_template("topic.html")
     for t in topics:
-        m = t["post"].metadata
-        html = render_md(t["post"].content, "../", slugs, titles)
+        post = t["post"]
+        m = post.metadata if post else {}
+        html = render_md(post.content, "../", slugs, titles) if post else ""
         in_cat = sorted(
             [{"slug": s, "title": titles[s], "author": p.metadata.get("author", ""), "tier": p.metadata.get("tier"), "one_liner": p.metadata.get("one_liner", ""), "doc_type": p.metadata.get("doc_type")}
              for s, p in books.items() if p.metadata.get("category") == t["name"] and p.metadata.get("doc_type") != "system"],
             key=lambda x: (x["tier"] != "A", x["title"].lower()))
-        out = tpl_topic.render(**base_ctx, root="../", name=t["name"], m=m, body=html, in_cat=in_cat, toc=MD.toc)
+        out = tpl_topic.render(**base_ctx, root="../", name=t["name"], m=m, body=html, in_cat=in_cat, toc=MD.toc, has_synthesis=bool(post))
         (DOCS / "topics" / f"{t['slug']}.html").write_text(out, encoding="utf-8")
+        search_rows.append({
+            "slug": t["slug"], "title": t["name"], "author": "", "year": "",
+            "category": t["name"], "tier": "", "difficulty": "", "doc_type": "topic",
+            "tags": t["name"], "one_liner": m.get("summary", "Catalog of available notes in this category."),
+            "text": re.sub(r"\s+", " ", post.content if post else "").strip(),
+            "url": f"topics/{t['slug']}.html",
+        })
+
+    (DOCS / "search-data.js").write_text(
+        "window.TRADING_PLAYBOOK_SEARCH = " + json.dumps(search_rows, ensure_ascii=False) + ";\n",
+        encoding="utf-8",
+    )
+    # Preserve the JSON export for existing consumers; search.html uses the
+    # adjacent JS file so it also works when opened directly from disk.
+    (DOCS / "search-index.json").write_text(json.dumps(search_rows, ensure_ascii=False), encoding="utf-8")
 
     # ---- paths page
     pf = CONTENT / "paths.md"
@@ -154,11 +171,13 @@ def main() -> None:
         "tier_b": sum(1 for p in books.values() if p.metadata.get("tier") == "B" and p.metadata.get("doc_type") != "system"),
         "systems": len(systems), "excluded": sum(len(v) for v in excluded.values()),
     }
+    backlog = ROOT / "data" / "resume_backlog.csv"
+    counts["pending"] = max(0, sum(1 for _ in csv.DictReader(backlog.open(encoding="utf-8")))) if backlog.exists() else 0
     cat_groups = [{"name": c, "slug": topic_slug(c), "items": by_cat.get(c, [])} for c in CATEGORIES if by_cat.get(c)]
     authors = sorted(((a, sorted(l, key=lambda x: x["title"].lower())) for a, l in by_author.items() if a.lower() not in ("unknown", "various", "")), key=lambda x: x[0].split()[-1].lower())
-    out = env.get_template("index.html").render(**base_ctx, root="", counts=counts, cat_groups=cat_groups, az=az, authors=authors, systems=sorted(systems, key=lambda x: x["title"].lower()), articles=sorted(articles, key=lambda x: x["title"].lower()), excluded=dict(excluded), has_paths=pf.exists())
+    out = env.get_template("index.html").render(**base_ctx, root="", counts=counts, cat_groups=cat_groups, az=az, authors=authors, systems=sorted(systems, key=lambda x: x["title"].lower()), articles=sorted(articles, key=lambda x: x["title"].lower()), excluded=dict(excluded))
     (DOCS / "index.html").write_text(out, encoding="utf-8")
-    (DOCS / "search.html").write_text(env.get_template("search.html").render(**base_ctx, root="", categories=CATEGORIES[:-1]), encoding="utf-8")
+    (DOCS / "search.html").write_text(env.get_template("search.html").render(**base_ctx, root="", categories=CATEGORIES), encoding="utf-8")
     print(f"built: {len(books)} book pages, {len(topics)} topics, index, search ({len(search_rows)} entries)")
 
 

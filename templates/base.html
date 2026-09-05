@@ -13,7 +13,7 @@
   <button class="menu" id="menu" aria-label="Menu">☰</button>
   <a class="brand" href="{{ root }}index.html">📈 {{ site_title }}</a>
   <form class="hsearch" action="{{ root }}search.html" method="get" role="search">
-    <input type="search" name="q" placeholder="Search 700+ books, systems, terms…" aria-label="Search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
   </form>
 </header>
 <div class="layout">
@@ -21,7 +21,7 @@
   <div class="sgroup">
     <a href="{{ root }}index.html">Index</a>
     <a href="{{ root }}search.html">Search</a>
-    <a href="{{ root }}paths.html">Reading paths</a>
+    {% if has_paths %}<a href="{{ root }}paths.html">Reading paths</a>{% endif %}
   </div>
   <div class="sgroup">
     <div class="slabel">Topics</div>

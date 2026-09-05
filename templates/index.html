@@ -2,7 +2,7 @@
 {% block content %}
 <article class="index">
   <h1>{{ site_title }}</h1>
-  <p class="lead">{{ tagline }} Structured study notes from a library of {{ counts.pdfs }} trading and finance PDFs: {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries, {{ counts.systems }} system write-ups, {{ nav_topics|length }} topic syntheses.</p>
+  <p class="lead">{{ tagline }} The source inventory contains {{ counts.pdfs }} PDFs. This site currently has {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries and {{ counts.systems }} system write-ups; {{ counts.pending }} manifest notes remain in the review backlog.</p>
   <div class="stats">
     <div><b>{{ counts.tier_a }}</b><span>deep notes</span></div>
     <div><b>{{ counts.tier_b }}</b><span>concise notes</span></div>
@@ -13,11 +13,11 @@
   <p><a class="btn" href="search.html">🔍 Search everything</a> {% if has_paths %}<a class="btn" href="paths.html">🧭 Start here: reading paths</a>{% endif %}</p>
 
   <h2 id="topics">By topic</h2>
-  <p class="muted">Each topic page synthesizes the principles, rules and debates across all books in that group.</p>
+  <p class="muted">Topic pages either synthesize the group or provide a catalog of the available notes. There are {{ nav_topics|length }} topic catalogs.</p>
   {% for g in cat_groups %}
   <details class="group" {% if loop.index <= 2 %}open{% endif %}>
-    <summary><a href="topics/{{ g.slug }}.html">{{ g.name }}</a> <span class="muted">({{ g.items|length }})</span></summary>
-    <ul class="booklist">{% for b in g.items %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
+    <summary><a href="topics/{{ g.slug }}.html">{{ g.name }}</a> <span class="muted">({{ g["items"]|length }})</span></summary>
+    <ul class="booklist">{% for b in g["items"] %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
   </details>
   {% endfor %}
 

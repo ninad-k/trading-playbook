@@ -1,8 +1,10 @@
 # Trading Playbook
 
-**700+ trading books, distilled and indexed.**
+**Trading books, explained and connected.**
 
-Structured study notes from a library of 733 trading and finance PDFs (forex, technical analysis, candlesticks, Elliott/Gann/Fibonacci, day and swing trading, mechanical systems, money management, psychology, options and derivatives, market microstructure research, and investing classics). Every readable document gets a page; major books get deep notes with system sub-pages; 14 topic pages synthesize what the books agree and disagree on; a static site with full-text search ties it together.
+Work in progress: 733 PDFs are recorded locally; 189 parent notes and 65 method sub-pages currently exist. See [the continuation plan](PLAN.md) and [the resumable backlog](data/resume_backlog.csv). The 401 missing manifest notes include 13 provisional skips, leaving 388 candidates pending review. Topic syntheses, reading paths and complete cross-platform publication remain planned work.
+
+Structured study notes from a library of 733 trading and finance PDFs (forex, technical analysis, candlesticks, Elliott/Gann/Fibonacci, day and swing trading, mechanical systems, money management, psychology, options and derivatives, market microstructure research, and investing classics). The target is a page for every eligible readable document, major-book notes with method sub-pages, 13 topic syntheses and a glossary, connected through a searchable static site.
 
 > Educational summaries only. Nothing here is financial advice. The notes paraphrase ideas and rules; they do not reproduce the books. Buy the ones you find useful.
 
@@ -48,7 +50,7 @@ Open `docs/index.html` locally, or serve `docs/`.
 
 **Medium:** files in `export/medium/` are ready to paste into a new story (Medium's write API no longer issues tokens). Alternatively use *Medium → Write → Import a story* with the GitHub Pages URL of any page; Medium imports it and sets the canonical link back to the site.
 
-**Notion:** the same content is mirrored as a "Trading Playbook" page tree (Books database + Topics + Index) via the Notion MCP connector; `data/notion_ids.json` maps slugs to Notion page IDs so reruns update instead of duplicating.
+**Notion:** payload generation exists for a "Trading Playbook" page tree (Books database + Topics + Index). `data/notion_ids.json` currently records one synced book page; a complete mirror has not been verified. Confirm the destination before syncing more pages. Stored IDs allow updates without duplicating pages.
 
 ## Content rules
 

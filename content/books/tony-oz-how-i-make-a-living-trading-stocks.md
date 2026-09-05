@@ -11,7 +11,7 @@ doc_type: book
 pages: 146
 one_liner: "A real-time, 116-trade trading diary from the April 2000 Nasdaq crash showing a long-only support/resistance day-trading system, its scan formulas, and every stop and target used."
 related: [jack-schwager-stock-market-wizards, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, elder-alexander-trading-for-a-living, come-into-my-trading-room-elder-alexander, john-j-murphy-charting-made-easy]
-source_file: "Microsoft Word - Front.doc"
+source_file: "Tony Oz - How I Make A Living Trading Stocks.pdf"
 ---
 
 ## Overview

@@ -1,0 +1,1 @@
+- mechanical-trading-systems and richard-l-weissman-mechanical-trading-systems are the same book (Weissman). Keep the better page, mark the other duplicate, delete its file.
