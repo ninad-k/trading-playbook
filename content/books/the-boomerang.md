@@ -7,7 +7,7 @@ tier: B
 category: Forex Mechanics & Macro Drivers
 tags: [forex, breakout, martingale, reverse-and-reset, compounding, gbpusd, gbpjpy]
 difficulty: intermediate
-doc_type: system
+doc_type: manual
 pages: 14
 one_liner: "A GBP/USD or GBP/JPY H4 breakout system that flips direction and widens its take-profit target after each 5-pip stop-out, aiming to eventually catch the real move."
 related: [forex-misc-money-management-ryan-jones, money-management-risk-control-for-traders]
