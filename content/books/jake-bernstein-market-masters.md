@@ -1,5 +1,5 @@
 ---
-title: Market Masters: How Successful Traders Think, Trade and Invest... and How You Can Too!
+title: "Market Masters: How Successful Traders Think, Trade and Invest... and How You Can Too!"
 author: Jake Bernstein
 year: 1994
 slug: jake-bernstein-market-masters

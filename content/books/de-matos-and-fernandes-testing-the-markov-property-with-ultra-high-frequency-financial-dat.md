@@ -16,25 +16,25 @@ source_file: "De Matos And Fernandes-Testing The Markov Property With Ultra-High
 
 ## Summary
 
-Question: many financial-economics models assume asset prices or spreads follow a Markov process (future behavior depends only on the current state, not the full history) — but is this assumption actually testable, and does it hold for real transaction data? Prior tests (Ait-Sahalia 1997; Fernandes and Flores 1999) required evenly time-spaced observations, which real trade-by-trade data does not satisfy. Data: bid and ask price series for five actively traded NYSE stocks — Boeing, Coca-Cola, Disney, Exxon, and IBM. Method: the authors model the price as a continuous-time Markov process observed only when it crosses a discrete price level (a "subordinated" Markov process), which naturally handles irregular trade spacing and price discreteness (tick size). Under this observation rule, consecutive price durations should be conditionally independent given the current price level; they build a nonparametric test of this conditional-independence property, with asymptotic normality derived under both the null (Markov holds) and local alternatives. Finding: because raw bid/ask prices are nonstationary (integrated of order one), the test is applied to bid-ask spreads instead, which are stationary. The Markov assumption is not rejected for Disney and Exxon but is rejected for Boeing, Coca-Cola, and IBM.
+Question: many financial-economics models assume asset prices or spreads follow a Markov process (future behavior depends only on the current state, not the full history) — but is this testable, and does it hold for real transaction data? Prior tests required evenly time-spaced observations, unsuited to trade-by-trade data. Data: bid and ask price series for five actively traded NYSE stocks — Boeing, Coca-Cola, Disney, Exxon, IBM. Method: the authors model price as a continuous-time Markov process observed only when it crosses a discrete level (a "subordinated" Markov process), naturally handling irregular spacing and tick discreteness, and build a nonparametric test of the resulting conditional-independence property. Finding: raw bid/ask prices are nonstationary, so the test is applied to bid-ask spreads instead; the Markov assumption is not rejected for Disney and Exxon but is rejected for Boeing, Coca-Cola, and IBM.
 
 ## Key points
 
-- Financial-economics theory frequently assumes Markov dynamics, but until this line of work, only two prior nonparametric tests existed, and both required evenly spaced data — unsuitable for irregularly spaced transaction records.
-- The paper's test exploits "subordination": prices are observed only when they move by at least a fixed tick size, which makes consecutive price durations conditionally independent under the Markov null.
-- Empirically, raw bid and ask price levels for all five stocks appear nonstationary (unit-root-like, integrated of order one), so the spread (ask minus bid) is used as the stationary series tested for the Markov property.
-- Results are mixed: the Markov property is not rejected for Disney and Exxon bid-ask spreads, but is rejected for Boeing, Coca-Cola, and IBM.
-- The authors link non-Markovian spread behavior to asymmetric-information market-microstructure theory (e.g., Easley and O'Hara 1992): if adverse-selection costs are high enough, the bid-ask spread should depend on the full trading history, not just the current state, breaking the Markov property.
-- The test's asymptotic properties (normality under the null and under local alternatives) are formally derived, making it a methodological contribution as much as an empirical one.
+- Only two prior nonparametric Markov tests existed, both requiring evenly spaced data — unsuitable for irregularly spaced transaction records.
+- The test exploits "subordination": prices observed only on moves of at least a fixed tick, making consecutive price durations conditionally independent under the Markov null.
+- Raw bid/ask price levels for all five stocks appear nonstationary, so the spread (ask minus bid) is the stationary series actually tested.
+- Results are mixed: Markov not rejected for Disney and Exxon spreads, rejected for Boeing, Coca-Cola, and IBM.
+- Non-Markovian spread behavior is linked to asymmetric-information microstructure theory: high adverse-selection costs make the spread depend on full trading history, breaking the Markov property.
+- Asymptotic normality of the test statistic is formally derived under both the null and local alternatives, making this a methodological as well as empirical contribution.
 
 ## Actionable rules
 
-None given — this is a pure econometric methodology and testing paper, not a trading strategy source. The practical implication for a trader building spread- or microstructure-based models: a Markov (memoryless) assumption for bid-ask spread dynamics is not safe to assume by default — for roughly 60% of the stocks tested here it failed, meaning spread history (not just the current spread level) may carry additional predictive information, consistent with adverse-selection/information-asymmetry effects.
+None given — a pure econometric methodology paper, not a strategy source. Practical implication: a Markov (memoryless) assumption for bid-ask spread dynamics is not safe by default — it failed for 3 of 5 stocks here — meaning spread history may carry predictive information beyond the current level.
 
 ## Caveats
 
-Highly technical (nonparametric kernel-based hypothesis testing, mixing conditions, asymptotic theory) and requires econometrics background to follow the derivations; sample is limited to five large-cap NYSE names in what is now a dated microstructure/tick regime (pre-decimalization, pre-high-frequency-trading era), so results may not generalize to modern markets with different tick sizes and much higher trading frequency.
+Highly technical (nonparametric kernel testing, mixing conditions, asymptotic theory), requiring econometrics background. Sample of five large-cap NYSE names from a pre-decimalization, pre-HFT era; results may not generalize to modern tick regimes.
 
 ## Who it is for
 
-Quantitative researchers and market-microstructure specialists interested in the statistical properties of bid-ask spreads and nonparametric time-series testing, not discretionary or retail traders.
+Quantitative researchers interested in bid-ask spread statistics and nonparametric time-series testing, not discretionary or retail traders.

@@ -5,12 +5,14 @@ year: unknown
 slug: joe-ross-trading-the-ross-hook--ross-hook-system
 tier: A
 category: Trend Following & Mechanical Systems
+tags: [ross-hook, 1-2-3-formation, traders-trick-entry, natural-support-resistance, trend-continuation, joe-ross]
+difficulty: intermediate
+doc_type: system
 parent: joe-ross-trading-the-ross-hook
 pages: 180
 one_liner: "A complete, codeable spec for Joe Ross's Ross Hook: identify the 1-2-3, define the hook, enter on breakout (or earlier via the TTE), filter with a channel study, and stop at natural support/resistance."
 related: [tte, richard-l-weissman-mechanical-trading-systems--two-moving-average-crossover, curtis-faith-way-of-the-turtle]
 source_file: "Joe Ross - Trading The Ross Hook.pdf"
-doc_type: system
 ---
 
 ## What it is
