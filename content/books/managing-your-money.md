@@ -23,11 +23,11 @@ A feature article by Gibbons Burke from the July 2000 issue of Active Trader mag
 - Money management is the "thermostat" that controls risk exposure; too little risk per trade (undertrading) fails to overcome costs, too much (overtrading) creates unsustainable drawdowns — there is a "sweet spot" between the two.
 - Most top traders profiled in Schwager's "Market Wizards" books reportedly capped risk at under 2% of account equity per trade.
 - Two ways to set a stop/exit price: (1) a technical/fundamental method that generates a signal price, or (2) a pure money-management stop when no technical opinion exists.
-- "Core equity" (Ed Seykota's term) = total account equity minus the total dollar risk currently open in all positions; sizing new trades off core equity automatically shrinks new position size as existing risk grows.
-- Warns against the "house money" fallacy — treating unrealized gains as less painful to lose than the original capital; a stop that isn't moved up as a winning position runs can let a 2%-of-equity risk balloon to 9% or more.
+- "Core equity" (Ed Seykota's term) = total equity minus dollar risk currently open in all positions; sizing new trades off core equity automatically shrinks new position size as existing risk grows.
+- Warns against the "house money" fallacy — treating unrealized gains as less painful to lose than original capital; a stop left unmoved as a winning position runs can let a 2%-of-equity risk balloon to 9% or more.
 - Stops should only ever be moved to reduce risk (tightened in the trader's favor), never loosened.
-- If a trading system's stops are chronically hit, the fix is to re-examine the system's rules — not to second-guess or skip individual stops.
-- Lists contemporary software/spreadsheet tools for risk sizing (Money Maximizer's "Size-It" tool, kNOW Software, Athena, Excel with live quote feeds) and a reading list including Ralph Vince's "The Mathematics of Money Management" and Bruce Babcock's "The Four Cardinal Principles of Trading."
+- If a system's stops are chronically hit, the fix is to re-examine the system's rules — not to second-guess or skip individual stops.
+- Lists contemporary risk-sizing software (Money Maximizer's "Size-It" tool, kNOW Software, Athena, Excel with live quotes) and reading including Ralph Vince's "The Mathematics of Money Management."
 
 ## Actionable rules
 

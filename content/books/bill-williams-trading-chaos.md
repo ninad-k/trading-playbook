@@ -24,29 +24,28 @@ Markets behave as chaotic (nonlinear) systems rather than random ones, and most 
 
 ## Key concepts
 
-- **Five-level trader development** — Novice, Advanced Beginner, Competent, Proficient, Expert; each level states an objective and required tools (documented in the sample: Advanced Beginner — "make money consistently on a one-contract basis," tools = Elliott wave and fractals; Expert — "trade your states of mind," tools = your own states of mind).
-- **Market Facilitation Index (MFI)** — a bar-by-bar measure, tracked alongside raw tick volume, of how efficiently the market is moving price given the volume behind it; used at the Novice level to judge whether the market is "doing its job" of facilitating trade.
-- **Fractal** — the pattern Williams' research team says explains roughly 98% of computer-located local highs/lows once the underlying structure of the Elliott wave was mapped mathematically; the basic entry-trigger unit (given its full 5-bar high/low definition in the companion book).
-- **Bar-thirds analysis** — dividing a bar's range into three equal zones and locating the open/close within them, used to read who controlled a given bar (buyers vs. sellers) from OHLC data alone.
-- **Air bag stop** — a protective stop placed one tick beyond the high/low of the second-back bar on a significantly higher timeframe, sized off an approximate 1:5 ratio between adjacent timeframes (a month ≈ 4.3 weeks, a week = 5 days, a day = 5–6 trading hours, an hour = 4–6 bars).
-- **Point Zero** — the point a trader identifies, with high confidence, as the end of a completed Elliott sequence and the start of the next trend; used to plan a whole multi-add trading campaign rather than a single trade.
+- **Five-level trader development** — Novice, Advanced Beginner, Competent, Proficient, Expert; each level states an objective and required tools (e.g. Advanced Beginner — "make money consistently on a one-contract basis," tools = Elliott wave and fractals; Expert — "trade your states of mind," tools = your own states of mind).
+- **Market Facilitation Index (MFI)** — a bar-by-bar measure, tracked alongside raw tick volume, of how efficiently price is moving given the volume behind it; used at the Novice level to judge whether the market is "doing its job."
+- **Fractal** — the pattern Williams' research says explains roughly 98% of computer-located local highs/lows once the Elliott wave's underlying structure was mapped mathematically; the basic entry-trigger unit (fully defined as a 5-bar high/low pattern in the companion book).
+- **Bar-thirds analysis** — dividing a bar's range into three equal zones and locating the open/close within them, used to read who controlled a bar (buyers vs. sellers) from OHLC data alone.
+- **Air bag stop** — a protective stop one tick beyond the high/low of the second-back bar on a significantly higher timeframe, sized off an approximate 1:5 ratio between adjacent timeframes.
+- **Point Zero** — the point a trader identifies, with high confidence, as the end of a completed Elliott sequence and the start of the next trend; anchors a multi-add trading campaign.
 - **Five magic bullets** — a confluence checklist for calling a trend exhausted: MFI divergence, price inside the Elliott retracement/target zone, a fractal at the price extreme, a squat bar, and a change in momentum direction.
-- **Squat / green bar** — bar classifications used inside fractal and "thumb" patterns; a squat bar shows unusually low range for its volume, a green bar shows rising volume versus the prior bar.
-- **Thumb trade** — a 3-bar variant of the fractal pattern for entering a bracketed (ranging) market at a better price than the standard fractal signal, valid when at least two of the three bars are squats or greens.
-- **Rule of alternation (Elliott)** — if wave 2 is a simple zigzag correction, wave 4 tends to be a complex sideways one (flat, irregular, triangle, or double/triple three), and vice versa.
-- **5/34 oscillator and 5/34/5 "Profitunity MACD"** — a 5-period vs. 34-period moving-average momentum oscillator (the forerunner of the Awesome Oscillator in the sequel), with an added 5-period signal-line average forming a MACD-style indicator.
+- **Squat / green bar** — a squat bar shows unusually low range for its volume; a green bar shows rising volume versus the prior bar; both are used as filters inside fractal and "thumb" patterns.
+- **Thumb trade** — a 3-bar variant of the fractal pattern for entering a ranging market at a better price than the standard fractal signal, valid when 2 of the 3 bars are squats or greens.
+- **5/34 oscillator / 5/34/5 "Profitunity MACD"** — a 5-period vs. 34-period moving-average momentum oscillator (forerunner of the sequel's Awesome Oscillator), with a 5-period signal-line average added.
 - **Profitunity Trading Partner worksheet** — a multi-market trade-tracking sheet whose first required column, "2-Bar Reverse," is filled in before any other analysis, operationalizing the book's capital-protection-first stance.
-- **Four Profitunity windows** — MFI/volume-based bar classifications the book explicitly tests readers on (end-of-chapter review questions ask readers to "define and describe the four Profitunity windows"), but their individual definitions were not present on the sampled OCR pages.
+- **Four Profitunity windows** — MFI/volume-based bar classifications the book explicitly tests readers on ("define and describe the four Profitunity windows"), but whose individual definitions were not present on the sampled OCR pages.
 
 ## Rules and setups
 
-1. **Fractal breakout entry**: buy stop one tick above (sell stop one tick below) the middle bar of a 5-bar fractal pattern; in this book the fractal is filtered mainly by Elliott-wave context (does the fractal mark the start of a new impulse wave?) rather than by an Alligator-style moving-average envelope.
-2. **Thumb trade entry** (bracketed/ranging market): with a 3-bar "thumb" pattern where at least 2 of the 3 bars are squat or green, place a stop order one tick beyond the thumb bar's extreme; if triggered and reversed, take the newly formed fractal on the middle bar, risking from the thumb bar's extreme to the middle bar's opposite extreme.
-3. **Wave-3 entry timing**: target the end of wave 3 using the five magic bullets on a smaller timeframe; the initial wave-3 length target is 1x to 1.62x the length of wave 1.
-4. **Wave-4 entry timing**: wait for the 5/34 (or 5/34/5) oscillator to cross its zero line before placing a wave-5 trade, corroborated by an a-b-c or triangle wave-4 correction shape and a Fibonacci time projection (wave 4 tends to end 1.38x–1.62x the wave-1-to-wave-3 time span, measured from the wave-2 low).
-5. **Campaign position scaling**: once "Point Zero" is identified, scale into a position at successive Fibonacci-derived price levels rather than sizing the whole trade at entry — a worked soybean example adds contracts at the wave-1 length and again at 110% of the wave-1 length, with stops trailing to the prior wave's extreme as the campaign develops.
-6. **Air bag protective stop**: place a secondary stop one tick beyond the high/low of the second-back bar on a significantly higher timeframe, independent of the primary trade stop, as protection against violent one-bar or gap moves.
-7. **Trend-exhaustion filter**: treat a reversal signal as high-confidence only once 2 or more of the five magic bullets (MFI divergence, Elliott target zone, extreme fractal, squat bar, momentum-direction change) align.
+1. **Fractal breakout entry**: buy stop one tick above (sell stop one tick below) the middle bar of a 5-bar fractal pattern, filtered mainly by Elliott-wave context (does it mark the start of a new impulse wave?) rather than a moving-average envelope.
+2. **Thumb trade entry** (ranging market): with a 3-bar "thumb" pattern where 2 of 3 bars are squat/green, place a stop one tick beyond the thumb bar's extreme; if triggered and reversed, take the newly formed fractal on the middle bar, risking from the thumb's extreme to the middle bar's opposite extreme.
+3. **Wave-3 entry timing**: target the end of wave 3 via the five magic bullets on a smaller timeframe; initial wave-3 length target is 1x–1.62x the length of wave 1.
+4. **Wave-4 entry timing**: wait for the 5/34 (or 5/34/5) oscillator to cross its zero line before a wave-5 trade, corroborated by an a-b-c/triangle wave-4 shape and a Fibonacci time projection (wave 4 tends to end 1.38x–1.62x the wave-1-to-wave-3 time span, from the wave-2 low).
+5. **Campaign position scaling**: once Point Zero is identified, scale in at successive Fibonacci-derived levels rather than sizing at entry — a worked soybean example adds contracts at the wave-1 length and at 110% of wave-1 length, trailing stops to the prior wave's extreme.
+6. **Air bag protective stop**: a secondary stop one tick beyond the second-back bar's extreme on a significantly higher timeframe, independent of the primary stop, against gap/violent moves.
+7. **Trend-exhaustion filter**: treat a reversal as high-confidence only once 2+ of the five magic bullets align.
 
 No fixed-percentage or dollar-based position-sizing formula is given anywhere in the sampled text.
 
