@@ -24,28 +24,28 @@ Short-term stock moves are driven by predictable, repeating cycles of fear and g
 
 ## Key concepts
 
-- **Momentum trader vs. investor** — a momentum trader trades stock symbols and crowd reactions on a timescale of seconds to days, indifferent to the underlying business; conflating this with buy-and-hold investing psychology ("stocks always come back") is, per Wolff, the primary cause of blown accounts.
-- **Smart / informed / dumb money** — a three-tier model of market participants; smart money buys/sells ahead of the crowd, dumb money chases late and pays "tuition," and dumb money slowly becomes informed money after enough painful cycles.
-- **Tracking diary** — a daily spreadsheet logging gap size, open/close, half-hour price levels, and a written description of how each pattern group (first/second-day gainers, first/second-day dumpers) actually behaved; used to form the next day's quantitative expectations before trading.
-- **Ax** — the Market Maker or ECN whose size and price behavior is currently constraining a stock's move; identifying the ax helps read whether a pause is real resistance or order-filling noise.
-- **Front-running / "sell the news"** — buying ahead of an expected announcement and exiting into the price spike the news itself produces, which is why good news often coincides with a stock opening down.
-- **Level 1 vs. Level 2 screens** — Level 1 shows best bid/ask/last only; Level 2 shows every Market Maker/ECN and size at each price level, used to assess execution risk and "readability" before entering.
-- **Mid-range rule** — (day's high − day's low) ÷ 2, added to the low; stocks closing above their mid-range across several sessions signal bullish continuation, below it signal more selling pressure ahead.
-- **Chasing** — buying/shorting materially away from the real reversal price because of impatience; Wolff treats it as the single biggest cause of turning a good setup into a loss.
-- **Clearing the spread** — the point at which enough buying has moved the bid up to your entry ask, so an exit there is breakeven; treated as the minimum bar for a trade "working."
-- **Trailing stop** — moving the stop price in the direction of a winning trade to lock in a shrinking-but-guaranteed profit as the position runs.
+- **Momentum trader vs. investor** — a momentum trader trades symbols and crowd reactions on a timescale of seconds to days, indifferent to the underlying business; conflating this with buy-and-hold psychology ("stocks always come back") is, per Wolff, the primary cause of blown accounts.
+- **Smart / informed / dumb money** — a three-tier model of participants; smart money buys/sells ahead of the crowd, dumb money chases late and pays "tuition," and dumb money slowly turns into informed money after enough painful cycles.
+- **Tracking diary** — a daily log of gap size, open/close, half-hour price levels, and a written description of how each pattern group (first/second-day gainers and dumpers) behaved; used to form the next day's expectations.
+- **Ax** — the Market Maker or ECN whose size is currently constraining a stock's move; identifying it helps read whether a pause is real resistance or order-filling noise.
+- **Front-running / "sell the news"** — buying ahead of an expected announcement and exiting into the spike the news itself produces, which is why good news often coincides with a stock opening down.
+- **Level 1 vs. Level 2 screens** — Level 1 shows best bid/ask/last only; Level 2 shows every participant and size at each price level, used to assess execution risk before entering.
+- **Mid-range rule** — (day's high − low) ÷ 2, added to the low; closes above it across several sessions signal continuation, below it signal more selling pressure.
+- **Chasing** — buying/shorting materially away from the real reversal price out of impatience; the single biggest cause of turning a good setup into a loss.
+- **Clearing the spread** — the point where enough buying moves the bid up to your entry ask, making an exit there breakeven; the minimum bar for a trade "working."
+- **Trailing stop** — moving the stop price in the direction of a winning trade to lock in profit as the position runs.
 
 ## Rules and setups
 
-Full entry/exit mechanics for the four core intraday setups (gainer pattern, dumper pattern, end-of-day gap plays, breakout plays) are detailed in the companion system page [[ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading--momentum-day-trading-setups]]. Summary of the numeric filters that recur throughout:
+Full entry/exit mechanics for the four core intraday setups (gainer pattern, dumper pattern, end-of-day gap plays, breakout plays) are in the companion system page [[ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading--momentum-day-trading-setups]]. Recurring numeric filters:
 
-1. **Gainer/dumper qualification**: stock up (gainer) or down (dumper) 20% or more from the previous close on news; below 20% the pattern's predictability degrades.
-2. **Pre-market volume filter**: want at least 50,000 pre-market shares traded across multiple prints (not one block) by market open; under 10,000 shares, drop the name from the watchlist.
-3. **Level 2 execution filter**: only trade names with roughly five market participants near the inside price and a spread no wider than 0.15 point; use caution on any spread over 0.25.
-4. **News-alert entry**: enter within 0.15 point of the alert price or skip the trade entirely — do not chase.
-5. **Breakout play**: on a new intraday high, enter at the breakout price expecting a 0.25–0.50 point move; exit at least half the position on the move, take a small predefined stop if the level fails to hold.
-6. **Two-stop rule (dumper bottoms)**: take at most two stop-losses hunting for a reversal bottom, then stand aside — don't keep averaging into a failing bottom-fish.
-7. **End-of-day gap entry**: assess in the final few minutes (not 20–30 minutes before the close) whether buying/selling in the last 5 minutes and the closing print near the day's high (gainers) or low (dumpers) justify holding overnight; exit at or just before the next morning's open unless conditions clearly favor holding longer.
+1. **Gainer/dumper qualification**: stock up (gainer) or down (dumper) 20%+ from the previous close on news; below 20% predictability degrades.
+2. **Pre-market volume filter**: at least 50,000 pre-market shares across multiple prints (not one block) by open; under 10,000 shares, drop the name.
+3. **Level 2 execution filter**: trade only names with roughly five participants near the inside price and a spread no wider than 0.15 point; caution above 0.25.
+4. **News-alert entry**: enter within 0.15 point of the alert price or skip the trade — do not chase.
+5. **Breakout play**: on a new intraday high, enter expecting a 0.25–0.50 point move; exit half the position on the move, small predefined stop if the level fails.
+6. **Two-stop rule (dumper bottoms)**: take at most two stop-losses hunting a reversal bottom, then stand aside.
+7. **End-of-day gap entry**: assess only in the final few minutes; exit at or just before next morning's open unless conditions clearly favor holding longer.
 
 ## Risk and money management
 
@@ -75,7 +75,7 @@ Ch 14 — Momentum Investing — a longer-horizon hybrid of momentum trading and
 
 Strengths: the stop-loss/psychology chapters (12–13) and the tracking-diary methodology (Ch. 9) are concrete, numbered, and largely timeless regardless of instrument or era. The four pattern setups are described with real entry triggers and stop placement, not vague "watch for momentum" advice.
 
-Caveats: heavily dated market-microstructure content — SOES, SelectNet, the pre-decimal 1/16-point tick, "tier sizes," and the 1990s Nasdaq Market Maker structure it describes were substantially changed or eliminated by subsequent regulation (decimalization in 2001, Reg NMS in 2005); a modern reader must mentally substitute today's routing/ECN landscape. The pattern statistics (e.g., "20% gap" thresholds, specific point-potential figures) are drawn from Wolff's own late-1990s/2000 chat-room tracking, not a rigorous backtest, and he repeatedly notes the patterns' reliability itself decayed within the book's own timeframe — a caveat that should be read as a warning against assuming any of the specific numbers still hold today. There is no discussion of algorithmic/HFT competition, which now dominates the fast-momentum setups the book describes.
+Caveats: heavily dated market-microstructure content — SOES, SelectNet, the pre-decimal 1/16-point tick, "tier sizes," and the 1990s Nasdaq Market Maker structure were substantially changed or eliminated by later regulation (decimalization in 2001, Reg NMS in 2005); a modern reader must mentally substitute today's routing/ECN landscape. The pattern statistics (e.g., "20% gap" thresholds, point-potential figures) come from Wolff's own late-1990s/2000 chat-room tracking, not a rigorous backtest, and he repeatedly notes the patterns' own reliability decayed within the book's timeframe — a warning against assuming today's numbers still hold. There is no discussion of algorithmic/HFT competition, which now dominates the fast-momentum setups described.
 
 ## Who should read it
 

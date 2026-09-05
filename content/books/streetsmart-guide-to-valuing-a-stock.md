@@ -16,7 +16,7 @@ source_file: "Streetsmart Guide To Valuing A Stock.pdf"
 
 ## Overview
 
-This is a practitioner's manual for discounted-cash-flow (DCF) stock valuation, built around the free cash flow to the firm (FCFF) approach rather than the dividend discount model or relative multiples. Written by two finance academics (Cusatis and Woolridge, Penn State) and a corporate finance practitioner (Gray) in the aftermath of the dot-com crash and the Enron/WorldCom accounting scandals, the book's stated goal is to give an individual investor the same four-step DCF machinery that professional analysts use, spreadsheet and all. It opens with 10 finance principles as a foundation, walks through every input needed to forecast free cash flow and estimate a discount rate, shows where to find that data on the (2002-era) internet, and closes with four full worked valuations — Citigroup, Merrill Lynch, Berkshire Hathaway, and Washington REIT — chosen specifically because each stresses the standard model differently (financials, a conglomerate, a REIT).
+This is a practitioner's manual for discounted-cash-flow (DCF) stock valuation, built around the free cash flow to the firm (FCFF) approach rather than the dividend discount model or relative multiples. Written by two finance academics (Cusatis and Woolridge, Penn State) and a corporate finance practitioner (Gray) in the aftermath of the dot-com crash and the Enron/WorldCom accounting scandals, the book's goal is to give an individual investor the same four-step DCF machinery professional analysts use, spreadsheet and all. It opens with 10 finance principles as a foundation, walks through every input needed to forecast free cash flow and estimate a discount rate, shows where to find that data on the (2002-era) internet, and closes with four full worked valuations — Citigroup, Merrill Lynch, Berkshire Hathaway, and Washington REIT — chosen because each stresses the standard model differently (financials, a conglomerate, a REIT).
 
 ## Core thesis
 
@@ -41,13 +41,13 @@ A stock's value equals the present value of the free cash flow the underlying bu
 
 This is a valuation framework, not a trading system, so "setups" here means the repeatable four-step procedure (fully detailed as a checklist in the companion system page [[streetsmart-guide-to-valuing-a-stock--fcff-valuation-checklist]]):
 
-1. **Forecast expected free cash flow** for the excess return period using the Five Chinese Brothers inputs (revenue growth, NOPM, tax rate, working-capital ratio, fixed-capital ratio), each typically taken from a 2-3 year historical average and analyst growth consensus.
-2. **Estimate the WACC** from the risk-free 10-year Treasury rate, a credit spread for debt, the preferred stock yield, and CAPM-based cost of equity (beta × equity risk premium), weighted by market-value capital structure (book values are used for debt/preferred, market value for equity, as market quotes for the former are hard to get).
+1. **Forecast expected free cash flow** for the excess return period using the Five Chinese Brothers inputs (revenue growth, NOPM, tax rate, working-capital ratio, fixed-capital ratio), typically a 2-3 year historical average blended with analyst growth consensus.
+2. **Estimate the WACC** from the risk-free 10-year Treasury rate, a credit spread for debt, the preferred stock yield, and CAPM-based cost of equity (beta × equity risk premium), weighted by market-value capital structure (book values for debt/preferred, market value for equity).
 3. **Calculate enterprise value**: discount the excess-return-period FCFF stream and the residual value (NOPAT-at-terminal-year / WACC) back to the present at the WACC, then add short-term liquid assets (cash, securities, receivables, inventory — never goodwill or PP&E).
 4. **Calculate intrinsic value per share**: subtract debt, preferred stock, and short-term liabilities from enterprise value, then divide by diluted shares outstanding.
-5. **Decision rule**: buy when a stock trades more than X% (the authors use 15% as an example) below its calculated intrinsic value; sell when it trades more than X% above; cut a losing position that falls 20% or more below the purchase price regardless of the model's verdict.
-6. **Excess return period selection**: apply the 1-5-7-10 Rule based on competitive-advantage quality rather than defaulting to a single horizon for every company.
-7. **Net investment forecast**: during the excess return period, project new investment and depreciation as historic percentages of revenue; after it, set new investment equal to depreciation (maintenance capex only, since further growth investment no longer beats the WACC).
+5. **Decision rule**: buy when a stock trades more than X% (the authors use 15% as an example) below its calculated intrinsic value; sell when more than X% above; cut a losing position that falls 20% or more below purchase price regardless of the model's verdict.
+6. **Excess return period selection**: apply the 1-5-7-10 Rule by competitive-advantage quality rather than defaulting to one horizon for every company.
+7. **Net investment forecast**: during the excess return period, project new investment and depreciation as historic percentages of revenue; after it, set new investment equal to depreciation (maintenance capex only).
 
 ## Risk and money management
 
@@ -60,17 +60,17 @@ The recurring psychological warning is against treating market price as truth: t
 ## Chapter map
 
 - Ch 1 — Introduction and Overview: the high-tech bubble, why DCF over hype.
-- Ch 2 — The 10 Principles of Finance: risk/return, market efficiency, risk aversion, supply/demand, averaging, taxes/costs, time value of money, asset allocation, diversification, and asset pricing models (CAPM), used as the book's theoretical foundation.
-- Ch 3 — Stock Valuation: Some Preliminaries: fundamental vs. technical vs. MPT approaches, why the authors chose DCF/FCFF specifically.
+- Ch 2 — The 10 Principles of Finance: risk/return, market efficiency, supply/demand, time value of money, diversification, and CAPM as the book's theoretical foundation.
+- Ch 3 — Stock Valuation: Some Preliminaries: fundamental vs. technical vs. MPT approaches; why DCF/FCFF was chosen.
 - Ch 4 — How to Value a Stock: NOP/NOPM definitions, the FCFF formula, the four-step process, a worked Microsoft example.
 - Ch 5 — Forecasting Expected Cash Flow: the Five Chinese Brothers, a full Cisco worked example.
 - Ch 6 — Estimating the Cost of Capital: market vs. book value weighting, CAPM, beta sourcing, worked ConEd and Cisco WACC calculations.
-- Ch 7 — Finding Information for Valuations: where to source each input (SEC EDGAR, Yahoo Finance, MSN Investor, ValuePro.net); dated but conceptually still relevant.
-- Ch 8 — Valuing a Stock, Putting It All Together: four complete case studies (Citigroup, Merrill Lynch, Berkshire Hathaway, Washington REIT) as of December 2002.
+- Ch 7 — Finding Information for Valuations: where to source each input (SEC EDGAR, Yahoo Finance, MSN Investor, ValuePro.net); dated but conceptually relevant.
+- Ch 8 — Valuing a Stock, Putting It All Together: four case studies (Citigroup, Merrill Lynch, Berkshire Hathaway, Washington REIT) as of December 2002.
 
 ## Strengths and caveats
 
-The book's core strength is rigor and reproducibility: every formula is given explicitly, every input is traced to a specific line on a specific financial statement, and four full real-company valuations let a reader check their own spreadsheet against the authors' numbers. The 1-5-7-10 Rule is a genuinely useful, simply-stated discipline for an otherwise easy-to-abuse assumption (the terminal growth/excess-return horizon). Caveats: the book is thoroughly dated on data sourcing — most named websites, URLs, and the ValuePro/Quicken.com/VectorVest online tools discussed in Chapter 7 are stale or defunct, and 2002-2003 examples (interest rates, tax rates, specific stock prices) need updating before reuse. The FCFF approach itself, as the authors admit, needs real adjustment for financials and REITs and does not work at all for pre-revenue or option-like companies, a limitation they flag but do not solve. There is no discussion of scenario/Monte Carlo sensitivity on the terminal value despite the residual value routinely representing 60-90% of total valuation — a single point estimate for WACC and the excess return period drives most of the output, which is a meaningful hidden fragility the book does not stress-test.
+The book's core strength is rigor and reproducibility: every formula is given explicitly, every input is traced to a specific line on a specific financial statement, and four full real-company valuations let a reader check their own spreadsheet against the authors' numbers. The 1-5-7-10 Rule is a genuinely useful, simply-stated discipline for an otherwise easy-to-abuse assumption (the terminal growth/excess-return horizon). Caveats: the book is dated on data sourcing — most named websites and the ValuePro/Quicken.com/VectorVest online tools in Chapter 7 are stale or defunct, and 2002-2003 examples (rates, prices) need updating before reuse. The FCFF approach itself needs real adjustment for financials and REITs and does not work for pre-revenue or option-like companies, a limitation the authors flag but do not solve. There is no scenario/Monte Carlo sensitivity on the terminal value despite the residual value routinely representing 60-90% of total valuation — a single point estimate for WACC and the excess return period drives most of the output, a fragility the book does not stress-test.
 
 ## Who should read it
 

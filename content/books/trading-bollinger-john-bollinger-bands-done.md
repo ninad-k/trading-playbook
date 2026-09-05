@@ -59,10 +59,6 @@ Not applicable — this is an 11-page magazine article with informal section bre
 
 Only worth reading directly for someone specifically interested in the historical origin of Bollinger Bands or in seeing Bollinger's own earliest public formulation of %b and BandWidth. Anyone wanting Bollinger's actual trading rules should go straight to [[john-bollinger-bollinger-on-bollinger-band]], which contains everything in this article plus the fully specified trading methods.
 
-## Who should read it (continued)
-
-Not applicable.
-
 ## Related books in this library
 
 - [[john-bollinger-bollinger-on-bollinger-band]] — the full-length, later book by the same author that supersedes this article; contains the same construction and indicators plus three complete trading methods.

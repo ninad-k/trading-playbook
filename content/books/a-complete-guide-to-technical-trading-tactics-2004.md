@@ -56,20 +56,18 @@ The book's mental-game chapter (Ch. 11) centers on "I'll think about it" as the 
 
 ## Chapter map
 
-- Ch 1 — Introduction to Futures and Options: contract mechanics, margin, leverage.
-- Ch 2 — Fundamentals: supply/demand, economic reports as market drivers.
+- Ch 1-2 — Futures/Options Mechanics and Fundamentals: contracts, margin, leverage, supply/demand, economic reports.
 - Ch 3 — Technical Analysis: bar charts, key reversals, point-and-figure, market profile.
-- Ch 4 — Candle Charts: hammer, doji, engulfing, harami/harami cross, dark cloud cover, piercing pattern, and other reversal/continuation candles.
-- Ch 5 — Chart Analysis: volume/open interest, W/M patterns, trend lines and channels, triangles, wedges, diamonds, flags/pennants, funnels, gaps and islands, oops signal, opening range breakout.
-- Ch 6 — Pivot Point Analysis: the core daily/weekly/monthly formula, "verify, verify, verify," worked examples across sugar, cattle, silver, dollar index, crude oil, and cotton.
+- Ch 4 — Candle Charts: hammer, doji, engulfing, harami/harami cross, dark cloud cover, piercing pattern.
+- Ch 5 — Chart Analysis: volume/open interest, W/M patterns, trend lines/channels, triangles, wedges, flags, gaps and islands, oops signal, opening range breakout.
+- Ch 6 — Pivot Point Analysis: the core daily/weekly/monthly formula, "verify, verify, verify," worked examples across sugar, cattle, silver, dollar index, crude oil, cotton.
 - Ch 7 — Day-Trading, Swing Trading: applying pivot targets with candle confirmation across time frames; the P3T method in practice.
 - Ch 8 — Technical Indicators: moving averages, MACD, stochastics, Gann numbers, Fibonacci retracement/extension, Elliott Wave.
-- Ch 9 — Market Sentiment: contrary opinion, the COT report (commercials/large specs/small specs), Market Vane, put/call ratios, VIX.
+- Ch 9 — Market Sentiment: contrary opinion, the COT report, Market Vane, put/call ratios, VIX.
 - Ch 10 — Order Placement: order types, execution mechanics, spreading.
-- Ch 11 — The Mental Game: fear, discipline, the "I'll think about it" trap, paper trading, building confidence.
-- Ch 12 — The Tactical Trader: pyramiding, scale trading, the Friday 10:30 a.m. rule, multiple-contract tactics.
-- Ch 13 — Options: puts/calls, the Greeks, spreads, delta-neutral basics.
-- Ch 14 — Closing Bell: a top-10 trading-thoughts summary.
+- Ch 11 — The Mental Game: fear, discipline, the "I'll think about it" trap, paper trading.
+- Ch 12 — The Tactical Trader: pyramiding, scale trading, the Friday 10:30 a.m. rule.
+- Ch 13-14 — Options primer (puts/calls, Greeks, spreads) and a closing top-10 summary.
 
 ## Strengths and caveats
 
