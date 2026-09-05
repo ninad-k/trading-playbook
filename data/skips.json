@@ -94,5 +94,13 @@
  "trading-psychology": {
   "status": "no_text",
   "note": "Text layer garbled (font encoding)"
+ },
+ "jen-matshall-practical-fibonacci-methode-for-forex-trading": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "super-combo-day-trading-strategy": {
+  "status": "duplicate",
+  "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
  }
 }
