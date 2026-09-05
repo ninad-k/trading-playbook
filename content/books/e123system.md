@@ -7,7 +7,7 @@ tier: B
 category: Market Structure & Price Action
 tags: [chart-patterns, price-action, breakout, swing-trading, exits, position-sizing]
 difficulty: beginner
-doc_type: system
+doc_type: manual
 pages: 24
 one_liner: "Short report defining the 1-2-3 bottom/top chart pattern (low-correction-retest), a slightly-early breakout entry trick, and a tiered trailing-stop exit method."
 related: [chart-patterns-tutorial, chart-formations, lbr-scalp-setups]

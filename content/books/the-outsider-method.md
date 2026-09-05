@@ -7,7 +7,7 @@ tier: B
 category: Day Trading & Scalping
 tags: [forex, price-action, ema, scalping, gbpusd, entry-rules, breakout]
 difficulty: beginner
-doc_type: system
+doc_type: manual
 pages: 2
 one_liner: "Two-page GBP/USD 15-minute EMA-distance breakout method with a fixed multiple-of-candle-body profit target and breakeven-plus-spread management."
 related: [1fta-forex-trading-course, e123system, lbr-scalp-setups]
