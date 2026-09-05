@@ -50,5 +50,21 @@
  "trading-functions": {
   "status": "off_topic",
   "note": "MQL4 API function reference, no trading content"
+ },
+ "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market": {
+  "status": "duplicate",
+  "dup_of": "how-large-is-liquidity-risk-in-an-automated"
+ },
+ "insurances-strategies": {
+  "status": "no_text",
+  "note": "Text layer garbled (font encoding)"
+ },
+ "bollinger-bandit-trading-strategy": {
+  "status": "duplicate",
+  "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
+ },
+ "client-expectations": {
+  "status": "off_topic",
+  "note": "Financial adviser marketing flyer"
  }
 }
