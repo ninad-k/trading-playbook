@@ -24,28 +24,27 @@ Most traders lose not from lack of a good method but from a failure of self-disc
 
 ## Key concepts
 
-- **Three pillars of trading** — psychology (individual and mass), a technical method for analyzing the balance of power between bulls and bears, and money management; success requires all three, not just a good system.
-- **Triple Screen Trading System** — Elder's original multi-timeframe method: a weekly ("long-term") chart sets the trend direction with a trend-following indicator, a daily ("intermediate") chart times entries against that trend with an oscillator, and intraday trailing stop orders (third screen) execute the trade.
-- **Elder-ray** — two histograms, Bull Power and Bear Power, plotted against a 13-day EMA of price; Bull Power measures the ability of bulls to push price above the EMA, Bear Power measures the ability of bears to push it below.
-- **Force Index** — combines price change and volume into one oscillator; used raw or smoothed (short 2-day EMA for fine-tuning entries/exits, longer 13-day EMA for spotting divergences against price).
-- **2% Rule** — never risk more than 2% of account equity on a single trade, inclusive of commissions and slippage; the rule scales trade size up as equity grows and down as it shrinks.
-- **Martingale-style sizing (rejected)** — Elder explicitly warns against doubling position size after a loss to "come back," showing the exponential ruin risk of martingale betting, and argues that increasing size should instead track a winning streak, not a losing one.
-- **Break-even and protect-profit stops** — a three-stage stop sequence: initial stop-loss at entry, a move to break-even once price has moved more than the average daily range in the trade's favor, and a trailing protect-profit stop that surrenders only a portion of open gains.
-- **Directional System, Parabolic, Channel systems** — additional computerized trend tools covered as alternative or complementary technical methods (Parabolic for trailing stops in a fast trend; price channels for range-bound and breakout trading).
-- **Market gurus / crowd psychology** — a critique of "magic method" gurus, whose systems tend to decay in popularity as markets change and more traders copy them; used to argue for self-reliant, tested methods over borrowed authority.
-- **New High–New Low Index, TRIN (Traders' Index)** — market-breadth and sentiment indicators used to identify extremes in crowd bullishness/bearishness at the index level, distinct from Elder's own single-security indicators.
+- **Three pillars of trading** — psychology, a technical method for reading the balance of power between bulls and bears, and money management; success requires all three, not just a good system.
+- **Triple Screen Trading System** — a weekly ("long-term") chart sets trend direction with a trend-following indicator, a daily ("intermediate") chart times entries against that trend with an oscillator, and intraday trailing-stop orders (screen three) execute the trade.
+- **Elder-ray** — Bull Power and Bear Power histograms plotted against a 13-day EMA of price; Bull Power measures bulls' ability to push price above the EMA, Bear Power measures bears' ability to push it below.
+- **Force Index** — combines price change and volume into one oscillator; a 2-day EMA fine-tunes entries/exits, a 13-day EMA spots divergences against price.
+- **2% Rule** — never risk more than 2% of account equity on a single trade, inclusive of commissions and slippage; scales trade size up as equity grows and down as it shrinks.
+- **Martingale sizing (rejected)** — Elder warns against doubling position size after a loss to "come back," showing martingale betting's exponential ruin risk; size should track a winning streak, not a losing one.
+- **Break-even and protect-profit stops** — initial stop-loss at entry, move to breakeven once price moves more than the average daily range in the trade's favor, then a trailing stop surrendering only part of open gains.
+- **Directional System, Parabolic, Channel systems** — additional trend tools (Parabolic for trailing stops in a fast trend; price channels for range-bound and breakout trading).
+- **Market gurus / crowd psychology** — a critique of "magic method" gurus, whose edge decays as more traders copy them; argues for self-reliant, tested methods over borrowed authority.
+- **New High–New Low Index, TRIN** — market-breadth/sentiment indicators for crowd bullishness/bearishness at the index level, distinct from Elder's own single-security indicators.
 
 ## Rules and setups
 
-1. **Triple Screen, screen one (strategic, weekly chart)**: apply a trend-following indicator to the weekly chart; in this original edition Elder's primary signal is the slope of weekly MACD-Histogram (a later edition of Elder's work, [[come-into-my-trading-room-elder-alexander]], substitutes a 26-week EMA slope as the updated preference — treat that as a later refinement, not a contradiction).
-2. **Triple Screen, screen two (tactical, daily chart)**: take an oscillator signal only against the weekly trend's short-term move but in the direction that will resume the weekly trend — i.e., when the weekly trend is up and the daily oscillator declines, prepare to buy; when the weekly trend is down and the daily oscillator rallies, prepare to sell short. Standard summary table: weekly up + daily up → stand aside; weekly up + daily down → go long; weekly down + daily down → stand aside; weekly down + daily up → go short.
-3. **Triple Screen, screen three (entry, intraday)**: no separate chart is required. In an activated buy setup, place a trailing buy-stop one tick above the high of the latest bar, lowering it daily until filled or until the weekly signal cancels; mirror with a trailing sell-stop one tick below the latest low in a short setup.
-4. **Elder-ray divergence signals**: buy on a bullish divergence — price makes a new low but Bear Power's low is more shallow than its prior low, confirmed by the 13-day EMA turning up; sell short on a bearish divergence — price makes a new (or equal) high but Bull Power's peak is lower than its prior peak, confirmed by the 13-day EMA turning down. In an established downtrend, when Bull Power ticks up to positive and then back down, sell short below the last bar's low; mirror for uptrends using Bear Power.
-5. **Force Index short-term rule**: use the 2-day EMA of Force Index to fine-tune entries generated by a trend-following indicator — it swinging above/below its centerline shows which side (bulls/bears) currently has the upper hand intraday.
-6. **Force Index long-term rule**: track a 13-day EMA of Force Index for divergences against price at market turning points, similar in structure to Elder-ray divergences.
-7. **Parabolic system**: only apply once already in a strong, fast trend (not to enter it); recompute stops daily from several weeks of prior data, updated to the present, to trail behind an open long or short position — the faster the trend, the faster Parabolic's stop advances.
-8. **Channel trading**: construct price channels via a line parallel to a trendline, or via two lines plotted a fixed distance above/below a moving average; trade reversals off the channel edges the way a river "turns" off the walls of its valley.
-9. **Exit sequencing**: (a) hard stop-loss placed at entry beyond the latest minor support/resistance level (or, for Triple Screen trades, at the extreme of the past two days' range); (b) move stop to break-even once price has moved more than the average daily range in the trade's favor; (c) trail a protect-profit stop that risks only a portion of open profit, sized under the 2% Rule for conservative traders.
+1. **Triple Screen, screen one (weekly chart)**: apply a trend-following indicator; this original edition's primary signal is the slope of weekly MACD-Histogram ([[come-into-my-trading-room-elder-alexander]] later substitutes a 26-week EMA slope — a refinement, not a contradiction).
+2. **Triple Screen, screen two (daily chart)**: take an oscillator signal only in the direction that resumes the weekly trend: weekly up + daily oscillator down → prepare to buy; weekly down + daily oscillator up → prepare to sell short; matching daily/weekly direction → stand aside.
+3. **Triple Screen, screen three (intraday entry)**: on an activated buy setup, place a trailing buy-stop one tick above the latest bar's high, lowering it daily until filled or the weekly signal cancels; mirror with a trailing sell-stop below the latest low for shorts.
+4. **Elder-ray divergence**: buy on a bullish divergence (price makes a new low, Bear Power's low is shallower than its prior low, confirmed by the 13-day EMA turning up); sell short on the mirror bearish divergence in Bull Power. In an established trend, a tick of the opposing Power indicator into positive/negative territory and back is used to add to or re-enter the position.
+5. **Force Index**: 2-day EMA to fine-tune entries within a trend-following signal; 13-day EMA to spot longer divergences against price at turning points.
+6. **Parabolic system**: apply only once already in a strong, fast trend (not to enter it); recompute stops daily to trail an open position — the faster the trend, the faster the stop advances.
+7. **Channel trading**: construct channels via a line parallel to a trendline, or two lines a fixed distance above/below a moving average; trade reversals off the channel edges.
+8. **Exit sequencing**: (a) initial stop beyond the latest minor support/resistance (or, for Triple Screen, the extreme of the past two days' range); (b) move to breakeven once price has moved more than the average daily range in the trade's favor; (c) trail a protect-profit stop risking only part of open gains, sized under the 2% Rule.
 
 ## Risk and money management
 
@@ -57,21 +56,20 @@ Elder's psychology section opens with the odds against traders (most lose) and b
 
 ## Chapter map
 
-- Part I (Ch 1–3) — Trading as "the last frontier," why traders lose, and the odds against a new trader.
-- Part II, Individual Psychology (Ch 4–11) — motives for trading, market gurus, self-destructiveness, lessons from AA, and profiles of winners vs. losers.
-- Part III, Mass Psychology (Ch 12–17) — what price and "the market" really represent, crowd behavior, and psychology of trends vs. forecasting.
-- Part IV, Classical Chart Analysis (Ch 18–23) — charting basics, support/resistance, trend and trading range, trendlines, gaps, chart patterns.
-- Part V, Computerized Technical Analysis (Ch 24–31) — moving averages, MACD/MACD-Histogram, the Directional System, momentum/ROC, Williams %R, Stochastic, RSI.
-- Part VI, The Neglected Essentials (Ch 32–36) — volume, volume-based indicators, open interest, Herrick Payoff Index, time-based analysis.
-- Part VII, Stock Market Indicators (Ch 37–38) — New High–New Low Index, TRIN and other breadth/sentiment indicators.
-- Part VIII, Psychological Indicators (Ch 39–40) — consensus indicators (advisory sentiment) and commitment-of-traders-style indicators.
-- Part IX, New Indicators (Ch 41–42) — Elder-ray and Force Index, Elder's own contributions.
-- Part X, Trading Systems (Ch 43–45) — Triple Screen, Parabolic, and Channel trading systems.
-- Part XI, Risk Management (Ch 46–48) — emotions and probabilities, money management (2% Rule, martingale critique, pyramiding), and exiting trades (stop sequencing).
+- Part I (Ch 1–3) — Trading as "the last frontier," why traders lose, odds against a new trader.
+- Part II, Individual Psychology (Ch 4–11) — motives for trading, market gurus, self-destructiveness, lessons from AA, winners vs. losers.
+- Part III, Mass Psychology (Ch 12–17) — what price and "the market" represent, crowd behavior, trends vs. forecasting.
+- Part IV, Classical Chart Analysis (Ch 18–23) — charting, support/resistance, trend/trading range, trendlines, gaps, chart patterns.
+- Part V, Computerized Technical Analysis (Ch 24–31) — moving averages, MACD/MACD-Histogram, Directional System, momentum/ROC, Williams %R, Stochastic, RSI.
+- Part VI, The Neglected Essentials (Ch 32–36) — volume, volume-based indicators, open interest, Herrick Payoff Index, time.
+- Part VII–VIII, Stock Market & Psychological Indicators (Ch 37–40) — New High–New Low Index, TRIN, consensus/commitment indicators.
+- Part IX, New Indicators (Ch 41–42) — Elder-ray and Force Index.
+- Part X, Trading Systems (Ch 43–45) — Triple Screen, Parabolic, Channel systems.
+- Part XI, Risk Management (Ch 46–48) — emotions and probabilities, money management (2% Rule, martingale critique, pyramiding), exiting trades.
 
 ## Strengths and caveats
 
-The book gives concrete, codeable parameters for its original indicators (13-day EMA for Elder-ray, 2-day/13-day EMA smoothing for Force Index, weekly/daily Triple Screen structure), which is unusual for a psychology-forward trading book. Much of the market-structure discussion is dated: pit-trading references, pre-decimal price quoting, and 1980s/early-1990s sentiment-service examples (Investors Intelligence, Market Vane) whose exact thresholds may have shifted. Because this text is the 1993 original, several parameters differ from Elder's own later revisions in [[come-into-my-trading-room-elder-alexander]] (notably the Screen One indicator and the absence of the 6% Rule and SafeZone stop) — readers should treat the later book as the author's own update rather than a contradiction. As with the sequel, Force Index and Elder-ray are proprietary to Elder and are illustrated with chart examples rather than systematic backtests. This document was scanned and OCR'd from only a sample of pages (front matter plus evenly spaced pages), so most page ranges are blank in the extracted text; these notes rely on the sampled pages that did contain text (the full Table of Contents, page 83's "three pillars" passage, the Elder-ray/Force Index sections around pages 240–246, the Triple Screen summary around page 258, and the money-management/exit material around pages 282–288). Some details not directly visible in the sampled pages (e.g., the exact original Screen One indicator) are cross-checked against the equivalent, explicitly-labeled passage in Elder's own later book rather than invented.
+The book gives concrete, codeable parameters for its original indicators (13-day EMA for Elder-ray, 2-day/13-day EMA smoothing for Force Index, weekly/daily Triple Screen structure), unusual for a psychology-forward trading book. Much of the market-structure discussion is dated: pit-trading references, pre-decimal price quoting, and 1980s/early-1990s sentiment-service examples (Investors Intelligence, Market Vane). Because this is the 1993 original, several parameters differ from Elder's own later revisions in [[come-into-my-trading-room-elder-alexander]] (notably the Screen One indicator and the absence of the 6% Rule and SafeZone stop) — treat the later book as an author's update, not a contradiction. Force Index and Elder-ray are proprietary to Elder and illustrated with chart examples rather than systematic backtests. This document was OCR'd from only a sample of scanned pages, so most page ranges are blank in the extracted text; these notes rely on the sampled pages that contained text (the full Table of Contents, page 83's "three pillars" passage, the Elder-ray/Force Index sections around pages 240–246, the Triple Screen summary around page 258, and the money-management/exit material around pages 282–288). Details not directly visible in the sample (e.g., the exact original Screen One indicator) are cross-checked against the equivalent, explicitly-labeled passage in Elder's own later book rather than invented.
 
 ## Who should read it
 

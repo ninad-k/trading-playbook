@@ -26,7 +26,7 @@ A forex trading model by a self-described former CME floor trader using the pseu
 - **Preferred pairs** — GBP/USD and USD/CHF, which reach the larger extremes (233, 377) more often than EUR/USD or USD/JPY.
 - **Session filter** — no new entries during the Asian session (5pm-midnight NY); open positions still managed normally.
 - **News filter** — no new entries around US Non-Farm Payrolls.
-- **Trend filter** — don't fade a strong prevailing trend on a minor tunnel signal; re-enter with the major trend on a re-cross.
+- **Trend filter** — don't fade a strong trend on a minor tunnel signal; re-enter with the major trend on a re-cross.
 
 ## Actionable rules
 
@@ -40,7 +40,7 @@ A forex trading model by a self-described former CME floor trader using the pseu
 
 ## Caveats
 
-Informal forum material from an anonymous author; performance claims are anecdotal, not independently backtested. Specific pip levels reflect mid-2000s GBP/USD and USD/CHF volatility, which has since changed materially. The Gann/Fibonacci rationale is speculative by the author's own admission.
+Informal forum material from an anonymous author; performance claims are anecdotal, not backtested. Pip levels reflect mid-2000s GBP/USD and USD/CHF volatility, since changed materially. The Gann/Fibonacci rationale is speculative by the author's own admission.
 
 ## Who it is for
 
