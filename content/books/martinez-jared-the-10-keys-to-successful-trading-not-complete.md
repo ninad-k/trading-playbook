@@ -16,17 +16,17 @@ source_file: "Martinez_ Jared - The 10 Keys to Successful Trading (not complete)
 
 ## Summary
 
-The introductory manual portion of Jared F. Martinez's "The 10 Keys to Successful Trading" course (Market Traders Institute / ForexTips.com, copyright 1998–2002). Despite the title, this excerpt is explicitly the pre-course material: what the FOREX market is and why it appeals to retail traders, a glossary-style rundown of candlestick chart patterns, and a detailed explanation of market, limit, and stop order types plus order-management techniques (OCO, cancel/replace). The book's actual "Chapter 6: The 10 Keys to Successful Trading" — the substantive rules content — is marked "(Omitted)" in this file's table of contents, along with several other chapters (software manuals, "Let's Get Started," post-training material).
+The introductory manual portion of Jared F. Martinez's "The 10 Keys to Successful Trading" course (Market Traders Institute / ForexTips.com, copyright 1998–2002). Despite the title, this excerpt is the pre-course material: what the FOREX market is, a glossary-style rundown of candlestick chart patterns, and an explanation of market/limit/stop order types plus order-management techniques (OCO, cancel/replace). The book's actual "Chapter 6: The 10 Keys to Successful Trading" — the substantive rules content — is marked "(Omitted)" in this file's table of contents, along with several other chapters (software manuals, "Let's Get Started," post-training material).
 
 ## Key points
 
-- Defines FOREX basics: 24-hour cash/spot inter-bank market, ~4,500 participating institutions, ~$1.5 trillion/day volume (as of writing), currency pairs, no centralized exchange, lot size of ~$100,000 per standard lot.
-- Lists FOREX advantages over other markets: high liquidity, 24-hour access, no commissions (cost is the bid/ask spread, cited at ~4 pips), high leverage (1-2% margin), and strong trending behavior in individual currencies.
-- Introduces a five-level trader progression: Beginner (paper trade ≥1 month) → Advanced Beginner (trade 1-2 lots real money) → Competent (trade in control with equity management) → Proficient → Expert (mechanical, emotionless execution).
-- Full candlestick pattern catalogue with bullish/bearish/neutral/reversal classifications: hammer, hanging man, piercing line, bullish/bearish engulfing, morning/evening star, doji variants (bullish doji star, long-legged doji, dragonfly doji, gravestone doji, double doji), shooting star, spinning top, harami.
-- Order types explained: market orders (subject to slippage), limit orders (buy below/sell above market, 70-90% fill rate once price trades through the level, no slippage), and stop orders (buy above/sell below market, become market orders when triggered, subject to slippage).
-- One-Cancels-the-Other (OCO): placing a profit-target limit order and a protective stop simultaneously so that filling either cancels the other.
-- Cancel/Replace: the technique of repeatedly canceling and moving a protective stop closer to the market as a trade moves favorably, to lock in progressively larger profits (worked example: Swiss franc long from 1.410, stop trailed from 1.390 to breakeven at 1.410, then to 1.440 for a locked-in 30-pip profit).
+- Defines FOREX basics: 24-hour cash/spot inter-bank market, ~4,500 participating institutions, ~$1.5 trillion/day volume, currency pairs, no centralized exchange, ~$100,000 per standard lot.
+- FOREX advantages listed: high liquidity, 24-hour access, no commissions (cost is the ~4-pip bid/ask spread), high leverage (1-2% margin), strong trending behavior.
+- Five-level trader progression: Beginner (paper trade ≥1 month) → Advanced Beginner (1-2 lots real money) → Competent (trade in control with equity management) → Proficient → Expert (mechanical, emotionless execution).
+- Full candlestick pattern catalogue with bullish/bearish/neutral/reversal classifications: hammer, hanging man, piercing line, bullish/bearish engulfing, morning/evening star, doji variants, shooting star, spinning top, harami.
+- Order types: market orders (subject to slippage), limit orders (70-90% fill rate once price trades through the level, no slippage), stop orders (become market orders when triggered, subject to slippage).
+- One-Cancels-the-Other (OCO): a profit-target limit order and a protective stop placed together so filling either cancels the other.
+- Cancel/Replace: repeatedly moving a protective stop closer to the market as a trade moves favorably (worked example: Swiss franc long from 1.410, stop trailed 1.390 → breakeven 1.410 → 1.440, locking in 30 pips).
 
 ## Actionable rules
 

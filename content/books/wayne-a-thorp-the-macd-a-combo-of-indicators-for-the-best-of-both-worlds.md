@@ -20,14 +20,14 @@ A technical-analysis tutorial from the American Association of Individual Invest
 
 ## Key points
 
-- MACD = EMA(shorter period) − EMA(longer period); a signal line is a 9-period EMA of the MACD line itself. The most common parameter set is 12/26/9.
+- MACD = EMA(shorter period) − EMA(longer period); the signal line is a 9-period EMA of the MACD line itself. Most common parameters: 12/26/9.
 - MACD above zero means the shorter EMA is above the longer EMA (bullish); below zero means bearish.
-- Crossover use: sell when MACD crosses below the signal line, buy when it crosses above; crossovers below the zero line are considered more significant bullish signals, confirmed once both lines cross above zero.
-- MACD crossovers are a lagging indicator (like moving averages) — best suited to strongly trending markets and prone to whipsaw losses in choppy/sideways markets.
-- Example system on Texas Utilities (June 1997–August 1999): 5 round-trip trades, average gain 3.75% per trade; the strongly trending trade returned 18.7% over 8 months, while 3 trades taken during choppy conditions all lost money.
-- Overbought/oversold use: no fixed numeric threshold exists (unlike RSI) — a security's overbought/oversold MACD levels must be studied historically and can be asymmetric.
-- Divergence use: bearish divergence = MACD makes a new relative low while price does not (stronger if price makes a new high); bullish divergence is the mirror case. Divergences tend to precede trend reversals and carry more weight at overbought/oversold extremes.
-- Weekly MACD signals carry more weight than daily signals; a common technique is to only take a daily MACD crossover if the weekly MACD is not already in the opposite condition (e.g. ignore a daily buy signal if the weekly MACD is overbought).
+- Crossover use: sell when MACD crosses below the signal line, buy when it crosses above; crossovers below the zero line are more significant bullish signals, confirmed once both lines cross above zero.
+- MACD crossovers are a lagging indicator (like moving averages) — best in strongly trending markets, prone to whipsaws in choppy/sideways markets.
+- Example on Texas Utilities (June 1997–Aug 1999): 5 round-trip trades, average gain 3.75%/trade; the trending trade returned 18.7% over 8 months, while 3 trades in choppy conditions all lost money.
+- Overbought/oversold use: no fixed numeric threshold (unlike RSI) — a security's MACD extremes must be studied historically and can be asymmetric.
+- Divergence use: bearish divergence = MACD makes a new relative low while price does not (stronger if price makes a new high); bullish divergence is the mirror case. Divergences tend to precede reversals, more weight at overbought/oversold extremes.
+- Weekly MACD signals carry more weight than daily; a common technique is to only take a daily crossover if the weekly MACD isn't already in the opposite condition.
 
 ## Actionable rules
 
