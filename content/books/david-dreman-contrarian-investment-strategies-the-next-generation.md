@@ -37,14 +37,13 @@ Stock prices systematically overreact to both good and bad news because analysts
 
 ## Rules and setups
 
-1. **Core low-P/E screen**: rank the investable universe (Compustat 1500-style large caps) by trailing price-to-earnings ratio; buy the bottom quintile (cheapest 20%) and avoid or short-favor the top quintile (most expensive 20%).
-2. **Low-P/CF screen**: same quintile-ranking approach applied to price-to-cash-flow instead of P/E; used by Dreman's own firm as a secondary/parallel screen to low P/E.
-3. **Low-P/BV screen**: same quintile-ranking approach applied to price-to-book value (industry- or market-relative, not raw book value).
-4. **High-yield / low-P/D screen**: rank by dividend yield; buy the highest-yielding quintile, favoring companies whose payout is sustainable and growing (Indicator 5) rather than yield produced by a collapsing share price.
-5. **Combined/eclectic approach**: rather than committing to a single yardstick, Dreman states his own firm uses low P/E as the "core" strategy while actively using the other three (P/CF, P/BV, P/D) opportunistically, since "cheap" opportunities show up differently across the four measures at different times.
-6. **Holding period**: the strategy is explicitly long-horizon — Dreman reports the odds of the low-P/E strategy beating the market rise with holding period (roughly 87% of 5-year periods, about 94–95% of 10-year periods, in his sample), and explicitly warns against quarterly portfolio churn, recommending annual or longer rebalancing instead.
-7. **Diversification rule**: hold a broadly diversified basket (Dreman cites research supporting ~16 stocks as sufficient to capture most of the achievable return of the strategy) rather than concentrating in a handful of "best ideas" within the cheap quintile.
-8. **Universe filter**: the core, statistically validated results apply to large, established companies (Compustat 1500 universe); small-cap and Nasdaq stocks are treated separately and cautioned against as a different risk/return regime, not a simple extension of the same screens.
+1. **Core low-P/E screen**: rank the investable universe (Compustat 1500-style large caps) by trailing P/E; buy the bottom (cheapest) quintile, avoid the top (most expensive) quintile.
+2. **Low-P/CF and low-P/BV screens**: same quintile-ranking approach applied to price-to-cash-flow and price-to-book-value (industry- or market-relative, not raw book value) instead of P/E.
+3. **High-yield / low-P/D screen**: rank by dividend yield; buy the highest-yielding quintile, favoring sustainable, growing payouts (Indicator 5) over yield produced by a collapsing share price.
+4. **Combined/eclectic approach**: Dreman's own firm uses low P/E as the "core" strategy while actively running the other three opportunistically, since cheap opportunities surface differently across the four measures at different times.
+5. **Holding period**: long-horizon — odds of the low-P/E strategy beating the market rise with holding period (roughly 87% of 5-year, 94–95% of 10-year periods in Dreman's sample); avoid quarterly churn, rebalance annually or longer.
+6. **Diversification rule**: hold a broadly diversified basket (~16 stocks, per cited research, captures most of the achievable return) rather than concentrating in a handful of "best ideas" within the cheap quintile.
+7. **Universe filter**: results apply to large, established companies (Compustat 1500); small-cap/Nasdaq stocks are a separate, differently-behaving regime, not a simple extension of the same screens.
 
 ## Risk and money management
 
@@ -56,18 +55,17 @@ Dreman frames investor error as a predictable byproduct of how the mind processe
 
 ## Chapter map
 
-- Introduction — outlines the book's aim: a systematic, statistically documented approach to contrarian investing, building on Dreman's earlier books.
-- "From Technical Analysis to Astrology" / Why Current Methods Don't Work — critiques technical analysis and the efficient-market hypothesis as guides to outperformance, using market-timer track records as evidence.
-- "Dangerous Forecasts" — behavioral-psychology research (Herbert Simon, Paul Meehl) on the limits of expert judgment, applied to investment forecasting.
-- "The Expert Way to Lose Your Savings" — analyst overconfidence and information overload; cites Amos Tversky's forecast-accuracy studies.
+- Introduction — the book's aim: a systematic, statistically documented approach to contrarian investing, building on Dreman's earlier books.
+- "From Technical Analysis to Astrology" / Why Current Methods Don't Work — critiques technical analysis and the efficient-market hypothesis using market-timer track records.
+- "Dangerous Forecasts" / "The Expert Way to Lose Your Savings" — behavioral-psychology research (Herbert Simon, Paul Meehl, Amos Tversky) on the limits of expert and analyst judgment.
 - "Nasty Surprises" (Ch. 6) — the Compustat 1500 (1973–1996) study of how "best" vs. "worst" stocks react to earnings surprises.
-- "Contrarian Investment Strategies" (Ch. 7) — the core low-P/E, low-P/CF, low-P/BV, high-yield quintile backtests, including bull- and bear-market performance breakdowns.
-- "Boosting Portfolio Profits" (Ch. 8) — the five-indicator quality overlay, statistical-significance notes, and the diversification/holding-period guidance.
-- "A New, Powerful Contrarian Approach" (Ch. 9) — extending contrarian principles internationally, with cautionary case studies of foreign-market bubbles (Japan, Germany, Latin America).
+- "Contrarian Investment Strategies" (Ch. 7) — the core low-P/E, low-P/CF, low-P/BV, high-yield quintile backtests, including bull- and bear-market breakdowns.
+- "Boosting Portfolio Profits" (Ch. 8) — the five-indicator quality overlay, significance notes, and diversification/holding-period guidance.
+- "A New, Powerful Contrarian Approach" (Ch. 9) — extending contrarian principles internationally, with cautionary case studies of foreign-market bubbles.
 - "Profiting from Investor Overreaction" — the behavioral mechanism underlying the strategies' returns (Rules 27–28).
-- "Small Stocks, Nasdaq, and Other Market Pitfalls" — cautions on small-cap/Nasdaq investing and on self-serving or unsustainable performance records (Rule 40).
-- "Psychology and Markets" — a historical tour of speculative manias (Dutch tulip mania 1637, South Sea Bubble 1720, Mississippi Bubble 1720) as long-run evidence for crowd psychology.
-- Appendices and Notes — supporting statistical detail and methodology notes for the chapter 6–9 studies.
+- "Small Stocks, Nasdaq, and Other Market Pitfalls" — cautions on small-cap/Nasdaq investing and unsustainable performance records (Rule 40).
+- "Psychology and Markets" — a historical tour of speculative manias (Dutch tulip mania 1637, South Sea Bubble 1720, Mississippi Bubble 1720).
+- Appendices and Notes — supporting statistical/methodology detail for the chapter 6–9 studies.
 
 ## Strengths and caveats
 

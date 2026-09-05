@@ -115,5 +115,9 @@
   "status": "duplicate",
   "dup_of": "kellybetting",
   "note": "Same Kelly 1956 paper; this copy's text layer is garbled"
+ },
+ "cynthia-kase-multi-dimensional-trading": {
+  "status": "no_text",
+  "note": "3-page image scan, OCR found no text"
  }
 }
