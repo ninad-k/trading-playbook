@@ -48,11 +48,11 @@ A fully specified example system appears in Chapter 6 (originally from Pring's *
 
 ## Risk and money management
 
-Beyond Rules 11–19 above, Pring frames money management as the discipline that keeps a trader in the game long enough for a positive-expectancy method to pay off: cap risk per trade (≤5% of capital, 3:1 minimum reward:risk), never add to a losing position or meet a margin call with fresh funds, and treat a margin call driven by a string of losses as a signal to stop trading entirely for an extended period (Pring suggests at least three weeks) rather than to re-fund the account. He explicitly separates two margin-call causes — an adverse market move versus a slow account bleed — and argues the latter calls for a longer trading break. Leverage is treated as a magnifier of psychological as well as financial risk: futures traders are warned that small price moves can wipe out equity, so risk tolerance must be assessed before, not during, a fast market.
+Beyond Rules 11–19 above, Pring frames money management as the discipline that keeps a trader in the game long enough for a positive-expectancy method to pay off: cap risk per trade (≤5% of capital, 3:1 minimum reward:risk), never add to a losing position or meet a margin call with fresh funds, and treat a margin call driven by a string of losses as a signal to stop trading entirely for an extended period (at least three weeks) rather than re-fund the account. He separates two margin-call causes — an adverse market move versus a slow account bleed — and argues the latter calls for a longer break. Leverage magnifies psychological as well as financial risk: futures traders are warned that small price moves can wipe out equity, so risk tolerance must be assessed before, not during, a fast market.
 
 ## Psychology and discipline
 
-This is effectively the whole book's subject. Pring frames psychological failure as the primary cause of trading losses, ahead of any flaw in analytical method. Key behavioral patterns he documents: traders are risk-averse when it comes to taking profits (cashing out too early) but risk-seeking when it comes to losses (holding too long, hoping for a rebound) — the reverse of Rule 12. Pride of opinion causes traders to hold losing positions to avoid admitting error. The "greener pastures effect" causes investors to chase recently-top-performing funds/strategies just as they mean-revert. Overconfidence after a winning streak leads to abandoning risk discipline exactly when a reversal is most costly. Van Tharp's research (cited extensively) found losing traders share traits of high stress, pessimism, externalizing blame, crowd-following, and a failure to establish or follow rules — while winning traders show risk control, patience, and freedom from internal conflict about money itself.
+This is effectively the whole book's subject. Pring frames psychological failure as the primary cause of trading losses, ahead of any flaw in analytical method. Key patterns he documents: traders are risk-averse about taking profits (cashing out too early) but risk-seeking about losses (holding too long, hoping for a rebound) — the reverse of Rule 12. Pride of opinion causes traders to hold losing positions to avoid admitting error. The "greener pastures effect" causes investors to chase recently-top-performing funds just as they mean-revert. Overconfidence after a winning streak leads to abandoning risk discipline exactly when a reversal is most costly. Van Tharp's research found losing traders share traits of high stress, pessimism, externalizing blame, crowd-following, and a failure to follow rules — while winners show risk control, patience, and freedom from internal conflict about money itself.
 
 ## Chapter map
 
@@ -61,15 +61,15 @@ This is effectively the whole book's subject. Pring frames psychological failure
 - Ch 3 — Independent Thinking — the guru cycle (Gould, Granville) and dangers of outsourcing judgment.
 - Ch 4 — Pride Goes Before a Loss — case study of an account destroyed by refusal to admit error.
 - Ch 5 — Patience Is a Profitable Virtue — waiting for genuine low-risk setups rather than forcing trades.
-- Ch 6 — Staying the Course — why abandoning a tested system mid-drawdown destroys its edge; includes the Pound Sterling mechanical system.
+- Ch 6 — Staying the Course — why abandoning a tested system mid-drawdown destroys its edge; includes the Pound Sterling system.
 - Ch 7 — A New Look at Contrary Opinion — Humphrey Neill's theory: the crowd is right except at turning points.
 - Ch 8 — When to Go Contrary — practical guidance on timing contrarian positions.
 - Ch 9 — How to Profit from Newsbreaks — avoiding emotional reaction to news-driven volatility.
-- Ch 10 — Dealing with Brokers and Money Managers the Smart Way — maintaining independent judgment in advisory relationships.
-- Ch 11 — What Makes a Great Trader or Investor? — traits of top performers (Tharp, Garfield, Train research summarized).
+- Ch 10 — Dealing with Brokers and Money Managers the Smart Way — keeping independent judgment in advisory relationships.
+- Ch 11 — What Makes a Great Trader or Investor? — traits of top performers (Tharp, Garfield, Train research).
 - Ch 12 — Nineteen Trading Rules for Greater Profits — Pring's own numbered psychological and money-management rules.
-- Ch 13 — Making a Plan and Sticking to It — a four-part written-plan framework including Van Tharp's ten trading tasks.
-- Ch 14 — Classic Trading Rules — curated rule lists from Baruch, Nelson, Wyckoff, Gann, Frank Williams, Wolf, Hoyne, and Sperandeo.
+- Ch 13 — Making a Plan and Sticking to It — a written-plan framework including Van Tharp's ten trading tasks.
+- Ch 14 — Classic Trading Rules — curated rule lists from Baruch, Nelson, Wyckoff, Gann, Frank Williams, Wolf, Hoyne, Sperandeo.
 
 ## Strengths and caveats
 

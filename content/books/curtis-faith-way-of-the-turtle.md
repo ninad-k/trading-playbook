@@ -31,9 +31,9 @@ Trading success comes from psychology and discipline applied to a system with ge
 - **Whipsaw** — an alternative, tighter (½N) stop strategy that raises trade frequency and lowers the win rate but the book credits with better long-run results for some Turtles.
 - **E-ratio (edge ratio)** — a measure comparing typical favorable versus adverse price movement following a signal, used to test whether an entry has real predictive value before backtesting a full system.
 - **Regressed Annual Return (RAR%)** — Faith's own metric: the annualized return implied by a linear-regression best-fit line through the equity curve, far less sensitive to the exact start/end dates of a test than CAGR%.
-- **R-cubed (robust risk/reward ratio)** — RAR% divided by a length-adjusted average of the five largest drawdowns (average drawdown size × average drawdown length in years); Faith's more stable replacement for the MAR ratio.
-- **Robust Sharpe ratio** — RAR% divided by the annualized standard deviation of monthly returns, again substituting the regression-based return figure for the ordinary mean return used in the classic Sharpe ratio.
-- **Monte Carlo simulation** — scrambling or resampling historical trades to generate alternate equity curves and build a confidence distribution around a system's likely RAR%, rather than trusting a single historical run.
+- **R-cubed (robust risk/reward ratio)** — RAR% divided by a length-adjusted average of the five largest drawdowns; Faith's more stable replacement for the MAR ratio.
+- **Robust Sharpe ratio** — RAR% divided by the annualized standard deviation of monthly returns, substituting the regression-based return figure for the ordinary mean used in the classic Sharpe ratio.
+- **Monte Carlo simulation** — resampling historical trades to generate alternate equity curves and build a confidence distribution around a system's likely RAR%, rather than trusting one historical run.
 - **Robustness through diversity and simplicity** — Faith's design philosophy: simple rules with few free parameters, applied across many uncorrelated markets, survive changing market conditions better than complex, curve-fit rules.
 
 ## Rules and setups
