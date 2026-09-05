@@ -1,0 +1,50 @@
+---
+title: "The Thermostat Trading Strategy (Full System)"
+author: "George Pruitt, John R. Hill"
+year: 2003
+slug: george-pruitt-building-winning-trading-systems-with-tradestation--thermostat
+tier: A
+category: "Trend Following & Mechanical Systems"
+tags: [regime-switching, choppy-market-index, bollinger-bands, open-range-breakout, trend-following, futures]
+difficulty: advanced
+doc_type: system
+parent: george-pruitt-building-winning-trading-systems-with-tradestation
+pages: 406
+one_liner: "A regime-switching system that trades a short-term open-range swing method in choppy markets and a Bollinger Band trend-following method once the ChoppyMarketIndex signals a real trend."
+related: [dynamic-breakout-ii-strategy, king-keltner-trading-strategy]
+source_file: "George Pruitt-Building_Winning_Trading_Systems_With_Tradestation.pdf"
+---
+
+## What it is
+
+A two-mode system that "switches gears" between congestion and trend behavior using a custom regime detector, the ChoppyMarketIndex: `Abs(Close − Close[29]) / (Highest(High,30) − Lowest(Low,30)) × 100`. A low reading (below 20) means the market has wandered without covering much net distance — choppy — and Thermostat trades a short-term open-range swing method, in the market 100% of the time. A reading at or above 20 means the market is trending, and Thermostat switches to the Bollinger Bandit system's breakout logic (2.0 standard deviations instead of 1.25), exiting at the 50-day moving average. On a trend-to-choppy flip mid-trade, the short-term exit closes the position; on a choppy-to-trend flip, a 3×ATR protective stop is substituted, since the slower trend exit doesn't match a position opened on short-term logic.
+
+## Rules
+
+**Regime detection**
+1. Compute `cmiVal` = ChoppyMarketIndex over 30 bars. If `cmiVal < 20`, use the swing (choppy) rules below. If `cmiVal >= 20`, use the trend rules below.
+
+**Swing/choppy-mode rules**
+2. Compute `keyOfDay` = (High + Low + Close) / 3 (pivot point) and `atr10` = 10-day Average True Range.
+3. Classify today "buy easier" if Close ≤ `keyOfDay`, else "sell easier."
+4. Buy-easier day: long entry = tomorrow's open + 0.50×atr10; short entry = open − 0.75×atr10. Sell-easier day: long entry = open + 0.75×atr10; short entry = open − 0.50×atr10.
+5. Cap the long entry at no less than the 3-day average low, and the short entry at no more than the 3-day average high (avoids chasing an already-extended move).
+6. Enter long/short next bar at a stop at the filtered entry point; both sides can work simultaneously since the goal is 100%-in-market during choppy mode.
+7. If the regime flips to trend (cmiVal ≥ 20) while a swing position is open, replace its exit with a 3×atr10 protective stop from entry (subtracted for longs, added for shorts), since the 50-day trend exit is too slow for a short-term entry.
+
+**Trend-mode rules**
+10. Compute Bollinger Bands on a 50-day moving average of closes ± 2.0 standard deviations.
+11. Enter long next bar at a stop at the upper band; enter short next bar at a stop at the lower band.
+12. Exit a long when price trades at or below the 50-day moving average of closes; exit a short when price trades at or above it.
+13. If a trend-mode position is open and the regime flips to choppy (cmiVal < 20), simply use the short-term (swing) entry method's logic to close out the existing position rather than the 50-day moving-average exit.
+
+**Parameters**
+14. Regime threshold = ChoppyMarketIndex(30) crossing 20; Bollinger length = 50 days at 2.0 standard deviations; swing ATR length = 10 days with 0.50/0.75 multipliers; trend liquidation length = 50 days; protective-stop multiple on regime-flip = 3× ATR(10). All parameters are held constant across markets.
+
+## Risk
+
+No account-level position sizing is given; risk is managed entirely through the mode-specific exits above, which are more elaborate than King Keltner's or Bollinger Bandit's because two entry time horizons must be reconciled. In the 1982-2002, 17-market backtest ($75 commission/slippage), Thermostat made $761,073 net over 4,020 trades — the highest total of the book's three long-term trend systems. Best: Swiss Franc (+$124,888), U.S. Bonds (+$103,081), Japanese Yen (+$121,250); the sole meaningful loser was Wheat (−$21,231). The authors call it an intermediate-term trend follower generating roughly 15-20 trades/year per market, suited to pairing with a slower system for time-horizon diversification.
+
+## Caveats
+
+Same backtest limitations as the book's other systems: flat $75 commission/slippage, fixed window, no walk-forward validation, per-market rather than blended-portfolio reporting. The dual-mode design is harder to audit than a single-logic system — most trades that start in "choppy" mode end up resolving as trend trades once the regime flips, so trade labels can understate how much profit is really trend-driven. The regime-flip stop and swing-to-trend handoff add edge cases (e.g., simultaneous long and short working orders in choppy mode) that require careful implementation to avoid unintended double positions.

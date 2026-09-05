@@ -17,6 +17,8 @@ import sys
 
 from common import TXT_DIR, load_manifest
 
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 TOC_PAT = re.compile(r"^\s*(contents|table of contents)\s*$", re.I)
 CHAPTER_PAT = re.compile(r"^\s*(chapter|part|section|lesson)\s+[\divxlc]+\b.*$|^\s*\d{1,2}\s{2,}[A-Z][^.]{4,80}$", re.I | re.M)
 

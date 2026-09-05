@@ -29,12 +29,17 @@ def headings(body: str) -> list[str]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--fix-related", action="store_true", help="drop unresolved related slugs")
+    ap.add_argument("--only", help="comma-separated slugs: validate just these files, skip manifest reconciliation")
     a = ap.parse_args()
+    only = set(a.only.split(",")) if a.only else None
     errors: list[str] = []
     rows = load_manifest()
     by_slug = {r["slug"]: r for r in rows}
     files = sorted(BOOKS.glob("*.md"))
-    slugs = {f.stem for f in files}
+    # cross-references may point at any Tier A/B document (written or not yet) plus any existing page
+    slugs = {f.stem for f in files} | {r["slug"] for r in rows if r.get("tier") in ("A", "B")}
+    if only:
+        files = [f for f in files if f.stem in only or any(f.stem.startswith(o + "--") for o in only)]
     posts = {}
     for f in files:
         try:
@@ -89,6 +94,12 @@ def main() -> int:
                 errors.append(f"{f.name}: too short ({wc} words)")
 
     # manifest reconciliation
+    if only:
+        print(f"validated {len(files)} files")
+        for e in errors:
+            print("ERR", e)
+        print("OK" if not errors else f"{len(errors)} errors")
+        return 1 if errors else 0
     want = {r["slug"] for r in rows if r.get("tier") in ("A", "B")}
     have = {s for s, p in posts.items() if p.metadata.get("doc_type") != "system"}
     for s in sorted(want - have):

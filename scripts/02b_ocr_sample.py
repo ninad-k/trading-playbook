@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures as cf
+import os
+os.environ.setdefault("OMP_NUM_THREADS", "4")
 import json
 import re
 import sys
@@ -24,7 +26,7 @@ STATUS = DATA / "ocr_status.json"
 
 def ocr_book(slug: str, front: int, spread: int) -> dict:
     from rapidocr_onnxruntime import RapidOCR
-    ocr = RapidOCR()
+    ocr = RapidOCR(intra_op_num_threads=4)
     pdf = PDF_DIR / f"{slug}.pdf"
     doc = fitz.open(pdf)
     n = doc.page_count
