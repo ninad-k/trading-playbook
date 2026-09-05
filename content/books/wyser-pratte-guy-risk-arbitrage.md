@@ -16,7 +16,7 @@ source_file: "Wyser-Pratte, Guy - Risk Arbitrage.pdf"
 
 ## Overview
 
-Guy Wyser-Pratte, a longtime Wall Street arbitrageur, updates his own 1971/1982 monographs into this 2009 Wiley Investment Classics edition. The book is a working manual for risk (merger) arbitrage: buying the target ("Bride") and shorting the acquirer ("Groom") in a pending stock-for-stock merger to capture the spread between the current market price and the deal's implied parity, while betting the deal closes. Roughly two-thirds of the book (Chapters 2-4) is the mechanics — how to calculate parity, estimate the time to close, size the return, and identify deal risk — worked through dozens of real merger, cash-tender, exchange-offer, and freeze-in cases spanning the 1960s through the 2000s. The final chapters cover Wyser-Pratte's own transition from passive arbitrage to shareholder activism.
+Guy Wyser-Pratte, a longtime Wall Street arbitrageur, updates his own 1971/1982 monographs into this 2009 Wiley Investment Classics edition. The book is a working manual for risk (merger) arbitrage: buying the target ("Bride") and shorting the acquirer ("Groom") in a pending stock-for-stock merger to capture the spread between the current market price and the deal's implied parity, while betting the deal closes. Roughly two-thirds of the book (Ch. 2-4) is the mechanics — calculating parity, estimating time to close, sizing the return, identifying deal risk — worked through dozens of real merger, cash-tender, exchange-offer, and freeze-in cases spanning the 1960s through the 2000s. The final chapters cover Wyser-Pratte's own transition from passive arbitrage to shareholder activism.
 
 ## Core thesis
 

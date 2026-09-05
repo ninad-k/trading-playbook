@@ -39,21 +39,21 @@ A mechanical, price-only breakout system built in Bob Spear's Trading Recipes so
 5. Cap the result at 100 contracts regardless of what the formula produces.
 6. Round down to whole contracts.
 
-**Worked example (from the text):** a Canadian Dollar short entered 14-Dec-1994 with account equity of $2,205,963. Entry/stop distance gave 37.1 contracts (Method A); volatility-based sizing gave 95.9 contracts (Method B). The system took the smaller value, 37 contracts, then applied the 100-contract cap (not binding here), yielding a final 37-contract position.
+**Worked example:** a Canadian Dollar short entered 14-Dec-1994 with account equity of $2,205,963. Entry/stop distance gave 37.1 contracts (Method A); volatility-based sizing gave 95.9 (Method B). The system took the smaller value, 37 contracts, applied the 100-contract cap (not binding here), for a final 37-contract position.
 
-**Starting parameters used in the book's backtest:** starting cash $1,000,000; sample period 1991-01-01 through 2000-12-31; 15-market portfolio spanning currencies, energies, grains, and softs.
+**Backtest parameters:** starting cash $1,000,000; sample period 1991-01-01 through 2000-12-31; 15-market portfolio spanning currencies, energies, grains, and softs.
 
 ## Risk
 
 - Fixed 2% of current total equity is risked per trade, computed against the *worse* (larger) of two candidate position sizes — actual stop distance or 2× the 15-day ATR — so the system never risks more than 2% by either measure.
-- Equity used for the 2% calculation is marked-to-market current equity, not the account's original starting balance, so position size shrinks automatically after losses and grows after gains.
+- Equity used for the 2% calculation is marked-to-market current equity, not the starting balance, so position size shrinks after losses and grows after gains.
 - A hard cap of 100 contracts per position overrides the sizing formula regardless of equity or volatility.
-- No portfolio-level heat limit, correlation control, or maximum number of concurrent positions is specified beyond the per-trade 2% and per-position 100-contract cap.
+- No portfolio-level heat limit, correlation control, or max concurrent positions is specified beyond the per-trade 2% and per-position 100-contract cap.
 
 ## Caveats
 
-- Illustrative only — the author explicitly states this is shown to demonstrate mechanics, not as a system to trade.
+- Illustrative only — the author states this is shown to demonstrate mechanics, not as a system to trade.
 - Backtest uses in-sample data exclusively (1991–2000); no out-of-sample or walk-forward validation is presented.
-- Commissions and slippage are excluded from the reported results ("for the sake of simplicity"), which will materially overstate real-world performance, especially given the system trades 18,879 total items over the test.
-- Portfolio composition (15 specific futures markets) was not itself optimized or stress-tested in the text — it is presented as a convenience sample.
-- No explicit filter, volatility regime check, or trade-frequency limit beyond the breakout/breakdown levels themselves; whipsaws are expected and unmitigated by design.
+- Commissions and slippage are excluded ("for the sake of simplicity"), which will materially overstate real-world performance given the system trades 18,879 total items over the test.
+- Portfolio composition (15 specific futures markets) was not optimized or stress-tested — presented as a convenience sample.
+- No filter, volatility regime check, or trade-frequency limit beyond the breakout/breakdown levels; whipsaws are expected and unmitigated by design.

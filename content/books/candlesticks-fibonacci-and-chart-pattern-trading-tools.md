@@ -39,11 +39,11 @@ No single technical tool reliably times a trend reversal on its own; retracement
 
 The book's central tradable method — Fibonacci retracement plus candlestick or 3-point-pattern confirmation — is detailed with exact parameters in [[candlesticks-fibonacci-and-chart-pattern-trading-tools--confluence-method]]. Other rule sets covered in the text:
 
-1. **Stand-alone 61.8% retracement** (shown to underperform): swing size of 30 basis points, immediate countertrend entry the instant the 61.8% retracement level is touched, stop-loss at the prior swing high/low. The book's own S&P 500 test (Dec 2001-Apr 2002) produced 9 trades and a net loss, used explicitly as the "before" case for the confluence approach.
-2. **PHI-ellipse entry (daily data)**: wait for price to fully traverse (touch both sides of) a 3-wave swing inside the ellipse; enter on a break of the ellipse's outer line, or on a chart pattern forming at that break, or on a break of the line parallel to the ellipse's median. Sell at the end of an upward-sloping ellipse, buy at the end of a downward-sloping one.
-3. **PHI-ellipse entry (intraday, e.g., 15-minute data)**: entry on the outer/median-parallel line break, or wait for a bar to close beyond it for a later, more conservative fill; stop-loss at the ellipse's median line, at a fixed basis-point distance (30 bp used for the Dax 30 example), or ratcheted to the most recent peak/valley; profit target at end of session or at a point distance equal to the ellipse's height; positions closed by end of day.
-4. **Three-peaks/valleys signal**: a sell signal triggers when three peaks form at a PHI-ellipse's upper border and price breaks the line parallel to the median to the downside (mirror for buy signals on three valleys at the lower border).
-5. **Price extension entries**: after a completed 3-wave or 5-wave pattern, target the 1.618×swing-1 (and, for 5-wave, the 0.618×wave-3) price level(s) as a reversal zone for a countertrend entry against the extension.
+1. **Stand-alone 61.8% retracement** (shown to underperform): swing size 30 basis points, immediate countertrend entry the instant the level is touched, stop at the prior swing high/low. The S&P 500 test (Dec 2001-Apr 2002) produced 9 trades and a net loss — the "before" case for the confluence approach.
+2. **PHI-ellipse entry (daily data)**: wait for price to fully traverse a 3-wave swing inside the ellipse; enter on a break of its outer line, on a chart pattern forming at that break, or on a break of the line parallel to the median. Sell at the end of an upward-sloping ellipse, buy at the end of a downward-sloping one.
+3. **PHI-ellipse entry (intraday)**: entry on the outer/median-parallel line break, or on a bar closing beyond it for a later fill; stop at the median line, a fixed basis-point distance (30 bp for Dax 30), or ratcheted to the most recent peak/valley; target at session end or a point distance equal to ellipse height; positions closed by end of day.
+4. **Three-peaks/valleys signal**: sell when three peaks form at a PHI-ellipse's upper border and price breaks the median-parallel line down (mirror for buy signals on three valleys).
+5. **Price extension entries**: after a completed 3- or 5-wave pattern, target the 1.618×swing-1 (and, for 5-wave, 0.618×wave-3) level(s) as a reversal zone for a countertrend entry.
 
 ## Risk and money management
 
