@@ -106,5 +106,9 @@
  "pis-fsg": {
   "status": "off_topic",
   "note": "Financial Services Guide / privacy policy"
+ },
+ "gann-how-to-trade": {
+  "status": "no_text",
+  "note": "5-page image scan, OCR found no text"
  }
 }

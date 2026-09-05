@@ -16,18 +16,18 @@ source_file: "Forex Intraday Pivots Trading System - Complete System.pdf"
 
 ## Summary
 
-A promotional e-book titled "One More Zero," produced for the broker FX Solutions and co-authored by marketer Peter R. Bain and trader Dr. Brent Strouse, pitching retail forex trading before presenting Strouse's actual method: a classic floor-trader pivot-point system he applies mainly to USD/CHF using 5-minute (entry/exit) and 1-hour (trend) charts. The pivot point, two resistance levels, two support levels, and four intermediate midpoint levels are calculated from the prior session's open/high/low/close; price action relative to these levels, confirmed by a stochastic oscillator, generates buy/sell decisions. Roughly the first third of the document is FOREX marketing copy; the system itself is described from about the midpoint onward.
+A promotional e-book titled "One More Zero," produced for the broker FX Solutions and co-authored by marketer Peter R. Bain and trader Dr. Brent Strouse, pitching retail forex trading before presenting Strouse's actual method: a classic floor-trader pivot-point system applied mainly to USD/CHF using 5-minute (entry/exit) and 1-hour (trend) charts. The pivot point, two resistance levels, two support levels, and four intermediate midpoints are calculated from the prior session's open/high/low/close; price action relative to these levels, confirmed by a stochastic oscillator, generates buy/sell decisions. Roughly the first third of the document is marketing copy; the system is described from about the midpoint onward.
 
 ## Key points
 
-- Pivot point (P) = (High + Low + Close) / 3, using the prior session's data; First Resistance (R1) = 2P − Low; First Support (S1) = 2P − High; Second Resistance (R2) = P − (S1 + R1); Second Support (S2) = P − (R1 + S1); four intermediate midpoints (M1-M4) are averages between adjacent levels.
+- Pivot point (P) = (High + Low + Close) / 3 from the prior session; R1 = 2P − Low; S1 = 2P − High; R2 = P − (S1 + R1); S2 = P − (R1 + S1); four intermediate midpoints (M1-M4) average adjacent levels.
 - General rule: never buy above the pivot point and never sell below it; buy or sell as price crosses a resistance/support level in the direction of the break.
 - The strength of a support/resistance boundary is proportional to how many times price has "pivoted" (reversed) at that level.
-- Recommended stop placement: just outside the support/resistance boundary being traded (e.g., protective buy-stop just above resistance when short).
-- If price breaks a boundary and stops the trader out, that is treated as a breakout signal in the new direction, with a new stop placed just beyond the former boundary.
-- Stochastic oscillator used as a secondary/backup tool: readings above 70-80 indicate overbought, below 20-30 indicate oversold, used when price violates all the calculated pivot levels.
-- Support and resistance levels flip roles once broken (former resistance becomes new support, and vice versa).
-- The author distinguishes this fixed-calculation method from Fibonacci, Gann, moving-average, and pure trend-line support/resistance techniques, which he characterizes as more subjective/static.
+- Stop placement: just outside the boundary being traded (e.g. buy-stop just above resistance when short).
+- A stop-out on a boundary break is treated as a breakout signal in the new direction, with a new stop placed just beyond the former boundary.
+- Stochastic oscillator used as backup: readings above 70-80 indicate overbought, below 20-30 oversold, applied once price violates all calculated pivot levels.
+- Support and resistance flip roles once broken (former resistance becomes new support, and vice versa).
+- The author contrasts this fixed-calculation method with Fibonacci, Gann, moving-average, and trend-line support/resistance, which he calls more subjective/static.
 
 ## Actionable rules
 

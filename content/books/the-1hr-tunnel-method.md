@@ -7,7 +7,7 @@ tier: B
 category: Forex Mechanics & Macro Drivers
 tags: [forex, moving-averages, fibonacci, trend-following, breakout, gann, price-action]
 difficulty: intermediate
-doc_type: system
+doc_type: manual
 pages: 11
 one_liner: "1-hour forex breakout system trading breaks of a 144/169 EMA 'tunnel,' scaling out profits at Fibonacci pip levels (55, 89, 144, 233, 377)."
 related: [camarilla-levels, jet-heat-mechanical-discretion, george-alexander-maclean-fibonacci-and-gann-applications]
