@@ -25,18 +25,18 @@ Trading returns compound multiplicatively, not additively, so a money-management
 ## Key concepts
 
 - **HPR (Holding Period Return)** — 1 plus a trade's percentage gain or loss; a +10% trade is HPR 1.10, a -10% trade is HPR 0.90.
-- **TWR (Terminal Wealth Relative)** — the product of all HPRs in a sequence; final stake divided by starting stake, assuming full reinvestment.
-- **Geometric mean (G)** — the Nth root of the TWR (N = number of trades); the "growth factor per play." A system is compared to others by G, not by win rate, average trade, or total profit.
-- **Optimal f** — the fraction (0 to 1) of the biggest historical loss that, when used to scale every trade's HPR, produces the highest TWR/geometric mean.
-- **Market system** — a synthetic construct: one trading approach on one market, calculated on a strict 1-unit (1 contract/1 share/1 lot) basis so f can be computed and then scaled.
-- **Mathematical expectation** — the average amount won or lost per trade/bet; the necessary (not sufficient) condition for any money management to help is that this be positive.
-- **Kelly formulas** — f = 2P-1 (equal win/loss size) or f = ((B+1)P-1)/B (payoff ratio B, win probability P); valid only for Bernoulli (two-outcome, fixed-size) distributions, which trading is not.
-- **Geometric Average Trade (GAT)** — G-1 times (biggest loss ÷ -f); the expected dollar profit per contract per trade under fixed-fractional trading.
-- **Threshold to the geometric** — the point at which reinvesting returns starts to beat not reinvesting; below this equity or above too high an f, reinvestment can turn a winning system into a loser.
-- **Dependency (runs test, serial correlation)** — statistical checks for whether wins/losses cluster; if present at high confidence, a system should be split into after-win and after-loss sub-systems, each with its own optimal f.
-- **Estimated Geometric Mean (EGM)** — √(AHPR² - variance of HPRs); lets a trader rank candidate portfolio allocations without recomputing full TWRs.
-- **Efficient frontier / CPA (Combination Product Allocation)** — Markowitz's set of portfolio weightings with no dominated alternative; the CPA with the highest EGM is the one optimal-f portfolio to hold.
-- **Risk of ruin** — the asymptotic certainty of losing everything when trading an unlimited-liability instrument for an unlimited length of time; the book's argument for pre-committing an equity ceiling at which to stop.
+- **TWR (Terminal Wealth Relative)** — the product of all HPRs in a sequence; final stake divided by starting stake under full reinvestment.
+- **Geometric mean (G)** — the Nth root of the TWR (N = trades); the "growth factor per play." Systems are compared by G, not win rate, average trade, or total profit.
+- **Optimal f** — the fraction (0-1) of the biggest historical loss that, scaling every trade's HPR, produces the highest TWR/geometric mean.
+- **Market system** — a synthetic construct: one approach on one market, on a strict 1-unit basis so f can be computed and scaled.
+- **Mathematical expectation** — average amount won/lost per trade; must be positive or no money management helps.
+- **Kelly formulas** — f = 2P-1 (equal win/loss size) or f = ((B+1)P-1)/B (payoff ratio B, win probability P); valid only for Bernoulli (fixed two-outcome) distributions, which trading is not.
+- **Geometric Average Trade (GAT)** — (G-1) × (biggest loss ÷ -f); expected $ profit per contract per trade under fixed-fractional trading.
+- **Threshold to the geometric** — the point where reinvesting starts to beat not reinvesting; below it, or above too high an f, reinvestment can turn a winner into a loser.
+- **Dependency (runs test, serial correlation)** — checks for whether wins/losses cluster; if present at high confidence, split into after-win/after-loss sub-systems, each with its own f.
+- **Estimated Geometric Mean (EGM)** — √(AHPR² - variance of HPRs); ranks candidate portfolio allocations without recomputing full TWRs.
+- **Efficient frontier / CPA** — Markowitz's non-dominated portfolio weightings; the Combination Product Allocation with the highest EGM is the optimal-f portfolio.
+- **Risk of ruin** — the asymptotic certainty of losing everything trading an unlimited-liability instrument indefinitely; the book's case for a pre-committed equity ceiling.
 
 ## Rules and setups
 

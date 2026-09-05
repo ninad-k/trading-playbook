@@ -31,20 +31,20 @@ Two related calendar-based statistical biases Williams uses as a first-pass filt
 
 **Standalone tradable TDW system (Bonds):** buy the open on Tuesday + 70% of Monday's range; exit at the close same day. Backtest: $28,812 profit, 53% accuracy, $86 average profit per trade (Williams notes a better exit technique improves this materially).
 
-**TDW as a filter on a volatility breakout system:** applied to a 100%-of-prior-day's-range breakout system in Bonds (base system: $73,468 profit, 80% accuracy, 651 trades, $112.86 average profit, $10,031 drawdown, 1990–Aug. 1998), restricting entries to the best buy days (Tuesday, Thursday) and best sell days (Wednesday, Thursday) cut trades roughly in half, raised profit-per-trade to $173, cut drawdown to $3,500, and raised accuracy to 84%.
+**TDW as a filter on a volatility breakout system:** applied to a 100%-of-prior-day's-range breakout system in Bonds (base system: $73,468 profit, 80% accuracy, 651 trades, $112.86 avg profit, $10,031 drawdown, 1990–Aug. 1998), restricting entries to the best buy days (Tuesday, Thursday) and sell days (Wednesday, Thursday) cut trades roughly in half, raised profit-per-trade to $173, cut drawdown to $3,500, and raised accuracy to 84%.
 
-**TDM rules:** count trading days elapsed in the current month (a month has up to 22 trading days). Backtested Bond TDM sells: TDM 18 or TDM 22 entries with $1,500 stop; TDM 12 sells with $1,400 stop and 3-day exit (1986–mid-1998). Backtested best-TDM tables (not itemized day-by-day in the source) produced $211,910 profit trading Bonds ~6 days/month (with a $1,500 stop from entry day) and $387,320 trading the S&P ~7 days/month (no stop on entry day, $2,000 stop thereafter), both over the 1982–1998 sample.
+**TDM rules:** count trading days elapsed in the current month (up to 22). Backtested Bond TDM sells: TDM 18 or TDM 22 entries with $1,500 stop; TDM 12 sells with $1,400 stop and 3-day exit (1986–mid-1998). Best-TDM tables produced $211,910 profit trading Bonds ~6 days/month ($1,500 stop from entry day) and $387,320 trading the S&P ~7 days/month (no stop entry day, $2,000 stop thereafter), both over 1982–1998.
 
-**Combined filter (TDW + TDM + intermarket trend):** stacking a volatility breakout with TDW, then adding a Bond-price-trend confirmation filter (only buy if Bonds close higher than 5 days ago; only sell if Bonds close lower than 35 days ago) on the S&P system above raised average profit per trade from $228 to $281 and cut drawdown from $13,025 to $5,250; the largest losing trade fell from $8,150 to $2,075. Combining all three filters together reduced total profit to $76,400 but raised average profit per trade to $444 and win rate to 90%.
+**Combined filter (TDW + TDM + intermarket trend):** stacking a volatility breakout with TDW, then adding a Bond-price-trend confirmation (only buy if Bonds close higher than 5 days ago; only sell if lower than 35 days ago) on the S&P system above raised average profit per trade from $228 to $281 and cut drawdown from $13,025 to $5,250; largest losing trade fell from $8,150 to $2,075. All three filters together reduced total profit to $76,400 but raised average profit per trade to $444 and win rate to 90%.
 
 ## Risk
 
 - TDW/TDM is not, by itself, a full risk-managed system — every quoted backtest pairs it with the book's standard exits (fixed dollar stop plus bailout exit, or a stated N-day time exit).
-- Williams treats TDM specifically as a "setup" or leading indicator rather than a trade he takes unconditionally every time it fires — he states he reserves judgment based on other confirming conditions present at the time.
-- Adding more simultaneous filters (TDW + TDM + intermarket trend) consistently reduces trade count and total profit while raising win rate and per-trade profit and cutting drawdown — a explicit quality-over-quantity trade-off documented across the book's combined-filter examples.
+- Williams treats TDM as a "setup" or leading indicator rather than a trade taken unconditionally every time it fires — he reserves judgment based on other confirming conditions present at the time.
+- Adding more simultaneous filters (TDW + TDM + intermarket trend) consistently reduces trade count and total profit while raising win rate, per-trade profit, and cutting drawdown — an explicit quality-over-quantity trade-off documented across the book's combined-filter examples.
 
 ## Caveats
 
-- All statistics are historical averages over specific multi-decade windows (grains to 1968, Bonds to 1977, S&P to 1982) and are explicitly offered as a "bias," not a guarantee that any given week or month will repeat the pattern.
-- The book documents that market structure itself changed materially within the sample (e.g., Bonds began trading near-24-hour sessions after October 1988, and the Thursday Fed-report effect on Friday Bond prices disappeared later in the study period), meaning the underlying calendar bias is not presented as fixed or permanent.
-- No formal statistical significance testing (beyond raw win-rate/profit figures) is presented for the TDW/TDM effects.
+- All statistics are historical averages over specific multi-decade windows (grains to 1968, Bonds to 1977, S&P to 1982), offered as a "bias," not a guarantee any given week or month repeats the pattern.
+- Market structure changed materially within the sample (Bonds began near-24-hour sessions after October 1988; the Thursday Fed-report effect on Friday Bond prices disappeared later), so the calendar bias is not presented as fixed or permanent.
+- No formal statistical significance testing beyond raw win-rate/profit figures is presented for the TDW/TDM effects.
