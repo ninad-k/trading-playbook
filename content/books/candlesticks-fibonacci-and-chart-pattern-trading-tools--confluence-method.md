@@ -28,16 +28,14 @@ A countertrend, swing-timeframe entry method that requires two independent signa
 **2. Do not enter on the retracement level alone.** Stand-alone entry the instant price reaches 61.8% of the prior swing produced a losing trade log in the book's own test (9 trades, mostly stopped out) — used deliberately as the baseline this method improves on.
 
 **3. Entry trigger — candlestick confirmation variant.**
-- Wait for the 61.8% (or, per Additional Fibonacci Correction Levels, 38.2%/50.0% with the same logic) retracement level to be reached.
+- Wait for the 61.8% (or 38.2%/50.0%, same logic) retracement level to be reached.
 - Enter only when a recognizable candlestick reversal pattern completes at/near that level: hammer, bullish/bearish belt-hold, bullish/bearish engulfing, harami/harami cross, doji, piercing pattern/dark-cloud cover, or morning/evening star.
-- Stop-loss at the prior swing high (for shorts) or swing low (for longs).
-- Once in profit, trail with a 3-day high/low trailing stop.
+- Stop-loss at the prior swing high (shorts) or swing low (longs); once in profit, trail with a 3-day high/low trailing stop.
 
 **4. Entry trigger — 3-point chart pattern confirmation variant.**
 - Same swing size and 61.8% retracement level as above.
-- Entry on a 1-day high/low "backward look" once the correction level is reached, filtered by watching for 3-point patterns (double top/bottom, triple top/bottom, head and shoulders) that would otherwise have triggered a losing stand-alone entry — the book's re-examination of its own baseline trade log shows specific losing signals that a double top, double bottom, triple bottom, quadruple top, or triple top would have flagged in advance.
-- Stop-loss at the previous swing high/low; re-entry (a "re-sell short" / "re-buy long") is permitted after being stopped out if the pattern re-forms.
-- 3-day high/low trailing stop once in profit, same as the candlestick variant.
+- Entry on a 1-day high/low "backward look" once the correction level is reached, filtered by watching for 3-point patterns (double/triple top/bottom, head and shoulders) that would otherwise have triggered a losing stand-alone entry — the book's own baseline trade log shows specific losses that a double top, double bottom, triple bottom, quadruple top, or triple top would have flagged in advance.
+- Stop-loss at the previous swing high/low; re-entry ("re-sell short"/"re-buy long") permitted after a stop-out if the pattern re-forms; 3-day high/low trailing stop once in profit.
 
 **5. Optional third confirmation — PHI-ellipse or trend channel.** For the most conservative entries, require the price move to also break the outer line of a PHI-ellipse or a parallel trend channel drawn around the same swing (a "double confirmation"). This gives up some profit potential (later entry) in exchange for avoiding losing trades in strongly trending conditions.
 
@@ -45,8 +43,8 @@ A countertrend, swing-timeframe entry method that requires two independent signa
 
 ## Risk
 
-Stop-loss is always placed at the swing extreme that defined the correction (prior swing high for a short, prior swing low for a long) — a level determined by market structure, not a fixed percentage or dollar amount. Once profitable, both confirmation variants use a 3-day high/low trailing stop to lock in gains rather than a static profit target. The book does not specify position sizing or percent-of-equity risk per trade; risk control in this method is entirely about signal filtering (fewer, better-confirmed entries) and stop placement, not capital allocation. In the book's own comparative test, adding candlestick confirmation reduced trade count from 9 to 7 and reduced (but did not eliminate) stop-outs; adding 3-point-pattern confirmation with a re-entry rule produced 9 trades but with a better win/loss mix than the unconfirmed baseline.
+Stop-loss is always placed at the swing extreme that defined the correction — a level set by market structure, not a fixed percentage or dollar amount. Once profitable, both variants use a 3-day high/low trailing stop rather than a static profit target. The book gives no position-sizing or percent-of-equity rule; risk control here is entirely about signal filtering (fewer, better-confirmed entries) and stop placement. In the book's own comparative test, candlestick confirmation reduced trade count from 9 to 7 and reduced (not eliminated) stop-outs; 3-point-pattern confirmation with a re-entry rule produced 9 trades with a better win/loss mix than the unconfirmed baseline.
 
 ## Caveats
 
-Tested only on a handful of instruments (S&P 500, Microsoft, Allianz) over short windows (roughly 4-12 months each) — not a large-sample statistical validation. Swing size, the single most consequential parameter, has no formula and must be hand-calibrated per instrument from historical data. Candlestick pattern recognition and 3-point pattern identification both retain a discretionary, chart-reading component that resists full mechanization. The method assumes retracements will occur within a bounded, identifiable swing structure; in a strongly trending market with shallow corrections, the 61.8% level may never be reached, and the book's own trending-market example (Microsoft) shows far fewer trades than the sideways-market example (Allianz).
+Tested only on a handful of instruments (S&P 500, Microsoft, Allianz) over short windows (roughly 4-12 months each) — not a large-sample validation. Swing size, the single most consequential parameter, has no formula and must be hand-calibrated per instrument. Candlestick and 3-point pattern identification both retain a discretionary, chart-reading component that resists full mechanization. The method assumes retracements occur within a bounded, identifiable swing structure; in a strongly trending market with shallow corrections the 61.8% level may never be reached, and the book's own trending example (Microsoft) shows far fewer trades than its sideways example (Allianz).
