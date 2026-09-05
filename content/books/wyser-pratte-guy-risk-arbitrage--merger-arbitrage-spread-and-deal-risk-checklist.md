@@ -21,22 +21,17 @@ The procedure a risk arbitrageur uses to decide whether, and how large, a positi
 
 ## Rules
 
-**1. Gather deal information before valuing anything.** Confirm exchange ratio and security types, dates of shareholder meetings, where major stock blocks are held, and which regulatory approvals are required (SEC, IRS tax ruling, antitrust, and any industry-specific regulator). Verify claims independently (e.g., confirm the proxy has actually been filed with the SEC, the tax-ruling application actually filed with the IRS) rather than trusting company or press statements — "a deal is worth neither what the newspapers nor what the merger parties say it is worth... generally worth much less."
+**1. Gather deal information before valuing anything.** Confirm the exchange ratio and security types, shareholder-meeting dates, where major stock blocks are held, and which regulatory approvals apply (SEC, IRS tax ruling, antitrust, any industry regulator). Verify claims independently (proxy actually filed with the SEC, tax-ruling application actually filed with the IRS) rather than trusting company or press statements — "a deal is worth neither what the newspapers nor what the merger parties say it is worth... generally worth much less."
 
-**2. Calculate parity.** Parity = Σ (exchange ratio for each offered security × that security's current market price).
-Example from the text: Canteen Corp. merging into ITT at 0.2686 ITT common + 0.1930 Series K convertible preferred per Canteen share, with ITT common at $52.75 and K preferred at $98.75:
-Parity = 0.2686 × $52.75 + 0.1930 × $98.75 = $14.17 + $19.06 = $33.23.
+**2. Calculate parity.** Parity = Σ (exchange ratio for each offered security × its current market price). Example: Canteen Corp. merging into ITT at 0.2686 ITT common + 0.1930 Series K convertible preferred per share, ITT common at $52.75, K preferred at $98.75: Parity = 0.2686×$52.75 + 0.1930×$98.75 = $14.17 + $19.06 = $33.23.
 
-**3. Calculate the spread and gross return.** Spread = Parity − current target price. Adjust the cost basis for net carrying cost (financing cost of the long position minus any dividend differential between long and short legs) before computing the percentage spread.
-Example: buy target (B) at $45, short acquirer (A) at $50, 1-for-1 exchange, 3-month expected close, 7% financing rate, target pays $1 dividend, acquirer pays $0.50. Carrying cost = 1/4 × 7% × $45 = $0.79; net carrying cost after dividend offset = $0.79 − $1.00 + $0.50 = $0.29; adjusted cost = $45.29; spread = $50 − $45.29 = $4.71.
+**3. Calculate the spread.** Spread = Parity − current target price, after adjusting the cost basis for net carrying cost (financing cost of the long leg minus the dividend differential between legs). Example: buy target at $45, short acquirer at $50, 1-for-1, 3-month close, 7% financing, target pays $1 dividend, acquirer $0.50. Carrying cost = ¼×7%×$45 = $0.79; net carrying cost = $0.79 − $1.00 + $0.50 = $0.29; adjusted cost = $45.29; spread = $50 − $45.29 = $4.71.
 
-**4. Estimate time to close** by walking the standard approval sequence: preliminary agreement → definitive agreement → audit → simultaneous IRS tax-ruling application and antitrust (Hart-Scott-Rodino) filing → SEC proxy clearance (4-6 weeks if no major deficiencies) → proxy mailed, shareholder meeting set (~3 weeks' notice) → shareholder vote → IRS tax ruling received (simple ruling ~90-100 days from application, complex ruling ~100-120+ days, backlog-dependent) → legal closing. Deals requiring additional regulatory approval (FCC, ICC, Federal Reserve, CAB, Federal Maritime Commission, etc.) can take many months to years longer.
+**4. Estimate time to close** via the standard approval sequence: preliminary agreement → definitive agreement → audit → simultaneous IRS tax-ruling application and antitrust (Hart-Scott-Rodino) filing → SEC proxy clearance (4-6 weeks) → proxy mailed, meeting set (~3 weeks' notice) → shareholder vote → IRS tax ruling (simple ~90-100 days, complex ~100-120+ days) → legal closing. Deals needing extra regulatory approval (FCC, ICC, Federal Reserve, CAB) can add months to years.
 
-**5. Annualize the return.**
-Annualized ROI = (Spread ÷ Adjusted cost) × (12 ÷ estimated months to close).
-Example: $4.71 spread ÷ $45.29 adjusted cost × 4 (three-month periods per year) = 41.6% per annum before taxes.
+**5. Annualize the return.** Annualized ROI = (Spread ÷ Adjusted cost) × (12 ÷ months to close). Example: $4.71 ÷ $45.29 × 4 = 41.6% per annum before taxes.
 
-**6. Set a required-return threshold and walk away below it.** The book's period rule of thumb: aim for ~40% annualized, settle for ~30% given inevitable delays; a lower spread (e.g., ~20%) may still be acceptable if the assessed risk is very low, while a high headline spread (e.g., 60%) may not be enough if antitrust intervention is plausible or the standalone value without the deal is far below the current price.
+**6. Set a required-return threshold and walk away below it.** Period rule of thumb: aim for ~40% annualized, settle for ~30% given inevitable delays; a lower spread may be acceptable if risk is very low, a high headline spread may not be enough if antitrust intervention is plausible or standalone value is far below the current price.
 
 **7. Deal-risk checklist — weigh each before sizing a position:**
 - **Double price risk** — premium (10-100%) embedded in the long price can evaporate on a broken deal; a large short-covering rally in the acquirer on deal-break can hit the short leg simultaneously.
