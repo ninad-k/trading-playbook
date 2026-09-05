@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "A short-term contrarian scalp that fades price into round-number ('double zero') levels where take-profit orders cluster, aiming for roughly a 2.5:1 reward-to-risk ratio."
+related: [day-trading-the-currency-market, icwr-forex-trading-strategy]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

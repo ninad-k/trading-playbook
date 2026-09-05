@@ -11,6 +11,7 @@ doc_type: system
 parent: 101-option-trading-secrets-kenneth-r-trester
 pages: 336
 one_liner: "A time-and-strike spread entered only for a net credit: write a near-term out-of-the-money option and buy a longer-dated, further out-of-the-money option, aiming to keep the credit and end up owning a free longer-term option."
+related: [101-option-trading-secrets-kenneth-r-trester, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options]
 source_file: "101 Option Trading Secrets - Kenneth.R.Trester.pdf"
 ---
 

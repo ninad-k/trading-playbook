@@ -16,17 +16,17 @@ source_file: "The Interaction Between The Frequency Of Market Quotes Spread And 
 
 ## Summary
 
-Question: how do quote frequency (a proxy for market activity, since no volume data exists in interbank FX), bid-ask spread, and volatility interact in the foreign exchange spot market, and do these interactions explain the well-known heteroskedasticity (volatility clustering) in FX returns? Data: half-hourly Reuters screen quote data for DEM/USD and JPY/USD across 5 weeks (avoiding holiday weeks). Method: a simultaneous equation system (two-stage least squares) relating volatility, average spread, and number of quotations, with the best functional form for each variable chosen via a Box-Cox transformation search, plus weekly, daily, and half-hourly dummy variables to separate public-news effects from private-information effects. Finding: quote frequency is a good proxy for market activity and, together with the time-of-day dummies, explains a large share of the conditional heteroskedasticity (ARCH-type clustering) in FX returns; volatility and spread are simultaneously determined and positively related; and quote frequency affects spread only indirectly, through volatility.
+Question: how do quote frequency (a proxy for market activity, since no volume data exists in interbank FX), bid-ask spread, and volatility interact in the FX spot market, and do these interactions explain the well-known heteroskedasticity (volatility clustering) in FX returns? Data: half-hourly Reuters screen quote data for DEM/USD and JPY/USD across 5 weeks (avoiding holiday weeks). Method: a simultaneous equation system (two-stage least squares) relating volatility, average spread, and number of quotations, with the best functional form for each variable found via a Box-Cox transformation search, plus weekly, daily, and half-hourly dummies to separate public-news effects from private-information effects. Finding: quote frequency is a good proxy for market activity and, with the time-of-day dummies, explains a large share of the conditional heteroskedasticity in FX returns; volatility and spread are simultaneously determined and positively related; and quote frequency affects spread only indirectly, through volatility.
 
 ## Key points
 
 - No transaction-volume data exists for the interbank FX spot market, so the paper uses Reuters quote-arrival frequency as the activity proxy.
-- A log-linear (not linear) relationship among volatility, spread, and quote frequency fits the data much better, though the true best-fitting functional form is somewhere between the two (found via Box-Cox search).
+- A log-linear (not linear) relationship among volatility, spread, and quote frequency fits the data much better, though the true best-fitting form is somewhere between the two (found via Box-Cox search).
 - Volatility is unusually high during the late-afternoon London/New York overlap despite declining quote activity in that window — a pattern the authors could not fully explain with public-news theories.
 - Volatility drops sharply during the Tokyo lunch break (4:00-5:00 BST), accompanied by wider spreads and fewer quotes.
 - Quoting activity peaks just after the Tokyo lunch break and again around 5:30-6:00 BST; it is lowest during the Tokyo lunch hour.
-- Average spread is significantly higher on Fridays and lowest mid-week (Tuesday/Wednesday) — the inverse of the quote-frequency pattern.
-- Including quote frequency and time-of-day dummies removes a large part of the GARCH/ARCH-type volatility clustering typically modeled with univariate time-series models, implying much of that "clustering" reflects omitted variables (activity and time-of-day effects) rather than a pure statistical artifact.
+- Average spread is significantly higher on Fridays and lowest mid-week — the inverse of the quote-frequency pattern.
+- Adding quote frequency and time-of-day dummies removes a large part of the GARCH/ARCH-type volatility clustering typically modeled with univariate time series, implying much of that "clustering" reflects omitted activity and time-of-day effects.
 
 ## Actionable rules
 

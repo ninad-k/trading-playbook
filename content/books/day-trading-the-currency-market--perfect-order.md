@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "Enter a trend five candles after its moving averages (10/20/50/100/200-day SMAs) line up in strict sequential order, and hold the position until that sequential 'perfect order' breaks."
+related: [day-trading-the-currency-market, elder-alexander-trading-for-a-living]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

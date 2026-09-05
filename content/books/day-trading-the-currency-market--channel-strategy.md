@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "Trade breakouts from a narrow price channel (two parallel trendlines) on intraday or daily charts, entering 10 pips beyond either boundary and trailing the stop as the breakout develops."
+related: [day-trading-the-currency-market, day-trading-the-currency-market--inside-day-breakout]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

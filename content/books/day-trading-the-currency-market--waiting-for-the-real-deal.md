@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "A GBP/USD-specific fade of the initial London-session move, entered only after the early Frankfurt-to-London range is broken in the opposite direction, on the premise that the first move is often a dealer-driven stop-hunt."
+related: [day-trading-the-currency-market, icwr-forex-trading-strategy]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

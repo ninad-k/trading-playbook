@@ -11,6 +11,7 @@ doc_type: system
 parent: 101-option-trading-secrets-kenneth-r-trester
 pages: 336
 one_liner: "A defined-risk alternative to naked index-option writing: sell a far out-of-the-money index option and buy a further out-of-the-money option against it, sized around a simulated stop-loss probability."
+related: [101-option-trading-secrets-kenneth-r-trester, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options]
 source_file: "101 Option Trading Secrets - Kenneth.R.Trester.pdf"
 ---
 

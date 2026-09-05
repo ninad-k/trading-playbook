@@ -25,7 +25,6 @@ Question: does order-flow imbalance (supply and demand) drive stock returns, bey
 - The order-flow measure aggregates orders via a square-root transform rather than raw volume or order count, and correlates best with returns.
 - Order-flow imbalance is autocorrelated for 1-2 days (order splitting and/or herding), but the predictable component has almost no incremental price impact — consistent with an efficiently arbitraged market.
 - Price impact of an order is not reversed later, holding across horizons from 10 minutes to 3 months.
-- Prior work (Roll 1988; French and Roll 1986) found public news explains only ~15-30% of return variance, motivating the search for a better explanatory variable.
 - Campbell (1991) estimated only 33-50% of market-wide moves are due to fundamental news; this paper's 70% order-flow R² on the market factor exceeds that, implying orders help generate mean-reverting (bubble-like) moves, not just permanent information-driven ones.
 
 ## Actionable rules

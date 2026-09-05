@@ -16,27 +16,26 @@ source_file: "John L Person - Swing Trading Using Candlestick Charting With Pivo
 
 ## Summary
 
-A short booklet by futures trader John L. Person combining two techniques: Pivot Point price-level forecasting and Japanese candlestick pattern recognition, tied together by what he calls the "Rule of Multiple Verification" (borrowed from Arthur Sklarew) — using several independent confirming signals rather than trading off one indicator alone. The booklet walks through the pivot point formula, a candlestick pattern primer, and several real trade examples (Silver, Dollar Index, S&P 500, Dow futures) where pivot support/resistance levels and candlestick reversal patterns lined up closely with actual turning points.
+A short booklet by futures trader John L. Person combining Pivot Point price-level forecasting with Japanese candlestick pattern recognition, tied together by his "Rule of Multiple Verification" (borrowed from Arthur Sklarew) — requiring several independent confirming signals rather than trading off one indicator alone. It walks through the pivot formula, a candlestick primer, and real trade examples (Silver, Dollar Index, S&P 500, Dow futures) where pivot levels and candlestick reversals lined up closely with actual turning points.
 
 ## Key points
 
 - **Pivot Point (P)** — P = (High + Low + Close) / 3, using the prior period's data (day, week, or month).
 - **Resistance 1** = (P × 2) − Low; **Resistance 2** = P + High − Low.
 - **Support 1** = (P × 2) − High; **Support 2** = P − High + Low.
-- **Rule of Multiple Verification** — require confirmation from more than one independent technique (e.g., pivot level + candlestick pattern + chart formation) before acting.
-- Candlestick patterns covered: Hammer/Hanging Man, Star/Inverted Hammer, Doji (including Gravestone, Dragonfly, Rickshaw), Spinning Top, Evening/Morning Star, Bullish/Bearish Engulfing, Dark Cloud Cover, Piercing Pattern, Harami/Harami Cross, Rising/Falling Three Methods.
-- Pivot levels can be calculated on daily, weekly, or monthly ranges; longer time frames tend to produce a bigger price reaction at the level.
-- Candlesticks only indicate whether the close is above or below that period's open — not whether the market is up or down versus the prior period.
-- Author illustrates several real trades where a candlestick reversal pattern formed within one tick to a few dollars of the calculated pivot support/resistance level.
+- **Rule of Multiple Verification** — require confirmation from more than one independent technique (e.g., pivot level + candlestick + chart formation) before acting.
+- Candlestick patterns covered: Hammer/Hanging Man, Star/Inverted Hammer, Doji variants, Spinning Top, Evening/Morning Star, Bullish/Bearish Engulfing, Dark Cloud Cover, Piercing Pattern, Harami/Harami Cross, Rising/Falling Three Methods.
+- Pivot levels can be calculated on daily, weekly, or monthly ranges; longer time frames tend to produce bigger reactions at the level.
+- Candlesticks only indicate whether the close is above or below that period's open, not versus the prior period's close.
+- Author illustrates several trades where a candlestick reversal formed within one tick to a few dollars of the calculated pivot level.
 
 ## Actionable rules
 
 1. Calculate P, R1, R2, S1, S2 from the prior period's high/low/close using the formulas above, for daily, weekly, and monthly time frames.
 2. Treat these levels as a probable target range for the next period's high/low, not a certainty.
 3. Only act on a pivot level when a candlestick reversal pattern (e.g., Hammer, Engulfing, Harami, Doji Star) forms at or near that level — the "second opinion."
-4. Use the time frame of the pivot calculation (daily/weekly/monthly) to size the expected reaction: longer-time-frame pivots tend to produce larger reactions.
-5. Place a stop beyond the confirming candlestick's high/low (e.g., a stop-close-only order above a prior swing high when shorting a double top).
-6. For added confidence, look for a third independent confirming signal (e.g., a chart pattern like head-and-shoulders or a gap pattern) alongside the pivot level and candlestick signal.
+4. Place a stop beyond the confirming candlestick's high/low (e.g., a stop-close-only order above a prior swing high when shorting a double top).
+5. For added confidence, look for a third independent confirming signal, such as a chart pattern (head-and-shoulders, gap) alongside the pivot level and candlestick signal.
 
 ## Caveats
 

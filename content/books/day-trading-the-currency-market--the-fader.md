@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "A contra-trend hourly-chart strategy for weak-trend (ADX under 35) markets: fade a break of the previous day's high or low once price snaps back through the opposite side of that day's range."
+related: [day-trading-the-currency-market, day-trading-the-currency-market--waiting-for-the-real-deal]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

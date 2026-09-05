@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "A trend-continuation breakout that waits for a shakeout (a pullback to a fresh 2-day extreme) before re-entering in the direction of a fresh 20-day high or low, aiming to filter out weak-handed traders before the real move."
+related: [day-trading-the-currency-market, day-trading-the-currency-market--inside-day-breakout]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

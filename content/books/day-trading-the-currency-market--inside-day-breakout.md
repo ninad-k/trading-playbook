@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "A volatility-contraction breakout strategy: after two or more consecutive inside days, buy or sell the break of the most recent inside day's range with a stop-and-reverse order on the other side."
+related: [day-trading-the-currency-market, icwr-forex-trading-strategy]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 

@@ -39,14 +39,13 @@ No single "holy grail" indicator or system makes a trader profitable. Sustainabl
 
 1. **Triple Screen, screen one (strategic)**: choose an intermediate timeframe; multiply by 5 for the long-term chart. Use the slope of a 26-week EMA (or weekly MACD-Histogram) to decide long, short, or stand aside.
 2. **Triple Screen, screen two (tactical)**: on the intermediate chart, take oscillator signals only in the direction of the long-term trend — e.g., buy when a rising weekly trend coincides with the 2-day EMA of Force Index dipping below zero on the daily chart; reverse for shorts.
-3. **Triple Screen, screen three (entry)**: without live data, place a buy stop at the previous day's high (or a tick above) when the first two screens agree bullish; a sell stop at the previous day's low for bearish setups. With live data, use an opening-range breakout.
-4. **Impulse System entries**: on the intermediate timeframe, in the direction of the higher-timeframe trend, go long when both the 13-day EMA and MACD-Histogram turn up together; go short when both turn down together.
-5. **Impulse System exits**: exit as soon as either the EMA or MACD-Histogram stops confirming (do not wait for a full reversal signal); the system is designed to enter cautiously and exit fast.
-6. **Force Index exit rule**: in an uptrend, sell the day after the 2-day EMA of Force Index turns negative (short-term) or when it traces a bearish divergence against price (swing); mirror for shorts.
-7. **SafeZone stop calculation**: pick a lookback (10–20 days typical), average the downside penetrations of the prior day's low during an uptrend, multiply by a coefficient (start at 2, test to 3), and subtract from yesterday's low; stops may only be raised, never lowered, in an uptrend (mirror for downtrends using upside penetrations of highs).
-8. **Chandelier Exit**: Chandelier = highest high(N) − coefficient × ATR(N), typically N=22 and coefficient=3; used as a wide trailing stop for strong trends, sometimes combined with partial profit-taking at a channel line.
-9. **Market Thermometer filter**: prefer new entries when today's thermometer reading is below its 22-day EMA (quiet market); take profits when the reading spikes to roughly 3× its EMA (panic/exhaustion).
-10. **"OK to trade" filter for futures**: only trade a market whose 22-day EMA of SafeZone noise, multiplied by 2, is less than 2% of account equity (i.e., average noise should be under about 1% of equity).
+3. **Triple Screen, screen three (entry)**: without live data, place a buy stop at the previous day's high (or a tick above) when the first two screens agree bullish, a sell stop at the previous low for bearish setups; with live data, use an opening-range breakout instead.
+4. **Impulse System entries/exits**: on the intermediate timeframe and in the higher-timeframe direction, go long when the 13-day EMA and MACD-Histogram both turn up (short when both turn down); exit as soon as either stops confirming, without waiting for a full reversal signal.
+5. **Force Index exit rule**: in an uptrend, sell the day after the 2-day EMA of Force Index turns negative (short-term) or when it traces a bearish divergence against price (swing); mirror for shorts.
+6. **SafeZone stop calculation**: pick a lookback (10–20 days typical), average the downside penetrations of the prior day's low during an uptrend, multiply by a coefficient (start at 2, test to 3), and subtract from yesterday's low; stops may only be raised, never lowered (mirror for downtrends using upside penetrations of highs).
+7. **Chandelier Exit**: Chandelier = highest high(N) − coefficient × ATR(N), typically N=22 and coefficient=3; a wide trailing stop for strong trends, sometimes paired with partial profit-taking at a channel line.
+8. **Market Thermometer filter**: prefer entries when today's reading is below its 22-day EMA (quiet market); take profits when it spikes to roughly 3× its EMA (panic/exhaustion).
+9. **"OK to trade" filter for futures**: only trade a market whose 22-day EMA of SafeZone noise, ×2, is under 2% of account equity (average noise under about 1% of equity).
 
 ## Risk and money management
 

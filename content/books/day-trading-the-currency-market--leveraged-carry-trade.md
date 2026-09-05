@@ -11,6 +11,7 @@ doc_type: system
 parent: day-trading-the-currency-market
 pages: 259
 one_liner: "Buy a high-interest-rate currency and sell a low-interest-rate currency to earn the leveraged rate spread, entered when aggregate investor risk aversion is low and exited (or reversed) when risk aversion spikes."
+related: [day-trading-the-currency-market, lehman-currency-hedging-in-fixed-income-portfolios]
 source_file: "Day Trading the Currency Market.pdf"
 ---
 
