@@ -94,9 +94,13 @@ def main() -> None:
         print(f"one_liner: {m.get('one_liner')}")
         print(f"tags: {', '.join(m.get('tags', []))}")
         secs = sections(p.content)
+        printed = set()
         for w in want:
             for name, body in secs.items():
+                if name in printed:
+                    continue
                 if name.lower().startswith(w.lower()):
+                    printed.add(name)
                     words = body.split()
                     txt = " ".join(words[: a.max_words]) + (" …" if len(words) > a.max_words else "")
                     print(f"-- {name}:\n{txt}")
