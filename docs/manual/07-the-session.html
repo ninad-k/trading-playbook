@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Session · Manual Trader · Trading Playbook</title>
+<meta name="description" content="Read the shape of a single trading day and say, at any point in it, what phase it is in and what that implies.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 7 of 9</p>
+  <h1>The Session</h1>
+  <p class="lead">Read the shape of a single trading day and say, at any point in it, what phase it is in and what that implies.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="done" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="done" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="done" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="done" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="here" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-opening-range"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="opening-range-t opening-range-d" class="diagram"><title id="opening-range-t">Opening-range breakout</title><desc id="opening-range-d">A session where the first N minutes define a high and a low; price later breaks above the high, which is the entry, with the opposite side of the range as the stop.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="330" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><line x1="30" y1="292" x2="692" y2="292" class="d-ax"/><rect x="60" y="120" width="170" height="76" class="d-zone"/><line x1="60" y1="120" x2="660" y2="120" class="d-dash"/><line x1="60" y1="196" x2="660" y2="196" class="d-dash"/><polyline points="60.0,170.0 95.0,132.0 125.0,188.0 160.0,140.0 195.0,190.0 230.0,128.0 280.0,104.0 330.0,132.0 380.0,86.0 440.0,108.0 510.0,60.0 580.0,92.0 660.0,48.0" class="d-px"/><text x="145" y="112" class="d-k" text-anchor="middle">opening range</text><text x="145" y="214" class="d-s" text-anchor="middle">first N minutes</text><text x="668" y="124" class="d-k" text-anchor="start">high</text><text x="668" y="200" class="d-k" text-anchor="start">low</text><line x1="262" y1="150" x2="262" y2="118" stroke="var(--accent,#0b6e4f)" stroke-width="2" marker-end="url(#ar)"/><text x="266" y="162" class="d-k" text-anchor="start">break above &#8594; long</text><line x1="240" y1="196" x2="640" y2="196" stroke="var(--accent2,#b8862b)" stroke-width="2" stroke-dasharray="4 4"/><text x="560" y="214" class="d-k2" text-anchor="middle">stop: other side of the range</text><line x1="60" y1="262" x2="660" y2="262" class="d-ax"/><line x1="60" y1="256" x2="60" y2="268" class="d-ax"/><line x1="230" y1="256" x2="230" y2="268" class="d-ax"/><line x1="660" y1="256" x2="660" y2="268" class="d-ax"/><line x1="60" y1="262" x2="230" y2="262" stroke="var(--accent,#0b6e4f)" stroke-width="3"/><text x="145" y="280" class="d-k" text-anchor="middle">range window</text><text x="445" y="280" class="d-s" text-anchor="middle">rest of session</text><text x="40" y="320" class="d-s" text-anchor="start">The range window, the confirmation and the exit differ book by book; the shape of the trade does not.</text></svg><figcaption>The first N minutes of a session set a mini-range; what happens to it next tells you the day&#x27;s character.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>Look at an intraday chart and name which part of the day you are in — opening auction, midday rotation, or
+closing positioning — and say what that implies about how much weight to give the last thirty minutes of
+price action. You will be able to build a short list of levels before the open, read what an opening range
+breakout or failure is telling you, and state, without hedging, why trading more often costs more.</p>
+<h2 id="the-lesson">The lesson</h2>
+<h3 id="why-a-day-has-a-shape-at-all">Why a day has a shape at all</h3>
+<p>Everything up to this stage treated a chart as a sequence of bars with no particular respect for the clock. That
+was the right simplification while you were learning to read structure. It stops being accurate the moment you
+trade intraday, because a trading session is not a random walk sampled at fixed intervals — it is a single auction
+with a beginning, a middle, and an end, and each part does different work.</p>
+<p>The open exists to reprice everything that happened while the market was closed or thin: overnight news, an
+earnings release, a shift in a related market, or simply the accumulated opinion of everyone who did not get to
+trade at yesterday&rsquo;s close. That repricing is often violent and directionless for the first few minutes, because a
+large number of participants are all trying to establish a position at once with very little agreement yet on
+where the new fair price sits. The middle of the session is rotation: having roughly repriced, the market spends
+most of its time testing the edges of a range it has provisionally accepted, probing whether yesterday&rsquo;s structure
+still holds. The close is positioning — funds squaring exposure, index-related flows executing on schedule, and
+short-term traders deciding whether to carry a position overnight. None of this is mysticism; it is simply
+different populations of participants dominating at different times, and it means the same-looking break of a
+level means different things depending on when in the day it happens.</p>
+<h3 id="the-opening-range">The opening range</h3>
+<p>The opening range is the high and low made in the first stretch of the session — five minutes, fifteen, thirty,
+whatever you choose. There is nothing magic about any of those numbers; you are choosing a trade-off. A short
+window gives you an earlier read but more false signals, because a five-minute range is a tiny sample of a
+volatile part of the day. A longer window is more reliable but tells you less that you didn&rsquo;t already learn from
+watching the first hour unfold. Pick one, stay consistent with it, and treat it as a lens, not a rulebook — this is a
+structure concept from stage 3 applied to a specific slice of time, not a system with an edge built in.</p>
+<p>Two things can happen to that range once it is set. Price can hold it and eventually break out of it with
+continuation — the market printing new highs or lows and staying there, which tells you the early two-sided
+argument has resolved and one side is now in control. Or price can push outside the range and then fail,
+snapping back inside within a few bars. That failure pattern usually means the breakout was driven by orders
+that had to trade — stops triggering, not genuine new conviction — and once those are used up, the range
+reasserts itself. Reading which of the two happened is exactly the structure-and-sequence skill from stages 2 and
+3; you are just applying it to the day&rsquo;s first move instead of a swing high.</p>
+<h3 id="rotation-and-the-handoff-between-sessions">Rotation and the handoff between sessions</h3>
+<p>Once the opening range resolves, most of the day is rotation: price moving between the edges of whatever range
+has formed, testing each edge, sometimes rejecting it and sometimes extending it a little further. This is the
+same test-and-reject behavior you already read in support and resistance zones — it is just happening on a
+faster clock. What is new at this stage is that the levels being tested were often not built today at all. In any
+market that trades outside a single exchange&rsquo;s regular hours — futures, forex, and increasingly stocks with
+active pre-market sessions — the overnight or pre-market period quietly builds a range before the main session
+even opens, and the first hour of the day session is frequently just a test of levels someone else already put in
+place while you were asleep. A break of a round-looking level during a thin, low-participation stretch of the
+overnight session carries far less weight than the identical break during the busiest hour of the regular session,
+because fewer independent participants are behind it. Before you react to any intraday break, it is worth asking
+who was actually trading when it happened.</p>
+<h3 id="gaps">Gaps</h3>
+<p>A gap is the difference between where the prior session closed and where today opens. Two flavors behave
+differently. A gap into prior value opens beyond yesterday&rsquo;s close but still inside the range yesterday actually
+traded and accepted — today&rsquo;s open is not really &ldquo;new,&rdquo; it&rsquo;s a re-entry into territory the market already agreed
+was fair, and it commonly gets revisited during the session because doing so doesn&rsquo;t require the market to
+accept anything unfamiliar. A full gap opens entirely outside yesterday&rsquo;s whole range, into territory with zero
+recent history of acceptance — this kind of gap is a genuinely new auction, and whether it gets filled or holds
+depends on whether the opening range extends with conviction (evidence the new price is being accepted) or
+fails and rotates back (evidence it isn&rsquo;t). Neither type comes with a promised outcome; the gap&rsquo;s type tells you
+which question to ask, and the opening range&rsquo;s behavior gives you the answer for that specific day.</p>
+<h3 id="vwap">VWAP</h3>
+<figure class="fig" id="fig-vwap-bands"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="vwap-bands-t vwap-bands-d" class="diagram"><title id="vwap-bands-t">VWAP with standard-deviation bands</title><desc id="vwap-bands-d">A price line oscillating around a volume-weighted average price, with one and two standard deviation bands widening through the session.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="330" rx="8" class="d-bg"/><polygon points="60.0,168.0 64.7,167.1 69.3,166.3 74.0,165.4 78.6,164.6 83.3,163.7 87.9,162.9 92.6,162.0 97.2,161.2 101.9,160.3 106.5,159.5 111.2,158.6 115.8,157.8 120.5,156.9 125.1,156.1 129.8,155.2 134.4,154.4 139.1,153.5 143.7,152.7 148.4,151.8 153.0,150.9 157.7,150.1 162.3,149.2 167.0,148.4 171.6,147.5 176.3,146.7 180.9,145.8 185.6,145.0 190.2,144.1 194.9,143.3 199.5,142.4 204.2,141.6 208.8,140.7 213.5,139.9 218.1,139.0 222.8,138.2 227.4,137.3 232.1,136.4 236.7,135.6 241.4,134.7 246.0,133.9 250.7,133.0 255.3,132.2 260.0,131.3 264.7,130.5 269.3,129.6 274.0,128.8 278.6,127.9 283.3,127.1 287.9,126.2 292.6,125.4 297.2,124.5 301.9,123.7 306.5,122.8 311.2,122.0 315.8,121.1 320.5,120.2 325.1,119.4 329.8,118.5 334.4,117.7 339.1,116.8 343.7,116.0 348.4,115.1 353.0,114.3 357.7,113.4 362.3,112.6 367.0,111.7 371.6,110.9 376.3,110.0 380.9,109.2 385.6,108.3 390.2,107.5 394.9,106.6 399.5,105.8 404.2,104.9 408.8,104.0 413.5,103.2 418.1,102.3 422.8,101.5 427.4,100.6 432.1,99.8 436.7,98.9 441.4,98.1 446.0,97.2 450.7,96.4 455.3,95.5 460.0,94.7 464.7,93.8 469.3,93.0 474.0,92.1 478.6,91.3 483.3,90.4 487.9,89.6 492.6,88.7 497.2,87.8 501.9,87.0 506.5,86.1 511.2,85.3 515.8,84.4 520.5,83.6 525.1,82.7 529.8,81.9 534.4,81.0 539.1,80.2 543.7,79.3 548.4,78.5 553.0,77.6 557.7,76.8 562.3,75.9 567.0,75.1 571.6,74.2 576.3,73.3 580.9,72.5 585.6,71.6 590.2,70.8 594.9,69.9 599.5,69.1 604.2,68.2 608.8,67.4 613.5,66.5 618.1,65.7 622.8,64.8 627.4,64.0 632.1,63.1 636.7,62.3 641.4,61.4 646.0,60.6 650.7,59.7 655.3,58.9 660.0,58.0 660.0,218.0 655.3,218.1 650.7,218.2 646.0,218.2 641.4,218.3 636.7,218.4 632.1,218.5 627.4,218.5 622.8,218.6 618.1,218.7 613.5,218.8 608.8,218.9 604.2,218.9 599.5,219.0 594.9,219.1 590.2,219.2 585.6,219.2 580.9,219.3 576.3,219.4 571.6,219.5 567.0,219.6 562.3,219.6 557.7,219.7 553.0,219.8 548.4,219.9 543.7,219.9 539.1,220.0 534.4,220.1 529.8,220.2 525.1,220.2 520.5,220.3 515.8,220.4 511.2,220.5 506.5,220.6 501.9,220.6 497.2,220.7 492.6,220.8 487.9,220.9 483.3,220.9 478.6,221.0 474.0,221.1 469.3,221.2 464.7,221.3 460.0,221.3 455.3,221.4 450.7,221.5 446.0,221.6 441.4,221.6 436.7,221.7 432.1,221.8 427.4,221.9 422.8,222.0 418.1,222.0 413.5,222.1 408.8,222.2 404.2,222.3 399.5,222.3 394.9,222.4 390.2,222.5 385.6,222.6 380.9,222.7 376.3,222.7 371.6,222.8 367.0,222.9 362.3,223.0 357.7,223.0 353.0,223.1 348.4,223.2 343.7,223.3 339.1,223.3 334.4,223.4 329.8,223.5 325.1,223.6 320.5,223.7 315.8,223.7 311.2,223.8 306.5,223.9 301.9,224.0 297.2,224.0 292.6,224.1 287.9,224.2 283.3,224.3 278.6,224.4 274.0,224.4 269.3,224.5 264.7,224.6 260.0,224.7 255.3,224.7 250.7,224.8 246.0,224.9 241.4,225.0 236.7,225.1 232.1,225.1 227.4,225.2 222.8,225.3 218.1,225.4 213.5,225.4 208.8,225.5 204.2,225.6 199.5,225.7 194.9,225.8 190.2,225.8 185.6,225.9 180.9,226.0 176.3,226.1 171.6,226.1 167.0,226.2 162.3,226.3 157.7,226.4 153.0,226.4 148.4,226.5 143.7,226.6 139.1,226.7 134.4,226.8 129.8,226.8 125.1,226.9 120.5,227.0 115.8,227.1 111.2,227.1 106.5,227.2 101.9,227.3 97.2,227.4 92.6,227.5 87.9,227.5 83.3,227.6 78.6,227.7 74.0,227.8 69.3,227.8 64.7,227.9 60.0,228.0" class="d-zone2"/><polygon points="60.0,183.0 64.7,182.3 69.3,181.7 74.0,181.0 78.6,180.4 83.3,179.7 87.9,179.0 92.6,178.4 97.2,177.7 101.9,177.1 106.5,176.4 111.2,175.8 115.8,175.1 120.5,174.4 125.1,173.8 129.8,173.1 134.4,172.5 139.1,171.8 143.7,171.1 148.4,170.5 153.0,169.8 157.7,169.2 162.3,168.5 167.0,167.8 171.6,167.2 176.3,166.5 180.9,165.9 185.6,165.2 190.2,164.6 194.9,163.9 199.5,163.2 204.2,162.6 208.8,161.9 213.5,161.3 218.1,160.6 222.8,159.9 227.4,159.3 232.1,158.6 236.7,158.0 241.4,157.3 246.0,156.6 250.7,156.0 255.3,155.3 260.0,154.7 264.7,154.0 269.3,153.3 274.0,152.7 278.6,152.0 283.3,151.4 287.9,150.7 292.6,150.1 297.2,149.4 301.9,148.7 306.5,148.1 311.2,147.4 315.8,146.8 320.5,146.1 325.1,145.4 329.8,144.8 334.4,144.1 339.1,143.5 343.7,142.8 348.4,142.1 353.0,141.5 357.7,140.8 362.3,140.2 367.0,139.5 371.6,138.9 376.3,138.2 380.9,137.5 385.6,136.9 390.2,136.2 394.9,135.6 399.5,134.9 404.2,134.2 408.8,133.6 413.5,132.9 418.1,132.3 422.8,131.6 427.4,130.9 432.1,130.3 436.7,129.6 441.4,129.0 446.0,128.3 450.7,127.7 455.3,127.0 460.0,126.3 464.7,125.7 469.3,125.0 474.0,124.4 478.6,123.7 483.3,123.0 487.9,122.4 492.6,121.7 497.2,121.1 501.9,120.4 506.5,119.7 511.2,119.1 515.8,118.4 520.5,117.8 525.1,117.1 529.8,116.4 534.4,115.8 539.1,115.1 543.7,114.5 548.4,113.8 553.0,113.2 557.7,112.5 562.3,111.8 567.0,111.2 571.6,110.5 576.3,109.9 580.9,109.2 585.6,108.5 590.2,107.9 594.9,107.2 599.5,106.6 604.2,105.9 608.8,105.2 613.5,104.6 618.1,103.9 622.8,103.3 627.4,102.6 632.1,102.0 636.7,101.3 641.4,100.6 646.0,100.0 650.7,99.3 655.3,98.7 660.0,98.0 660.0,178.0 655.3,178.3 650.7,178.5 646.0,178.8 641.4,179.1 636.7,179.4 632.1,179.6 627.4,179.9 622.8,180.2 618.1,180.4 613.5,180.7 608.8,181.0 604.2,181.3 599.5,181.5 594.9,181.8 590.2,182.1 585.6,182.3 580.9,182.6 576.3,182.9 571.6,183.2 567.0,183.4 562.3,183.7 557.7,184.0 553.0,184.2 548.4,184.5 543.7,184.8 539.1,185.1 534.4,185.3 529.8,185.6 525.1,185.9 520.5,186.1 515.8,186.4 511.2,186.7 506.5,187.0 501.9,187.2 497.2,187.5 492.6,187.8 487.9,188.0 483.3,188.3 478.6,188.6 474.0,188.9 469.3,189.1 464.7,189.4 460.0,189.7 455.3,189.9 450.7,190.2 446.0,190.5 441.4,190.8 436.7,191.0 432.1,191.3 427.4,191.6 422.8,191.8 418.1,192.1 413.5,192.4 408.8,192.7 404.2,192.9 399.5,193.2 394.9,193.5 390.2,193.7 385.6,194.0 380.9,194.3 376.3,194.6 371.6,194.8 367.0,195.1 362.3,195.4 357.7,195.6 353.0,195.9 348.4,196.2 343.7,196.4 339.1,196.7 334.4,197.0 329.8,197.3 325.1,197.5 320.5,197.8 315.8,198.1 311.2,198.3 306.5,198.6 301.9,198.9 297.2,199.2 292.6,199.4 287.9,199.7 283.3,200.0 278.6,200.2 274.0,200.5 269.3,200.8 264.7,201.1 260.0,201.3 255.3,201.6 250.7,201.9 246.0,202.1 241.4,202.4 236.7,202.7 232.1,203.0 227.4,203.2 222.8,203.5 218.1,203.8 213.5,204.0 208.8,204.3 204.2,204.6 199.5,204.9 194.9,205.1 190.2,205.4 185.6,205.7 180.9,205.9 176.3,206.2 171.6,206.5 167.0,206.8 162.3,207.0 157.7,207.3 153.0,207.6 148.4,207.8 143.7,208.1 139.1,208.4 134.4,208.7 129.8,208.9 125.1,209.2 120.5,209.5 115.8,209.7 111.2,210.0 106.5,210.3 101.9,210.6 97.2,210.8 92.6,211.1 87.9,211.4 83.3,211.6 78.6,211.9 74.0,212.2 69.3,212.5 64.7,212.7 60.0,213.0" class="d-zone"/><polyline points="60.0,198.0 64.7,193.9 69.3,189.8 74.0,185.8 78.6,182.0 83.3,178.3 87.9,174.9 92.6,171.7 97.2,168.8 101.9,166.2 106.5,163.9 111.2,162.0 115.8,160.4 120.5,159.1 125.1,158.2 129.8,157.6 134.4,157.3 139.1,157.3 143.7,157.5 148.4,158.0 153.0,158.6 157.7,159.4 162.3,160.3 167.0,161.3 171.6,162.3 176.3,163.3 180.9,164.2 185.6,165.1 190.2,165.8 194.9,166.5 199.5,166.9 204.2,167.2 208.8,167.4 213.5,167.3 218.1,167.1 222.8,166.6 227.4,166.1 232.1,165.3 236.7,164.5 241.4,163.5 246.0,162.5 250.7,161.5 255.3,160.4 260.0,159.4 264.7,158.5 269.3,157.6 274.0,157.0 278.6,156.5 283.3,156.2 287.9,156.1 292.6,156.3 297.2,156.8 301.9,157.5 306.5,158.6 311.2,159.9 315.8,161.5 320.5,163.4 325.1,165.5 329.8,167.8 334.4,170.4 339.1,173.1 343.7,175.9 348.4,178.8 353.0,181.7 357.7,184.7 362.3,187.6 367.0,190.3 371.6,192.9 376.3,195.4 380.9,197.6 385.6,199.5 390.2,201.2 394.9,202.5 399.5,203.4 404.2,204.0 408.8,204.3 413.5,204.1 418.1,203.6 422.8,202.7 427.4,201.5 432.1,199.9 436.7,198.0 441.4,195.9 446.0,193.6 450.7,191.0 455.3,188.3 460.0,185.5 464.7,182.6 469.3,179.7 474.0,176.8 478.6,173.9 483.3,171.1 487.9,168.5 492.6,166.0 497.2,163.7 501.9,161.6 506.5,159.7 511.2,158.0 515.8,156.6 520.5,155.3 525.1,154.3 529.8,153.4 534.4,152.7 539.1,152.2 543.7,151.7 548.4,151.4 553.0,151.1 557.7,150.8 562.3,150.5 567.0,150.1 571.6,149.6 576.3,149.1 580.9,148.3 585.6,147.4 590.2,146.3 594.9,145.0 599.5,143.5 604.2,141.7 608.8,139.7 613.5,137.4 618.1,135.0 622.8,132.4 627.4,129.6 632.1,126.6 636.7,123.5 641.4,120.4 646.0,117.2 650.7,114.1 655.3,110.9 660.0,107.9" class="d-px" style="stroke-width:1.4"/><polyline points="60.0,198.0 64.7,197.5 69.3,197.1 74.0,196.6 78.6,196.1 83.3,195.7 87.9,195.2 92.6,194.7 97.2,194.3 101.9,193.8 106.5,193.3 111.2,192.9 115.8,192.4 120.5,192.0 125.1,191.5 129.8,191.0 134.4,190.6 139.1,190.1 143.7,189.6 148.4,189.2 153.0,188.7 157.7,188.2 162.3,187.8 167.0,187.3 171.6,186.8 176.3,186.4 180.9,185.9 185.6,185.4 190.2,185.0 194.9,184.5 199.5,184.0 204.2,183.6 208.8,183.1 213.5,182.7 218.1,182.2 222.8,181.7 227.4,181.3 232.1,180.8 236.7,180.3 241.4,179.9 246.0,179.4 250.7,178.9 255.3,178.5 260.0,178.0 264.7,177.5 269.3,177.1 274.0,176.6 278.6,176.1 283.3,175.7 287.9,175.2 292.6,174.7 297.2,174.3 301.9,173.8 306.5,173.3 311.2,172.9 315.8,172.4 320.5,172.0 325.1,171.5 329.8,171.0 334.4,170.6 339.1,170.1 343.7,169.6 348.4,169.2 353.0,168.7 357.7,168.2 362.3,167.8 367.0,167.3 371.6,166.8 376.3,166.4 380.9,165.9 385.6,165.4 390.2,165.0 394.9,164.5 399.5,164.0 404.2,163.6 408.8,163.1 413.5,162.7 418.1,162.2 422.8,161.7 427.4,161.3 432.1,160.8 436.7,160.3 441.4,159.9 446.0,159.4 450.7,158.9 455.3,158.5 460.0,158.0 464.7,157.5 469.3,157.1 474.0,156.6 478.6,156.1 483.3,155.7 487.9,155.2 492.6,154.7 497.2,154.3 501.9,153.8 506.5,153.3 511.2,152.9 515.8,152.4 520.5,152.0 525.1,151.5 529.8,151.0 534.4,150.6 539.1,150.1 543.7,149.6 548.4,149.2 553.0,148.7 557.7,148.2 562.3,147.8 567.0,147.3 571.6,146.8 576.3,146.4 580.9,145.9 585.6,145.4 590.2,145.0 594.9,144.5 599.5,144.0 604.2,143.6 608.8,143.1 613.5,142.7 618.1,142.2 622.8,141.7 627.4,141.3 632.1,140.8 636.7,140.3 641.4,139.9 646.0,139.4 650.7,138.9 655.3,138.5 660.0,138.0" class="d-hi"/><text x="666" y="142.0" class="d-k" text-anchor="start">VWAP</text><text x="666" y="102.0" class="d-s" text-anchor="start">+1&#963;</text><text x="666" y="62.0" class="d-s" text-anchor="start">+2&#963;</text><text x="666" y="182.0" class="d-s" text-anchor="start">&#8722;1&#963;</text><text x="60" y="44" class="d-k2" text-anchor="start">above VWAP &#8212; premium</text><text x="60" y="272" class="d-k2" text-anchor="start">below VWAP &#8212; discount</text><text x="40" y="300" class="d-s" text-anchor="start">VWAP is the average price weighted by volume since the session anchor. The bands widen as the session's</text><text x="40" y="318" class="d-s" text-anchor="start">dispersion grows, so they measure how far from consensus price has travelled &#8212; not where it goes next.</text></svg><figcaption>VWAP through a session, with the bands widening as dispersion grows.</figcaption></figure>
+<p>VWAP — volume-weighted average price — is the running average price of the session, weighted by how much
+volume traded at each price, computed from a fixed starting point (almost always the session open). It is not a
+moving average of price; it is a moving average of where the money actually traded. Institutions reference it
+because it is the standard yardstick for execution quality: a desk instructed to buy &ldquo;at VWAP&rdquo; is graded after the
+fact on whether its average fill beat that number, which means large volume-weighted execution algorithms are
+themselves built to trade around it — turning VWAP from a passive statistic into a level that other orders
+actively react to. Its standard-deviation bands measure how far current price has traded from that
+volume-weighted average, in statistical units, which gives you a consistent way to say &ldquo;unusually far&rdquo; across
+different instruments and different days rather than guessing at a fixed number of points or ticks. Price sitting
+above a rising VWAP is a rough read on who currently holds the advantage in the session&rsquo;s auction; price sitting
+below a falling one is the mirror image. Combine that with where price sits relative to yesterday&rsquo;s accepted
+range and you get the premium/discount framing: trading above yesterday&rsquo;s value while below today&rsquo;s VWAP is
+a different, more contested location than trading above both, and the two readings should agree before you
+treat a location as strong.</p>
+<h3 id="building-the-map-before-the-bell">Building the map before the bell</h3>
+<p>Everything above is more useful before the open than during it. The professional habit is to mark the relevant
+levels — yesterday&rsquo;s high, low, and close, the edges of yesterday&rsquo;s value, the overnight high and low, VWAP&rsquo;s
+anchor point — on the chart before the session starts, so that when price arrives at one of them you are
+checking a plan against reality instead of improvising a decision under time pressure. Reacting live, with no
+prior map, is how a reasonable read of one bar turns into a decision made on adrenaline.</p>
+<h3 id="the-cost-of-trading-more-often">The cost of trading more often</h3>
+<p>Stage 6 gave you expectancy: average win times win rate, minus average loss times loss rate. Every additional
+trade also subtracts the spread and the commission paid to enter and exit it, and intraday trading means many
+more entries and exits per unit of edge captured than swing trading does. A strategy that trades a handful of
+times a week can absorb a fixed cost per trade against a comparatively large expected move. A strategy that
+trades ten times a day is paying that same fixed cost ten times as often against moves that are, by necessity,
+much smaller — because there simply isn&rsquo;t room in a single session for ten large moves. This does not make
+intraday trading impossible; it means a high-frequency approach needs a proportionally larger edge per trade to
+survive its own costs, and you should be honest with yourself about whether you have identified one before you
+start trading that often.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>A stock closes at 100.00. Overnight it drifts to 101.50 on light volume and opens the regular session at 101.40 —
+a gap into prior value if yesterday&rsquo;s range extended up to 102, a full gap if yesterday never traded above 101. Say
+yesterday&rsquo;s high was 101.20: this is a full gap, genuinely new territory. The first fifteen minutes print a range of
+101.30 to 101.90 — the opening range. At 10:00 price pushes to 102.10, a new high, but by 10:08 it has rotated
+back inside 101.90 and is drifting toward 101.30. That is an opening-range failure: the breakout print did not
+hold, which is evidence the push to 102.10 was driven by triggered orders rather than genuine new buying.
+Session VWAP, anchored at the 9:30 open, sits at 101.55 by this point; price trading back below it after failing to
+hold new highs tells you sellers, not buyers, currently have the advantage in this session&rsquo;s auction. Nothing here
+promises a further decline — it tells you which side of the argument is currently winning and why, which is
+exactly the information you need before deciding whether to act.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: Build the pre-market map, five days running
+
+Pick one instrument you can watch during its regular session. Before each of the next five sessions opens, write
+down: yesterday's high, low, and close; the overnight or pre-market high and low; and where you expect the
+opening range to be measured (pick one window — 5, 15, or 30 minutes — and use it every day). After the
+session, record what actually happened to the opening range (held and extended, or broke and failed), where
+price closed relative to VWAP, and whether the day's move stayed inside yesterday's range or left it entirely. No
+trades — this is a map-building and observation habit, not an entry signal.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>Why does the same break of a level mean something different at the New York open than during a thin
+   overnight hour?</li>
+<li>What is the practical difference between an opening-range breakout and an opening-range failure, and what
+   does each imply about who was behind the move?</li>
+<li>Why does a gap into prior value behave differently, on average, from a full gap outside the prior range?</li>
+<li>Why does an intraday approach need a larger edge per trade than a swing approach to survive its own costs?</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/06-the-trade.html">← Stage 6 · The Trade</a>
+    <a class="btn next" href="../manual/08-where-price-comes-from.html">Stage 8 · Where Price Comes From →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

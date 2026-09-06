@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" role="img" aria-labelledby="auction-rotation-t auction-rotation-d" class="diagram"><title id="auction-rotation-t">Auction rotation: rejection and acceptance around the value area</title><desc id="auction-rotation-d">Price rotating around a shaded value area, probing above and below; two probes are rejected quickly and a third is accepted.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="344" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><rect x="40" y="122" width="652" height="76" class="d-zone"/><line x1="40" y1="122" x2="692" y2="122" class="d-dash"/><line x1="40" y1="198" x2="692" y2="198" class="d-dash"/><polyline points="48.0,178.0 100.0,134.0 150.0,96.0 198.0,142.0 250.0,184.0 300.0,224.0 350.0,180.0 402.0,140.0 452.0,154.0 506.0,98.0 558.0,68.0 612.0,110.0 668.0,152.0" class="d-px"/><circle cx="150" cy="96" r="4" fill="var(--accent2,#b8862b)"/><text x="150" y="84" class="d-k2" text-anchor="middle">rejected</text><circle cx="300" cy="224" r="4" fill="var(--accent2,#b8862b)"/><text x="300" y="245" class="d-k2" text-anchor="middle">rejected</text><circle cx="558" cy="68" r="4" fill="var(--accent,#0b6e4f)"/><text x="558" y="56" class="d-k" text-anchor="middle">accepted</text><text x="46" y="112" class="d-k" text-anchor="start">value area</text><text x="40" y="278" class="d-s" text-anchor="start">The market is a two-way auction. It probes higher looking for sellers and lower looking for buyers,</text><text x="40" y="296" class="d-s" text-anchor="start">then returns to the area where trade is easiest. A probe that finds no business is rejected quickly.</text><text x="40" y="322" class="d-k" text-anchor="start">When price stays out there and volume follows it, the probe was accepted &#8212; and value moves with it.</text></svg>

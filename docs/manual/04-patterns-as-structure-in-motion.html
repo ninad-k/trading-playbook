@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patterns as Structure in Motion · Manual Trader · Trading Playbook</title>
+<meta name="description" content="Look at a classical chart pattern and describe it as the swing structure you already know how to read, then state the one thing that would prove it wrong.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 4 of 9</p>
+  <h1>Patterns as Structure in Motion</h1>
+  <p class="lead">Look at a classical chart pattern and describe it as the swing structure you already know how to read, then state the one thing that would prove it wrong.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="done" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="here" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-chart-patterns"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="chart-patterns-t chart-patterns-d" class="diagram"><title id="chart-patterns-t">Three classical chart patterns read as swing structure</title><desc id="chart-patterns-d">A double top, a head and shoulders and an ascending triangle, each annotated with the swing highs and lows that produce it.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="300" rx="8" class="d-bg"/><text x="40" y="32" class="d-t" text-anchor="start">Three patterns, and the structure each one actually is</text><text x="141.0" y="62" class="d-t" text-anchor="middle">Double top</text><line x1="48" y1="194" x2="234" y2="194" class="d-ax"/><polyline points="48.0,194.0 85.2,92.0 118.7,148.4 152.2,94.4 193.1,160.4 234.0,188.0" class="d-px"/><circle cx="85.2" cy="92.0" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="85.2" y="83.0" class="d-k" text-anchor="middle">H</text><circle cx="152.2" cy="94.4" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="152.16000000000003" y="85.4" class="d-k" text-anchor="middle">H</text><text x="141.0" y="220" class="d-s" text-anchor="middle">a failure to make a higher high</text><text x="359.0" y="62" class="d-t" text-anchor="middle">Head and shoulders</text><line x1="266" y1="194" x2="452" y2="194" class="d-ax"/><polyline points="266.0,194.0 292.0,124.4 314.4,155.6 347.8,81.2 377.6,153.2 407.4,119.6 452.0,184.4" class="d-px"/><circle cx="347.8" cy="81.2" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="347.84000000000003" y="72.2" class="d-k" text-anchor="middle">head</text><circle cx="292.0" cy="124.4" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="292.04" y="115.4" class="d-k" text-anchor="middle">S</text><circle cx="407.4" cy="119.6" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="407.36" y="110.6" class="d-k" text-anchor="middle">S</text><text x="359.0" y="220" class="d-s" text-anchor="middle">the same failure, one peak later</text><text x="577.0" y="62" class="d-t" text-anchor="middle">Ascending triangle</text><line x1="484" y1="194" x2="670" y2="194" class="d-ax"/><polyline points="484.0,177.2 513.8,93.2 539.8,148.4 569.6,95.6 595.6,126.8 625.4,94.4 647.7,112.4 670.0,80.0" class="d-px"/><circle cx="539.8" cy="148.4" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="539.8" y="165.4" class="d-k" text-anchor="middle">HL</text><circle cx="595.6" cy="126.8" r="3.5" fill="var(--accent,#0b6e4f)"/><text x="595.6" y="143.8" class="d-k" text-anchor="middle">HL</text><text x="577.0" y="220" class="d-s" text-anchor="middle">a range with rising lows</text><line x1="484" y1="91" x2="670" y2="91" class="d-dash"/><text x="40" y="254" class="d-s" text-anchor="start">None of these is a new idea. Each is the swing structure from stage 3, seen from a little further back &#8212;</text><text x="40" y="272" class="d-k" text-anchor="start">which is why you can read one that nobody has given a name to.</text></svg><figcaption>Three named patterns, and the swing structure each one actually is.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>You will be able to name the common chart patterns — double tops, head and shoulders, triangles, flags,
+wedges, cup and handle — and, more usefully, describe each one in terms of the swing highs, swing lows,
+and breaks of structure you learned to spot in stage 3. You will also be able to state, for any pattern
+you point at on a chart, the exact price level that would invalidate it.</p>
+<h2 id="the-lesson">The lesson</h2>
+<p>Every named chart pattern is something you already know how to see. It is not a new skill sitting on
+top of structure — it is structure, described with a picture instead of a sentence. The catalogue of
+patterns exists because certain arrangements of swings recur often enough that traders gave them names.
+Learn to translate the name back into the structure underneath it, and you stop needing the catalogue.</p>
+<h3 id="double-tops-and-double-bottoms">Double tops and double bottoms</h3>
+<p>A double top is nothing more than a failed higher high. Price makes a swing high, pulls back to a swing
+low, rallies again, and fails to clear the first high by any meaningful margin. In stage 3 terms: an
+uptrend that stops making higher highs. The &ldquo;top&rdquo; is just the second swing high sitting at roughly the
+same level as the first, and the pattern completes — in the conventional reading — when price breaks
+below the swing low between the two tops, which is the same break-of-structure event you already know
+how to spot, just to the downside. A double bottom is the mirror image: a failed lower low. Nothing about
+either pattern requires new vocabulary. What makes it nameable rather than just &ldquo;a failure to extend the
+trend&rdquo; is that it happened twice at a similar level, which is what makes the level look like resistance
+or support rather than coincidence.</p>
+<h3 id="head-and-shoulders">Head and shoulders</h3>
+<p>A head and shoulders top is three swing highs, where the middle one is higher than the two either side of
+it, sitting on top of a trend that is losing the ability to make higher highs and higher lows. Read as
+structure: the left shoulder is a normal swing high in an uptrend. The head is one more higher high — the
+trend still working. The right shoulder is where the trend fails to make a higher high at all, and the
+low between the head and the right shoulder — conventionally called the neckline — is the swing low that,
+if broken, completes the same kind of break of structure you learned in stage 3, just with two shoulders
+of context either side of it instead of one. An inverse head and shoulders is the same read upside down,
+built from a downtrend that stops making lower lows.</p>
+<h3 id="the-triangle-family">The triangle family</h3>
+<p>A triangle is a range whose swings are converging. You already know a range as a market bouncing between
+a swing high and a swing low with no new extremes; a triangle is that same range, except the highs are
+getting lower, or the lows are getting higher, or both. A symmetrical triangle is a range compressing
+from both sides — indecision, in the sense that neither buyers nor sellers are extending the range. An
+ascending triangle has a flat top and rising lows: buyers are stepping in earlier each time, willing to
+pay more, while sellers keep defending the same ceiling — read as mildly bullish because one side of the
+range is visibly losing ground. A descending triangle is the same logic reversed: a flat floor and
+falling highs, sellers pressing while buyers keep pulling back. In every case, the pattern resolves the
+same way a range always resolves: with a break of structure through one side.</p>
+<h3 id="flags-pennants-and-the-pullback">Flags, pennants, and the pullback</h3>
+<p>A flag is a pullback that has gone sideways or slightly against the trend for long enough to look like
+its own small range, after a sharp directional move. If you can already tell a pullback from a reversal —
+which is a stage 3 skill — a flag is simply a pullback with visible, roughly parallel structure to it. A
+pennant is the same pullback compressing into a small symmetrical triangle instead of a parallel channel.
+Neither is a different phenomenon from the pullback you already know how to read; they are the same
+event with enough bars in it to draw lines around.</p>
+<h3 id="wedges-and-cup-and-handle">Wedges and cup and handle</h3>
+<p>A wedge looks like a triangle but slants against the direction it eventually breaks: a rising wedge
+grinds higher on both trendlines while momentum quietly fades, and is read as bearish because the range
+is narrowing even as price appears to climb; a falling wedge is the same compression grinding lower and
+is read as bullish. A cup and handle is a rounded low — a gradual, curved swing low rather than a sharp
+one — followed by a small pullback (the handle) that behaves exactly like a flag. All of it is still
+swings, ranges, and pullbacks. The names describe the shape; the structure underneath is what you already
+learned to read.</p>
+<h3 id="the-measured-move">The measured move</h3>
+<p>Most of these patterns come with a conventional price target, and the logic behind it is the same in
+every case: take the height of the move that built the pattern, and project that same distance from the
+point where the pattern breaks. A head and shoulders target subtracts the head-to-neckline distance from
+the neckline break. A triangle target adds (or subtracts) the height of the triangle&rsquo;s widest point from
+the breakout. A flag target adds the length of the &ldquo;flagpole&rdquo; — the sharp move before the flag — to the
+breakout of the flag. This is called a measured move, and the idea behind it is simply that a move often
+repeats its own scale once it resumes. That is a reasonable starting assumption for where to take profit
+or where to expect resistance — it is not a law of price, and there is no mechanism that forces a market
+to travel exactly as far the second time as the first.</p>
+<h3 id="the-honest-part">The honest part</h3>
+<p>Pattern recognition is subjective. Give the same chart to five traders and you will get more than one
+answer for what pattern is on it, where it starts, and whether it is even finished — because a pattern is
+a story fitted to a shape, and shapes are ambiguous until price has already moved past them. This is also
+why patterns look far more obvious in a book than they do on the right edge of a live chart: a textbook
+head and shoulders is chosen after the fact, from the small number of times the shape appeared and worked.
+On the right edge, in real time, you cannot know yet whether the right shoulder will fail to make a
+higher high or whether it is about to blow past the head. The published &ldquo;reliability&rdquo; percentages you
+will see attached to these patterns in books and articles — this pattern works 70% of the time, that one
+80% — are not the result of anything you should treat as robust evidence. They typically come from a
+small, hand-picked, hindsight-selected sample of chart examples, not from a controlled test across a
+large number of markets and time periods with a precise, repeatable rule for what counts as the pattern
+in the first place. Treat every such number as marketing, not as measurement.</p>
+<p>None of that means patterns are useless. It means the pattern itself is not the edge — the discipline you
+bring to using it is. The single most useful question you can ask about any pattern you think you see is:
+what would have to happen for this to be wrong? For a double top, that is a clean break above the second
+high. For a triangle, it is a break the wrong way with the swing structure violated, not just a poke
+through a trendline. If you cannot answer that question with a specific price, you have not identified a
+pattern — you have described a picture.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>Suppose a stock has been climbing for three weeks, making higher highs and higher lows the way you
+learned to track in stage 3. It makes a swing high at 110, pulls back to a swing low at 104, and rallies
+again — but this time stalls at 111 instead of pushing meaningfully higher, then turns down. You now have
+two highs at roughly the same level with a swing low between them. That is a double top by name. Read as
+structure: the uptrend has, for the first time in three weeks, failed to make a clear higher high. The
+level that would invalidate the pattern is 111 — a close back above it and the &ldquo;failure&rdquo; reading is wrong,
+the uptrend is intact, and you were looking at a pause, not a top. The level that would confirm it is 104
+— a break of that swing low completes the same break-of-structure event from stage 3, now with the extra
+context that it followed a failed higher high. The conventional measured-move target subtracts the
+110-to-104 range (6 points) from the break at 104, projecting to roughly 98. Notice that every part of
+this reasoning — the swing high, the swing low, the break, the projection — was available to you before
+you ever heard the term &ldquo;double top.&rdquo; The name organized the observation; it did not add information you
+did not already have.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: Name it, then break it
+
+Pull up 15 charts — any instrument, any timeframe, your choice — and for each one, find one classical
+pattern forming or recently completed (a double top, a triangle, a flag, whatever you can find). For each
+pattern, write down two things only: the exact price level that would invalidate it, and the swing
+structure underneath it in one sentence, the way this lesson described the double top. Do not write down
+a trade idea. The point of the drill is proving you can translate a named pattern back into structure and
+name its failure level, not picking winners.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>In your own words, what swing-structure event is a double top actually a failure to produce?</li>
+<li>Why is an ascending triangle read differently from a descending triangle, given that both are ranges
+   with converging swings?</li>
+<li>Where does a measured-move target come from, and what is it actually assuming about the market?</li>
+<li>Why are published pattern &ldquo;reliability&rdquo; percentages not something you should treat as robust, and what
+   question should you ask instead of trusting one?</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/03-structure.html">← Stage 3 · Structure</a>
+    <a class="btn next" href="../manual/05-indicators.html">Stage 5 · Indicators, and What They Actually Compute →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

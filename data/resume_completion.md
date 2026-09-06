@@ -1,12 +1,12 @@
 # Trading Playbook: resumed books
 
-Snapshot: 2026-09-06. 148 new parent notes; 582 parent notes and 151 method pages in the library.
+Snapshot: 2026-09-06. 148 new parent notes; 589 parent notes and 154 method pages in the library.
 
-The saved inventory contains 733 PDFs. 151 are documented duplicates, exclusions or damaged files. Missing eligible notes: 0.
+The saved inventory contains 740 PDFs. 151 are documented duplicates, exclusions or damaged files. Missing eligible notes: 0.
 
 ## Reading coverage
 
-Full source reviews recorded: 228. Partial source reviews: 354. Older notes without recorded coverage: 0.
+Full source reviews recorded: 234. Partial source reviews: 355. Older notes without recorded coverage: 0.
 
 A complete inventory is not a claim that every page of every book has been read. Long-book notes identify the selected PDF pages actually reviewed; damaged equations and unresolved chart details remain qualified.
 

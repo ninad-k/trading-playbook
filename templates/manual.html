@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ m.title }} · Manual Trader · {{ site_title }}{% endblock %}
+{% block desc %}{{ m.goal }}{% endblock %}
+{% block content %}
+<article class="lesson">
+  <p class="crumbs"><a href="{{ root }}index.html">Index</a> › <a href="{{ root }}manual/index.html">Manual Trader</a> › Stage {{ m.stage }} of {{ total }}</p>
+  <h1>{{ m.title }}</h1>
+  <p class="lead">{{ m.goal }}</p>
+  <div class="rail" aria-label="Course progress">
+    {% for s in rail %}<a href="{{ root }}manual/{{ s.url }}" class="{{ 'here' if s.stage == m.stage else ('done' if s.stage < m.stage else '') }}" title="Stage {{ s.stage }}: {{ s.title }}">{{ s.stage }}</a>{% endfor %}
+  </div>
+  {% if hero %}{{ hero|safe }}{% endif %}
+  <div class="prose">{{ body|safe }}</div>
+  <nav class="pager">
+    {% if prev %}<a class="btn" href="{{ root }}manual/{{ prev.url }}">← Stage {{ prev.stage }} · {{ prev.title }}</a>{% else %}<a class="btn" href="{{ root }}manual/index.html">← Course overview</a>{% endif %}
+    {% if next %}<a class="btn next" href="{{ root }}manual/{{ next.url }}">Stage {{ next.stage }} · {{ next.title }} →</a>{% else %}<a class="btn next" href="{{ root }}index.html">Finish · back to the library →</a>{% endif %}
+  </nav>
+</article>
+{% endblock %}

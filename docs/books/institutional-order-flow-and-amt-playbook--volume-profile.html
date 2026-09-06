@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volume Profile: Point of Control, Value Area and Volume Nodes — Ninad K · Trading Playbook</title>
+<meta name="description" content="The book&#39;s volume-profile method: build the volume-at-price histogram, locate POC and the 70% Value Area with a precise two-row algorithm, and trade High/Low Volume Nodes and Naked POCs as rotation shelves, acceleration zones and revisit magnets.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a> › <a href="../books/institutional-order-flow-and-amt-playbook.html">The Institutional Order Flow &amp; Auction Market Theory Playbook</a></p>
+  <h1>Volume Profile: Point of Control, Value Area and Volume Nodes</h1>
+  <p class="byline">Ninad K · <span class="badge tier-A" title="Deep note: a full synthesis of the book">Tier A &mdash; deep note</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">The book&#39;s volume-profile method: build the volume-at-price histogram, locate POC and the 70% Value Area with a precise two-row algorithm, and trade High/Low Volume Nodes and Naked POCs as rotation shelves, acceleration zones and revisit magnets.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=volume-profile">volume-profile</a> <a class="tag" href="../search.html?q=point-of-control">point-of-control</a> <a class="tag" href="../search.html?q=value-area">value-area</a> <a class="tag" href="../search.html?q=high-volume-node">high-volume-node</a> <a class="tag" href="../search.html?q=low-volume-node">low-volume-node</a> <a class="tag" href="../search.html?q=naked-poc">naked-poc</a> <a class="tag" href="../search.html?q=futures">futures</a> </td></tr>
+    <tr><th>Length</th><td>235 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Volume Profile: Point of Control, Value Area and Volume Nodes” by Ninad K at your bookseller or library.</td></tr>
+  </table>
+  
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>Volume Profile is a horizontal histogram of traded volume plotted against price rather than time: for a chosen window (a session, a visible range, a fixed range, a composite of several sessions, or an anchored range from a swing point or event), every trade increments the accumulator at its price row, and the resulting distribution shows where the market actually reached agreement (heavy rows) versus where it was merely passed through (thin rows). The book&rsquo;s central claim is that volume-at-price is harder evidence of institutional acceptance than price alone, because size cannot transact without displacing the order book — a price with a lot of volume is a price both sides repeatedly agreed to trade at, not just a price that was touched.</p>
+<p>Five window types answer five different questions and must not be conflated: a <strong>Session</strong> profile resets daily and answers &ldquo;where did today&rsquo;s auction accept price&rdquo;; <strong>Visible Range (VRVP)</strong> recomputes on every zoom/scroll and is a charting convenience only — never a reproducible reference; <strong>Fixed Range (FRVP)</strong> is drawn once between two explicit anchors and frozen, used for a specific analytically-meaningful leg; <strong>Composite</strong> profiles concatenate many sessions to reveal the larger structural map; <strong>Anchored</strong> profiles run forward from a chosen event (a confirmed swing point, a news release) to show the average price paid since that pivot.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Match profile type to question before reading any level from it.</strong> Session for today&rsquo;s acceptance, Composite/Fixed-Range for durable swing/position levels, VRVP only for a quick, non-reproducible eyeball read — never quote a VRVP level without freezing the exact date range that produced it.</li>
+<li><strong>Point of Control (POC) = argmax(volume_at_price).</strong> Distinguish the <strong>Developing POC (DPOC)</strong>, the running argmax while a session is still in progress (its migration direction is itself a trend tell — a DPOC that climbs with price confirms two-sided acceptance following the rally; a DPOC pinned low while price makes new highs warns the rally is not being accepted), from a <strong>Naked/Virgin POC (NPOC)</strong> — a completed prior session&rsquo;s POC that price has not since retraded, treated as an unfinished, statistically-likely-to-be-revisited magnet (more so when isolated than when several newer NPOCs sit between it and current price).</li>
+<li><strong>Value Area (VA) is built mechanically, not eyeballed.</strong> Starting at the POC row, repeatedly compare the sum of the next two rows above the current VA edge against the next two rows below; add whichever pair is larger; stop once cumulative volume reaches 70% of the session total. VAH/VAL are the resulting top/bottom rows. A fully worked 15-row example in the source (POC at 2,400 contracts, 15,000 total session volume) reaches target after three two-row steps, landing at 74.5% enclosed — slightly over 70%, which the book notes is normal since the algorithm only adds in complete two-row increments and never stops mid-step.</li>
+<li><strong>The 80% Rule.</strong> If price opens inside the prior session&rsquo;s Value Area and holds inside it for two consecutive ~30-minute periods, the source states a historically high probability (cited around 80%, without a shown sample) that price continues through the entire Value Area to test the opposite side.</li>
+<li><strong>High-Volume Nodes (HVN) slow price; Low-Volume Nodes (LVN) accelerate it.</strong> An HVN is a local peak (resting liquidity concentrated there, so an incoming order must work through a lot of size — rotational/choppy behavior); an LVN is a local trough (little resting liquidity, so price transits it fast) — the alternating HVN→LVN→HVN structure is described as the market&rsquo;s &ldquo;rungs and gaps&rdquo; of acceptance.</li>
+<li><strong>Read volume context, not just shape, at any new extreme.</strong> A new high/low printed on volume clearly above the recent row average, with the bid/ask split skewed in the breakout&rsquo;s direction, is acceptance (higher-conviction); the same new extreme on thin, oppositely-skewed volume is rejection (a vulnerable, exhaustion-prone print).</li>
+<li><strong>Classify the completed or developing shape</strong> — P (fat top, thin tail — trend-into-balance), b (fat bottom, mirror), D (bell curve, two-sided rotation), B (two humps split by an LVN gap — two distinct sub-auctions in one session), or thin/elongated (a low-negotiation trend day with few reliable rungs) — before reading any individual level inside it.</li>
+<li><strong>Build a multi-profile confluence map before the session.</strong> Stack session, composite, weekly and any live anchored profiles&rsquo; POC/VAH/VAL; a price where two or more independently-derived levels cluster within a small tick tolerance is a confluence zone that should carry more size and wider expected defense than any single-source level.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>The source ties every profile-based read to a specific risk placement rather than treating levels as targets in isolation. A heavily-traded row (fat POC/HVN) is explicitly called a <em>poor</em> place to hold a stop, because its very liquidity means stops resting inside it get run on ordinary two-way churn, not because the underlying thesis was wrong — stops belong just beyond a VAH/VAL edge, beyond a stacked-imbalance zone, or inside a thin LVN band (which sees far less two-way rotation and is therefore statistically safer for a breakout stop than an adjacent HVN). Value-area fade trades are sized with the stop just beyond VAH/VAL plus a tick buffer, targeting POC first and the opposite edge only if momentum carries through; confluence-zone trades are explicitly sized with wider stops (the whole tolerance band) because a multi-level cluster is expected to be defended harder and chopped through more slowly than a single-source level. No fixed percentage-of-equity figure is given in this section — that framework lives in the parent book&rsquo;s risk chapter (position sizing, R-multiples, circuit breakers) and is not repeated here.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Volume profile construction (bin size, session boundaries, the two-row Value Area convention) varies by charting platform, and the book explicitly warns to confirm these settings before comparing POC/VA readings across tools or across days — a VRVP-derived POC in particular is a viewport artifact, not a fixed market fact, and the text is direct that quoting one without freezing the date range is a common analytical error. The 80% rule and the NPOC-fill-rate claim (&ldquo;gets filled a large majority of the time within 1-10 sessions&rdquo;) are stated as historical/empirical findings but no sample, market, or time period is cited anywhere in the source — treat both as plausible heuristics inherited from classical Market Profile literature rather than validated statistics for any specific instrument you trade. Composite profiles are also explicitly flagged as laggy: after a genuine regime change, a composite will keep showing the old range as heaviest for some time even though price no longer wants to trade there, so an LVN or HVN read off a stale composite should be cross-checked against the current developing profile before being used as a live acceleration or rotation zone.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/institutional-order-flow-and-amt-playbook.html">The Institutional Order Flow &amp; Auction Market Theory Playbook</a> — A from-first-principles order-flow manual: the matching engine, Auction Market Theory, TPO and volume profile, footprint/delta, VWAP, DOM liquidity events, and a full institutional risk-management framework, unified by a Context-Location-Trigger-Confirmation-Execution pipeline.</li><li><a href="../books/institutional-order-flow-and-amt-playbook--footprint-and-delta.html">Footprint Charts: Imbalance, Absorption and Delta Divergence</a> — The book&#39;s footprint method: read bid-versus-ask volume per price, track delta and CVD divergence/exhaustion, flag diagonal imbalances and stacked zones, and distinguish absorption from genuine initiative by what happens on the next one to two bars.</li><li><a href="../books/institutional-order-flow-and-amt-playbook--vwap-and-session-levels.html">VWAP, Standard-Deviation Bands and the Structural Level Map</a> — The book&#39;s VWAP and level-mapping method: compute VWAP and its volume-weighted sigma bands, classify balance versus trend regimes before fading or riding them, and rank a full structural-level stack (PDH/PDL, value area, overnight range) by confluence before the open.</li><li><a href="../books/cbot-a-six-part-study-guide-to-market-profile.html">A Six-Part Study Guide to Market Profile</a> — The CBOT&#39;s own seminar-based home-study course on reading the Market Profile graphic, value area, day types, and Liquidity Data Bank volume.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

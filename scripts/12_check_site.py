@@ -1,5 +1,6 @@
 """Check generated local navigation, source coverage, and search inventory."""
 import json
+import re
 from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 
@@ -31,8 +32,8 @@ def main():
         for link in page.links:
             url = urlsplit(link)
             if url.scheme or url.netloc:
-                if 'dl.fxf1.com' in url.netloc:
-                    errors.append(f'Public source mirror link: {path.name}')
+                if re.search(r'\.(pdf|epub|djvu|chm|zip|rar)$', url.path, re.I):
+                    errors.append(f'Link to a source file leaked onto {path.name}: {link}')
                 continue
             links += 1
             target = (path.parent / unquote(url.path)).resolve() if url.path else path

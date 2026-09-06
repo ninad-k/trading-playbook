@@ -10,16 +10,19 @@ import sys
 
 import frontmatter
 
-from common import BOOKS, CATEGORIES, TOPICS, load_manifest
+from common import BOOKS, CATEGORIES, CONTENT, TOPICS, load_manifest
 
 REQ_BOOK = ["title", "author", "year", "slug", "tier", "category", "tags", "difficulty", "doc_type", "pages", "one_liner", "related", "source_file"]
 SECTIONS_A = ["Overview", "Core thesis", "Key concepts", "Rules and setups", "Risk and money management", "Psychology and discipline", "Chapter map", "Strengths and caveats", "Who should read it", "Related books in this library"]
 SECTIONS_B = ["Summary", "Key points", "Actionable rules", "Caveats", "Who it is for"]
 SECTIONS_SYS = ["What it is", "Rules", "Risk", "Caveats"]
+REQ_LESSON = ["stage", "title", "slug", "goal"]
+SECTIONS_LESSON = ["What you will be able to do", "The lesson", "Worked example", "Practice", "Self-check"]
 SECTIONS_TOPIC = ["What it is", "Core principles", "Concrete rules and setups", "Common mistakes", "Best books for this topic", "Open debates"]
 DIFF = {"beginner", "intermediate", "advanced"}
 DOCT = {"book", "course", "article", "paper", "manual", "system"}
-FORBIDDEN = re.compile(r"dl\.fxf1\.com", re.I)
+# no note may carry a link to a downloadable source file, from any host
+FORBIDDEN = re.compile(r"https?://\S+\.(?:pdf|epub|djvu|chm|zip|rar)", re.I)
 
 
 def headings(body: str) -> list[str]:
@@ -86,7 +89,7 @@ def main() -> int:
             if not any(h.lower().startswith(s.lower()) for h in hs):
                 errors.append(f"{f.name}: missing section '## {s}'")
         if FORBIDDEN.search(post.content) or FORBIDDEN.search(str(m)):
-            errors.append(f"{f.name}: contains source mirror URL")
+            errors.append(f"{f.name}: links to a downloadable source file")
         wc = len(post.content.split())
         if m.get("doc_type") != "system":
             lo = 600 if m.get("tier") == "A" else 150
@@ -118,7 +121,53 @@ def main() -> int:
             if m not in slugs:
                 errors.append(f"topics/{f.name}: unresolved link [[{m}]]")
         if FORBIDDEN.search(post.content):
-            errors.append(f"topics/{f.name}: contains source mirror URL")
+            errors.append(f"topics/{f.name}: links to a downloadable source file")
+
+    # ---- Manual Trader course: a sequence, so it is checked as one
+    manual = CONTENT / "manual"
+    if manual.exists():
+        diagram_names = {f.stem for f in (CONTENT / "diagrams").glob("*.svg")}
+        stages = {}
+        for f in sorted(manual.glob("*.md")):
+            if f.stem == "index":
+                continue
+            post = frontmatter.load(f, encoding="utf-8")
+            m = post.metadata
+            for k in REQ_LESSON:
+                if k not in m:
+                    errors.append(f"manual/{f.name}: missing {k}")
+            if m.get("slug") != f.stem:
+                errors.append(f"manual/{f.name}: slug {m.get('slug')!r} != filename")
+            hs = headings(post.content)
+            for s in SECTIONS_LESSON:
+                if not any(h.lower().startswith(s.lower()) for h in hs):
+                    errors.append(f"manual/{f.name}: missing section '## {s}'")
+            # the course teaches in one flow: sending the reader to the library mid-lesson breaks it
+            for link in re.findall(r"\[\[([^\]]+)\]\]", post.content):
+                if not link.startswith("diagram:"):
+                    errors.append(f"manual/{f.name}: lesson links out to [[{link}]]; the course must stand alone")
+            d = m.get("diagram")
+            if d and d not in diagram_names:
+                errors.append(f"manual/{f.name}: unknown diagram {d!r}")
+            if d and not m.get("diagram_caption"):
+                errors.append(f"manual/{f.name}: diagram without diagram_caption")
+            for fig in re.findall(r"!\[\[diagram:([^\]|]+)", post.content):
+                if fig.strip() not in diagram_names:
+                    errors.append(f"manual/{f.name}: unknown inline diagram {fig.strip()!r}")
+            try:
+                n = int(m.get("stage"))
+            except (TypeError, ValueError):
+                errors.append(f"manual/{f.name}: stage is not a number")
+                continue
+            if n in stages:
+                errors.append(f"manual/{f.name}: duplicate stage {n} (also {stages[n]})")
+            stages[n] = f.name
+            for b in m.get("builds_on") or []:
+                if int(b) >= n:
+                    errors.append(f"manual/{f.name}: builds_on {b} is not an earlier stage")
+        if stages and sorted(stages) != list(range(1, len(stages) + 1)):
+            errors.append(f"manual: stages are not contiguous from 1: {sorted(stages)}")
+        print(f"course: {len(stages)} lessons")
 
     print(f"pages: {len(posts)} (books {len(have)}, systems {len(posts)-len(have)}); manifest A/B rows: {len(want)}; topics: {len(list(TOPICS.glob('*.md')))}")
     for e in errors:

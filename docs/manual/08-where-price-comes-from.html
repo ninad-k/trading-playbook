@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Price Comes From · Manual Trader · Trading Playbook</title>
+<meta name="description" content="See the machinery that produces every price you have been reading since stage 1, and know what a retail trader can and cannot actually observe in it.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 8 of 9</p>
+  <h1>Where Price Comes From</h1>
+  <p class="lead">See the machinery that produces every price you have been reading since stage 1, and know what a retail trader can and cannot actually observe in it.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="done" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="done" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="done" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="done" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="done" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="here" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-order-book"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" role="img" aria-labelledby="order-book-t order-book-d" class="diagram"><title id="order-book-t">A limit order book with bids, asks, spread and depth</title><desc id="order-book-d">A price ladder showing resting sell orders above and buy orders below, separated by the spread, with bar lengths standing for the size resting at each price.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="350" rx="8" class="d-bg"/><text x="40" y="32" class="d-t" text-anchor="start">One moment of a limit order book</text><rect x="360" y="60" width="90" height="20" fill="var(--accent2,#b8862b)" opacity=".35"/><text x="352" y="75" class="d-s" text-anchor="end">1.0847</text><text x="456" y="75" class="d-s" text-anchor="start">90</text><rect x="360" y="86" width="148" height="20" fill="var(--accent2,#b8862b)" opacity=".35"/><text x="352" y="101" class="d-s" text-anchor="end">1.0846</text><text x="514" y="101" class="d-s" text-anchor="start">148</text><rect x="360" y="112" width="62" height="20" fill="var(--accent2,#b8862b)" opacity=".35"/><text x="352" y="127" class="d-s" text-anchor="end">1.0845</text><text x="428" y="127" class="d-s" text-anchor="start">62</text><rect x="360" y="138" width="210" height="20" fill="var(--accent2,#b8862b)" opacity=".35"/><text x="352" y="153" class="d-s" text-anchor="end">1.0844</text><text x="576" y="153" class="d-s" text-anchor="start">210</text><line x1="200" y1="170" x2="620" y2="170" stroke="var(--fg,#1c1c1a)" stroke-width="2"/><text x="190" y="175" class="d-t" text-anchor="end">spread</text><rect x="360" y="182" width="176" height="20" fill="var(--accent,#0b6e4f)" opacity=".35"/><text x="352" y="197" class="d-s" text-anchor="end">1.0842</text><text x="542" y="197" class="d-s" text-anchor="start">176</text><rect x="360" y="208" width="84" height="20" fill="var(--accent,#0b6e4f)" opacity=".35"/><text x="352" y="223" class="d-s" text-anchor="end">1.0841</text><text x="450" y="223" class="d-s" text-anchor="start">84</text><rect x="360" y="234" width="132" height="20" fill="var(--accent,#0b6e4f)" opacity=".35"/><text x="352" y="249" class="d-s" text-anchor="end">1.0840</text><text x="498" y="249" class="d-s" text-anchor="start">132</text><rect x="360" y="260" width="240" height="20" fill="var(--accent,#0b6e4f)" opacity=".35"/><text x="352" y="275" class="d-s" text-anchor="end">1.0839</text><text x="606" y="275" class="d-s" text-anchor="start">240</text><text x="560" y="52" class="d-k2" text-anchor="start">asks — sellers</text><text x="560" y="300" class="d-k" text-anchor="start">bids — buyers</text><text x="40" y="80" class="d-t" text-anchor="start">A market order</text><text x="40" y="102" class="d-s" text-anchor="start">crosses the spread</text><text x="40" y="120" class="d-s" text-anchor="start">and eats the resting</text><text x="40" y="138" class="d-s" text-anchor="start">size nearest to it.</text><text x="40" y="172" class="d-s" text-anchor="start">A large order walks</text><text x="40" y="190" class="d-s" text-anchor="start">up the ladder and</text><text x="40" y="208" class="d-s" text-anchor="start">pays a worse average</text><text x="40" y="226" class="d-s" text-anchor="start">price. That gap is</text><text x="40" y="244" class="d-k" text-anchor="start">market impact.</text><text x="40" y="318" class="d-s" text-anchor="start">Microstructure research here is largely about measuring the spread, the depth and the impact</text><text x="40" y="336" class="d-s" text-anchor="start">— the costs a backtest on closing prices cannot see.</text></svg><figcaption>Every price you have read since stage 1 is the output of resting bids and offers meeting in a limit order book.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>Explain what actually happens between a bid and an offer to produce the single number a candle plots. You
+will be able to say why a support or resistance zone from stage 3 is often the same place a volume profile
+would mark as heavily traded, distinguish resting liquidity from aggressive orders and say which one moves
+price, and describe honestly what order-flow tools can and cannot tell you about the future.</p>
+<h2 id="the-lesson">The lesson</h2>
+<h3 id="the-machine-underneath-the-chart">The machine underneath the chart</h3>
+<p>Since stage 1 you have been reading price as if it were a single, agreed-upon fact ticking along a line. It isn&rsquo;t. A
+market is a continuous double auction: many buyers and many sellers simultaneously quoting prices they are
+willing to transact at, with no auctioneer and no single item changing hands. At every instant there is a highest
+price someone will pay (the bid) and a lowest price someone will accept (the ask, or offer); the gap between
+them is the spread. The full list of every other resting order waiting above and below that spread — organized
+by price, and within a price, by the order in which each order arrived — is the limit order book. That book is
+matched by software called a matching engine, applying a fixed rule almost everywhere: the best-priced order
+is matched first, and among orders at the same price, whoever arrived first is filled first — a resting order
+placed a fraction of a second earlier than an identical one has a real, mechanical advantage, simply by being
+ahead in the queue.</p>
+<p>The last traded price, which is the only thing a plain candlestick chart shows you, is a receipt from a
+transaction that has already finished. It tells you what happened, not what is about to. The book is the actual
+standing state of supply and demand; price is just its most recent output. Closing that gap is the point of this
+stage.</p>
+<h3 id="aggressor-and-passive-the-whole-foundation">Aggressor and passive: the whole foundation</h3>
+<p>Every trade has exactly two counterparties playing structurally different roles. The aggressor sends an order
+that is willing to transact immediately at the best available opposing price — a market order, or a limit order
+priced aggressively enough to cross the spread — and by doing so causes the trade to happen right now. The
+passive side is whoever was already resting in the book and simply got hit or lifted. This distinction matters
+because only the aggressor can move price: consuming all the resting size at a price level is what forces the
+next trade to happen at a worse price, pushing the market up or down. A passive order, no matter how large,
+does not move price by sitting there — it can only absorb aggression directed at it. A market that prints heavy
+volume at the ask but fails to advance is telling you something specific: passive sellers are absorbing buying
+pressure as fast as it arrives, refilling as quickly as they get taken out. That pattern is called absorption, and
+it is often the earliest sign that a level is going to hold.</p>
+<p>An order sized larger than what is resting at the best price does not get one clean fill — it walks the book,
+consuming the next price level, then the next, at progressively worse prices, until it is filled. The average price
+it pays is worse than where it started; that gap is market impact, and it is the direct, mechanical reason large
+participants break size into many small orders over time instead of sending it all at once. A large market order
+arriving into a thin book can move price sharply on its own for exactly this reason — the move was caused by
+the order consuming liquidity, not by anyone learning anything new.</p>
+<h3 id="the-auction-not-the-ticker">The auction, not the ticker</h3>
+<figure class="fig" id="fig-auction-rotation"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" role="img" aria-labelledby="auction-rotation-t auction-rotation-d" class="diagram"><title id="auction-rotation-t">Auction rotation: rejection and acceptance around the value area</title><desc id="auction-rotation-d">Price rotating around a shaded value area, probing above and below; two probes are rejected quickly and a third is accepted.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="344" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><rect x="40" y="122" width="652" height="76" class="d-zone"/><line x1="40" y1="122" x2="692" y2="122" class="d-dash"/><line x1="40" y1="198" x2="692" y2="198" class="d-dash"/><polyline points="48.0,178.0 100.0,134.0 150.0,96.0 198.0,142.0 250.0,184.0 300.0,224.0 350.0,180.0 402.0,140.0 452.0,154.0 506.0,98.0 558.0,68.0 612.0,110.0 668.0,152.0" class="d-px"/><circle cx="150" cy="96" r="4" fill="var(--accent2,#b8862b)"/><text x="150" y="84" class="d-k2" text-anchor="middle">rejected</text><circle cx="300" cy="224" r="4" fill="var(--accent2,#b8862b)"/><text x="300" y="245" class="d-k2" text-anchor="middle">rejected</text><circle cx="558" cy="68" r="4" fill="var(--accent,#0b6e4f)"/><text x="558" y="56" class="d-k" text-anchor="middle">accepted</text><text x="46" y="112" class="d-k" text-anchor="start">value area</text><text x="40" y="278" class="d-s" text-anchor="start">The market is a two-way auction. It probes higher looking for sellers and lower looking for buyers,</text><text x="40" y="296" class="d-s" text-anchor="start">then returns to the area where trade is easiest. A probe that finds no business is rejected quickly.</text><text x="40" y="322" class="d-k" text-anchor="start">When price stays out there and volume follows it, the probe was accepted &#8212; and value moves with it.</text></svg><figcaption>The two-way auction: probes that get rejected, and one that gets accepted.</figcaption></figure>
+<p>Auction Market Theory takes this machinery and asks a bigger question: what is the market actually trying to
+do? Its answer, developed by Peter Steidlmayer and later systematized by James Dalton, is that a two-sided
+market exists purely to facilitate trade — to search, continuously, for the price at which the largest number of
+buyers and sellers currently agree to transact. Price is not a target the market is converging on; it is the
+byproduct of that search. This reframes &ldquo;value&rdquo; precisely: value is not a price that looks cheap or expensive to
+you, but a price the market has already demonstrated, through real time and volume spent there, that
+two-sided trade is willing to happen at. A price outside that demonstrated range is not yet accepted, regardless
+of how it looks on a chart.</p>
+<p>The classic tool for recording this is the Time Price Opportunity, or TPO, profile: the session is divided into
+fixed time intervals, and every price the market trades at during a given interval gets a mark. Rotate the result
+so price runs vertically and the shape of the day emerges — wide rows are prices that attracted repeat
+participation across many time periods, thin rows are prices merely passed through once and abandoned. A
+TPO profile is, literally, a record of where the auction spent its time, independent of how much size traded
+there, which is why time and volume need to be read together rather than as substitutes for each other — a
+single enormous order can sweep through a price in a moment and leave almost no time footprint at all.</p>
+<h3 id="where-the-zones-came-from">Where the zones came from</h3>
+<figure class="fig" id="fig-volume-profile"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 348" role="img" aria-labelledby="volume-profile-t volume-profile-d" class="diagram"><title id="volume-profile-t">Volume profile with point of control and value area</title><desc id="volume-profile-d">A horizontal histogram of volume traded at each price, the widest row marked as the point of control and a shaded band covering the value area, with a faint price line beside it.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="348" rx="8" class="d-bg"/><rect x="300" y="100" width="392" height="128" class="d-zone"/><rect x="300" y="54" width="26" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="70" width="40" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="86" width="64" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="102" width="96" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="118" width="150" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="134" width="196" height="12" style="fill:var(--accent,#0b6e4f)"/><rect x="300" y="150" width="168" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="166" width="118" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="182" width="74" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="198" width="92" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="214" width="138" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="230" width="70" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><rect x="300" y="246" width="34" height="12" style="fill:var(--muted,#6b6b66);opacity:.5"/><line x1="300" y1="40" x2="300" y2="272" class="d-ax"/><polyline points="322.0,250.0 370.0,190.0 410.0,214.0 462.0,150.0 512.0,176.0 562.0,120.0 612.0,152.0 666.0,98.0" class="d-px" style="opacity:.45"/><line x1="300" y1="140" x2="692" y2="140" class="d-dash"/><text x="294" y="144" class="d-k" text-anchor="end">POC</text><text x="294" y="112" class="d-s" text-anchor="end">value area high</text><text x="294" y="224" class="d-s" text-anchor="end">value area low</text><text x="40" y="34" class="d-t" text-anchor="start">Volume at price</text><text x="40" y="62" class="d-s" text-anchor="start">Each bar is how much traded</text><text x="40" y="80" class="d-s" text-anchor="start">at that price, not when.</text><text x="40" y="116" class="d-s" text-anchor="start">The widest row is the point</text><text x="40" y="134" class="d-s" text-anchor="start">of control: the price the</text><text x="40" y="152" class="d-s" text-anchor="start">market spent most effort</text><text x="40" y="170" class="d-s" text-anchor="start">agreeing on.</text><text x="40" y="208" class="d-s" text-anchor="start">The shaded band holds</text><text x="40" y="226" class="d-s" text-anchor="start">roughly 70% of the volume</text><text x="40" y="244" class="d-s" text-anchor="start">traded.</text><text x="40" y="300" class="d-s" text-anchor="start">Thin rows are prices the market moved through quickly and tends not to linger in.</text><text x="40" y="322" class="d-k" text-anchor="start">This is where the support and resistance zones from stage 3 actually come from.</text></svg><figcaption>The same chart turned on its side. This is what stage 3 was pointing at.</figcaption></figure>
+<p>This is the moment the course closes its own loop. Back in stage 3 you learned to draw support and resistance
+as zones, not lines, and you were told that a zone is a region where price has previously reversed or stalled. A
+volume profile is the tool that explains, mechanically, why those zones exist and where they sit precisely. It is a
+histogram built directly from the trade tape: for every price a session (or any window you choose) traded at,
+sum the total volume that changed hands there, and plot it as a horizontal bar. The point of control is simply
+the single price with the most volume — the level both sides transacted at more than any other, which is why it
+behaves like a magnet that price tends to return to once it wanders away. The value area is the band of prices,
+built outward from the point of control, that together account for roughly the bulk of the session&rsquo;s volume — a
+formal, measurable version of &ldquo;where the market accepted this instrument as fairly priced.&rdquo;</p>
+<p>Inside that shape, high-volume nodes are local peaks — prices where resting size is thick, which is exactly why
+price slows down and rotates as it passes through them, and exactly why they so often coincide with the support
+and resistance zones you already know how to draw by eye. Low-volume nodes are the opposite: thin bands
+the market crossed quickly without settling, which is why price accelerates through them rather than stalling,
+and why they make natural targets once a level breaks rather than places to expect a pause. Volume profile and
+your hand-drawn zones are two views of the same underlying fact about where size actually traded — one built
+from the transaction record, the other from eyeballing where price reacted.</p>
+<h3 id="reading-the-fight-inside-a-single-bar">Reading the fight inside a single bar</h3>
+<figure class="fig" id="fig-footprint-delta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 348" role="img" aria-labelledby="footprint-delta-t footprint-delta-d" class="diagram"><title id="footprint-delta-t">Footprint cells showing bid, ask and delta</title><desc id="footprint-delta-d">Three bars broken into price rows showing volume traded at the bid and at the ask, with imbalanced cells shaded and a delta total beneath each bar.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="348" rx="8" class="d-bg"/><text x="40" y="34" class="d-t" text-anchor="start">One bar, opened up: what traded at each price</text><text x="190" y="62" class="d-s" text-anchor="start">bid &#215; ask, price by price</text><rect x="190" y="78" width="136" height="38" rx="4" fill="var(--accent,#0b6e4f)" opacity=".2"/><rect x="190" y="78" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="236" y="103" class="d-s" text-anchor="end">12</text><text x="244" y="103" class="d-s" text-anchor="start">&#215;</text><text x="264" y="103" class="d-n" text-anchor="start">40</text><rect x="190" y="124" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="236" y="149" class="d-s" text-anchor="end">34</text><text x="244" y="149" class="d-s" text-anchor="start">&#215;</text><text x="264" y="149" class="d-s" text-anchor="start">61</text><rect x="190" y="170" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="236" y="195" class="d-s" text-anchor="end">88</text><text x="244" y="195" class="d-s" text-anchor="start">&#215;</text><text x="264" y="195" class="d-s" text-anchor="start">52</text><rect x="190" y="216" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="236" y="241" class="d-s" text-anchor="end">41</text><text x="244" y="241" class="d-s" text-anchor="start">&#215;</text><text x="264" y="241" class="d-s" text-anchor="start">30</text><text x="258.0" y="286" class="d-k" text-anchor="middle">delta +8</text><rect x="348" y="78" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="394" y="103" class="d-s" text-anchor="end">22</text><text x="402" y="103" class="d-s" text-anchor="start">&#215;</text><text x="422" y="103" class="d-s" text-anchor="start">18</text><rect x="348" y="124" width="136" height="38" rx="4" fill="var(--accent2,#b8862b)" opacity=".2"/><rect x="348" y="124" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="394" y="149" class="d-s" text-anchor="end">96</text><text x="402" y="149" class="d-s" text-anchor="start">&#215;</text><text x="422" y="149" class="d-n" text-anchor="start">31</text><rect x="348" y="170" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="394" y="195" class="d-s" text-anchor="end">57</text><text x="402" y="195" class="d-s" text-anchor="start">&#215;</text><text x="422" y="195" class="d-s" text-anchor="start">44</text><rect x="348" y="216" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="394" y="241" class="d-s" text-anchor="end">19</text><text x="402" y="241" class="d-s" text-anchor="start">&#215;</text><text x="422" y="241" class="d-s" text-anchor="start">26</text><text x="416.0" y="286" class="d-k2" text-anchor="middle">delta -75</text><rect x="506" y="78" width="136" height="38" rx="4" fill="var(--accent,#0b6e4f)" opacity=".2"/><rect x="506" y="78" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="552" y="103" class="d-s" text-anchor="end">9</text><text x="560" y="103" class="d-s" text-anchor="start">&#215;</text><text x="580" y="103" class="d-n" text-anchor="start">55</text><rect x="506" y="124" width="136" height="38" rx="4" fill="var(--accent,#0b6e4f)" opacity=".2"/><rect x="506" y="124" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="552" y="149" class="d-s" text-anchor="end">28</text><text x="560" y="149" class="d-s" text-anchor="start">&#215;</text><text x="580" y="149" class="d-n" text-anchor="start">92</text><rect x="506" y="170" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="552" y="195" class="d-s" text-anchor="end">44</text><text x="560" y="195" class="d-s" text-anchor="start">&#215;</text><text x="580" y="195" class="d-s" text-anchor="start">60</text><rect x="506" y="216" width="136" height="38" rx="4" fill="none" stroke="var(--line,#e4e2dc)"/><text x="552" y="241" class="d-s" text-anchor="end">33</text><text x="560" y="241" class="d-s" text-anchor="start">&#215;</text><text x="580" y="241" class="d-s" text-anchor="start">21</text><text x="574.0" y="286" class="d-k" text-anchor="middle">delta +114</text><text x="40" y="96" class="d-s" text-anchor="start">Bid volume is what</text><text x="40" y="114" class="d-s" text-anchor="start">sellers hit; ask volume</text><text x="40" y="132" class="d-s" text-anchor="start">is what buyers lifted.</text><text x="40" y="176" class="d-s" text-anchor="start">A shaded cell is an</text><text x="40" y="194" class="d-s" text-anchor="start">imbalance: one side far</text><text x="40" y="212" class="d-s" text-anchor="start">outweighed the other.</text><text x="40" y="314" class="d-s" text-anchor="start">Delta is the running difference. It records who was more aggressive &#8212; a statement about what</text><text x="40" y="332" class="d-s" text-anchor="start">already happened, not a forecast of the next bar.</text></svg><figcaption>One bar opened up: volume at the bid and at the ask, price by price.</figcaption></figure>
+<p>A candle compresses an entire bar into four numbers: open, high, low, close. A footprint chart keeps the whole
+transaction record intact, breaking a bar into rows — one per price it traded at — and showing how much
+volume at that price was bought (crossed at the ask, an aggressor lifting a resting offer) against how much was
+sold (crossed at the bid, an aggressor hitting a resting bid). Summing ask volume minus bid volume across a bar
+gives you delta, a direct numerical read on which side currently holds the upper hand. An imbalance is a
+sustained, lopsided delta at consecutive prices; absorption, introduced above, is the footprint&rsquo;s clearest
+signature of the opposite — heavy volume at a price with delta that stays flat or reverses, meaning the
+aggressive side is being consistently met and turned back by resting size rather than being allowed to push
+through.</p>
+<h3 id="the-order-book-is-not-a-crystal-ball">The order book is not a crystal ball</h3>
+<p>The depth-of-market display — the live ladder of resting bids and offers — is the only place you can see supply
+and demand queued up before a trade happens rather than after. It is also the least trustworthy layer of all this,
+because every resting order shown on it can be cancelled in an instant, and some large orders are placed
+specifically to be cancelled. Spoofing is the deliberate practice of resting a large, visible order with no intention
+of ever letting it fill, purely to create a false impression of supply or demand and push other participants to
+react to it; the order is pulled the moment price actually approaches. It is illegal in regulated markets, and it is
+also common enough that you should never treat a large resting wall on the DOM as real until it either gets
+traded through in size or holds while price presses directly against it. The only liquidity you can trust
+completely is liquidity that has already executed — a print on the tape that has cleared and cannot be
+un-traded.</p>
+<p>Be honest, too, about what you specifically can see. A retail platform can generally show you the trade tape
+and a reasonable depth of aggregated resting size — enough to build a usable footprint, a volume profile, or a
+DOM ladder. It essentially never shows you the individual orders behind that aggregated size, the identity of
+who is trading, or activity in dark pools that never touch the visible book at all — that is institutional-only
+infrastructure, and no amount of studying this chapter closes the gap. What all of this machinery gives you, at
+any level of access, is a record of what has already happened: who was aggressive, where size was defended,
+where the auction spent its time. None of it predicts what happens next. It narrows your uncertainty about the
+present moment; it does not remove it.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>A stock has been trending up for a week and approaches 50.00 — a level you had already marked, using stage 3
+methods, as a resistance zone from a prior swing high. Pulling up a volume profile for the last month shows a
+dense high-volume node sitting almost exactly at 49.80–50.20: the same zone, arrived at from the transaction
+record instead of from eyeballing wicks. As price grinds up into that zone on the footprint, you notice heavy
+volume trading at the bid with delta flattening rather than continuing to climb — sellers stepping in, but buyers
+absorbing what&rsquo;s offered rather than being pushed back. On the DOM, a large ask order appears at 50.10; two
+minutes later, as price ticks up toward it, the order is cancelled in bulk with almost no volume printed against
+it — a spoof, not real supply. Cumulative delta over the next several bars turns decisively positive, and price
+closes through 50.20 on volume well above the session average. Nothing here guaranteed the break would hold.
+What it gave you was a coherent, multi-layered read — structural zone, volume profile, footprint absorption,
+an exposed fake wall, and confirming delta — all pointing the same direction, which is a materially better basis
+for a decision than the breakout candle alone.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: Overlay the zone
+
+Pick a chart where you previously marked a support or resistance zone using stage 3's methods. Pull up a
+volume profile (session or a fixed range covering the relevant history — most charting platforms have this
+built in, even free ones) over the same period, and mark the point of control and the nearest high- and
+low-volume nodes. Write down whether your hand-drawn zone lines up with a high-volume node, and if it
+doesn't, look at what actually happened at your zone versus at the node. Separately, watch a liquid instrument's
+DOM for ten minutes and note any large resting order that appears and then gets pulled as price nears it before
+it ever trades.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>Why does only the aggressor in a trade move price, while the passive side can only absorb it?</li>
+<li>What does a high-volume node explain about a support or resistance zone that eyeballing candle wicks alone
+   does not?</li>
+<li>What is the specific, two-part behavior that distinguishes a spoofed order from a genuine resting order?</li>
+<li>What can order-flow tools tell you about the market, and what can they never tell you, no matter how good
+   your data access is?</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/07-the-session.html">← Stage 7 · The Session</a>
+    <a class="btn next" href="../manual/09-your-own-playbook.html">Stage 9 · Your Own Playbook →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

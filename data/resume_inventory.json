@@ -1,22 +1,22 @@
 {
   "scope": "Local manifest; live listing not reverified",
-  "manifest_files": 794,
-  "manifest_pdfs": 733,
+  "manifest_files": 801,
+  "manifest_pdfs": 740,
   "tiers": {
-    "B": 454,
+    "B": 459,
     "C": 151,
-    "A": 128,
+    "A": 130,
     "unassigned": 61
   },
-  "book_notes": 582,
-  "system_notes": 151,
+  "book_notes": 589,
+  "system_notes": 154,
   "missing_notes": 0,
   "missing_by_tier": {},
   "provisional_skips": 0,
   "remaining_candidates": 0,
   "source_review": {
-    "partial": 354,
-    "full": 228
+    "partial": 355,
+    "full": 234
   },
   "excluded_pdfs": {
     "duplicate": 106,

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VWAP, Standard-Deviation Bands and the Structural Level Map — Ninad K · Trading Playbook</title>
+<meta name="description" content="The book&#39;s VWAP and level-mapping method: compute VWAP and its volume-weighted sigma bands, classify balance versus trend regimes before fading or riding them, and rank a full structural-level stack (PDH/PDL, value area, overnight range) by confluence before the open.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a> › <a href="../books/institutional-order-flow-and-amt-playbook.html">The Institutional Order Flow &amp; Auction Market Theory Playbook</a></p>
+  <h1>VWAP, Standard-Deviation Bands and the Structural Level Map</h1>
+  <p class="byline">Ninad K · <span class="badge tier-A" title="Deep note: a full synthesis of the book">Tier A &mdash; deep note</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">The book&#39;s VWAP and level-mapping method: compute VWAP and its volume-weighted sigma bands, classify balance versus trend regimes before fading or riding them, and rank a full structural-level stack (PDH/PDL, value area, overnight range) by confluence before the open.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=vwap">vwap</a> <a class="tag" href="../search.html?q=anchored-vwap">anchored-vwap</a> <a class="tag" href="../search.html?q=standard-deviation-bands">standard-deviation-bands</a> <a class="tag" href="../search.html?q=premium-discount">premium-discount</a> <a class="tag" href="../search.html?q=structural-levels">structural-levels</a> <a class="tag" href="../search.html?q=opening-range">opening-range</a> <a class="tag" href="../search.html?q=session-structure">session-structure</a> <a class="tag" href="../search.html?q=futures">futures</a> </td></tr>
+    <tr><th>Length</th><td>235 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “VWAP, Standard-Deviation Bands and the Structural Level Map” by Ninad K at your bookseller or library.</td></tr>
+  </table>
+  
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>VWAP (Volume-Weighted Average Price) is the running average price of a session, weighted by volume at each price: VWAP = Σ(price × volume) ÷ Σ(volume), computed bar-by-bar from a session anchor (or, as an <strong>Anchored VWAP</strong>, from any trader-chosen pivot — a swing high/low, a news release, the start of a week). Institutions benchmark to it because it is the industry-standard execution-quality scoreboard: beating VWAP on a buy order is, by definition, a better-than-average fill. VWAP&rsquo;s <em>slope</em> tells you the net direction volume-weighted flow has moved in (rising = buyers have been willing to pay up); price&rsquo;s <em>position relative to</em> VWAP separately tells you who is &ldquo;winning&rdquo; right now (above VWAP = buyers currently paying a premium to be involved). <strong>Standard-deviation bands</strong> (±1σ, ±2σ, ±3σ, using the volume-weighted variance Σ(V×(P−VWAP)²)/ΣV) quantify how statistically stretched price is from that volume-weighted center, adaptively for each session&rsquo;s own volatility. Neither VWAP nor a single price level means anything read alone — the book pairs VWAP with a full <strong>structural reference-level stack</strong> (PDH/PDL/PDC, weekly/monthly extremes, overnight range, settlement, prior Value Area, Initial Balance) on the premise that the market has &ldquo;memory&rdquo;: levels where large capital was previously positioned attract resting liquidity and stop orders on repeat visits, because algorithmic benchmarking and human habit both re-anchor to the same visible coordinates every session.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Classify the regime before touching a σ band.</strong> In a <em>balance</em> regime (flat VWAP slope, stable/contracting σ), fade a rejected touch of ±2σ (confirmed by a footprint absorption signature) back toward VWAP or the opposite band. In a <em>trend</em> regime (rising/falling slope, σ expanding session-over-session), do not fade ±2σ/±3σ — instead treat a ±1σ touch as a with-trend pullback entry, since in a trend the bands reflect genuine, sustained, expanding one-sided participation rather than statistical over-extension.</li>
+<li><strong>Combine Value-Area location with VWAP location into one 3×3 grid.</strong> Premium (above prior VAH) crossed with below-session-VWAP is the single richest short context; discount (below prior VAL) crossed with above-session-VWAP is the richest long context — because the higher-timeframe read (cheap/expensive to yesterday) and today&rsquo;s own intraday flow (buyers/sellers already back in control) are agreeing rather than conflicting.</li>
+<li><strong>Rank structural levels by a fixed priority hierarchy</strong> (highest to lowest): Previous Month High/Low, Previous Week High/Low, Settlement/PDC, Previous Day High/Low, prior session VAH/VAL/POC, Overnight High/Low, Initial Balance High/Low. On a first test, expect a level to be defended in proportion to its tier; a break-and-hold-then-retest that holds with declining opposing delta is a continuation signal, while a wick through a level that closes back on the original side (&ldquo;sweep-and-reclaim&rdquo;) is a trapped-late-breakout reversal signal.</li>
+<li><strong>Score levels by confluence, not by tier alone.</strong> Build the level stack pre-market, set a fixed tick tolerance (the book&rsquo;s example: 6 ticks on a 0.25-tick instrument), and count how many independent levels cluster inside that band — a 3-way cluster (e.g., PDH + Overnight High + prior VAH all within tolerance) outranks any single isolated Priority-1 level and should receive both more size and a wider stop (sized to the width of the whole cluster, not one level&rsquo;s usual noise buffer).</li>
+<li><strong>Use the Opening Range (5, 15 or 30 minutes) as an early regime tell.</strong> A close beyond the OR on expanding, same-direction volume/delta is a breakout (join on the first shallow pullback that holds the OR boundary); a push beyond the OR that fails to attract follow-through and rotates back inside within a few bars is an OR failure/stop-run (enter the reversal once price closes back inside with opposing delta) — always read the OR&rsquo;s location against yesterday&rsquo;s Value Area (into premium, inside prior value, or a full outside gap) rather than in isolation.</li>
+<li><strong>Classify gaps before trading a &ldquo;fill.&rdquo;</strong> A gap into prior value (open beyond the prior close but still inside yesterday&rsquo;s Value Area or range) fills at a materially higher rate than a full gap (open entirely outside the prior range, with no volume yet transacted at the new price) — and even then, only fade the fill once the Opening Range shows an explicit failure footprint against the gap&rsquo;s direction; a full gap whose OR extends with expanding same-direction delta should be traded as acceptance of new value, not faded.</li>
+<li><strong>Weight order-flow signals by the 24-hour session clock.</strong> Volume traces a &ldquo;U-shape&rdquo; — peaks at the New York open and the close/settlement, a trough through the U.S. midday and Asia session; the same-looking footprint or imbalance signal carries materially less weight in the low-volume trough than at a volume peak. The recurring &ldquo;London-sweep / New York-reversal&rdquo; pattern — London builds the session high/low on real directional flow, then New York flow fails to confirm and reverses through it — is traded by waiting for the first 15-30 minutes of the New York open to show opposing delta before entering back through the swept level.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>VWAP-based entries are stopped a defined number of ticks (or one prior swing) beyond VWAP itself, invalidated if price closes and holds on the other side of it; band-touch fades are stopped just beyond the next band outward (±3σ if fading ±2σ), while trend-regime pullback entries are stopped beyond the prior swing low/high rather than beyond a band. Confluence-zone trades size their stop to the width of the whole tolerance band rather than a single level&rsquo;s typical wick allowance, on the premise that a multi-source cluster gets defended harder and chopped through more slowly. Premium/discount entries are stopped beyond the swing that defined the &ldquo;flow already reversed&rdquo; read (the swing low inside a discount zone, or the swing high inside a premium zone) — a break of that swing means the reversal-of-urgency thesis, not just the price level, has failed. Throughout, targets step from one structural level or band to the next in the trade&rsquo;s direction rather than being picked as a fixed point count, and every rule explicitly refuses to fade a level that is breaking with expanding volume and delta rather than stalling.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The VWAP-vs-POC distinction is worth holding onto precisely because the book warns about it directly: VWAP is a volume-weighted <em>average</em> (a single computed statistic) while POC is the volume-weighted <em>mode</em> (the single busiest row) — they often sit near each other but are different calculations and can diverge sharply in a skewed, one-sided session. The specific probability language used for level behavior (&ldquo;historically defended,&rdquo; &ldquo;a large majority,&rdquo; the London-sweep pattern&rsquo;s frequency) is asserted without a cited sample or backtest, consistent with the rest of the source — these are heuristics inherited from standard order-flow-desk practice, not statistics validated in this text. The full 24-hour session-clock framework (Asia/London/New York volume shape, the settlement window) is built around U.S. index futures trading nearly continuously; it needs real adaptation, not a literal read-across, for instruments with different listed hours or for equities, which the book&rsquo;s own instrument-specifics material (outside this sub-page&rsquo;s scope) partially addresses.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/institutional-order-flow-and-amt-playbook.html">The Institutional Order Flow &amp; Auction Market Theory Playbook</a> — A from-first-principles order-flow manual: the matching engine, Auction Market Theory, TPO and volume profile, footprint/delta, VWAP, DOM liquidity events, and a full institutional risk-management framework, unified by a Context-Location-Trigger-Confirmation-Execution pipeline.</li><li><a href="../books/institutional-order-flow-and-amt-playbook--volume-profile.html">Volume Profile: Point of Control, Value Area and Volume Nodes</a> — The book&#39;s volume-profile method: build the volume-at-price histogram, locate POC and the 70% Value Area with a precise two-row algorithm, and trade High/Low Volume Nodes and Naked POCs as rotation shelves, acceleration zones and revisit magnets.</li><li><a href="../books/institutional-order-flow-and-amt-playbook--footprint-and-delta.html">Footprint Charts: Imbalance, Absorption and Delta Divergence</a> — The book&#39;s footprint method: read bid-versus-ask volume per price, track delta and CVD divergence/exhaustion, flag diagonal imbalances and stacked zones, and distinguish absorption from genuine initiative by what happens on the next one to two bars.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

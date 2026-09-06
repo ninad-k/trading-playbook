@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Manual Trader · {{ site_title }}{% endblock %}
+{% block desc %}A taught course: from reading a single candle to reading institutional order flow.{% endblock %}
+{% block content %}
+<article>
+  <p class="crumbs"><a href="{{ root }}index.html">Index</a> › Manual Trader</p>
+  <h1>Manual Trader</h1>
+  <div class="prose">{{ body|safe }}</div>
+  <h2>The nine stages</h2>
+  <ol class="stages">
+    {% for s in stages %}<li><a href="{{ root }}manual/{{ s.url }}"><b>{{ s.title }}</b></a><span>{{ s.goal }}</span></li>{% endfor %}
+  </ol>
+  {% if stages %}<p><a class="btn next" href="{{ root }}manual/{{ stages[0].url }}">Start at stage 1 →</a></p>{% endif %}
+</article>
+{% endblock %}

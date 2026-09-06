@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Structure · Manual Trader · Trading Playbook</title>
+<meta name="description" content="Look at any chart and say, in one sentence, whether it is trending or ranging, and point at the exact bar where that last changed.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 3 of 9</p>
+  <h1>Structure</h1>
+  <p class="lead">Look at any chart and say, in one sentence, whether it is trending or ranging, and point at the exact bar where that last changed.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="here" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-market-structure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="market-structure-t market-structure-d" class="diagram"><title id="market-structure-t">Swing structure and break of structure</title><desc id="market-structure-d">A price line making higher highs and higher lows, then failing to hold the last higher low and turning into a sequence of lower highs and lower lows.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="300" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><line x1="30" y1="268" x2="692" y2="268" class="d-ax"/><rect x="320" y="30" width="372" height="238" class="d-zone2"/><line x1="255" y1="156" x2="430" y2="156" class="d-dash"/><polyline points="40.0,235.0 110.0,162.0 150.0,192.0 215.0,120.0 255.0,156.0 320.0,78.0 382.0,142.0 430.0,112.0 500.0,182.0 548.0,150.0 620.0,218.0 680.0,236.0" class="d-px"/><circle cx="110" cy="162" r="4" fill="var(--accent,#0b6e4f)"/><text x="110" y="150" class="d-k" text-anchor="middle">HH</text><circle cx="215" cy="120" r="4" fill="var(--accent,#0b6e4f)"/><text x="215" y="108" class="d-k" text-anchor="middle">HH</text><circle cx="320" cy="78" r="4" fill="var(--accent,#0b6e4f)"/><text x="320" y="66" class="d-k" text-anchor="middle">HH</text><circle cx="150" cy="192" r="4" fill="var(--accent,#0b6e4f)"/><text x="150" y="212" class="d-k" text-anchor="middle">HL</text><circle cx="255" cy="156" r="4" fill="var(--accent,#0b6e4f)"/><text x="255" y="176" class="d-k" text-anchor="middle">HL</text><circle cx="430" cy="112" r="4" fill="var(--accent2,#b8862b)"/><text x="430" y="100" class="d-k2" text-anchor="middle">LH</text><circle cx="548" cy="150" r="4" fill="var(--accent2,#b8862b)"/><text x="548" y="138" class="d-k2" text-anchor="middle">LH</text><circle cx="500" cy="182" r="4" fill="var(--accent2,#b8862b)"/><text x="500" y="202" class="d-k2" text-anchor="middle">LL</text><circle cx="620" cy="218" r="4" fill="var(--accent2,#b8862b)"/><text x="620" y="238" class="d-k2" text-anchor="middle">LL</text><circle cx="382" cy="142" r="4" fill="var(--accent2,#b8862b)"/><line x1="382" y1="138" x2="382" y2="116" stroke="var(--accent2,#b8862b)" stroke-width="1.4"/><text x="382" y="108" class="d-k2" text-anchor="middle">break of structure</text><text x="150" y="52" class="d-s" text-anchor="start">Uptrend: each high above the last, each low above the last</text><text x="560" y="60" class="d-k2" text-anchor="middle">Downtrend</text><text x="40" y="288" class="d-s" text-anchor="start">The first lower low after a run of higher lows is the signal that structure has changed.</text></svg><figcaption>Swing highs and lows forming a trend, and the break of structure that ends it.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>Identify the swing highs and swing lows on any chart without needing an indicator to do it for you. State whether the market is trending or ranging using a mechanical definition, not a feeling. Point to the specific bar where a trend changed, and explain why that definition — and not a trendline, not a moving average — is the only non-arbitrary way to say a trend has ended. Recognize that the same stretch of price can be a pullback on one timeframe and a downtrend on another, and know why both readings are correct at once.</p>
+<h2 id="the-lesson">The lesson</h2>
+<h3 id="swing-highs-and-lows-the-atoms-of-structure">Swing highs and lows: the atoms of structure</h3>
+<p>Everything in this lesson is built from one basic observation: price does not move in a straight line. It moves up for a while, pauses or pulls back, moves up again, pauses again. Every one of those pauses and turns leaves a mark on the chart — a point where price stopped going one way and started going the other, if only briefly.</p>
+<p>A swing high is a point where price rose, then turned down — a local peak, higher than the bars immediately before and after it. A swing low is the mirror image: a local trough, lower than the bars immediately before and after it. You don&rsquo;t need an indicator to find these. Look at any bar and check whether the bars on either side of it are both lower (a swing high) or both higher (a swing low). Zoom out slightly and the same test still works at a larger scale — a swing high relative to the ten bars around it, not just the two adjacent ones. The exact number of bars you use to define &ldquo;around it&rdquo; is a matter of the scale you&rsquo;re looking at, not a rule with one correct answer; what matters is that you&rsquo;re consistent while reading a given stretch of chart.</p>
+<p>These swing points are the atoms of everything that follows. Trend, range, support, resistance, and the definition of when a trend ends are all just different ways of describing how swing highs and swing lows sit relative to each other. Get comfortable finding them before moving on — nothing else in this lesson holds together without it.</p>
+<h3 id="trend-defined-mechanically-instead-of-by-eye">Trend, defined mechanically instead of by eye</h3>
+<p>Ask most beginners how to tell if a market is trending and they&rsquo;ll say something like &ldquo;it looks like it&rsquo;s going up.&rdquo; That&rsquo;s not wrong, exactly, but it&rsquo;s not a definition you can apply consistently, and two people looking at the same chart will disagree. Here is the mechanical version, and from this point on in the course, this is what &ldquo;trend&rdquo; means.</p>
+<p>An uptrend is a sequence of swing highs and swing lows where each new swing high is higher than the one before it, and each new swing low is higher than the one before it — higher highs and higher lows, in order. A downtrend is the exact mirror: each new swing low lower than the last, each new swing high lower than the last — lower lows and lower highs. Notice this definition requires both conditions, not just one. A market making higher highs but with swing lows that aren&rsquo;t rising is not cleanly trending up by this definition — it&rsquo;s something messier, and you should notice that rather than force it into a trend label because the highs look impressive.</p>
+<p>The value of a mechanical definition is that it removes your mood from the judgment. You cannot talk yourself into seeing an uptrend because you want to be long, or talk yourself out of seeing one because a single red day scared you, if the only question you&rsquo;re allowed to ask is: is the most recent swing low higher than the one before it, yes or no.</p>
+<h3 id="the-break-of-structure-the-only-honest-definition-of-the-trend-changed">The break of structure: the only honest definition of &ldquo;the trend changed&rdquo;</h3>
+<p>Now the question that actually matters in practice: how do you know when a trend has ended? This is where most beginners fall back on something arbitrary — a trendline breaks, a moving average crosses, a candlestick pattern appears — and arbitrary tools give arbitrary, disagreeing answers. Two traders drawing two slightly different trendlines on the identical chart will call the end of the trend at two different bars, and neither can prove the other wrong, because the tool itself was a guess to begin with.</p>
+<p>The break of structure gives you a definition that isn&rsquo;t a guess. In an uptrend — a run of higher highs and higher lows — the trend is, by definition, intact for as long as every new swing low stays higher than the one before it. The break of structure is the first swing low that fails to do that: the first lower low. That is the bar, and it is not a matter of opinion — either the most recent swing low undercut the prior one or it didn&rsquo;t. The mirror version applies to a downtrend: the break of structure is the first higher high after a run of lower highs and lower lows.</p>
+<p>Be precise about what a break of structure does and doesn&rsquo;t tell you. It tells you, unambiguously, that the specific trend you were tracking is over. It does not automatically tell you a new trend in the opposite direction has begun; often what follows is a range, not an immediate reversal. Treat it as the reliable answer to &ldquo;has this trend ended,&rdquo; and treat &ldquo;what happens next&rdquo; as a separate, harder question.</p>
+<h3 id="ranges-where-most-of-the-time-actually-goes">Ranges: where most of the time actually goes</h3>
+<p>It is tempting, especially early on, to look at every chart expecting to find a trend, because trends are what beginner material tends to illustrate and what looks tradeable. In practice, markets spend a large share of their time doing neither of the two things just defined — not making higher highs and higher lows, not making lower highs and lower lows, just oscillating between a rough ceiling and a rough floor without the swing points reliably progressing in either direction. That is a range, and it is worth naming honestly as the default state rather than an exception: expecting a trend when the market is actually ranging is one of the most common sources of frustration for a new trader. A mechanical eye for structure is what lets you notice you&rsquo;re in a range instead of continuing to squint for a trend that the swing points simply aren&rsquo;t forming.</p>
+<h3 id="support-and-resistance-zones-of-exchanged-inventory-not-lines">Support and resistance: zones of exchanged inventory, not lines</h3>
+<p>Once you can see swing highs and lows, it&rsquo;s a short step to support and resistance — but this is a place where beginner habit actively works against you, so slow down here.</p>
+<p>The common mistake is to draw a single, precise horizontal line through a swing point and treat that exact price as a wall. Then price approaches the line, misses it by a small amount, and the beginner concludes the level &ldquo;failed&rdquo; — when nothing failed, because the level was never a single price to begin with. Support and resistance are better understood as zones — rough bands of prices where, in the past, enough buyers and sellers changed hands to shift the balance of supply and demand and turn price around. Support is a zone where enough buyers historically showed up willing to absorb selling that price stopped falling; resistance is the mirror, a zone where enough sellers absorbed buying that price stopped rising. Both are about inventory changing hands, not a line on a screen. Markets are made of participants with different entry prices and different reasons for trading, clustered loosely around a level rather than agreeing to the cent — which is exactly why price often pierces a level slightly before turning, and why treating the line as exact leads you to draw false conclusions from near-misses.</p>
+<p>The role-reversal idea often taught alongside this — a broken resistance zone becoming new support, and vice versa — follows naturally once you think in zones rather than lines: it is the same band of prices, the same participants likely to react again if price returns, just with the earlier balance of supply and demand now flipped.</p>
+<h3 id="multi-timeframe-structure-the-same-price-action-two-honest-readings">Multi-timeframe structure: the same price action, two honest readings</h3>
+<p>Return to the timeframe lesson from stage 1, and combine it with everything above. Because a trend is defined by the relationship between successive swing points, and because swing points look different depending on how far you zoom out, the identical stretch of price action can satisfy the definition of an uptrend on one timeframe and the definition of a pullback within a downtrend on another. Both readings are correct. They are not in conflict — they are answers to different questions, at different resolutions, exactly as the timeframe lesson taught you to expect.</p>
+<p>Concretely: a stock in a multi-month downtrend on the daily chart — lower highs, lower lows — can rally for a week and a half in a way that, viewed only on an hourly chart over those ten days, looks like a clean, well-formed uptrend of its own: higher highs, higher lows, textbook structure. Neither chart is wrong. The daily chart is correctly reporting that the larger downtrend&rsquo;s structure hasn&rsquo;t been broken — the swing lows on the daily are still descending, taken as a whole. The hourly chart is correctly reporting that, within that narrower window, buyers have been in control. Whether you treat that ten-day rally as a trade-worthy uptrend or as a pullback to sell into depends entirely on which timeframe&rsquo;s structure you&rsquo;ve decided matters for the decision at hand — which is exactly why stage 1&rsquo;s insistence on choosing a timeframe on purpose turns out to matter well beyond reading a single candle. This is also why experienced chart readers check more than one timeframe before acting: not to find whichever one agrees with what they already want to do, but to know honestly which structure is currently making the higher-conviction claim.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>A stock spends four months making a clean sequence on the daily chart: swing low at 40, swing high at 48, swing low at 44, swing high at 53, swing low at 49, swing high at 58. Higher highs, higher lows, every step of the way — an uptrend by the mechanical definition, no judgment calls required.</p>
+<p>Then the stock pulls back from 58 down to 45 — below the prior swing low of 49. That is the break of structure: the first lower low in the sequence. As of the bar where price closes below 49, you can say plainly that the uptrend that had been running for four months is over. You cannot yet say what comes next — whether this becomes a new downtrend, or resolves into a range between roughly 45 and 58 while the market decides. What you can say, and say precisely, is where it ended and why: not because a trendline was broken, not because of a moving average, but because the swing low sequence that defined the uptrend failed for the first time, at the bar where price traded through 49.</p>
+<p>Now zoom into the ten trading days surrounding that decline from 58 to 45 on an hourly chart. Within that narrower window you&rsquo;ll likely find your own sequence of lower highs and lower lows — a clean, well-formed downtrend by the same mechanical definition, just at a smaller scale and over a shorter span. Someone trading only off the hourly chart during those ten days was correctly reading a downtrend. Someone trading off the daily chart was correctly reading, up until the break, an uptrend under pressure. Both were right, because they were answering different questions about the same ten days.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: Mark the break
+
+Pull up daily charts for five different stocks or instruments, covering at least six months of history each. On each chart, mark every swing high and swing low you can identify by eye, using the definition from this lesson — a point clearly higher or lower than the bars immediately around it. Once marked, label each chart's overall structure over that period as uptrend, downtrend, or range. For the two or three charts where the structure changed at some point in that window, circle the single bar where the break of structure occurred — the first lower low ending an uptrend, or the first higher high ending a downtrend — and write one sentence stating why that bar, and not some other one, is the correct point.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>What is a swing high, and what is a swing low, using only the definition given in this lesson — no indicators?</li>
+<li>Why does a mechanical definition of trend (the higher-highs/higher-lows test) produce a more reliable answer than &ldquo;it looks like it&rsquo;s trending&rdquo;?</li>
+<li>What exactly is a break of structure, and why is it a better definition of &ldquo;the trend ended&rdquo; than a trendline break or a moving average crossover?</li>
+<li>Why are support and resistance better thought of as zones where inventory changed hands than as exact lines, and what mistake does treating them as exact lines lead you to make?</li>
+<li>Explain how the same ten days of price action can be correctly described as a downtrend on one timeframe and an uptrend on another, without either description being wrong.</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/02-the-candle-and-the-sequence.html">← Stage 2 · The Candle and the Sequence</a>
+    <a class="btn next" href="../manual/04-patterns-as-structure-in-motion.html">Stage 4 · Patterns as Structure in Motion →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

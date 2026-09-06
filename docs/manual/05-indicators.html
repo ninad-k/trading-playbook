@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indicators, and What They Actually Compute · Manual Trader · Trading Playbook</title>
+<meta name="description" content="State, for any indicator you use, the exact arithmetic it performs on OHLCV data, and explain why loading a chart with several of them at once adds far less than it looks like it does.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 5 of 9</p>
+  <h1>Indicators, and What They Actually Compute</h1>
+  <p class="lead">State, for any indicator you use, the exact arithmetic it performs on OHLCV data, and explain why loading a chart with several of them at once adds far less than it looks like it does.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="done" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="done" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="here" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-divergence"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 344" role="img" aria-labelledby="divergence-t divergence-d" class="diagram"><title id="divergence-t">Bearish divergence between price and an oscillator</title><desc id="divergence-d">Two stacked panels. The upper price panel makes a higher high while the lower oscillator panel makes a lower high at the same bar.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="344" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><text x="40" y="28" class="d-t" text-anchor="start">Price</text><polyline points="40.0,150.0 110.0,90.0 160.0,125.0 240.0,105.0 300.0,130.0 380.0,62.0 450.0,108.0 530.0,58.0 600.0,120.0 680.0,165.0" class="d-px"/><line x1="380" y1="62" x2="530" y2="58" class="d-hi"/><circle cx="380" cy="62" r="4" fill="var(--accent,#0b6e4f)"/><circle cx="530" cy="58" r="4" fill="var(--accent,#0b6e4f)"/><text x="455" y="44" class="d-k" text-anchor="middle">higher high</text><line x1="30" y1="185" x2="692" y2="185" class="d-ax"/><text x="40" y="210" class="d-t" text-anchor="start">Oscillator</text><polyline points="40.0,285.0 110.0,245.0 160.0,268.0 240.0,250.0 300.0,272.0 380.0,224.0 450.0,262.0 530.0,245.0 600.0,275.0 680.0,292.0" class="d-px"/><line x1="380" y1="224" x2="530" y2="245" class="d-hi2"/><circle cx="380" cy="224" r="4" fill="var(--accent2,#b8862b)"/><circle cx="530" cy="245" r="4" fill="var(--accent2,#b8862b)"/><text x="455" y="300" class="d-k2" text-anchor="middle">lower high</text><line x1="530" y1="70" x2="530" y2="238" class="d-grid"/><text x="546" y="160" class="d-s" text-anchor="start">same bar</text><text x="40" y="330" class="d-s" text-anchor="start">Bearish divergence: price prints a higher high, the oscillator does not. The reverse pattern at lows is bullish divergence.</text></svg><figcaption>Price making a new high while an oscillator makes a lower high — the same swing-structure comparison applied to two series at once.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>You will be able to say, for a moving average, RSI, MACD, ADX, or Bollinger Bands, exactly what
+arithmetic produces the line on your screen — not what it &ldquo;means&rdquo; in trader folklore, but what it
+computes. You will be able to spot a genuine divergence between price and an oscillator, and you will be
+able to explain why running five indicators at once is usually worse than running one.</p>
+<h2 id="the-lesson">The lesson</h2>
+<h3 id="the-central-insight">The central insight</h3>
+<p>Every indicator on your charting software is a function of the same open, high, low, close, and volume
+you already have for every bar. An indicator does not observe the market independently and report back
+something new; it takes numbers you already possess and rearranges them — averages them, divides one by
+another, subtracts one from another, measures how spread out they are. That means no indicator can ever
+contain information that was not already present in the price and volume series. What it can do is make
+a pattern in that data easier to see than it is in the raw candles, by discarding some information (an
+average discards the noise between individual bars) in exchange for revealing something else (the
+average discards noise in exchange for revealing the drift). Keep that trade — information discarded for
+a pattern revealed — in mind for every indicator in this lesson, because it is the whole story of what an
+indicator is.</p>
+<h3 id="moving-averages">Moving averages</h3>
+<p>A simple moving average (SMA) is the mean of the last N closes, recalculated on every new bar. A 20-period
+SMA is just &ldquo;the average close of the last 20 bars,&rdquo; sliding forward one bar at a time. The lookback, N,
+controls a trade-off you can reason about directly: a short lookback tracks price closely but jumps
+around with every swing; a long lookback is smooth but reacts slowly to a real change in direction. That
+lag is not a flaw to be engineered away — it is the price you pay for smoothing, unavoidably, because an
+average of the past N bars can only ever confirm a new direction after enough of those N bars reflect it.</p>
+<p>An exponential moving average (EMA) computes the same kind of thing — a weighted average of past closes —
+but weights recent bars more heavily than older ones, so it reacts faster to new information than an SMA
+of the same length while still smoothing. It does not eliminate lag; it reduces it, and gives up some
+smoothness to do so.</p>
+<p>The crossover — buy when a fast average crosses above a slow one, sell when it crosses below — is the
+simplest possible trading system built from this tool, and it is worth understanding precisely because it
+is simple: it is a rule for detecting, with a deliberate delay, that the recent average price has moved
+above the longer-run average price. It will always enter after a trend has already started and exit after
+it has already turned, because that is what averaging does. That is not a defect in a particular version
+of the rule; it is what a crossover of two averages structurally is.</p>
+<h3 id="rsi">RSI</h3>
+<p>The Relative Strength Index measures, over a lookback period (conventionally 14 bars), the ratio of
+average gains on up-bars to average losses on down-bars, scaled to sit between 0 and 100. A reading near
+100 means the recent bars have been almost all gains with almost no losses to offset them; a reading near
+0 means the opposite. This is why &ldquo;overbought&rdquo; does not mean &ldquo;about to fall&rdquo; and should never be read as
+&ldquo;sell&rdquo;: a strong, sustained trend produces a long run of up-bars with small pullbacks, which is exactly
+the condition that pins RSI at a high reading for as long as the trend runs. RSI is telling you, correctly,
+that gains have dominated losses recently — it is not telling you that the trend is exhausted. Traders who
+sell every &ldquo;overbought&rdquo; reading are, in a real trend, selling into strength repeatedly and losing every
+time, because they are misreading a measurement of recent gain-versus-loss ratio as a prediction of
+reversal.</p>
+<h3 id="macd">MACD</h3>
+<p>The Moving Average Convergence Divergence indicator is two exponential moving averages — conventionally
+12-period and 26-period — and their difference, plotted as a single line, plus a third EMA of that
+difference (conventionally 9-period) plotted as a signal line. That is the entire computation: two
+averages, subtracted, then smoothed again. Everything you can read off a MACD chart — the line crossing
+zero, the line crossing its own signal line, the histogram widening or narrowing — is a description of how
+two moving averages of the same closes are converging or diverging from each other. It is not a separate
+measurement of anything; it is moving averages, restated.</p>
+<h3 id="adx">ADX</h3>
+<p>The Average Directional Index measures trend strength, not trend direction. A high ADX means price has
+been moving persistently in some direction, up or down — it does not tell you which. A rising ADX with
+price falling is just as valid a reading as a rising ADX with price rising; both say &ldquo;this move is
+sustained,&rdquo; not &ldquo;this move is up.&rdquo; Traders new to ADX frequently misread a high reading as bullish, which
+is simply wrong: check the direction from price itself, and use ADX only to answer the separate question
+of whether a directional move currently has conviction behind it or is chopping without one.</p>
+<h3 id="bollinger-bands">Bollinger Bands</h3>
+<p>Bollinger Bands are a moving average (conventionally 20-period) with two bands plotted a number of
+standard deviations (conventionally 2) above and below it. Because a standard deviation is a measure of
+how spread out recent prices have been, the bands widen when the market gets more volatile and narrow
+when it gets quieter — the bands are a volatility measure wrapped around a moving average, not a
+support-and-resistance tool, even though price touching a band is often read that way. A useful derived
+number is %b: 100 × (last − lower) ÷ (upper − lower), which restates &ldquo;where is price relative to the
+bands&rdquo; as a single percentage — 100 means price is at the upper band, 0 means it is at the lower band,
+50 means it is sitting on the moving average. %b adds no new information over looking at the bands
+directly; it just makes &ldquo;where inside the bands is price right now&rdquo; a single comparable number instead of
+a visual judgment.</p>
+<h3 id="divergence-taught-properly">Divergence, taught properly</h3>
+<p>Divergence is a comparison between the swing structure of price and the swing structure of an oscillator
+(RSI and MACD are the two most commonly used for this). Regular bearish divergence is price making a
+higher high while the oscillator makes a lower high at the same time — momentum, as the oscillator
+measures it, failed to confirm the new price extreme. Regular bullish divergence is the mirror: price
+makes a lower low while the oscillator makes a higher low. Read correctly, divergence is not a signal that
+reverses a trend by itself — it is evidence that the move producing the current price extreme was made
+with less force, by the oscillator&rsquo;s arithmetic, than the move that produced the previous extreme. That is
+a genuinely different piece of information from price alone, because it compares the shape of two series,
+not just the level of one. It still requires the same discipline as a pattern from stage 4: state what
+would have to happen — typically a break of the most recent swing point — before divergence means
+anything has actually changed in the structure itself.</p>
+<h3 id="why-stacking-indicators-fails">Why stacking indicators fails</h3>
+<p>Return to the central insight: every indicator here is a function of the same OHLCV data. RSI, MACD, and
+a moving average crossover are three different arithmetic operations performed on the same closes. When
+all three &ldquo;agree&rdquo; — RSI is falling, MACD is turning down, price is below its moving average — you have
+not gathered three independent pieces of evidence. You have computed three different summaries of one
+underlying fact: recent closes have been weak. Adding a fourth or fifth indicator to the same chart
+multiplies the appearance of confirmation without multiplying the amount of actual information, because
+none of them looked at anything except the price series you started with. This is the single most common
+mistake in indicator use, and it is also the most reassuring-looking one, because a chart with five
+aligned indicators feels far more convincing than a chart with one — even though it is not.</p>
+<h3 id="defaults-not-discoveries">Defaults, not discoveries</h3>
+<p>The periods used throughout this lesson — RSI 14, MACD 12/26/9, a 20-period moving average or Bollinger
+band — are conventions that became standard decades ago, not numbers derived from some proof that they
+are optimal. There is nothing wrong with using them; they are a reasonable, widely understood starting
+point, and using an unusual period buys you nothing on its own. Where people get into trouble is running
+software that tests hundreds of period combinations against past data and picking whichever one produced
+the best-looking result. That process — optimization on historical data — will always find some parameter
+combination that fit the past well, because with enough combinations tested, some will fit by chance
+alone. It tells you almost nothing about how that same parameter will perform on data it has not seen,
+and it is where most system-building goes wrong: not in choosing an indicator, but in tuning it until it
+memorizes history instead of describing the market.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>Take a chart where price has been in a clear uptrend for a month, and look at three things on it at once.
+The 20-period EMA is sloping up and price is holding above it — that is the moving average confirming the
+trend you can already see. RSI has been sitting between 55 and 70 for most of that month, occasionally
+touching 72 without ever dropping below 45 on pullbacks — that is the &ldquo;strong trends stay overbought&rdquo;
+behavior from this lesson, not a sell signal. Now suppose price makes a new high for the move, but RSI&rsquo;s
+reading at that new high is only 61, lower than the 72 it hit two swings back at a lower price high. That
+is regular bearish divergence: the new price extreme was produced with less relative strength than the
+previous one, by RSI&rsquo;s arithmetic. On its own, that is one piece of evidence that the trend&rsquo;s momentum
+has thinned — it is not a reason to act. What would have to happen for it to matter is the next thing to
+check: a break of the most recent swing low, the same break-of-structure event from stage 3. Until that
+happens, you have an observation, not a signal — and if you also glance at MACD and see its histogram
+shrinking over the same stretch, notice that you have not found a second confirming signal. You have
+found the same weakening-momentum fact, computed a second way from the same closes.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: One indicator, no stacking
+
+Pick one indicator from this lesson — RSI, MACD, or Bollinger %b — and put it on 15 charts with nothing
+else added. For each chart, write one sentence stating what the indicator's arithmetic is actually
+telling you (not what you think it predicts), and note whether price and the indicator agree or diverge.
+Do not add a second indicator to any of the 15 charts. The point of the drill is training yourself to read
+one indicator for exactly what it computes, before you are tempted to stack.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>In one sentence, why can no indicator ever contain information that was not already in the OHLCV data?</li>
+<li>Why does a strong trend keep RSI &ldquo;overbought,&rdquo; and why does that make selling on an overbought reading
+   a mistake?</li>
+<li>What does ADX measure, and what does it explicitly not tell you?</li>
+<li>Why does adding a third and fourth confirming indicator to a chart add far less evidence than it
+   appears to?</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/04-patterns-as-structure-in-motion.html">← Stage 4 · Patterns as Structure in Motion</a>
+    <a class="btn next" href="../manual/06-the-trade.html">Stage 6 · The Trade →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

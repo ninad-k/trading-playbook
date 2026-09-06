@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -17,7 +18,9 @@ TOPICS = CONTENT / "topics"
 DOCS = ROOT / "docs"
 MANIFEST = DATA / "manifest.json"
 
-BASE_URL = "https://dl.fxf1.com/files/books/english/"
+# The source mirror is not recorded in this repository. Acquisition already happened; if it ever
+# needs repeating, set PLAYBOOK_SOURCE_BASE in the environment. Nothing in the build reads this.
+BASE_URL = os.environ.get("PLAYBOOK_SOURCE_BASE", "")
 
 CATEGORIES = [
     "Market Structure & Price Action",
@@ -61,6 +64,43 @@ def normalized_title(name: str) -> str:
     stem = re.sub(r"[^a-z0-9]+", " ", stem)
     words = [w for w in stem.split() if w not in {"the", "a", "an", "of", "and", "by", "for", "to", "in", "ebook", "pdf"}]
     return " ".join(words)
+
+
+_JUNK_LEAD = re.compile(r"^(\(.*?\)|\[.*?\]|\.pdf)[\s\-.,:_]*", re.I)
+_TRAIL_COPY = re.compile(r"[\s_\-]*(\(\d+\)|_\d|-\d|copy|final|new)$", re.I)
+
+
+def display_title(name: str) -> str:
+    """Source filename -> a readable book name for the published pages.
+
+    The site never shows raw filenames: they leak how the collection was assembled and
+    tell a reader nothing. This keeps the name and drops the file.
+    """
+    stem = name
+    prev = None
+    while prev != stem:                      # ".pdf.zip", ".doc.pdf" etc
+        prev = stem
+        stem = re.sub(r"\.(pdf|djvu|epub|chm|docx?|zip|rar)$", "", stem, flags=re.I)
+    # reader exports arrive as "nlReader[15].pdf - Linked File": keep the real name
+    stem = re.sub(r"^.{0,20}\[\d+\]\.pdf\s*-\s*", "", stem, flags=re.I)
+    prev = None
+    while prev != stem:                      # peel repeated bracketed prefixes
+        prev = stem
+        stem = _JUNK_LEAD.sub("", stem).strip()
+    prev = None
+    while prev != stem:
+        prev = stem
+        stem = _TRAIL_COPY.sub("", stem).strip()
+    stem = _STOP_PREFIXES.sub("", stem).strip()
+    stem = stem.replace("_", " ")
+    stem = re.sub(r"(?<=[a-z0-9])-(?=\s*[A-Z])", " -", stem)  # "Finance- Mba" -> "Finance - Mba"
+    stem = re.sub(r"\s+-\s+", " - ", stem)
+    stem = re.sub(r"\s{2,}", " ", stem).strip(" -._,")
+    if not stem:
+        return "Untitled source"
+    if stem.isupper() and len(stem) > 12:
+        stem = stem.title()
+    return stem[:1].upper() + stem[1:]
 
 
 def load_manifest() -> list[dict]:

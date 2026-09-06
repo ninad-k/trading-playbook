@@ -18,9 +18,10 @@ import frontmatter
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from common import BOOKS, CATEGORIES, CONTENT, DOCS, ROOT, TOPICS, load_manifest
+from common import BOOKS, CATEGORIES, CONTENT, DOCS, ROOT, TOPICS, display_title, load_manifest
 
 SITE_TITLE = "Trading Playbook"
+AUTHOR = "Ninad K"
 TAGLINE = "Trading books, explained and connected."
 DISCLAIMER = "Educational summaries only. Nothing here is financial advice. Test every rule before risking capital."
 
@@ -170,6 +171,10 @@ def chart_coverage(full: int, partial: int, buckets: list[tuple[str, int]]) -> s
             'classified and how deeply each note was read">' + "".join(body) + "</svg></figure>")
 
 
+def rail_with_goals(lessons):
+    return [{"stage": l["stage"], "title": l["title"], "goal": l["goal"], "url": l["url"]} for l in lessons]
+
+
 def load_books():
     books = {}
     for f in sorted(BOOKS.glob("*.md")):
@@ -212,7 +217,7 @@ def main() -> None:
     nav_topics = [{"name": t["name"], "slug": t["slug"]} for t in topics]
 
     style_version = hashlib.sha256((DOCS / "assets" / "site.css").read_bytes()).hexdigest()[:12]
-    base_ctx = dict(site_title=SITE_TITLE, tagline=TAGLINE, disclaimer=DISCLAIMER, nav_topics=nav_topics, has_paths=(CONTENT / "paths.md").exists(), has_about=(CONTENT / "about.md").exists(), style_version=style_version)
+    base_ctx = dict(site_title=SITE_TITLE, author=AUTHOR, tagline=TAGLINE, disclaimer=DISCLAIMER, nav_topics=nav_topics, has_paths=(CONTENT / "paths.md").exists(), has_about=(CONTENT / "about.md").exists(), has_manual=(CONTENT / "manual").exists(), style_version=style_version)
 
     # ---- book pages
     tpl_book = env.get_template("book.html")
@@ -278,6 +283,43 @@ def main() -> None:
         html = render_md(post.content, "", slugs, titles)
         (DOCS / "paths.html").write_text(env.get_template("page.html").render(**base_ctx, root="", title="Reading paths", body=html, toc=MD.toc), encoding="utf-8")
 
+    # ---- Manual Trader course
+    mdir = CONTENT / "manual"
+    lessons = []
+    if mdir.exists():
+        (DOCS / "manual").mkdir(parents=True, exist_ok=True)
+        for f in sorted(mdir.glob("*.md")):
+            if f.stem == "index":
+                continue
+            post = frontmatter.load(f, encoding="utf-8")
+            lessons.append({"stage": int(post["stage"]), "title": post["title"],
+                            "goal": post.get("goal", ""), "url": f"{f.stem}.html",
+                            "post": post, "file": f})
+        lessons.sort(key=lambda x: x["stage"])
+        rail = [{"stage": l["stage"], "title": l["title"], "url": l["url"]} for l in lessons]
+        tpl_m = env.get_template("manual.html")
+        for i, l in enumerate(lessons):
+            body = render_md(l["post"].content, "../", slugs, titles)
+            m = dict(l["post"].metadata)
+            out = tpl_m.render(**base_ctx, root="../", m=m, body=body, rail=rail,
+                               total=len(lessons), prev=rail[i - 1] if i else None,
+                               next=rail[i + 1] if i + 1 < len(lessons) else None,
+                               hero=figure(str(m.get("diagram", "")), str(m.get("diagram_caption", ""))))
+            (DOCS / "manual" / l["url"]).write_text(out, encoding="utf-8")
+            plain = re.sub(r"\s+", " ", re.sub(r"[#*`>\[\]_]|\[\[|\]\]", " ", l["post"].content)).strip()
+            search_rows.append({
+                "slug": l["file"].stem, "title": f"Manual Trader {l['stage']}. {l['title']}",
+                "author": "Ninad K", "year": "", "category": "Manual Trader", "tier": "",
+                "difficulty": "", "doc_type": "lesson", "tags": "course tutorial",
+                "one_liner": l["goal"], "text": plain, "url": f"manual/{l['url']}",
+            })
+        ip = mdir / "index.md"
+        intro = frontmatter.load(ip, encoding="utf-8") if ip.exists() else None
+        (DOCS / "manual" / "index.html").write_text(
+            env.get_template("manual_index.html").render(
+                **base_ctx, root="../", body=render_md(intro.content, "../", slugs, titles) if intro else "",
+                stages=rail_with_goals(lessons)), encoding="utf-8")
+
     # ---- about page
     af = CONTENT / "about.md"
     if af.exists():
@@ -305,11 +347,13 @@ def main() -> None:
         lst.sort(key=lambda x: (x["tier"] != "A", x["title"].lower()))
     az = sorted(by_cat_entries := [e for l in by_cat.values() for e in l], key=lambda x: re.sub(r"^(the|a|an)\s+", "", x["title"].lower()))
     excluded = defaultdict(list)
+    by_slug_fn = {r["slug"]: r.get("filename", "") for r in manifest}
     for r in manifest:
         if r.get("ext") != "pdf":
-            excluded["not_pdf"].append(r["filename"])
+            excluded["not_pdf"].append(display_title(r["filename"]))
         elif r.get("tier") == "C":
-            excluded[r.get("c_status", "excluded")].append(r["filename"] + (f"  (same as: {r['dup_of']})" if r.get("dup_of") else ""))
+            dup = titles.get(r.get("dup_of")) or display_title(by_slug_fn.get(r.get("dup_of"), "")) if r.get("dup_of") else ""
+            excluded[r.get("c_status", "excluded")].append(display_title(r["filename"]) + (f"  (same as: {dup})" if dup else ""))
     counts = {
         "files": len(manifest), "pdfs": sum(r.get("ext") == "pdf" for r in manifest),
         "tier_a": sum(1 for p in books.values() if p.metadata.get("tier") == "A" and p.metadata.get("doc_type") != "system"),
@@ -347,7 +391,7 @@ def main() -> None:
                 break
         target = target if target in books else None
         state = ("Full source review" if post.get("source_review") == "full" else "Partial source review" if post.get("source_review") == "partial" else "Existing note; coverage not recorded") if post else row.get("c_status", "Awaiting note").replace("_", " ").capitalize()
-        entry = {"slug": slug, "title": titles.get(slug) or row.get("pdf_title") or row["filename"],
+        entry = {"slug": slug, "title": titles.get(slug) or row.get("pdf_title") or display_title(row["filename"]),
                  "state": state, "detail": post.get("reviewed_pdf_pages", "") if post else row.get("tier_reason", ""),
                  "target": target, "target_title": titles.get(target, "")}
         coverage.append(entry)

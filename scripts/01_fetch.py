@@ -34,7 +34,7 @@ def listing() -> list[dict]:
         ext = fname.rsplit(".", 1)[-1].lower() if "." in fname else ""
         rows.append({
             "filename": fname,
-            "url": "https://dl.fxf1.com" + h,
+            "url": BASE_URL.rstrip("/").rsplit("/files", 1)[0] + h if BASE_URL else "",
             "ext": ext,
             "slug": slugify(fname),
             "status": "pending" if ext == "pdf" else "not_pdf",

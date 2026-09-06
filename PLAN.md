@@ -48,6 +48,21 @@ Every note now records which PDF pages were actually read. "Full" means the docu
   removed the duplicate search box on the search page.
 - Verified all 733 note files structurally, 851 generated HTML pages, 36,156 local links, 747 search entries and all 733 PDF inventory records.
 
+## Manual Trader and the seven new sources — September 2026
+
+- Added seven previously unpublished books to the corpus, all fully text-extractable, and wrote the
+  **Manual Trader** course from them: nine stages, ~18,000 words, written as one continuous progression
+  and validated as a sequence rather than as loose pages.
+- Two of the seven (Charts Don't Lie, The Institutional Order Flow & AMT Playbook) carry no third-party
+  byline and are attributed to Ninad K. Four carry an "IQ Trader" or "Vikas / Merror Trader" byline in
+  the file itself and are attributed to that byline, with the ambiguity stated in the note. **Open
+  question for the author:** confirm the rights position on those four and attribution can be revised.
+- Five further diagrams (`scripts/17_course_diagrams.py`): volume profile, VWAP bands, footprint and
+  delta, auction rotation, and the expectancy distribution.
+- Credited **Ninad K** as author in page metadata, the footer and the homepage, and rewrote the About
+  page to explain the idea behind the library.
+- Removed every raw source filename from the published site via `common.display_title()`.
+
 ## Remaining work, in order
 
 1. ~~**Publish to GitHub Pages.**~~ *Done — see above.* Original note kept for context: The destination is settled: `origin` is `github.com/ninad-k/trading-playbook`, which is exactly the `https://ninad-k.github.io/trading-playbook/` base already hard-coded in `scripts/07_export_medium.py` and `scripts/08_notion_payload.py`, so no regeneration is needed. Nothing is deployed yet: local `main` is 37 commits ahead of the remote, whose only commit is the initial one, and `docs/` (855 files, 20 MB) has never been committed — it is untracked rather than ignored. Publishing takes two steps, and the URL 404s until both are done: (a) commit and push `main`; (b) in repository settings enable Pages with Source *Deploy from a branch*, branch `main`, folder `/docs`. The source mirror `downloads/` (2.0 GB of PDFs) is git-ignored and must stay that way. Durable edits belong in Markdown or templates, not in `docs/`.

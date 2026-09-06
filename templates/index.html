@@ -2,6 +2,7 @@
 {% block content %}
 <article class="index">
   <h1>{{ site_title }}</h1>
+  <p class="byline">by {{ author }}</p>
   <p class="lead">{{ tagline }} The source inventory contains {{ counts.pdfs }} PDFs. This site currently has {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries and {{ counts.systems }} system write-ups; {{ counts.pending }} eligible sources await a note.</p>
   <p class="muted">Every note records how much of its source was read: {{ counts.full }} full reviews and {{ counts.partial }} partial, each naming the exact PDF pages inspected. <a href="coverage.html">See reviewed pages, duplicates and exclusions for every PDF.</a></p>
   <div class="stats">
@@ -14,8 +15,13 @@
   <p class="muted"><span class="badge tier-A">A</span> a deep note — a full synthesis of the book.
   <span class="badge tier-B">B</span> a concise note — a short summary of the source.
   Both say on the page how much of the PDF was actually read.</p>
+  <div class="callout">
+    <strong>New here?</strong> The library below is a reference — useful once you know what you are looking for.
+    If you are starting out, take the course instead: <a href="manual/index.html"><b>Manual Trader</b></a> is nine
+    stages written as one continuous progression, from reading a single candle to reading institutional order flow.
+  </div>
   {{ cat_chart|safe }}
-  <p><a class="btn" href="search.html">🔍 Search everything</a> {% if has_paths %}<a class="btn" href="paths.html">🧭 Start here: reading paths</a>{% endif %}</p>
+  <p><a class="btn next" href="manual/index.html">Start the course →</a> <a class="btn" href="search.html">🔍 Search everything</a> {% if has_paths %}<a class="btn" href="paths.html">🧭 Start here: reading paths</a>{% endif %}</p>
 
   <h2 id="topics">By topic</h2>
   <p class="muted">Topic pages either synthesize the group or provide a catalog of the available notes. There are {{ nav_topics|length }} topic catalogs.</p>

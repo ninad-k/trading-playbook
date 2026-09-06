@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Trade · Manual Trader · Trading Playbook</title>
+<meta name="description" content="Turn a chart opinion into a position with a stop chosen from structure, a size chosen from your account, and a size calculation you can do by hand before every trade.">
+<meta name="author" content="Ninad K">
+<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../manual/index.html"><b>Manual Trader</b> — learn to trade</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+    <a href="../about.html">About this library</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="lesson">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../manual/index.html">Manual Trader</a> › Stage 6 of 9</p>
+  <h1>The Trade</h1>
+  <p class="lead">Turn a chart opinion into a position with a stop chosen from structure, a size chosen from your account, and a size calculation you can do by hand before every trade.</p>
+  <div class="rail" aria-label="Course progress">
+    <a href="../manual/01-what-a-chart-is.html" class="done" title="Stage 1: What a Chart Actually Is">1</a><a href="../manual/02-the-candle-and-the-sequence.html" class="done" title="Stage 2: The Candle and the Sequence">2</a><a href="../manual/03-structure.html" class="done" title="Stage 3: Structure">3</a><a href="../manual/04-patterns-as-structure-in-motion.html" class="done" title="Stage 4: Patterns as Structure in Motion">4</a><a href="../manual/05-indicators.html" class="done" title="Stage 5: Indicators, and What They Actually Compute">5</a><a href="../manual/06-the-trade.html" class="here" title="Stage 6: The Trade">6</a><a href="../manual/07-the-session.html" class="" title="Stage 7: The Session">7</a><a href="../manual/08-where-price-comes-from.html" class="" title="Stage 8: Where Price Comes From">8</a><a href="../manual/09-your-own-playbook.html" class="" title="Stage 9: Your Own Playbook">9</a>
+  </div>
+  <figure class="fig" id="fig-position-sizing"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="position-sizing-t position-sizing-d" class="diagram"><title id="position-sizing-t">Position sizing inputs and the drawdown-recovery curve</title><desc id="position-sizing-d">Account equity times risk percent divided by stop distance gives position size; beside it a curve showing the gain required to recover from a given drawdown.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="400" rx="8" class="d-bg"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent,#0b6e4f)"/></marker><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent2,#b8862b)"/></marker></defs><text x="40" y="34" class="d-t" text-anchor="start">Sizing from risk, not from conviction</text><rect x="40" y="52" width="176" height="46" rx="8" fill="none" stroke="var(--line,#e4e2dc)"/><text x="128.0" y="80" class="d-s" text-anchor="middle">Account equity</text><rect x="244" y="52" width="176" height="46" rx="8" fill="none" stroke="var(--line,#e4e2dc)"/><text x="332.0" y="80" class="d-s" text-anchor="middle">Risk per trade (%)</text><rect x="448" y="52" width="176" height="46" rx="8" fill="none" stroke="var(--line,#e4e2dc)"/><text x="536.0" y="80" class="d-s" text-anchor="middle">Stop distance</text><text x="228" y="82" class="d-t" text-anchor="middle">&#215;</text><text x="432" y="82" class="d-t" text-anchor="middle">&#247;</text><line x1="360" y1="102" x2="360" y2="126" stroke="var(--accent,#0b6e4f)" stroke-width="2" marker-end="url(#ar)"/><rect x="272" y="130" width="176" height="46" rx="8" fill="none" stroke="var(--accent,#0b6e4f)" stroke-width="2"/><text x="360" y="158" class="d-k" text-anchor="middle">Position size</text><text x="360" y="200" class="d-s" text-anchor="middle">Two of the three inputs are chosen before the trade exists.</text><text x="360" y="218" class="d-s" text-anchor="middle">Only the stop distance comes from the chart.</text><line x1="74" y1="356" x2="366" y2="356" class="d-ax"/><line x1="74" y1="248" x2="74" y2="356" class="d-ax"/><polyline points="74.0,356.0 78.2,355.5 82.3,355.1 86.5,354.6 90.7,354.1 94.9,353.6 99.0,353.1 103.2,352.6 107.4,352.1 111.5,351.5 115.7,351.0 119.9,350.4 124.1,349.9 128.2,349.3 132.4,348.7 136.6,348.1 140.7,347.4 144.9,346.8 149.1,346.1 153.3,345.4 157.4,344.8 161.6,344.0 165.8,343.3 169.9,342.6 174.1,341.8 178.3,341.0 182.5,340.2 186.6,339.4 190.8,338.5 195.0,337.6 199.1,336.7 203.3,335.8 207.5,334.8 211.7,333.8 215.8,332.8 220.0,331.8 224.2,330.7 228.3,329.6 232.5,328.4 236.7,327.2 240.9,326.0 245.0,324.7 249.2,323.4 253.4,322.1 257.5,320.6 261.7,319.2 265.9,317.7 270.1,316.1 274.2,314.5 278.4,312.8 282.6,311.0 286.7,309.2 290.9,307.2 295.1,305.3 299.3,303.2 303.4,301.0 307.6,298.7 311.8,296.3 315.9,293.9 320.1,291.2 324.3,288.5 328.5,285.6 332.6,282.6 336.8,279.4 341.0,276.0 345.1,272.4 349.3,268.6 353.5,264.6 357.7,260.4 361.8,255.8 366.0,251.0" class="d-hi2"/><text x="74" y="236" class="d-s" text-anchor="start">gain needed to get back to even</text><text x="366" y="376" class="d-s" text-anchor="end">drawdown &#8594;</text><circle cx="157.4" cy="344.8" r="4" fill="var(--accent2,#b8862b)"/><text x="167.42857142857144" y="336.75" class="d-k2" text-anchor="start">20% needs 25%</text><circle cx="282.6" cy="311.0" r="4" fill="var(--accent2,#b8862b)"/><text x="276.57142857142856" y="299.0" class="d-k2" text-anchor="end">50% needs 100%</text><circle cx="345.1" cy="272.4" r="4" fill="var(--accent2,#b8862b)"/><text x="331.14285714285717" y="296.42857142857144" class="d-k2" text-anchor="end">65% needs 186%</text><text x="410" y="252" class="d-t" text-anchor="start">Why the size rule matters</text><text x="410" y="278" class="d-s" text-anchor="start">Recovering a loss takes a bigger gain than the</text><text x="410" y="297" class="d-s" text-anchor="start">loss itself, and the gap widens fast. That is</text><text x="410" y="316" class="d-s" text-anchor="start">arithmetic, not a claim about any method — and</text><text x="410" y="335" class="d-s" text-anchor="start">it is the reason nearly every book in the library</text><text x="410" y="354" class="d-s" text-anchor="start">caps risk per trade at a few percent.</text></svg><figcaption>The same stop distance in price producing different position sizes as the risk fraction changes — size comes from the account, not the chart.</figcaption></figure>
+  <div class="prose"><h2 id="what-you-will-be-able-to-do">What you will be able to do</h2>
+<p>Given any chart opinion — a break of structure, a pattern, a divergence, anything from stages 3 through
+5 — you will be able to state an entry, a stop, a target, and a position size, and show the arithmetic
+behind the size. You will be able to convert a trade into R multiples, calculate the expectancy of a run
+of trades, and explain why a system&rsquo;s win rate alone tells you almost nothing about whether it makes
+money.</p>
+<h2 id="the-lesson">The lesson</h2>
+<h3 id="why-this-stage-comes-before-any-setup">Why this stage comes before any setup</h3>
+<p>Every stage before this one taught you to read a chart. Nothing about reading a chart well protects you
+from a bad outcome, because reading is not risk-taking — sizing a position is. This is deliberately the
+last stage before the course turns to setups, sessions, and order flow, because a trader who can read
+structure perfectly and sizes positions carelessly will eventually be destroyed by one trade, while a
+trader with a mediocre eye for structure and rigorous sizing will survive long enough to get better. Most
+courses teach entries first and risk as an afterthought. That ordering produces people who can spot a
+pattern and still lose everything, because by the time they think about risk, the position is already on
+and the decision that mattered most has already been skipped.</p>
+<h3 id="the-four-decisions">The four decisions</h3>
+<p>Every trade you will ever place is four decisions, and only four: where you enter, where you get out if
+you are wrong (the stop), where you get out if you are right (the target), and how large the position is
+(the size). Entry and target come from the chart — from structure, patterns, and the other tools this
+course has given you. The stop also comes from the chart: it belongs at the price level that proves your
+read of the structure was wrong, not at a distance that feels comfortable. Size is the one decision that
+does not come from the chart at all. It comes from your account, and specifically from how much of that
+account you are willing to lose if the stop is hit. Keeping this separation straight — stop from
+structure, size from account — is the core discipline of this lesson.</p>
+<h3 id="r-the-unit-that-makes-trades-comparable">R: the unit that makes trades comparable</h3>
+<p>Call the distance from your entry to your stop one R. If you buy at 100 with a stop at 98, one R is 2
+points on that trade. Every outcome can now be expressed as a multiple of R instead of as a dollar amount
+or a percentage: a trade that hits a target 6 points above entry is a 3R winner; a trade stopped out at
+the stop is a −1R loss, by definition, every time, regardless of how many shares or contracts were in it.
+Expressing outcomes in R is what lets you compare a stock trade to a futures trade to an options trade, and
+what lets you evaluate a run of forty trades as a distribution of R multiples instead of forty unrelated
+dollar figures. Without this unit, &ldquo;I made $400 today&rdquo; tells you nothing about whether your process is
+working, because it does not say how much you risked to make it.</p>
+<h3 id="position-size-from-the-account-outward">Position size, from the account outward</h3>
+<p>Once you have an entry and a stop, the stop distance in price is fixed. Size is the only remaining
+variable, and it is calculated, not guessed:</p>
+<p>position size = (account equity × risk fraction) ÷ stop distance per unit</p>
+<p>If you have a 50,000 account and you are willing to risk 1% of it on this trade, that is 500. If your
+stop is 2.50 away from your entry on a stock, 500 divided by 2.50 is 200 shares. That is the whole
+calculation. Notice what it does not depend on: it does not depend on how confident you feel, how far the
+target is, or how sure you are that the pattern will work. It depends on exactly two things — how much
+you are willing to lose and how far away the level is that proves you wrong — and both of those are known
+before you enter.</p>
+<h3 id="why-the-convention-converges-on-small">Why the convention converges on small</h3>
+<p>The market convention is to risk a small fraction of the account per trade — commonly cited figures sit
+around 1%, sometimes as low as a fraction of a percent for more volatile instruments, rarely more than 2%.
+That convention exists for arithmetic reasons, not caution for its own sake, and the arithmetic is the
+next section.</p>
+<h3 id="the-drawdown-recovery-asymmetry">The drawdown-recovery asymmetry</h3>
+<p>Losses and the gains required to recover from them are not symmetric, and the gap between them widens
+fast. A 20% loss requires a 25% gain on the remaining capital just to get back to even, because losing 20
+of 100 leaves 80, and 80 needs to grow by 25% to return to 100. A 50% loss requires a 100% gain — you have
+to double what remains just to break even. A 65% loss requires roughly a 186% gain. This is not a special
+property of any one of these numbers; it is what division does once the denominator has shrunk. The
+practical consequence is that avoiding deep drawdowns is not a nicety, it is close to the entire game: a
+trader who risks large fractions of the account per trade needs only a short losing streak, which will
+happen to everyone eventually, to reach a hole that ordinary trading can no longer climb out of. Risking a
+small, fixed fraction per trade is how you keep every plausible losing streak inside a hole you can still
+climb out of.</p>
+<h3 id="expectancy">Expectancy</h3>
+<figure class="fig" id="fig-expectancy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 336" role="img" aria-labelledby="expectancy-t expectancy-d" class="diagram"><title id="expectancy-t">Expectancy from a distribution of R multiples</title><desc id="expectancy-d">A bar chart of trade outcomes in R multiples where losers outnumber winners, with the expectancy arithmetic beside it showing a positive result per trade.</desc><style>
+.d-bg{fill:var(--card,#ffffff)}
+.d-ax{stroke:var(--line,#e4e2dc);stroke-width:1}
+.d-grid{stroke:var(--line,#e4e2dc);stroke-width:1;stroke-dasharray:3 4}
+.d-px{fill:none;stroke:var(--fg,#1c1c1a);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-hi2{fill:none;stroke:var(--accent2,#b8862b);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.d-dash{fill:none;stroke:var(--accent,#0b6e4f);stroke-width:1.6;stroke-dasharray:5 4}
+.d-t{fill:var(--fg,#1c1c1a);font:600 13px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-s{fill:var(--muted,#6b6b66);font:12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k{fill:var(--accent,#0b6e4f);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-k2{fill:var(--accent2,#b8862b);font:600 12px -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.d-up{fill:var(--card,#ffffff);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-dn{fill:var(--fg,#1c1c1a);stroke:var(--fg,#1c1c1a);stroke-width:1.5}
+.d-zone{fill:var(--accent,#0b6e4f);opacity:.10}
+.d-zone2{fill:var(--accent2,#b8862b);opacity:.12}
+</style><rect x="0" y="0" width="720" height="336" rx="8" class="d-bg"/><text x="40" y="34" class="d-t" text-anchor="start">A 40% win rate that still makes money</text><text x="40" y="60" class="d-s" text-anchor="start">Outcome of 100 trades, measured in R</text><rect x="80" y="98" width="76" height="138" rx="3" fill="var(--accent2,#b8862b)"/><text x="118.0" y="90.0" class="d-n" text-anchor="middle">60%</text><text x="118.0" y="257" class="d-t" text-anchor="middle">&#8722;1R</text><rect x="196" y="195" width="76" height="41" rx="3" fill="var(--accent,#0b6e4f)"/><text x="234.0" y="186.6" class="d-n" text-anchor="middle">18%</text><text x="234.0" y="257" class="d-t" text-anchor="middle">+1R</text><rect x="312" y="208" width="76" height="28" rx="3" fill="var(--accent,#0b6e4f)"/><text x="350.0" y="200.4" class="d-n" text-anchor="middle">12%</text><text x="350.0" y="257" class="d-t" text-anchor="middle">+2R</text><rect x="428" y="213" width="76" height="23" rx="3" fill="var(--accent,#0b6e4f)"/><text x="466.0" y="205.0" class="d-n" text-anchor="middle">10%</text><text x="466.0" y="257" class="d-t" text-anchor="middle">+3R</text><line x1="64" y1="236" x2="486" y2="236" class="d-ax"/><text x="516" y="96" class="d-t" text-anchor="start">40 winners, 60 losers.</text><text x="516" y="126" class="d-s" text-anchor="start">(0.18&#215;1) + (0.12&#215;2) + (0.10&#215;3)</text><text x="516" y="144" class="d-s" text-anchor="start">&#8722; (0.60&#215;1)</text><line x1="516" y1="156" x2="686" y2="156" stroke="var(--line,#e4e2dc)"/><text x="516" y="178" class="d-k" text-anchor="start">= +0.12R per trade</text><text x="516" y="208" class="d-s" text-anchor="start">Losing six times in ten</text><text x="516" y="226" class="d-s" text-anchor="start">and still gaining, because</text><text x="516" y="244" class="d-s" text-anchor="start">the winners are bigger.</text><text x="40" y="288" class="d-s" text-anchor="start">Expectancy, not win rate, decides whether a method survives. A 70% win rate with one large loss in</text><text x="40" y="306" class="d-s" text-anchor="start">the tail is a losing system, and it feels like a winning one right up until it is not.</text><text x="40" y="328" class="d-s" text-anchor="start">Illustrative arithmetic. It is not a result from any tested method.</text></svg><figcaption>A losing majority that still compounds. The arithmetic is illustrative, not a tested result.</figcaption></figure>
+<p>Expectancy is what tells you whether a way of trading makes money over a run of trades, and it is
+calculated as:</p>
+<p>expectancy = (win rate × average win in R) − (loss rate × average loss in R)</p>
+<p>This single formula is also where the most common misunderstanding in trading lives: people assume a
+higher win rate means a better system. It does not, on its own, mean anything at all without knowing the
+size of the wins and losses. A system that wins 40% of its trades, with average winners of 3R and average
+losers of 1R, has an expectancy of (0.40 × 3) − (0.60 × 1) = 1.2 − 0.6 = +0.6R per trade — strongly
+profitable, because the size of the wins more than compensates for losing on the majority of trades. A
+system that wins 70% of its trades, with average winners of 0.5R and average losers of 3R, has an
+expectancy of (0.70 × 0.5) − (0.30 × 3) = 0.35 − 0.9 = −0.55R per trade — a losing system, and by enough
+margin that it will eventually ruin the account, despite winning on most of its trades. The win rate you
+are told about a system tells you almost nothing by itself. The ratio of average win size to average loss
+size is at least as important, and expectancy is the only number that combines them honestly.</p>
+<h3 id="why-moving-a-stop-is-the-most-destructive-habit-in-trading">Why moving a stop is the most destructive habit in trading</h3>
+<p>A stop is the price level at which your read of the structure was wrong. Once it is placed, moving it
+further away because price is approaching it is not managing the trade — it is refusing to accept that
+you were wrong, and it converts a defined, planned loss of 1R into an undefined loss of unknown size. This
+single habit does more damage to more accounts than any entry mistake, because an entry mistake costs you
+one bad trade at a known size, while a moved stop can cost you an amount you never sized for and never
+agreed to in advance. If new information genuinely changes your read of the structure — a level breaks,
+the pattern is invalidated the way stage 4 taught you to check — that is a reason to exit, not a reason to
+move the stop further from price and hope.</p>
+<h3 id="what-sizing-does-and-does-not-do">What sizing does and does not do</h3>
+<p>No position sizing rule, however disciplined, creates an edge. If your entries and exits lose money on
+average — if your expectancy is negative — sizing rigorously will not make the system profitable; it will
+only slow down exactly how fast it loses, and let you survive long enough to notice the expectancy is
+negative and stop. That is precisely its value. Sizing does not make a bad process good. It stops a losing
+process from ending you before you have the evidence to recognize it is losing.</p>
+<h2 id="worked-example">Worked example</h2>
+<p>You are looking at a stock that broke a swing high the way stage 3 taught you to identify, entering long
+at 52.00. The swing low that would invalidate this read sits at 50.50, so your stop is 50.50 and one R is
+1.50. You are trading a 30,000 account and have decided in advance to risk 1% per trade, which is 300.
+Position size is 300 divided by 1.50, which is 200 shares. If the stock reaches your target of 55.75,
+that is a 3.75 gain on a 1.50 risk — a 2.5R winner. If it instead reverses and hits 50.50, that is a
+defined, planned −1R loss of exactly 300, because you sized for it in advance. Now run this same process
+across forty similar trades over a few months. Suppose eighteen of them (45%) are winners averaging 2R,
+and twenty-two (55%) are losers averaging −1R. Expectancy is (0.45 × 2) − (0.55 × 1) = 0.90 − 0.55 =
++0.35R per trade. Across forty trades, that is roughly +14R — a real, positive result — built from a
+system that lost more often than it won. None of that required a high win rate. It required winners
+larger than losers, sized consistently enough that no single loss, or short run of losses, threatened the
+account.</p>
+<h2 id="practice">Practice</h2>
+<div class="drill">
+
+### Drill: Size ten trades on paper
+
+Find ten setups on historical charts — any instrument, any of the structure or pattern reads from stages
+3 and 4. For each one, write down the entry, the stop (from structure, not from feel), the R distance,
+and the position size for a hypothetical 10,000 account risking 1% per trade. Do not check what actually
+happened to price afterward until you have written down all ten sizes. The point of the drill is making
+the size calculation automatic and separating it completely from any opinion about whether the trade will
+work.
+
+</div>
+
+<h2 id="self-check">Self-check</h2>
+<ol>
+<li>Which of the four trade decisions comes from the account rather than the chart, and why does that
+   separation matter?</li>
+<li>Why does a 50% drawdown require a 100% gain to recover, and what does that imply about risking a large
+   fraction of the account per trade?</li>
+<li>Using the expectancy formula, why can a system with a 70% win rate still be a losing system?</li>
+<li>Why does moving a stop further from price turn a defined loss into an undefined one?</li>
+</ol></div>
+  <nav class="pager">
+    <a class="btn" href="../manual/05-indicators.html">← Stage 5 · Indicators, and What They Actually Compute</a>
+    <a class="btn next" href="../manual/07-the-session.html">Stage 7 · The Session →</a>
+  </nav>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+  <p>Written and maintained by <b>Ninad K</b>. <a href="../about.html">About this library</a>.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>
