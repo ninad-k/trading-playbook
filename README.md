@@ -125,8 +125,34 @@ any passage that looks quoted rather than paraphrased.
 `draft_status: unreviewed`. Approving one is what moves it into `content/books/`, adds its manifest row,
 and feeds its text back into the dedup corpus. Nothing a model writes reaches the library unread.
 
-Tested with `qwen3:4b` and `nomic-embed-text`, both fully local. Cloud-routed models appear in the
-picker but are labelled as not offline.
+**Which model.** Measured on this machine (RTX 5070 Laptop, 8 GB VRAM) by drafting the same three
+books with each candidate and scoring the result: did it pick the right category, how many of the
+book's rules did it actually extract, and how often did it quote instead of paraphrasing.
+
+| model | offline | avg s/book | category | rules found | quote flags |
+|---|---|---:|---:|---:|---:|
+| **qwen3.5:9b** | **yes** | 48 | **3/3** | **17–22** | 0–1 |
+| qwen3:4b | yes | 18 | 3/3 | 11–18 | 1–2 |
+| qwen3.5:4b | yes | 25 | 1/3 | 11 | 1 |
+| qwen3.5:cloud (397B) | no | 43 | 3/3 | 20 | 0 |
+| glm-5.2:cloud (756B) | no | 34 | 3/3 | 19 | 0 |
+
+`qwen3.5:9b` is the default: it matches the 397B cloud model on every measure while running entirely
+on the card. Ranges reflect run-to-run variance at temperature 0.15. `qwen3.5:4b` is a regression on
+this task and `gemma4:12b` (7.6 GB) does not leave room for a usable context window.
+
+Two settings matter more than they look. Ollama's default context is **4096 tokens**, which silently
+truncates a book sample — `NUM_CTX` is set to 8192, which holds the sample and keeps a 9B model on the
+GPU where 16384 spills to CPU. And the sample is budgeted by total characters and split evenly across
+the chosen pages, so the coverage line on a draft states what the model was really shown.
+
+**Cloud models need a fallback.** Ollama enforces `format` in the local inference engine, so a
+cloud-routed model never sees the grammar and returns Markdown instead of JSON — every cloud draft
+failed outright until `ask()` learned to retry, asking for the same schema in words. Cloud tags work
+through the local daemon once the desktop app is signed in; an `OLLAMA_API_KEY` in a git-ignored `.env`
+at the repository root is only needed to reach `ollama.com` directly.
+
+Embeddings use `nomic-embed-text`. Cloud-routed models appear in the picker labelled as not offline.
 
 ## Content rules
 

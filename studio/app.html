@@ -94,7 +94,7 @@ ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
   <p class="hint">Drafts land in <code>content/drafts/</code>, not in the library. They record exactly which pages the
   model was shown, and they are marked machine-drafted until you approve them.</p>
   <div class="row"><button id="draft" class="primary" disabled>Draft selected</button>
-    <span class="small">A 4B local model takes a few minutes per book.</span></div>
+    <span class="small">About 40 seconds a book on qwen3.5:9b.</span></div>
 
   <h2><span class="n">6</span>Review and publish</h2>
   <div id="drafts"></div>
@@ -138,7 +138,11 @@ async function status() {
                                           : `  · via ${m.remote_host.replace('https://', '')} — NOT offline`);
     sel.appendChild(opt);
   });
-  if (keep) sel.value = keep;
+  // Default to the best measured model that is actually installed (see README for the numbers).
+  const PREFERRED = ['qwen3.5:9b', 'qwen3.5:27b', 'gemma4:12b', 'qwen3:4b'];
+  const have = [...sel.options].map(o => o.value);
+  sel.value = keep && have.includes(keep) ? keep
+            : (PREFERRED.find(m => have.includes(m)) || have[0] || '');
   $('#c-notes').textContent = s.library.notes;
   $('#c-index').textContent = s.index.texts || 0;
   $('#index-state').textContent = !s.index.texts

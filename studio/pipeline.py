@@ -22,6 +22,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import re
 import sys
 import urllib.error
@@ -40,7 +41,25 @@ from common import (  # noqa: E402
     BOOKS, CATEGORIES, ROOT, display_title, load_manifest, normalized_title, save_manifest, slugify,
 )
 
-OLLAMA = "http://localhost:11434"
+
+def _load_env() -> dict:
+    """Read the git-ignored .env at the repository root. No dependency, no secrets in code."""
+    out = {}
+    f = ROOT / ".env"
+    if f.exists():
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, _, v = line.partition("=")
+                out[k.strip()] = v.strip()
+    return out
+
+
+_ENV = _load_env()
+OLLAMA = os.environ.get("OLLAMA_HOST") or _ENV.get("OLLAMA_HOST") or "http://localhost:11434"
+# Only needed when talking to ollama.com directly. The local daemon proxies :cloud tags on its
+# own once the desktop app is signed in, so this is usually unused.
+OLLAMA_KEY = os.environ.get("OLLAMA_API_KEY") or _ENV.get("OLLAMA_API_KEY") or ""
 EMBED_MODEL = "nomic-embed-text"
 INDEX = ROOT / "downloads" / "note_embeddings.json"   # derived cache; downloads/ is git-ignored
 DRAFTS = ROOT / "content" / "drafts"
@@ -48,17 +67,21 @@ UPLOADS = Path(__file__).resolve().parent / "uploads"
 
 # A note is only as good as what the model was shown. These caps keep a run finishable on a
 # small local model, and every page fed in is recorded on the draft.
-CHUNK_CHARS = 5000
-MAX_PAGES_SHOWN = 14
+CHUNK_CHARS = 5000          # per-page cap when reading pages for the dedup section scan
+MAX_PAGES_SHOWN = 12        # how many pages the drafting model is shown
+SAMPLE_CHARS = 18000        # total characters shown to it, split evenly across those pages
+# Ollama defaults to a 4096-token window, which silently truncates a sample this size. 8192 holds
+# the sample plus the schema and keeps a 9B model wholly on an 8 GB card; 16384 spills to CPU.
+NUM_CTX = 8192
 
 
 # --------------------------------------------------------------------------- ollama
 
 def _post(path: str, payload: dict, timeout: int = 900) -> dict:
-    req = urllib.request.Request(
-        OLLAMA + path, data=json.dumps(payload).encode(),
-        headers={"Content-Type": "application/json"},
-    )
+    headers = {"Content-Type": "application/json"}
+    if OLLAMA_KEY and "localhost" not in OLLAMA and "127.0.0.1" not in OLLAMA:
+        headers["Authorization"] = f"Bearer {OLLAMA_KEY}"
+    req = urllib.request.Request(OLLAMA + path, data=json.dumps(payload).encode(), headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode())
 
@@ -66,7 +89,10 @@ def _post(path: str, payload: dict, timeout: int = 900) -> dict:
 def ollama_status() -> dict:
     """Reachability plus the model list, with cloud-routed models flagged as not offline."""
     try:
-        with urllib.request.urlopen(OLLAMA + "/api/tags", timeout=5) as r:
+        tagreq = urllib.request.Request(OLLAMA + "/api/tags")
+        if OLLAMA_KEY and "localhost" not in OLLAMA and "127.0.0.1" not in OLLAMA:
+            tagreq.add_header("Authorization", f"Bearer {OLLAMA_KEY}")
+        with urllib.request.urlopen(tagreq, timeout=5) as r:
             tags = json.loads(r.read().decode())
     except (urllib.error.URLError, OSError, TimeoutError) as e:
         return {"up": False, "error": str(e), "models": []}
@@ -98,20 +124,40 @@ def ask(model: str, prompt: str, schema: dict, system: str = "", budget: int = 1
     Constrained decoding is what makes a small local model usable here: it physically cannot
     emit prose around the answer, so nothing needs cleaning and no field can go missing.
     """
-    msgs = [{"role": "system", "content": system}] if system else []
-    msgs.append({"role": "user", "content": prompt})
-    out = _post("/api/chat", {
-        "model": model, "messages": msgs, "stream": False, "think": False,
-        "format": schema, "options": {"num_predict": budget, "temperature": 0.15},
-    }, timeout=1800)
-    raw = (out.get("message") or {}).get("content", "") or "{}"
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        m = re.search(r"\{.*\}", raw, re.S)
-        if not m:
-            raise ValueError(f"model returned nothing parseable: {raw[:200]}")
-        return json.loads(m.group(0))
+    def call(extra_instruction: str = "") -> str:
+        msgs = [{"role": "system", "content": system}] if system else []
+        msgs.append({"role": "user", "content": prompt + extra_instruction})
+        out = _post("/api/chat", {
+            "model": model, "messages": msgs, "stream": False, "think": False,
+            "format": schema,
+            "options": {"num_predict": budget, "temperature": 0.15, "num_ctx": NUM_CTX},
+        }, timeout=1800)
+        return (out.get("message") or {}).get("content", "") or ""
+
+    def parse(raw: str):
+        raw = raw.strip()
+        if raw.startswith("```"):
+            raw = re.sub(r"^```[a-z]*\s*|\s*```$", "", raw)
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            m = re.search(r"\{.*\}", raw, re.S)
+            return json.loads(m.group(0)) if m else None
+
+    raw = call()
+    parsed = parse(raw)
+    if parsed is None:
+        # Cloud-routed models ignore `format`: constrained decoding happens in the local
+        # inference engine, and a passthrough to ollama.com never sees the grammar. Ask again,
+        # in words, for the same thing.
+        parsed = parse(call(
+            chr(10) * 2
+            + "Respond with a single JSON object and nothing else — no Markdown, no headings, "
+              "no code fence, no commentary. It must match exactly this JSON schema:" + chr(10)
+            + json.dumps(schema)))
+    if parsed is None:
+        raise ValueError(f"model returned nothing parseable: {raw[:160]}")
+    return parsed
 
 
 # --------------------------------------------------------------------------- vectors
@@ -192,7 +238,9 @@ def sample_pages(book: Book) -> tuple[str, list[int]]:
         step = len(rest) / want
         picked = front + [rest[int(i * step)] for i in range(want)]
     picked = sorted(set(picked))
-    return "\n\n".join(book.pages[i][:CHUNK_CHARS] for i in picked), [i + 1 for i in picked]
+    # Split the character budget evenly, so what the model sees matches the pages recorded.
+    per = max(SAMPLE_CHARS // max(len(picked), 1), 400)
+    return "\n\n".join(book.pages[i][:per] for i in picked), [i + 1 for i in picked]
 
 
 def page_ranges(pages: list[int]) -> str:
@@ -223,26 +271,29 @@ def analyse(book: Book) -> dict:
         result["reasons"].append("Almost no extractable text: an image-only scan that needs OCR first.")
         return result
 
-    for row in manifest:
-        if row.get("sha1") == book.sha1:
-            result["verdict"] = "exact-duplicate"
-            result["reasons"].append(f"Byte-identical to a file already held: {display_title(row['filename'])}")
-            return result
-
-    nt = normalized_title(book.filename)
-    for row in manifest:
-        if nt and normalized_title(row.get("filename", "")) == nt:
-            result["verdict"] = "title-duplicate"
-            result["reasons"].append(f"Same title, different file: {display_title(row['filename'])}")
-            return result
-
     index = load_index()
     titles = {n["slug"]: n["title"] for n in index}
     sampled, pages_used = sample_pages(book)
     result["sampled_pages"] = pages_used
 
-    # Pass 3 — the verdict. Text against text, which is the only signal that actually separates
-    # duplicates here (see the measurements in dedup.py).
+    # The three dedup passes run in order of cost, but none of them returns early: the topic
+    # lookup below is worth having even for a duplicate, and drafting reads its category from it.
+    for row in manifest:
+        if row.get("sha1") == book.sha1:
+            result["verdict"] = "exact-duplicate"
+            result["reasons"].append(f"Byte-identical to a file already held: {display_title(row['filename'])}")
+            break
+
+    if result["verdict"] == "new":
+        nt = normalized_title(book.filename)
+        for row in manifest:
+            if nt and normalized_title(row.get("filename", "")) == nt:
+                result["verdict"] = "title-duplicate"
+                result["reasons"].append(f"Same title, different file: {display_title(row['filename'])}")
+                break
+
+    # Pass 3 — the verdict for anything the cheap passes missed. Text against text, the only
+    # signal that actually separates duplicates here (see the measurements in dedup.py).
     tindex = dedup.load_index()
     if not tindex:
         result["reasons"].append("No text index yet, so only file and title dedup ran. "
@@ -251,11 +302,12 @@ def analyse(book: Book) -> dict:
         hits = dedup.compare(dedup.shingles("\n".join(book.pages)), tindex)
         if hits:
             top = hits[0]
-            result["verdict"] = "near-duplicate"
             result["overlaps"] = hits[:4]
-            result["reasons"].append(dedup.describe(top, titles.get(top["slug"], top["slug"])))
-            if len(hits) > 1:
-                result["reasons"].append(f"It also overlaps {len(hits) - 1} other text(s) held.")
+            if result["verdict"] == "new":
+                result["verdict"] = "near-duplicate"
+                result["reasons"].append(dedup.describe(top, titles.get(top["slug"], top["slug"])))
+                if len(hits) > 1:
+                    result["reasons"].append(f"It also overlaps {len(hits) - 1} other text(s) held.")
 
     # Advisory only: which existing notes sit nearest in subject matter. This is a topic hint,
     # not evidence of duplication — distinct trading books routinely score 0.85 against each other.
@@ -369,7 +421,7 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
         raise ValueError("no extractable text to read")
 
     progress("reading", f"{len(pages_used)} sampled pages")
-    facts = ask(model, FACTS_PROMPT.format(pages=page_ranges(pages_used), text=sampled[:24000]),
+    facts = ask(model, FACTS_PROMPT.format(pages=page_ranges(pages_used), text=sampled),
                 FACTS_SCHEMA, SYSTEM, budget=1400)
 
     progress("writing", "the note")
@@ -414,8 +466,9 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
     if (note.get("author") or "").strip().lower() in ("unknown", "n/a", "not stated", "none", ""):
         note["author"] = "Unknown"
     slug = slugify(book.filename)
-    coverage = (f"{page_ranges(pages_used)} of {len(book.pages)} (front matter plus an even spread; "
-                "this is exactly what the model was shown, and nothing else)")
+    per_page = max(SAMPLE_CHARS // max(len(pages_used), 1), 400)
+    coverage = (f"{page_ranges(pages_used)} of {len(book.pages)} (front matter plus an even spread, "
+                f"first ~{per_page} characters of each; that is all the model was shown)")
     post = frontmatter.Post(
         body,
         title=note.get("title") or display_title(book.filename),
