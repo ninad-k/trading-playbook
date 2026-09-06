@@ -1,6 +1,8 @@
 ---
 author: Dirk du Toit
 category: Forex Mechanics & Macro Drivers
+diagram: forex-quote
+diagram_caption: The quote you actually trade against.
 difficulty: intermediate
 doc_type: book
 one_liner: 'A South African forex mentor''s discretionary day-trading framework: one

@@ -1,6 +1,8 @@
 ---
 author: Philip Gotthelf
 category: Forex Mechanics & Macro Drivers
+diagram: forex-quote
+diagram_caption: The mechanics of the quote itself.
 difficulty: intermediate
 doc_type: book
 one_liner: Currency-trading primer built on the concept of parity, covering Interbank/futures/options

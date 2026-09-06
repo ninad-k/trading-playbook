@@ -1,6 +1,8 @@
 ---
 author: Mark B. Fisher
 category: Day Trading & Scalping
+diagram: opening-range
+diagram_caption: ACD is an opening-range method; this is the shape it works on.
 difficulty: intermediate
 doc_type: book
 one_liner: 'Fisher''s ACD method: trade opening-range breakouts (Point A) and pivot-range

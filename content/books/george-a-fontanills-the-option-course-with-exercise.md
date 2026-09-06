@@ -1,6 +1,8 @@
 ---
 author: George A. Fontanills
 category: Options, Futures & Derivatives
+diagram: option-payoffs
+diagram_caption: The payoff shapes the exercises work through.
 difficulty: beginner
 doc_type: course
 one_liner: 'A 19-chapter study workbook companion to The Options Course: chapter summaries,

@@ -4,8 +4,9 @@
 <article>
   <h1>Source coverage</h1>
   <p class="lead">Every PDF in the saved source inventory has a recorded place in the library.</p>
-  <p>A note may cover a complete short source or selected pages of a longer book. Recorded page coverage describes what was inspected; it does not establish a profitable trading method. Older notes without coverage metadata remain identified below.</p>
+  <p>A note may cover a complete short source or selected pages of a longer book. Recorded page coverage describes what was inspected; it does not establish a profitable trading method. No note is left without recorded coverage.</p>
   <p>Duplicates link to their available canonical note. Damaged and excluded sources have a reason instead of an invented summary. This inventory reflects the saved collection; it is not a fresh check of the remote directory.</p>
+  {{ cov_chart|safe }}
   <label for="coverage-filter">Filter by title, review status or reason</label>
   <input id="coverage-filter" type="search" placeholder="For example: partial, corrupt, Fibonacci">
   <p id="coverage-count" aria-live="polite">{{ coverage|length }} source PDFs</p>

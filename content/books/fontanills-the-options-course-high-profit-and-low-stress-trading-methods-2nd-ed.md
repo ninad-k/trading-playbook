@@ -1,6 +1,8 @@
 ---
 author: George A. Fontanills
 category: Options, Futures & Derivatives
+diagram: option-payoffs
+diagram_caption: The payoff shapes the course builds on.
 difficulty: intermediate
 doc_type: book
 one_liner: 'Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles,

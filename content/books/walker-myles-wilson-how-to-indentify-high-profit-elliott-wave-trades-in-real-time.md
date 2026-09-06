@@ -1,6 +1,9 @@
 ---
 author: Myles Wilson Walker
 category: Fibonacci, Gann & Elliott Wave
+diagram: elliott-fibonacci
+diagram_caption: The count, and the retracement ratios used to locate entries within
+  it.
 difficulty: advanced
 doc_type: book
 one_liner: Reduces Elliott Wave theory to eleven codeable 'C wave' end-of-correction

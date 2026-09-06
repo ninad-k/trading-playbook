@@ -1,6 +1,8 @@
 ---
 author: Tushar S. Chande and Stanley Kroll
 category: Indicators
+diagram: divergence
+diagram_caption: Divergence, the behaviour most of these indicators are built to detect.
 difficulty: intermediate
 doc_type: book
 one_liner: Introduces VIDYA, Qstick, the Chande Momentum Oscillator, StochRSI, Market

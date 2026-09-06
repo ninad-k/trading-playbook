@@ -12,9 +12,9 @@
 <header class="top">
   <button class="menu" id="menu" aria-label="Menu">☰</button>
   <a class="brand" href="{{ root }}index.html">📈 {{ site_title }}</a>
-  <form class="hsearch" action="{{ root }}search.html" method="get" role="search">
+  {% if not hide_topsearch %}<form class="hsearch" action="{{ root }}search.html" method="get" role="search">
     <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
-  </form>
+  </form>{% endif %}
 </header>
 <div class="layout">
 <nav class="side" id="side">
@@ -23,6 +23,7 @@
     <a href="{{ root }}search.html">Search</a>
     <a href="{{ root }}coverage.html">Source coverage</a>
     {% if has_paths %}<a href="{{ root }}paths.html">Reading paths</a>{% endif %}
+    {% if has_about %}<a href="{{ root }}about.html">About this library</a>{% endif %}
   </div>
   <div class="sgroup">
     <div class="slabel">Topics</div>

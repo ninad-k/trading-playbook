@@ -3,7 +3,7 @@
 <article class="index">
   <h1>{{ site_title }}</h1>
   <p class="lead">{{ tagline }} The source inventory contains {{ counts.pdfs }} PDFs. This site currently has {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries and {{ counts.systems }} system write-ups; {{ counts.pending }} eligible sources await a note.</p>
-  <p class="muted">{{ counts.partial }} notes explicitly use partial source coverage. Older notes may not record the pages inspected. <a href="coverage.html">See reviewed pages, duplicates and exclusions for every PDF.</a></p>
+  <p class="muted">Every note records how much of its source was read: {{ counts.full }} full reviews and {{ counts.partial }} partial, each naming the exact PDF pages inspected. <a href="coverage.html">See reviewed pages, duplicates and exclusions for every PDF.</a></p>
   <div class="stats">
     <div><b>{{ counts.tier_a }}</b><span>deep notes</span></div>
     <div><b>{{ counts.tier_b }}</b><span>concise notes</span></div>
@@ -11,6 +11,10 @@
     <div><b>{{ nav_topics|length }}</b><span>topics</span></div>
     <div><b>{{ counts.excluded }}</b><span>excluded files</span></div>
   </div>
+  <p class="muted"><span class="badge tier-A">A</span> a deep note — a full synthesis of the book.
+  <span class="badge tier-B">B</span> a concise note — a short summary of the source.
+  Both say on the page how much of the PDF was actually read.</p>
+  {{ cat_chart|safe }}
   <p><a class="btn" href="search.html">🔍 Search everything</a> {% if has_paths %}<a class="btn" href="paths.html">🧭 Start here: reading paths</a>{% endif %}</p>
 
   <h2 id="topics">By topic</h2>
@@ -18,15 +22,17 @@
   {% for g in cat_groups %}
   <details class="group" {% if loop.index <= 2 %}open{% endif %}>
     <summary><a href="topics/{{ g.slug }}.html">{{ g.name }}</a> <span class="muted">({{ g["items"]|length }})</span></summary>
-    <ul class="booklist">{% for b in g["items"] %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
+    <ul class="booklist">{% for b in g["items"] %}<li><span class="badge tier-{{ b.tier }}" title="{{ 'Deep note: a full synthesis of the book' if b.tier == 'A' else 'Concise note: a short summary of the source' }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
   </details>
   {% endfor %}
 
   <h2 id="systems">Systems and methods ({{ systems|length }})</h2>
-  <ul class="booklist cols">{% for s in systems %}<li><a href="books/{{ s.slug }}.html">{{ s.title }}</a> <span class="muted">from {{ s.parent_title }}</span></li>{% endfor %}</ul>
+  <details class="group"><summary>Show all {{ systems|length }} method write-ups</summary>
+  <ul class="booklist cols">{% for s in systems %}<li><a href="books/{{ s.slug }}.html">{{ s.title }}</a> <span class="muted">from {{ s.parent_title }}</span></li>{% endfor %}</ul></details>
 
   <h2 id="az">A–Z ({{ az|length }})</h2>
-  <ul class="booklist cols">{% for b in az %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span></li>{% endfor %}</ul>
+  <details class="group"><summary>Show all {{ az|length }} notes alphabetically</summary>
+  <ul class="booklist cols">{% for b in az %}<li><span class="badge tier-{{ b.tier }}" title="{{ 'Deep note: a full synthesis of the book' if b.tier == 'A' else 'Concise note: a short summary of the source' }}">{{ b.tier }}</span> <a href="books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span></li>{% endfor %}</ul></details>
 
   <h2 id="authors">By author</h2>
   <ul class="booklist cols">{% for a, items in authors %}<li><b>{{ a }}</b>: {% for b in items %}<a href="books/{{ b.slug }}.html">{{ b.title }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</li>{% endfor %}</ul>

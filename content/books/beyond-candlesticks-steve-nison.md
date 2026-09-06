@@ -1,6 +1,8 @@
 ---
 author: Steve Nison
 category: Candlesticks & Chart Patterns
+diagram: candle-anatomy
+diagram_caption: The western bar recast as a candle — Nison's starting point.
 difficulty: intermediate
 doc_type: book
 one_liner: 'Nison''s follow-up to Japanese Candlestick Charting Techniques adds the

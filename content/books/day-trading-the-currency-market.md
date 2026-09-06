@@ -1,6 +1,8 @@
 ---
 author: Kathy Lien
 category: Day Trading & Scalping
+diagram: forex-quote
+diagram_caption: The quote, the spread and the pip this book trades against.
 difficulty: intermediate
 doc_type: book
 one_liner: Seven concrete, rule-based FX day-trading strategies (double zeros, breakouts,

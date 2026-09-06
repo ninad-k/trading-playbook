@@ -1,6 +1,8 @@
 ---
 author: Van K. Tharp
 category: Money Management & Position Sizing
+diagram: position-sizing
+diagram_caption: Size from risk, and the arithmetic that makes it matter.
 difficulty: intermediate
 doc_type: course
 one_liner: A two-part course update defining nine position-sizing models — from units-per-fixed-dollars

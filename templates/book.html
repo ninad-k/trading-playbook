@@ -5,7 +5,7 @@
 <article class="book">
   <p class="crumbs"><a href="{{ root }}index.html">Index</a> › <a href="{{ root }}topics/{{ cat_slug }}.html">{{ m.category }}</a>{% if parent %} › <a href="{{ root }}books/{{ parent.slug }}.html">{{ parent.title }}</a>{% endif %}</p>
   <h1>{{ m.title }}</h1>
-  <p class="byline">{{ m.author }}{% if m.year and m.year != 'unknown' %} · {{ m.year }}{% endif %} · <span class="badge tier-{{ m.tier }}">Tier {{ m.tier }}</span> <span class="badge">{{ m.doc_type }}</span> <span class="badge">{{ m.difficulty }}</span></p>
+  <p class="byline">{{ m.author }}{% if m.year and m.year != 'unknown' %} · {{ m.year }}{% endif %} · <span class="badge tier-{{ m.tier }}" title="{{ 'Deep note: a full synthesis of the book' if m.tier == 'A' else 'Concise note: a short summary of the source' }}">Tier {{ m.tier }} &mdash; {{ "deep note" if m.tier == "A" else "concise note" }}</span> <span class="badge">{{ m.doc_type }}</span> <span class="badge">{{ m.difficulty }}</span></p>
   <p class="lead">{{ m.one_liner }}</p>
   {% if m.source_review %}<div class="callout"><strong>Source coverage: {{ m.source_review }} review.</strong>{% if m.reviewed_pdf_pages %} PDF pages inspected: {{ m.reviewed_pdf_pages }}.{% endif %} Page references in these notes identify source locations, not independently verified trading results.</div>{% endif %}
   <table class="facts">
@@ -15,6 +15,7 @@
     <tr><th>Find the book</th><td>Search for “{{ m.title }}” by {{ m.author }} at your bookseller or library.</td></tr>
   </table>
   {% if systems %}<div class="callout"><strong>Systems and methods from this book:</strong> {% for s in systems %}<a href="{{ root }}books/{{ s.slug }}.html">{{ s.title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</div>{% endif %}
+  {% if hero %}{{ hero|safe }}{% endif %}
   <details class="toc"><summary>On this page</summary>{{ toc|safe }}</details>
   <div class="prose">{{ body|safe }}</div>
   {% if related %}

@@ -1,6 +1,8 @@
 ---
 author: Kenneth R. Trester
 category: Options, Futures & Derivatives
+diagram: option-payoffs
+diagram_caption: The payoff shapes behind every strategy named in the book.
 difficulty: intermediate
 doc_type: book
 one_liner: 101 short, numbered rules on buying, writing and spreading options, built

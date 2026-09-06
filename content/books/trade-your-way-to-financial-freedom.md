@@ -1,6 +1,8 @@
 ---
 author: Van K. Tharp
 category: Money Management & Position Sizing
+diagram: position-sizing
+diagram_caption: R-multiples and position sizing, the book's central argument.
 difficulty: intermediate
 doc_type: book
 one_liner: Defines trading expectancy and R-multiples, then shows through backtested

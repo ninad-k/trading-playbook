@@ -7,6 +7,7 @@
   <h1>{{ name }}</h1>
   {% if has_synthesis %}
     {% if m.summary %}<p class="lead">{{ m.summary }}</p>{% endif %}
+    {% if hero %}{{ hero|safe }}{% endif %}
     <details class="toc"><summary>On this page</summary>{{ toc|safe }}</details>
     <div class="prose">{{ body|safe }}</div>
   {% else %}
@@ -14,7 +15,7 @@
   {% endif %}
   {% if in_cat %}
   <section class="related"><h2>All documents in this category ({{ in_cat|length }})</h2>
-  <ul class="booklist">{% for b in in_cat %}<li><span class="badge tier-{{ b.tier }}">{{ b.tier }}</span> <a href="{{ root }}books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
+  <ul class="booklist">{% for b in in_cat %}<li><span class="badge tier-{{ b.tier }}" title="{{ 'Deep note: a full synthesis of the book' if b.tier == 'A' else 'Concise note: a short summary of the source' }}">{{ b.tier }}</span> <a href="{{ root }}books/{{ b.slug }}.html">{{ b.title }}</a> <span class="muted">{{ b.author }}</span> — {{ b.one_liner }}</li>{% endfor %}</ul>
   </section>
   {% endif %}
 </article>

@@ -1,6 +1,8 @@
 ---
 author: Steven E. Bolten
 category: Investing, Value & Market History
+diagram: market-cycle
+diagram_caption: The four phases the book's cycle analysis divides.
 difficulty: advanced
 doc_type: book
 one_liner: An academic dividend-discount-model explanation of bull/bear cycles as

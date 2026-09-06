@@ -1,6 +1,8 @@
 ---
 author: Robert Fischer
 category: Fibonacci, Gann & Elliott Wave
+diagram: elliott-fibonacci
+diagram_caption: Where the Fibonacci ratios attach to a wave count.
 difficulty: advanced
 doc_type: book
 one_liner: Replaces Elliott's subjective wave count with mechanical Fibonacci rules

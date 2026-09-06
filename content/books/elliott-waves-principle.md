@@ -1,6 +1,8 @@
 ---
 author: A.J. Frost and Robert R. Prechter, Jr.
 category: Fibonacci, Gann & Elliott Wave
+diagram: elliott-fibonacci
+diagram_caption: The five-three count this book is built around.
 difficulty: advanced
 doc_type: book
 one_liner: 'The foundational course on R.N. Elliott''s Wave Principle: motive/corrective

@@ -1,6 +1,8 @@
 ---
 author: John J. Murphy
 category: Market Structure & Price Action
+diagram: market-structure
+diagram_caption: Trend defined by the sequence of highs and lows.
 difficulty: beginner
 doc_type: book
 one_liner: Murphy's condensed primer on bar-chart reading — trends, patterns, volume,

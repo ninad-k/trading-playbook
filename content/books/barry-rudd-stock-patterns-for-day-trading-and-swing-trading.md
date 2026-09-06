@@ -1,6 +1,8 @@
 ---
 author: Barry Rudd
 category: Day Trading & Scalping
+diagram: market-structure
+diagram_caption: The structure the book's patterns are drawn on.
 difficulty: intermediate
 doc_type: book
 one_liner: SOES-era Nasdaq day trader's manual of intraday breakout/consolidation

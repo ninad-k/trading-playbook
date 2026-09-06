@@ -1,6 +1,8 @@
 ---
 author: Nauzer J. Balsara
 category: Money Management & Position Sizing
+diagram: position-sizing
+diagram_caption: Size from risk, and the arithmetic that makes it matter.
 difficulty: advanced
 doc_type: book
 one_liner: An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional

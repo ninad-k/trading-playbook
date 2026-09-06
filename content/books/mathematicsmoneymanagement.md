@@ -1,6 +1,8 @@
 ---
 author: Ralph Vince
 category: Money Management & Position Sizing
+diagram: position-sizing
+diagram_caption: Size from risk, and the arithmetic that makes it matter.
 difficulty: advanced
 doc_type: book
 one_liner: Derives optimal f mathematically from trade history, the TWR/geometric-mean

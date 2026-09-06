@@ -1,6 +1,8 @@
 ---
 author: Mark Crisp
 category: Market Structure & Price Action
+diagram: market-structure
+diagram_caption: The swing sequence the 1-2-3 pattern reads.
 difficulty: beginner
 doc_type: manual
 one_liner: Short report defining the 1-2-3 bottom/top chart pattern (low-correction-retest),

@@ -1,6 +1,8 @@
 ---
 author: Gregory L. Morris
 category: Candlesticks & Chart Patterns
+diagram: candle-anatomy
+diagram_caption: The parts of a candle this book spends its first chapters defining.
 difficulty: intermediate
 doc_type: book
 one_liner: A candlestick pattern catalogue with precise numeric recognition rules,

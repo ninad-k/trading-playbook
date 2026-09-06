@@ -1,20 +1,30 @@
 ---
-title: "Candlestick Charting Explained"
-author: "FX-ebooks.com"
-year: unknown
-slug: candlestick-charting-explained
-tier: B
+author: FX-ebooks.com
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, price-action, sentiment, forex]
+diagram: candle-anatomy
+diagram_caption: What a single candle records.
 difficulty: beginner
 doc_type: article
+one_liner: An introductory primer explains candle bodies and shadows and uses changing
+  open-close relationships to read sentiment.
 pages: 28
-one_liner: "An introductory primer explains candle bodies and shadows and uses changing open-close relationships to read sentiment."
-related: [understanding-forex-candlestick, candlestick-and-pattern-1]
-source_file: "Candlestick-Charting-Explained.pdf"
+related:
+- understanding-forex-candlestick
+- candlestick-and-pattern-1
+reviewed_pdf_pages: 1-28
+slug: candlestick-charting-explained
+source_file: Candlestick-Charting-Explained.pdf
 source_review: full
-reviewed_pdf_pages: "1-28"
+tags:
+- candlesticks
+- price-action
+- sentiment
+- forex
+tier: B
+title: Candlestick Charting Explained
+year: unknown
 ---
+
 ## Summary
 
 This primer introduces Japanese candlesticks as a visual way to compare the open and close within a session while retaining the high and low. The real body spans open to close; upper and lower shadows show the session extremes (pp. 3-4). The text presents candlesticks as a way to infer crowd sentiment and emphasizes that the same closing price can communicate different information depending on where the session opened. Its worked example describes a small bearish body after a rally as evidence that bullish momentum may have stalled; a trader might protect a profit at the close or next open, while a downtrend context could support a short below the candle’s low (p. 6).

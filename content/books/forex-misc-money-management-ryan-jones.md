@@ -1,6 +1,8 @@
 ---
 author: Ryan Jones
 category: Money Management & Position Sizing
+diagram: position-sizing
+diagram_caption: Size from risk, and the arithmetic that makes it matter.
 difficulty: intermediate
 doc_type: book
 one_liner: Introduces Fixed Ratio position sizing (the delta formula) and mathematically
