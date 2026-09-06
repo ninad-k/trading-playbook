@@ -93,7 +93,7 @@ def display_title(name: str) -> str:
         stem = _TRAIL_COPY.sub("", stem).strip()
     stem = _STOP_PREFIXES.sub("", stem).strip()
     stem = stem.replace("_", " ")
-    stem = re.sub(r"(?<=[a-z0-9])-(?=\s*[A-Z])", " -", stem)  # "Finance- Mba" -> "Finance - Mba"
+    stem = re.sub(r"(?<=[a-z0-9])-(?=\s+[A-Z])", " -", stem)  # "Finance- Mba" -> "Finance - Mba"
     stem = re.sub(r"\s+-\s+", " - ", stem)
     stem = re.sub(r"\s{2,}", " ", stem).strip(" -._,")
     if not stem:

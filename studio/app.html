@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Studio · Trading Playbook</title>
+<style>
+:root{--bg:#fafaf7;--fg:#1c1c1a;--muted:#6b6b66;--line:#e4e2dc;--card:#fff;--accent:#0b6e4f;--accent2:#b8862b;--a:#0a5f8f;--side:#f2f1ec;--bad:#a33;--ok:#0b6e4f}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916;--bad:#e08585;--ok:#4fc39a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;gap:14px;align-items:baseline;padding:12px 22px;background:var(--card);border-bottom:1px solid var(--line)}
+header b{font-size:17px}header span{color:var(--muted);font-size:13px}
+main{max-width:1080px;margin:0 auto;padding:22px}
+h2{font-size:1.15rem;margin:30px 0 6px;border-bottom:1px solid var(--line);padding-bottom:5px}
+h2 .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font-size:12px;margin-right:8px;vertical-align:2px}
+p.hint{color:var(--muted);font-size:13.5px;margin:.4em 0 1em}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+button{font:inherit;padding:8px 15px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);cursor:pointer}
+button:hover:not(:disabled){border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+button:disabled{opacity:.45;cursor:not-allowed}
+select{font:inherit;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);max-width:100%}
+.cards{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+.card{flex:1 1 190px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px 15px}
+.card b{display:block;font-size:1.35rem}.card span{font-size:12px;color:var(--muted)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.dot.up{background:var(--ok)}.dot.down{background:var(--bad)}
+#drop{border:2px dashed var(--line);border-radius:12px;padding:34px;text-align:center;color:var(--muted);background:var(--card);cursor:pointer}
+#drop.over{border-color:var(--accent);color:var(--fg)}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:10px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.tag.new{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tag.near{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+.tag.dup,.tag.bad{background:var(--bad);color:#fff;border-color:var(--bad)}
+.tag.off{border-color:var(--accent);color:var(--accent)}
+#log{background:#0e0e0c;color:#cfcdc6;font:12.5px/1.6 ui-monospace,Consolas,monospace;padding:14px;border-radius:10px;height:270px;overflow:auto;white-space:pre-wrap;margin-top:12px}
+#log .e{color:#ff9b9b}#log .h{color:#7fd4ae}
+.bar{height:5px;background:var(--side);border-radius:3px;overflow:hidden;margin-top:10px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+.note{background:var(--side);border-left:3px solid var(--accent2);padding:11px 15px;border-radius:6px;margin:14px 0;font-size:13.5px}
+.small{font-size:12.5px;color:var(--muted)}
+ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <b>Book Studio</b>
+  <span>local only · Ollama · nothing here is published</span>
+  <span style="margin-left:auto" id="conn"><span class="dot down"></span>checking…</span>
+</header>
+
+<main>
+  <div class="cards">
+    <div class="card"><b id="c-notes">–</b><span>notes in the library</span></div>
+    <div class="card"><b id="c-index">–</b><span>source texts fingerprinted</span></div>
+    <div class="card"><b id="c-staged">0</b><span>books staged now</span></div>
+    <div class="card"><b id="c-drafts">0</b><span>drafts awaiting review</span></div>
+  </div>
+
+  <h2><span class="n">1</span>Model</h2>
+  <p class="hint">Pick the model that reads your books. Models marked <span class="tag off">offline</span> run on this
+  machine; anything else routes through ollama.com and is not offline.</p>
+  <div class="row">
+    <select id="model"></select>
+    <button id="refresh">Refresh</button>
+  </div>
+
+  <h2><span class="n">2</span>Dedup index</h2>
+  <p class="hint">Two indexes, built together. The first fingerprints every extracted <em>source text</em> — that is
+  what actually catches the same book under a different filename, and it is exact. The second embeds every note, used
+  only to name the nearest notes by subject. Rebuild whenever the library grows.</p>
+  <div class="row">
+    <button id="build-index">Build / refresh index</button>
+    <span class="small" id="index-state"></span>
+  </div>
+
+  <h2><span class="n">3</span>Upload books</h2>
+  <p class="hint">Drop as many PDFs as you like. They are copied into <code>studio/uploads/</code>, which is
+  git-ignored — the files themselves never reach the site or the repository.</p>
+  <div id="drop">Drop PDFs here, or click to choose<input id="file" type="file" accept="application/pdf" multiple hidden></div>
+  <div class="bar"><i id="bar-up"></i></div>
+
+  <h2><span class="n">4</span>What is actually new</h2>
+  <p class="hint">Three passes: the same file (by checksum), the same title, then the same <em>text</em> — hashed
+  word-shingles compared against every source held, which also catches an excerpt or a re-edition. Measured on this
+  library, unrelated books share 0% of their shingles, so a hit here is not a guess.</p>
+  <div class="row"><button id="analyze" disabled>Analyse staged books</button></div>
+  <div id="analysis"></div>
+
+  <h2><span class="n">5</span>Draft notes</h2>
+  <p class="hint">Drafts land in <code>content/drafts/</code>, not in the library. They record exactly which pages the
+  model was shown, and they are marked machine-drafted until you approve them.</p>
+  <div class="row"><button id="draft" class="primary" disabled>Draft selected</button>
+    <span class="small">A 4B local model takes a few minutes per book.</span></div>
+
+  <h2><span class="n">6</span>Review and publish</h2>
+  <div id="drafts"></div>
+  <div class="row" style="margin-top:12px"><button id="rebuild">Rebuild the site</button></div>
+
+  <div class="note"><b>Why the review gate.</b> Every note in this library was checked against its source by hand,
+  and that is the only reason the site is worth reading. A small local model drafting from a sample of pages does not
+  meet that bar. Read the draft, fix what is wrong, then approve — approval is what puts it in the library.</div>
+
+  <h2>Log</h2>
+  <div id="log"></div>
+  <div class="bar"><i id="bar-job"></i></div>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+let staged = [], analysis = [], drafts = [];
+
+function log(msg, cls) {
+  const el = $('#log'), d = document.createElement('div');
+  if (cls) d.className = cls;
+  d.textContent = msg;
+  el.appendChild(d);
+  el.scrollTop = el.scrollHeight;
+}
+
+async function status() {
+  let s;
+  try { s = await (await fetch('/api/status')).json(); }
+  catch (e) { $('#conn').innerHTML = '<span class="dot down"></span>studio unreachable'; return; }
+  const o = s.ollama;
+  $('#conn').innerHTML = o.up
+    ? '<span class="dot up"></span>Ollama connected'
+    : '<span class="dot down"></span>Ollama not running &mdash; start it, then Refresh';
+  const sel = $('#model'), keep = sel.value;
+  sel.innerHTML = '';
+  (o.models || []).filter(m => !m.embedding).forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m.name;
+    opt.textContent = m.name + (m.offline ? `  · offline${m.params ? ' · ' + m.params : ''}`
+                                          : `  · via ${m.remote_host.replace('https://', '')} — NOT offline`);
+    sel.appendChild(opt);
+  });
+  if (keep) sel.value = keep;
+  $('#c-notes').textContent = s.library.notes;
+  $('#c-index').textContent = s.index.texts || 0;
+  $('#index-state').textContent = !s.index.texts
+    ? 'No text index yet — duplicate detection is off until you build it.'
+    : (s.index.stale ? `${s.index.texts} texts fingerprinted, ${s.index.notes} notes embedded, but the library has `
+                       + `${s.library.notes} notes. Refresh.`
+                     : `${s.index.texts} texts fingerprinted, ${s.index.notes} notes embedded.`);
+  staged = s.staged || [];              // survives a page reload; the server holds the parsed books
+  $('#c-staged').textContent = staged.length;
+  $('#analyze').disabled = !staged.length;
+  drafts = s.drafts || [];
+  renderDrafts();
+}
+
+function sse(url, body, onEvent) {
+  return new Promise(async (resolve, reject) => {
+    const r = await fetch(url, {method: 'POST', headers: {'Content-Type': 'application/json'},
+                               body: JSON.stringify(body || {})});
+    const reader = r.body.getReader(), dec = new TextDecoder();
+    let buf = '', out = {};
+    for (;;) {
+      const {done, value} = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, {stream: true});
+      let i;
+      while ((i = buf.indexOf('\n\n')) >= 0) {
+        const line = buf.slice(0, i).replace(/^data: /, '');
+        buf = buf.slice(i + 2);
+        if (!line.trim()) continue;
+        const ev = JSON.parse(line);
+        if (ev.k === 'log') log(ev.message);
+        else if (ev.k === 'error') log('! ' + ev.message, 'e');
+        else if (ev.k === 'progress') $('#bar-job').style.width = (100 * ev.done / ev.total) + '%';
+        else if (ev.k === 'result') out = ev;
+        if (onEvent) onEvent(ev);
+      }
+    }
+    $('#bar-job').style.width = '0';
+    resolve(out);
+  });
+}
+
+// ---- uploads
+const drop = $('#drop'), fileInput = $('#file');
+drop.onclick = () => fileInput.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+drop.ondragleave = () => drop.classList.remove('over');
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); upload([...e.dataTransfer.files]); };
+fileInput.onchange = () => upload([...fileInput.files]);
+
+async function upload(files) {
+  files = files.filter(f => f.name.toLowerCase().endsWith('.pdf'));
+  if (!files.length) { log('! only PDFs are accepted', 'e'); return; }
+  log(`Uploading ${files.length} file(s)…`, 'h');
+  for (let i = 0; i < files.length; i++) {
+    const f = files[i];
+    const r = await fetch('/api/upload', {method: 'POST', headers: {'X-Filename': f.name}, body: f});
+    const j = await r.json();
+    if (j.error) { log(`! ${f.name}: ${j.error}`, 'e'); continue; }
+    staged.push(j.filename);
+    log(`  ${j.filename} — ${j.pages} pages, ${j.chars.toLocaleString()} characters`
+        + (j.text ? '' : '  (image-only: needs OCR, will be skipped)'));
+    $('#bar-up').style.width = (100 * (i + 1) / files.length) + '%';
+  }
+  staged = [...new Set(staged)];
+  $('#c-staged').textContent = staged.length;
+  $('#analyze').disabled = !staged.length;
+  setTimeout(() => $('#bar-up').style.width = '0', 700);
+}
+
+// ---- jobs
+$('#refresh').onclick = status;
+$('#build-index').onclick = async () => {
+  log('Building the dedup index…', 'h');
+  await sse('/api/index', {});
+  status();
+};
+
+$('#analyze').onclick = async () => {
+  log('Analysing…', 'h');
+  const out = await sse('/api/analyze', {files: staged});
+  analysis = out.analysis || [];
+  renderAnalysis();
+};
+
+const VERDICT = {
+  'new': ['new', 'Not held'],
+  'near-duplicate': ['near', 'Same text'],
+  'title-duplicate': ['dup', 'Same title'],
+  'exact-duplicate': ['dup', 'Same file'],
+  'unreadable': ['bad', 'Needs OCR'],
+};
+
+function renderAnalysis() {
+  if (!analysis.length) { $('#analysis').innerHTML = ''; return; }
+  let h = '<table><thead><tr><th></th><th>File</th><th>Verdict</th><th>Why</th><th>Nearest by subject</th></tr></thead><tbody>';
+  analysis.forEach((a, i) => {
+    const [cls, label] = VERDICT[a.verdict] || ['', a.verdict];
+    const draftable = a.verdict === 'new' || a.verdict === 'near-duplicate';
+    const top = (a.matches || [])[0];
+    let novel = '';
+    if ((a.overlaps || []).length) {
+      novel += '<ul class="novel">' + a.overlaps.map(o =>
+        `<li>${esc(o.slug)} — ${Math.round(o.jaccard * 100)}% shared, ${Math.round(o.containment * 100)}% contained</li>`
+      ).join('') + '</ul>';
+    }
+    if ((a.novel_sections || []).length) {
+      novel += '<ul class="novel"><li>Least familiar sampled pages: '
+            + a.novel_sections.map(s => s.page).join(', ') + '</li></ul>';
+    }
+    h += `<tr>
+      <td><input type="checkbox" class="pick" data-i="${i}" ${draftable && a.verdict === 'new' ? 'checked' : ''} ${draftable ? '' : 'disabled'}></td>
+      <td><b>${esc(a.title_guess)}</b><div class="small">${esc(a.filename)} · ${a.pages}p</div></td>
+      <td><span class="tag ${cls}">${label}</span></td>
+      <td>${(a.reasons || []).map(esc).join('<br>') || '<span class="small">Nothing similar found.</span>'}${novel}</td>
+      <td>${top ? esc(top.title) + `<div class="small">similarity ${top.score}</div>` : '<span class="small">—</span>'}</td>
+    </tr>`;
+  });
+  $('#analysis').innerHTML = h + '</tbody></table>';
+  document.querySelectorAll('.pick').forEach(c => c.onchange = pickChanged);
+  pickChanged();
+}
+
+function pickChanged() {
+  $('#draft').disabled = ![...document.querySelectorAll('.pick:checked')].length;
+}
+
+$('#draft').onclick = async () => {
+  const idx = [...document.querySelectorAll('.pick:checked')].map(c => +c.dataset.i);
+  const files = idx.map(i => analysis[i].filename);
+  log(`Drafting ${files.length} note(s) with ${$('#model').value}…`, 'h');
+  await sse('/api/draft', {model: $('#model').value, files, analysis: idx.map(i => analysis[i])});
+  status();
+};
+
+function renderDrafts() {
+  $('#c-drafts').textContent = drafts.length;
+  if (!drafts.length) {
+    $('#drafts').innerHTML = '<p class="small">No drafts waiting. Anything you draft appears here.</p>';
+    return;
+  }
+  let h = '<table><thead><tr><th>Draft</th><th>Category</th><th>Pages the model saw</th><th></th></tr></thead><tbody>';
+  drafts.forEach(d => {
+    h += `<tr>
+      <td><b>${esc(d.title)}</b><div class="small">${esc(d.author)} · content/drafts/${esc(d.slug)}.md</div></td>
+      <td class="small">${esc(d.category)}</td>
+      <td class="small">${esc(d.coverage)}${(d.warnings || []).length
+        ? '<div style="color:var(--bad);margin-top:5px">&#9888; ' + d.warnings.map(esc).join('<br>&#9888; ') + '</div>' : ''}</td>
+      <td><button data-slug="${esc(d.slug)}" class="approve primary">Approve into library</button></td>
+    </tr>`;
+  });
+  $('#drafts').innerHTML = h + '</tbody></table>';
+  document.querySelectorAll('.approve').forEach(b => b.onclick = async () => {
+    const slug = b.dataset.slug;
+    const a = analysis.find(x => (x.filename || '').length && slugish(x.filename) === slug) || {};
+    b.disabled = true;
+    const r = await fetch('/api/approve', {method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({slug, sha1: a.sha1 || '', filename: a.filename || '',
+                            pages: a.pages || 0, chars: a.chars || 0})});
+    const j = await r.json();
+    if (j.error) { log('! ' + j.error, 'e'); b.disabled = false; return; }
+    log(`Approved → ${j.note}`, 'h');
+    status();
+  });
+}
+
+function slugish(name) {
+  return name.replace(/\.pdf$/i, '').normalize('NFKD').replace(/[^A-Za-z0-9]+/g, '-')
+             .replace(/-{2,}/g, '-').replace(/^-|-$/g, '').toLowerCase().slice(0, 90);
+}
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+}
+
+$('#rebuild').onclick = async () => {
+  log('Rebuilding the site…', 'h');
+  await sse('/api/rebuild', {});
+};
+
+status();
+</script>
+</body>
+</html>
