@@ -125,32 +125,39 @@ any passage that looks quoted rather than paraphrased.
 `draft_status: unreviewed`. Approving one is what moves it into `content/books/`, adds its manifest row,
 and feeds its text back into the dedup corpus. Nothing a model writes reaches the library unread.
 
-**Which model.** Measured on this machine (RTX 5070 Laptop, 8 GB VRAM) by drafting the same three
-books with each candidate and scoring the result: did it pick the right category, how many of the
-book's rules did it actually extract, and how often did it quote instead of paraphrasing.
+**Which model.** The decisive factor is not quality, it is **context**. A cloud model with a
+million-token window reads a whole book in one pass; an 8 GB card can be shown about twelve pages.
+That is the difference between a note marked `source_review: full` and one marked `partial`, which on
+this site is the difference that matters. `read_for()` sizes the input to whatever the chosen model
+actually reports, so the coverage line always describes the real read.
 
-| model | offline | avg s/book | category | rules found | quote flags |
-|---|---|---:|---:|---:|---:|
-| **qwen3.5:9b** | **yes** | 48 | **3/3** | **17–22** | 0–1 |
-| qwen3:4b | yes | 18 | 3/3 | 11–18 | 1–2 |
-| qwen3.5:4b | yes | 25 | 1/3 | 11 | 1 |
-| qwen3.5:cloud (397B) | no | 43 | 3/3 | 20 | 0 |
-| glm-5.2:cloud (756B) | no | 34 | 3/3 | 19 | 0 |
+Measured by drafting the same three books — 30, 48 and 235 pages — and counting what came out.
+Three runs per finalist, one for the rest.
 
-`qwen3.5:9b` is the default: it matches the 397B cloud model on every measure while running entirely
-on the card. Ranges reflect run-to-run variance at temperature 0.15. `qwen3.5:4b` is a regression on
-this task and `gemma4:12b` (7.6 GB) does not leave room for a usable context window.
+| model | window | full reads | avg s | rules extracted | failures |
+|---|---:|---:|---:|---|---:|
+| **glm-5.2:cloud** | 1M | 8/9 | 58 | **91 / 21 / 92** | 1/9 |
+| deepseek-v4-flash:cloud | 1M | 8/9 | 32 | 66 / 40 / 21 | 1/9 |
+| minimax-m3:cloud | 1M | 3/3 | 80 | 59 | 0/3 |
+| qwen3.5:cloud | 256K | 3/3 | 57 | 30 | 0/3 |
+| qwen3.5:9b (local) | 8K used | 0/3 | 48 | 17–22 | 0/3 |
+| kimi-k3:cloud | 1M | — | — | — | 5/9 |
+| glm-5.3:cloud | — | — | — | — | 5/6 |
 
-Two settings matter more than they look. Ollama's default context is **4096 tokens**, which silently
-truncates a book sample — `NUM_CTX` is set to 8192, which holds the sample and keeps a 9B model on the
-GPU where 16384 spills to CPU. And the sample is budgeted by total characters and split evenly across
-the chosen pages, so the coverage line on a draft states what the model was really shown.
+`glm-5.2:cloud` is the default. On the 235-page order-flow book it pulled out **74 rules from a
+complete read**, against 11 from the local model shown twelve pages — the local model is not losing
+on reasoning, it is losing on how much of the book it ever saw. Run-to-run variance is large (that
+21 in the middle run is real, not a typo), so treat these as orders of magnitude rather than scores.
+`deepseek-v4-flash` is roughly twice as fast for about two-thirds of the extraction. `kimi-k3` and
+`glm-5.3` were dropped: they fail to return usable JSON most of the time.
 
-**Cloud models need a fallback.** Ollama enforces `format` in the local inference engine, so a
-cloud-routed model never sees the grammar and returns Markdown instead of JSON — every cloud draft
-failed outright until `ask()` learned to retry, asking for the same schema in words. Cloud tags work
-through the local daemon once the desktop app is signed in; an `OLLAMA_API_KEY` in a git-ignored `.env`
-at the repository root is only needed to reach `ollama.com` directly.
+**Cloud models need three kinds of help.** Ollama enforces `format` in the local inference engine, so
+a cloud-routed model never sees the grammar and answers in Markdown — `ask()` retries in words. It may
+wrap the object in prose or emit a second one, so the parser takes the first object carrying the
+schema's required keys rather than the first pair of braces. And roughly one call in nine comes back
+empty or truncated, so an empty answer is retried and a truncated one is retried with a larger output
+budget. Those three between them took the failure rate from about a third to about one in nine before
+retries, and near zero after.
 
 Embeddings use `nomic-embed-text`. Cloud-routed models appear in the picker labelled as not offline.
 

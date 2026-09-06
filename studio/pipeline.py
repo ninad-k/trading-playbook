@@ -68,11 +68,36 @@ UPLOADS = Path(__file__).resolve().parent / "uploads"
 # A note is only as good as what the model was shown. These caps keep a run finishable on a
 # small local model, and every page fed in is recorded on the draft.
 CHUNK_CHARS = 5000          # per-page cap when reading pages for the dedup section scan
-MAX_PAGES_SHOWN = 12        # how many pages the drafting model is shown
-SAMPLE_CHARS = 18000        # total characters shown to it, split evenly across those pages
+MAX_PAGES_SHOWN = 12        # pages shown when the model is too small to take the whole book
+SAMPLE_CHARS = 18000        # characters shown in that case, split evenly across those pages
 # Ollama defaults to a 4096-token window, which silently truncates a sample this size. 8192 holds
-# the sample plus the schema and keeps a 9B model wholly on an 8 GB card; 16384 spills to CPU.
+# a sample plus the schema and keeps a 9B model wholly on an 8 GB card; 16384 spills to CPU.
 NUM_CTX = 8192
+RESERVE_TOKENS = 6000       # left free for the schema, the system prompt and the answer
+CHARS_PER_TOKEN = 3.4       # conservative for English prose
+MAX_INPUT_CHARS = 900_000   # nothing in this library is larger
+
+_CTX: dict[str, int] = {}
+
+
+def model_context(model: str) -> int:
+    """The model's real context window, straight from Ollama. 0 when it will not say."""
+    if model not in _CTX:
+        try:
+            info = _post("/api/show", {"model": model}, timeout=60).get("model_info") or {}
+            ctx = next((v for k, v in info.items() if k.endswith("context_length")), 0)
+            _CTX[model] = int(ctx or 0)
+        except Exception:  # noqa: BLE001
+            _CTX[model] = 0
+    return _CTX[model]
+
+
+def is_local(model: str) -> bool:
+    """Exact tag match only. `qwen3.5:cloud` and `qwen3.5:9b` share a name and nothing else."""
+    for m in ollama_status().get("models", []):
+        if m["name"] == model or m["name"] == f"{model}:latest":
+            return m["offline"]
+    return not (model.endswith(":cloud") or model.endswith("-cloud"))
 
 
 # --------------------------------------------------------------------------- ollama
@@ -125,27 +150,50 @@ def ask(model: str, prompt: str, schema: dict, system: str = "", budget: int = 1
     emit prose around the answer, so nothing needs cleaning and no field can go missing.
     """
     def call(extra_instruction: str = "") -> str:
+        nonlocal_budget = budget
         msgs = [{"role": "system", "content": system}] if system else []
         msgs.append({"role": "user", "content": prompt + extra_instruction})
+        # num_ctx is a local-inference setting. Sending it to a cloud-routed model at best does
+        # nothing and at worst caps a million-token window at eight thousand.
+        opts = {"num_predict": nonlocal_budget, "temperature": 0.15}
+        if is_local(model):
+            opts["num_ctx"] = NUM_CTX
         out = _post("/api/chat", {
             "model": model, "messages": msgs, "stream": False, "think": False,
-            "format": schema,
-            "options": {"num_predict": budget, "temperature": 0.15, "num_ctx": NUM_CTX},
+            "format": schema, "options": opts,
         }, timeout=1800)
         return (out.get("message") or {}).get("content", "") or ""
 
     def parse(raw: str):
+        """First complete JSON object in the response, whatever surrounds it.
+
+        Models fail this three different ways: a code fence, prose before the object, and a
+        trailing second object or commentary after it. raw_decode handles the last case, which
+        a greedy brace match gets wrong by spanning both objects.
+        """
         raw = raw.strip()
         if raw.startswith("```"):
-            raw = re.sub(r"^```[a-z]*\s*|\s*```$", "", raw)
-        try:
-            return json.loads(raw)
-        except json.JSONDecodeError:
-            m = re.search(r"\{.*\}", raw, re.S)
-            return json.loads(m.group(0)) if m else None
+            raw = re.sub(r"^```[a-z]*\s*|\s*```$", "", raw).strip()
+        need = set(schema.get("required") or ())
+        dec, found = json.JSONDecoder(), []
+        for start in (m.start() for m in re.finditer(r"\{", raw)):
+            try:
+                obj, _ = dec.raw_decode(raw[start:])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(obj, dict) and obj:
+                if need and need <= obj.keys():
+                    return obj            # the answer, whatever else it is wrapped in
+                found.append(obj)
+        return found[0] if found and not need else None
 
     raw = call()
     parsed = parse(raw)
+    if parsed is None and not raw.strip():
+        # Cloud models return an empty body every so often. Measured across nine drafts per
+        # model, roughly one in nine; asking again clears it.
+        raw = call()
+        parsed = parse(raw)
     if parsed is None:
         # Cloud-routed models ignore `format`: constrained decoding happens in the local
         # inference engine, and a passthrough to ollama.com never sees the grammar. Ask again,
@@ -155,7 +203,14 @@ def ask(model: str, prompt: str, schema: dict, system: str = "", budget: int = 1
             + "Respond with a single JSON object and nothing else — no Markdown, no headings, "
               "no code fence, no commentary. It must match exactly this JSON schema:" + chr(10)
             + json.dumps(schema)))
+    if parsed is None and raw.lstrip().startswith("{"):
+        budget = int(budget * 1.6)          # truncated: give it room to finish
+        parsed = parse(call())
     if parsed is None:
+        if raw.lstrip().startswith("{"):
+            raise ValueError(
+                f"{model} ran out of output tokens mid-answer (budget {budget}); the JSON is "
+                f"truncated. Raise the budget or read less of the book.")
         raise ValueError(f"model returned nothing parseable: {raw[:160]}")
     return parsed
 
@@ -415,14 +470,37 @@ In caveats be specific and blunt about what is weak, thin or unsupported.
 Give the year only if the text states one; otherwise use "unknown"."""
 
 
-def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None) -> dict:
+def read_for(book: Book, model: str) -> tuple[str, list[int], bool]:
+    """As much of the book as this model can actually hold.
+
+    A large-context model reads the whole thing, which is the difference between a note that
+    covers a book and a note that covers twelve pages of it. Small models fall back to the
+    even spread. The third value says which happened, and the note records it honestly.
+    """
+    whole = "\n\n".join(book.pages)
+    ctx = model_context(model)
+    if is_local(model):
+        ctx = min(ctx or NUM_CTX, NUM_CTX)      # a local model gets what the card can hold
+    budget = min(int(max(ctx - RESERVE_TOKENS, 1000) * CHARS_PER_TOKEN), MAX_INPUT_CHARS)
+    if len(whole) <= budget:
+        pages = [i + 1 for i, p in enumerate(book.pages) if p.strip()]
+        return whole, pages, True
     sampled, pages_used = sample_pages(book)
+    return sampled, pages_used, False
+
+
+def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None) -> dict:
+    sampled, pages_used, complete = read_for(book, model)
     if not sampled:
         raise ValueError("no extractable text to read")
 
-    progress("reading", f"{len(pages_used)} sampled pages")
+    progress("reading", f"the whole book, {len(pages_used)} pages" if complete
+             else f"{len(pages_used)} sampled pages")
+    # A whole book yields far more to record than twelve pages, and a JSON answer that runs out
+    # of output tokens is not recoverable — it just fails to parse. Scale the budget with the read.
+    facts_budget, note_budget = (4200, 3200) if complete else (1400, 1800)
     facts = ask(model, FACTS_PROMPT.format(pages=page_ranges(pages_used), text=sampled),
-                FACTS_SCHEMA, SYSTEM, budget=1400)
+                FACTS_SCHEMA, SYSTEM, budget=facts_budget)
 
     progress("writing", "the note")
     nums = "; ".join(f"{n.get('value')} ({n.get('applies_to')})"
@@ -436,7 +514,7 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
         filename=book.filename,
         cat_hint=", ".join(dict.fromkeys(
             m["category"] for m in analysis.get("matches", [])[:3] if m.get("category"))) or "no close match",
-    ), NOTE_SCHEMA, SYSTEM, budget=1800)
+    ), NOTE_SCHEMA, SYSTEM, budget=note_budget)
 
     rules = [r.strip() for r in (note.get("actionable_rules") or []) if r.strip()]
 
@@ -466,9 +544,13 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
     if (note.get("author") or "").strip().lower() in ("unknown", "n/a", "not stated", "none", ""):
         note["author"] = "Unknown"
     slug = slugify(book.filename)
-    per_page = max(SAMPLE_CHARS // max(len(pages_used), 1), 400)
-    coverage = (f"{page_ranges(pages_used)} of {len(book.pages)} (front matter plus an even spread, "
-                f"first ~{per_page} characters of each; that is all the model was shown)")
+    if complete:
+        coverage = (f"1-{len(book.pages)} (the complete extracted text was read in one pass, "
+                    f"{len(sampled):,} characters)")
+    else:
+        per_page = max(SAMPLE_CHARS // max(len(pages_used), 1), 400)
+        coverage = (f"{page_ranges(pages_used)} of {len(book.pages)} (front matter plus an even "
+                    f"spread, first ~{per_page} characters of each; that is all the model was shown)")
     post = frontmatter.Post(
         body,
         title=note.get("title") or display_title(book.filename),
@@ -479,7 +561,8 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
         pages=len(book.pages),
         one_liner=note.get("one_liner") or display_title(book.filename),
         related=[m["slug"] for m in analysis.get("matches", [])[:3]],
-        source_file=book.filename, source_review="partial", reviewed_pdf_pages=coverage,
+        source_file=book.filename,
+        source_review="full" if complete else "partial", reviewed_pdf_pages=coverage,
         drafted_by=f"ollama/{model}", draft_status="unreviewed", draft_warnings=warnings,
     )
     DRAFTS.mkdir(parents=True, exist_ok=True)
@@ -487,7 +570,8 @@ def draft_note(book: Book, model: str, analysis: dict, progress=lambda *_: None)
     out.write_text(frontmatter.dumps(post) + "\n", encoding="utf-8")
     return {"slug": slug, "path": str(out.relative_to(ROOT)), "title": post["title"],
             "author": post["author"], "category": post["category"], "coverage": coverage,
-            "sampled_pages": pages_used, "rules": len(rules), "warnings": warnings}
+            "sampled_pages": pages_used, "rules": len(rules), "warnings": warnings,
+            "complete": complete, "chars_read": len(sampled)}
 
 
 def approve(slug: str, sha1: str = "", filename: str = "", pages: int = 0, chars: int = 0) -> dict:

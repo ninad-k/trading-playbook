@@ -62,7 +62,9 @@ ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
 
   <h2><span class="n">1</span>Model</h2>
   <p class="hint">Pick the model that reads your books. Models marked <span class="tag off">offline</span> run on this
-  machine; anything else routes through ollama.com and is not offline.</p>
+  machine; the rest route through your ollama.com subscription. The difference that matters is not quality but
+  <b>context</b>: a cloud model with a million-token window reads a whole book in one pass, where an 8 GB card can
+  only be shown about twelve pages. The draft records which of the two happened.</p>
   <div class="row">
     <select id="model"></select>
     <button id="refresh">Refresh</button>
@@ -91,10 +93,11 @@ ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
   <div id="analysis"></div>
 
   <h2><span class="n">5</span>Draft notes</h2>
-  <p class="hint">Drafts land in <code>content/drafts/</code>, not in the library. They record exactly which pages the
-  model was shown, and they are marked machine-drafted until you approve them.</p>
+  <p class="hint">Drafts land in <code>content/drafts/</code>, not in the library. Each records exactly what the model
+  was shown — the complete text, or the sampled pages — and is marked machine-drafted until you approve it. A draft
+  read end to end is marked <code>source_review: full</code>; a sampled one is never marked full.</p>
   <div class="row"><button id="draft" class="primary" disabled>Draft selected</button>
-    <span class="small">About 40 seconds a book on qwen3.5:9b.</span></div>
+    <span class="small">Roughly a minute a book on glm-5.2:cloud, reading it end to end.</span></div>
 
   <h2><span class="n">6</span>Review and publish</h2>
   <div id="drafts"></div>
@@ -139,7 +142,8 @@ async function status() {
     sel.appendChild(opt);
   });
   // Default to the best measured model that is actually installed (see README for the numbers).
-  const PREFERRED = ['qwen3.5:9b', 'qwen3.5:27b', 'gemma4:12b', 'qwen3:4b'];
+  const PREFERRED = ['glm-5.2:cloud', 'deepseek-v4-flash:cloud', 'minimax-m3:cloud',
+                     'qwen3.5:cloud', 'qwen3.5:9b', 'qwen3:4b'];
   const have = [...sel.options].map(o => o.value);
   sel.value = keep && have.includes(keep) ? keep
             : (PREFERRED.find(m => have.includes(m)) || have[0] || '');
