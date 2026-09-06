@@ -1,17 +1,34 @@
 ---
-title: "Buy the Rumor, Sell the Fact: 85 Maxims of Wall Street and What They Really Mean"
 author: Michael Maiello
-year: 2004
-slug: mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean
-tier: A
 category: Investing, Value & Market History
-tags: [market-wisdom, maxims, stop-loss, seasonality, federal-reserve, diversification, short-selling]
 difficulty: beginner
 doc_type: book
+one_liner: Fact-checks 85 pieces of Wall Street folk wisdom against data and history,
+  sorting which hold up, which are half-true, and which are myths.
 pages: 226
-one_liner: "Fact-checks 85 pieces of Wall Street folk wisdom against data and history, sorting which hold up, which are half-true, and which are myths."
-related: [the-intelligent-investor-benjamin-graham, mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go, harry-d-schultz-bear-market-investing-strategies, martin-j-pring-investment-psychology-part-1]
-source_file: "Mcgraw-Hill, Buy The Rumor, Sell The Fact - 85 Maxims Of Wall Street And What They Really Mean.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
+- harry-d-schultz-bear-market-investing-strategies
+- martin-j-pring-investment-psychology-part-1
+reviewed_pdf_pages: 4-5, 7-8, 17, 19 (contents, the Rule of 20 chapter and the short-selling
+  maxims with the Forbes market-cap floor)
+slug: mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean
+source_file: Mcgraw-Hill, Buy The Rumor, Sell The Fact - 85 Maxims Of Wall Street
+  And What They Really Mean.pdf
+source_review: partial
+tags:
+- market-wisdom
+- maxims
+- stop-loss
+- seasonality
+- federal-reserve
+- diversification
+- short-selling
+tier: A
+title: 'Buy the Rumor, Sell the Fact: 85 Maxims of Wall Street and What They Really
+  Mean'
+year: 2004
 ---
 
 ## Overview

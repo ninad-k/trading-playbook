@@ -1,17 +1,30 @@
 ---
-title: "The Colour of Money (Issue No. 221206)"
-author: "Kshitij Consultancy Services"
-year: 2006
-slug: colour-of-money-22d
-tier: B
+author: Kshitij Consultancy Services
 category: Forex Mechanics & Macro Drivers
-tags: [yield-curve, risk-reward, stop-loss, take-profit, macro, probability, newsletter]
 difficulty: beginner
 doc_type: article
+one_liner: A short year-end newsletter arguing yield-curve inversion does not reliably
+  predict recessions, and reworking risk/reward with win probability instead of equal
+  odds.
 pages: 4
-one_liner: "A short year-end newsletter arguing yield-curve inversion does not reliably predict recessions, and reworking risk/reward with win probability instead of equal odds."
-related: [trading-ebook-trading-forex, 5-13-62]
-source_file: "colour_of_money_22d.pdf"
+related:
+- trading-ebook-trading-forex
+- 5-13-62
+reviewed_pdf_pages: 1-4
+slug: colour-of-money-22d
+source_file: colour_of_money_22d.pdf
+source_review: full
+tags:
+- yield-curve
+- risk-reward
+- stop-loss
+- take-profit
+- macro
+- probability
+- newsletter
+tier: B
+title: The Colour of Money (Issue No. 221206)
+year: 2006
 ---
 
 ## Summary

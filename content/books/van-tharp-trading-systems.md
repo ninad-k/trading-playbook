@@ -1,17 +1,29 @@
 ---
-title: What Is a Trading System?
 author: Van K. Tharp
-year: 2005
-slug: van-tharp-trading-systems
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [trading-system-design, position-sizing, business-plan, r-multiples, trading-plan, system-development]
 difficulty: intermediate
 doc_type: article
+one_liner: Defines the 8 components of a trading strategy and 8 sections of a full
+  trading business plan, plus a system-development framework from an Army systems-design
+  interview.
 pages: 9
-one_liner: "Defines the 8 components of a trading strategy and 8 sections of a full trading business plan, plus a system-development framework from an Army systems-design interview."
-related: [mental-fitness-for-traders, ghost-trader-trading-strategy]
-source_file: "Van-Tharp - Trading Systems.pdf"
+related:
+- mental-fitness-for-traders
+- ghost-trader-trading-strategy
+reviewed_pdf_pages: 1-9
+slug: van-tharp-trading-systems
+source_file: Van-Tharp - Trading Systems.pdf
+source_review: full
+tags:
+- trading-system-design
+- position-sizing
+- business-plan
+- r-multiples
+- trading-plan
+- system-development
+tier: B
+title: What Is a Trading System?
+year: 2005
 ---
 
 ## Summary

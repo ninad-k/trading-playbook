@@ -1,17 +1,30 @@
 ---
-title: "Limit Order Book as a Market for Liquidity"
-author: "Thierry Foucault, Ohad Kadan, Eugene Kandel"
-year: 2003
-slug: foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
-tier: B
+author: Thierry Foucault, Ohad Kadan, Eugene Kandel
 category: Quant, Microstructure & Academic Research
-tags: [limit-order-book, market-microstructure, liquidity, bid-ask-spread, market-resiliency, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Theoretical model shows market resiliency after liquidity shocks rises
+  with the share of patient traders and falls with order arrival rate and tick size.
 pages: 65
-one_liner: "Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size."
-related: [foucault-and-kadan-limit-order-book-as-a-market-for-liquidity, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets, madhavan-market-microstructure-a-survey]
-source_file: "Foucault, Kadan And Kandel-Limit Order Book As A Market For Liquidity.pdf"
+related:
+- foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets
+- madhavan-market-microstructure-a-survey
+reviewed_pdf_pages: 3, 46 and the model sections checked against the note
+slug: foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+source_file: Foucault, Kadan And Kandel-Limit Order Book As A Market For Liquidity.pdf
+source_review: partial
+tags:
+- limit-order-book
+- market-microstructure
+- liquidity
+- bid-ask-spread
+- market-resiliency
+- academic-paper
+tier: B
+title: Limit Order Book as a Market for Liquidity
+year: 2003
 ---
 
 ## Summary

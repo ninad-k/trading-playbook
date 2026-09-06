@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Applications of Advanced Regression Analysis for Trading and Investment — Christian L. Dunis, Mark Williams · Trading Playbook</title>
+<meta name="description" content="A book chapter benchmarks a Neural Network Regression model against naive, ARMA, logit, and MACD models forecasting EUR/USD, finding NNR gives the best risk-adjusted trading returns.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Applications of Advanced Regression Analysis for Trading and Investment</h1>
+  <p class="byline">Christian L. Dunis, Mark Williams · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">A book chapter benchmarks a Neural Network Regression model against naive, ARMA, logit, and MACD models forecasting EUR/USD, finding NNR gives the best risk-adjusted trading returns.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 7, 9, 14-15, 36 (the ARMA estimation tables and the strategy performance comparison). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=neural-networks">neural-networks</a> <a class="tag" href="../search.html?q=regression">regression</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=eur-usd">eur-usd</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=sharpe-ratio">sharpe-ratio</a> <a class="tag" href="../search.html?q=forecasting">forecasting</a> <a class="tag" href="../search.html?q=academic">academic</a> </td></tr>
+    <tr><th>Length</th><td>41 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Applications of Advanced Regression Analysis for Trading and Investment” by Christian L. Dunis, Mark Williams at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: can regression-based models, and Neural Network Regression (NNR) in particular, add forecasting and trading value on the EUR/USD exchange rate beyond simpler benchmark techniques? Data: a synthetic daily EUR/USD series (retropolated before the euro&rsquo;s 1999 launch) plus related macro/market inputs (FTSE, DAX, S&amp;P 500, Nikkei, CAC 40, yield curves), in-sample from 17 October 1994 to 18 May 2000, out-of-sample from 19 May 2000 to 3 July 2001. Method: five models — naive (random walk), MACD, ARMA(10,10), logit, and NNR — are each used to generate daily buy/sell signals (long EUR if forecast positive, short otherwise), then compared on statistical forecast-accuracy measures (MAE, RMSE, MAPE, Theil-U, correct directional change) and on simulated trading performance (annualized return, Sharpe ratio, maximum drawdown, % winning trades), including transaction costs. Finding: statistical accuracy measures gave no clear winner, but on trading performance the NNR model dominated — highest annualized return, highest Sharpe ratio, and still profitable after estimated transaction costs.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Only 3 in 10 spot FX dealers are profitable in any given year, per a cited industry estimate — underscoring how hard EUR/USD forecasting is.</li>
+<li>Out-of-sample trading performance: NNR annualized return 29.68%, cumulative return 34.16%, Sharpe ratio 2.57 — best of all five models on every trading metric.</li>
+<li>Comparison: naive model 21.34% return (Sharpe 1.83); MACD 11.34% (Sharpe 0.97); ARMA(10,10) 12.91% (Sharpe 1.10); logit 21.05% (Sharpe 1.81).</li>
+<li>Forecasting-accuracy measures alone did not identify NNR as best — the naive model had the lowest Theil-U (0.6901) and MACD the highest correct-directional-change rate (60%), showing low forecast error does not guarantee trading profit.</li>
+<li>The FX managed-futures industry&rsquo;s average Sharpe ratio is cited as only about 0.8; all five models beat that bar out-of-sample.</li>
+<li>Transaction costs (3 pips/trade, ~0.033% average) cut the NNR strategy&rsquo;s return by an estimated 4.55% (136 transactions) but it remained the top performer after costs.</li>
+<li>MACD had far fewer transactions (25) than NNR (136), reflecting a structurally longer holding-period style.</li>
+<li>All five models forecast down-moves more accurately than up-moves, attributed to the in-sample EUR/USD series itself trending down.</li>
+<li>Stated NNR weakness: it is a &ldquo;black box&rdquo; whose internal logic cannot be statistically tested the way linear regression can.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Do not select a forecasting model on statistical accuracy (RMSE, MAPE, Theil-U) alone — evaluate on realized trading performance (Sharpe ratio, drawdown, win rate).</li>
+<li>Include realistic transaction costs (3 pips/trade here) before judging any high-frequency FX signal strategy profitable.</li>
+<li>Treat a Sharpe ratio above ~0.8 as competitive with FX managed-futures averages, and above ~2.5 as strong.</li>
+<li>Expect a model trained on a directionally skewed in-sample series to forecast that same direction better out-of-sample.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This academic/practitioner chapter uses data through mid-2001 and era-typical NNR architectures — modern deep learning methods are not compared. NNR&rsquo;s edge may partly reflect its higher trading frequency (136 transactions, second-most of all models) rather than pure forecasting skill, and the authors caution NNR results depend heavily on data quality and are not always superior. All results are backtested/simulated, not a live track record.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant-oriented FX traders and researchers evaluating machine-learning/regression approaches to currency forecasting, and anyone wanting a concrete illustration of why trading-performance metrics should govern model selection over pure statistical accuracy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns.html">Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns</a> — MSc thesis testing whether autoregressive and neural-network models can predict daily FTSE/S&amp;P excess returns; neither beats naive random-walk benchmarks.</li><li><a href="../books/5-13-62.html">5/13/62: A Forex EMA Crossover Strategy</a> — A forex EMA crossover system using 5, 13, and 62 periods, an initial stop 20 pips beyond the 62 EMA, and a trailing stop or price target.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

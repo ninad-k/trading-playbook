@@ -1,17 +1,28 @@
 ---
-title: Breakup
 author: Unknown
-year: unknown
-slug: breakup-0-1
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [ema, moving-averages, stochastic, parabolic-sar, trend-filter, indicator-stack]
 difficulty: beginner
 doc_type: manual
+one_liner: 'One-page indicator-stack setup: three EMAs, a 20 SMA, stochastic and Parabolic
+  SAR combined to filter and time trend trades.'
 pages: 1
-one_liner: "One-page indicator-stack setup: three EMAs, a 20 SMA, stochastic and Parabolic SAR combined to filter and time trend trades."
-related: [dynamic-breakout-ii-strategy, channeltrading]
-source_file: "Breakup 0.1.pdf"
+related:
+- dynamic-breakout-ii-strategy
+- channeltrading
+reviewed_pdf_pages: '1'
+slug: breakup-0-1
+source_file: Breakup 0.1.pdf
+source_review: full
+tags:
+- ema
+- moving-averages
+- stochastic
+- parabolic-sar
+- trend-filter
+- indicator-stack
+tier: B
+title: Breakup
+year: unknown
 ---
 
 ## Summary

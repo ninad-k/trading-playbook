@@ -1,17 +1,30 @@
 ---
-title: "Impulse Wave Checklist"
-author: "Jesse and Jenna"
-year: unknown
-slug: impulsive-wave
-tier: B
-category: "Fibonacci, Gann & Elliott Wave"
-tags: [elliott-wave, wave-counting, impulse-wave, fibonacci, market-structure, checklist]
+author: Jesse and Jenna
+category: Fibonacci, Gann & Elliott Wave
 difficulty: intermediate
 doc_type: manual
+one_liner: One-page decision checklist for confirming or invalidating an Elliott 5-wave
+  impulse count as each wave unfolds.
 pages: 1
-one_liner: "One-page decision checklist for confirming or invalidating an Elliott 5-wave impulse count as each wave unfolds."
-related: [elliott-waves-principle, basic-guide-to-understanding-elliot-wave, elite-trader-s-secrets, walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time]
-source_file: "Impulsive wave.pdf"
+related:
+- elliott-waves-principle
+- basic-guide-to-understanding-elliot-wave
+- elite-trader-s-secrets
+- walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
+reviewed_pdf_pages: '1'
+slug: impulsive-wave
+source_file: Impulsive wave.pdf
+source_review: full
+tags:
+- elliott-wave
+- wave-counting
+- impulse-wave
+- fibonacci
+- market-structure
+- checklist
+tier: B
+title: Impulse Wave Checklist
+year: unknown
 ---
 
 ## Summary

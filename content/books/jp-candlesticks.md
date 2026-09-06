@@ -1,17 +1,29 @@
 ---
-title: Stock Investing Basics of Japanese Candlesticks
 author: Stephen W. Bigalow
-year: 2005
-slug: jp-candlesticks
-tier: B
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, reversal-patterns, doji, marubozu, stochastics, j-hook]
 difficulty: beginner
 doc_type: article
+one_liner: 'Candlestick Forum intro article: major reversal patterns plus a stochastics-confirmation
+  method for trading them, illustrated with the J-Hook pattern.'
 pages: 10
-one_liner: "Candlestick Forum intro article: major reversal patterns plus a stochastics-confirmation method for trading them, illustrated with the J-Hook pattern."
-related: [candlestick-charting-explained, greg-morris-candlestick-charting-explained, beyond-candlesticks-steve-nison]
-source_file: "jp_candlesticks.pdf"
+related:
+- candlestick-charting-explained
+- greg-morris-candlestick-charting-explained
+- beyond-candlesticks-steve-nison
+reviewed_pdf_pages: 1-10
+slug: jp-candlesticks
+source_file: jp_candlesticks.pdf
+source_review: full
+tags:
+- candlesticks
+- reversal-patterns
+- doji
+- marubozu
+- stochastics
+- j-hook
+tier: B
+title: Stock Investing Basics of Japanese Candlesticks
+year: 2005
 ---
 
 ## Summary

@@ -1,17 +1,32 @@
 ---
-title: "7 Habits of a Highly Successful Trader"
 author: Mark Crisp
-year: 2005
-slug: 7-habits-of-a-higly-sucsessfull-trader
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, trading-plan, self-belief, risk-management, rules-based-trading]
 difficulty: beginner
 doc_type: article
+one_liner: A free e-book listing seven psychological/behavioral habits (total responsibility,
+  a system that fits you, planning every trade, ongoing learning, self-belief, scoring
+  in points not money, and life balance) shared by successful traders.
 pages: 31
-one_liner: "A free e-book listing seven psychological/behavioral habits (total responsibility, a system that fits you, planning every trade, ongoing learning, self-belief, scoring in points not money, and life balance) shared by successful traders."
-related: [disciplined-trader, trading-in-the-zone, 25-rules-of-trading, van-tharp-trading-systems]
-source_file: "7 Habits Of A Higly Sucsessfull Trader.pdf"
+related:
+- disciplined-trader
+- trading-in-the-zone
+- 25-rules-of-trading
+- van-tharp-trading-systems
+reviewed_pdf_pages: the seven habit chapters checked against the note; the ebook states
+  no numeric parameters
+slug: 7-habits-of-a-higly-sucsessfull-trader
+source_file: 7 Habits Of A Higly Sucsessfull Trader.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- trading-plan
+- self-belief
+- risk-management
+- rules-based-trading
+tier: B
+title: 7 Habits of a Highly Successful Trader
+year: 2005
 ---
 
 ## Summary

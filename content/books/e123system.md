@@ -1,17 +1,29 @@
 ---
-title: "1-2-3 Trading Signal"
-author: "Mark Crisp"
-year: 2002
-slug: e123system
-tier: B
+author: Mark Crisp
 category: Market Structure & Price Action
-tags: [chart-patterns, price-action, breakout, swing-trading, exits, position-sizing]
 difficulty: beginner
 doc_type: manual
+one_liner: Short report defining the 1-2-3 bottom/top chart pattern (low-correction-retest),
+  a slightly-early breakout entry trick, and a tiered trailing-stop exit method.
 pages: 24
-one_liner: "Short report defining the 1-2-3 bottom/top chart pattern (low-correction-retest), a slightly-early breakout entry trick, and a tiered trailing-stop exit method."
-related: [chart-patterns-tutorial, chart-formations, lbr-scalp-setups]
-source_file: "E123system.pdf"
+related:
+- chart-patterns-tutorial
+- chart-formations
+- lbr-scalp-setups
+reviewed_pdf_pages: 1-2, 8 (the pattern definition, entry rule and the accuracy claim)
+slug: e123system
+source_file: E123system.pdf
+source_review: partial
+tags:
+- chart-patterns
+- price-action
+- breakout
+- swing-trading
+- exits
+- position-sizing
+tier: B
+title: 1-2-3 Trading Signal
+year: 2002
 ---
 
 ## Summary

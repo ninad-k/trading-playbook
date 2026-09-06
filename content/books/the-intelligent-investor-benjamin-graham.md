@@ -1,17 +1,32 @@
 ---
-title: The Intelligent Investor
 author: Benjamin Graham
-year: 1973
-slug: the-intelligent-investor-benjamin-graham
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, margin-of-safety, defensive-investor, asset-allocation, graham, security-analysis, mr-market]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Graham''s framework for value investing: treat market quotes as a manic
+  partner (Mr. Market), demand a margin of safety, and pick a defensive or enterprising
+  posture with explicit numeric screens.'
 pages: 641
-one_liner: "Graham's framework for value investing: treat market quotes as a manic partner (Mr. Market), demand a margin of safety, and pick a defensive or enterprising posture with explicit numeric screens."
-related: [investment-valuation-damodaran, investment-valuation-damodaran--dcf-valuation-method, harry-d-schultz-bear-market-investing-strategies]
-source_file: "The Intelligent Investor - BENJAMIN GRAHAM.pdf"
+related:
+- investment-valuation-damodaran
+- investment-valuation-damodaran--dcf-valuation-method
+- harry-d-schultz-bear-market-investing-strategies
+reviewed_pdf_pages: 5-7, 9, 12, 16, 36 (contents, the defensive-investor allocation
+  and diversification rules and the commentary chapters)
+slug: the-intelligent-investor-benjamin-graham
+source_file: The Intelligent Investor - BENJAMIN GRAHAM.pdf
+source_review: partial
+tags:
+- value-investing
+- margin-of-safety
+- defensive-investor
+- asset-allocation
+- graham
+- security-analysis
+- mr-market
+tier: A
+title: The Intelligent Investor
+year: 1973
 ---
 
 ## Overview

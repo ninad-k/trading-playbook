@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New Twist on an Old Indicator — Joe Krutsinger · Trading Playbook</title>
+<meta name="description" content="Futures Magazine article on turning the lagging moving average into a leading signal via Louis Mendelsohn&#39;s neural-network intermarket &#39;predicted&#39; moving average (VantagePoint).">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a></p>
+  <h1>New Twist on an Old Indicator</h1>
+  <p class="byline">Joe Krutsinger · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Futures Magazine article on turning the lagging moving average into a leading signal via Louis Mendelsohn&#39;s neural-network intermarket &#39;predicted&#39; moving average (VantagePoint).</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-4 (the predicted-moving-average method and the 18-week euro test results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=displaced-moving-average">displaced-moving-average</a> <a class="tag" href="../search.html?q=neural-network">neural-network</a> <a class="tag" href="../search.html?q=intermarket-analysis">intermarket-analysis</a> <a class="tag" href="../search.html?q=stop-placement">stop-placement</a> </td></tr>
+    <tr><th>Length</th><td>4 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “New Twist on an Old Indicator” by Joe Krutsinger at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A September 2005 Futures Magazine article by trading consultant Joe Krutsinger, framed around a client (&ldquo;Bob&rdquo;) who wanted an edge beyond standard lagging moving averages. Krutsinger revisits Louis Mendelsohn&rsquo;s VantagePoint software, which uses five neural networks to perform intermarket analysis across ten related markets and produce a &ldquo;predicted&rdquo; moving average for one target market days into the future, rather than only reporting today&rsquo;s average. The article explains why ordinary moving averages inherently lag price, introduces the displaced moving average as a simpler do-it-yourself partial fix, then describes how comparing a predicted future moving average to today&rsquo;s actual moving average can generate earlier trend and reversal signals, plus how predicted next-day highs/lows can be used to place trailing stops more effectively than fixed-dollar or trendline-based stops.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Ordinary moving averages are inherently lagging: the average for today is plotted against today&rsquo;s price, so it trails price during trend changes and can even keep rising briefly after price has already turned down.</li>
+<li>A displaced moving average shifts a moving average&rsquo;s plotted value forward in time (e.g., a 5-day MA calculated today plotted 2 days ahead — TradeStation syntax <code>C,5,2</code>) as a simple way to reduce visible lag, though the author notes it&rsquo;s a simplistic forecast, not a true prediction, and &ldquo;more research is needed&rdquo; before recommending it outright.</li>
+<li>VantagePoint&rsquo;s neural-network approach instead predicts a future moving average value using intermarket data (nine related markets feeding into the euro&rsquo;s forecast, for example: British pound, US dollar index, Eurodollar, euro cash, Comex Gold, Japanese yen, Swiss franc, S&amp;P 500, 10-year Treasury notes).</li>
+<li>Signal logic: when the predicted moving average (e.g., 10-day, 4 days forward) exceeds today&rsquo;s actual 10-day average, the market is expected to rise; when the gap between predicted and actual reaches a maximum and starts shrinking, it signals the trend is losing strength and a top/reversal may be near; an actual crossover (predicted average crossing from above to below actual, or vice versa) confirms the reversal.</li>
+<li>The same underlying technology can also predict next-day high/low ranges, which the article recommends using to set trailing stops (e.g., a few ticks below the predicted low for a long position) instead of clustering stops at obvious support/resistance trendlines where &ldquo;too many traders&rdquo; already have orders.</li>
+<li>A cited 18-week test (Oct 1, 2004 – Feb 10, 2005) on the euro using the predicted-moving-average crossover strategy produced 4 trades (one huge winner, one big winner, one small winner, one small loser) netting about $12,000 trading one contract/cross.</li>
+<li>The article explicitly warns there is no indicator that can predict the market with complete accuracy and that &ldquo;the Holy Grail&hellip; doesn&rsquo;t exist&rdquo; — the tool is framed as an edge-improving aid, not a certainty.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>When using a predicted-vs-actual moving average crossover system: go long when the predicted future moving average exceeds today&rsquo;s actual moving average, and go short (or exit) when it falls below.</li>
+<li>Treat a shrinking gap between the predicted and actual moving average (after it has been widening) as an early warning that the current trend is losing strength, before the crossover itself confirms a reversal.</li>
+<li>For stop placement, use predicted next-day high/low levels rather than a fixed dollar amount or a widely-watched trendline; place a long&rsquo;s stop a few ticks below the predicted low.</li>
+<li>As a simpler DIY partial substitute (without neural-network software), consider a displaced moving average (shifting the plotted MA value forward by a few bars) to reduce visible lag, while recognizing this is a much simpler and less validated technique.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>The article&rsquo;s supporting evidence is a single 18-week, 4-trade sample on one instrument (euro), which is far too small to establish a statistical edge; results are presented as a case study, not a backtest. VantagePoint is a specific commercial software product from Mendelsohn (Market Technologies); the article does not disclose the neural-network architecture or training methodology in enough detail to independently replicate the &ldquo;predicted&rdquo; moving average. The displaced-moving-average alternative is explicitly flagged by the author as needing more research before being recommended.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Futures/forex traders already using moving-average crossover systems who want to understand the concept of a &ldquo;predicted&rdquo; or forward-shifted moving average as a way to reduce lag, and who are evaluating (or already use) intermarket neural-network forecasting tools like VantagePoint.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/dynamic-breakout-ii-strategy.html">The Dynamic Break Out II Strategy</a> — A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.</li><li><a href="../books/king-keltner-trading-strategy.html">The King Keltner Trading Strategy</a> — A 1960s Chester Keltner moving-average-band breakout system, modernized with a true-range channel and a moving-average liquidation stop.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

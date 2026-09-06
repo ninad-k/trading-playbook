@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculating Value-at-Risk — William Fallon · Trading Playbook</title>
+<meta name="description" content="Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Calculating Value-at-Risk</h1>
+  <p class="byline">William Fallon · 1996 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3, 5-6, 22, 30 (the methodology comparison and the test-portfolio results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=garch">garch</a> <a class="tag" href="../search.html?q=options-greeks">options-greeks</a> <a class="tag" href="../search.html?q=delta-normal">delta-normal</a> <a class="tag" href="../search.html?q=gamma-normal">gamma-normal</a> <a class="tag" href="../search.html?q=risk-management">risk-management</a> <a class="tag" href="../search.html?q=portfolio-risk">portfolio-risk</a> </td></tr>
+    <tr><th>Length</th><td>39 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Calculating Value-at-Risk” by William Fallon at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: which combination of portfolio-function approximation and state-variable model produces the most accurate Value-at-Risk (VaR)? Data: 26 years (1969–1994) of weekly equity prices (Dow Chemical, Exxon, Union Carbide, Coca-Cola, S&amp;P 500) plus a hypothetical five-option portfolio. Method: reviews four existing VaR models (Garbade&rsquo;s delta-normal, J.P. Morgan&rsquo;s RiskMetrics, Hsieh&rsquo;s delta-GARCH, Wilson&rsquo;s gamma-normal), then introduces a new gamma-normal model and a &ldquo;gamma-GARCH&rdquo; model, testing all six out-of-sample over a 13.5-year holdout by counting VaR breach frequency. Finding: first-order &ldquo;delta&rdquo; approximations perform poorly whenever a portfolio has gamma (convexity) risk — mean absolute pricing error was roughly three times worse for delta than gamma models — and gamma-GARCH most closely matched target breach frequency among all six.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>VaR is a one-sided confidence bound on portfolio losses over a fixed horizon.</li>
+<li>Every model combines two choices: portfolio approximation (delta vs. gamma) and state-variable model (unconditional normal, exponentially-weighted &ldquo;RiskMetrics,&rdquo; or GARCH).</li>
+<li>Delta-only models ignore gamma, which the Black-Scholes PDE says should matter whenever options are present.</li>
+<li>Delta&rsquo;s error was consistently biased with the sign of gamma — for the (positive-gamma) options tested, delta VaR was always too conservative.</li>
+<li>Both methods performed poorly for deep out-of-the-money, near-expiry options, but gamma&rsquo;s error stayed under 0.5% MAPE there versus over 100% for delta.</li>
+<li>No single state-variable model was unambiguously best; GARCH was only marginally favored on an efficiency-regression (R²) test.</li>
+<li>Gamma-GARCH best matched actual VaR breach frequency out-of-sample in two of three confidence levels tested.</li>
+<li>Flags an incentive-design risk: VaR systems ignoring gamma can be &ldquo;gamed&rdquo; by traders taking convexity risk that doesn&rsquo;t register in measured VaR.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None as position-sizing rules — this is a risk-measurement methodology paper, not a trading system. Takeaways: (1) delta-only VaR materially understates risk for option portfolios with real gamma exposure; (2) GARCH-style time-varying volatility improves risk forecasts over flat historical volatility; (3) validate VaR by out-of-sample breach frequency, not in-sample fit.</p>
+<h2 id="caveats">Caveats</h2>
+<p>A 1996 academic paper using data through 1994 and a hypothetical, author-chosen five-option test portfolio — illustrative of methodology, not a real-portfolio claim. The state-variable comparison is explicitly called &ldquo;inconclusive&rdquo; by the authors; only the delta-vs-gamma result is unambiguous. No transaction costs or liquidity risk addressed.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers and derivatives traders who want to understand why naive delta-based VaR misstates risk for options portfolios, and why gamma and GARCH approaches were already demonstrably more accurate by the mid-1990s.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/kalman-filter-for-arbitrage-identification-in-high-frequency-data.html">A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data</a> — London Business School paper using a robust multivariate Kalman filter to detect FX triangular-arbitrage mispricings in erratic 1990s tick data.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

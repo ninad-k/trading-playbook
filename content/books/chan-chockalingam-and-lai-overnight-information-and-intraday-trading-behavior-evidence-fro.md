@@ -1,17 +1,30 @@
 ---
-title: "Overnight Information and Intraday Trading Behavior: Evidence from NYSE Cross-Listed Stocks and Their Local Market Information"
-author: "Kalok Chan, Mark Chockalingam, Kent W.L. Lai"
-year: 2000
-slug: chan-chockalingam-and-lai-overnight-information-and-intraday-trading-behavior-evidence-fro
-tier: B
+author: Kalok Chan, Mark Chockalingam, Kent W.L. Lai
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, intraday-volatility, overnight-returns, cross-listed-stocks, academic-research, opening-volatility]
 difficulty: advanced
 doc_type: paper
+one_liner: Academic study finding NYSE opening-hour volatility in foreign cross-listed
+  stocks tracks overnight local-market returns, but opening trading volume does not.
 pages: 15
-one_liner: "Academic study finding NYSE opening-hour volatility in foreign cross-listed stocks tracks overnight local-market returns, but opening trading volume does not."
-related: [hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies]
-source_file: "Chan, Chockalingam And Lai-Overnight Information And Intraday Trading Behavior - Evidence From Ny.pdf"
+related:
+- hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+reviewed_pdf_pages: 1, 3, 6, 8-9, 35 (the sample construction and the interval-by-interval
+  regression results)
+slug: chan-chockalingam-and-lai-overnight-information-and-intraday-trading-behavior-evidence-fro
+source_file: Chan, Chockalingam And Lai-Overnight Information And Intraday Trading
+  Behavior - Evidence From Ny.pdf
+source_review: partial
+tags:
+- market-microstructure
+- intraday-volatility
+- overnight-returns
+- cross-listed-stocks
+- academic-research
+- opening-volatility
+tier: B
+title: 'Overnight Information and Intraday Trading Behavior: Evidence from NYSE Cross-Listed
+  Stocks and Their Local Market Information'
+year: 2000
 ---
 
 ## Summary

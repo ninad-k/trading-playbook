@@ -1,17 +1,34 @@
 ---
-title: "Modeling Liquidity Risk, With Implications for Traditional Market Risk Measurement and Management"
-author: "Anil Bangia, Francis X. Diebold, Til Schuermann, John D. Stroughair"
-year: 1998
-slug: bangia-diebold-schuermann-and-stroughair-modeling-liquidity-risk-with-implications-for-tra
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [value-at-risk, liquidity-risk, bid-ask-spread, fat-tails, emerging-markets, var-backtesting]
+author: Anil Bangia, Francis X. Diebold, Til Schuermann, John D. Stroughair
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Wharton working paper proposing a liquidity-adjusted VaR that adds a spread-based
+  cost-of-liquidity term and a kurtosis correction to standard parametric VaR, showing
+  large underestimation of risk in emerging-market FX without it.
 pages: 18
-one_liner: "Wharton working paper proposing a liquidity-adjusted VaR that adds a spread-based cost-of-liquidity term and a kurtosis correction to standard parametric VaR, showing large underestimation of risk in emerging-market FX without it."
-related: [evaluation-of-value-at-risk-models, exploring-value-at-risk, fallon-w-calculating-value-at-risk, giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market, how-large-is-liquidity-risk-in-an-automated]
-source_file: "Bangia, Diebold, Schuermann And Stroughair-Modeling Liquidity Risk, With Implications For Traditi.pdf"
+related:
+- evaluation-of-value-at-risk-models
+- exploring-value-at-risk
+- fallon-w-calculating-value-at-risk
+- how-large-is-liquidity-risk-in-an-automated
+reviewed_pdf_pages: 4, 7, 11-13, 15-16 (the liquidity-risk model and the currency
+  spread and worst-case tables)
+slug: bangia-diebold-schuermann-and-stroughair-modeling-liquidity-risk-with-implications-for-tra
+source_file: Bangia, Diebold, Schuermann And Stroughair-Modeling Liquidity Risk, With
+  Implications For Traditi.pdf
+source_review: partial
+tags:
+- value-at-risk
+- liquidity-risk
+- bid-ask-spread
+- fat-tails
+- emerging-markets
+- var-backtesting
+tier: B
+title: Modeling Liquidity Risk, With Implications for Traditional Market Risk Measurement
+  and Management
+year: 1998
 ---
 
 ## Summary

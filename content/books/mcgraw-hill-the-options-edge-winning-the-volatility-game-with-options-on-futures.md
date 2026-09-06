@@ -1,17 +1,34 @@
 ---
-title: "The Options Edge: Winning the Volatility Game with Options on Futures"
 author: William R. Gallacher
-year: 1999
-slug: mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures
-tier: A
-category: "Options, Futures & Derivatives"
-tags: [options-on-futures, volatility, straddle-writing, implied-volatility, option-pricing, defensive-hedging, commodity-options]
+category: Options, Futures & Derivatives
 difficulty: advanced
 doc_type: book
+one_liner: An empirical, 1996-data-driven study of commodity option pricing that finds
+  no inherent writer's edge, then builds one through defensive straddle writing.
 pages: 294
-one_liner: "An empirical, 1996-data-driven study of commodity option pricing that finds no inherent writer's edge, then builds one through defensive straddle writing."
-related: [lawrence-g-mcmillan-profit-with-options, hull-options-futures-and-other-derivative-securities-5th-ed, using-volatility-in-option-tradingpart-1, volatility-part-2, balsara-nauzer-j-money-management-strategies-for-futures-traders]
-source_file: "Mcgraw Hill - The Options Edge Winning The Volatility Game With Options On Futures.pdf"
+related:
+- lawrence-g-mcmillan-profit-with-options
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- using-volatility-in-option-tradingpart-1
+- volatility-part-2
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+reviewed_pdf_pages: 13, 16, 24, 30, 35, 51, 62, 67, 76 (the MAD and market-volatility
+  formulas, the implied-volatility shortcut and the payout-ratio study tables)
+slug: mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures
+source_file: Mcgraw Hill - The Options Edge Winning The Volatility Game With Options
+  On Futures.pdf
+source_review: partial
+tags:
+- options-on-futures
+- volatility
+- straddle-writing
+- implied-volatility
+- option-pricing
+- defensive-hedging
+- commodity-options
+tier: A
+title: 'The Options Edge: Winning the Volatility Game with Options on Futures'
+year: 1999
 ---
 
 ## Overview

@@ -1,17 +1,33 @@
 ---
-title: "Financial Mathematics (Lecture Notes)"
 author: Richard F. Bass
-year: 2003
-slug: bass-financial-mathematics-2003-lecture-notes-series
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [option-pricing, black-scholes, binomial-model, stochastic-calculus, martingales, arbitrage, term-structure]
 difficulty: advanced
 doc_type: paper
+one_liner: 'A graduate math course deriving option pricing from first principles:
+  probability, binomial trees, Brownian motion, Ito calculus, and the Black-Scholes
+  formula.'
 pages: 70
-one_liner: "A graduate math course deriving option pricing from first principles: probability, binomial trees, Brownian motion, Ito calculus, and the Black-Scholes formula."
-related: [black-scholes-option-pricing-model, hull-options-futures-and-other-derivative-securities-5th-ed, back-to-basics-historical-option-pricing-revisited, fi-lecture16-exotic-options-credit-derivatives]
-source_file: "Bass_Financial Mathematics (2003)(Lecture Notes Series).pdf"
+related:
+- black-scholes-option-pricing-model
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- back-to-basics-historical-option-pricing-revisited
+- fi-lecture16-exotic-options-credit-derivatives
+reviewed_pdf_pages: the derivation sections checked against the note; the notes are
+  algebraic rather than numeric
+slug: bass-financial-mathematics-2003-lecture-notes-series
+source_file: Bass_Financial Mathematics (2003)(Lecture Notes Series).pdf
+source_review: partial
+tags:
+- option-pricing
+- black-scholes
+- binomial-model
+- stochastic-calculus
+- martingales
+- arbitrage
+- term-structure
+tier: B
+title: Financial Mathematics (Lecture Notes)
+year: 2003
 ---
 
 ## Summary

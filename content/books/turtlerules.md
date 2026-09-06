@@ -1,17 +1,33 @@
 ---
-title: The Original Turtle Trading Rules
 author: Curtis Faith
-year: 2003
-slug: turtlerules
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [turtle-trading, trend-following, breakout, position-sizing, money-management, donchian, futures]
 difficulty: intermediate
 doc_type: manual
+one_liner: The free, original written record of the actual 1983 Turtle rules — N-based
+  unit sizing, System 1/2 breakouts, 2N stops, and unit-adding — released by an Original
+  Turtle.
 pages: 37
-one_liner: "The free, original written record of the actual 1983 Turtle rules — N-based unit sizing, System 1/2 breakouts, 2N stops, and unit-adding — released by an Original Turtle."
-related: [curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, turtletrader, turtles-matter, position-sizing]
-source_file: "turtlerules.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- turtletrader
+- turtles-matter
+- position-sizing
+reviewed_pdf_pages: 1-37
+slug: turtlerules
+source_file: turtlerules.pdf
+source_review: full
+tags:
+- turtle-trading
+- trend-following
+- breakout
+- position-sizing
+- money-management
+- donchian
+- futures
+tier: A
+title: The Original Turtle Trading Rules
+year: 2003
 ---
 
 ## Overview

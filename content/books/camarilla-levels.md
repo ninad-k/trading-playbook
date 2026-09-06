@@ -1,17 +1,30 @@
 ---
-title: "The Camarilla Equation"
 author: Phil Dunn
-year: unknown
-slug: camarilla-levels
-tier: B
 category: Day Trading & Scalping
-tags: [camarilla, pivot-points, day-trading, support-resistance, mean-reversion, breakout]
 difficulty: beginner
 doc_type: article
+one_liner: Short explainer on the Camarilla equation's 8 intraday support/resistance
+  levels and how to trade reversals off L3 and breakouts through L4.
 pages: 6
-one_liner: "Short explainer on the Camarilla equation's 8 intraday support/resistance levels and how to trade reversals off L3 and breakouts through L4."
-related: [pivots, automated-intraday-open-pivot-setup, forex-intraday-pivots-trading-system-complete-system]
-source_file: "Camarilla_Levels.pdf"
+related:
+- pivots
+- automated-intraday-open-pivot-setup
+- forex-intraday-pivots-trading-system-complete-system
+reviewed_pdf_pages: 1, 3-5 (the equation's origin, the L3/L4 reversal and breakout
+  rules and the stop-loss discussion)
+slug: camarilla-levels
+source_file: Camarilla_Levels.pdf
+source_review: partial
+tags:
+- camarilla
+- pivot-points
+- day-trading
+- support-resistance
+- mean-reversion
+- breakout
+tier: B
+title: The Camarilla Equation
+year: unknown
 ---
 
 ## Summary

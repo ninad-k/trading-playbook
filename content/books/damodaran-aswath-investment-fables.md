@@ -1,17 +1,35 @@
 ---
-title: "Investment Fables: Exposing Myths About Stocks"
 author: Aswath Damodaran
-year: 2004
-slug: damodaran-aswath-investment-fables
-tier: A
-category: "Investing, Value & Market History"
-doc_type: book
-pages: 421
-one_liner: "Tests a dozen classic stock-picking stories - dividends, low PE, low P/B, growth, momentum, contrarian, arbitrage - against real data and shows exactly when and why each one fails."
-tags: [value-investing, pe-ratio, price-to-book, momentum, contrarian, market-efficiency, screening, behavioral-finance]
+category: Investing, Value & Market History
 difficulty: intermediate
-related: [investment-valuation-damodaran, the-intelligent-investor-benjamin-graham, david-dreman-contrarian-investment-strategies-the-next-generation, mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "Damodaran,.Aswath.-.Investment.Fables.pdf"
+doc_type: book
+one_liner: Tests a dozen classic stock-picking stories - dividends, low PE, low P/B,
+  growth, momentum, contrarian, arbitrage - against real data and shows exactly when
+  and why each one fails.
+pages: 421
+related:
+- investment-valuation-damodaran
+- the-intelligent-investor-benjamin-graham
+- david-dreman-contrarian-investment-strategies-the-next-generation
+- mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 20-21, 42, 56, 65-66, 88, 293, 324 (the screen definitions, the
+  sample-portfolio tables and the follow-up filter statistics)
+slug: damodaran-aswath-investment-fables
+source_file: Damodaran,.Aswath.-.Investment.Fables.pdf
+source_review: partial
+tags:
+- value-investing
+- pe-ratio
+- price-to-book
+- momentum
+- contrarian
+- market-efficiency
+- screening
+- behavioral-finance
+tier: A
+title: 'Investment Fables: Exposing Myths About Stocks'
+year: 2004
 ---
 
 ## Overview

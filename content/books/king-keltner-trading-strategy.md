@@ -1,17 +1,28 @@
 ---
-title: "The King Keltner Trading Strategy"
-author: "George Pruitt, John R. Hill"
-year: 2002
-slug: king-keltner-trading-strategy
-tier: B
-category: "Trend Following & Mechanical Systems"
-tags: [keltner-channel, moving-average, true-range, trend-following, breakout, futures]
+author: George Pruitt, John R. Hill
+category: Trend Following & Mechanical Systems
 difficulty: intermediate
 doc_type: manual
+one_liner: A 1960s Chester Keltner moving-average-band breakout system, modernized
+  with a true-range channel and a moving-average liquidation stop.
 pages: 4
-one_liner: "A 1960s Chester Keltner moving-average-band breakout system, modernized with a true-range channel and a moving-average liquidation stop."
-related: [dynamic-breakout-ii-strategy, money-management-in-trading]
-source_file: "King_Keltner_Trading_Strategy.pdf"
+related:
+- dynamic-breakout-ii-strategy
+- money-management-in-trading
+reviewed_pdf_pages: 1-4
+slug: king-keltner-trading-strategy
+source_file: King_Keltner_Trading_Strategy.pdf
+source_review: full
+tags:
+- keltner-channel
+- moving-average
+- true-range
+- trend-following
+- breakout
+- futures
+tier: B
+title: The King Keltner Trading Strategy
+year: 2002
 ---
 
 ## Summary

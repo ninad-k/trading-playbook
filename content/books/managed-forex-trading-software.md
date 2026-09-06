@@ -1,17 +1,29 @@
 ---
-title: "Managed Forex Trading Software Service: No Forex Trading Apprenticeship Required"
 author: Winsor A.G.A. Hoang
-year: unknown
-slug: managed-forex-trading-software
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, managed-accounts, expert-advisors, scam-awareness, vendor-due-diligence, automation]
 difficulty: beginner
 doc_type: article
+one_liner: Short promotional/opinion article arguing '15 minutes a day' forex claims
+  are unrealistic and offering red-flag questions for vetting forex educators and
+  automated trading vendors.
 pages: 2
-one_liner: "Short promotional/opinion article arguing '15 minutes a day' forex claims are unrealistic and offering red-flag questions for vetting forex educators and automated trading vendors."
-related: [avoiding-mistakes-in-forex-trading-forextrader, forex-money-management]
-source_file: "Managed Forex Trading Software.pdf"
+related:
+- avoiding-mistakes-in-forex-trading-forextrader
+- forex-money-management
+reviewed_pdf_pages: 1-2
+slug: managed-forex-trading-software
+source_file: Managed Forex Trading Software.pdf
+source_review: full
+tags:
+- forex
+- managed-accounts
+- expert-advisors
+- scam-awareness
+- vendor-due-diligence
+- automation
+tier: B
+title: 'Managed Forex Trading Software Service: No Forex Trading Apprenticeship Required'
+year: unknown
 ---
 
 ## Summary

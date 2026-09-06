@@ -1,17 +1,32 @@
 ---
-title: "Information Sharing, Liquidity and Transaction Costs in Floor-Based Trading Systems"
-author: "Thierry Foucault and Laurence Lescourret"
-year: 2001
-slug: foucault-and-lescourret-information-sharing-liquidity-and-transaction-costs-in-floor-based
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [market-microstructure, floor-trading, information-sharing, liquidity, bid-ask-spread, academic-paper]
+author: Thierry Foucault and Laurence Lescourret
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Theoretical model of floor brokers pooling fundamental and order-flow information,
+  showing it improves price discovery and cuts liquidity traders' costs but can raise
+  or lower market depth.
 pages: 43
-one_liner: "Theoretical model of floor brokers pooling fundamental and order-flow information, showing it improves price discovery and cuts liquidity traders' costs but can raise or lower market depth."
-related: [madhavan-market-microstructure-a-survey, liquidity-in-forex-markets, hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market]
-source_file: "Foucault And Lescourret-Information Sharing, Liquidity And Transaction Costs In Floor-Based Tradi.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- liquidity-in-forex-markets
+- hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market
+reviewed_pdf_pages: 4, 6-7 (the model setup and the information-sharing results)
+slug: foucault-and-lescourret-information-sharing-liquidity-and-transaction-costs-in-floor-based
+source_file: Foucault And Lescourret-Information Sharing, Liquidity And Transaction
+  Costs In Floor-Based Tradi.pdf
+source_review: partial
+tags:
+- market-microstructure
+- floor-trading
+- information-sharing
+- liquidity
+- bid-ask-spread
+- academic-paper
+tier: B
+title: Information Sharing, Liquidity and Transaction Costs in Floor-Based Trading
+  Systems
+year: 2001
 ---
 
 ## Summary

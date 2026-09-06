@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smarter Trading — Perry J. Kaufman · Trading Playbook</title>
+<meta name="description" content="A systems-development handbook centered on the Adaptive Moving Average (KAMA) and a rigorous, skeptical process for testing trading strategies for robustness rather than curve-fit profitability.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>Smarter Trading</h1>
+  <p class="byline">Perry J. Kaufman · 1995 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A systems-development handbook centered on the Adaptive Moving Average (KAMA) and a rigorous, skeptical process for testing trading strategies for robustness rather than curve-fit profitability.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-4, 32, 40, 250 (contents, cost-of-execution and expectation chapters, and the glossary definitions of the efficiency ratio and risk measures). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=adaptive-moving-average">adaptive-moving-average</a> <a class="tag" href="../search.html?q=systems-testing">systems-testing</a> <a class="tag" href="../search.html?q=robustness">robustness</a> <a class="tag" href="../search.html?q=risk-management">risk-management</a> <a class="tag" href="../search.html?q=price-shocks">price-shocks</a> <a class="tag" href="../search.html?q=overfitting">overfitting</a> </td></tr>
+    <tr><th>Length</th><td>257 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Smarter Trading” by Perry J. Kaufman at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/perry-kaufman-smarter-trading--adaptive-moving-average-kama.html">The Adaptive Moving Average (KAMA)</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Kaufman&rsquo;s central argument is that markets evolve — structural change, new participants, changing volatility, and price shocks steadily erode any strategy&rsquo;s edge — so a trading approach should be built to adapt and to survive testing scrutiny, not just to have produced good historical returns. The book is organized in three parts: how changing markets and technology affect results, tools for meeting realistic performance objectives (profit-taking, stops, price shocks, the Adaptive Moving Average, computer learning methods), and a detailed methodology for testing a strategy&rsquo;s robustness. Its best-known technical contribution is the Adaptive Moving Average (AMA), commonly known outside this book as KAMA (Kaufman&rsquo;s Adaptive Moving Average), covered in its own system page in this library.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>A &ldquo;lateral solution&rdquo; — independent, self-contained components (entry method, profit-taking, stop-loss, risk sizing) that each stand on their own — is more robust than a &ldquo;vertical solution&rdquo; where each refinement is built on top of, and therefore dependent on, all previous refinements. Kaufman compares a vertical solution to a fragile skyscraper: pull one brick from the middle (one no-longer-valid assumption) and the whole structure is compromised. Trading system development should therefore isolate and test each component separately, use realistic expectations calibrated by risk (not just return), and treat any system that survives testing as still needing continuous monitoring, because the market conditions it was built for will not last indefinitely.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Efficiency Ratio (ER)</strong> — Kaufman&rsquo;s measure of trend &ldquo;noise&rdquo;: the net directional price change over a period divided by the sum of absolute daily price changes over that period; ranges from 0 (pure noise, no net direction) to 1 (perfectly directional). Basis of the Adaptive Moving Average (see system page).</li>
+<li><strong>Lateral vs. vertical solution</strong> — independent, separately-tested strategy components vs. a strategy where each layer depends on all prior layers; lateral solutions degrade more gracefully as markets change.</li>
+<li><strong>Overfitting (curve-fitting)</strong> — a strategy tuned so closely to historical data that its apparent edge is an artifact of that specific dataset rather than a real, persistent pattern.</li>
+<li><strong>Maximum drawdown</strong> — the largest peak-to-valley equity decline in a track record; Kaufman treats it as inevitable that a drawdown as large as, or larger than, the worst historical one will eventually recur.</li>
+<li><strong>Price shock</strong> — a sudden, large, discontinuous price move (e.g., a surprise government report, a market crash) that breaks normal risk assumptions; Kaufman argues most system tests understate this risk because historical optimization naturally favors parameter sets that happened to avoid or benefit from shocks in the test window.</li>
+<li><strong>Errors of omission</strong> — survivorship bias and the failure to model a worst-case scenario; risks that are invisible precisely because they don&rsquo;t appear in the test data used.</li>
+<li><strong>Deleveraging</strong> — reducing position size (rather than adding a tighter stop) as the primary tool for controlling risk when small stop-losses prove unreliable or unpredictable in testing.</li>
+<li><strong>Chi-square significance test for trading reliability</strong> — a formal test (compares actual vs. expected win/loss frequency) Kaufman applies to judge whether a system&rsquo;s live results are statistically consistent with its backtested reliability, adjusted for the number of trades in the sample.</li>
+<li><strong>Best Choice Index</strong> — a robustness-selection tool for choosing a system&rsquo;s parameters by looking at how average return and its standard deviation move together across a curve of tested parameter values, rather than picking the single best-performing parameter set.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>Kaufman documents general system-testing and risk-control mechanics rather than a single tradable rule set (aside from KAMA, covered separately):
+1. <strong>Profit-taking</strong>: spreading profit-taking across multiple objective levels, rather than one fixed target, improved risk-adjusted results in Kaufman&rsquo;s tests (one cited test improved a return/risk ratio from .33 to .50 by taking profits on 4 of 10 trades across staggered levels); a stop-loss smaller than the largest profit-taking level will prevent the largest objective from ever being reached.
+2. <strong>Stop-losses</strong>: Kaufman&rsquo;s own tests across multiple markets (e.g., Chrysler, Siemens) found stop-loss size had inconsistent, often minimal, effect on long-run annualized return once results were normalized to a fixed maximum drawdown — stops mainly change risk shape, not necessarily expectancy.
+3. <strong>Deleveraging procedure</strong> (used when stops don&rsquo;t reliably control risk): (a) measure the system&rsquo;s long-term risk via a combination of max drawdown and standard deviation of equity changes; (b) size the position so that roughly 3 standard deviations of annualized risk equals your acceptable annual loss threshold (Kaufman&rsquo;s own example targets under a 10% chance of losing more than 10%/year); (c) size capital accordingly; (d) still use a wider stop-loss for shock protection, sized to avoid triggering on normal noise.
+4. <strong>Robustness testing process</strong> (Part 3, condensed): (1) decide what to test — write rules complete and specific enough to be fully programmed, with no unstated assumptions; (2) decide how to test — use enough historical data to include multiple price shocks and regime types, avoid &ldquo;continuation&rdquo;/&rdquo;perpetual&rdquo; contract series that erase real gaps, verify data accuracy visually; (3) evaluate results using multiple parameter sets around the chosen one (not just the single best) to confirm the strategy is robust across a neighborhood of parameters, not curve-fit to one; (4) choose parameters from the middle of a stable-performance plateau, not the isolated peak of an optimization surface; (5) monitor live performance against the tested statistical distribution (e.g., via the chi-square test) to catch when a system stops working.
+5. <strong>Trend-speed selection by market type</strong> — runaway markets favor the fastest practical trend speed; fast trending markets with sharp reversals need enough lag to avoid whipsaws; congested/sideways markets need a very slow trend speed with a large trend-change threshold to avoid repeated false signals.</p>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Risk is the book&rsquo;s central technical concern. Key numbers and rules: normalize comparisons across systems to a fixed maximum drawdown (Kaufman&rsquo;s tables use 25%) rather than comparing raw returns; assess risk using more data, not less, because longer histories contain more price-shock episodes and regime types (a system tested on only 3 years of data will not have seen its worst-case drawdown yet); consider testing a strategy twice — once on recent data for parameter/timing selection, once on a longer history for risk assessment — since longer tests tend to show lower returns and higher risk than short, cherry-picked windows. A worked example of price-shock exposure compares an unleveraged stock portfolio (50% cash, rest in stock) against a 5%-margined futures portfolio under the same shock size, showing futures losses scaled up roughly 5–10x for the same underlying price move. Kaufman is explicit that &ldquo;the greatest failure in trading is undercapitalization,&rdquo; driven by unrealistic (too-low) expectations of risk drawn from over-optimized backtests.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Less a psychology book than a discipline-of-process book: the discipline Kaufman asks for is intellectual honesty in testing — starting from a market-based idea rather than mining data for patterns (&ldquo;start by knowing the answer&rdquo; you&rsquo;re testing for, rather than letting an optimizer hand you an answer), being suspicious of unrealistically good backtest results, and resisting the temptation to abandon an originally sound rationale once favorable-looking test output arrives (his term: &ldquo;starting with one idea and ending with another&rdquo;). He also warns against selection bias in how traders judge market commentary after the fact — the traders who happened to be right about a move are the ones who get remembered and quoted, which distorts perceived forecasting skill.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — The Impact of Change on Markets and Trading — how markets and prices structurally change over time, obsolescence of once-reliable technical patterns, seasonality.</li>
+<li>Ch 2 — Assessing Market Reality — execution problems, performance measurement pitfalls, globalization effects.</li>
+<li>Ch 3 — Reasonable Expectations Give Achievable Results — the danger of letting computers &ldquo;free-reign&rdquo; over strategy discovery; realistic use of systems.</li>
+<li>Ch 4 — Risk and Return — standardizing risk/return comparisons, diversification, risk of ruin, maximum drawdown.</li>
+<li>Ch 5 — Profit-Taking — testing multiple profit objectives and their effect on risk.</li>
+<li>Ch 6 — The Mixed Role of Stops for Controlling Risk — stop-loss testing results, when stops conflict with a system&rsquo;s underlying logic.</li>
+<li>Ch 7 — Understanding Price Shocks — types of shocks, portfolio impact, and how to build shock-resistant test data.</li>
+<li>Ch 8 — Smarter Trend-Following — the Efficiency Ratio and the Adaptive Moving Average (see system sub-page).</li>
+<li>Ch 9 — Computer Learning, Neural Networks, and New Technology — expert systems, neural networks, fuzzy logic applied to trading.</li>
+<li>Ch 10 — Testing for Robustness — the full multi-step testing methodology and guidelines for selecting stable parameters.</li>
+<li>Ch 11 — Improving the Performance of Existing Systems — statistical significance testing, filtering signals, anticipation, overnight risk, leverage/cost trade-offs by trend speed.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>Kaufman&rsquo;s stop-loss and price-shock test tables reflect early-1990s markets and instruments (Chrysler stock, Deutschmark futures, pre-euro European currencies) and transaction-cost assumptions that are dated, though the qualitative conclusions (stops mainly reshape risk rather than reliably improving expectancy; shocks are systematically underrepresented in short backtests) hold up as general principles. The book predates walk-forward and modern out-of-sample validation terminology but describes an equivalent process in its own vocabulary (testing a neighborhood of parameters, holding out data for a second risk-only test). The Adaptive Moving Average is Kaufman&rsquo;s most durable and widely-adopted contribution; other sections (expert systems, fuzzy logic, neural networks in Ch. 9) reflect mid-1990s computing enthusiasm and are more dated than the core testing methodology.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>System developers and quantitatively-minded traders who want a rigorous, skeptical process for building and validating mechanical strategies, and specifically anyone wanting the origin and mechanics of the Adaptive Moving Average / KAMA. Less useful for discretionary traders looking for chart-pattern or psychology-focused material — this is a testing-and-development handbook, not a setup catalog.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/perry-kaufman-smarter-trading--adaptive-moving-average-kama.html">The Adaptive Moving Average (KAMA)</a> — this library&rsquo;s dedicated system page for the KAMA method introduced in Chapter 8.</li>
+<li><a class="xref" href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — complementary coverage of mechanical trend-following system design and testing discipline.</li>
+<li><strong>New Concepts in Technical Trading Systems</strong> (no library summary: corrupt) — another foundational adaptive/volatility-aware indicator text (Wilder&rsquo;s ATR, RSI) in the same technical lineage as Kaufman&rsquo;s Efficiency Ratio.</li>
+<li><a class="xref" href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — a complementary framework for position sizing and system evaluation alongside Kaufman&rsquo;s robustness-testing approach.</li>
+<li><a class="xref" href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a> — practical implementation of systematic testing methodology similar in spirit to Kaufman&rsquo;s Part 3.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/perry-kaufman-smarter-trading--adaptive-moving-average-kama.html">The Adaptive Moving Average (KAMA)</a> — A trendline that automatically speeds up in trending markets and slows down in noisy/sideways markets, driven by an Efficiency Ratio measuring net direction versus total price movement.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li><li><a href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — Defines the 8 components of a trading strategy and 8 sections of a full trading business plan, plus a system-development framework from an Army systems-design interview.</li><li><a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a> — A TradeStation/EasyLanguage programming course built around six full turnkey mechanical systems, each backtested 1982-2002 across 17 futures markets.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

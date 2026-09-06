@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixed Ratio Position Sizing — Ryan Jones · Trading Playbook</title>
+<meta name="description" content="The Fixed Ratio delta formula for adding contracts as profit accumulates, with worked comparisons against Fixed Fractional and Optimal f sizing.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a> › <a href="../books/forex-misc-money-management-ryan-jones.html">The Trading Game: Playing by the Numbers to Make Millions</a></p>
+  <h1>Fixed Ratio Position Sizing</h1>
+  <p class="byline">Ryan Jones · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">The Fixed Ratio delta formula for adding contracts as profit accumulates, with worked comparisons against Fixed Fractional and Optimal f sizing.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=fixed-ratio">fixed-ratio</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=delta">delta</a> <a class="tag" href="../search.html?q=drawdown-control">drawdown-control</a> <a class="tag" href="../search.html?q=futures">futures</a> </td></tr>
+    <tr><th>Length</th><td>115 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Fixed Ratio Position Sizing” by Ryan Jones at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A position-sizing overlay, independent of the entry/exit signal, that decides how many contracts (or shares) to trade next. Unlike Fixed Fractional sizing (risk a constant percentage of equity, or one contract per fixed dollar amount), Fixed Ratio requires an amount of new profit to add the next contract that grows in fixed proportion to the number of contracts already held. This keeps early-stage risk low while letting position size compound faster once the account has built a cushion.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>1. Pick a delta</strong>, the only free variable. Rule of thumb: roughly half the expected worst-case per-contract drawdown (a $10,000 drawdown suggests a $5,000 delta). Smaller delta = more aggressive; larger = more conservative.</p>
+<p><strong>2. Contract-increase level</strong>: previous required equity + (contracts held × delta) = level to add the next contract. Example, delta $5,000, start $10,000: $10,000+(1×5,000)=$15,000 → 2 contracts; $15,000+(2×5,000)=$25,000 → 3; $25,000+(3×5,000)=$40,000 → 4. Contracts drop by the same schedule in reverse if equity falls back through a level.</p>
+<p><strong>3. Estimate the pace of growth</strong>: average trades between increases ≈ delta ÷ average trade profit. A $500 average trade with a $5,000 delta implies roughly one new contract every 10 trades at any contract count — a liberal estimate, since it ignores asymmetrical leverage; a realistic figure is closer to 90% of it.</p>
+<p><strong>4. Profit boundary for contract count N</strong>: lower (drop to N−1) = [(N×N − N) ÷ 2] × delta; upper (move to N+1) = [(N×N + N) ÷ 2] × delta. Example, N=10, delta=$5,000: lower = 45×5,000 = $225,000; upper = 55×5,000 = $275,000.</p>
+<p><strong>5. Drawdown response sizing</strong>: expected dollar drawdown ÷ delta = maximum contract levels the account can fall, regardless of where in the sequence it strikes. At 10 contracts, $5,000 delta, $10,000 drawdown → 2 levels, floor of 8 contracts.</p>
+<p><strong>6. Stocks or multi-lot units</strong>: margin is roughly proportional to price (unlike futures, where it&rsquo;s a small fraction of contract value), so the starting balance needs a margin buffer large enough that required margin never outruns the schedule as units are added; recompute for the chosen unit size (10-lot, 100-lot).</p>
+<p><strong>7. Portfolios</strong>: assign each market its own delta (roughly half its expected drawdown). Combining long and short units across loosely correlated markets carries more total units for the same aggregate risk than an all-long or highly correlated book.</p>
+<h2 id="risk">Risk</h2>
+<p>Fixed Ratio&rsquo;s risk profile is set almost entirely by delta: smaller accelerates both compounding and drawdown percentage; larger slows both. Against Fixed Fractional methods producing equivalent total profit, a matched delta produces a smaller percentage drawdown, because required equity per contract rises as contracts are added rather than staying constant (one-contract-per-$X) or shrinking (Optimal f). The edge is largest for small-to-mid accounts; at large fund size, Fixed Fractional can approach true continuous compounding in a way a small Fixed Ratio account cannot. Pair Fixed Ratio with the parent book&rsquo;s drawdown-response rule (cut trading-unit risk 20% per 10% equity drawdown) rather than relying on delta alone.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The formula assumes a roughly stable relationship between account size and per-contract dollar risk; it does not select entries, exits, or stops, and gives no protection against an outsized single loss beyond whatever stop method is used elsewhere. Worked examples use late-1990s futures margins and need updating for current markets. Comparisons favoring Fixed Ratio use selected, bounded drawdown scenarios rather than a full simulation across trade sequences — verify &ldquo;superior to Fixed Fractional&rdquo; against your own system rather than treating it as a universal result.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

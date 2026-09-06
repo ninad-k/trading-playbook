@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Trading Game: Playing by the Numbers to Make Millions — Ryan Jones · Trading Playbook</title>
+<meta name="description" content="Introduces Fixed Ratio position sizing (the delta formula) and mathematically dismantles Fixed Fractional and Optimal f sizing as its rivals.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></p>
+  <h1>The Trading Game: Playing by the Numbers to Make Millions</h1>
+  <p class="byline">Ryan Jones · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Introduces Fixed Ratio position sizing (the delta formula) and mathematically dismantles Fixed Fractional and Optimal f sizing as its rivals.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1, 7, 10-11 (the opening argument for money management, the asymmetrical-leverage arithmetic and the fixed-fractional critique). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=fixed-ratio">fixed-ratio</a> <a class="tag" href="../search.html?q=fixed-fractional">fixed-fractional</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=risk-of-ruin">risk-of-ruin</a> <a class="tag" href="../search.html?q=drawdown-control">drawdown-control</a> </td></tr>
+    <tr><th>Length</th><td>115 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Trading Game: Playing by the Numbers to Make Millions” by Ryan Jones at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/forex-misc-money-management-ryan-jones--fixed-ratio-position-sizing.html">Fixed Ratio Position Sizing</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Ryan Jones, a futures broker and money-management researcher, wrote this book around a single claim: in leveraged trading, how many contracts or shares you put on the next trade drives the great majority of an account&rsquo;s long-run outcome — far more than the entry system or the market traded. The book opens by narrowly defining &ldquo;proper&rdquo; money management as the sizing decision alone, distinct from stop placement, entries and exits (which Jones calls trade or risk management), and from tactics like pyramiding and cost averaging that are commonly mislabeled as money management. It then works through every common Fixed Fractional variant (one-contract-per-$X, Optimal f, &ldquo;risk 2-3% per trade&rdquo;) with worked numeric examples, shows why each either grows too slowly or risks catastrophic drawdowns, and proposes Jones&rsquo;s own alternative, Fixed Ratio, built around a single tunable constant he calls delta. Later chapters extend Fixed Ratio to stock trading, multi-market portfolios, drawdown-triggered risk cuts, and capital allocation for professional managers.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Money management, not the trading system, is responsible for the bulk of an account&rsquo;s profit — Jones estimates roughly 90% in his opening illustration. Any workable sizing method must be antimartingale (bet size rises with equity and falls with losses) and must address risk and reward together; every Fixed Fractional variant fails this test because it either compounds fast but exposes the account to ruinous drawdowns (aggressive per-contract divisors, Optimal f) or compounds so slowly it barely matters (2-3%-per-trade rules, common at fund size). Fixed Ratio resolves the trade-off by requiring an ever-larger but proportionally consistent profit increment to add each new contract, keeping early-stage risk low while letting growth accelerate later, once the account can better absorb a drawdown.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Money management (narrow definition)</strong> — strictly how much equity to risk on the next trade; excludes stop placement, entries/exits, and pyramiding.</li>
+<li><strong>Antimartingale sizing</strong> — position size increases as equity increases and decreases as equity falls; opposite of a martingale (bet more after a loss).</li>
+<li><strong>Fixed Fractional trading</strong> — risking a fixed percentage of equity, or one contract per fixed dollar amount; umbrella term covering Optimal f, Secure f, and &ldquo;risk 2-3% per trade.&rdquo;</li>
+<li><strong>Optimal f</strong> — Ralph Vince&rsquo;s formula for the capital fraction that maximizes geometric growth for a given trade sequence; Jones shows it implies theoretical drawdowns well past 50%.</li>
+<li><strong>Fixed Ratio</strong> — the profit required to add the next contract grows in fixed proportion to the number of contracts already held.</li>
+<li><strong>Delta</strong> — the sole variable in the Fixed Ratio formula; smaller is more aggressive (faster contract increases), larger is more conservative.</li>
+<li><strong>Asymmetrical leverage</strong> — a loss requires a disproportionately larger percentage gain to recover (a 50% loss needs a 100% gain), eroding over-aggressive Fixed Fractional accounts.</li>
+<li><strong>Risk of ruin</strong> — the probability of losing a defined fraction of capital before hitting a target; central to Jones&rsquo;s rejection of aggressive Fixed Fractional variants.</li>
+<li><strong>Rate of decrease</strong> — the drawdown-response overlay: cut trading-unit size as equity falls, restore it as equity recovers.</li>
+<li><strong>Cost averaging and pyramiding</strong> — classified as trade-management, not money-management, techniques; mostly discouraged for leveraged instruments outside narrow cases.</li>
+<li><strong>Market weighting</strong> — allocating a different delta per market by its own expected drawdown, applied only after core money management.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is a position-sizing book: it takes entry and exit signals as given from any existing trading method. Its concrete, reproducible numbers:</p>
+<ol>
+<li><strong>Fixed Ratio level formula</strong>: previous required equity + (number of contracts held × delta) = the equity level at which the next contract is added.</li>
+<li><strong>Choosing delta</strong>: Jones&rsquo;s rule of thumb sets delta near half the market&rsquo;s expected worst-case per-contract drawdown (e.g., an expected $10,000 max drawdown suggests roughly a $5,000 delta); smaller deltas trade more aggressively.</li>
+<li><strong>Estimating the pace of contract growth</strong>: delta ÷ average trade profit ≈ average number of trades between contract increases.</li>
+<li><strong>Boundary formula for N contracts</strong>: [(N × N ± N) ÷ 2] × delta gives the lower/upper profit boundary of the range in which N contracts are traded.</li>
+<li><strong>Drawdown-to-delta ratio</strong>: dividing an expected dollar drawdown by delta gives the maximum number of contract &ldquo;levels&rdquo; the account will fall during that drawdown, independent of where in the sequence it strikes.</li>
+<li><strong>Stock and portfolio adaptation</strong>: starting balance must include a margin buffer so margin requirements never outrun the Fixed Ratio schedule; the book works this through for $25-$100 stocks traded in 1-, 10- and 100-lot units.</li>
+<li><strong>Rate of decrease</strong>: for every 10% drawdown in account equity, cut trading-unit risk by 20% (e.g., 2.0% → 1.6% → 1.28%); restore size only as equity recovers.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Beyond delta selection, Jones&rsquo;s main risk control is the rate-of-decrease rule above. He runs the same bounded drawdown scenario (a $1,000-$2,000 largest loss per contract) through several Fixed Fractional variants and Fixed Ratio at comparable capital: one-contract-per-$10,000 destroys 51-66% of the account on that drawdown; &ldquo;risk 2-3% per trade&rdquo; only loses 8-27% but grows so slowly a small account may wait years to add a second contract; Fixed Ratio at a matched delta produces materially smaller percentage drawdowns for equal or larger total profit. He is explicit, however, that this edge narrows and can reverse at large fund size — a big Fixed Fractional account can add near-fractional position sizes and approach true geometric compounding in a way a small account cannot, which is why the closing chapters treat CTA-scale capital allocation as a separate problem.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Jones frames money management as a &ldquo;numbers game&rdquo; precisely to remove discretion: judgment calls about the &ldquo;right&rdquo; percentage to risk, adding to losers (cost averaging), or skipping trades after a losing streak cannot be mathematically justified and should be replaced by one tested, mechanical formula applied without exception. He presents this as psychologically easier than trade timing, since delta and current equity dictate contract count without a decision in the moment. He is candid that most traders — even institutional accounts — chronically under-apply money management out of fear of drawdowns, illustrating the cost with an anecdote about a trader who delayed adopting position-sizing software for a year and, by his estimate, left roughly $530,000 in additional profit on the table.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ol>
+<li>Why? What? Where? When? Who? How? — the case that money management drives the bulk of trading profit.</li>
+<li>Why (Proper) Money Management? — narrow definition versus stops, entries, and pyramiding.</li>
+<li>Types of Money Management — Fixed Fractional variants, Optimal f, cost averaging, pyramiding compared.</li>
+<li>Practical Facts — drawdown math, largest-loss statistics, asymmetrical leverage.</li>
+<li>Fixed Fractional Trading — full breakdown of its growth-versus-risk trade-offs.</li>
+<li>Fixed Ratio Trading — the delta formula and its extension to stocks and portfolios.</li>
+<li>Rate of Decrease — the drawdown-triggered unit-size-cutting overlay.</li>
+<li>Portfolios — applying Fixed Ratio across several simultaneous markets.</li>
+<li>Market Weighting — allocating delta unevenly by expected drawdown.</li>
+<li>Market Weighting through Money Management, Not before It — correct sequencing.</li>
+<li>Other Profit-Protecting Measures — additional drawdown and profit-lock techniques.</li>
+<li>Risk of Ruin — probability-of-ruin math applied to both sizing families.</li>
+<li>The System — combining a full trading system with Fixed Ratio end to end.</li>
+<li>Optimization — pitfalls of curve-fitting delta alongside system parameters.</li>
+<li>Commodity Trading Advisors (CTAs) and Money Management — capital allocation for fund managers.</li>
+<li>Money Management Marriage — reconciling large-fund constraints with Fixed Ratio&rsquo;s edge.</li>
+<li>Putting It All Together — implementation summary.</li>
+</ol>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The delta formula is fully specified and worked with real numbers across futures, stocks, and multi-market portfolios — unusually rigorous for the genre, showing the algebra rather than asserting conclusions. That said, dollar figures, margins, and contract values are late-1990s futures pricing and need re-deriving for current markets. Jones&rsquo;s drawdown comparisons favor Fixed Ratio using selected, bounded-loss scenarios rather than a full simulation across trade sequences, so the &ldquo;always superior&rdquo; framing deserves skepticism at aggressive delta choices or fat-tailed loss distributions. His claim of Fixed Ratio&rsquo;s edge is explicitly walked back for large funds in the later chapters, worth reading before applying the method at scale. His narrow definition of money management (excluding stops, pyramiding, and trade-skipping rules) is a deliberate choice, not an industry consensus — other authors define the term more broadly.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Futures and forex traders who already have a profitable entry/exit method and want a mechanical, mathematically explicit position-sizing overlay for it. Also useful as a rigorous counterpoint to the Fixed Fractional and Optimal f approaches covered elsewhere in this library.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — covers Optimal f and risk of ruin in more statistical depth; a useful counterpoint to Jones&rsquo;s dismissal of Fixed Fractional.</li>
+<li><a class="xref" href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — the Turtles used a related but distinct volatility-based (N/ATR) sizing approach; a good contrast in philosophy and mechanics.</li>
+<li><a class="xref" href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results.html">The Complete TurtleTrader: The Legend, the Lessons, the Results</a> — another antimartingale, volatility-scaled sizing method built into a complete trading system.</li>
+<li><a class="xref" href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — Van Tharp&rsquo;s broader definition of position sizing, including the fixed-fractional variants Jones critiques.</li>
+<li><a class="xref" href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — a shorter treatment of the same core sizing problem, useful for comparison.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results.html">The Complete TurtleTrader: The Legend, the Lessons, the Results</a> — Tells the Richard Dennis/William Eckhardt Turtle experiment and, unlike the earlier Covel site archive, publishes the actual N/ATR-based System One and System Two breakout rules.</li><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

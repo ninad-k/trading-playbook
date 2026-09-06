@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investment Valuation — Aswath Damodaran · Trading Playbook</title>
+<meta name="description" content="Graduate-level valuation textbook covering DCF models (dividend, FCFE, FCFF), relative valuation multiples, and growth/terminal-value estimation, with worked company examples.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></p>
+  <h1>Investment Valuation</h1>
+  <p class="byline">Aswath Damodaran · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">Graduate-level valuation textbook covering DCF models (dividend, FCFE, FCFF), relative valuation multiples, and growth/terminal-value estimation, with worked company examples.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 45, 85, 384, 452 (the model-choice chapters and the worked Con Ed dividend/FCFE comparison; the note&#39;s formulas were checked against these sections). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=valuation">valuation</a> <a class="tag" href="../search.html?q=dcf">dcf</a> <a class="tag" href="../search.html?q=relative-valuation">relative-valuation</a> <a class="tag" href="../search.html?q=cost-of-capital">cost-of-capital</a> <a class="tag" href="../search.html?q=terminal-value">terminal-value</a> <a class="tag" href="../search.html?q=growth-rate">growth-rate</a> <a class="tag" href="../search.html?q=cash-flow">cash-flow</a> </td></tr>
+    <tr><th>Length</th><td>1356 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Investment Valuation” by Aswath Damodaran at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/investment-valuation-damodaran--dcf-valuation-method.html">DCF Valuation Method (FCFE / FCFF)</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is Damodaran&rsquo;s comprehensive graduate-level valuation textbook (2nd edition), covering discounted cash flow (DCF) valuation, relative valuation (multiples), and contingent-claim (real-option) valuation across equity, private firms, financial-service firms, distressed firms, real estate, and derivatives. It is not a trading book; it is a reference for estimating what a business is intrinsically worth, and for understanding why market multiples diverge from that value. Every model is illustrated with a real-company example (Con Ed, Boeing, Procter &amp; Gamble, Amgen, Motorola, Home Depot, Cisco, and others), and Damodaran stresses throughout that valuation is not objective — analyst bias, growth assumptions, and choice of comparables drive most of the dispersion in value estimates.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>The value of any asset equals the present value of its expected future cash flows, discounted at a rate reflecting the riskiness of those cash flows — the unifying idea behind every model in the book, whether applied to a dividend stream, a company&rsquo;s free cash flow, a bond, a private business, or an option to expand a project. Relative valuation (multiples) is a shortcut version of the same DCF logic: every multiple (P/E, P/B, EV/EBITDA, P/S) can be derived algebraically from a stable-growth DCF model, so a multiple is only &ldquo;cheap&rdquo; or &ldquo;expensive&rdquo; relative to peers after controlling for the same growth, risk, and payout differences a full DCF would make explicit. The second major theme is that terminal value dominates most valuations arithmetically, so its assumptions — stable growth rate, length of the high-growth period, and perpetual return on capital — deserve more scrutiny than the explicit-period forecasts usually receive.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Free Cash Flow to Equity (FCFE)</strong> — cash left for stockholders after reinvestment and net debt flows: Net Income − (CapEx − Depreciation) − ΔWorking Capital + (New Debt − Debt Repaid); a more complete measure of &ldquo;affordable&rdquo; dividends than the dividend itself.</li>
+<li><strong>Free Cash Flow to Firm (FCFF)</strong> — cash available to all capital providers: EBIT(1−tax rate) + Depreciation − CapEx − ΔWorking Capital; discounted at the cost of capital to get firm (enterprise) value.</li>
+<li><strong>Cost of capital (WACC)</strong> — ke × E/(D+E) + kd(1−t) × D/(D+E); the blended discount rate used for FCFF valuation.</li>
+<li><strong>Fundamental growth rate</strong> — g = Retention Ratio × ROE (equity income) or Reinvestment Rate × Return on Capital (operating income); growth is manufactured by reinvesting above the cost of capital, not an exogenous input.</li>
+<li><strong>Competitive Advantage Period (CAP)</strong> — years a firm can sustain returns on capital above its cost of capital before competition erodes the excess return to zero; the central judgment call behind any high-growth forecast, and can be solved backward from price (Market Implied CAP) as a sanity check.</li>
+<li><strong>Gordon Growth / terminal value</strong> — Value = Cash Flow(n+1) / (discount rate − stable growth rate); dominates total value for most companies and blows up as growth approaches the discount rate, so stable growth is capped at the economy&rsquo;s long-run growth rate.</li>
+<li><strong>Two-stage / three-stage models</strong> — an explicit high-growth phase followed by a stable phase, with payout ratio, beta, and ROE reset toward &ldquo;mature firm&rdquo; levels in the terminal stage.</li>
+<li><strong>PE, PBV, PS ratios (fundamentally derived)</strong> — each multiple is a function of payout ratio, ROE (PBV) or profit margin (PS), growth, and risk; e.g., PE = Payout×(1+g)/(ke−g) for a stable-growth firm. The PEG ratio (PE ÷ growth rate) implicitly, and often wrongly, assumes this relationship is linear.</li>
+<li><strong>Definitional/uniformity tests</strong> — a multiple&rsquo;s numerator and denominator must both be equity-based (P/E) or both firm-based (EV/EBITDA); mixing equity price with firm-level earnings produces a distorted, debt-blind comparison.</li>
+<li><strong>Liquidation value</strong> — an alternative to going-concern terminal value: book value adjusted for inflation, or the discounted earning power of the remaining assets.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is a valuation reference, not an entry/exit trading system; there are no price triggers, stops, or holding periods. Its &ldquo;rules&rdquo; are the numeric conventions and decision criteria used to build an intrinsic-value estimate.</p>
+<ol>
+<li><strong>Model choice by cash-flow policy:</strong> use the Dividend Discount Model only if dividends closely track FCFE (Con Ed&rsquo;s dividends were 91.5% of average FCFE, 1996–2000); use FCFE directly when a firm pays out persistently less or more than it can afford; use FCFF/WACC when leverage is changing or the whole firm is being valued.</li>
+<li><strong>Stable growth rate ceiling:</strong> terminal growth cannot exceed the long-run nominal growth rate of the economy the firm operates in, and as a rule of thumb should not exceed the risk-free rate used in the discount rate.</li>
+<li><strong>Stable-period resets:</strong> beta converges toward 1 (cap ~1.2), ROE/ROC converges toward industry averages, and the reinvestment/retention ratio equals Stable growth ÷ Stable-period ROE (or ROC).</li>
+<li><strong>Historical growth estimation:</strong> use geometric, not arithmetic, average growth for volatile series; for negative-earnings years use the absolute value of the prior-period denominator, and treat growth as &ldquo;not meaningful&rdquo; rather than force a distorted number.</li>
+<li><strong>Implied growth check:</strong> solve the DDM/FCFE formula backward from market price for the growth rate it requires, and compare against an independent fundamentals-based estimate as a bias check.</li>
+<li><strong>Multiple comparability tests:</strong> confirm definitional consistency (same PE variant), numerator/denominator consistency (equity-to-equity or firm-to-firm), and use the median, not the mean, when negative-earnings firms drop out and bias the average upward.</li>
+<li><strong>Length of high-growth period:</strong> judged from firm size relative to its addressable market, growth momentum, and durability of competitive barriers — examples use 0 years (Con Ed, stable), 5 years (P&amp;G), and 10 years (Amgen, patent-protected).</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book has no position-sizing chapter; &ldquo;risk&rdquo; is embedded entirely in the discount rate — riskier cash flows are discounted more heavily via a higher cost of equity (riskless rate, equity risk premium, beta) or cost of debt (default spread). Since terminal value dominates total value, the practical implication is to stress-test valuations across a range of terminal growth rates and CAP lengths rather than trust one point estimate — the book&rsquo;s own sensitivity tables (Con Ed&rsquo;s value swinging from roughly $25 to over $60 as growth assumptions shift a few points) show how fragile a single DCF output can be. Cross-checking against relative valuation and the market-implied growth rate substitutes for a stop-loss.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Damodaran opens by debunking the idea that valuation is objective: models require subjective inputs, and analyst bias (pressure to issue buy over sell recommendations, self-serving takeover valuations, setting a price target first and reverse-engineering the model) is a bigger source of error than any modeling choice. His prescribed discipline: avoid a public position on over/under-valuation before finishing the analysis, minimize personal stake in the outcome, and treat every valuation as perishable — it ages with new information and must be updated, not treated as a fixed verdict.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1-3 — Introduction to Valuation; Approaches to Valuation; Understanding Financial Statements: philosophical basis, the three valuation approaches, and accounting inputs.</li>
+<li>Ch 4-8 — Risk; Option Pricing; Market Efficiency; Riskless Rates and Risk Premiums; Estimating Risk Parameters: building the discount rate and real-option mechanics.</li>
+<li>Ch 9-12 — Measuring Earnings; From Earnings to Cash Flows; Estimating Growth; Terminal Value: the most value-sensitive inputs in the book.</li>
+<li>Ch 13-16 — Dividend Discount, FCFE, and Firm Valuation (Cost of Capital/APV) Models; Equity Value Per Share: the core DCF toolkit.</li>
+<li>Ch 17-20 — Relative Valuation Principles; Earnings, Book Value, and Revenue/Sector Multiples: the multiples toolkit and its DCF-derived logic.</li>
+<li>Ch 21-24 — Financial Service Firms; Negative Earnings; Young/Start-up Firms; Private Firms: special-case adaptations.</li>
+<li>Ch 25-27 — Acquisitions and Takeovers; Real Estate; Other Assets: applications beyond public equity.</li>
+<li>Ch 28-30 — Options to Delay, Expand, Abandon; Distressed Equity: real-options extensions, including equity as a call option on a levered firm.</li>
+<li>Ch 31-32 — Value Enhancement (DCF Framework; EVA/CFROI): linking valuation to corporate strategy.</li>
+<li>Ch 33-35 — Valuing Bonds; Futures and Forwards; Overview and Conclusion: fixed-income/derivatives valuation and model-selection guidance.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The worked examples use late-1990s/2000-2001 companies, interest rates, and risk premiums (5.4% riskless rate, 4% equity risk premium), so absolute numbers need updating — the formulas and logic transfer, not the plugged-in figures. The book assumes fairly sophisticated familiarity with financial statements and algebra; it is not introductory despite covering fundamentals. Because it treats relative valuation as a derivative of DCF logic, it is more skeptical of pure multiple-based investing than practitioner books like <a class="xref" href="../books/the-intelligent-investor-benjamin-graham.html">The Intelligent Investor</a>; the trade-off is far greater rigor at the cost of more inputs and judgment calls, particularly around growth duration and terminal value, which the book admits dominate the answer and are hardest to pin down.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Equity analysts, buy-side investors, and serious retail investors who want defensible intrinsic-value estimates rather than screens or multiples alone; readers comfortable with algebra and financial statements; anyone who wants to understand why two &ldquo;value&rdquo; investors reach different conclusions on the same stock (usually a growth-rate or terminal-value disagreement, not a data disagreement). Traders wanting entry/exit signals should look elsewhere — this informs the &ldquo;is it cheap&rdquo; question over years, not the &ldquo;when to buy&rdquo; question.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/damodaran-aswath-investment-fables.html">Investment Fables: Exposing Myths About Stocks</a> — same author, applies this toolkit to debunk specific market myths and valuation shortcuts.</li>
+<li><a class="xref" href="../books/the-intelligent-investor-benjamin-graham.html">The Intelligent Investor</a> — a simpler, screen-based framework this book&rsquo;s relative-valuation chapters formalize algebraically.</li>
+<li><a class="xref" href="../books/r-g-hagstrom-the-warren-buffett-way-2nd-edition.html">The Warren Buffett Way</a> — a qualitative, moat-focused companion to this book&rsquo;s quantitative DCF machinery.</li>
+<li><a class="xref" href="../books/j-k-lasser-pick-stocks-like-warren-buffett.html">Pick Stocks Like Warren Buffett</a> — a more accessible, checklist-driven route to the same fundamental-value question.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/damodaran-aswath-investment-fables.html">Investment Fables: Exposing Myths About Stocks</a> — Tests a dozen classic stock-picking stories - dividends, low PE, low P/B, growth, momentum, contrarian, arbitrage - against real data and shows exactly when and why each one fails.</li><li><a href="../books/the-intelligent-investor-benjamin-graham.html">The Intelligent Investor</a> — Graham&#39;s framework for value investing: treat market quotes as a manic partner (Mr. Market), demand a margin of safety, and pick a defensive or enterprising posture with explicit numeric screens.</li><li><a href="../books/r-g-hagstrom-the-warren-buffett-way-2nd-edition.html">The Warren Buffett Way</a> — Distills Warren Buffett&#39;s investment decisions into twelve tenets across business, management, financial, and value criteria, plus his focus-portfolio approach.</li><li><a href="../books/j-k-lasser-pick-stocks-like-warren-buffett.html">Pick Stocks Like Warren Buffett</a> — Distills Buffett&#39;s value-investing principles and profiles a dozen like-minded fund managers who apply the same approach.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,35 @@
 ---
-title: "Market Masters: How Successful Traders Think, Trade and Invest... and How You Can Too!"
 author: Jake Bernstein
-year: 1994
-slug: jake-bernstein-market-masters
-tier: A
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, interviews, futures, risk-management, trader-mindset, seasonals]
 difficulty: beginner
 doc_type: book
+one_liner: Bernstein interviews eight well-known futures traders/analysts (Angell,
+  Appel, Babcock, Lane, Leslie, Prechter, Wilder, Williams) to extract shared habits
+  behind consistent success.
 pages: 91
-one_liner: "Bernstein interviews eight well-known futures traders/analysts (Angell, Appel, Babcock, Lane, Leslie, Prechter, Wilder, Williams) to extract shared habits behind consistent success."
-related: [jake-bernstein-stock-market-strategies-that-work, jake-bernstein-trade-your-way-to-riches, jack-schwager-stock-market-wizards, bernstein-jake-the-compleat-day-trader-vol-i]
-source_file: "Jake Bernstein - Market Masters.pdf"
+related:
+- jake-bernstein-stock-market-strategies-that-work
+- jake-bernstein-trade-your-way-to-riches
+- jack-schwager-stock-market-wizards
+- bernstein-jake-the-compleat-day-trader-vol-i
+reviewed_pdf_pages: 2-7, 10, 13, 16, 20, 23, 26, 29, 33, 36, 39, 42, 46, 49, 52, 56,
+  59, 62, 65, 69, 72, 75, 78, 82, 85, 88 (every page the scan yields text for; the
+  intervening pages are image-only)
+slug: jake-bernstein-market-masters
+source_file: Jake Bernstein - Market Masters.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- interviews
+- futures
+- risk-management
+- trader-mindset
+- seasonals
+tier: A
+title: 'Market Masters: How Successful Traders Think, Trade and Invest... and How
+  You Can Too!'
+year: 1994
 ---
 
 ## Overview
@@ -41,7 +59,7 @@ The book is psychology- and habit-focused rather than a mechanical trading syste
 3. **Welles Wilder's stop rule:** decide before entering a trade exactly how much you are willing to lose on it; place the stop as soon as the entry order is filled; move the stop only in favor of the trade, never against it; his stated commitment is to "never, ever take a large loss."
 4. **Bernstein's "keys to success" checklist (chapter 11):** keep a trading diary reviewed at the start and end of each day; do market homework daily even with a mechanical system; if you must watch the market and cannot, either close the position or leave a stop-loss order with your broker rather than trying to stay in touch by phone; when in doubt, stay out; monitor performance on a trade-by-trade and day-by-day basis using an accounting program, tracking average winner size against average loser size.
 5. **Bernstein's news/price-surge rule:** use a trailing stop-loss (raised or lowered as price moves) once a position is in profit, taking advantage of brief intraday price surges to exit rather than assuming they will extend further.
-6. **George Lane's profit-taking rule:** take money out of the market whenever trading is profitable, both to reward good performance and to build a cash reserve against a future drawdown that might require adding funds to the account.
+6. **Profit-taking rule (Bernstein's own, confirmed by Lane):** take money out of the market whenever trading is profitable, both to reward good performance and to build a cash reserve against a future drawdown that might require adding funds to the account. Bernstein states the rule as his own, from *The Investor's Quotient*, and reports that Lane's answer confirmed it.
 
 No specific entry signal, timeframe, or position-sizing percentage common to all eight traders is given; each interviewee's numeric preferences (where stated) apply only to that individual's own practice.
 

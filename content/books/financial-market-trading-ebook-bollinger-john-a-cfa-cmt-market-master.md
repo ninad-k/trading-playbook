@@ -1,17 +1,33 @@
 ---
-title: "John A. Bollinger, CFA, CMT — Market Master"
 author: Neil A. Costa
-year: 2002
-slug: financial-market-trading-ebook-bollinger-john-a-cfa-cmt-market-master
-tier: B
 category: Indicators
-tags: [bollinger-bands, volatility, standard-deviation, moving-average, percent-b, bandwidth]
 difficulty: beginner
 doc_type: article
+one_liner: Profile of John Bollinger reprinted from the Australian Technical Analysts
+  Association Journal, explaining the origin, construction, and basic reading of Bollinger
+  Bands.
 pages: 4
-one_liner: "Profile of John Bollinger reprinted from the Australian Technical Analysts Association Journal, explaining the origin, construction, and basic reading of Bollinger Bands."
-related: [bollinger-band, bollingerbands, trading-bollinger-john-bollinger-bands-done, john-bollinger-bollinger-on-bollinger-band, bollinger-bandit-trading-strategy]
-source_file: "[Financial Market Trading ebook] BOLLINGER John A. CFA_ CMT - Market Master.pdf"
+related:
+- bollinger-band
+- bollingerbands
+- trading-bollinger-john-bollinger-bands-done
+- john-bollinger-bollinger-on-bollinger-band
+- george-pruitt-building-winning-trading-systems-with-tradestation
+reviewed_pdf_pages: 1-4
+slug: financial-market-trading-ebook-bollinger-john-a-cfa-cmt-market-master
+source_file: '[Financial Market Trading ebook] BOLLINGER John A. CFA_ CMT - Market
+  Master.pdf'
+source_review: full
+tags:
+- bollinger-bands
+- volatility
+- standard-deviation
+- moving-average
+- percent-b
+- bandwidth
+tier: B
+title: John A. Bollinger, CFA, CMT — Market Master
+year: 2002
 ---
 
 ## Summary

@@ -1,17 +1,33 @@
 ---
-title: "Latest Developments at the FWB: Reshaping of the Cash Markets"
-author: "Rainer Riess (Deutsche Börse)"
-year: 2002
-slug: latest-developments-at-the-fwb-xetra-best-slide-13
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [market-structure, xetra, frankfurt-stock-exchange, market-microstructure, order-execution, best-execution, index-rules]
+author: Rainer Riess (Deutsche Börse)
+category: Quant, Microstructure & Academic Research
 difficulty: intermediate
 doc_type: article
+one_liner: Deutsche Börse presentation on the 2003 Frankfurt/Xetra market segmentation
+  overhaul (Prime/General Standard, DAX index family) and the Xetra BEST retail best-execution
+  model.
 pages: 21
-one_liner: "Deutsche Börse presentation on the 2003 Frankfurt/Xetra market segmentation overhaul (Prime/General Standard, DAX index family) and the Xetra BEST retail best-execution model."
-related: [competition-between-exchanges-euronext-versus-xetra, exchange-rules-for-the-frankfurt-stock-exchange, xetra-xxl-the-new-dimension, xetraxxl-marketmodel]
-source_file: "Latest Developments At The Fwb - Xetra Best Slide 13.pdf"
+related:
+- competition-between-exchanges-euronext-versus-xetra
+- exchange-rules-for-the-frankfurt-stock-exchange
+- xetra-xxl-the-new-dimension
+- xetraxxl-marketmodel
+reviewed_pdf_pages: 5-6, 9-11, 14, 17-18 (the index framework, Best Executor commitment
+  types and the worked execution-price example)
+slug: latest-developments-at-the-fwb-xetra-best-slide-13
+source_file: Latest Developments At The Fwb - Xetra Best Slide 13.pdf
+source_review: partial
+tags:
+- market-structure
+- xetra
+- frankfurt-stock-exchange
+- market-microstructure
+- order-execution
+- best-execution
+- index-rules
+tier: B
+title: 'Latest Developments at the FWB: Reshaping of the Cash Markets'
+year: 2002
 ---
 
 ## Summary

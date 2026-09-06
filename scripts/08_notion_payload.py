@@ -131,6 +131,9 @@ def book_payload(slug: str, tmap: dict) -> dict:
             f'{" · " + esc(str(m["year"])) if m.get("year") not in (None, "unknown") else ""} · {esc(m.get("category",""))} · Tier {m.get("tier")} · {m.get("difficulty")}\n'
             f'\t{esc(m.get("one_liner",""))}\n</callout>')
     body = convert(p.content, tmap)
+    coverage = esc(str(m.get("source_review", "not recorded")))
+    inspected = esc(str(m.get("reviewed_pdf_pages", "not recorded")))
+    body = f"**Source coverage:** {coverage}. PDF pages inspected: {inspected}. Study notes do not establish verified trading results.\n\n" + body
     related = [f"[{tmap.get(r, r)}]({SITE}books/{r}.html)" for r in m.get("related", []) if r in tmap]
     tail = ("\n---\n" + (("**Related in this library:** " + " · ".join(related) + "\n") if related else "") + f"*{DISCLAIMER}*")
     return {"slug": slug, "kind": kind, "parent_slug": m.get("parent"), "title": m["title"], "properties": props, "content": head + "\n" + body + tail}

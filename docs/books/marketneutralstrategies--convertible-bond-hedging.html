@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Convertible Bond Delta-Duration Hedge — Bruce I. Jacobs and Kenneth N. Levy (editors) · Trading Playbook</title>
+<meta name="description" content="Jane Buchan&#39;s convertible-bond hedge: buy the convertible, short the delta-weighted amount of stock (and optionally Treasury futures for duration), collecting the standstill spread.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a> › <a href="../books/marketneutralstrategies.html">Market Neutral Strategies</a></p>
+  <h1>Convertible Bond Delta-Duration Hedge</h1>
+  <p class="byline">Bruce I. Jacobs and Kenneth N. Levy (editors) · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">Jane Buchan&#39;s convertible-bond hedge: buy the convertible, short the delta-weighted amount of stock (and optionally Treasury futures for duration), collecting the standstill spread.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=convertible-arbitrage">convertible-arbitrage</a> <a class="tag" href="../search.html?q=delta-hedging">delta-hedging</a> <a class="tag" href="../search.html?q=market-neutral">market-neutral</a> <a class="tag" href="../search.html?q=fixed-income">fixed-income</a> <a class="tag" href="../search.html?q=arbitrage">arbitrage</a> </td></tr>
+    <tr><th>Length</th><td>304 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Convertible Bond Delta-Duration Hedge” by Bruce I. Jacobs and Kenneth N. Levy (editors) at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A relative-value strategy (Warren Buffett reportedly began his career doing this) that buys a convertible bond and simultaneously sells short the underlying common stock in an amount proportional to the convertible&rsquo;s delta, so that small moves in the stock price no longer move the combined position&rsquo;s value. A more complete version adds a short position in interest-rate futures sized to the convertible&rsquo;s duration, hedging interest-rate risk as well as equity risk. The position earns the &ldquo;standstill&rdquo; or cost-of-carry return (coupon income plus short rebate, minus dividends owed on the short) while remaining close to market- and rate-neutral, profiting from the perceived cheapness of the convertible&rsquo;s embedded conversion option relative to the stock and bond markets.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Identify the hedge ratios.</strong> For any convertible under consideration, obtain (or compute) its delta — the sensitivity of the convertible&rsquo;s price to a $1 move in the underlying stock (∂C/∂S) — and, for the fuller hedge, its duration/interest-rate hedge ratio (∂C/∂r ÷ C), typically stated as a dollar sensitivity per 100bp rate move. Delta is near 1 when the convertible is deeply in-the-money (its value tracks the stock almost one-for-one) and near 0 when deeply out-of-the-money (it trades like a straight bond), except when bankruptcy risk appears, in which case delta can rise back toward or above 1 even out-of-the-money.</li>
+<li><strong>Size the stock short.</strong> Short (delta × conversion ratio) shares of stock for each convertible bond held. Worked example from the book: Staples 5% convertible due 1999, price $965, delta-neutral hedge ratio 0.40, stock at $31.50 → short 12.3 shares of stock per bond ($0.40 of stock short per $1.00 of convertible).</li>
+<li><strong>Size the rate hedge (optional, fuller hedge).</strong> Short Treasury note futures in the amount given by the interest-rate hedge ratio. Example: hedge ratio of $2.09 per 100bp shift → short 0.00209 of a five-year Treasury note futures contract per bond held.</li>
+<li><strong>Universe filter.</strong> Restrict candidates to convertible issues of at least $100 million outstanding to ensure adequate liquidity for entry, exit and stock-borrow availability (used in the book&rsquo;s own 1989–1996 study, which held ~146 positions on average, equally weighted, rebalanced monthly).</li>
+<li><strong>Collect the standstill return.</strong> With the hedge in place and the stock price unchanged, the position earns coupon income on the bond plus the short rebate on the stock-short proceeds, minus any dividends owed to the stock lender. Worked example: $50 coupon + $9.75 short rebate (85% of a 2.96% rate) − $0 dividends = $59.75 on a $965 convertible, a 6.19% annualized standstill return.</li>
+<li><strong>Rebalance as delta drifts.</strong> Delta and duration change as the stock price and interest rates move and as time passes; re-hedge (adjust the stock-short and futures-short sizes) periodically — the book&rsquo;s own study rebalanced monthly — to keep the position close to delta- and duration-neutral.</li>
+<li><strong>Screen out credit risk before entry.</strong> Do fundamental/credit research on the issuer up front. Avoid convertibles at meaningful risk of becoming &ldquo;busted&rdquo; (the issuer approaching bankruptcy), because delta-hedging breaks down exactly when it is needed most in that scenario (see Risk below).</li>
+<li><strong>Optional partial hedging.</strong> An investor with a directional view (e.g., expecting falling rates or a rising stock market over time) may deliberately under-hedge delta or duration to retain some of that exposure, accepting reduced neutrality for a directional bet layered on top of the arbitrage.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>The central risk is a &ldquo;busted convertible&rdquo;: as an issuer&rsquo;s credit deteriorates toward bankruptcy, the convertible&rsquo;s bond-value floor erodes, its price becomes driven by liquidation/recovery value rather than by the stock price or interest rates, and its delta — instead of falling toward zero as a straight out-of-the-money hedge would predict — rises toward or above 1, meaning the hedger needs to sell far more stock short at exactly the moment the stock is also crashing and other investors are racing to short the same name; uptick-style rules can make it difficult or impossible to add the needed short size in a falling market, leaving the position under-hedged during the worst move. Stock-borrow availability and recall risk are ever-present: harder-to-borrow names can force a buy-in that unwinds the hedge involuntarily. Leverage materially amplifies both return and risk: because the long convertible and its offsetting stock short net close to zero exposure for margin purposes, hedgers can run far higher leverage than a standard 2:1 equity margin account — the book notes some funds held convertible exposure worth up to 13x equity capital — so a small percentage move against an imperfectly hedged position can produce an outsized capital loss. The book&rsquo;s own regression tests found no significant residual exposure to stock or bond market indices in its 1989–1996 sample, suggesting the historical excess return was not simply compensation for un-hedged market beta, but it could not rule out compensation for harder-to-measure liquidity risk.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The favorable results cited (9.06% average annual unleveraged return, ~364bp annualized excess return over Treasury bills, only 19 of 90 months negative) come from a single study covering January 1989–July 1996 using one data source (Value Line Convertibles) and a simplified simulated portfolio (equal weighting, monthly rebalancing, assumed transaction costs); it is presented as evidence the strategy can work, not as a guarantee, and the author explicitly notes the results could reflect an unmeasured liquidity-risk premium rather than a free lunch. Determining the hedge ratio in practice requires software with subjective inputs (assumed future volatility, assumed likelihood of an issuer calling the bond) — different practitioners using the same convertible can compute meaningfully different &ldquo;correct&rdquo; hedge ratios, so the rules above should be treated as a framework rather than a fully mechanical algorithm. The uptick-rule friction described (era-specific SEC Rule 10a-1) no longer applies in its original form after 2007–2010 rule changes, though borrow availability and recall risk remain live constraints today.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/wyser-pratte-guy-risk-arbitrage.html">Risk Arbitrage</a> — A practitioner&#39;s manual for merger/risk arbitrage: parity and spread calculation, deal-risk checklists, and worked case studies from the 1960s through the 2000s.</li><li><a href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

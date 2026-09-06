@@ -1,17 +1,35 @@
 ---
-title: "When Buy Means Sell: An Investor's Guide to Investing When It Counts"
 author: Eric Shkolnik
-year: 2003
-slug: when-buy-means-sell-mcgraw-hill
-tier: A
-category: "Investing, Value & Market History"
-tags: [analyst-recommendations, regression-to-the-mean, contrarian, wall-street, ipo-avoidance, diversification, artificial-maturity, behavioral-finance]
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: 'Backtests analyst Buy/Hold/Sell ratings and finds two exploitable lags:
+  sell Strong-Buy stocks on a fixed 6-12 month date instead of waiting for the downgrade,
+  and buy Hold-rated stocks a year after they were downgraded.'
 pages: 241
-one_liner: "Backtests analyst Buy/Hold/Sell ratings and finds two exploitable lags: sell Strong-Buy stocks on a fixed 6-12 month date instead of waiting for the downgrade, and buy Hold-rated stocks a year after they were downgraded."
-related: [damodaran-aswath-investment-fables, david-dreman-contrarian-investment-strategies-the-next-generation, mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go, mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean, doug-henwood-wall-street-how-it-works]
-source_file: "When Buy Means Sell - Mcgraw Hill.pdf"
+related:
+- damodaran-aswath-investment-fables
+- david-dreman-contrarian-investment-strategies-the-next-generation
+- mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
+- mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean
+- doug-henwood-wall-street-how-it-works
+reviewed_pdf_pages: 4, 11, 13, 22, 108, 165, 168, 170, 172, 181, 183-184, 226 (the
+  screening rules and the backtest tables reporting the strategies' returns)
+slug: when-buy-means-sell-mcgraw-hill
+source_file: When Buy Means Sell - Mcgraw Hill.pdf
+source_review: partial
+tags:
+- analyst-recommendations
+- regression-to-the-mean
+- contrarian
+- wall-street
+- ipo-avoidance
+- diversification
+- artificial-maturity
+- behavioral-finance
+tier: A
+title: 'When Buy Means Sell: An Investor''s Guide to Investing When It Counts'
+year: 2003
 ---
 
 ## Overview

@@ -1,17 +1,29 @@
 ---
-title: "The Insider's Guide to Trading the World Stock Markets"
 author: Andrew Willis
-year: unknown
-slug: andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets
-tier: B
-category: "Day Trading & Scalping"
-tags: [day-trading, scalping, swing-trading, market-structure, nasdaq, risk-management]
+category: Day Trading & Scalping
 difficulty: beginner
 doc_type: manual
+one_liner: Beginner day-trading manual covering NYSE/NASDAQ/LSE market structure and
+  concrete rules for scalp, swing, and core trading styles.
 pages: 92
-one_liner: "Beginner day-trading manual covering NYSE/NASDAQ/LSE market structure and concrete rules for scalp, swing, and core trading styles."
-related: [jan-l-arps-surfing-the-market-waves-the-swing-trader-s, mental-fitness-for-traders]
-source_file: "Andrew Willis - The Insiders Guide to Trading the World Stock Markets.pdf"
+related:
+- jan-l-arps-surfing-the-market-waves-the-swing-trader-s
+- mental-fitness-for-traders
+reviewed_pdf_pages: 5-6, 12, 15, 30, 34 (the trading-style chapters and the market-structure
+  sections)
+slug: andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets
+source_file: Andrew Willis - The Insiders Guide to Trading the World Stock Markets.pdf
+source_review: partial
+tags:
+- day-trading
+- scalping
+- swing-trading
+- market-structure
+- nasdaq
+- risk-management
+tier: B
+title: The Insider's Guide to Trading the World Stock Markets
+year: unknown
 ---
 
 ## Summary

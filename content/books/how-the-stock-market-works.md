@@ -1,17 +1,29 @@
 ---
-title: How the Stock Market Works
 author: Mark A. Bradley
-year: 1999
-slug: how-the-stock-market-works
-tier: B
 category: Market Structure & Price Action
-tags: [market-mechanics, ipo, broker-dealer, order-types, indices, bull-bear-markets, beginner]
 difficulty: beginner
 doc_type: manual
+one_liner: 'Beginner tutorial on stock market mechanics: capital and IPOs, broker-dealer
+  roles, the life of a trade, order types, fast markets, and major indices.'
 pages: 15
-one_liner: "Beginner tutorial on stock market mechanics: capital and IPOs, broker-dealer roles, the life of a trade, order types, fast markets, and major indices."
-related: [economics-how-the-stock-market-works, forex-nfa]
-source_file: "How The Stock Market Works.pdf"
+related:
+- economics-how-the-stock-market-works
+- forex-nfa
+reviewed_pdf_pages: 1-15
+slug: how-the-stock-market-works
+source_file: How The Stock Market Works.pdf
+source_review: full
+tags:
+- market-mechanics
+- ipo
+- broker-dealer
+- order-types
+- indices
+- bull-bear-markets
+- beginner
+tier: B
+title: How the Stock Market Works
+year: 1999
 ---
 
 ## Summary

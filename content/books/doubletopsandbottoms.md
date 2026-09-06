@@ -1,17 +1,29 @@
 ---
-title: "Double Tops & Double Bottoms"
 author: Mark McRae
-year: unknown
-slug: doubletopsandbottoms
-tier: B
 category: Candlesticks & Chart Patterns
-tags: [chart-patterns, double-top, double-bottom, reversal, price-target, stop-loss]
 difficulty: beginner
 doc_type: article
+one_liner: Short lesson on trading double top ('M') and double bottom ('W') reversal
+  patterns, with a neckline-break entry rule and a measured-move price target formula.
 pages: 3
-one_liner: "Short lesson on trading double top ('M') and double bottom ('W') reversal patterns, with a neckline-break entry rule and a measured-move price target formula."
-related: [chart-patterns-tutorial, fibonacci-ratios-with-pattern-recognition, 10-bankrupt]
-source_file: "DoubleTopsAndBottoms.pdf"
+related:
+- chart-patterns-tutorial
+- fibonacci-ratios-with-pattern-recognition
+- 10-bankrupt
+reviewed_pdf_pages: 1-3
+slug: doubletopsandbottoms
+source_file: DoubleTopsAndBottoms.pdf
+source_review: full
+tags:
+- chart-patterns
+- double-top
+- double-bottom
+- reversal
+- price-target
+- stop-loss
+tier: B
+title: Double Tops & Double Bottoms
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,29 @@
 ---
-title: "Your Trading Plan"
-author: "Windsor Advisory Services"
-year: unknown
-slug: your-trading-plan
-tier: B
+author: Windsor Advisory Services
 category: Trading Psychology & Discipline
-tags: [trading-plan, discipline, risk-capital, position-sizing, stops, psychology]
 difficulty: beginner
 doc_type: manual
+one_liner: Short advisory-firm guide on building a personal trading plan, matching
+  method to personality, and ten types of market action to avoid.
 pages: 7
-one_liner: "Short advisory-firm guide on building a personal trading plan, matching method to personality, and ten types of market action to avoid."
-related: [professional-trader-business-plan, t2w-trading-plan-template-2005-asb, disciplined-trader]
-source_file: "Your_trading_plan.pdf"
+related:
+- professional-trader-business-plan
+- t2w-trading-plan-template-2005-asb
+- disciplined-trader
+reviewed_pdf_pages: 3-4 (the expectation and money-management sections)
+slug: your-trading-plan
+source_file: Your_trading_plan.pdf
+source_review: partial
+tags:
+- trading-plan
+- discipline
+- risk-capital
+- position-sizing
+- stops
+- psychology
+tier: B
+title: Your Trading Plan
+year: unknown
 ---
 
 ## Summary

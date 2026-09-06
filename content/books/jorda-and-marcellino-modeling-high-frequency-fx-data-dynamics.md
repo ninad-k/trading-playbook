@@ -1,17 +1,31 @@
 ---
-title: "Modeling High-Frequency FX Data Dynamics"
-author: "Oscar Jorda and Massimiliano Marcellino"
-year: 2002
-slug: jorda-and-marcellino-modeling-high-frequency-fx-data-dynamics
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [academic-paper, market-microstructure, high-frequency-data, fx, bid-ask-spread, poisson-model, volatility, tick-data]
+author: Oscar Jorda and Massimiliano Marcellino
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Academic paper showing that non-normality and volatility clustering in
+  FX data can be artifacts of time aggregation, and introduces a Poisson-based 'ACI'
+  model of quote-arrival intensity and spreads.
 pages: 32
-one_liner: "Academic paper showing that non-normality and volatility clustering in FX data can be artifacts of time aggregation, and introduces a Poisson-based 'ACI' model of quote-arrival intensity and spreads."
-related: [asset-pricing-with-speculative-trading, hrishikesh-d-vinod-preparing-for-the-worst]
-source_file: "Jorda And Marcellino-Modeling High-Frequency Fx Data Dynamics.pdf"
+related:
+- asset-pricing-with-speculative-trading
+- hrishikesh-d-vinod-preparing-for-the-worst
+reviewed_pdf_pages: 4-5, 15, 21 (the model description and the quote-intensity results)
+slug: jorda-and-marcellino-modeling-high-frequency-fx-data-dynamics
+source_file: Jorda And Marcellino-Modeling High-Frequency Fx Data Dynamics.pdf
+source_review: partial
+tags:
+- academic-paper
+- market-microstructure
+- high-frequency-data
+- fx
+- bid-ask-spread
+- poisson-model
+- volatility
+- tick-data
+tier: B
+title: Modeling High-Frequency FX Data Dynamics
+year: 2002
 ---
 
 ## Summary

@@ -1,17 +1,35 @@
 ---
-title: MTPredictor Trading Course — Part 2
 author: Steve Griffiths
-year: 2004
-slug: forex-mtpredictor-trading-course-part2
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, wave-price-targets, reversal-bars, risk-reward, mtpredictor, forex, futures]
 difficulty: intermediate
 doc_type: course
+one_liner: 'Advanced manual on MTPredictor''s Elliott wave software: manual wave counting,
+  Wave Price Targets, coloured Reversal Bars, and a strict 2:1 risk/reward filter
+  for every trade.'
 pages: 396
-one_liner: "Advanced manual on MTPredictor's Elliott wave software: manual wave counting, Wave Price Targets, coloured Reversal Bars, and a strict 2:1 risk/reward filter for every trade."
-related: [forex-mtpredictor-trading-course-part-1a, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, street-smarts-laurence-connors, gann-w-d-new-stock-trend-detector]
-source_file: "(FOREX) MTPredictor Trading Course - Part2.pdf"
+related:
+- forex-mtpredictor-trading-course-part-1a
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- street-smarts-laurence-connors
+- gann-w-d-new-stock-trend-detector
+reviewed_pdf_pages: 1-3, 9, 12, 14-16 (the ratio set, Elliott module description,
+  connected pivots and the 2-3 initial-risk zone)
+slug: forex-mtpredictor-trading-course-part2
+source_file: (FOREX) MTPredictor Trading Course - Part2.pdf
+source_review: partial
+tags:
+- elliott-wave
+- fibonacci
+- wave-price-targets
+- reversal-bars
+- risk-reward
+- mtpredictor
+- forex
+- futures
+tier: A
+title: MTPredictor Trading Course — Part 2
+year: 2004
 ---
 
 ## Overview

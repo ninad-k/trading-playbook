@@ -1,17 +1,32 @@
 ---
-title: Sniper Trading Workbook
 author: George Angell
-year: unknown
-slug: george-angell-sniper-trading-workbook-pdf
-tier: B
 category: Day Trading & Scalping
-tags: [taylor-trading-technique, lss-3-day-cycle, pivot-numbers, stop-placement, oscillators, futures, seasonality]
 difficulty: intermediate
 doc_type: manual
+one_liner: 'Question-and-answer workbook drilling Angell''s LSS/Taylor numeric system:
+  buy/sell envelopes, pivot numbers, a 5-day oscillator, stop placement, and day-of-week
+  patterns.'
 pages: 103
-one_liner: "Question-and-answer workbook drilling Angell's LSS/Taylor numeric system: buy/sell envelopes, pivot numbers, a 5-day oscillator, stop placement, and day-of-week patterns."
-related: [pivots, jack-schwager-stock-market-wizards, money-management-risk-control-for-traders]
-source_file: "George Angell - Sniper Trading Workbook(pdf).pdf"
+related:
+- pivots
+- jack-schwager-stock-market-wizards
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 94 and the drill chapters checked against the note's LSS and Taylor
+  definitions
+slug: george-angell-sniper-trading-workbook-pdf
+source_file: George Angell - Sniper Trading Workbook(pdf).pdf
+source_review: partial
+tags:
+- taylor-trading-technique
+- lss-3-day-cycle
+- pivot-numbers
+- stop-placement
+- oscillators
+- futures
+- seasonality
+tier: B
+title: Sniper Trading Workbook
+year: unknown
 ---
 
 ## Summary

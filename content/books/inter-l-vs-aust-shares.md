@@ -1,17 +1,25 @@
 ---
-title: "Australian vs International Equities"
 author: Noll Moriarty
-year: 2005
-slug: inter-l-vs-aust-shares
-tier: B
 category: Investing, Value & Market History
-tags: [asset-allocation, diversification, international-equities, australian-market, returns-history]
 difficulty: beginner
 doc_type: article
+one_liner: A financial planner's client handout using 1978-2004 return data to argue
+  for diversifying Australian portfolios into international equities.
 pages: 4
-one_liner: "A financial planner's client handout using 1978-2004 return data to argue for diversifying Australian portfolios into international equities."
 related: []
-source_file: "Inter'l Vs Aust Shares.pdf"
+reviewed_pdf_pages: 1-4
+slug: inter-l-vs-aust-shares
+source_file: Inter'l Vs Aust Shares.pdf
+source_review: full
+tags:
+- asset-allocation
+- diversification
+- international-equities
+- australian-market
+- returns-history
+tier: B
+title: Australian vs International Equities
+year: 2005
 ---
 
 ## Summary

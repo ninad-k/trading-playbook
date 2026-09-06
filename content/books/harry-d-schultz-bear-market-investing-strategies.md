@@ -1,17 +1,32 @@
 ---
-title: Bear Market Investing Strategies
 author: Harry D. Schultz
-year: 2002
-slug: harry-d-schultz-bear-market-investing-strategies
-tier: A
 category: Investing, Value & Market History
-tags: [bear-market, short-selling, capital-preservation, dow-theory, contrarian, technical-indicators, defensive-investing]
 difficulty: intermediate
 doc_type: book
+one_liner: 'A veteran newsletter writer''s toolkit for recognizing, surviving, and
+  profiting from bear markets: Dow''s 50% principle, staged capital-preservation tactics,
+  and disciplined short-selling rules.'
 pages: 186
-one_liner: "A veteran newsletter writer's toolkit for recognizing, surviving, and profiting from bear markets: Dow's 50% principle, staged capital-preservation tactics, and disciplined short-selling rules."
-related: [the-intelligent-investor-benjamin-graham, money-management-in-trading, picking-tops]
-source_file: "Harry D Schultz - Bear Market Investing Strategies.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- money-management-in-trading
+- picking-tops
+reviewed_pdf_pages: 6-8, 13, 17, 27-28, 31 (contents, the indicator chapters with
+  the odd-lot and breadth ranges, and the bear-market history sections)
+slug: harry-d-schultz-bear-market-investing-strategies
+source_file: Harry D Schultz - Bear Market Investing Strategies.pdf
+source_review: partial
+tags:
+- bear-market
+- short-selling
+- capital-preservation
+- dow-theory
+- contrarian
+- technical-indicators
+- defensive-investing
+tier: A
+title: Bear Market Investing Strategies
+year: 2002
 ---
 
 ## Overview

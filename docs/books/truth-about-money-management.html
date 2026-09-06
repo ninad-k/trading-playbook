@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Truth About Money Management — Murray A. Ruggiero Jr. · Trading Playbook</title>
+<meta name="description" content="Futures Magazine article contrasting individual-trader vs. fund-manager money management goals and walking through percent-risk, percent-volatility, and optimal f position-sizing formulas.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></p>
+  <h1>The Truth About Money Management</h1>
+  <p class="byline">Murray A. Ruggiero Jr. · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Futures Magazine article contrasting individual-trader vs. fund-manager money management goals and walking through percent-risk, percent-volatility, and optimal f position-sizing formulas.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-4. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=optimal-f">optimal-f</a> <a class="tag" href="../search.html?q=kelly-criterion">kelly-criterion</a> <a class="tag" href="../search.html?q=drawdown">drawdown</a> <a class="tag" href="../search.html?q=fund-management">fund-management</a> </td></tr>
+    <tr><th>Length</th><td>4 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Truth About Money Management” by Murray A. Ruggiero Jr. at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A magazine article arguing that individual traders and professional fund managers should NOT use the same money management approach, because their goals differ: individual traders want to maximize absolute profit while surviving, while fund managers must deliver a superior risk-adjusted (Sharpe Ratio) return to retain client capital. The article then reviews the main quantitative position-sizing frameworks — percent-risked, percent-volatility, and the Kelly/optimal f family — and their practical limitations.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Individual traders can and often should target much larger drawdowns (40-60%, per interviewed trader Sheldon Knight) than fund managers, who typically need drawdowns roughly one-third as large (e.g., ~15%) to keep client money.</li>
+<li>Percent-risked model: LotSize = RiskFraction × Equity / TradeRisk; reduces to the fixed-fractional model if TradeRisk is held constant.</li>
+<li>Percent-volatility model: LotSize = VolatilityFraction × Equity / Volatility (volatility often measured as 10-20 bar average true range).</li>
+<li>Optimal f (Kelly-derived): F = ((B+1)×P - 1)/B, where P = win probability and B = win/loss ratio; popularized for traders by Larry Williams.</li>
+<li>Ralph Vince&rsquo;s refinement uses Holding Period Return (HPR = 1 + f×(-T/BL)) and Terminal Wealth Relative (TWR = product of HPRs) since the Kelly formula breaks down when trade sizes vary.</li>
+<li>Optimal f is highly sensitive to the single largest historical losing trade and to the distribution/sequencing of wins and losses, making it dangerous to trade at or near its calculated value in live markets.</li>
+<li>Professional money managers typically risk just 1-3% of capital per trade (RiskFraction of 0.01-0.03), far below optimal f&rsquo;s often-aggressive output.</li>
+<li>Markets experience &ldquo;five-sigma&rdquo; tail events far more often than normal-distribution statistics predict, so money management plans must explicitly plan for them.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Define your goal first: absolute profit maximization (individual) vs. superior risk-adjusted return relative to competing investments (fund manager) — the money management math should follow from this choice.</li>
+<li>Risk 1-3% of equity per trade if managing outside capital (professional norm); individual traders may accept more if they have the risk tolerance and capital to rebuild.</li>
+<li>Use LotSize = RiskFraction × Equity / TradeRisk (percent-risked) or the volatility-based equivalent to scale position size as equity changes, rather than trading a fixed number of contracts.</li>
+<li>Do not trade at calculated optimal f — it assumes a stable win/loss distribution and rounds awkwardly to whole contracts; treat it as a theoretical ceiling, not a target.</li>
+<li>Plan explicitly for a five-sigma event (define what you can withstand) as part of the money management plan, since such events occur more often than normal statistics suggest.</li>
+<li>Set a pre-defined drawdown level (e.g., 40-60% for an aggressive individual account, ~15% for a managed account) at which you stop trading and reevaluate the system.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Written for a general futures-trading audience in a 2004 magazine format; the optimal f / Kelly discussion is a condensed summary rather than a full derivation, and no backtested performance data or specific market examples are given beyond the illustrative arithmetic. Some figures (e.g., historical trader anecdotes) are presented as unverified interview claims.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders and aspiring fund managers who want a quick conceptual overview of position-sizing frameworks (percent-risk, percent-volatility, optimal f) and how professional vs. individual money management goals diverge.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/mathematicsmoneymanagement.html">The Mathematics of Money Management</a> — Derives optimal f mathematically from trade history, the TWR/geometric-mean framework, and why the best-growing fraction also produces the worst drawdowns.</li><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/money-management-risk-control-for-traders.html">Money Management and Risk Control for Traders</a> — Short web report on percent-risk position sizing, stop placement, and drawdown limits, illustrated with a running $50,000-account example.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

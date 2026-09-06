@@ -1,17 +1,31 @@
 ---
-title: "The Art of Day-Trading"
 author: Various
-year: 1997
-slug: futures-magazine-the-art-of-day-trading
-tier: B
 category: Day Trading & Scalping
-tags: [day-trading, s-and-p-500, futures, td-sequential, market-profile, pivots, system-testing]
 difficulty: intermediate
 doc_type: article
+one_liner: Futures Magazine's 1997 special-issue anthology of eleven short articles
+  by named professionals on S&P day-trading systems, indicators, and the trader's
+  daily routine.
 pages: 35
-one_liner: "Futures Magazine's 1997 special-issue anthology of eleven short articles by named professionals on S&P day-trading systems, indicators, and the trader's daily routine."
-related: [professional-traders-still-day-trade, technical-indicators-tutorial]
-source_file: "Futures Magazine - The Art Of Day-Trading.pdf"
+related:
+- professional-traders-still-day-trade
+- technical-indicators-tutorial
+reviewed_pdf_pages: 6, 21, 31 (the system-design articles carrying the stop-size and
+  validation rules)
+slug: futures-magazine-the-art-of-day-trading
+source_file: Futures Magazine - The Art Of Day-Trading.pdf
+source_review: partial
+tags:
+- day-trading
+- s-and-p-500
+- futures
+- td-sequential
+- market-profile
+- pivots
+- system-testing
+tier: B
+title: The Art of Day-Trading
+year: 1997
 ---
 
 ## Summary

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>N-Day Rolling Breakout System — Perry J. Kaufman · Trading Playbook</title>
+<meta name="description" content="Buy the highest high and sell the lowest low of the past N days, computed fresh every day, with three progressively stricter confirmation rules.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/a-short-course-in-technical-trading.html">A Short Course in Technical Trading</a></p>
+  <h1>N-Day Rolling Breakout System</h1>
+  <p class="byline">Perry J. Kaufman · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">beginner</span></p>
+  <p class="lead">Buy the highest high and sell the lowest low of the past N days, computed fresh every day, with three progressively stricter confirmation rules.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=rolling-highs-lows">rolling-highs-lows</a> <a class="tag" href="../search.html?q=event-driven">event-driven</a> </td></tr>
+    <tr><th>Length</th><td>339 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “N-Day Rolling Breakout System” by Perry J. Kaufman at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>An event-driven trend system that replaces hand-drawn support/resistance lines with a rolling calculation: every day, find the highest high and lowest low over the previous N days (not including today). A new high triggers a buy (or reverses a short); a new low triggers a sell (or reverses a long). Because it only reacts to genuine new highs/lows rather than the passage of time, it holds through sideways drift better than a moving average and gives fewer false signals at trend turns, at the cost of larger risk per trade and larger profit per trade. Kaufman presents this as one of four equivalent trend calculations (with moving average, exponential smoothing, and regression slope) and shows it has the highest win-rate and profit-factor characteristics among them when back-tested across a 5-200 day range of N.</p>
+<h2 id="rules">Rules</h2>
+<p>Pick a lookback length N (common defaults: 20 days for daily charts, 30 weeks for weekly charts). Three entry variants, in increasing order of conservatism:</p>
+<ol>
+<li><strong>Rule 1 (basic).</strong> Buy when today&rsquo;s high exceeds the highest high of the prior N days. Sell/short when today&rsquo;s low drops below the lowest low of the prior N days. Intraday penetration triggers the signal.</li>
+<li><strong>Rule 2 (close-confirmed).</strong> Same levels, but only act if today&rsquo;s <em>close</em> is beyond the N-day high/low, not merely the intraday high/low. Avoids one-tick false breakouts but can leave you out of a market that is moving steadily higher/lower without ever closing at a new extreme.</li>
+<li><strong>Rule 3 (compromise, Kaufman&rsquo;s preferred).</strong> Buy if there is a new N-day high AND today&rsquo;s close is higher than yesterday&rsquo;s close. Sell if there is a new N-day low AND today&rsquo;s close is lower than yesterday&rsquo;s close. Avoids most false breakouts while still confirming genuine momentum.</li>
+</ol>
+<p>Mechanics:
+- Recalculate the N-day high/low window every day, dropping the oldest day and adding the newest (a true &ldquo;rolling&rdquo; window, not a fixed chart range).
+- The system is always in the market: a sell signal for a long position simultaneously opens a new short (stop-and-reverse), unless you choose to flatten instead.
+- To anticipate the breakout and capture &ldquo;free exposure,&rdquo; place the entry order slightly ahead of the exact N-day high/low level rather than exactly at it, since a genuine breakout often gaps through the level on a rush of clustered orders.
+- Place entries/exits calculated from the close just before the market closes, not the next morning, so the order is in ahead of any gap-open reaction to the breakout.</p>
+<p>Spreadsheet formula (10-day example, columns: B=high, C=low, D=close):
+<code>E11 = MAX(B1:B10)                 ' 10-day high through previous day
+F11 = MIN(C1:C10)                 ' 10-day low through previous day
+G11 = IF(B11&gt;E11 AND D11&gt;D10, 1, IF(C11&lt;F11 AND D11&lt;D10, -1, G10))   ' trend/position</code></p>
+<h2 id="risk">Risk</h2>
+<ul>
+<li>Initial risk on a breakout trade equals the distance between the resistance level (N-day high) and the support level (N-day low) used for entry — this is inherent to the method and widens automatically in volatile markets, narrows in quiet ones.</li>
+<li>Because risk expands with volatility, position size should shrink accordingly rather than using a fixed share count; Kaufman&rsquo;s volatility-based position sizing (equalizing dollar volatility across positions) applies directly.</li>
+<li>Backtests on Microsoft (5-year window, calculation periods 5-200 days) show the breakout method has roughly half the number of trades of a moving average of comparable speed, a substantially higher average profit per trade (up to 5x), a slightly larger maximum drawdown at short lookbacks, and a win rate that climbs toward 40%+ at longer lookbacks versus ~25-35% for moving averages.</li>
+<li>A stop-loss can be layered on top of the natural breakout exit, but should never be tighter than 1.5x the current daily true range, or the trade should simply be closed outright instead of using an artificially close stop.</li>
+<li>Longer N reduces whipsaws but increases the risk taken per trade and the time a losing position is held before the opposite breakout triggers an exit.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>Kaufman is explicit that the rolling breakout is not inherently &ldquo;better&rdquo; than manually drawn trendlines — it has the same profit/risk character, but is far more practical to compute across many markets and to backtest. It remains partly time-dependent: as the rolling window advances, quieter markets produce closer highs/lows and therefore more frequent, smaller-risk signals, so it is not a purely event-driven method in the way swing charting or point-and-figure charting are. The book does not give a single &ldquo;best&rdquo; N — its own tests show profitability is choppy across calculation lengths in the 20-55 day range and improves at both shorter and longer extremes, which is itself a caution against over-fitting a specific N to one instrument&rsquo;s history. As with all the book&rsquo;s examples, backtests are shown on individual dot-com-era stocks (Microsoft, Enron) over short multi-year windows, not on a broad, out-of-sample universe.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

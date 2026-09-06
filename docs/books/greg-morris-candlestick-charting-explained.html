@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Candlestick Charting Explained — Gregory L. Morris · Trading Playbook</title>
+<meta name="description" content="A candlestick pattern catalogue with precise numeric recognition rules, then a computer test of over 60 patterns&#39; actual success rates across S&amp;P 100 stocks and 41 futures markets.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a></p>
+  <h1>Candlestick Charting Explained</h1>
+  <p class="byline">Gregory L. Morris · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A candlestick pattern catalogue with precise numeric recognition rules, then a computer test of over 60 patterns&#39; actual success rates across S&amp;P 100 stocks and 41 futures markets.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 11, 22, 38-39, 101, 114-115 (pattern definitions and engulfing/piercing rules, the success-benchmark discussion and the trend-determination chapter with the ten-day exponential average). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=candlestick-patterns">candlestick-patterns</a> <a class="tag" href="../search.html?q=japanese-charting">japanese-charting</a> <a class="tag" href="../search.html?q=pattern-recognition">pattern-recognition</a> <a class="tag" href="../search.html?q=reversal-patterns">reversal-patterns</a> <a class="tag" href="../search.html?q=continuation-patterns">continuation-patterns</a> <a class="tag" href="../search.html?q=statistical-testing">statistical-testing</a> <a class="tag" href="../search.html?q=indicator-filtering">indicator-filtering</a> </td></tr>
+    <tr><th>Length</th><td>155 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Candlestick Charting Explained” by Gregory L. Morris at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability.html">Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Gregory L. Morris, creator of the N-Squared charting software, wrote one of the first candlestick books to move past pure visual pattern description into a computer-testable rulebook. The book proceeds in three stages: first, single candle lines (Marubozu, Doji, Spinning Tops, Paper Umbrella) and multi-line reversal and continuation patterns are each given a standardized entry — Japanese name, commentary, a graphic, and precise &ldquo;Rules of Recognition&rdquo; written so a programmer could code them; second, a chapter on Sakata&rsquo;s Method traces the historical origin of several key patterns; third, and most distinctively, Morris describes exactly how he coded trend determination and pattern identification for a computer, then reports the actual success/failure statistics of every pattern across the S&amp;P 100 and 41 CSI perpetual futures contracts, followed by a chapter showing how filtering candle signals with conventional oscillators (RSI, stochastics, CCI, MACD, Bollinger %B) improves results. The pattern catalogue and its reliability statistics are detailed further in the system sub-page <a class="xref" href="../books/greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability.html">Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking</a>.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Candlestick patterns encode short-term (one-to-ten-day) trader psychology at trend turning points, and while they were traditionally read subjectively, they can be given objective, numeric recognition rules and then tested like any other technical signal — and when tested, most individual patterns are only marginally reliable on their own (roughly half succeed by Morris&rsquo;s own ranking criteria), continuation patterns are held to a stricter bar than reversal patterns because trends already tend to continue, and a small number of patterns (occurring only once or twice in the data) cannot be judged statistically at all. The practical payoff is that filtering candle signals with a conventional overbought/oversold indicator&rsquo;s &ldquo;pre-signal area&rdquo; consistently improves results versus using either candles or the indicator alone, by reducing trade count and raising average gain per trade.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Long day / short day</strong> — a candlestick body (open-to-close range) that is large or small relative to the most recent 5-10 days; the threshold is contextual, not fixed, though a numeric percentage-of-price or percentage-of-range minimum can be set.</li>
+<li><strong>Marubozu</strong> — a long body with no shadow at one or both ends; White Marubozu is a strong bullish line, Black Marubozu a strong bearish line, and Closing/Opening Marubozu variants have only one shadow missing.</li>
+<li><strong>Doji</strong> — a day where open and close are equal or nearly so (within a small percentage of the day&rsquo;s range); subtypes include Long-Legged, Gravestone (open/close at the low), and Dragonfly (open/close at the high) Doji.</li>
+<li><strong>Trend determination</strong> — Morris&rsquo;s chosen method is a 10-day exponential moving average of closing price; a close above it defines an uptrend, below it a downtrend, and this trend context is required before most patterns can even be classified as valid signals.</li>
+<li><strong>Reverse Current Trend / Continue Current Trend</strong> — the book&rsquo;s two baseline &ldquo;success&rdquo; benchmarks: a reversal pattern is compared against the base rate of trend reversal (which is inherently below 50% since trends tend to persist), while a continuation pattern is compared against the (higher) base rate of trend continuation, making continuation patterns hold a tougher bar to add value.</li>
+<li><strong>Prediction interval</strong> — the number of days after a pattern&rsquo;s completion used to score it as a success or failure; the book tests 3-, 5-, and 7-day intervals and finds many patterns&rsquo; rankings shift materially across them.</li>
+<li><strong>Ranking score</strong> — a pattern&rsquo;s success rate measured relative to its appropriate baseline (Reverse or Continue Current Trend), not raw success percentage; this is why some continuation patterns show high raw success but a negative ranking score.</li>
+<li><strong>Filtering / pre-signal area</strong> — the zone an oscillator (RSI, %K/%D stochastic, CCI, MACD, %B) occupies before it actually fires its own buy/sell signal; a candle pattern occurring while the relevant indicator is in its pre-signal area is treated as a higher-confidence &ldquo;filtered&rdquo; signal.</li>
+<li><strong>Sakata&rsquo;s Method</strong> — the historical trading approach attributed to the 18th-century rice trader Munehisa Homma, credited as the origin of several classic multi-day patterns (Three White Soldiers, Three Black Crows, and related formations).</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>The book&rsquo;s tradable content is a large pattern catalogue plus a statistically tested filtering overlay (both detailed in <a class="xref" href="../books/greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability.html">Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking</a>); representative numeric rules include:</p>
+<ol>
+<li><strong>Hammer / Hanging Man</strong>: small real body at the top of the day&rsquo;s range; long lower shadow at least twice (up to three times) the body&rsquo;s length; little to no upper shadow (no more than 5-10% of the high-low range); confirmation required via a higher close the following day. A lower shadow of 3x the body or more reclassifies it as the more bullish Takuri line.</li>
+<li><strong>Engulfing Pattern</strong>: a trend must be underway; the second day&rsquo;s real body must completely engulf the first day&rsquo;s real body (both top and bottom cannot be equal to the first day&rsquo;s, though one may be); first day&rsquo;s color matches the prior trend, second day&rsquo;s color is opposite; penetration of at least 30% beyond the first day&rsquo;s body strengthens the signal.</li>
+<li><strong>Piercing Line / Dark Cloud Cover</strong>: both are two-day patterns requiring a long body on day one in the direction of the trend; day two must open beyond day one&rsquo;s extreme (below the low for Piercing, above the high for Dark Cloud Cover) and close within — and on the favorable side of — the midpoint of day one&rsquo;s body. There is no flexibility on the 50%-penetration requirement; less penetration reclassifies the pair as a weaker continuation pattern (On Neck, In Neck, Thrusting Line for Piercing&rsquo;s family).</li>
+<li><strong>Doji-based signals</strong>: a Doji is only significant when it appears after a run of non-Doji days in an established trend (an isolated Doji after other Doji is not meaningful); a Doji following a long day in the trend direction forms a Star pattern, one of the strongest reversal signals in the catalogue.</li>
+<li><strong>Candlestick filtering rule</strong>: define a &ldquo;pre-signal area&rdquo; for a chosen oscillator (e.g., RSI 14 with 30/70 or 35/65 thresholds, stochastic %D 14 with 20/80 thresholds); only act on a candle pattern signal when the oscillator is currently within its buy (for bullish patterns) or sell (for bearish patterns) pre-signal zone. In the book&rsquo;s 100-stock test (1989-1992), unfiltered candle-pattern trading averaged 0.40%/trade over 37.1 trades; %D alone averaged 0.02%/trade over 30.1 trades; filtered candles averaged 0.60%/trade over just 13.7 trades — a 50%+ reduction in trade count paired with materially higher average gain.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book gives no explicit stop-loss, position-sizing, or profit-target rules — its statistics (percentage gain per trade, win/loss counts) are always-in-the-market comparisons (buy, sell, sell-short, cover) used purely to compare candle-only, indicator-only, and filtered-candle trading, not a deployable money-management system. Morris explicitly cautions that his simple test calculations exclude commissions and slippage, and that &ldquo;an average gain of 0.6% would quickly disappear&rdquo; once real trading costs are included — the relative comparison between methods, not the absolute return figures, is what he asks readers to trust. Position sizing, stops, and portfolio-level risk control are left entirely to the reader to layer on top of whatever entry signal (filtered or unfiltered) is chosen.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Each pattern&rsquo;s write-up centers on a &ldquo;Scenarios and Psychology&rdquo; section explaining the sentiment shift the candle sequence is thought to represent (e.g., a Hanging Man&rsquo;s long lower shadow revealing that sellers briefly took control at the top of an uptrend, unsettling holders even though the close recovered). Morris opens the book with a broader discussion of eyewitness/observational bias (borrowed from the study of crime-scene testimony) to argue that raw pattern recognition is inherently colored by the observer&rsquo;s expectations, which is his stated motivation for reducing patterns to objective, numeric recognition rules that a computer — not a chart-reader&rsquo;s eye — can apply consistently. Discipline in this book means trusting the tested statistical ranking and the filtering overlay over a trader&rsquo;s instinct about which pattern &ldquo;looks&rdquo; strong on a chart.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Introduction — observational bias in pattern reading; case for objective, computer-codable rules.</li>
+<li>Ch 2 — Candlestick Lines — single-day constructs: Marubozu, Spinning Tops, Doji variants, Paper Umbrella, Star.</li>
+<li>Ch 3 — Reversal Candle Patterns — the large catalogue of reversal formations (Hammer/Hanging Man, Engulfing, Piercing Line/Dark Cloud Cover, Harami, Three Black Crows/White Soldiers, Morning/Evening Star, and related variants), each with recognition rules and pattern-flexibility notes.</li>
+<li>Ch 4 — Continuation Candle Patterns — Tasuki Gap, On Neck/In Neck/Thrusting Line, Rising/Falling Three Methods, and related continuation formations.</li>
+<li>Ch 5 — Sakata&rsquo;s Method and Candle Formations — historical origin of key multi-day patterns via the Homma family&rsquo;s rice-trading approach.</li>
+<li>Ch 6 — The Philosophy Behind Candle Pattern Identification — trend-determination method (10-day EMA), numeric thresholds for long/short/Doji days, and data/frequency statistics (Table 6-1).</li>
+<li>Ch 7 — Reliability of Pattern Recognition — the statistical test methodology (Reverse/Continue Current Trend baselines, prediction intervals) and full ranking tables for stocks and futures.</li>
+<li>Ch 8 — Candlestick Filtering — combining candle signals with RSI, stochastics, CCI, MACD, Bollinger %B, and other oscillators&rsquo; pre-signal zones; worked comparative results; introduces CandlePower (volume-integrated) charting.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s central strength — reducing subjective pattern reading to explicit, numeric rules and then actually testing them — is rare in candlestick literature, most of which stays purely descriptive. Morris is unusually candid about limitations: he flags patterns that occurred only once or twice in the test data as statistically meaningless despite showing 100% success, notes that rankings shift substantially across 3/5/7-day prediction intervals (meaning many patterns are not robust to the exact horizon chosen), and explicitly warns that his percentage-gain figures ignore commissions and slippage. The test data (S&amp;P 100 stocks 1989-1992, CSI perpetual futures) is dated and pre-decimalization; tick-based thresholds (e.g., Doji percentage-of-range cutoffs) may need rescaling for modern minimum price increments and different volatility regimes. The book also does not test combining multiple patterns or holding periods beyond a single prediction interval, and its &ldquo;always in the market&rdquo; testing convention (used purely for comparison) does not reflect how a real discretionary or systematic trader would size or exit positions.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders and system developers who want candlestick patterns defined precisely enough to code, plus a sense — grounded in actual test statistics rather than folklore — of which patterns are more or less reliable and at which forecast horizons. Less useful as a first introduction to candlestick reading for a purely discretionary chart-watcher (Nison&rsquo;s more narrative treatments serve that purpose better), and the filtering chapter assumes basic familiarity with RSI, stochastics, and similar oscillators.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/beyond-candlesticks-steve-nison.html">Beyond Candlesticks: New Japanese Charting Techniques Revealed</a> — the more narrative, historically detailed treatment of Japanese candlestick technique that this book&rsquo;s numeric-rules approach complements.</li>
+<li><a class="xref" href="../books/big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow.html">Big Profit Patterns Using Candlestick Signals and Gaps</a> — a practitioner-oriented candlestick pattern guide covering similar formations from a discretionary-trading angle.</li>
+<li><a class="xref" href="../books/candlesticks-fibonacci-and-chart-pattern-trading-tools.html">Candlesticks, Fibonacci, and Chart Pattern Trading Tools</a> — combines candlestick signals with other chart-pattern tools, similar in spirit to this book&rsquo;s filtering chapter.</li>
+<li><a class="xref" href="../books/john-l-person-swing-trading-using-candlestick-charting-with-pivot-point.html">Swing Trading Using Candlestick Charting with Pivot Point Analysis</a> — applies candlestick patterns within a swing-trading framework, a practical extension of the entry signals catalogued here.</li>
+<li><a class="xref" href="../books/candlestick-patterns-for-day-trading.html">Candlestick Patterns for Day Trading</a> — adapts candlestick pattern recognition to a shorter, intraday timeframe than this book&rsquo;s daily-bar focus.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/beyond-candlesticks-steve-nison.html">Beyond Candlesticks: New Japanese Charting Techniques Revealed</a> — Nison&#39;s follow-up to Japanese Candlestick Charting Techniques adds the disparity index and three under-translated Japanese charting styles: three-line break, renko, and kagi.</li><li><a href="../books/big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow.html">Big Profit Patterns Using Candlestick Signals and Gaps</a> — A candlestick guide that interprets gaps as evidence of changing sentiment and develops bottom, continuation, island, and kicker setups.</li><li><a href="../books/candlesticks-fibonacci-and-chart-pattern-trading-tools.html">Candlesticks, Fibonacci, and Chart Pattern Trading Tools</a> — Merges Fibonacci retracements/extensions, candlestick reversal patterns, and 3-point chart patterns into a single confluence timing method, plus the proprietary PHI-ellipse tool.</li><li><a href="../books/john-l-person-swing-trading-using-candlestick-charting-with-pivot-point.html">Swing Trading Using Candlestick Charting with Pivot Point Analysis</a> — Booklet combining pivot-point support/resistance formulas with candlestick confirmation, using a &#39;Rule of Multiple Verification&#39; across several real futures trade examples.</li><li><a href="../books/candlestick-patterns-for-day-trading.html">Candlestick Patterns for Day Trading</a> — A compact illustrated glossary of roughly 35 Japanese candlestick patterns with pattern description and bullish/bearish interpretation for each.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

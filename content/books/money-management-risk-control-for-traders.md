@@ -1,17 +1,28 @@
 ---
-title: Money Management and Risk Control for Traders
 author: Stan Grist
-year: 2002
-slug: money-management-risk-control-for-traders
-tier: B
 category: Money Management & Position Sizing
-tags: [money-management, position-sizing, stop-loss, risk-per-trade, drawdown]
 difficulty: beginner
 doc_type: article
+one_liner: Short web report on percent-risk position sizing, stop placement, and drawdown
+  limits, illustrated with a running $50,000-account example.
 pages: 11
-one_liner: "Short web report on percent-risk position sizing, stop placement, and drawdown limits, illustrated with a running $50,000-account example."
-related: [forex-misc-money-management-ryan-jones, position-sizing, money-management-report-van-tharp]
-source_file: "Money Management Risk Control For Traders.pdf"
+related:
+- forex-misc-money-management-ryan-jones
+- position-sizing
+- money-management-report-van-tharp
+reviewed_pdf_pages: 1-11
+slug: money-management-risk-control-for-traders
+source_file: Money Management Risk Control For Traders.pdf
+source_review: full
+tags:
+- money-management
+- position-sizing
+- stop-loss
+- risk-per-trade
+- drawdown
+tier: B
+title: Money Management and Risk Control for Traders
+year: 2002
 ---
 
 ## Summary

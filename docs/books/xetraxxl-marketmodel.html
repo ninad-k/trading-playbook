@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xetra XXL Market Model — Deutsche Börse · Trading Playbook</title>
+<meta name="description" content="Deutsche Börse’s 2001 model specifies periodic anonymous block crossings at the midpoint of a liquid Xetra reference market.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Xetra XXL Market Model</h1>
+  <p class="byline">Deutsche Börse · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">Deutsche Börse’s 2001 model specifies periodic anonymous block crossings at the midpoint of a liquid Xetra reference market.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-12. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=xetra">xetra</a> <a class="tag" href="../search.html?q=block-trading">block-trading</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=execution">execution</a> </td></tr>
+    <tr><th>Length</th><td>12 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Xetra XXL Market Model” by Deutsche Börse at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Deutsche Börse’s dated 13 September 2001 document describes Xetra XXL Block Crossing for large DAX, MDAX, and NEMAX equity orders (pp. 2-4). The model is order-driven but does not discover its own price: a crossing uses the current midpoint between the best bid and ask in a liquid reference market. Orders execute by volume/time priority during a fixed number of periodic crossings (pp. 3, 8-10). The crossing book is closed, and participants cannot see order side, size, or limit; counterparties remain anonymous in the trading system until the end-of-day confirmation process described by the source (pp. 3-4). The document presents a proposed market model whose final binding form depended on amendments to Frankfurt Stock Exchange rules (p. 3).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Each security has a minimum order quantity, with further volume entered in multiples of a defined minimum tradable unit (pp. 3-5).</li>
+<li>Only market and limit orders are supported; limits are execution conditions rather than inputs to price discovery (pp. 3, 5).</li>
+<li>Orders are good for the trading day. Stop orders, execution restrictions, trading restrictions, volatility interruptions, market-order interruptions, and order-book balancing phases are absent from this model (pp. 4-6).</li>
+<li>A crossing period has a pre-call and a call with a random end. The call can be triggered only by a market order or a limit order meeting the exchange’s midpoint-based threshold (pp. 4, 8).</li>
+<li>Execution occurs only when the reference spread is no wider than the instrument’s allowed maximum and the midpoint is not stale beyond a predefined time (pp. 3, 10).</li>
+<li>Nonexecuted and partially executed orders roll to the next crossing period, then are deleted at day-end (p. 10).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Submit only a market order or a limit whose buy price is at least the midpoint, or whose sell price is no more than the midpoint, if execution at the current crossing is desired (pp. 8, 10).</li>
+<li>Account for volume/time priority: changing volume or limit in a way that harms other orders’ priority assigns the modified order a new time priority and order number (p. 5).</li>
+<li>Check that the reference-market spread and quote age satisfy the crossing safeguards; otherwise no crossing occurs (p. 10).</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is a historical, venue-specific proposal and does not establish current Xetra rules or empirical execution quality. Several quantities—the crossing schedule, minimum order size, tradable unit, maximum reference spread, and maximum quote age—are described as predefined but are not numerically supplied. The model includes no designated liquidity-provider role.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Institutional traders and market-structure readers studying block execution on electronic exchanges.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/electronic-trading-systems-in-europe-and-development-potentialities-for-russia.html">Electronic Trading Systems in Europe and Development Potentialities for Russia</a> — A workshop deck links automation, liquidity, competition, settlement infrastructure, and Russian market development.</li><li><a href="../books/demarchi-and-foucault-equity-trading-systems-in-europe-a-survey-of-recent-changes.html">Equity Trading Systems in Europe: A Survey of Recent Changes</a> — A comparative survey explains how five European exchanges moved toward electronic order-driven systems while retaining different transparency and fragmentation rules.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

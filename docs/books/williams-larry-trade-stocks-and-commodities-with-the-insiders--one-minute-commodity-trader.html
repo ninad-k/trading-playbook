@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The One-Minute Commodity Trader — Larry Williams · Trading Playbook</title>
+<meta name="description" content="A weekly futures system combining a 52-week moving-average trend filter with a 6-month COT Index of commercial hedger positioning.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/williams-larry-trade-stocks-and-commodities-with-the-insiders.html">Trade Stocks and Commodities with the Insiders: Secrets of the COT Report</a></p>
+  <h1>The One-Minute Commodity Trader</h1>
+  <p class="byline">Larry Williams · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A weekly futures system combining a 52-week moving-average trend filter with a 6-month COT Index of commercial hedger positioning.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=cot-report">cot-report</a> <a class="tag" href="../search.html?q=commercials">commercials</a> <a class="tag" href="../search.html?q=trend-filter">trend-filter</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=sentiment">sentiment</a> </td></tr>
+    <tr><th>Length</th><td>224 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The One-Minute Commodity Trader” by Larry Williams at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A weekly, chart-based futures system from Chapter 13 that filters out the false or premature signals produced by the raw COT Index (see the parent page) by requiring agreement between price trend and commercial hedger positioning. Commercials must hedge continuously as part of their business, so they are sometimes &ldquo;early,&rdquo; but when their positioning extreme lines up with an already-established price trend, setups are markedly cleaner than COT extremes alone. Williams calls it &ldquo;one-minute&rdquo; because, once a chart carries the moving average and COT Index, scanning it for a valid setup takes well under a minute per market per week.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Universe:</strong> any actively traded futures market with a CFTC COT report (illustrated on bonds, gold, orange juice, wheat, British pound, Swiss franc, S&amp;P 500).</p>
+<p><strong>Timeframe:</strong> weekly bars, evaluated once a week.</p>
+<p><strong>Step 1 — Trend direction:</strong> compute a 52-week simple moving average of price. Uptrend if this week&rsquo;s 52-week MA is higher than last week&rsquo;s; downtrend if lower.</p>
+<p><strong>Step 2 — 6-month COT Index for commercials:</strong>
+<code>COT Index = [(This week's commercial net position − lowest in past 6 months) /
+             (highest in past 6 months − lowest in past 6 months)] × 100</code>
+Same normalization as the standard 3-year COT Index, but with a 6-month lookback, making it more responsive.</p>
+<p><strong>Step 3 — Entry:</strong> long when trend is up AND the 6-month COT Index is above roughly 80% (or buy calls); short when trend is down AND the index is below roughly 20% (or buy puts). No trade when trend and COT Index disagree — these are the premature signals the trend filter removes.</p>
+<p><strong>Step 4 — Exit/stop:</strong> trail at the lowest low of the last 17 trading days for longs (highest high for shorts), excluding inside days. After a stop-out, re-enter with the trend at the highest high of the last 13 days (lowest low for shorts) if the COT extreme hasn&rsquo;t reversed. No fixed profit target; Williams notes trends rarely run past ~15 weeks without a significant correction, offered as a caution rather than a time-stop rule.</p>
+<p><strong>Frequency:</strong> qualifying setups are infrequent (e.g., only 7 signals in orange juice over 2000-2004) — a low-frequency, selective filter, not a weekly signal in every market.</p>
+<h2 id="risk">Risk</h2>
+<p>No fixed percent-of-equity figure is given; risk runs entirely through the 17-day trailing stop, sized by whatever dollar loss the trader has decided is acceptable. The book&rsquo;s own test (Table 13.1, five markets, 2000-2004, &ldquo;52-week MA rising AND 6-month COT Index &gt; 80%,&rdquo; no exit rule specified) reported 54-71% win rates and positive profit in all five markets (British pound, bonds, Swiss franc, S&amp;P 500, gold) — a small, in-sample illustration, not a walk-forward backtest, and it tests only the long side. Diversification across uncorrelated futures markets is implied by the examples but never stated as an explicit sizing rule.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The 80%/20% thresholds and 17-day/13-day stop parameters are stated as fixed numbers but not shown to be optimized or robustness-tested — they read as working defaults. The only backtest covers a short five-year window on a handful of markets and only the long side, so the reported win rates should not be treated as a validated edge. The 6-month lookback is more reactive than the parent book&rsquo;s 3-year standard but also more prone to distortion by short-term seasonal hedging patterns, a risk the book doesn&rsquo;t address. The system also depends on pre-2009 CFTC legacy categories; post-2009 disaggregated reporting (separating swap dealers and managed money from commercials) can change what &ldquo;commercial&rdquo; positioning means in financialized markets like stock indexes and currencies.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/turtletrader.html">TurtleTrader.com Site Archive</a> — A 2003 scrape of the TurtleTrader.com marketing site: trend-following philosophy, Market Wizard profiles, and money-management math, without the actual Turtle entry/exit rules.</li><li><a href="../books/dynamic-breakout-ii-strategy.html">The Dynamic Break Out II Strategy</a> — A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

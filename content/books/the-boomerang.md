@@ -1,17 +1,31 @@
 ---
-title: "The Boomerang: NipThePips' Trading Method"
-author: "NipThePips"
-year: 2008
-slug: the-boomerang
-tier: B
+author: NipThePips
 category: Forex Mechanics & Macro Drivers
-tags: [forex, breakout, martingale, reverse-and-reset, compounding, gbpusd, gbpjpy]
 difficulty: intermediate
 doc_type: manual
+one_liner: A GBP/USD or GBP/JPY H4 breakout system that flips direction and widens
+  its take-profit target after each 5-pip stop-out, aiming to eventually catch the
+  real move.
 pages: 14
-one_liner: "A GBP/USD or GBP/JPY H4 breakout system that flips direction and widens its take-profit target after each 5-pip stop-out, aiming to eventually catch the real move."
-related: [forex-misc-money-management-ryan-jones, money-management-risk-control-for-traders]
-source_file: "The Boomerang.pdf"
+related:
+- forex-misc-money-management-ryan-jones
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 4, 9, 11, 13 (the rule set, the scale-out schedule and the worked
+  trade sequences)
+slug: the-boomerang
+source_file: The Boomerang.pdf
+source_review: partial
+tags:
+- forex
+- breakout
+- martingale
+- reverse-and-reset
+- compounding
+- gbpusd
+- gbpjpy
+tier: B
+title: 'The Boomerang: NipThePips'' Trading Method'
+year: 2008
 ---
 
 ## Summary

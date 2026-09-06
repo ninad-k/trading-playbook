@@ -1,17 +1,31 @@
 ---
-title: "Common $ense Commodities: A Common Sense Approach to Trading Commodities"
-author: "Unknown"
-year: 2003
-slug: common-sense-commodities-a-common-sense-approach-to-trading-commodities
-tier: B
-category: "Market Structure & Price Action"
+author: Unknown
+category: Market Structure & Price Action
 difficulty: beginner
-tags: [chart-patterns, trendlines, retracements, stop-loss, commodities, risk-reward, beginner-course]
 doc_type: course
+one_liner: Seven-lesson beginner commodities course covering trendlines, retracements,
+  chart patterns, and basic stop/target rules.
 pages: 92
-one_liner: "Seven-lesson beginner commodities course covering trendlines, retracements, chart patterns, and basic stop/target rules."
-related: [introduction-to-charting, position-sizing, money-management-risk-control-for-traders]
-source_file: "Common Sense Commodities A Common Sense Approach To Trading Commodities.pdf"
+related:
+- introduction-to-charting
+- position-sizing
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 1-2, 7, 50 (the contents, the 50% level chapter and the reward/risk
+  rule)
+slug: common-sense-commodities-a-common-sense-approach-to-trading-commodities
+source_file: Common Sense Commodities A Common Sense Approach To Trading Commodities.pdf
+source_review: partial
+tags:
+- chart-patterns
+- trendlines
+- retracements
+- stop-loss
+- commodities
+- risk-reward
+- beginner-course
+tier: B
+title: 'Common $ense Commodities: A Common Sense Approach to Trading Commodities'
+year: 2003
 ---
 
 ## Summary

@@ -9,8 +9,11 @@ one_liner: A 10-week TradingMarkets.com course building a swing/short-term syste
 pages: 222
 related:
 - van-tharp-trading-systems
+reviewed_pdf_pages: 2-3, 5, 8, 10, 183 (course overview and performance tables, the
+  2%-of-capital risk rule, OPS stop placement and the breakout entry patterns)
 slug: marc-boucher-short-term-trading-course
 source_file: Marc Boucher - Short-Term Trading Course.pdf
+source_review: partial
 tags:
 - money-management
 - relative-strength

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models — Oesterreichische Nationalbank · Trading Playbook</title>
+<meta name="description" content="Austrian central bank regulatory guideline specifying how bank-internal VaR models must be built, validated, and backtested for market-risk capital approval.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models</h1>
+  <p class="byline">Oesterreichische Nationalbank · 1999 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">Austrian central bank regulatory guideline specifying how bank-internal VaR models must be built, validated, and backtested for market-risk capital approval.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 6, 9, 39, 54 (the regulatory framework, backtesting rules and the traffic-light zones). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=risk-management">risk-management</a> <a class="tag" href="../search.html?q=regulation">regulation</a> <a class="tag" href="../search.html?q=basel">basel</a> <a class="tag" href="../search.html?q=model-validation">model-validation</a> <a class="tag" href="../search.html?q=bank-risk">bank-risk</a> </td></tr>
+    <tr><th>Length</th><td>58 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models” by Oesterreichische Nationalbank at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A regulatory guideline from the Oesterreichische Nationalbank (Austrian central bank), part of a six-volume series on market risk, helping Austrian banks and supervisors implement the internal-models approach for market-risk capital after the 1998 Banking Act amendment (aligned with Basel&rsquo;s 1996 Capital Accord Amendment). It is a compliance manual, not a strategy document: it defines what a bank&rsquo;s internal Value-at-Risk (VaR) model must contain, how it is validated through backtesting, and how results are reported. Core statutory parameters: a 10-business-day holding period, a one-sided 99% confidence level, at least one year of historical data, and daily backtesting against a rolling 250-day window.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>VaR models must use a 10-day holding period; a 1-day VaR can be scaled up by multiplying by the square root of 10, if justified.</li>
+<li>Statutory confidence level for capital purposes is 99% (one-sided).</li>
+<li>Backtesting compares daily VaR forecasts against actual or &ldquo;hypothetical&rdquo; (static-portfolio) outcomes; regulators prefer the hypothetical series to isolate model accuracy from intraday trading.</li>
+<li>An &ldquo;exception&rdquo; is recorded when realized loss exceeds VaR for the day; exception frequency over 250 days drives a traffic-light classification determining whether approval holds or a capital penalty applies.</li>
+<li>Backtesting must run daily, performed by an independent risk-control function separate from position-taking.</li>
+<li>Institutions must also backtest at the subportfolio level, since aggregation across desks structurally raises the confidence level above 99% for the total book, masking desk-level weaknesses.</li>
+<li>Institutions submit a full model description to the OeNB every three years, plus regular and ad hoc backtesting/stress-testing reports.</li>
+<li>Serial correlation in exceptions (clustering of breaches) is flagged as a weakness to check, since independence is the implicit assumption behind the exception-count test.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Set VaR holding period to 10 trading days; scale from 1-day VaR by square root of 10 only when justified.</li>
+<li>Use a 99% one-sided confidence level.</li>
+<li>Maintain at least one year of historical data to calibrate the model.</li>
+<li>Backtest daily over a rolling 250-day window and count exceptions.</li>
+<li>Investigate and correct the model if exceptions indicate VaR is systematically too low per the traffic-light approach.</li>
+<li>Keep backtesting organizationally separate from trading.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Specific to the Austrian implementation of the Basel market-risk framework as it stood in the late 1990s; exact traffic-light thresholds are referenced but not fully reproduced here, and later Basel II/III revisions superseded parts of this framework. Written for bank risk-control staff, not traders; no entry/exit signals.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers and compliance staff running internal VaR models for regulatory capital, or traders wanting to understand how banks validate and are penalized on model accuracy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fallon-w-calculating-value-at-risk.html">Calculating Value-at-Risk</a> — Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.</li><li><a href="../books/exploring-value-at-risk.html">Exploring the Limitations of Value at Risk: How Good Is It in Practice?</a> — Journal of Risk Finance article showing Value at Risk is not a coherent risk measure, is prone to large estimation error and downward bias, and can be deliberately manipulated by traders.</li><li><a href="../books/hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies.html">Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</a> — Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.</li><li><a href="../books/credit-risk-modeling-and-valuation-an-introduction.html">Credit Risk Modeling and Valuation: An Introduction</a> — A survey/review paper comparing the three main quantitative frameworks for modeling default and pricing credit-sensitive securities: structural, reduced-form, and incomplete-information.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

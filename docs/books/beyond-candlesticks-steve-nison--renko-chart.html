@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renko Charts — Steve Nison · Trading Playbook</title>
+<meta name="description" content="A Japanese brick chart where every block is the same fixed height and a new brick prints only after price closes a full brick-size beyond the current extreme.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a> › <a href="../books/beyond-candlesticks-steve-nison.html">Beyond Candlesticks: New Japanese Charting Techniques Revealed</a></p>
+  <h1>Renko Charts</h1>
+  <p class="byline">Steve Nison · 1994 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A Japanese brick chart where every block is the same fixed height and a new brick prints only after price closes a full brick-size beyond the current extreme.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=renko">renko</a> <a class="tag" href="../search.html?q=japanese-charting">japanese-charting</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=price-based-charts">price-based-charts</a> <a class="tag" href="../search.html?q=brick-charts">brick-charts</a> </td></tr>
+    <tr><th>Length</th><td>276 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Renko Charts” by Steve Nison at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>The renko chart (&ldquo;renko&rdquo; likely from the Japanese for &ldquo;brick&rdquo;) plots equal-sized white and black bricks in successive columns, built from closing prices. Its key difference from a three-line break chart is that every brick is exactly the same height (a fixed price amount or percentage), chosen in advance as the &ldquo;price range point&rdquo; — a 20-point move on a 5-point renko chart always shows as four uniform 5-point bricks, regardless of how choppy the underlying path was. A new brick, white (up) or black (down), is only drawn once price has closed at least one full brick-height beyond the current extreme; a move smaller than a full brick, or any excess beyond the last complete brick, simply isn&rsquo;t shown.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Setup</strong>: choose a fixed price-range unit (e.g., 5 points) or a fixed percentage — this sets both the minimum move required to draw a brick and every brick&rsquo;s height — and a base (starting) price.</p>
+<p><strong>First brick</strong>: if price has risen at least one brick-height above the base, draw one white brick from the base up to that level (two bricks if the rise covers two full brick-heights, each in its own column, excess unshown); the mirror applies for a fall of at least one brick-height (black brick). A smaller move draws nothing.</p>
+<p><strong>Subsequent bricks</strong>: compare each new close to the high/low of the most recently drawn brick. A close at or beyond one brick-height above the top draws one or more white bricks (one column right, starting from that prior high); a close at or beyond one brick-height below the bottom draws black bricks the same way. Price staying within the last brick&rsquo;s range draws nothing.</p>
+<p><strong>Basic signal</strong>: buy on a new white brick; sell/short on a new black brick. This is the only reversal signal Nison gives for renko — simpler than three-line break or kagi (no equivalent of shoulders/waists, multi-level breaks, or record-session counting).</p>
+<p><strong>Sizing</strong>: sensitivity is controlled purely by brick size — smaller bricks generate more signals and whipsaws but react sooner; larger bricks filter more noise but confirm reversals further from the actual turn. No formula for an &ldquo;optimal&rdquo; size is given; it&rsquo;s a function of volatility, price level, and holding-period preference.</p>
+<h2 id="risk">Risk</h2>
+<p>As with three-line break, no explicit stop-loss rule accompanies the basic renko signal — the brick reversal itself is the exit/reversal point, and the amount given back before a new opposite-color brick confirms is bounded by, but can approach, one full brick-height beyond the prior extreme. In genuinely lateral markets, Nison&rsquo;s own examples show renko inducing repeated whipsaw round trips (buy on white, sell shortly after on black) — its edge is concentrated in markets that develop a sustained directional run, letting a trader &ldquo;ride the major portion of the trend,&rdquo; and is weakest when brick size is poorly matched to the instrument&rsquo;s actual volatility.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Nison states renko techniques are &ldquo;more limited&rdquo; than three-line break or kagi — there is no renko equivalent of shoulders/waists, multi-level break confirmation, or the double-window and three-Buddha patterns documented for kagi. Renko, like three-line break, is normally built from daily or weekly closes; intraday use is uncommon (unlike kagi, which does see intraday tick-based use in Japan). A fixed-percentage versus fixed-point brick size changes chart behavior as price shifts over long histories — a fixed-point brick becomes relatively larger as a low-priced stock falls, or smaller as a high-priced stock rises — a trade-off the book flags for kagi but doesn&rsquo;t work through for renko.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/trading-hill-arthur-introduction-to-candlesticks.html">Introduction to Candlesticks</a> — Structured primer on candlestick construction and the major single-, double-, and triple-candle reversal patterns, with rules for confirmation and combining candles with support/resistance and momentum indicators.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

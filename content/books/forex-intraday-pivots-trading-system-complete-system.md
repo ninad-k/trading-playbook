@@ -1,17 +1,33 @@
 ---
-title: "One More Zero: Forex Intraday Pivots Trading System"
 author: Peter R. Bain and Dr. Brent Strouse
-year: unknown
-slug: forex-intraday-pivots-trading-system-complete-system
-tier: B
 category: Day Trading & Scalping
-tags: [forex, pivot-points, support-resistance, stochastic, intraday, swiss-franc]
 difficulty: beginner
 doc_type: manual
+one_liner: 'FX Solutions-branded promotional e-book presenting Dr. Brent Strouse''s
+  intraday pivot-point system for USD/CHF: traditional daily pivot/support/resistance
+  formulas plus a stochastic oscillator backup, on 5-minute and 1-hour charts.'
 pages: 59
-one_liner: "FX Solutions-branded promotional e-book presenting Dr. Brent Strouse's intraday pivot-point system for USD/CHF: traditional daily pivot/support/resistance formulas plus a stochastic oscillator backup, on 5-minute and 1-hour charts."
-related: [pivots, john-l-person-swing-trading-using-candlestick-charting-with-pivot-point, forex-mtpredictor-trading-course-part-1a, chart-patterns-tutorial, technical-indicators-tutorial]
-source_file: "Forex Intraday Pivots Trading System - Complete System.pdf"
+related:
+- pivots
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+- forex-mtpredictor-trading-course-part-1a
+- chart-patterns-tutorial
+- technical-indicators-tutorial
+reviewed_pdf_pages: 2, 5, 7, 10, 13, 31, 49-50 (the pivot formulas, session filters
+  and the RSI/MACD confirmation rules)
+slug: forex-intraday-pivots-trading-system-complete-system
+source_file: Forex Intraday Pivots Trading System - Complete System.pdf
+source_review: partial
+tags:
+- forex
+- pivot-points
+- support-resistance
+- stochastic
+- intraday
+- swiss-franc
+tier: B
+title: 'One More Zero: Forex Intraday Pivots Trading System'
+year: unknown
 ---
 
 ## Summary

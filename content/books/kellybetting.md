@@ -1,17 +1,29 @@
 ---
-title: A New Interpretation of Information Rate
 author: J. L. Kelly Jr.
-year: 1956
-slug: kellybetting
-tier: B
 category: Money Management & Position Sizing
-tags: [kelly-criterion, position-sizing, information-theory, bankroll-growth, probability, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: 'The original Bell System Technical Journal paper deriving the Kelly criterion:
+  bet a fraction of capital proportional to your edge to maximize long-run exponential
+  growth.'
 pages: 10
-one_liner: "The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth."
-related: [money-management-report-van-tharp, forex-money-management]
-source_file: "kellybetting.pdf"
+related:
+- money-management-report-van-tharp
+- forex-money-management
+reviewed_pdf_pages: 1-10
+slug: kellybetting
+source_file: kellybetting.pdf
+source_review: full
+tags:
+- kelly-criterion
+- position-sizing
+- information-theory
+- bankroll-growth
+- probability
+- academic-paper
+tier: B
+title: A New Interpretation of Information Rate
+year: 1956
 ---
 
 ## Summary

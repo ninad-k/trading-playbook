@@ -1,17 +1,32 @@
 ---
-title: "FX Education: Foreign Exchange Fundamentals"
 author: Unknown
-year: 2005
-slug: forex-education-seminar2
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, fundamentals, macro, economic-indicators, market-history, glossary]
 difficulty: beginner
 doc_type: course
+one_liner: Seminar handout covering leading/coincident/lagging economic indicators,
+  a short history of FX, market participants, and a basic FX glossary.
 pages: 14
-one_liner: "Seminar handout covering leading/coincident/lagging economic indicators, a short history of FX, market participants, and a basic FX glossary."
-related: [glossary-of-forex-terms, liquidity-in-forex-markets, six-forces-of-forex, the-forex-market-phenomena, general-observations-thoughts-on-trading-gbp]
-source_file: "Forex_Education_seminar2.pdf"
+related:
+- glossary-of-forex-terms
+- liquidity-in-forex-markets
+- six-forces-of-forex
+- the-forex-market-phenomena
+- general-observations-thoughts-on-trading-gbp
+reviewed_pdf_pages: 6, 11 (the market-size and participant sections and the 1997 crisis
+  discussion)
+slug: forex-education-seminar2
+source_file: Forex_Education_seminar2.pdf
+source_review: partial
+tags:
+- forex
+- fundamentals
+- macro
+- economic-indicators
+- market-history
+- glossary
+tier: B
+title: 'FX Education: Foreign Exchange Fundamentals'
+year: 2005
 ---
 
 ## Summary

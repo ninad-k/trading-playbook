@@ -1,17 +1,34 @@
 ---
-title: A Short Course in Technical Trading
 author: Perry J. Kaufman
-year: 2003
-slug: a-short-course-in-technical-trading
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [moving-average, breakout, momentum, macd, stochastic, rsi, volatility, position-sizing]
 difficulty: beginner
 doc_type: book
+one_liner: A graduate-course walkthrough of trend, momentum, and volatility indicators
+  with worked spreadsheet formulas, backtest tables, and explicit trading rules.
 pages: 339
-one_liner: "A graduate-course walkthrough of trend, momentum, and volatility indicators with worked spreadsheet formulas, backtest tables, and explicit trading rules."
-related: [elder-alexander-trading-for-a-living, curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, money-management-report-van-tharp, street-smarts-laurence-connors]
-source_file: "A Short Course in Technical Trading.PDF"
+related:
+- elder-alexander-trading-for-a-living
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- money-management-report-van-tharp
+- street-smarts-laurence-connors
+reviewed_pdf_pages: 5, 7-8, 10, 15, 23, 74-77, 84 (the regression-slope and moving-average
+  system chapters with their backtest tables)
+slug: a-short-course-in-technical-trading
+source_file: A Short Course in Technical Trading.PDF
+source_review: partial
+tags:
+- moving-average
+- breakout
+- momentum
+- macd
+- stochastic
+- rsi
+- volatility
+- position-sizing
+tier: A
+title: A Short Course in Technical Trading
+year: 2003
 ---
 
 ## Overview

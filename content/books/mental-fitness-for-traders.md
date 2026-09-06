@@ -1,17 +1,29 @@
 ---
-title: "Mental Fitness for Traders (The OTHER 90%)"
 author: Norman Hallett
-year: 2005
-slug: mental-fitness-for-traders
-tier: B
-category: "Trading Psychology & Discipline"
-tags: [psychology, discipline, emotional-control, risk-capital, self-talk, journaling]
+category: Trading Psychology & Discipline
 difficulty: beginner
 doc_type: article
+one_liner: Fifteen short essays arguing that emotional discipline, not the trading
+  system, is the deciding factor between winning and losing traders.
 pages: 36
-one_liner: "Fifteen short essays arguing that emotional discipline, not the trading system, is the deciding factor between winning and losing traders."
-related: [money-management-in-trading, andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets]
-source_file: "Mental_Fitness_for_Traders.pdf"
+related:
+- money-management-in-trading
+- andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets
+reviewed_pdf_pages: 2-3, 6, 8 (the contents, the systems-versus-psychology argument
+  and the discipline exercises)
+slug: mental-fitness-for-traders
+source_file: Mental_Fitness_for_Traders.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- emotional-control
+- risk-capital
+- self-talk
+- journaling
+tier: B
+title: Mental Fitness for Traders (The OTHER 90%)
+year: 2005
 ---
 
 ## Summary

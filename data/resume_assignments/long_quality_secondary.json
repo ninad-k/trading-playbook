@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "john-allen-paulos-mathematician-plays-the-stock-market",
+    "pages_inspected": "1-24, 34-38, 141-162",
+    "changes": [
+      "Expanded reviewed_pdf_pages to include the averaging-down and data-mining passages used by the note.",
+      "Added page citations to the behavioral claims and removed the unsupported instruction to include costs from the source paraphrase.",
+      "Labeled all five actionable items as editorial applications rather than Paulos's stated rules."
+    ],
+    "evidence": [
+      "Title, John Allen Paulos, and 2003 copyright appear on PDF pp. 1-5.",
+      "Mental accounting and market-expectation reasoning appear on pp. 9-15; confirmation bias and averaging down on pp. 21-22; data mining and new-data validation on pp. 34-38.",
+      "Utility and covariance-based diversification are developed on pp. 153-160."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "mcgraw-hill-how-to-read-a-financial-statement",
+    "pages_inspected": "1-26, 128-132",
+    "changes": [
+      "Added citations for EPS, deferred taxes, operating cash flow, and depreciation.",
+      "Recast the action list as an editorial accounting checklist, not a screening system supplied by Tracy.",
+      "Replaced the loose EBITDA analogy with Tracy's actual net-income-plus-noncash-expenses formulation and documented the misleading filename/publisher mismatch."
+    ],
+    "evidence": [
+      "The actual title is How to Read a Financial Report: Wringing Vital Signs Out of the Numbers, Fifth Edition, by John A. Tracy on p. 128; copyright 1999 and John Wiley & Sons appear on p. 129.",
+      "Retained earnings and EPS appear on pp. 7-8; operating cash-flow reconciliation on pp. 11-14; liquidity warning on p. 18."
+    ],
+    "unresolved": [
+      "The repository filename and slug say McGraw-Hill/Financial Statement, but the embedded title page says John Wiley & Sons/Financial Report; the note metadata now follows the embedded title page."
+    ]
+  },
+  {
+    "slug": "mcgraw-hill-understanding-stocks",
+    "pages_inspected": "1-30, 170-188",
+    "changes": [
+      "Expanded reviewed_pdf_pages through p. 30 to support the market-mechanics and alternative-asset discussion.",
+      "Distinguished three paraphrases of Sincere's advice from two editorial checklist items.",
+      "Corrected the personal-finance sequence on p. 188 and restored the author's exact 100-share cap for an irresistible tip."
+    ],
+    "evidence": [
+      "Title, Michael Sincere, and 2004 copyright appear on pp. 3-4.",
+      "Hostile-market guidance to move toward cash, trade less, and study appears on pp. 179-180; cash, mixed analysis, and learning from losses appear on pp. 185-188.",
+      "The 100-share tip limit appears on pp. 177-178, and the eight-year no-loss claim is only an introductory claim on p. 12."
+    ],
+    "unresolved": [
+      "The advertised eight-year no-loss strategy was not evaluated in the reviewed ranges."
+    ]
+  },
+  {
+    "slug": "michael-sheimo-stock-market-rules",
+    "pages_inspected": "1-18, 217-230",
+    "changes": [
+      "Preserved the note's correction of the misleading filename and slug: the file is a SAS Institute manual, not Michael Sheimo's Stock Market Rules.",
+      "Clarified the CAPM-alpha interpretation to match the manual's language.",
+      "Labeled the other workflow rules as editorial implications derived from the manual's task coverage."
+    ],
+    "evidence": [
+      "The title page identifies Stock Market Analysis Using the SAS System: Portfolio Selection and Evaluation, Version 6, First Edition, and SAS Institute Inc. on pp. 1-2.",
+      "The contents and purpose enumerate returns, DCF, clustering, CAPM, constrained optimization, performance evaluation, and option valuation on pp. 3-7.",
+      "Positive and negative CAPM alpha are defined as consistent positive or negative nonmarket returns on p. 221."
+    ],
+    "unresolved": [
+      "No publication year is visible in the inspected OCR, and most equation/code pages in the closing range contain no extractable text."
+    ]
+  },
+  {
+    "slug": "stock-market-rules-50-of-the-most-widely-held-investment-axioms-explained-examined-and-exp",
+    "pages_inspected": "1-18, 89-111, 154-195",
+    "changes": [
+      "Made the summary explicit that its conditional framework is an editorial synthesis across the selected chapters.",
+      "Labeled the action list as paraphrases of Sheimo and tightened the objective rule to his measurable-review language.",
+      "No material correction was needed to the title, author, year, or reviewed chapter claims."
+    ],
+    "evidence": [
+      "The third-edition title, Michael D. Sheimo, and 2005 copyright appear on pp. 4-5.",
+      "Objective criteria and diagnose-before-selling guidance appear on pp. 89-93; overtrading controls on pp. 164-167; narrow watchlists and attachment risks on pp. 168-177; execution and records on pp. 178-181.",
+      "The preface explicitly says the axioms are examined rather than universally accepted and that charts are examples, not recommendations, on pp. 10-11."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "the-penny-stock-trading-sysyem",
+    "pages_inspected": "1-13, 190-214",
+    "changes": [
+      "Corrected the false caveat that the source lacks precise entries, exits, and stops.",
+      "Added the author's limit-order rule, high-volume preference, timed intraday examples, and fixed 20% loss rule.",
+      "Distinguished the author's speculative prescriptions from editorial verification safeguards and emphasized the absence of a documented test."
+    ],
+    "evidence": [
+      "Donny Lowy and the 2002 copyright appear on p. 1; the OTC/Pink Sheet and below-one-dollar definition is on pp. 9-11.",
+      "Reverse-merger and low-float shell strategies appear on pp. 190-194 and 199; limit orders and volume rules on pp. 204-209.",
+      "Timed press-release and dip examples appear on pp. 209-211, the 20% loss rule on p. 212, and the unaudited 80% loss/1,000% gain anecdote on pp. 213-214."
+    ],
+    "unresolved": [
+      "The source provides no sample definition, audited record, position-sizing formula, or empirical support for its precise thresholds."
+    ]
+  }
+]

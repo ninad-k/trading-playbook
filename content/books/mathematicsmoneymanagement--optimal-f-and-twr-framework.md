@@ -1,18 +1,27 @@
 ---
-title: "Optimal f and the TWR/Geometric Mean Framework"
 author: Ralph Vince
-year: 1992
-slug: mathematicsmoneymanagement--optimal-f-and-twr-framework
-tier: A
 category: Money Management & Position Sizing
-tags: [optimal-f, kelly-criterion, twr, geometric-mean, position-sizing, drawdown]
 difficulty: advanced
 doc_type: system
-parent: mathematicsmoneymanagement
+one_liner: The exact formulas for computing optimal f from a trade history, comparing
+  systems by geometric mean, and sizing contracts trade to trade.
 pages: 106
-one_liner: "The exact formulas for computing optimal f from a trade history, comparing systems by geometric mean, and sizing contracts trade to trade."
-related: [balsara-nauzer-j-money-management-strategies-for-futures-traders, a-new-interprtation-of-information-rate-kelly, kellybetting]
-source_file: "MathematicsMoneyManagement.pdf"
+parent: mathematicsmoneymanagement
+related:
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- kellybetting
+slug: mathematicsmoneymanagement--optimal-f-and-twr-framework
+source_file: MathematicsMoneyManagement.pdf
+tags:
+- optimal-f
+- kelly-criterion
+- twr
+- geometric-mean
+- position-sizing
+- drawdown
+tier: A
+title: Optimal f and the TWR/Geometric Mean Framework
+year: 1992
 ---
 
 ## What it is

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data — P. J. Bolland and J. T. Connor · Trading Playbook</title>
+<meta name="description" content="London Business School paper using a robust multivariate Kalman filter to detect FX triangular-arbitrage mispricings in erratic 1990s tick data.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data</h1>
+  <p class="byline">P. J. Bolland and J. T. Connor · 1995 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">London Business School paper using a robust multivariate Kalman filter to detect FX triangular-arbitrage mispricings in erratic 1990s tick data.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-2, 16 (the triangular-arbitrage formulation and the worked outlier case study). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=kalman-filter">kalman-filter</a> <a class="tag" href="../search.html?q=triangular-arbitrage">triangular-arbitrage</a> <a class="tag" href="../search.html?q=high-frequency-data">high-frequency-data</a> <a class="tag" href="../search.html?q=tick-data">tick-data</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=outlier-detection">outlier-detection</a> <a class="tag" href="../search.html?q=neural-network">neural-network</a> </td></tr>
+    <tr><th>Length</th><td>20 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data” by P. J. Bolland and J. T. Connor at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how can triangular FX arbitrage be identified in real time from irregularly-arriving, error-prone tick data? Data: second-by-second Reuters ticks for $/DM, £/$, and £/DM, 1993–1995. Method: the no-arbitrage identity (the three cross rates around a currency triangle must multiply to 1, or their logs sum to zero) is formulated as a state-space model. A multivariate Kalman filter, made robust via a neural-network-based estimator, treats real arbitrage as a statistical outlier against the fitted no-arbitrage relationship, producing an updated estimate of every cross rate each second regardless of whether a tick arrived. Finding: the filter separated genuine mispricings from noise and data corruption, produced continuous robust estimates through data gaps, and correctly identified a documented spurious price spike as an outlier rather than following it.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Triangular arbitrage: the product of the three exchange rates around the loop must equal 1; in logs this becomes a simple additive identity, suiting a linear state-space model.</li>
+<li>The filter&rsquo;s &ldquo;state&rdquo; is the log of each base-currency rate; &ldquo;observations&rdquo; are whichever ticks arrive that second, often an incomplete subset.</li>
+<li>Two noise sources are modeled separately: ordinary bid-ask/transaction-cost noise (an unprofitable band) and additive outliers (real mispricing or data corruption).</li>
+<li>Parameters are estimated via the EM algorithm to handle missing data from irregular tick arrival.</li>
+<li>Prior daily-data studies likely missed most intraday arbitrage; prior intraday studies needed simultaneous quotes across all three rates, which this model avoids.</li>
+<li>The filter handles non-linear (neural network) state-transition functions via point-wise linearization, not just linear autoregression.</li>
+<li>Case study: the filter flagged a spurious $/DM tick as an outlier (robust score ~4.65) and used pure prediction instead of following it, while instantly propagating a genuine DM/£ trade into its $/£ estimate.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None for retail trading — this is infrastructure for institutional/quant arbitrage desks. Takeaway: (1) linear arbitrage relationships can be monitored as a state-space/Kalman-filter estimation problem rather than by naive simultaneous-quote comparison; (2) a robust filter separating outliers from noise can maintain continuous &ldquo;fair value&rdquo; cross-rate estimates even with stale or missing quotes.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The 1993–1995 dataset predates modern electronic FX market structure by decades — costs, latency, and arbitrage competition have all changed. This is a methodology demonstration, not a profitability study: no realized P&amp;L or execution-cost analysis is given, only that known mispricing events are correctly flagged as outliers. Some equations are rendered ambiguously in the source (OCR artifacts around subscripts/matrices).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers or FX arbitrage system builders wanting an early worked example of robust multivariate Kalman filtering for real-time cross-rate consistency checking on noisy tick data.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/application-of-multi-agent-games-to-the-prediction-of-financial-time-series.html">Application of Multi-Agent Games to the Prediction of Financial Time-Series</a> — Oxford physicists show a Minority-Game-based multi-agent model trained on price history can predict next-tick and multi-step FX direction better than chance.</li><li><a href="../books/fallon-w-calculating-value-at-risk.html">Calculating Value-at-Risk</a> — Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

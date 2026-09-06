@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Detecting Breakouts From Flags &amp; Pennants — Markos Katsanos · Trading Playbook</title>
+<meta name="description" content="A Stocks &amp; Commodities article coding a mechanical MetaStock system to detect and trade flag/pennant breakouts, backtested with a 187% return on Blue Coat Systems.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a></p>
+  <h1>Detecting Breakouts From Flags &amp; Pennants</h1>
+  <p class="byline">Markos Katsanos · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">advanced</span></p>
+  <p class="lead">A Stocks &amp; Commodities article coding a mechanical MetaStock system to detect and trade flag/pennant breakouts, backtested with a 187% return on Blue Coat Systems.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-9. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=flags">flags</a> <a class="tag" href="../search.html?q=pennants">pennants</a> <a class="tag" href="../search.html?q=breakouts">breakouts</a> <a class="tag" href="../search.html?q=metastock">metastock</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=volume">volume</a> <a class="tag" href="../search.html?q=exit-rules">exit-rules</a> </td></tr>
+    <tr><th>Length</th><td>9 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Detecting Breakouts From Flags &amp; Pennants” by Markos Katsanos at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Markos Katsanos presents a fully coded MetaStock system (9 lines) for identifying flag and pennant continuation patterns and trading their breakouts, built from statistics on 100 sampled flag/pennant formations and validated out-of-sample on 250 stocks. The system combines a zigzag-identified flagpole, linear-regression slope filters, and several momentum/volume indicators (stochastics, ADX, FVE, VFI) to flag high-probability setups, then exits using a statistically derived profit target plus four backstop conditions.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Flag/pennant duration is capped at 21 trading days (95th percentile of the 100-sample distribution); flags must last more than 2 days.</li>
+<li>Entry requires a flagpole rise of at least 2.2%/day (13-bar regression slope), a flag slope between -1.2% and +0.2%/day, and declining volume during the flag.</li>
+<li>Confirming filters: declining volatility during the flag; 20-day Stochastic &gt; 55; 10-day ADX &gt; 30; 22-day FVE &gt; 10; 130-day VFI &gt; -3; entry-day close above both yesterday&rsquo;s close and today&rsquo;s open.</li>
+<li>Profit target formula (regression-derived): Target % = 1.94 × (pole height %)^0.724.</li>
+<li>Other exits: stop on a close below the flag&rsquo;s lower trendline; inactivity exit after 14 days if profit is under 25% of target; trailing stop if price drops &gt;10% from the 4-day high close; hard time exit after 24 days.</li>
+<li>Backtest on 4 stocks (2000–2005): Blue Coat Systems 187% profit (100% win rate, 7 trades) vs. -91% buy-and-hold; Applied Digital 111%; Great Atlantic &amp; Pacific Tea 143%; US Gypsum 69% (60% win rate).</li>
+<li>A June 2003 scan of 1,250 stocks produced 13 trades, 85% winners, and a 735% annualized return (26.2% total return in 13 days) on a $100,000 hypothetical account.</li>
+<li>Most losing trades occurred in adverse markets or when a stock was already overextended from a prior successful breakout.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Enter long only when: flag duration 2–21 days, flagpole slope ≥ 2.2%/day, flag slope -1.2% to +0.2%/day, volume and volatility declining, 20-day Stochastic &gt; 55, 10-day ADX &gt; 30, 22-day FVE &gt; 10, 130-day VFI &gt; -3, close above prior close and today&rsquo;s open.</li>
+<li>Exit at profit target = 1.94 × pole%^0.724.</li>
+<li>Stop out on a close below the flag&rsquo;s lower trendline.</li>
+<li>Exit for inactivity if held over 14 days with profit under 25% of target.</li>
+<li>Trail a stop 10% below the highest close of the last 4 days; force-exit after 24 days.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>The system was optimized on the same 100-sample dataset later used for its statistics, and the multi-hundred-percent returns come from very few trades (1–7 per stock, one 13-day scan) — not a long diversified track record. Requires MetaStock-specific formula language (Zig, LinRegSlope, Stoch, ADX, FVE, VFI) to reimplement exactly.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Systematic/technical traders comfortable with MetaStock formula scripting who want a fully specified, quantified flag/pennant breakout system rather than a discretionary pattern-recognition approach.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/trade-breakouts.html">Trade Breakouts for Bigger Profit Potential</a> — A short essay arguing that buying/selling into confirmed breakouts of well-tested support/resistance beats waiting for pullbacks, citing the Turtles as proof.</li><li><a href="../books/chart-patterns-and-technical-indicators.html">Chart Patterns and Technical Indicators</a> — A reference catalog of roughly 20 classic bar-chart continuation/reversal patterns plus brief write-ups of DMI, MACD, Slow Stochastic, and RSI.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

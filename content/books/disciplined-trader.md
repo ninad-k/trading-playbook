@@ -1,17 +1,34 @@
 ---
-title: "The Disciplined Trader: Developing Winning Attitudes"
 author: Mark Douglas
-year: 1990
-slug: disciplined-trader
-tier: A
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, fear, beliefs, self-trust, rules, mental-framework]
 difficulty: intermediate
 doc_type: book
+one_liner: Argues that trading losses come from unmanaged beliefs and fear, not bad
+  analysis, and lays out a seven-step process for rebuilding a trader's mental framework
+  around predefined rules.
 pages: 184
-one_liner: "Argues that trading losses come from unmanaged beliefs and fear, not bad analysis, and lays out a seven-step process for rebuilding a trader's mental framework around predefined rules."
-related: [martin-j-pring-investment-psychology-part-1, mental-fitness-for-traders, howtothinklikeawinningtrader, tradingyourgut, whats-in-your-head]
-source_file: "Disciplined_Trader.pdf"
+related:
+- martin-j-pring-investment-psychology-part-1
+- mental-fitness-for-traders
+- howtothinklikeawinningtrader
+- tradingyourgut
+- whats-in-your-head
+reviewed_pdf_pages: 180 and the trading-rules chapters checked against the note's
+  claims (the book states no numeric parameters to verify)
+slug: disciplined-trader
+source_file: Disciplined_Trader.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- fear
+- beliefs
+- self-trust
+- rules
+- mental-framework
+tier: A
+title: 'The Disciplined Trader: Developing Winning Attitudes'
+year: 1990
 ---
 
 ## Overview

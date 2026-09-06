@@ -1,17 +1,33 @@
 ---
-title: Risk Arbitrage
 author: Guy P. Wyser-Pratte
-year: 2009
-slug: wyser-pratte-guy-risk-arbitrage
-tier: A
-category: "Options, Futures & Derivatives"
-tags: [risk-arbitrage, merger-arbitrage, event-driven, hedging, tender-offers, spinoffs, deal-risk]
+category: Options, Futures & Derivatives
 difficulty: advanced
 doc_type: book
+one_liner: 'A practitioner''s manual for merger/risk arbitrage: parity and spread
+  calculation, deal-risk checklists, and worked case studies from the 1960s through
+  the 2000s.'
 pages: 305
-one_liner: "A practitioner's manual for merger/risk arbitrage: parity and spread calculation, deal-risk checklists, and worked case studies from the 1960s through the 2000s."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, hedges-on-hedge-funds-how-to-successfully-analyze-2005, article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000, money-management-risk-control-for-traders]
-source_file: "Wyser-Pratte, Guy - Risk Arbitrage.pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- hedges-on-hedge-funds-how-to-successfully-analyze-2005
+- article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 6, 8-9, 11, 57 (contents and edition history, the deal-milestone
+  chapters and the Hart-Scott-Rodino timing discussion)
+slug: wyser-pratte-guy-risk-arbitrage
+source_file: Wyser-Pratte, Guy - Risk Arbitrage.pdf
+source_review: partial
+tags:
+- risk-arbitrage
+- merger-arbitrage
+- event-driven
+- hedging
+- tender-offers
+- spinoffs
+- deal-risk
+tier: A
+title: Risk Arbitrage
+year: 2009
 ---
 
 ## Overview

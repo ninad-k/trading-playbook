@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCF Valuation Method (FCFE / FCFF) — Aswath Damodaran · Trading Playbook</title>
+<meta name="description" content="Step-by-step discounted cash flow method: forecast cash flows and growth in explicit stages, discount at a risk-adjusted rate, and close with a bounded terminal value.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a> › <a href="../books/investment-valuation-damodaran.html">Investment Valuation</a></p>
+  <h1>DCF Valuation Method (FCFE / FCFF)</h1>
+  <p class="byline">Aswath Damodaran · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">Step-by-step discounted cash flow method: forecast cash flows and growth in explicit stages, discount at a risk-adjusted rate, and close with a bounded terminal value.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=valuation">valuation</a> <a class="tag" href="../search.html?q=dcf">dcf</a> <a class="tag" href="../search.html?q=fcfe">fcfe</a> <a class="tag" href="../search.html?q=fcff">fcff</a> <a class="tag" href="../search.html?q=terminal-value">terminal-value</a> <a class="tag" href="../search.html?q=cost-of-capital">cost-of-capital</a> </td></tr>
+    <tr><th>Length</th><td>1356 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “DCF Valuation Method (FCFE / FCFF)” by Aswath Damodaran at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A general-purpose intrinsic-value method: value a firm (or its equity) as the present value of expected future cash flows plus a terminal value, discounted at a rate reflecting risk. Two parallel tracks: Free Cash Flow to Equity (FCFE), discounted at the cost of equity for equity value directly, and Free Cash Flow to Firm (FCFF), discounted at WACC for firm value, from which debt is subtracted to reach equity value. Both share the same growth/terminal-value machinery; FCFF/WACC is more robust when leverage is changing.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li>
+<p><strong>Classify the growth stage</strong> — stable, two-stage (n years high growth then stable), or three-stage (with a declining-growth transition). Judge high-growth length from firm size relative to its market, growth momentum, and durability of competitive advantages.</p>
+</li>
+<li>
+<p><strong>Compute the cash flow.</strong>
+   - FCFE = Net Income − (CapEx − Depreciation) − ΔWorking Capital + (New Debt − Debt Repaid) − Preferred Dividends.
+   - FCFF = EBIT×(1−tax rate) + Depreciation − CapEx − ΔWorking Capital.</p>
+</li>
+<li>
+<p><strong>Forecast growth from fundamentals</strong>, not analyst guesses: g = Retention Ratio × ROE (equity income) or Reinvestment Rate × Return on Capital (operating income). For historical growth use the geometric, not arithmetic, average, and treat negative-earnings periods as &ldquo;not meaningful&rdquo; rather than forcing a distorted number.</p>
+</li>
+<li>
+<p><strong>Build the discount rate.</strong> Cost of equity = riskless rate + beta × equity risk premium (CAPM). WACC = ke×E/(D+E) + kd(1−tax)×D/(D+E), with kd from the riskless rate plus a rating-based default spread. Re-lever beta as the debt ratio changes across stages.</p>
+</li>
+<li>
+<p><strong>Discount explicit-period cash flows</strong> year by year at ke (FCFE) or WACC (FCFF).</p>
+</li>
+<li>
+<p><strong>Estimate terminal value</strong> at stable growth: TV(n) = CF(n+1) / (r − g_stable). Cap g_stable at the economy&rsquo;s long-run growth rate (rule of thumb: at or below the risk-free rate). Reset stable-period beta toward 1 (cap ~1.2), ROE/ROC toward industry averages, and the reinvestment ratio to g_stable ÷ Stable ROE (or ROC). Alternatives: liquidation value or an exit multiple (the latter effectively blends in relative valuation).</p>
+</li>
+<li>
+<p><strong>Sum and adjust.</strong> Value = Σ PV(cash flows) + PV(terminal value); for FCFF subtract debt and minority interests before dividing by shares outstanding.</p>
+</li>
+<li>
+<p><strong>Cross-check with the implied growth rate</strong> — solve backward from market price for the growth rate it requires, and compare to the fundamentals-based estimate.</p>
+</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>No stop-loss or position-sizing rule; risk is priced through the discount rate and the margin between estimated value and market price. Because terminal value dominates total value, the model is highly sensitive to the stable growth rate and high-growth length — value moves non-linearly as growth approaches the discount rate. Practical control: run the valuation across a range of growth/discount-rate assumptions rather than trusting one point estimate, and sanity-check the implied growth rate.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Every input (growth duration, stable ROE, beta convergence) is a judgment call dressed in algebra; two analysts can reach very different values from the same model. It requires clean, forward-looking financial data (R&amp;D capitalization, operating leases, one-time items) that is easy to get wrong mechanically. It is a multi-year intrinsic-value estimate, not a timing tool — it says whether a stock is cheap, not when the market will agree.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/investment-valuation-damodaran.html">Investment Valuation</a> — Graduate-level valuation textbook covering DCF models (dividend, FCFE, FCFF), relative valuation multiples, and growth/terminal-value estimation, with worked company examples.</li><li><a href="../books/damodaran-aswath-investment-fables.html">Investment Fables: Exposing Myths About Stocks</a> — Tests a dozen classic stock-picking stories - dividends, low PE, low P/B, growth, momentum, contrarian, arbitrage - against real data and shows exactly when and why each one fails.</li><li><a href="../books/the-intelligent-investor-benjamin-graham.html">The Intelligent Investor</a> — Graham&#39;s framework for value investing: treat market quotes as a manic partner (Mr. Market), demand a margin of safety, and pick a defensive or enterprising posture with explicit numeric screens.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,29 @@
 ---
-title: The Stock Market for Dummies
 author: Unknown
-year: unknown
-slug: the-stock-market-for-dummies
-tier: B
 category: Investing, Value & Market History
-tags: [stock-market-basics, beginner, stock-types, brokers, stock-splits]
 difficulty: beginner
 doc_type: article
+one_liner: Two-page primer defining what stocks are, technician vs. fundamentalist
+  investors, penny/growth/blue-chip stock types, stock splits, and common vs. preferred
+  shares.
 pages: 2
-one_liner: "Two-page primer defining what stocks are, technician vs. fundamentalist investors, penny/growth/blue-chip stock types, stock splits, and common vs. preferred shares."
-related: [10-bankrupt, fundamentalsoftradingplan, commodity-futures-trading-for-beginners]
-source_file: "The Stock Market For Dummies.pdf"
+related:
+- 10-bankrupt
+- fundamentalsoftradingplan
+- commodity-futures-trading-for-beginners
+reviewed_pdf_pages: 1-2
+slug: the-stock-market-for-dummies
+source_file: The Stock Market For Dummies.pdf
+source_review: full
+tags:
+- stock-market-basics
+- beginner
+- stock-types
+- brokers
+- stock-splits
+tier: B
+title: The Stock Market for Dummies
+year: unknown
 ---
 
 ## Summary

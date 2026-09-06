@@ -1,17 +1,30 @@
 ---
-title: "A Theory of Intraday Patterns: Volume and Price Variability"
-author: "Anat R. Admati and Paul Pfleiderer"
-year: 1988
-slug: admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability
-tier: B
+author: Anat R. Admati and Paul Pfleiderer
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, liquidity-trading, informed-trading, volume, u-shape, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: A market-microstructure model showing why liquidity and informed traders
+  both concentrate their trading in the same intraday period, producing the classic
+  U-shaped volume/volatility curve.
 pages: 38
-one_liner: "A market-microstructure model showing why liquidity and informed traders both concentrate their trading in the same intraday period, producing the classic U-shaped volume/volatility curve."
-related: [persaud-liquidity-black-holes]
-source_file: "Admati And Pfleiderer-A Theory Of Intraday Patterns - Volume And Price Variability.pdf"
+related:
+- persaud-liquidity-black-holes
+reviewed_pdf_pages: 1-2 and the propositions checked against the note's summary of
+  the model
+slug: admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability
+source_file: Admati And Pfleiderer-A Theory Of Intraday Patterns - Volume And Price
+  Variability.pdf
+source_review: partial
+tags:
+- market-microstructure
+- liquidity-trading
+- informed-trading
+- volume
+- u-shape
+- academic-paper
+tier: B
+title: 'A Theory of Intraday Patterns: Volume and Price Variability'
+year: 1988
 ---
 
 ## Summary

@@ -1,17 +1,29 @@
 ---
-title: Moving Average Convergence-Divergence (MACD)
 author: Mark McRae
-year: unknown
-slug: macd
-tier: B
 category: Indicators
-tags: [macd, moving-averages, momentum, divergence, multi-timeframe, oscillator]
 difficulty: beginner
 doc_type: article
+one_liner: Brief primer on the MACD indicator's construction, crossover/overbought-oversold/divergence
+  uses, and the author's own multi-timeframe trend-filter approach.
 pages: 3
-one_liner: "Brief primer on the MACD indicator's construction, crossover/overbought-oversold/divergence uses, and the author's own multi-timeframe trend-filter approach."
-related: [signalselection, trading-with-macd-a-lesson-on-divergence, wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds]
-source_file: "MACD.pdf"
+related:
+- signalselection
+- trading-with-macd-a-lesson-on-divergence
+- wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds
+reviewed_pdf_pages: 1-3
+slug: macd
+source_file: MACD.pdf
+source_review: full
+tags:
+- macd
+- moving-averages
+- momentum
+- divergence
+- multi-timeframe
+- oscillator
+tier: B
+title: Moving Average Convergence-Divergence (MACD)
+year: unknown
 ---
 
 ## Summary

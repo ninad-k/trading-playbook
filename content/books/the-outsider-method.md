@@ -1,17 +1,30 @@
 ---
-title: "The Outsider Method"
 author: X-Trader
-year: unknown
-slug: the-outsider-method
-tier: B
 category: Day Trading & Scalping
-tags: [forex, price-action, ema, scalping, gbpusd, entry-rules, breakout]
 difficulty: beginner
 doc_type: manual
+one_liner: Two-page GBP/USD 15-minute EMA-distance breakout method with a fixed multiple-of-candle-body
+  profit target and breakeven-plus-spread management.
 pages: 2
-one_liner: "Two-page GBP/USD 15-minute EMA-distance breakout method with a fixed multiple-of-candle-body profit target and breakeven-plus-spread management."
-related: [1fta-forex-trading-course, e123system, lbr-scalp-setups]
-source_file: "The Outsider Method.pdf"
+related:
+- 1fta-forex-trading-course
+- e123system
+- lbr-scalp-setups
+reviewed_pdf_pages: 1-2
+slug: the-outsider-method
+source_file: The Outsider Method.pdf
+source_review: full
+tags:
+- forex
+- price-action
+- ema
+- scalping
+- gbpusd
+- entry-rules
+- breakout
+tier: B
+title: The Outsider Method
+year: unknown
 ---
 
 ## Summary

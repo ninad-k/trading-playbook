@@ -1,17 +1,34 @@
 ---
-title: The Master Swing Trader
 author: Alan S. Farley
-year: 2000
-slug: alan-farley-the-master-swing-trader
-tier: A
 category: Swing Trading
-tags: [swing-trading, pattern-cycles, chart-patterns, cross-verification, bollinger-bands, candlesticks, risk-management, short-selling]
 difficulty: intermediate
 doc_type: book
+one_liner: A 3D-charting framework (Pattern Cycles, cross-verification) plus seven
+  named short-term setups (the 7-Bells) for equity swing trading.
 pages: 377
-one_liner: "A 3D-charting framework (Pattern Cycles, cross-verification) plus seven named short-term setups (the 7-Bells) for equity swing trading."
-related: [street-smarts-laurence-connors, come-into-my-trading-room-elder-alexander, john-bollinger-bollinger-on-bollinger-band, candlestick-charting-explained, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]
-source_file: "Alan Farley - The Master Swing Trader.pdf"
+related:
+- street-smarts-laurence-connors
+- come-into-my-trading-room-elder-alexander
+- john-bollinger-bollinger-on-bollinger-band
+- candlestick-charting-explained
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+reviewed_pdf_pages: 2-4, 7 (contents and the cross-verification, 3D-charting, trend-range
+  and moving-average-ribbon definitions)
+slug: alan-farley-the-master-swing-trader
+source_file: Alan Farley - The Master Swing Trader.pdf
+source_review: partial
+tags:
+- swing-trading
+- pattern-cycles
+- chart-patterns
+- cross-verification
+- bollinger-bands
+- candlesticks
+- risk-management
+- short-selling
+tier: A
+title: The Master Swing Trader
+year: 2000
 ---
 
 ## Overview

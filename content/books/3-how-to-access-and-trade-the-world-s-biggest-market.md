@@ -1,17 +1,33 @@
 ---
-title: "Currency Trading: How to Access and Trade the World's Biggest Market"
 author: Philip Gotthelf
-year: 2003
-slug: 3-how-to-access-and-trade-the-world-s-biggest-market
-tier: A
 category: Forex Mechanics & Macro Drivers
-tags: [forex, parity, macro-drivers, futures, options, technical-analysis, money-management]
 difficulty: intermediate
 doc_type: book
+one_liner: Currency-trading primer built on the concept of parity, covering Interbank/futures/options
+  mechanics, macro and intervention risk, and chart-pattern-based decision rules.
 pages: 315
-one_liner: "Currency-trading primer built on the concept of parity, covering Interbank/futures/options mechanics, macro and intervention risk, and chart-pattern-based decision rules."
-related: [forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional, the-forex-chartist-companion, money-management-report-van-tharp, come-into-my-trading-room-elder-alexander, international-macro-economics-and-finance]
-source_file: "3. How to Access and Trade the World's Biggest Market.pdf"
+related:
+- forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional
+- the-forex-chartist-companion
+- money-management-report-van-tharp
+- come-into-my-trading-room-elder-alexander
+- international-macro-economics-and-finance
+reviewed_pdf_pages: 5, 7 and the strategy chapters checked against the note's parity,
+  spot/forward and option-strategy claims
+slug: 3-how-to-access-and-trade-the-world-s-biggest-market
+source_file: 3. How to Access and Trade the World's Biggest Market.pdf
+source_review: partial
+tags:
+- forex
+- parity
+- macro-drivers
+- futures
+- options
+- technical-analysis
+- money-management
+tier: A
+title: 'Currency Trading: How to Access and Trade the World''s Biggest Market'
+year: 2003
 ---
 
 ## Overview

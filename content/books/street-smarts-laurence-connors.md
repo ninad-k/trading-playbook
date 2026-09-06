@@ -1,17 +1,35 @@
 ---
-title: "Street Smarts: High Probability Short-Term Trading Strategies"
 author: Laurence A. Connors and Linda Bradford Raschke
-year: 1995
-slug: street-smarts-laurence-connors
-tier: A
 category: Swing Trading
-tags: [swing-trading, short-term-trading, pattern-recognition, oscillators, gap-trading, money-management, futures, day-trading]
 difficulty: intermediate
 doc_type: book
+one_liner: A catalogue of fully specified short-term swing-trading setups (Turtle
+  Soup, 80-20's, the Anti, Holy Grail, Wolfe Waves, and more) built on tests, retracements,
+  and climax reversals.
 pages: 145
-one_liner: "A catalogue of fully specified short-term swing-trading setups (Turtle Soup, 80-20's, the Anti, Holy Grail, Wolfe Waves, and more) built on tests, retracements, and climax reversals."
-related: [curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, turtlerules, larry-williams-long-term-secrets-to-short-term-trading, jack-schwager-stock-market-wizards]
-source_file: "Street Smarts (Laurence Connors).pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- turtlerules
+- larry-williams-long-term-secrets-to-short-term-trading
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 1-3, 14, 19, 27, 29 (contents and statistical appendix listing,
+  the ADX filter discussion and the worked Turtle Soup examples)
+slug: street-smarts-laurence-connors
+source_file: Street Smarts (Laurence Connors).pdf
+source_review: partial
+tags:
+- swing-trading
+- short-term-trading
+- pattern-recognition
+- oscillators
+- gap-trading
+- money-management
+- futures
+- day-trading
+tier: A
+title: 'Street Smarts: High Probability Short-Term Trading Strategies'
+year: 1995
 ---
 
 ## Overview

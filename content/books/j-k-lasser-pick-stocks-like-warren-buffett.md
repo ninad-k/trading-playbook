@@ -1,17 +1,31 @@
 ---
-title: Pick Stocks Like Warren Buffett
 author: Warren Boroson
-year: 2001
-slug: j-k-lasser-pick-stocks-like-warren-buffett
-tier: B
 category: Investing, Value & Market History
-tags: [value-investing, warren-buffett, benjamin-graham, philip-fisher, fund-managers, psychology, mutual-funds]
 difficulty: beginner
 doc_type: book
+one_liner: Distills Buffett's value-investing principles and profiles a dozen like-minded
+  fund managers who apply the same approach.
 pages: 305
-one_liner: "Distills Buffett's value-investing principles and profiles a dozen like-minded fund managers who apply the same approach."
-related: [the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, jack-schwager-stock-market-wizards]
-source_file: "J K  Lasser - Pick Stocks Like Warren Buffett.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 5-7 (the contents, the twelve principles chapter and the diversification
+  guidance)
+slug: j-k-lasser-pick-stocks-like-warren-buffett
+source_file: J K  Lasser - Pick Stocks Like Warren Buffett.pdf
+source_review: partial
+tags:
+- value-investing
+- warren-buffett
+- benjamin-graham
+- philip-fisher
+- fund-managers
+- psychology
+- mutual-funds
+tier: B
+title: Pick Stocks Like Warren Buffett
+year: 2001
 ---
 
 ## Summary

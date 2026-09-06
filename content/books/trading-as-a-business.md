@@ -1,17 +1,34 @@
 ---
-title: Trading As A Business
 author: Charlie Wright
-year: unknown
-slug: trading-as-a-business
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [strategy-development, mechanical-trading, money-management, position-sizing, backtesting, tradestation, trend-following]
 difficulty: intermediate
 doc_type: book
+one_liner: A TradeStation-based framework for building, testing, and money-managing
+  mechanical trading strategies, run like a business rather than traded on prediction.
 pages: 169
-one_liner: "A TradeStation-based framework for building, testing, and money-managing mechanical trading strategies, run like a business rather than traded on prediction."
-related: [curtis-faith-way-of-the-turtle, michael-covel-trend-following, van-tharp-trading-systems, money-management-report-van-tharp, richard-l-weissman-mechanical-trading-systems, trading-in-the-zone]
-source_file: "Trading As A Business.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- michael-covel-trend-following
+- van-tharp-trading-systems
+- money-management-report-van-tharp
+- richard-l-weissman-mechanical-trading-systems
+- trading-in-the-zone
+reviewed_pdf_pages: 4, 23, 26, 31, 36, 40-41 (the entry-rule chapters, order-type
+  ranking, T-Bill benchmark and the strategy-evaluation checklist)
+slug: trading-as-a-business
+source_file: Trading As A Business.pdf
+source_review: partial
+tags:
+- strategy-development
+- mechanical-trading
+- money-management
+- position-sizing
+- backtesting
+- tradestation
+- trend-following
+tier: A
+title: Trading As A Business
+year: unknown
 ---
 
 ## Overview

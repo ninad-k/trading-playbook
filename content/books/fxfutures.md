@@ -1,17 +1,31 @@
 ---
-title: "E-Forex: Currency Trading for the Rest of Us"
 author: Abe Cofnas
-year: 2001
-slug: fxfutures
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, e-forex, leverage, intermarket-analysis, risk-management, retail-trading]
 difficulty: beginner
 doc_type: article
+one_liner: '2001 Futures magazine feature explaining the then-new retail e-forex market:
+  how spot forex differs from currency futures, its leverage, and basic risk-management
+  habits.'
 pages: 6
-one_liner: "2001 Futures magazine feature explaining the then-new retail e-forex market: how spot forex differs from currency futures, its leverage, and basic risk-management habits."
-related: [day-trading-the-currency-market, forex-money-management, i-guide-to-currency-trading-forex, six-forces-of-forex]
-source_file: "FXFutures.pdf"
+related:
+- day-trading-the-currency-market
+- forex-money-management
+- i-guide-to-currency-trading-forex
+- six-forces-of-forex
+reviewed_pdf_pages: 1-6
+slug: fxfutures
+source_file: FXFutures.pdf
+source_review: full
+tags:
+- forex
+- e-forex
+- leverage
+- intermarket-analysis
+- risk-management
+- retail-trading
+tier: B
+title: 'E-Forex: Currency Trading for the Rest of Us'
+year: 2001
 ---
 
 ## Summary

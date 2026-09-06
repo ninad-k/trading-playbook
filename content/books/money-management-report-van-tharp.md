@@ -1,17 +1,34 @@
 ---
-title: Special Report on Money Management
 author: Van K. Tharp
-year: 1997
-slug: money-management-report-van-tharp
-tier: A
 category: Money Management & Position Sizing
-tags: [position-sizing, money-management, kelly-criterion, optimal-f, portfolio-heat, drawdown, expectancy]
 difficulty: intermediate
 doc_type: course
+one_liner: A two-part course update defining nine position-sizing models — from units-per-fixed-dollars
+  through percent-risk and portfolio heat — each illustrated on the same 55/21-day
+  breakout system.
 pages: 70
-one_liner: "A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system."
-related: [van-tharp-trading-systems, position-sizing, balsara-nauzer-j-money-management-strategies-for-futures-traders, jack-schwager-stock-market-wizards, curtis-faith-way-of-the-turtle]
-source_file: "Money Management Report - Van Tharp.pdf"
+related:
+- van-tharp-trading-systems
+- position-sizing
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- jack-schwager-stock-market-wizards
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 1, 4-8, 18-19 (drawdown-recovery arithmetic, portfolio heat, and
+  the 55/21 breakout backtest tables used to compare the position-sizing models)
+slug: money-management-report-van-tharp
+source_file: Money Management Report - Van Tharp.pdf
+source_review: partial
+tags:
+- position-sizing
+- money-management
+- kelly-criterion
+- optimal-f
+- portfolio-heat
+- drawdown
+- expectancy
+tier: A
+title: Special Report on Money Management
+year: 1997
 ---
 
 ## Overview

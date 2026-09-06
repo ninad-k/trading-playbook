@@ -1,17 +1,32 @@
 ---
-title: "Investing Strategies for the High Net Worth Investor"
-author: "Niall J. Gannon"
-year: 2010
-slug: investing-strategies-for-the-high-net-worth-investor
-tier: B
-category: "Investing, Value & Market History"
-tags: [after-tax-returns, asset-allocation, municipal-bonds, estate-planning, wealth-management, high-net-worth]
+author: Niall J. Gannon
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: A wealth advisor's book arguing that standard investment advice (equities
+  beat bonds long-term, index over active, alternatives diversify) breaks down once
+  top-bracket taxes are factored in for wealthy taxable investors.
 pages: 321
-one_liner: "A wealth advisor's book arguing that standard investment advice (equities beat bonds long-term, index over active, alternatives diversify) breaks down once top-bracket taxes are factored in for wealthy taxable investors."
-related: [protecting-your-wealth-in-good-times-and-bad, handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz, deutsche-bank-asset-valuation-allocation-models-2001, the-intelligent-investor-benjamin-graham]
-source_file: "Investing Strategies for the High Net-Worth Investor.pdf"
+related:
+- protecting-your-wealth-in-good-times-and-bad
+- handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz
+- deutsche-bank-asset-valuation-allocation-models-2001
+- the-intelligent-investor-benjamin-graham
+reviewed_pdf_pages: 6-9, 18, 20 (the after-tax return and turnover-cost chapters and
+  the municipal-bond sections)
+slug: investing-strategies-for-the-high-net-worth-investor
+source_file: Investing Strategies for the High Net-Worth Investor.pdf
+source_review: partial
+tags:
+- after-tax-returns
+- asset-allocation
+- municipal-bonds
+- estate-planning
+- wealth-management
+- high-net-worth
+tier: B
+title: Investing Strategies for the High Net Worth Investor
+year: 2010
 ---
 
 ## Summary

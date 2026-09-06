@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MACD Crossover and Divergence System — Perry J. Kaufman · Trading Playbook</title>
+<meta name="description" content="Fully specified MACD (40/20/9) with a signal-line crossover trend rule and a three-part scaled-exit divergence rule.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a> › <a href="../books/a-short-course-in-technical-trading.html">A Short Course in Technical Trading</a></p>
+  <h1>MACD Crossover and Divergence System</h1>
+  <p class="byline">Perry J. Kaufman · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Fully specified MACD (40/20/9) with a signal-line crossover trend rule and a three-part scaled-exit divergence rule.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=macd">macd</a> <a class="tag" href="../search.html?q=momentum">momentum</a> <a class="tag" href="../search.html?q=divergence">divergence</a> <a class="tag" href="../search.html?q=oscillator">oscillator</a> <a class="tag" href="../search.html?q=exponential-smoothing">exponential-smoothing</a> </td></tr>
+    <tr><th>Length</th><td>339 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “MACD Crossover and Divergence System” by Perry J. Kaufman at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>The moving average convergence-divergence (MACD) indicator, built as the difference between a fast and slow exponentially smoothed trendline, further smoothed into a &ldquo;signal line.&rdquo; Kaufman presents it two ways: as a basic trend-following crossover system, and — more effectively — as a divergence detector that anticipates tops and bottoms when price makes a new extreme but the MACD does not confirm it.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Calculation (Kaufman&rsquo;s worked example, 40/20/9):</strong>
+1. Convert calculation periods to smoothing percentages using <code>2 / (N + 1)</code>: slow period 40 days → 0.0243 (2.43%); fast period 20 days → 0.0476 (4.76%).
+2. Calculate a slow exponentially smoothed trendline using the 2.43% smoothing constant.
+3. Calculate a fast exponentially smoothed trendline using the 4.76% smoothing constant.
+4. <strong>MACD line = fast trendline − slow trendline.</strong> (Positive and rising when the market is moving up quickly.)
+5. <strong>Signal line</strong> = 9-day exponential smoothing of the MACD line (smoothing constant ≈ 0.10, i.e., 2/(9+1)).
+6. <strong>Histogram</strong> = MACD line − signal line; used to visualize relative strength/weakness of the MACD versus its own signal line.</p>
+<p><strong>Trend crossover rules:</strong>
+- Buy when the MACD line crosses above the signal line.
+- Sell when the MACD line crosses below the signal line.
+- Raw crossovers generate frequent false signals; Kaufman recommends filtering by only acting on crossovers that follow the MACD reaching a threshold extreme relevant to the instrument&rsquo;s own historical range (he explicitly warns against picking a threshold like ±2.00 after the fact purely because it worked on one chart — that is curve-fitting).</p>
+<p><strong>Divergence rules (the stronger use of the indicator):</strong>
+1. Identify two consecutive rising price swing highs (bearish case) or two consecutive falling swing lows (bullish case).
+2. Compare the MACD line&rsquo;s value at each of the two price extremes. Bearish divergence: price makes a higher high while the MACD makes a lower peak. Bullish divergence: price makes a lower low while the MACD makes a higher trough.
+3. <strong>Anticipating entry (bearish example) — scale into the trade in three parts:</strong>
+   - Sell the first third as soon as price makes a new high on materially weaker MACD than the prior high.
+   - Sell the second third when the MACD comes back within 15-20% of its previous peak value.
+   - Sell the final third on the actual signal-line crossover (the latest, most conservative confirmation — but typically the worst fill price).
+4. <strong>Exit the divergence trade</strong> when the MACD returns to zero (treat this as the natural &ldquo;prices have returned from overbought/oversold to neutral&rdquo; exit) — do not expect price to run from overbought straight through to oversold.
+5. <strong>Invalidate/stop the trade</strong> if the MACD rallies back above its previous peak (bearish case) or falls back below its previous trough (bullish case) — this means the divergence pattern has failed, and the position should be closed for a loss.
+6. <strong>Combine with trend for the best case:</strong> hold a divergence-driven short only if the underlying trend also turns down by the time MACD reaches zero; then continue riding it as a trend trade rather than closing at the neutral point.</p>
+<h2 id="risk">Risk</h2>
+<ul>
+<li>Because divergence trades are entered before confirmation (steps 1-2 of the scale-in), they carry meaningfully more risk than the pure crossover rule; that risk is explicitly compensated for by scaling in over three tranches rather than committing full size on the first weak signal.</li>
+<li>The MACD itself has no fixed numeric overbought/oversold threshold — Kaufman shows that a level like ±2.00 that fits one chart can be entirely wrong on another with a different volatility profile (peaks as high as ±10 are shown on a different instrument), so any absolute threshold must be recalibrated per instrument using a long history, not fitted from a single chart.</li>
+<li>Divergence is stronger and more tradable when the angle between rising price and falling MACD (or vice versa) is pronounced; shallow, nearly parallel divergences are lower-confidence and should be sized down or skipped. A specific quantified filter given for the related stochastic divergence (structurally identical logic) requires the second oscillator peak to be at least 5-15% lower than the first.</li>
+<li>A basic uncompensated MACD crossover system, run with no filter, is explicitly shown to generate large gains at real turning points but also &ldquo;a lot of other crossings that generated losses&rdquo; — it should not be traded as a standalone system without the extreme-threshold or divergence filters above.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>Kaufman is unusually candid that the ±2.00 MACD threshold used in his own worked example is an after-the-fact fit to that specific chart and would be &ldquo;fitting the data&rdquo; if presented as a general rule — treat any single fixed numeric MACD threshold with skepticism and re-derive it from the instrument&rsquo;s own historical MACD range instead. The MACD&rsquo;s calculation periods (40/20/9 here) are illustrative rather than asserted optimal; the book does not provide a parameter sweep or backtest table for MACD/divergence performance the way it does for the single-trend and breakout methods, so expected win rate, drawdown, and trade frequency are not quantified for this system.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

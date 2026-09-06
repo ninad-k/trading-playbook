@@ -1,17 +1,34 @@
 ---
-title: "Trade Like Jesse Livermore"
 author: Richard Smitten
-year: 2005
-slug: richard-smitten-trade-like-jesse-livermore-2005
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [jesse-livermore, pivotal-points, top-down-trading, money-management, trend-following, tape-reading, position-sizing, discipline]
 difficulty: intermediate
 doc_type: book
+one_liner: Reconstructs Jesse Livermore's technical system — Pivotal Point timing,
+  industry-group top-down analysis, and five money-management rules — from his heirs'
+  interviews and his own 1940 market-key notebooks.
 pages: 238
-one_liner: "Reconstructs Jesse Livermore's technical system — Pivotal Point timing, industry-group top-down analysis, and five money-management rules — from his heirs' interviews and his own 1940 market-key notebooks."
-related: [reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, jack-schwager-stock-market-wizards, elder-alexander-trading-for-a-living, disciplined-trader]
-source_file: "Richard Smitten - Trade Like Jesse Livermore (2005).pdf"
+related:
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- jack-schwager-stock-market-wizards
+- elder-alexander-trading-for-a-living
+- disciplined-trader
+reviewed_pdf_pages: 6, 9, 12, 23, 69, 96-97, 101, 104 (Top-Down Trading checklist,
+  the probe system with its 20/20/20/40 sizing, and the Livermore Market Key chapters)
+slug: richard-smitten-trade-like-jesse-livermore-2005
+source_file: Richard Smitten - Trade Like Jesse Livermore (2005).pdf
+source_review: partial
+tags:
+- jesse-livermore
+- pivotal-points
+- top-down-trading
+- money-management
+- trend-following
+- tape-reading
+- position-sizing
+- discipline
+tier: A
+title: Trade Like Jesse Livermore
+year: 2005
 ---
 
 ## Overview

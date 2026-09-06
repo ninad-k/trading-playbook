@@ -1,17 +1,30 @@
 ---
-title: Introduction to Forex Trading
 author: TradeStation Securities
-year: 2005
-slug: introduction-to-forex-trading
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, beginner, pips, leverage, currency-pairs, platform-guide]
 difficulty: beginner
 doc_type: manual
+one_liner: 'TradeStation''s short beginner brochure on forex mechanics: currency pairs,
+  pips, leverage, bid/ask, and how to open and close a position.'
 pages: 9
-one_liner: "TradeStation's short beginner brochure on forex mechanics: currency pairs, pips, leverage, bid/ask, and how to open and close a position."
-related: [glossary-of-forex-terms, trading-for-a-living-in-the-forex-market, 3-how-to-access-and-trade-the-world-s-biggest-market]
-source_file: "Introduction To Forex Trading.pdf"
+related:
+- glossary-of-forex-terms
+- trading-for-a-living-in-the-forex-market
+- 3-how-to-access-and-trade-the-world-s-biggest-market
+reviewed_pdf_pages: 2, 4-5, 7 (the market-size and contract-mechanics sections and
+  the account disclosures)
+slug: introduction-to-forex-trading
+source_file: Introduction To Forex Trading.pdf
+source_review: partial
+tags:
+- forex
+- beginner
+- pips
+- leverage
+- currency-pairs
+- platform-guide
+tier: B
+title: Introduction to Forex Trading
+year: 2005
 ---
 
 ## Summary

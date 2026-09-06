@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CatFX50 Rules — Unknown · Trading Playbook</title>
+<meta name="description" content="A four-level EMA50/EMA120-plus-stochastic forex scalping system on the 30-minute chart for EURUSD, USDCHF and GBPUSD, with a 34-pip stop.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></p>
+  <h1>CatFX50 Rules</h1>
+  <p class="byline">Unknown · 2007 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A four-level EMA50/EMA120-plus-stochastic forex scalping system on the 30-minute chart for EURUSD, USDCHF and GBPUSD, with a 34-pip stop.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-4. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=ema">ema</a> <a class="tag" href="../search.html?q=stochastic">stochastic</a> <a class="tag" href="../search.html?q=pivot-points">pivot-points</a> <a class="tag" href="../search.html?q=scalping">scalping</a> <a class="tag" href="../search.html?q=eurusd">eurusd</a> <a class="tag" href="../search.html?q=gbpusd">gbpusd</a> </td></tr>
+    <tr><th>Length</th><td>4 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “CatFX50 Rules” by Unknown at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>&ldquo;CatFX50&rdquo; is a short rules sheet (a recap/cheat-sheet, not a full manual) for a discretionary forex system built on a 30-minute chart. It combines an EMA50/EMA120 trend filter with a custom histogram-stepped stochastic indicator (&ldquo;Hist_Step_MA_Stoch&rdquo;) and an auxiliary &ldquo;aNina&rdquo; indicator, offering four increasingly aggressive/riskier signal levels for entries plus a set of optional confirming tools (Fibonacci pivots, additional moving averages, Camarilla pivot levels).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Core tools: EMA50 and EMA120 on the chart, a &ldquo;Hist_Step_MA_Stoch&rdquo; indicator (2000-bar lookback, ±0.04 step filters), and an &ldquo;aNina_v1&rdquo; indicator (9000-bar lookback).</li>
+<li>Traded pairs: EUR/USD, USD/CHF, and GBP/USD; timeframe is the 30-minute chart; trading window is restricted to 08:00–18:00 CET.</li>
+<li>Level 1 (standard) signal: buy when price crosses above EMA50 and a new bar opens above it, with Hist_StepMA_Stoch confirming green (mirror for sells with red).</li>
+<li>Levels 2–4 are progressively riskier: Level 2 allows one bar to dip below EMA50 before resuming; Level 3 allows the stochastic to briefly flip color without a full cross; Level 4 is a breakout of a recent high/low after consolidation, needing a clear &ldquo;indication of strength&rdquo; or risking a trap.</li>
+<li>A signal more than 20 pips from EMA50 is flagged as riskier.</li>
+<li>Check correlated pairs (EUR/GBP, USD/CHF, US Dollar Index) before entering, to avoid conflicting exposure across pairs.</li>
+<li>Optional confirming tools: FiboPiv_v2 (Fibonacci pivots), a triple moving average (50/14/2000/2), SDX-TZBreakout, and Camarilla pivot levels (L3–L5, H3–H5).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Only trade EUR/USD, USD/CHF, or GBP/USD, and only within the 08:00–18:00 CET window.</li>
+<li>Standard (Level 1) long entry: price crosses above EMA50 and the new bar opens above it, with Hist_StepMA_Stoch green; mirror for shorts (cross below, open below, indicator red).</li>
+<li>Prefer signals where price and indicator crossings occur simultaneously; treat entries more than 20 pips from EMA50 as higher risk.</li>
+<li>Do not trade a pair on another pair&rsquo;s signal — wait for each pair&rsquo;s own confirmed setup, and check EUR/GBP, USD/CHF, and the US Dollar Index for conflicting signals first.</li>
+<li>Use a fixed stop loss of 34 pips.</li>
+<li>Levels 2–4 (dip-and-resume, brief stochastic flip, and consolidation breakout) require the same indicator confirmation as Level 1 but are explicitly labeled riskier — the text advises caution (&ldquo;take care&rdquo;) on Level 4 in particular.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is a bare rules recap, not a full manual — it assumes the reader already has the custom indicators (Hist_Step_MA_Stoch, aNina) installed and understood; no chart images, backtest results, or win-rate statistics are included in this text. The system explicitly disclaims itself: &ldquo;not a Holy Grail nor a money machine.&rdquo; Several proprietary/custom indicator names cannot be verified as standard or reproducible without the original indicator files.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Intermediate forex scalpers/day traders already comfortable with custom MetaTrader-style indicators who want a simple EMA-plus-stochastic entry checklist across three major pairs.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/5-13-62.html">5/13/62: A Forex EMA Crossover Strategy</a> — A forex EMA crossover system using 5, 13, and 62 periods, an initial stop 20 pips beyond the 62 EMA, and a trailing stop or price target.</li><li><a href="../books/camarilla-levels.html">The Camarilla Equation</a> — Short explainer on the Camarilla equation&#39;s 8 intraday support/resistance levels and how to trade reversals off L3 and breakouts through L4.</li><li><a href="../books/9-forex-systems.html">9 Forex Systems</a> — Compilation of nine short intraday forex systems (EMA/Parabolic SAR crosses, scalping, MACD/RSI/Stochastic combos, pivot points, news-jump trading) pulled from various online forex educators.</li><li><a href="../books/king-keltner-trading-strategy.html">The King Keltner Trading Strategy</a> — A 1960s Chester Keltner moving-average-band breakout system, modernized with a true-range channel and a moving-average liquidation stop.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,31 @@
 ---
-title: "International Macroeconomics and Finance: Theory and Empirical Methods"
 author: Nelson C. Mark
-year: 2001
-slug: international-macro-economics-and-finance
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [macro, forex, academic, econometrics, ppp, uip, exchange-rates, quant]
 difficulty: advanced
 doc_type: book
+one_liner: PhD-level textbook testing monetary, Lucas, RBC, and Mundell-Fleming models
+  against exchange-rate data, and documenting the UIP and PPP puzzles.
 pages: 376
-one_liner: "PhD-level textbook testing monetary, Lucas, RBC, and Mundell-Fleming models against exchange-rate data, and documenting the UIP and PPP puzzles."
-related: [does-trendfollowing-work-on-stocks, neural-prediction-of-weekly-stock-market-index-1]
-source_file: "International Macro Economics and Finance.pdf"
+related:
+- does-trendfollowing-work-on-stocks
+- neural-prediction-of-weekly-stock-market-index-1
+reviewed_pdf_pages: 5-6, 10-11, 17, 149 (the parity conditions and the calibration
+  chapters)
+slug: international-macro-economics-and-finance
+source_file: International Macro Economics and Finance.pdf
+source_review: partial
+tags:
+- macro
+- forex
+- academic
+- econometrics
+- ppp
+- uip
+- exchange-rates
+- quant
+tier: B
+title: 'International Macroeconomics and Finance: Theory and Empirical Methods'
+year: 2001
 ---
 
 ## Summary

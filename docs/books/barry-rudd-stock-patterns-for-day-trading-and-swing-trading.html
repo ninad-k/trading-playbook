@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Patterns for Day Trading and Swing Trading — Barry Rudd · Trading Playbook</title>
+<meta name="description" content="SOES-era Nasdaq day trader&#39;s manual of intraday breakout/consolidation chart setups, a stock-specific trailing-stop (&#39;wiggle&#39;) method, and market-maker tape-reading, plus a scalping supplement.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></p>
+  <h1>Stock Patterns for Day Trading and Swing Trading</h1>
+  <p class="byline">Barry Rudd · 1998 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">SOES-era Nasdaq day trader&#39;s manual of intraday breakout/consolidation chart setups, a stock-specific trailing-stop (&#39;wiggle&#39;) method, and market-maker tape-reading, plus a scalping supplement.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-13, 19, 26, 32, 64, 83, 89, 95, 102, 133, 140 (the definitions, day-trade rules, scalping and profit-taking sections; the rest of the scan is chart plates with little extractable text). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=day-trading">day-trading</a> <a class="tag" href="../search.html?q=scalping">scalping</a> <a class="tag" href="../search.html?q=swing-trading">swing-trading</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=consolidation">consolidation</a> <a class="tag" href="../search.html?q=tape-reading">tape-reading</a> <a class="tag" href="../search.html?q=stop-loss">stop-loss</a> <a class="tag" href="../search.html?q=nasdaq">nasdaq</a> </td></tr>
+    <tr><th>Length</th><td>196 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Stock Patterns for Day Trading and Swing Trading” by Barry Rudd at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/barry-rudd-stock-patterns-for-day-trading-and-swing-trading--wiggle-breakout-system.html">Wiggle Breakout System</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Barry Rudd, an SOES (Small Order Execution System) day trader active through the mid-to-late 1990s Nasdaq market-maker era, distills his own working rules — developed, per the book&rsquo;s &ldquo;25th Anniversary&rdquo; framing, since 1975 — into a self-published manual later reprinted by Traders Press. The book merges two originally separate manuals: the core &ldquo;Stock Patterns&rdquo; text on day- and swing-trade chart setups, and an appended &ldquo;Scalping Module&rdquo; for very short holding periods. Content centers on recognizing intraday consolidation-then-breakout patterns on 5-minute bar charts, reading Nasdaq Level II market-maker and time-of-sales screens, and managing open trades with a proprietary trailing-stop concept Rudd calls the &ldquo;wiggle&rdquo; rather than a fixed profit target.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>High-probability trades come from watching a stock&rsquo;s own price-action personality build up during multi-bar consolidations, then buying or selling the breakout from that consolidation with a tight, fixed initial stop. The same visual pattern — tight consolidation against a price level, then a decisive break — is the trigger across timeframes: intraday (5-minute bars), 1-to-3-day setups, and multi-day swing trades. Rudd argues success depends less on indicators than on disciplined screen reading (market-maker and time-of-sales activity) to time entries, and on mechanically obeying stop rules rather than hoping a losing position recovers.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Wiggle</strong> — the normal, expected intraday pullback a stock makes against the trade direction before resuming its trend; used to size how much room to give an open position before treating the move as failed.</li>
+<li><strong>Standard wiggle</strong> — a stock-specific average pullback size (roughly 5/8 to 3/4 point in the book&rsquo;s late-1990s examples), estimated by reviewing 5+ days of that stock&rsquo;s 5-minute bars.</li>
+<li><strong>Wiggled out</strong> — exiting because price retraced beyond the standard wiggle amount, signaling the anticipated trend has failed.</li>
+<li><strong>Breakout</strong> — price moving beyond a level where a stock has consolidated for several bars, especially on the 5-minute chart; the core entry trigger.</li>
+<li><strong>Consolidation</strong> — a tight, sideways range preceding a breakout; the longer and tighter it is, the higher-probability the subsequent breakout.</li>
+<li><strong>Fill-price</strong> — the actual executed price of an order, used as the reference point for the initial stop.</li>
+<li><strong>Market maker / time-of-sales (T.O.S.) screens</strong> — Nasdaq quote and print displays used to time entries by watching which side (bid or ask) trades are filling on and whether market makers are stepping up in price; viewed together with the daily and 5-minute charts as the &ldquo;big 4.&rdquo;</li>
+<li><strong>Intraday relative strength</strong> — a stock that fails to sell off with a weak market (or fails to rally with a strong one) is treated as a higher-odds candidate in the market&rsquo;s eventual direction.</li>
+<li><strong>Round price numbers</strong> — whole numbers (round tens, and especially 50 and 100) tend to stall price, or, once penetrated, produce stronger follow-through.</li>
+<li><strong>Compression / price spike (scalping)</strong> — a very tight consolidation at the day&rsquo;s high or low that, once broken, tends to produce a fast, short-lived momentum move — the scalper&rsquo;s entry signal.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>Instrument selection (day trading):</strong> average daily volume of at least 100,000 shares, market-maker bid/ask spreads of about 1/8 point (occasionally 1/4), and at least 4+ market makers quoting at each price level.</li>
+<li><strong>Core day-trade entry:</strong> wait for consolidation of several bars against a price level on the 5-minute chart, then buy (or sell short) the breakout beyond that level; the longer and tighter the prior consolidation, the better the trade.</li>
+<li><strong>Initial stop-loss:</strong> 1/4 point from the actual fill price (sometimes 3/8 point).</li>
+<li><strong>Trailing &ldquo;wiggle&rdquo; stop:</strong> once open profit plus the initial 1/4-point stop equals roughly 3/8 point of profit, begin trailing the stop by the stock&rsquo;s standard wiggle amount; exit (&ldquo;wiggled out&rdquo;) once price retraces beyond that amount.</li>
+<li><strong>Late-breakout filter:</strong> after missing the first breakout of the day, take a later breakout on the same stock only if the broader market trend is intact (not &ldquo;losing steam&rdquo;) and the day&rsquo;s range still leaves room versus the stock&rsquo;s average daily range.</li>
+<li><strong>Price-target override:</strong> bank profits directly instead of trailing the wiggle when (a) a fast spike of roughly 1 point or more occurs within 5-10 minutes of the breakout, (b) price approaches a daily support/resistance level, or (c) a strong move happens on the first day of a multi-day setup.</li>
+<li><strong>Pre-trade risk check:</strong> before entering, estimate the probable exit price if the market reverses immediately (via bid-side depth); pass on the setup if that immediate-reversal loss would exceed about 1/4 point (sometimes 3/8).</li>
+<li><strong>Beginner position sizing:</strong> trade only 500-share clips when starting with real money, to limit the &ldquo;tuition&rdquo; cost of learning each stock&rsquo;s fill behavior.</li>
+<li><strong>Partial profit-taking:</strong> near the close, on a strongly profitable day trade, consider selling roughly 700 of 1,000 shares to bank the bulk of the gain while letting the remainder run.</li>
+<li><strong>Scalping module:</strong> enter on a momentum breakout after at least 20-30 minutes of tight compression at the day&rsquo;s high or low; target about 1/8 point (sometimes more); risk no more than about 1/8 point per trade after commissions, and exit flat rather than take a full loss if momentum stalls before the bid/offer fills.</li>
+<li><strong>Swing trades</strong> (2 to 5+ day holding period) apply the same consolidation/breakout logic to daily bar charts instead of 5-minute bars; the sampled pages do not carry swing-specific numeric stop or target rules beyond this.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Risk control is trade-level and mechanical rather than percent-of-equity based: a fixed 1/4-point (sometimes 3/8-point) initial stop from the fill price, converted to a trailing &ldquo;wiggle&rdquo; stop once a small open profit exists. The book is explicit about overnight risk: a 10-20+ point adverse gap on a held position &ldquo;can really ruin a day, or a week, or a month,&rdquo; and it advises checking for pending news, earnings, or economic releases before holding a swing position overnight. No percent-of-account risk limit, equity-based position-sizing formula, or maximum daily/weekly loss rule appears in the sampled pages.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The book is emphatic about cutting losses immediately on any &ldquo;mistake&rdquo; fill or invalidated setup rather than hoping for a bounce back, and frames patience as a competitive edge: it is better to miss a trade than accept a poor fill, since another setup will always follow. The closing &ldquo;10 Commandments of Trading&rdquo; section (recoverable only as a title from the sampled table of contents) appears to reinforce this discipline-first framing, but its actual content was not present in the OCR sample.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Intraday Trend Methodology / Terms and Definitions / How the &ldquo;Wiggle&rdquo; Works — core vocabulary: wiggle, standard wiggle, breakout, fill-price, stop-loss.</li>
+<li>Day Trades: intraday trading patterns and chart examples — 5-minute-bar consolidation/breakout setups with numbered trade diagrams.</li>
+<li>1-to-3 Daily Bar Setups and Longer-Term Daily Bar Patterns (for day trading), with chart examples — reversal-bar and daily-bar-count patterns used to trigger day trades.</li>
+<li>Support and Resistance (S/R), with chart examples — daily S/R levels used as profit-taking and entry filters.</li>
+<li>Market Maker and Time of Sales Screens (including ticker) — Nasdaq screen-reading mechanics with worked screen examples.</li>
+<li>Swing Trades (2 to 5+ days), with chart examples — the same pattern logic applied to multi-day holds.</li>
+<li>Worksheet (for nightly analysis) — a nightly-scan template plus &ldquo;day trades&rdquo; and &ldquo;swing trades&rdquo; worksheet keys.</li>
+<li>Extra Tips and Trading Ideas — round-number behavior, price targets vs. wiggle, relative strength, handling bad fills.</li>
+<li>Price Fractions Showing Dollar Amount / Trade Sheets — reference tables (not textually sampled).</li>
+<li>The 10 Commandments of Trading — closing discipline checklist (title only recovered from the sample).</li>
+<li>Scalping Module (formerly a separate manual) — compression/spike scalping methodology and rules.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book is a genuine practitioner&rsquo;s field manual from the SOES-trading era, and its market-maker/time-of-sales screen-reading content is now dated: Nasdaq&rsquo;s market-maker structure was substantially reformed in the early 2000s (decimalization, order-handling rules, ECN consolidation), so the screen mechanics described no longer map cleanly onto modern electronic order books. Stops and wiggle sizes are quoted in fractional-point (1/8, 1/4, 3/8) pre-decimalization terms calibrated to individual, mostly tech-sector Nasdaq names of that period; translating both the tick convention and the absolute point sizes to current, decimalized, differently-volatile instruments requires judgment the book does not supply. No systematic backtest, win rate, or drawdown statistic appears anywhere in the sampled pages — all support is anecdotal chart examples.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Short-term and swing traders who want a concrete, numbers-attached breakout-and-trailing-stop method plus tape-reading habits, and who are willing to adapt fractional-point, market-maker-era screen mechanics to modern market structure. Less useful for traders wanting indicator-based or fully backtested systems, or anyone trading exclusively off daily charts without interest in live intraday tape.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/kevin-hagerty-day-trading-course.html">Day Trading Course</a> — another practitioner-era Nasdaq day-trading course covering similar tape-reading and setup material.</li>
+<li><a class="xref" href="../books/day-trading-basket-stocks-underground-trader.html">Daytrading Basket Stocks: The Undergroundtrader.com Way</a> — comparable underground/SOES-trader-community day-trading material from the same period.</li>
+<li><a class="xref" href="../books/george-angell-sniper-trading-workbook-pdf.html">Sniper Trading Workbook</a> — another short-term, screen-reading-heavy trading workbook with mechanical entry/exit rules.</li>
+<li><a class="xref" href="../books/jeff-cooper-intra-day-trading-strategies-proven-steps.html">Intra-Day Trading Strategies: Proven Steps to Short-Term Trading Profits</a> — complementary intraday pattern-based setups for short-term traders.</li>
+<li><a class="xref" href="../books/oliver-velez-swing-trading-tactics.html">Swing Trading Tactics</a> — swing-trading counterpart with pattern-based entries similar in spirit to Rudd&rsquo;s multi-day setups.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/kevin-hagerty-day-trading-course.html">Day Trading Course</a> — A five-week TradingMarkets.com day-trading course teaching swing-point structure, institutional-momentum stock selection, and named intraday setups (Trap Door, Opening Reversal, BP1-4, Dynamite Triangle, Slim Jim).</li><li><a href="../books/day-trading-basket-stocks-underground-trader.html">Daytrading Basket Stocks: The Undergroundtrader.com Way</a> — Slide-deck manual for scalping a correlated basket of Nasdaq stocks using Level 2, NQ futures (&#39;noodles&#39;), and 1-/3-minute stochastic synergy signals.</li><li><a href="../books/george-angell-sniper-trading-workbook-pdf.html">Sniper Trading Workbook</a> — Question-and-answer workbook drilling Angell&#39;s LSS/Taylor numeric system: buy/sell envelopes, pivot numbers, a 5-day oscillator, stop placement, and day-of-week patterns.</li><li><a href="../books/jeff-cooper-intra-day-trading-strategies-proven-steps.html">Intra-Day Trading Strategies: Proven Steps to Short-Term Trading Profits</a> — A chart-annotated catalog of Jeff Cooper&#39;s named short-term setups (1-2-3, Lizard, TNT, Expansion Breakout, Bubble Oops, and more), illustrated on daily, hourly, and 10-minute charts.</li><li><a href="../books/oliver-velez-swing-trading-tactics.html">Swing Trading Tactics</a> — Pristine.com&#39;s slide-deck seminar teaching the 4-stage stock cycle and the Pristine Buy/Sell Setup (three consecutive lower-highs/higher-lows bars) for 1-to-5-bar swing trades.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,34 @@
 ---
-title: High Probability Trading Strategies
 author: Robert C. Miner
-year: 2009
-slug: miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, momentum, multiple-time-frame, entry-triggers, trade-management, position-sizing]
 difficulty: advanced
 doc_type: book
+one_liner: A complete, objective entry-to-exit trade plan built on four confirming
+  factors — multiple-time-frame momentum, Elliott Wave pattern, Fibonacci price, and
+  time projections.
 pages: 290
-one_liner: "A complete, objective entry-to-exit trade plan built on four confirming factors — multiple-time-frame momentum, Elliott Wave pattern, Fibonacci price, and time projections."
-related: [dynamic-trading-by-robert-c-miner, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, turtlerules]
-source_file: "Miner Robert - High Probability Trading Strategies Entry to Exit Tactics for the Forex, Futures, and Stock Markets.pdf"
+related:
+- dynamic-trading-by-robert-c-miner
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- turtlerules
+reviewed_pdf_pages: 6, 9 and the strategy chapters checked against the note's entry,
+  stop and position-sizing rules
+slug: miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur
+source_file: Miner Robert - High Probability Trading Strategies Entry to Exit Tactics
+  for the Forex, Futures, and Stock Markets.pdf
+source_review: partial
+tags:
+- elliott-wave
+- fibonacci
+- momentum
+- multiple-time-frame
+- entry-triggers
+- trade-management
+- position-sizing
+tier: A
+title: High Probability Trading Strategies
+year: 2009
 ---
 
 ## Overview

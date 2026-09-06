@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application of Neural Networks to Stock Market Prediction — Amol S. Kulkarni · Trading Playbook</title>
+<meta name="description" content="A feedforward neural network using detrended S&amp;P 500 history plus lagged interest rates predicts next week&#39;s index one week ahead, tested on the 1987 crash and 1994 bull run.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Application of Neural Networks to Stock Market Prediction</h1>
+  <p class="byline">Amol S. Kulkarni · 1996 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">A feedforward neural network using detrended S&amp;P 500 history plus lagged interest rates predicts next week&#39;s index one week ahead, tested on the 1987 crash and 1994 bull run.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2, 5, 8-9, 12-14, 16 (the network design, the test results and the error statistics). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=neural-networks">neural-networks</a> <a class="tag" href="../search.html?q=backpropagation">backpropagation</a> <a class="tag" href="../search.html?q=s-and-p-500">s-and-p-500</a> <a class="tag" href="../search.html?q=interest-rates">interest-rates</a> <a class="tag" href="../search.html?q=academic">academic</a> <a class="tag" href="../search.html?q=forecasting">forecasting</a> <a class="tag" href="../search.html?q=quant">quant</a> </td></tr>
+    <tr><th>Length</th><td>18 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Application of Neural Networks to Stock Market Prediction” by Amol S. Kulkarni at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: can a neural network predict next week&rsquo;s S&amp;P 500 level one week ahead using the index&rsquo;s own past values plus lagged short- and long-term interest rates? Data: weekly S&amp;P 500 close, 3-month and 10-year rates from October 1972 to April 1996. Method: cross-correlation found the long rate leads the detrended index by about 25 weeks and the short rate by 20 and 48 weeks; these series plus the index&rsquo;s 5- and 10-week moving averages and first differences (18 inputs, log-detrended and tanh-normalized) feed a single-hidden-layer (7-neuron) feedforward network trained by backpropagation. Finding: on two out-of-sample &ldquo;worst case&rdquo; windows — the run-up to the October 1987 crash and the January 1994 bull market — the network predicted correct weekly direction 65/75 and 43/50 times, with average errors of 4.18% and 0.95%.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>Interest rates lead stocks</strong>: the 10-year rate is negatively correlated with the S&amp;P 500 at about a 25-week lag; the 3-month rate similarly at 20 and 48 weeks.</li>
+<li><strong>Detrending is essential</strong>: raw index normalization saturates the network on trending data; a log-then-linear detrend fixed this.</li>
+<li><strong>18 network inputs</strong>: detrended index, its 5- and 10-week moving averages, first differences with an encoded trend feature, plus the delayed long and short rates and their differences/trends.</li>
+<li><strong>1994 bull-run test</strong>: correct direction 43/50 times, average error 0.95% — attributed mainly to underlying momentum rather than the rate inputs.</li>
+<li><strong>1987 crash test</strong>: correct direction 65/75 times, average error 4.18% — attributed specifically to the rising long-rate input, since the index itself showed no clear momentum going in.</li>
+<li><strong>Non-linear (tanh) normalization</strong>, not linear scaling, was needed to keep the exponentially trending index learnable.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as a tradable system. The paper stops at directional prediction accuracy and error metrics; it explicitly flags as future work that &ldquo;a trading mechanism based on the predictions of the network needs to be established&rdquo; — no entry/exit/sizing rules, transaction costs, or live trading were tested. The one general takeaway a trader can extract: long-term and short-term interest-rate trends, lagged by roughly 20-50 weeks, showed a statistically meaningful negative correlation with subsequent S&amp;P 500 moves in this 1972-1996 sample.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Extremely small network (7 hidden neurons) and a mid-1990s academic exercise; only two out-of-sample windows are tested, both cherry-picked as &ldquo;worst case&rdquo; scenarios rather than a rolling walk-forward evaluation across the full history. No transaction costs, slippage, or trading rule is specified, so the reported accuracy cannot be translated into a return figure. Interest-rate delay values (20, 25, 48 weeks) were fit to this specific historical window and are not shown to be stable out of sample.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers interested in an early, transparent worked example of neural-network stock index forecasting using macro (interest rate) inputs, useful as a methodology reference rather than a source of trading rules.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/international-macro-economics-and-finance.html">International Macroeconomics and Finance: Theory and Empirical Methods</a> — PhD-level textbook testing monetary, Lucas, RBC, and Mundell-Fleming models against exchange-rate data, and documenting the UIP and PPP puzzles.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

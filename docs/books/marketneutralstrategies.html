@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Neutral Strategies — Bruce I. Jacobs and Kenneth N. Levy (editors) · Trading Playbook</title>
+<meta name="description" content="Institutional anthology on market neutral investing: equity long-short, convertible, sovereign bond, MBS and merger arbitrage, plus the Askin and LTCM collapses as risk-management case studies.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Market Neutral Strategies</h1>
+  <p class="byline">Bruce I. Jacobs and Kenneth N. Levy (editors) · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">Institutional anthology on market neutral investing: equity long-short, convertible, sovereign bond, MBS and merger arbitrage, plus the Askin and LTCM collapses as risk-management case studies.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 10, 14, 18, 43, 55-57, 73, 298 (the margin rules, the worked equity-market-neutral capital deployment example and the strategy chapters). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-neutral">market-neutral</a> <a class="tag" href="../search.html?q=long-short">long-short</a> <a class="tag" href="../search.html?q=pairs-trading">pairs-trading</a> <a class="tag" href="../search.html?q=arbitrage">arbitrage</a> <a class="tag" href="../search.html?q=convertible-arbitrage">convertible-arbitrage</a> <a class="tag" href="../search.html?q=merger-arbitrage">merger-arbitrage</a> <a class="tag" href="../search.html?q=hedge-funds">hedge-funds</a> <a class="tag" href="../search.html?q=leverage">leverage</a> </td></tr>
+    <tr><th>Length</th><td>304 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Market Neutral Strategies” by Bruce I. Jacobs and Kenneth N. Levy (editors) at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/marketneutralstrategies--convertible-bond-hedging.html">Convertible Bond Delta-Duration Hedge</a> · <a href="../books/marketneutralstrategies--equity-long-short-construction.html">Market Neutral Equity Long-Short Portfolio Construction</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Edited by Jacobs Levy Equity Management principals Bruce Jacobs and Kenneth Levy, this is a multi-author institutional reference (part of the Frank J. Fabozzi Series) rather than a single trading system. Contributing practitioners cover five distinct market neutral strategies — equity long-short, convertible bond hedging, sovereign fixed-income arbitrage, mortgage-backed securities (MBS) arbitrage, and merger (risk) arbitrage — plus a chapter dissecting the failures of Askin Capital Management (1994) and Long-Term Capital Management (1998), and chapters on &ldquo;alpha transport&rdquo; and tax/ERISA treatment. The audience is institutional investors, consultants and sophisticated individual investors; the book assumes familiarity with basic investment concepts and mostly avoids heavy mathematics.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>A market neutral portfolio holds long and short positions selected from the same asset class so that the aggregate position has negligible sensitivity to that asset class&rsquo;s systematic risk (a portfolio beta near zero), leaving only the spread in performance between the securities held long and those sold short — pure security-selection return, independent of market direction. Properly built market neutral strategies are not &ldquo;safe&rdquo; merely because they are labeled neutral: true benefit comes only from an <em>integrated</em> optimization of long and short positions together, not from bolting a separate short book onto a long-only one, and every strategy in the book retains its own residual risks (credit, liquidity, model, and especially leverage risk) that can overwhelm the strategy when markets move to extremes.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Market neutral / beta zero</strong> — long and short positions sized and weighted so systematic (market or interest-rate) risk cancels, leaving only relative-value (security selection) risk.</li>
+<li><strong>Integrated optimization</strong> — constructing long and short legs jointly in one optimization (using expected returns, return standard deviations, and correlations) rather than as two separate long-only and short-only portfolios; this is what actually frees the portfolio from benchmark-weight constraints.</li>
+<li><strong>Liquidity buffer</strong> — cash held back (roughly 10% of capital) to absorb daily mark-to-market swings on short positions without breaching margin.</li>
+<li><strong>Short rebate</strong> — interest paid back to the investor on cash proceeds from a short sale, after the lender&rsquo;s and prime broker&rsquo;s &ldquo;haircut&rdquo; (typically 25–30 basis points off the full rate).</li>
+<li><strong>Delta (convertibles)</strong> — the convertible bond&rsquo;s rate of price change per $1 move in the underlying stock; approaches 1 deeply in-the-money, approaches 0 deeply out-of-the-money (unless bankruptcy risk pushes it back toward or above 1).</li>
+<li><strong>Duration (convertibles)</strong> — sensitivity of the convertible&rsquo;s value to a change in interest rates; dominant when the bond is out-of-the-money.</li>
+<li><strong>Cash-and-carry / basis trade</strong> — buying a cash bond and selling the deliverable futures contract (or the reverse, &ldquo;short basis&rdquo;), profiting from convergence at delivery.</li>
+<li><strong>Cheapest-to-deliver (CTD) and factor bias</strong> — in bond futures, the bond in the deliverable basket with the lowest net basis; conversion factors are used to homogenize bonds of different coupons/maturities, and this factor mechanism creates predictable, mathematically-driven relationships between the futures price and each deliverable bond.</li>
+<li><strong>Option-adjusted spread (OAS)</strong> — a security&rsquo;s expected return spread over the forward yield curve after adjusting for embedded options (e.g., a mortgage&rsquo;s prepayment option); used to screen MBS for cheapness but highly sensitive to the accuracy of the prepayment model.</li>
+<li><strong>Fixed vs. contingent exchange ratio (merger arbitrage)</strong> — a fixed-ratio stock merger specifies the exact number of acquirer shares per target share up front (short the fixed ratio against the long target position); a contingent (floating) ratio depends on the acquirer&rsquo;s average price over a pricing period near closing.</li>
+<li><strong>Arbitrage spread</strong> — the percentage gap between the current combined value of a merger arbitrage position and its value on deal completion; compensation for the risk of deal failure.</li>
+<li><strong>Alpha transport</strong> — using derivatives to move the excess return (&ldquo;alpha&rdquo;) generated by a market neutral portfolio in one asset class onto exposure to a different asset class&rsquo;s market return (beta).</li>
+<li><strong>Reg T / maintenance margin</strong> — Federal Reserve Regulation T requires at least 50% margin to initiate a short position; NYSE Rule 431 sets maintenance margin at roughly 25% of price for longs and the greater of $5/30% (or $2.50/100% for sub-$5 stocks) for shorts.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is an institutional reference, not a signal-generation system, so &ldquo;setups&rdquo; are portfolio-construction and hedge-ratio rules rather than entries/exits on a chart. The book&rsquo;s concrete, codeable rules:</p>
+<ol>
+<li><strong>Equity market neutral capital deployment</strong> — of $10 initial capital, ~90% goes long, an equal ~90% is sold short, and ~10% is retained as a liquidity buffer; Reg T requires only 50% collateralization to establish shorts, so this structure is comfortably within margin (illustrated at 55.6% initial margin on a $10M account with $9M long / $9M short).</li>
+<li><strong>Rebalancing trigger</strong> — when long/short values drift out of balance (from differential returns or price moves), trade back toward equal dollar-weighted long and short exposure; a 2% long-short return spread on a $9M/$9M book required trading roughly $0.2M to restore balance and the 10% liquidity buffer.</li>
+<li><strong>Convertible bond delta hedge</strong> — buy the convertible, short shares equal to (delta × conversion ratio) of the underlying; worked example: Staples 5% convertible at $965, delta-neutral hedge ratio of 0.40 → short 12.3 shares of stock trading at $31.50 per convertible bond.</li>
+<li><strong>Convertible bond duration hedge</strong> — additionally short Treasury note futures in the ratio given by the interest-rate hedge ratio (e.g., $2.09 per 100bp shift → short 0.00209 of a five-year futures contract per bond) to neutralize interest-rate exposure as well as delta.</li>
+<li><strong>Convertible universe filter</strong> — restrict to convertible issues of at least $100 million outstanding for adequate liquidity; rebalance the hedge monthly as delta/duration drift.</li>
+<li><strong>Sovereign bond basis trade (factor weighting)</strong> — sell futures contracts equal to (notional bond value × conversion factor) ÷ contract size; buy back any excess (&ldquo;tail&rdquo;) at the futures settlement price on delivery to eliminate residual exposure.</li>
+<li><strong>Merger arbitrage, fixed exchange ratio</strong> — buy 1 share of the target, short (exchange ratio) shares of the acquirer; profit is the arbitrage spread if the deal closes, annualized over the expected time to close; example: HP–Compaq 0.6325 exchange ratio produced a 7.8% spread (29.4% annualized) at announcement, which widened to 47.4% mid-deal on proxy-fight news before the deal closed at an 8.9% total return.</li>
+<li><strong>Position sizing discipline for shorting</strong> — keep individual short positions small and diversified across many names to limit exposure to short squeezes and buy-ins; avoid concentrated shorts in illiquid stocks.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Leverage is the book&rsquo;s central risk theme: it is optional in equity market neutral (an investor can choose $50 long/$50 short per $100 of capital for zero net leverage) but many funds run levered, and leverage magnifies both the strategy&rsquo;s expected edge and its potential for catastrophic loss. Reg T allows up to 2:1 leverage for equity market neutral; convertible bond hedgers, because the long convertible and its short partially offset for margin purposes, can lever considerably higher — some funds held convertible positions worth up to 13x equity capital. Short positions carry additional cost and risk beyond long-only investing: the short rebate haircut, uptick-rule constraints on when a short sale can be executed, recall/buy-in risk if a lender calls back borrowed shares, and daily mark-to-market cash calls. The book&rsquo;s most consequential quantitative risk lesson comes from Long-Term Capital Management: after asset sales in July 1998 LTCM&rsquo;s leverage ratio was already about 30-to-1; August losses pushed it to 55-to-1; by the September 1998 bailout it exceeded 100-to-1 (excluding over $1 trillion notional in derivatives) — a level none of the fund&rsquo;s own managers had anticipated, illustrating how losses on a leveraged book mechanically increase leverage and can trigger a liquidity spiral of margin calls precisely when assets are hardest to sell.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The &ldquo;Tale of Two Hedge Funds&rdquo; chapter functions as the book&rsquo;s discipline section, using the 1994 collapse of Askin Capital Management (ACM) and the 1998 collapse of LTCM as parallel case studies. ACM&rsquo;s manager based &ldquo;at least 50%&rdquo; of buy/sell decisions on &ldquo;gut instinct&rdquo; rather than tested models, produced a February 1994 loss statement that understated the fund&rsquo;s true losses, and continued adding to a losing CMO position (inverse IOs) even as evidence mounted against it — a failure of process and transparency rather than of sophistication. LTCM, by contrast, was staffed by highly credentialed quants but placed excessive confidence in historical correlations between markets that had never before diverged together; when Russia&rsquo;s 1998 default triggered a global flight to quality, those historical relationships broke down simultaneously and LTCM&rsquo;s relative-value trades all moved against it at once — a failure of diversification of <em>ideas</em>, not just of securities. The book&rsquo;s explicit lesson: high apparent returns combined with apparently low risk should be a &ldquo;yellow light,&rdquo; not a green one (quoting Nobel laureate William Sharpe: &ldquo;you can&rsquo;t earn 40% a year without some risk of losing a lot of money&rdquo;), and investors should independently interrogate the sources of leverage, transparency, and the fundamental (versus merely historical/statistical) basis for a strategy&rsquo;s claimed neutrality.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Introduction — defines market neutral investing, distinguishes it from hedge funds and market timing, surveys the five strategies covered and their risk/benefit tradeoffs.</li>
+<li>Ch 2 — Questions and Answers About Market Neutral Investing — Q&amp;A format covering neutrality mechanics, sources of return, leverage, and shorting vs. futures-based neutrality.</li>
+<li>Ch 3 — Market Neutral Equity Investing — the core long-short construction chapter: mechanics, margin, integrated optimization vs. long-plus-short, trading and liquidity-buffer rules.</li>
+<li>Ch 4 — Convertible Bond Hedging — delta/duration hedging mechanics, an empirical study of excess returns (1989–1996), and implementation issues (busted convertibles, borrow availability, leverage).</li>
+<li>Ch 5 — Sovereign Fixed-Income Arbitrage — cash-and-carry basis trades, cheapest-to-deliver, factor bias in government bond futures.</li>
+<li>Ch 6 — Market Neutral Strategies with Mortgage-Backed Securities — CMO security selection, option-adjusted spread analysis, prepayment-model risk.</li>
+<li>Ch 7 — Merger Arbitrage — fixed and contingent exchange-ratio stock mergers, cash-flow mechanics, the HP–Compaq case study.</li>
+<li>Ch 8 — Transporting Alpha — using derivatives to combine a market neutral portfolio&rsquo;s alpha with a different asset class&rsquo;s market return.</li>
+<li>Ch 9 — A Tale of Two Hedge Funds — the Askin Capital Management and LTCM collapses, and lessons for investors on leverage, transparency and diversification of insight.</li>
+<li>Ch 10 — Significant Tax Considerations for Taxable Investors in Market Neutral Strategies — UBTI, short-sale tax treatment, and related issues.</li>
+<li>Ch 11 — Tax-Exempt Organizations and Other Special Categories of Investors: Tax and ERISA Concerns.</li>
+<li>Ch 12 — Afterword.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>Written by working practitioners (Jacobs Levy, PAAMCO, Clinton Group, DKR Capital, Och-Ziff/CNH Partners) with real trade examples, worked numeric hedge ratios and actual cash-flow tables (Staples convertible, HP-Compaq merger), which makes several of its rules directly codeable. The Askin/LTCM chapter is an unusually candid institutional post-mortem. Caveats: this is a 2005 book describing mid-1990s to early-2000s market structure — the SEC uptick rule (Rule 10a-1) discussed at length was later eliminated (2007) and partially replaced by an alternative uptick rule in 2010; commission and short-rebate figures reflect pre-decimalization, pre-electronic-market conditions; the convertible-hedging &ldquo;empirical analysis&rdquo; in Chapter 4 covers a single 1989–1996 sample from one analyst and should be read as illustrative rather than a rigorous backtest; and several strategies (sovereign basis trading, MBS OAS analysis) require institutional-grade repo, prime brokerage and analytics access not available to individual traders. The book&rsquo;s own conclusion — echoed almost verbatim in the LTCM chapter — is that no strategy examined is riskless &ldquo;market neutral&rdquo; in the pure sense; the label describes a construction technique, not an absence of risk.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Institutional allocators, hedge fund analysts, and advanced individual traders who already understand long-only portfolio construction and want a grounded, non-quantitative-heavy survey of how professional long-short, convertible-arbitrage, fixed-income-arbitrage, MBS-arbitrage and merger-arbitrage desks actually build and hedge positions — and who want the Askin/LTCM chapter as a risk-management case study. Not a beginner&rsquo;s book and not a mechanical trading-signal system; readers wanting entry/exit rules for a specific instrument should pair it with a strategy-specific text.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/wyser-pratte-guy-risk-arbitrage.html">Risk Arbitrage</a> — a dedicated, more detailed treatment of the merger arbitrage strategy covered in Chapter 7 here.</li>
+<li><a class="xref" href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — deeper quantitative/derivatives-pricing background for the option-adjusted-spread and delta-hedging math used across several chapters.</li>
+<li><a class="xref" href="../books/article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000.html">Market-Neutral Investing: Long-Short Hedge Fund Strategies</a> — a shorter treatment of the same core market-neutral long-short thesis from a different author.</li>
+<li><a class="xref" href="../books/hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies.html">Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</a> — complements the leverage/VaR risk themes of the Askin and LTCM case studies.</li>
+<li><a class="xref" href="../books/trading-and-investment-applied-quantitative-methods-for.html">Applications of Advanced Regression Analysis for Trading and Investment</a> — broader quantitative-methods context for the portfolio-optimization techniques referenced in the equity market neutral chapter.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/wyser-pratte-guy-risk-arbitrage.html">Risk Arbitrage</a> — A practitioner&#39;s manual for merger/risk arbitrage: parity and spread calculation, deal-risk checklists, and worked case studies from the 1960s through the 2000s.</li><li><a href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</li><li><a href="../books/article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000.html">Market-Neutral Investing: Long-Short Hedge Fund Strategies</a> — A 2001 book abstract surveys seven long-short strategies that seek returns from relationships between securities while hedging selected risks.</li><li><a href="../books/hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies.html">Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</a> — Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.</li><li><a href="../books/trading-and-investment-applied-quantitative-methods-for.html">Applications of Advanced Regression Analysis for Trading and Investment</a> — A book chapter benchmarks a Neural Network Regression model against naive, ARMA, logit, and MACD models forecasting EUR/USD, finding NNR gives the best risk-adjusted trading returns.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

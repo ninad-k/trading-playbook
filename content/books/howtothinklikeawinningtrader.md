@@ -1,17 +1,28 @@
 ---
-title: How to Think Like a Winning Day Trader
 author: Mark McRae
-year: 2005
-slug: howtothinklikeawinningtrader
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, mindset, probabilities, day-trading, self-talk]
 difficulty: beginner
 doc_type: article
+one_liner: Short mindset guide framing trading as pure probability management and
+  giving a before/during/after mental routine to stay mechanical and unemotional.
 pages: 4
-one_liner: "Short mindset guide framing trading as pure probability management and giving a before/during/after mental routine to stay mechanical and unemotional."
-related: [whats-in-your-head, van-tharp-trading-systems]
-source_file: "HowToThinkLikeAWinningTrader.pdf"
+related:
+- whats-in-your-head
+- van-tharp-trading-systems
+reviewed_pdf_pages: 1-4
+slug: howtothinklikeawinningtrader
+source_file: HowToThinkLikeAWinningTrader.pdf
+source_review: full
+tags:
+- psychology
+- discipline
+- mindset
+- probabilities
+- day-trading
+- self-talk
+tier: B
+title: How to Think Like a Winning Day Trader
+year: 2005
 ---
 
 ## Summary

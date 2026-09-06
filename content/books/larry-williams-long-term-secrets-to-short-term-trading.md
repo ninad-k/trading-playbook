@@ -1,17 +1,33 @@
 ---
-title: Long-Term Secrets to Short-Term Trading
 author: Larry Williams
-year: 1999
-slug: larry-williams-long-term-secrets-to-short-term-trading
-tier: A
 category: Day Trading & Scalping
-tags: [short-term-trading, seasonality, chart-patterns, volatility-breakout, money-management, futures, stops]
 difficulty: intermediate
 doc_type: book
+one_liner: Williams' catalog of short-term futures patterns (Smash Day, Oops!, Specialists'
+  Trap, TDW/TDM) plus his fixed-fraction money management formula, all backed by exact
+  backtest numbers.
 pages: 254
-one_liner: "Williams' catalog of short-term futures patterns (Smash Day, Oops!, Specialists' Trap, TDW/TDM) plus his fixed-fraction money management formula, all backed by exact backtest numbers."
-related: [larry-williams-how-to-trade-better, curtis-faith-way-of-the-turtle, a-new-interprtation-of-information-rate-kelly, kellybetting, martin-j-pring-investment-psychology-part-1]
-source_file: "Larry Williams - Long-Term Secrets To Short-Term Trading.pdf"
+related:
+- larry-williams-how-to-trade-better
+- curtis-faith-way-of-the-turtle
+- kellybetting
+- martin-j-pring-investment-psychology-part-1
+reviewed_pdf_pages: 2-4, 20, 30-31, 55, 87, 97, 157 (contents, the TDW/TDM statistics,
+  smash-day and specialists'-trap definitions and the greatest-swing-value chapters)
+slug: larry-williams-long-term-secrets-to-short-term-trading
+source_file: Larry Williams - Long-Term Secrets To Short-Term Trading.pdf
+source_review: partial
+tags:
+- short-term-trading
+- seasonality
+- chart-patterns
+- volatility-breakout
+- money-management
+- futures
+- stops
+tier: A
+title: Long-Term Secrets to Short-Term Trading
+year: 1999
 ---
 
 ## Overview
@@ -92,6 +108,6 @@ Short-term futures and index traders who want concrete, quantified pattern rules
 
 - [[larry-williams-how-to-trade-better]] — Williams' other core trading text; a natural pairing for his broader toolkit including %R.
 - [[curtis-faith-way-of-the-turtle]] — another fully codified mechanical system with concrete numbers, for contrast with Williams' pattern-based approach.
-- [[a-new-interprtation-of-information-rate-kelly]] — the original Kelly criterion paper Williams applied (and later found flawed) for position sizing.
+- [[kellybetting]] — the original Kelly criterion paper Williams applied (and later found flawed) for position sizing.
 - [[kellybetting]] — further treatment of the Kelly formula referenced in the money management chapter.
 - [[martin-j-pring-investment-psychology-part-1]] — complementary treatment of trading psychology and discipline themes Williams covers more anecdotally.

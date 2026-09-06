@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies — John Okunev, Derek White · Trading Playbook</title>
+<meta name="description" content="Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</h1>
+  <p class="byline">John Okunev, Derek White · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 6, 8, 12, 15-16 (the risk-factor results and the VaR comparison tables). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=hedge-funds">hedge-funds</a> <a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=credit-trading">credit-trading</a> <a class="tag" href="../search.html?q=return-smoothing">return-smoothing</a> <a class="tag" href="../search.html?q=autocorrelation">autocorrelation</a> <a class="tag" href="../search.html?q=risk-factors">risk-factors</a> <a class="tag" href="../search.html?q=fixed-income">fixed-income</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>63 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies” by John Okunev, Derek White at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This 2003 working paper asks how risky fixed-income hedge fund strategies really are once reported returns are corrected for artificial smoothing. Using monthly index returns (1994-2001) for 21 hedge fund indices across six fixed-income styles (Convertible Arbitrage, Fixed Income Arbitrage, Credit Trading, Distressed Securities, Merger Arbitrage, MultiProcess-Event Driven) from FRM, HFR, CSFB, Hennessee, and Zurich, the authors develop a method to strip serial autocorrelation from returns (autocorrelation being evidence of smoothing from stale/illiquid pricing), then use stepwise regression against 100+ candidate risk factors to find each style&rsquo;s true risk drivers, and finally run Monte Carlo value-at-risk simulations comparing linear versus linear-plus-nonlinear factor mappings. Key finding: after unsmoothing, true risk for many styles is 60-100% higher than reported, and a short put position on high-yield debt (UBS Warburg sub-BBB/NR index) is the single most important risk factor for 17 of 21 indices — including Merger Arbitrage, where it beats the short-put-on-equities factor proposed by earlier research (Mitchell and Pulvino 2001).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Reported returns show significant positive autocorrelation, most severe for Convertible Arbitrage and Fixed Income Arbitrage — a signature of return smoothing from stale/illiquid pricing.</li>
+<li>After removing autocorrelation, true estimated standard deviation of returns rises 60-100% for many indices versus as-reported figures.</li>
+<li>Correlations across styles are high, especially Credit Trading with Distressed Securities, and Merger Arbitrage with MultiProcess-Event Driven.</li>
+<li>A short put on high-yield debt is the dominant risk factor for the majority of indices tested (top factor in 17 of 21).</li>
+<li>Small-cap stock exposure is a secondary factor for Distressed Securities, Merger Arbitrage, and MultiProcess-Event Driven, often displaced once the high-yield short-put factor is included.</li>
+<li>Nonlinear (option-like) factors give only moderate improvement in explanatory power, and none for Fixed Income Arbitrage or Credit Trading; several styles show negative exposure to volatility changes.</li>
+<li>Nonlinear factors increase estimated downside VaR only marginally across all styles.</li>
+<li>Merger Arbitrage was the safest, best-performing style in the sample, consistent with its low observed autocorrelation.</li>
+<li>VaR estimates varied substantially across index providers within the same style (e.g., Convertible Arbitrage VaR from CSFB ran 2-4x higher than from FRM) despite consistent risk-factor exposures.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trade-execution rules (this is risk research, not a trading system). Practical takeaways: (1) don&rsquo;t trust reported hedge fund volatility at face value for illiquid fixed-income strategies — true risk runs meaningfully higher; (2) when assessing credit strategies including merger arbitrage, high-yield credit downside (a short put on high-yield debt) is a better risk proxy than equity beta or small-cap exposure; (3) cross-check any one index provider&rsquo;s stated VaR for a style against other providers, since estimates can differ 2-4x by methodology.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Highly technical academic paper aimed at researchers, not practitioners; the &ldquo;unsmoothing&rdquo; mathematics is not something a discretionary trader would apply directly. Sample period is 1994-2001 using index-level (not individual fund) returns; results are specific to that era&rsquo;s fixed-income hedge fund strategies. Statistical tables referenced throughout are not reproduced here.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers, risk managers, or allocators evaluating fixed-income and credit-strategy hedge funds who need to understand why reported hedge fund volatility understates true risk and what factor exposures actually drive that risk.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide.html">The Hedge Fund Compliance and Risk Management Guide</a> — A Wiley Finance reference covering hedge fund strategies, risk types, VaR/stress-testing methodology, fraud detection, ratings, and the compliance/regulatory landscape circa 2006-2007.</li><li><a href="../books/s-a-mccrary-hedge-fund-course.html">Hedge Fund Course</a> — Textbook-style survey of hedge fund structures, strategies, leverage, fees, taxation, and performance/risk measurement for industry professionals.</li><li><a href="../books/hedges-on-hedge-funds-how-to-successfully-analyze-2005.html">Hedges on Hedge Funds: How to Successfully Analyze and Select an Investment</a> — A fund-of-funds manager&#39;s guide to evaluating and selecting hedge funds, covering strategy types, transparency, valuation, and operational-risk red flags.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

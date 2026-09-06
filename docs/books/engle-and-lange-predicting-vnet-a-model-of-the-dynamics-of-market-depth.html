@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Predicting VNET: A Model of the Dynamics of Market Depth — Robert F. Engle and Joe Lange · Trading Playbook</title>
+<meta name="description" content="Journal of Financial Markets paper introducing VNET, an event-time measure of realized market depth, and modeling how volume, transaction count, spread, and trading patience predict it on NYSE stocks.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Predicting VNET: A Model of the Dynamics of Market Depth</h1>
+  <p class="byline">Robert F. Engle and Joe Lange · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Journal of Financial Markets paper introducing VNET, an event-time measure of realized market depth, and modeling how volume, transaction count, spread, and trading patience predict it on NYSE stocks.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1, 5, 11 (the VNET definition, the ACD linkage and the 1997 robustness check). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=academic-paper">academic-paper</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=market-depth">market-depth</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=order-flow">order-flow</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> </td></tr>
+    <tr><th>Length</th><td>30 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Predicting VNET: A Model of the Dynamics of Market Depth” by Robert F. Engle and Joe Lange at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An academic market-microstructure paper (Journal of Financial Markets, 2001) by Robert F. Engle and Joe Lange introducing VNET, a new intraday statistic for market depth: the net excess volume of buys over sells accumulated over a &ldquo;price-duration&rdquo; — the time between one substantial quote-midpoint move and the next. Rather than measuring depth in fixed calendar-time intervals (which produces too many zero/near-zero and noisy observations), the authors measure it in event time keyed to price movement, following the general approach of Cho and Frees (1988). They build a predictive model of VNET using NYSE TORQ data for 17 stocks, then check robustness on a separate, more recent (1997) TAQ dataset.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>VNET</strong>: number of shares bought minus number of shares sold during a &ldquo;price-duration&rdquo; (the interval between successive fixed-size moves in the quote midpoint) — a direct, realized-depth analogue to the theoretical &ldquo;market reaction curve.&rdquo;</li>
+<li>Market depth is distinguished from the bid-ask spread (&ldquo;tightness&rdquo;): depth is how much volume can be absorbed at/near a given price before it moves further, not just the gap between best bid and offer.</li>
+<li>VNET is found to vary systematically with total trading volume, the number of transactions within the duration, and volatility (duration length).</li>
+<li>The percentage order imbalance needed to move price declines as total volume traded rises — i.e., in higher-volume periods, a smaller percentage imbalance triggers the same price move.</li>
+<li>A higher number of transactions per price-duration is associated with reduced market depth, consistent with informed traders &ldquo;flooding&rdquo; the market after a semi-private information event.</li>
+<li>VNET moves inversely with the bid-ask spread — when the market is tight (narrow spread) it also tends to lack depth, unifying the paper&rsquo;s depth measure with traditional spread-based liquidity measures.</li>
+<li>Unanticipated shocks to the length of a price-duration (labeled PTIME-ERR, derived using Engle and Russell&rsquo;s 1998 ACD/autoregressive conditional duration model) increase realized depth — interpreted as &ldquo;the value of patience&rdquo; in large-order execution.</li>
+<li>Robustness check: re-estimating the model on 1997 TAQ data (different volume, volatility, and minimum-tick regime than the original TORQ sample) produced only modestly different parameter estimates, suggesting the relationships are relatively stable over time.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules — this is a market-microstructure research paper aimed at institutional execution and risk management, not a retail trading system. Practical implications drawn out in the paper: (1) larger total trading volume in a stock allows a larger nominal imbalance to be absorbed before price moves, useful for sizing large orders; (2) patience in execution (avoiding compressing a large order into a short price-duration) tends to reduce realized price impact; (3) periods of wide bid-ask spread should be expected to coincide with reduced depth, and vice versa.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is a dense, equation-heavy econometrics paper using NYSE TORQ and TAQ transaction/quote datasets from the 1990s (individual stock symbols like GE, FDX, FNM appear in an appendix regression table); it predates decimalization and modern electronic/HFT market structure, so magnitudes are not directly transferable to today&rsquo;s markets even if the qualitative relationships (volume-depth, spread-depth, patience-depth) likely still hold directionally. No charts or full appendix tables are usable from the extracted text.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers and institutional execution specialists interested in the academic foundations of intraday liquidity/depth measurement, not retail traders looking for entry/exit signals.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/liquidity-in-forex-markets.html">Liquidity in the Forward Exchange Market</a> — Journal of Empirical Finance paper building a limited-participation two-country model to explain spot-return autocorrelation, forward-discount persistence, and the forward bias puzzle via a liquidity &#39;wedge.&#39;</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex.html">The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market</a> — Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency are simultaneously determined, with time-of-day dummies removing much of the GARCH-type clustering in returns.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

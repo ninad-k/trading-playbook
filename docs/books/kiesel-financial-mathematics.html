@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Mathematics — Rüdiger Kiesel · Trading Playbook</title>
+<meta name="description" content="Graduate-level lecture notes deriving derivative pricing from first principles: arbitrage theory, single- and multi-period market models, Black-Scholes, and interest-rate/HJM models.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Financial Mathematics</h1>
+  <p class="byline">Rüdiger Kiesel · <span class="badge tier-B">Tier B</span> <span class="badge">course</span> <span class="badge">advanced</span></p>
+  <p class="lead">Graduate-level lecture notes deriving derivative pricing from first principles: arbitrage theory, single- and multi-period market models, Black-Scholes, and interest-rate/HJM models.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the four parts&#39; derivation chapters checked against the note; the notes are algebraic and state no trading parameters. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=arbitrage-theory">arbitrage-theory</a> <a class="tag" href="../search.html?q=derivative-pricing">derivative-pricing</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=stochastic-calculus">stochastic-calculus</a> <a class="tag" href="../search.html?q=interest-rate-models">interest-rate-models</a> <a class="tag" href="../search.html?q=martingale-pricing">martingale-pricing</a> </td></tr>
+    <tr><th>Length</th><td>142 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Financial Mathematics” by Rüdiger Kiesel at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A set of graduate/masters-level lecture notes in mathematical finance, building derivative pricing theory from the ground up in four parts: (1) arbitrage theory and single-period market models, (2) financial market theory (expected utility, risk aversion, mean-variance portfolios, CAPM), (3) discrete- and continuous-time pricing models culminating in the Cox-Ross-Rubinstein binomial model and Black-Scholes, and (4) interest-rate theory (term structure, short-rate models, Heath-Jarrow-Morton). Appendices cover the probability and measure-theory background (martingales, filtrations, Radon-Nikodym derivatives) needed to follow the main text rigorously.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>No-arbitrage principle</strong> — the foundation of the entire text: derivative prices are pinned down by the requirement that no risk-free profit be extractable from a combination of the derivative and its underlying.</li>
+<li><strong>Single-period market model</strong> — the simplest setting for introducing risk-neutral (equivalent martingale) pricing before generalizing to multiple periods.</li>
+<li><strong>Equivalent martingale measure</strong> — a reweighted probability measure under which discounted asset prices are martingales; its existence is equivalent to no-arbitrage, and its uniqueness is equivalent to market completeness.</li>
+<li><strong>Cox-Ross-Rubinstein (CRR) binomial model</strong> — a discrete-time model with an explicit up/down price tree, used to derive risk-neutral pricing and hedging mechanically before taking the continuous-time limit.</li>
+<li><strong>Itô&rsquo;s Lemma and Girsanov&rsquo;s Theorem</strong> — the stochastic-calculus tools used to move from discrete to continuous-time models and to change from the real-world to the risk-neutral measure.</li>
+<li><strong>Black-Scholes model and the Greeks</strong> — derived as the continuous-time limit of the binomial model; the notes also cover barrier options as an extension.</li>
+<li><strong>American options</strong> — treated via optional stopping theory and Snell envelopes, i.e., finding the optimal early-exercise policy.</li>
+<li><strong>Term structure / short-rate models and Heath-Jarrow-Morton (HJM)</strong> — the interest-rate analogue of equity option pricing, covering bond pricing, the term-structure equation, and pricing of swaps and caps.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is pure theory/derivation, not a trading system. Its practical relevance to a trader is foundational: it explains why standard option-pricing and hedging formulas (Black-Scholes deltas, risk-neutral valuation) take the form they do, and under what assumptions (completeness, no-arbitrage, continuous trading) they break down.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Requires graduate-level mathematical background (measure-theoretic probability, stochastic calculus, functional analysis) — not accessible without prior coursework in real analysis and probability theory. As lecture notes rather than a published book, exposition is compressed and proof-heavy with few worked numerical trading examples. No date/edition is given in the extracted text, so currency of references cannot be assessed.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Graduate students or quantitatively-trained readers who want the rigorous mathematical derivation behind derivative pricing formulas, not practitioners looking for trading rules or intuition-first explanations.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/bass-financial-mathematics-2003-lecture-notes-series.html">Financial Mathematics (Lecture Notes)</a> — A graduate math course deriving option pricing from first principles: probability, binomial trees, Brownian motion, Ito calculus, and the Black-Scholes formula.</li><li><a href="../books/bass-the-basics-of-financial-mathematics.html">The Basics of Financial Mathematics</a> — University lecture notes deriving option pricing rigorously: elementary probability, the binomial asset pricing model, Brownian motion/stochastic calculus, and the Black-Scholes formula via the risk-neutral measure.</li><li><a href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/back-to-basics-historical-option-pricing-revisited.html">Back to Basics: Historical Option Pricing Revisited</a> — Physicists Bouchaud and Potters re-derive option pricing from historical (not risk-neutral) probability using a risk-minimization framework, and show the resulting volatility smile matches real BUND option data.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market — Antonis A. Demos, Charles A. E. Goodhart · Trading Playbook</title>
+<meta name="description" content="Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency are simultaneously determined, with time-of-day dummies removing much of the GARCH-type clustering in returns.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market</h1>
+  <p class="byline">Antonis A. Demos, Charles A. E. Goodhart · 1996 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency are simultaneously determined, with time-of-day dummies removing much of the GARCH-type clustering in returns.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-3, 5 (the data description and the intraday estimation results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=quote-frequency">quote-frequency</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>10 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market” by Antonis A. Demos, Charles A. E. Goodhart at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how do quote frequency (a proxy for market activity, since no volume data exists in interbank FX), bid-ask spread, and volatility interact in the FX spot market, and do these interactions explain the well-known heteroskedasticity (volatility clustering) in FX returns? Data: half-hourly Reuters screen quote data for DEM/USD and JPY/USD across 5 weeks (avoiding holiday weeks). Method: a simultaneous equation system (two-stage least squares) relating volatility, average spread, and number of quotations, with the best functional form for each variable found via a Box-Cox transformation search, plus weekly, daily, and half-hourly dummies to separate public-news effects from private-information effects. Finding: quote frequency is a good proxy for market activity and, with the time-of-day dummies, explains a large share of the conditional heteroskedasticity in FX returns; volatility and spread are simultaneously determined and positively related; and quote frequency affects spread only indirectly, through volatility.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>No transaction-volume data exists for the interbank FX spot market, so the paper uses Reuters quote-arrival frequency as the activity proxy.</li>
+<li>A log-linear (not linear) relationship among volatility, spread, and quote frequency fits the data much better, though the true best-fitting form is somewhere between the two (found via Box-Cox search).</li>
+<li>Volatility is unusually high during the late-afternoon London/New York overlap despite declining quote activity in that window — a pattern the authors could not fully explain with public-news theories.</li>
+<li>Volatility drops sharply during the Tokyo lunch break (4:00-5:00 BST), accompanied by wider spreads and fewer quotes.</li>
+<li>Quoting activity peaks just after the Tokyo lunch break and again around 5:30-6:00 BST; it is lowest during the Tokyo lunch hour.</li>
+<li>Average spread is significantly higher on Fridays and lowest mid-week — the inverse of the quote-frequency pattern.</li>
+<li>Adding quote frequency and time-of-day dummies removes a large part of the GARCH/ARCH-type volatility clustering typically modeled with univariate time series, implying much of that &ldquo;clustering&rdquo; reflects omitted activity and time-of-day effects.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a statistical/econometric research paper, not a trading system. Practical read for FX traders: expect volatility and spread to move together and to spike around session overlaps and post-lunch-break reopenings, and expect wider spreads heading into weekends (Friday) and around the London open, independent of any specific news release.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Uses early-1990s Reuters indicative-quote data (not firm/tradable quotes or actual transaction prices), and the sample is limited to 5 selected weeks. The paper&rsquo;s central empirical puzzle — persistently high US-afternoon volatility despite falling quote activity — is explicitly left unresolved by the authors.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers and FX microstructure specialists interested in the statistical relationship between quoting activity, spreads, and volatility, and in intraday/day-of-week FX volatility patterns.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/supply-demand.html">Are Supply and Demand Driving Stock Prices?</a> — Paris Bourse order-flow data shows order imbalance explains ~50% of return variance, with a higher R² for market-wide moves than stock-specific ones — pointing to mechanical price pressure, not just information.</li><li><a href="../books/foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size.</li><li><a href="../books/liquidity-in-forex-markets.html">Liquidity in the Forward Exchange Market</a> — Journal of Empirical Finance paper building a limited-participation two-country model to explain spot-return autocorrelation, forward-discount persistence, and the forward bias puzzle via a liquidity &#39;wedge.&#39;</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

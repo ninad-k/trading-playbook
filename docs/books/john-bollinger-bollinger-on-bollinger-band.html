@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bollinger on Bollinger Bands — John Bollinger · Trading Playbook</title>
+<meta name="description" content="The creator&#39;s own manual for Bollinger Bands: construction, the %b and BandWidth indicators, The Squeeze, and three complete trading methods.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a></p>
+  <h1>Bollinger on Bollinger Bands</h1>
+  <p class="byline">John Bollinger · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">The creator&#39;s own manual for Bollinger Bands: construction, the %b and BandWidth indicators, The Squeeze, and three complete trading methods.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 9-10, 13-14, 75, 82-83, 92, 119, 194 (construction and containment percentages, %b and BandWidth formulas, and the Method I/II/III rule pages). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=percent-b">percent-b</a> <a class="tag" href="../search.html?q=bandwidth">bandwidth</a> <a class="tag" href="../search.html?q=the-squeeze">the-squeeze</a> <a class="tag" href="../search.html?q=pattern-recognition">pattern-recognition</a> <a class="tag" href="../search.html?q=volume-indicators">volume-indicators</a> <a class="tag" href="../search.html?q=mean-reversion">mean-reversion</a> </td></tr>
+    <tr><th>Length</th><td>264 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Bollinger on Bollinger Bands” by John Bollinger at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/john-bollinger-bollinger-on-bollinger-band--method-i-squeeze-breakout.html">Method I — The Squeeze / Volatility Breakout</a> · <a href="../books/john-bollinger-bollinger-on-bollinger-band--method-ii-trend-following.html">Method II — Trend Following with %b and MFI</a> · <a href="../books/john-bollinger-bollinger-on-bollinger-band--method-iii-reversals.html">Method III — Reversals</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Written by John Bollinger, the inventor of Bollinger Bands, this is the definitive primer on the indicator from its own creator. The book covers construction and parameter selection first, then the two indicators derived directly from the bands (%b and BandWidth), then pattern recognition (M and W tops/bottoms, walking the bands, The Squeeze), and finally three distinct, fully specified trading methods that combine bands with volume indicators. It closes with a 15-point rules summary. The tone is deliberately non-dogmatic: Bollinger repeatedly stresses that defaults (20 periods, 2 standard deviations) are starting points to be tuned, not fixed law, and that band tags are not automatic buy/sell signals.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Bollinger Bands provide a <em>relative</em>, volatility-adaptive definition of &ldquo;high&rdquo; and &ldquo;low&rdquo; rather than an absolute one — because the bands widen and narrow with recent volatility, a price near the upper band means something different in a calm market than in a volatile one, and the bands adjust automatically. The greatest myth about the bands, Bollinger states directly, is that price should be sold at the upper band and bought at the lower band; in fact price can and does &ldquo;walk the band&rdquo; for extended trends. Reliable signals come not from band tags alone but from combining band-relative position (%b) with an independent confirming variable — usually a volume indicator — so that regression-to-the-mean and trend-continuation scenarios can be told apart before acting.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Bollinger Bands</strong> — a simple moving average (default 20 periods) plus/minus a multiple of the moving standard deviation (default 2σ), plotted as upper/lower bands around price.</li>
+<li><strong>%b</strong> — <code>(Last − Lower Band) / (Upper Band − Lower Band)</code>; equals 1.0 at the upper band, 0.5 at the middle band, 0.0 at the lower band; unbounded, so it can exceed 1 or go below 0.</li>
+<li><strong>BandWidth</strong> — <code>(Upper Band − Lower Band) / Middle Band</code>; a normalized measure of how wide the bands are, comparable across securities and time.</li>
+<li><strong>The Squeeze</strong> — the condition where BandWidth falls to its lowest level in six months, signaling that low volatility is likely to be followed by high volatility (a precondition, not a direction).</li>
+<li><strong>The Expansion</strong> — the mirror condition: a powerful trend causes the opposite band to turn away from the trend (e.g., the lower band turns down in an uptrend); when that reversal itself reverses, the current leg of the trend is most likely over.</li>
+<li><strong>Walking the bands</strong> — sustained trends in which price repeatedly tags or rides along one band without reverting to the average; a close outside the band is a continuation signal in this context, not automatically a reversal signal.</li>
+<li><strong>Head fake</strong> — a short false move opposite a Squeeze&rsquo;s real resolution; the main hazard when trading Method I.</li>
+<li><strong>Rational Analysis</strong> — Bollinger&rsquo;s term for combining fundamental screening (a buy list / sell list) with technical, band-based timing signals.</li>
+<li><strong>Normalizing indicators with %b</strong> — plotting Bollinger Bands on an indicator (e.g., RSI, MFI) itself and reading %b of the indicator instead of fixed overbought/oversold levels like 70/30.</li>
+<li><strong>W-bottoms / M-tops</strong> — reversal patterns where the second low (high) is inside the bands even if it makes a new absolute price low (high), because momentum — and thus the band-relative extreme — is less pronounced on the retest.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>Construction</strong>: 20-period simple moving average, ±2 standard deviations (population formula) as the default; scale the multiplier with the period — 1.9σ at 10 periods, 2.0σ at 20, 2.1σ at 50 — to hold containment near 88–89% of price action.</li>
+<li><strong>%b formula</strong>: <code>(Last − Lower BB) / (Upper BB − Lower BB)</code>; use to compare price&rsquo;s position within the bands against an indicator&rsquo;s position within its own bands (e.g., sell if %b(price) &gt; 0.9 and %b(indicator) &lt; 0.3).</li>
+<li><strong>BandWidth formula</strong>: <code>(Upper BB − Lower BB) / Middle BB</code>; flag a Squeeze when it hits a 6-month low; flag the start of a sustainable trend when BandWidth expands sharply out of a narrow range.</li>
+<li><strong>Method I — Volatility Breakout</strong>: wait for a Squeeze (BandWidth at a 6-month low), then buy a close above the upper band / sell short a close below the lower band; exit via Parabolic stop or opposite-band tag (full parameters in the system sub-page).</li>
+<li><strong>Method II — Trend Following</strong>: buy when %b &gt; 0.8 <strong>and</strong> 10-period MFI &gt; 80; sell/short when %b &lt; 0.2 and MFI &lt; 20 (system sub-page).</li>
+<li><strong>Method III — Reversals</strong>: buy when %b &lt; 0.05 with a positive volume oscillator (non-confirmed lower-band tag); sell/short when %b &gt; 0.95 with a negative oscillator (system sub-page).</li>
+<li><strong>Pattern rule for W/M</strong>: an ideal W has its first low outside the lower band and second low inside it (even on a new absolute low); M-tops mirror this but typically take three or more pushes rather than two.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book does not prescribe a position-sizing or percent-risk framework; risk control is handled entirely through exit technique. Two exits recur throughout: a Welles Wilder Parabolic stop (tightening progressively from just outside the entry range) for a shorter, more conservative trade, or a tag of the opposite band as a wider target that lets trades run through corrections. Bollinger favors adjusting Squeeze-length and bandwidth parameters (tighter and shorter for short-term traders) to fit personal risk tolerance, repeating that no single parameter set is &ldquo;correct&rdquo; for all traders or securities — testing on your own universe is required.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Bollinger frames the biggest error as false certainty: treating a band tag as an automatic signal rather than a piece of relative information that needs indicator confirmation. He explicitly warns against believing in &ldquo;continuous advice&rdquo; — the idea that any indicator or system delivers a running verdict on what to do at every moment — and argues investors should instead wait for a limited number of discrete, well-defined setups per year rather than trading continuously. He also cautions against over-optimizing systems to fit historical parameters exactly, noting that Bollinger Band construction rules have proven robust precisely because small parameter changes don&rsquo;t materially change results — a mark of a durable approach versus a curve-fit one.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Part I (Ch 1–5) — Introduction, raw materials (chart types), time frames, why continuous advice fails, &ldquo;be your own master&rdquo; (customize everything).</li>
+<li>Part II (Ch 6–9) — History of trading bands/envelopes (LeDoux, Keltner, Donchian, Bomar Bands), Construction, Bollinger Band Indicators (%b, BandWidth), Statistics (why containment isn&rsquo;t exactly 95%, regression to the mean).</li>
+<li>Part III (Ch 10–16) — Pattern Recognition, Five-Point Patterns (price filters, point-and-figure, Bollinger Boxes), W-Type Bottoms, M-Type Tops, Walking the Bands, The Squeeze, Method I: Volatility Breakout.</li>
+<li>Part IV (Ch 17–20) — Bollinger Bands and Indicators (confirmation logic), Volume Indicators (AD, Intraday Intensity, MFI, Volume-Weighted MACD), Method II: Trend Following, Method III: Reversals.</li>
+<li>Part V (Ch 21–22) — Normalizing Indicators (bands on RSI/MFI/stochastics), Day Trading applications.</li>
+<li>Part VI — 15 Basic Rules, Wrapping Up, Endnotes, Glossary, Bibliography.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book is unusually rigorous for a Tier-A trading title: formulas are given explicitly, parameter choices are backed by an actual multi-market test (IBM, S&amp;P 500, Nikkei 225, gold, DM/USD, NASDAQ Composite over 8–10 years) rather than asserted, and the author is candid about statistical limitations — stock returns are non-normal with fat tails, containment is closer to 88–89% than the &ldquo;expected&rdquo; 95%, and regression to the mean is weaker than commonly assumed. The three methods are given as complete, testable rule sets rather than vague heuristics. Caveats: some material (day trading chapter, point-and-figure/Bollinger Boxes discussion) reflects early-2000s market structure and technology; volume-indicator reliability depends on well-specified bars, which the book itself flags as a problem intraday; and, as with any indicator book, no forward-looking backtest across modern markets is provided — the parameter table is a starting point the reader must validate.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Ideal for intermediate technical traders who already read basic charts and want a rigorous, formula-complete treatment of one specific indicator family, including exact entry/exit logic for three distinct trading styles (breakout, trend-following, mean-reversion). Less useful as a first book on technical analysis generally, since it assumes familiarity with moving averages, oscillators, and volume indicators, and it is narrowly scoped to Bollinger Bands rather than broader system design or money management.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/alan-farley-the-master-swing-trader.html">The Master Swing Trader</a> — uses Bollinger Bands (20-2 and 5-8-13 setups) as one input to a broader multi-time-frame swing framework.</li>
+<li><a class="xref" href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — another source of concrete, testable short-term setups that pairs well with Bollinger&rsquo;s confirmation-based methods.</li>
+<li><a class="xref" href="../books/elder-alexander-trading-for-a-living.html">Trading for a Living</a> — a broader psychology-plus-indicators framework (Triple Screen) that complements Bollinger&rsquo;s narrower, deeper indicator focus.</li>
+<li><a class="xref" href="../books/candlestick-charting-explained.html">Candlestick Charting Explained</a> — a natural companion for reading the price bars that interact with the bands in pattern recognition.</li>
+<li><a class="xref" href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — a contrasting fully mechanical, volatility-based breakout system (ATR-driven rather than band-driven) useful for comparing volatility-breakout philosophies.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/alan-farley-the-master-swing-trader.html">The Master Swing Trader</a> — A 3D-charting framework (Pattern Cycles, cross-verification) plus seven named short-term setups (the 7-Bells) for equity swing trading.</li><li><a href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — A catalogue of fully specified short-term swing-trading setups (Turtle Soup, 80-20&#39;s, the Anti, Holy Grail, Wolfe Waves, and more) built on tests, retracements, and climax reversals.</li><li><a href="../books/elder-alexander-trading-for-a-living.html">Trading for a Living</a> — Elder&#39;s original three-pillar framework (psychology, technical method, money management), introducing Triple Screen, Force Index, and Elder-ray.</li><li><a href="../books/candlestick-charting-explained.html">Candlestick Charting Explained</a> — An introductory primer explains candle bodies and shadows and uses changing open-close relationships to read sentiment.</li><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

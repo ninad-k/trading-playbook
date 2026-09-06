@@ -1,17 +1,31 @@
 ---
-title: "Surfing the Market Waves: Jan Arps' Swing Trader's Toolkit"
 author: Jan L. Arps
-year: 1998
-slug: jan-l-arps-surfing-the-market-waves-the-swing-trader-s
-tier: B
 category: Swing Trading
-tags: [swing-trading, elliott-wave, fibonacci, andrews-pitchfork, zig-zag, support-resistance, oscillators]
 difficulty: intermediate
 doc_type: manual
+one_liner: TradeStation/SuperCharts toolkit manual defining a full set of swing-trading
+  indicators — Zig-Zag, Fox Wave, Fib channels, Andrews Pitchfork, Price Magnets,
+  and three Radar oscillators.
 pages: 37
-one_liner: "TradeStation/SuperCharts toolkit manual defining a full set of swing-trading indicators — Zig-Zag, Fox Wave, Fib channels, Andrews Pitchfork, Price Magnets, and three Radar oscillators."
-related: [e-a-s-y-method, king-keltner-trading-strategy]
-source_file: "Jan L Arps - Surfing The Market Waves - The Swing Trader's.pdf"
+related:
+- e-a-s-y-method
+- king-keltner-trading-strategy
+reviewed_pdf_pages: 2, 13-14, 23 (the indicator construction, ratio settings and the
+  support/resistance rules)
+slug: jan-l-arps-surfing-the-market-waves-the-swing-trader-s
+source_file: Jan L Arps - Surfing The Market Waves - The Swing Trader's.pdf
+source_review: partial
+tags:
+- swing-trading
+- elliott-wave
+- fibonacci
+- andrews-pitchfork
+- zig-zag
+- support-resistance
+- oscillators
+tier: B
+title: 'Surfing the Market Waves: Jan Arps'' Swing Trader''s Toolkit'
+year: 1998
 ---
 
 ## Summary

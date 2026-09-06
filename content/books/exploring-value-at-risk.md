@@ -1,17 +1,30 @@
 ---
-title: "Exploring the Limitations of Value at Risk: How Good Is It in Practice?"
 author: Andreas Krause
-year: 2003
-slug: exploring-value-at-risk
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [value-at-risk, risk-management, statistics, coherent-risk-measures, derivatives, academic-paper]
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Risk Finance article showing Value at Risk is not a coherent
+  risk measure, is prone to large estimation error and downward bias, and can be deliberately
+  manipulated by traders.
 pages: 10
-one_liner: "Journal of Risk Finance article showing Value at Risk is not a coherent risk measure, is prone to large estimation error and downward bias, and can be deliberately manipulated by traders."
-related: [fallon-w-calculating-value-at-risk, evaluation-of-value-at-risk-models, hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies]
-source_file: "Exploring_Value_at_Risk.pdf"
+related:
+- fallon-w-calculating-value-at-risk
+- evaluation-of-value-at-risk-models
+- hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+reviewed_pdf_pages: 1-10
+slug: exploring-value-at-risk
+source_file: Exploring_Value_at_Risk.pdf
+source_review: full
+tags:
+- value-at-risk
+- risk-management
+- statistics
+- coherent-risk-measures
+- derivatives
+- academic-paper
+tier: B
+title: 'Exploring the Limitations of Value at Risk: How Good Is It in Practice?'
+year: 2003
 ---
 
 ## Summary

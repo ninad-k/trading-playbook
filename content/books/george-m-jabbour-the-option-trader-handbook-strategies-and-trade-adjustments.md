@@ -1,17 +1,35 @@
 ---
-title: "The Option Trader Handbook: Strategies and Trade Adjustments"
 author: George M. Jabbour and Philip H. Budwick
-year: 2004
-slug: george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments
-tier: A
 category: Options, Futures & Derivatives
 difficulty: intermediate
 doc_type: book
+one_liner: A trade-management manual devoted entirely to adjusting existing stock
+  and option positions — rolling, collars, ratio spreads, and repair strategies —
+  as the underlying moves.
 pages: 355
-tags: [options, adjustments, rolling, collars, ratio-spreads, repair-strategies, risk-management, hedging]
-one_liner: "A trade-management manual devoted entirely to adjusting existing stock and option positions — rolling, collars, ratio spreads, and repair strategies — as the underlying moves."
-related: [fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, george-a-fontanills-the-option-course-with-exercise, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options]
-source_file: "GEORGE M. JABBOUR - The Option Trader Handbook - Strategies And Trade Adjustments.pdf"
+related:
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- george-a-fontanills-the-option-course-with-exercise
+- guy-cohen-the-bible-of-options-strategies
+- lawrence-g-mcmillan-profit-with-options
+reviewed_pdf_pages: 8, 10 and the adjustment chapters checked against the note's repair,
+  ratio-write and exit rules
+slug: george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments
+source_file: GEORGE M. JABBOUR - The Option Trader Handbook - Strategies And Trade
+  Adjustments.pdf
+source_review: partial
+tags:
+- options
+- adjustments
+- rolling
+- collars
+- ratio-spreads
+- repair-strategies
+- risk-management
+- hedging
+tier: A
+title: 'The Option Trader Handbook: Strategies and Trade Adjustments'
+year: 2004
 ---
 
 ## Overview

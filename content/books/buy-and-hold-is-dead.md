@@ -1,17 +1,35 @@
 ---
-title: Buy and Hold Is Dead
 author: Thomas H. Kee
-year: 2010
-slug: buy-and-hold-is-dead
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [market-timing, mechanical-trading, support-resistance, secular-cycles, risk-management, etfs, day-trading, swing-trading]
 difficulty: intermediate
 doc_type: book
+one_liner: Argues a demographic 'Investment Rate' model dooms buy-and-hold through
+  2023, then hands over six cash-heavy, rule-based support/resistance systems as the
+  alternative.
 pages: 322
-one_liner: "Argues a demographic 'Investment Rate' model dooms buy-and-hold through 2023, then hands over six cash-heavy, rule-based support/resistance systems as the alternative."
-related: [leslie-n-masonson-all-about-market-timing, alan-farley-the-master-swing-trader, curtis-faith-way-of-the-turtle, money-management-risk-control-for-traders, john-bollinger-bollinger-on-bollinger-band]
-source_file: "Buy and Hold Is Dead.pdf"
+related:
+- leslie-n-masonson-all-about-market-timing
+- alan-farley-the-master-swing-trader
+- curtis-faith-way-of-the-turtle
+- money-management-risk-control-for-traders
+- john-bollinger-bollinger-on-bollinger-band
+reviewed_pdf_pages: 6, 9, 15, 22, 25, 33, 60, 63, 111, 134 (the Investment Rate model
+  chapters and the Game Plan trading process)
+slug: buy-and-hold-is-dead
+source_file: Buy and Hold Is Dead.pdf
+source_review: partial
+tags:
+- market-timing
+- mechanical-trading
+- support-resistance
+- secular-cycles
+- risk-management
+- etfs
+- day-trading
+- swing-trading
+tier: A
+title: Buy and Hold Is Dead
+year: 2010
 ---
 
 ## Overview

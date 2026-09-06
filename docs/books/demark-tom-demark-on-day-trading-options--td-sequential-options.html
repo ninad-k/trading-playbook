@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TD Sequential for Options — Thomas R. DeMark, Thomas R. DeMark Jr. · Trading Playbook</title>
+<meta name="description" content="DeMark&#39;s Setup/Countdown bar-counting method for timing trend exhaustion, applied to buying near-term in-the-money calls or puts instead of trading the underlying directly.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a> › <a href="../books/demark-tom-demark-on-day-trading-options.html">DeMark on Day-Trading Options</a></p>
+  <h1>TD Sequential for Options</h1>
+  <p class="byline">Thomas R. DeMark, Thomas R. DeMark Jr. · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">DeMark&#39;s Setup/Countdown bar-counting method for timing trend exhaustion, applied to buying near-term in-the-money calls or puts instead of trading the underlying directly.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=td-sequential">td-sequential</a> <a class="tag" href="../search.html?q=option-buying">option-buying</a> <a class="tag" href="../search.html?q=exhaustion">exhaustion</a> <a class="tag" href="../search.html?q=setup">setup</a> <a class="tag" href="../search.html?q=countdown">countdown</a> <a class="tag" href="../search.html?q=in-the-money">in-the-money</a> </td></tr>
+    <tr><th>Length</th><td>364 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “TD Sequential for Options” by Thomas R. DeMark, Thomas R. DeMark Jr. at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>TD Sequential is DeMark&rsquo;s proprietary bar-counting method for identifying when a trend is likely exhausted and due to reverse. In this book it is applied not to trade the underlying stock, futures contract, or index directly, but to time the purchase of a short-dated, in-the-money call (on a completed buy signal) or put (on a completed sell signal), so that risk is capped to the option premium while the trader still captures the anticipated reversal. It works identically on any bar interval — daily charts down to one-minute intraday bars — which is what makes it usable for day trading.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Step 1 — Price flip (initiates a Setup)</strong>: a buy Setup begins when a bar&rsquo;s close is less than the close 4 bars earlier, immediately after a prior bar whose close was greater than or equal to the close 4 bars earlier (the reverse — a close greater than the close 4 bars earlier, following a prior close less than or equal to the close 4 bars earlier — initiates a sell Setup).</p>
+<p><strong>Step 2 — Setup count</strong>: from the price-flip bar (numbered 1), count consecutive bars whose close continues to satisfy the same condition: less than the close 4 bars earlier for a buy Setup, greater than the close 4 bars earlier for a sell Setup. A completed Setup requires at least 9 such consecutive bars, numbered 1 through 9 on the chart.</p>
+<p><strong>Step 3 — Cancellation</strong>: if, before reaching a count of 9, a bar&rsquo;s close breaks the run (for a buy Setup: a close greater than or equal to the close 4 bars earlier; for a sell Setup: a close less than or equal to the close 4 bars earlier), the count is canceled and erased, and a new Setup phase must begin from the next qualifying price flip. A Setup can also be nullified after completion if a subsequent Setup&rsquo;s true range is fully contained within (or a recent Setup recycles within) a prior Setup&rsquo;s range — in that case the completed count stays on the chart but does not proceed to Countdown.</p>
+<p><strong>Step 4 — Entry qualifier</strong>: before acting on a completed buy Setup, the low of the 7th, 8th, or 9th bar of the count must satisfy an additional qualifying condition before it is used to justify a purchase (of the underlying, or of a call option); the mirror condition (using the highs of bars 7–9) applies to a completed sell Setup before buying a put. (The book&rsquo;s precise statement of this qualifying condition was not present in the sampled OCR pages — see Caveats.)</p>
+<p><strong>Step 5 — Intersection and Countdown</strong>: once a Setup is complete and not nullified, the method moves to an Intersection step and then a Countdown phase — a further, separate bar count used to pinpoint a more precise &ldquo;buy-low, sell-high&rdquo; exhaustion point beyond the Setup signal alone, before the actual entry is taken. TD Combo is presented as an alternate Setup/Countdown variant that can be run alongside TD Sequential for comparison or confirmation.</p>
+<p><strong>Step 6 — Option selection at entry</strong>: on a qualified buy signal, buy a near-term, in-the-money call (small time-value premium, price tracks the underlying closely); on a qualified sell signal, buy a near-term, in-the-money put. The book&rsquo;s stated preference is to buy options outright rather than use spreads, covered writes, or straddles for this style of trade.</p>
+<h2 id="risk">Risk</h2>
+<p>Risk is capped structurally by using options rather than the underlying: the maximum loss on any single entry is the premium paid. Beyond that, the book&rsquo;s day-trading stop-loss discipline is explicitly non-formulaic — no fixed stop for inexpensive options or small positions (the position is simply allowed to run to expiration or an opposing indicator signal), and a dollar-amount stop (not a percentage or technical level) for costly options or larger positions. Additional low-risk exits are drawn from the indicators themselves — an opposing TD Sequential/TD Combo signal, or a break of a TD Line/TD REBO level in the other direction — rather than from a stated percent-of-equity risk rule. Unexercised, out-of-the-money expiration is treated as an inherent, no-action stop-loss unique to option buying.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The Setup-phase rules above (price flip, 9-bar count, cancellation, and the existence of a 7th/8th/9th-bar qualifier) are drawn directly from sampled OCR text. The exact bar-by-bar comparison rules for the Countdown phase (commonly a 13-count in DeMark&rsquo;s published work generally) were not present in the sampled pages of this scan and are not stated here to avoid inventing detail; treat Countdown as &ldquo;a further exhaustion count following Setup&rdquo; until verified against the original text or another DeMark source. The book presents TD Sequential as an indicator requiring trader judgment, not a fully mechanical system with a published, quantified track record — DeMark explicitly frames it that way in the foreword. Because this scan&rsquo;s text came from a sampled subset of pages, the qualifier condition in Step 4 and the exact Countdown mechanics should be treated as incomplete rather than definitive.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

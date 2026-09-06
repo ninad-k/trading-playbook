@@ -1,17 +1,31 @@
 ---
-title: "How to Make a Full Time Income Trading: The Boot Camp Papers"
-author: "Thomas Yeomans"
-year: 2006
-slug: boot-camp-papers-2
-tier: B
-category: "Forex Mechanics & Macro Drivers"
-tags: [news-trading, fundamental-analysis, forex, economic-releases, exits, discretionary]
+author: Thomas Yeomans
+category: Forex Mechanics & Macro Drivers
 difficulty: intermediate
 doc_type: manual
+one_liner: Personal account of a discretionary forex news-trading method built around
+  pre-planned economic-release 'triggers' and consistency-based exit levels called
+  'anchors,' followed by a long economic-indicator reference section.
 pages: 149
-one_liner: "Personal account of a discretionary forex news-trading method built around pre-planned economic-release 'triggers' and consistency-based exit levels called 'anchors,' followed by a long economic-indicator reference section."
-related: [1fta-forex-trading-course, prospect-theory, norman-frumkin-guide-to-economic-indicators]
-source_file: "Boot Camp Papers 2.pdf"
+related:
+- 1fta-forex-trading-course
+- prospect-theory
+- norman-frumkin-guide-to-economic-indicators
+reviewed_pdf_pages: 6, 37, 39 (the broker and leverage guidance and the news-surprise
+  trigger discussion)
+slug: boot-camp-papers-2
+source_file: Boot Camp Papers 2.pdf
+source_review: partial
+tags:
+- news-trading
+- fundamental-analysis
+- forex
+- economic-releases
+- exits
+- discretionary
+tier: B
+title: 'How to Make a Full Time Income Trading: The Boot Camp Papers'
+year: 2006
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "WWW Trading System — Trade Tables, January–June 2003"
-author: "Unknown"
-year: 2003
-slug: tradetables-1-6-2003
-tier: B
+author: Unknown
 category: Forex Mechanics & Macro Drivers
-tags: [forex, eurusd, trade-log, position-sizing, martingale, track-record]
 difficulty: intermediate
 doc_type: manual
+one_liner: A raw six-month EUR/USD trade log for the 'WWW Trading System' showing
+  lot size scaling from 1 to 30 as the account compounds from ~$11K to ~$160K — no
+  rules are explained.
 pages: 7
-one_liner: "A raw six-month EUR/USD trade log for the 'WWW Trading System' showing lot size scaling from 1 to 30 as the account compounds from ~$11K to ~$160K — no rules are explained."
-related: [forex-money-management, money-management-risk-control-for-traders, mathematicsmoneymanagement]
-source_file: "Tradetables 1 6 2003.pdf"
+related:
+- forex-money-management
+- money-management-risk-control-for-traders
+- mathematicsmoneymanagement
+reviewed_pdf_pages: 2-3, 5, 7 (the trade ledger sampled across the six months, including
+  the closing balance)
+slug: tradetables-1-6-2003
+source_file: Tradetables 1 6 2003.pdf
+source_review: partial
+tags:
+- forex
+- eurusd
+- trade-log
+- position-sizing
+- martingale
+- track-record
+tier: B
+title: WWW Trading System — Trade Tables, January–June 2003
+year: 2003
 ---
 
 ## Summary

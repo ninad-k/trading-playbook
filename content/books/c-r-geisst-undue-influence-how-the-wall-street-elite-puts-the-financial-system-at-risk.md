@@ -1,17 +1,33 @@
 ---
-title: "Undue Influence: How the Wall Street Elite Put the Financial System at Risk"
-author: "Charles R. Geisst"
-year: 2005
-slug: c-r-geisst-undue-influence-how-the-wall-street-elite-puts-the-financial-system-at-risk
-tier: B
+author: Charles R. Geisst
 category: Investing, Value & Market History
-tags: [market-history, regulation, wall-street, glass-steagall, deregulation, systemic-risk, conflicts-of-interest]
 difficulty: intermediate
 doc_type: book
+one_liner: Financial historian's account of the decades-long campaign by Wall Street
+  and its allies in government to dismantle Depression-era banking regulation, from
+  the 1920s through the 1999 repeal of Glass-Steagall and the 2001 market collapse.
 pages: 333
-one_liner: "Financial historian's account of the decades-long campaign by Wall Street and its allies in government to dismantle Depression-era banking regulation, from the 1920s through the 1999 repeal of Glass-Steagall and the 2001 market collapse."
-related: [donald-coxe-the-new-reality-of-wall-street, doug-henwood-wall-street-how-it-works, douglas-hubbard-the-failure-of-risk-management]
-source_file: "C R Geisst - Undue Influence - How The Wall Street Elite Puts The Financial System At Risk.pdf"
+related:
+- donald-coxe-the-new-reality-of-wall-street
+- doug-henwood-wall-street-how-it-works
+- douglas-hubbard-the-failure-of-risk-management
+reviewed_pdf_pages: 10-12, 67 (the Glass-Steagall repeal narrative and the 1930s legislation
+  chapters)
+slug: c-r-geisst-undue-influence-how-the-wall-street-elite-puts-the-financial-system-at-risk
+source_file: C R Geisst - Undue Influence - How The Wall Street Elite Puts The Financial
+  System At Risk.pdf
+source_review: partial
+tags:
+- market-history
+- regulation
+- wall-street
+- glass-steagall
+- deregulation
+- systemic-risk
+- conflicts-of-interest
+tier: B
+title: 'Undue Influence: How the Wall Street Elite Put the Financial System at Risk'
+year: 2005
 ---
 
 ## Summary

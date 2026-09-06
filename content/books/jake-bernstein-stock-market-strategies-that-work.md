@@ -1,17 +1,35 @@
 ---
-title: Stock Market Strategies That Work
-author: "Jacob Bernstein and Elliott Bernstein"
-year: 2002
-slug: jake-bernstein-stock-market-strategies-that-work
-tier: A
+author: Jacob Bernstein and Elliott Bernstein
 category: Trend Following & Mechanical Systems
-tags: [technical-analysis, moving-averages, trend-following, support-resistance, discipline, stock-picking, mac-channel]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Bernstein father-son guide to stock trading: evaluates common technical
+  indicators'' strengths and weaknesses, introduces their own Moving Average Channel
+  (MAC) trend/support-resistance system, and stresses discipline as the deciding factor
+  in results.'
 pages: 208
-one_liner: "Bernstein father-son guide to stock trading: evaluates common technical indicators' strengths and weaknesses, introduces their own Moving Average Channel (MAC) trend/support-resistance system, and stresses discipline as the deciding factor in results."
-related: [bernstein-jake-the-compleat-day-trader-vol-i, jake-bernstein-trade-your-way-to-riches, jake-bernstein-market-masters, turtlerules, curtis-faith-way-of-the-turtle]
-source_file: "Jake Bernstein - Stock Market Strategies That Work.pdf"
+related:
+- bernstein-jake-the-compleat-day-trader-vol-i
+- jake-bernstein-trade-your-way-to-riches
+- jake-bernstein-market-masters
+- turtlerules
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 8-9, 11, 36 (contents, the MAC definition and the MOM/MA crossover
+  parameters)
+slug: jake-bernstein-stock-market-strategies-that-work
+source_file: Jake Bernstein - Stock Market Strategies That Work.pdf
+source_review: partial
+tags:
+- technical-analysis
+- moving-averages
+- trend-following
+- support-resistance
+- discipline
+- stock-picking
+- mac-channel
+tier: A
+title: Stock Market Strategies That Work
+year: 2002
 ---
 
 ## Overview

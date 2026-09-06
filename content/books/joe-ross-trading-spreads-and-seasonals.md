@@ -1,17 +1,35 @@
 ---
-title: "Trading Spreads and Seasonals"
 author: Joe Ross
-year: unknown
-slug: joe-ross-trading-spreads-and-seasonals
-tier: A
 category: Options, Futures & Derivatives
-tags: [spreads, seasonality, futures, intermarket-spread, intramarket-spread, filtering, bollinger-bands, rsi, joe-ross]
 difficulty: intermediate
 doc_type: book
+one_liner: Joe Ross's course on constructing and filtering futures spreads and seasonal
+  trades, using fundamentals, a defined time window, chart patterns, and Bollinger
+  Band/RSI confirmation.
 pages: 161
-one_liner: "Joe Ross's course on constructing and filtering futures spreads and seasonal trades, using fundamentals, a defined time window, chart patterns, and Bollinger Band/RSI confirmation."
-related: [joe-ross-trading-the-ross-hook, tte, richard-l-weissman-mechanical-trading-systems]
-source_file: "Joe Ross - Trading Spreads And Seasonals.pdf"
+related:
+- joe-ross-trading-the-ross-hook
+- tte
+- richard-l-weissman-mechanical-trading-systems
+reviewed_pdf_pages: 2, 5-9, 14, 19, 30, 90, 140 (contents, spread construction and
+  ratio worked examples, the technical-filter chapter and the cattle seasonal spread
+  results)
+slug: joe-ross-trading-spreads-and-seasonals
+source_file: Joe Ross - Trading Spreads And Seasonals.pdf
+source_review: partial
+tags:
+- spreads
+- seasonality
+- futures
+- intermarket-spread
+- intramarket-spread
+- filtering
+- bollinger-bands
+- rsi
+- joe-ross
+tier: A
+title: Trading Spreads and Seasonals
+year: unknown
 ---
 
 ## Overview

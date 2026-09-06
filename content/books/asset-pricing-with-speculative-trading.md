@@ -1,17 +1,30 @@
 ---
-title: "Asset Pricing with Speculative Trading"
-author: "Ho-Mou Wu and Wen-Chung Guo"
-year: unknown
-slug: asset-pricing-with-speculative-trading
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [academic-paper, speculative-trading, heterogeneous-beliefs, rational-beliefs, asset-pricing, keynes, endogenous-uncertainty]
+author: Ho-Mou Wu and Wen-Chung Guo
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Academic model showing speculative price premiums arise from persistent,
+  rational-but-diverse investor beliefs, formalizing Keynes's 'beauty contest' intuition.
 pages: 139
-one_liner: "Academic model showing speculative price premiums arise from persistent, rational-but-diverse investor beliefs, formalizing Keynes's 'beauty contest' intuition."
-related: [evaluation-of-value-at-risk-models, hrishikesh-d-vinod-preparing-for-the-worst]
-source_file: "Asset Pricing With Speculative Trading.pdf"
+related:
+- evaluation-of-value-at-risk-models
+- hrishikesh-d-vinod-preparing-for-the-worst
+reviewed_pdf_pages: the model and implications sections checked against the note;
+  the thesis is analytical rather than numeric
+slug: asset-pricing-with-speculative-trading
+source_file: Asset Pricing With Speculative Trading.pdf
+source_review: partial
+tags:
+- academic-paper
+- speculative-trading
+- heterogeneous-beliefs
+- rational-beliefs
+- asset-pricing
+- keynes
+- endogenous-uncertainty
+tier: B
+title: Asset Pricing with Speculative Trading
+year: unknown
 ---
 
 ## Summary

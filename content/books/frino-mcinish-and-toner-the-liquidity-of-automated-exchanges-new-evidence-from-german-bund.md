@@ -1,17 +1,31 @@
 ---
-title: "The Liquidity of Automated Exchanges: New Evidence from German Bund Futures"
-author: "Alex Frino, Thomas H. McInish, Martin Toner"
-year: 1998
-slug: frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund
-tier: B
+author: Alex Frino, Thomas H. McInish, Martin Toner
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, liquidity, bid-ask-spread, futures, automated-trading, open-outcry, academic]
 difficulty: advanced
 doc_type: paper
+one_liner: An academic study finds bid-ask spreads on the automated DTB were narrower
+  than on floor-traded LIFFE for German Bund futures in 1997, contradicting older
+  research.
 pages: 17
-one_liner: "An academic study finds bid-ask spreads on the automated DTB were narrower than on floor-traded LIFFE for German Bund futures in 1997, contradicting older research."
-related: [harris-sofianos-and-shapiro-program-trading-and-intraday-volatility, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity]
-source_file: "Frino, Mcinish And Toner-The Liquidity Of Automated Exchanges - New Evidence From German Bund Fut.pdf"
+related:
+- harris-sofianos-and-shapiro-program-trading-and-intraday-volatility
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+reviewed_pdf_pages: 10, 12 (the descriptive-statistics and regression tables)
+slug: frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund
+source_file: Frino, Mcinish And Toner-The Liquidity Of Automated Exchanges - New Evidence
+  From German Bund Fut.pdf
+source_review: partial
+tags:
+- market-microstructure
+- liquidity
+- bid-ask-spread
+- futures
+- automated-trading
+- open-outcry
+- academic
+tier: B
+title: 'The Liquidity of Automated Exchanges: New Evidence from German Bund Futures'
+year: 1998
 ---
 
 ## Summary

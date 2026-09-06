@@ -1,17 +1,31 @@
 ---
-title: Understanding Gaps
 author: Scott Andrews
-year: 2008
-slug: andrews-scott-understanding-gaps
-tier: B
 category: Day Trading & Scalping
-tags: [gap-trading, gap-fade, s-p-500-futures, day-trading, statistics, stop-loss, target-optimization]
 difficulty: intermediate
 doc_type: book
+one_liner: Statistical framework for fading the opening gap in S&P 500 futures using
+  gap size, zone, seasonality, stop, and target data.
 pages: 61
-one_liner: "Statistical framework for fading the opening gap in S&P 500 futures using gap size, zone, seasonality, stop, and target data."
-related: [using-up-gaps-to-anticipate-upward-price-moves, big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow, jeff-cooper-intra-day-trading-strategies-proven-steps]
-source_file: "Andrews, Scott - Understanding Gaps.pdf"
+related:
+- using-up-gaps-to-anticipate-upward-price-moves
+- big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+reviewed_pdf_pages: 3, 6, 19-22 (the gap-zone statistics, the fade results and the
+  monthly breakdowns)
+slug: andrews-scott-understanding-gaps
+source_file: Andrews, Scott - Understanding Gaps.pdf
+source_review: partial
+tags:
+- gap-trading
+- gap-fade
+- s-p-500-futures
+- day-trading
+- statistics
+- stop-loss
+- target-optimization
+tier: B
+title: Understanding Gaps
+year: 2008
 ---
 
 ## Summary

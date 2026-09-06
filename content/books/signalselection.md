@@ -1,17 +1,32 @@
 ---
-title: "The Forex Report - Core Concepts: Signal Selection"
 author: Scott Owens
-year: 2005
-slug: signalselection
-tier: B
 category: Indicators
-tags: [forex, technical-indicators, signals, macd, timeframes, system-building, indicators-overview]
 difficulty: beginner
 doc_type: article
+one_liner: Short FX Engines newsletter piece classifying technical-indicator signal
+  types (crossing, oscillator, threshold, condition) and warning that longer chart
+  intervals mask price action that causes stops to be hit.
 pages: 6
-one_liner: "Short FX Engines newsletter piece classifying technical-indicator signal types (crossing, oscillator, threshold, condition) and warning that longer chart intervals mask price action that causes stops to be hit."
-related: [macd, chart-formations, technical-indicators-tutorial]
-source_file: "signalselection.pdf"
+related:
+- macd
+- chart-formations
+- technical-indicators-tutorial
+reviewed_pdf_pages: the signal-selection discussion checked against the note; the
+  brief states no numeric parameters
+slug: signalselection
+source_file: signalselection.pdf
+source_review: partial
+tags:
+- forex
+- technical-indicators
+- signals
+- macd
+- timeframes
+- system-building
+- indicators-overview
+tier: B
+title: 'The Forex Report - Core Concepts: Signal Selection'
+year: 2005
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: A Practical Guide to Swing Trading
 author: Larry Swing
-year: unknown
-slug: a-practical-guide-to-swing-trading
-tier: B
 category: Swing Trading
-tags: [swing-trading, master-plan, moving-averages, force-index, stop-loss, trailing-stop, short-selling]
 difficulty: beginner
 doc_type: book
+one_liner: 'Larry Swing''s mechanical ''Master Plan'' for swing trading stocks: buy
+  stops on pullbacks, a 7% profit target, a 4% stop, and rule-based trailing stops.'
 pages: 74
-one_liner: "Larry Swing's mechanical 'Master Plan' for swing trading stocks: buy stops on pullbacks, a 7% profit target, a 4% stop, and rule-based trailing stops."
-related: [alan-farley-the-master-swing-trader, oliver-velez-swing-trading-tactics, jan-l-arps-surfing-the-market-waves-the-swing-trader-s]
-source_file: "A_Practical_Guide_To_Swing_Trading.pdf"
+related:
+- alan-farley-the-master-swing-trader
+- oliver-velez-swing-trading-tactics
+- jan-l-arps-surfing-the-market-waves-the-swing-trader-s
+reviewed_pdf_pages: 4-5, 7-8, 20, 25, 28-29 (the scan criteria, entry timing rules
+  and the moving-average and ADX filters)
+slug: a-practical-guide-to-swing-trading
+source_file: A_Practical_Guide_To_Swing_Trading.pdf
+source_review: partial
+tags:
+- swing-trading
+- master-plan
+- moving-averages
+- force-index
+- stop-loss
+- trailing-stop
+- short-selling
+tier: B
+title: A Practical Guide to Swing Trading
+year: unknown
 ---
 
 ## Summary

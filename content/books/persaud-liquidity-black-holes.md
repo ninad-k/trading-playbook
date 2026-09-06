@@ -1,17 +1,27 @@
 ---
-title: "Liquidity Black Holes"
 author: Avinash Persaud
-year: 2002
-slug: persaud-liquidity-black-holes
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [liquidity, market-microstructure, risk-management, systemic-risk, presentation]
 difficulty: intermediate
 doc_type: article
+one_liner: A short presentation arguing that liquidity is not a stable, single number
+  but a variable state that can vanish suddenly ('liquidity black holes'), and that
+  liquidity requires diversity of market participants.
 pages: 8
-one_liner: "A short presentation arguing that liquidity is not a stable, single number but a variable state that can vanish suddenly ('liquidity black holes'), and that liquidity requires diversity of market participants."
-related: [admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability]
-source_file: "Persaud-Liquidity Black Holes.pdf"
+related:
+- admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability
+reviewed_pdf_pages: 1-8
+slug: persaud-liquidity-black-holes
+source_file: Persaud-Liquidity Black Holes.pdf
+source_review: full
+tags:
+- liquidity
+- market-microstructure
+- risk-management
+- systemic-risk
+- presentation
+tier: B
+title: Liquidity Black Holes
+year: 2002
 ---
 
 ## Summary

@@ -1,17 +1,29 @@
 ---
-title: "Foreign Exchange as the Trader's Alternative"
-author: "Mark Galant"
-year: 2002
-slug: trading-ebook-trading-forex
-tier: B
+author: Mark Galant
 category: Forex Mechanics & Macro Drivers
-tags: [forex, diversification, moving-averages, trendlines, macro, intraday, beginner]
 difficulty: beginner
 doc_type: article
+one_liner: A magazine article pitching retail forex as a portfolio diversifier and
+  walking through trendline breaks and MA crossovers as basic entry signals.
 pages: 4
-one_liner: "A magazine article pitching retail forex as a portfolio diversifier and walking through trendline breaks and MA crossovers as basic entry signals."
-related: [trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets, colour-of-money-22d]
-source_file: "Trading Ebook - Trading Forex.pdf"
+related:
+- trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets
+- colour-of-money-22d
+reviewed_pdf_pages: 1-4
+slug: trading-ebook-trading-forex
+source_file: Trading Ebook - Trading Forex.pdf
+source_review: full
+tags:
+- forex
+- diversification
+- moving-averages
+- trendlines
+- macro
+- intraday
+- beginner
+tier: B
+title: Foreign Exchange as the Trader's Alternative
+year: 2002
 ---
 
 ## Summary

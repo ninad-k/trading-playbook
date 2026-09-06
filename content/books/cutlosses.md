@@ -1,17 +1,31 @@
 ---
-title: "Easy Way to Cut Losses"
 author: Malcolm Robinson
-year: 2007
-slug: cutlosses
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, execution, stop-loss, cutting-losses, self-sabotage]
 difficulty: beginner
 doc_type: article
+one_liner: A short essay arguing that traders fail to cut losses not from lack of
+  choice but from an unconscious belief that holding on is beneficial, and that execution
+  matters more than anticipation.
 pages: 6
-one_liner: "A short essay arguing that traders fail to cut losses not from lack of choice but from an unconscious belief that holding on is beneficial, and that execution matters more than anticipation."
-related: [disciplined-trader, miracle-of-discipline, 25-rules-of-trading, trading-in-the-zone]
-source_file: "CutLosses.pdf"
+related:
+- disciplined-trader
+- miracle-of-discipline
+- 25-rules-of-trading
+- trading-in-the-zone
+reviewed_pdf_pages: 1-6
+slug: cutlosses
+source_file: CutLosses.pdf
+source_review: full
+tags:
+- psychology
+- discipline
+- execution
+- stop-loss
+- cutting-losses
+- self-sabotage
+tier: B
+title: Easy Way to Cut Losses
+year: 2007
 ---
 
 ## Summary

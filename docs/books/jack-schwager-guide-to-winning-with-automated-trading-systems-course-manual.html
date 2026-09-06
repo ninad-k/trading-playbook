@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jack Schwager&#39;s Guide to Winning with Automated Trading Systems — Jack Schwager · Trading Playbook</title>
+<meta name="description" content="A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system&#39;s backtest performance report.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>Jack Schwager&#39;s Guide to Winning with Automated Trading Systems</h1>
+  <p class="byline">Jack Schwager · <span class="badge tier-A">Tier A</span> <span class="badge">course</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system&#39;s backtest performance report.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-95 (all extractable text; the manual is scanned slides, so most pages carry only chart captions). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=mechanical-systems">mechanical-systems</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=counter-trend">counter-trend</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=system-design">system-design</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=whipsaw">whipsaw</a> </td></tr>
+    <tr><th>Length</th><td>95 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Jack Schwager&#39;s Guide to Winning with Automated Trading Systems” by Jack Schwager at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is the slide/workbook companion to a Jack Schwager video course on mechanical (automated) trading systems, not a prose book. Almost all of its content is chart images with brief on-slide captions and system-performance report screenshots (TradeStation-style &ldquo;System Report: Performance Summary&rdquo; tables), built around a handful of illustrative markets: the Deutsche Mark, Allied Signal, COMEX Gold, Aluminum Co. of America, Sugar #11, and Caterpillar. The course walks through the main families of mechanical systems — channel breakout, moving-average crossover, counter-trend band trading, gap/pattern-based systems, and consecutive-close systems — using real chart examples to show where each works well and where it fails, and uses the accompanying performance-summary tables to teach the standard vocabulary for evaluating a system&rsquo;s backtest.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>A mechanical trading system&rsquo;s value comes from removing emotion and inconsistency from trading, but no single system type works in all market conditions: trend-following systems only pay off during sustained trends and will give back a meaningful share of open profit before their reversal signal fires, while counter-trend (band-fade) systems do well in choppy, range-bound markets and are hurt in strong trends. The course&rsquo;s implicit argument, made through repeated chart examples, is that understanding <em>which</em> market regime a system is built for — and reading its full performance report rather than just its net profit — is what separates disciplined system trading from curve-fit slide-ware.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Mechanical/automated trading system</strong> — a fully rule-based system that generates buy/sell signals without discretionary judgment, so it can be applied consistently and tested statistically.</li>
+<li><strong>Trend-following system</strong> — a system (e.g., channel breakout, moving-average crossover) designed to catch sustained directional moves; by construction it gives back part of its open profit before the trend-reversal signal triggers.</li>
+<li><strong>Channel/range breakout system</strong> — enters when price closes beyond the highest high or lowest low of the past N days (the course&rsquo;s example: an 80-day breakout).</li>
+<li><strong>Moving-average crossover system</strong> — enters/exits when a faster moving average crosses a slower one (example: a 10-day/50-day crossover).</li>
+<li><strong>Counter-trend (band) system</strong> — enters against short-term extremes, buying near a lower band and selling near an upper band (example: an &ldquo;ADTR Band Counter-trend&rdquo; system with a 60-day lookback and a band multiplier k = 3); profits in choppy/range-bound markets, loses in trending ones.</li>
+<li><strong>Pattern/gap-based system</strong> — trades specific chart patterns such as price gaps (distinguishing, e.g., a 1-day gap from a 5-day gap) and defines stops relative to the gap.</li>
+<li><strong>Consecutive-close system</strong> — enters after N consecutive up or down closes (example: N = 3 on Caterpillar), with variants adding a &ldquo;reverse condition&rdquo; or additional filter/stop rules.</li>
+<li><strong>Whipsaw</strong> — a losing trade caused by a stop or filter reacting to noise rather than a real move; the course explicitly flags that adding more stop/filter rules to a system can increase whipsaws rather than improve results.</li>
+<li><strong>Performance-summary metrics</strong> — the standard backtest vocabulary used throughout: total net profit, gross profit/gross loss, number of trades, percent profitable, average winning/losing trade, ratio of average win to average loss, max consecutive winners/losers, average bars in winners/losers, max intraday drawdown, profit factor, max contracts held, account size required, and return on account.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>The manual is a survey of several distinct system <em>types</em> used as teaching examples, not one single tradable method, so the concrete parameters shown are illustrative rather than a recommended system:</p>
+<ol>
+<li><strong>80-day breakout</strong>: go long (or short) when price closes beyond the highest high (or lowest low) of the prior 80 days; described as working &ldquo;very well when there are sustained trends&rdquo; and poorly otherwise.</li>
+<li><strong>10/50 moving-average crossover</strong>: signals on the crossover of a 10-period and 50-period moving average; the slides note it &ldquo;works well in trending periods&rdquo; and shows &ldquo;excellent signals during trending periods&rdquo; in the DM and Allied Signal examples.</li>
+<li><strong>ADTR Band Counter-trend (60-day, k = 3)</strong>: a volatility-band system (average true range–based) that buys near the lower band and sells/shorts near the upper band; the course notes it thrives in a &ldquo;choppy trading range&rdquo; (both buy and sell signals profitable) but is hurt by strong trends, and that exiting at the band&rsquo;s median (rather than the far band) &ldquo;significantly reduces profit during a choppy trading range.&rdquo;</li>
+<li><strong>Gap-based pattern system (Sugar #11 example)</strong>: distinguishes a downside gap of one day&rsquo;s duration from a five-day gap, and defines/redefines the protective stop relative to the most recent downside gap; the slides flag that in this style of system a loss can be &ldquo;theoretically unlimited&rdquo; without an explicit stop.</li>
+<li><strong>Consecutive Close (N = 3) system, with variants</strong>: enters after three consecutive closes in one direction; a &ldquo;Reverse Condition&rdquo; variant is shown, and a further version adding a stop rule is explicitly captioned &ldquo;Stop rule creates many whipsaws&rdquo; — a direct, in-text warning that piling filters/stops onto a base system can degrade it.</li>
+</ol>
+<p>No universal position-sizing, entry, or stop rule applies across all five system types; each example carries its own parameters (N-day lookback, band width, moving-average lengths) as shown above.</p>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The course teaches risk almost entirely through the backtest report rather than as prescriptive money-management rules: <strong>max intraday drawdown</strong> (the largest peak-to-trough equity dip during the test) and <strong>account size required</strong> (roughly, the drawdown plus a margin buffer) are presented as the two figures that define how much capital and pain a system demands, alongside <strong>profit factor</strong> (gross profit ÷ gross loss) as the summary measure of reward relative to risk. Sample performance tables in the course show profit factors ranging from roughly 1.1 to nearly 8 and returns on account from under 30% to over 700%, depending on the system and market — illustrating how dramatically results vary by regime and parameter choice rather than establishing one &ldquo;correct&rdquo; risk level. The gap-system slide&rsquo;s warning that losses can be &ldquo;theoretically unlimited&rdquo; without a defined stop is the closest thing to an explicit risk-control principle in the sampled material: every system needs a stop, but that stop should not be so tight or over-engineered (multiple filters) that it manufactures whipsaws.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The course opens by listing the discipline case for mechanical systems directly: they eliminate emotion, eliminate the need for constant discretionary decision-making, ensure a consistent approach applied uniformly across many markets, provide built-in risk control, and — critically — can be tested for statistical reliability before real money is risked, which a discretionary approach cannot. This framing (drawn explicitly from Schwager&rsquo;s &ldquo;Market Wizards&rdquo; interviews) positions automation not as a shortcut but as a discipline-enforcement mechanism: once a system is chosen, its signals are followed mechanically rather than second-guessed trade by trade.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Section 1 — An Overview of Trading Systems and Why You Should Use Them — the case for mechanical systems; six stated benefits.</li>
+<li>Section 2 — Defining and Illustrating the Leading Types of Trading Systems — breakout, moving-average crossover, and counter-trend band systems, shown on the Deutsche Mark, Allied Signal, and COMEX Gold, with full performance-report examples.</li>
+<li>Section 3 — Taking Advantage of Charts by Using Pattern Systems — gap-based and consecutive-close pattern systems, shown on Sugar #11 and Caterpillar, including a full performance-report example and a caution against over-adding stop/filter rules.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The available text is overwhelmingly chart captions and screenshotted performance tables rather than connected prose explaining methodology, statistical caveats, or curve-fitting pitfalls in depth — this course leans heavily on its (unavailable to this note-taker) video narration, so the written manual alone is a skeletal companion rather than a self-contained text. The specific parameter sets shown (80-day breakout, 10/50 crossover, 60-day/k=3 band, N=3 consecutive close) are presented as single, un-optimized illustrations on a handful of markets and date ranges (mostly late 1980s–1990s); no out-of-sample or walk-forward validation, multi-market robustness testing, or explicit curve-fitting warnings appear in the sampled pages, even though the &ldquo;stop rule creates many whipsaws&rdquo; caption gestures at the danger of over-fitting a system with too many added rules.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders who want a concrete, visual introduction to the major families of mechanical system logic (breakout, moving-average, counter-trend/band, gap, and consecutive-close) and to the standard vocabulary of a system backtest report (profit factor, drawdown, win/loss ratios, return on account), before moving to a fuller treatment of system design, optimization, and validation.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/jack-schwager-stock-market-wizards.html">Stock Market Wizards</a> — Schwager&rsquo;s interview-based companion work; source of the &ldquo;most important lesson&rdquo; framing this course opens with.</li>
+<li><a class="xref" href="../books/michael-covel-trend-following.html">Trend Following</a> — a fuller treatment of the trend-following system philosophy this course surveys.</li>
+<li><a class="xref" href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — a deeper, more systematic treatment of mechanical system design and testing.</li>
+<li><a class="xref" href="../books/mechanical-trading-systems.html">Mechanical Trading Systems</a> — another general mechanical-systems reference for cross-checking design principles.</li>
+<li><a class="xref" href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — covers the money-management layer this course&rsquo;s backtest reports touch on (drawdown, account size) but do not develop into rules.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>These notes are based on the OCR text of a scanned, slide-heavy course manual. All 95 pages of extracted text have now been read end to end; the total is only about 1,400 words, consisting almost entirely of chart titles, axis labels, brief captions, and performance-report screenshots rather than connected narrative. Most explanatory content in this course likely lives in the accompanying video, not in this manual, so these notes describe only what could be reconstructed from the sampled slide text and chart captions and should be treated as a skeleton of the course&rsquo;s content rather than a complete summary.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/jack-schwager-stock-market-wizards.html">Stock Market Wizards</a> — Fourteen interviews with top U.S. stock/derivatives traders plus a trading psychiatrist, distilled into 65 cross-cutting &#39;Wizard Lessons&#39; on edge, discipline, and risk control rather than one method.</li><li><a href="../books/michael-covel-trend-following.html">Trend Following</a> — Profiles of top CTAs plus the shared rulebook of trend followers: cut losses fast, let winners run, risk a fixed % per trade, ignore forecasts.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li><li><a href="../books/mechanical-trading-systems.html">Mechanical Trading Systems</a> — Pairs trend-following, mean-reversion, and short-term mechanical systems with matching trader personality profiles, plus a full price-risk-management toolkit.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

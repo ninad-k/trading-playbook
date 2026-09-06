@@ -1,17 +1,27 @@
 ---
-title: Master the Channel Projection
 author: Mark McRae
-year: unknown
-slug: channeltrading
-tier: B
 category: Market Structure & Price Action
-tags: [channels, trendlines, retracement, price-targets, chart-geometry]
 difficulty: beginner
 doc_type: article
+one_liner: Short lesson on drawing price channels and projecting the channel's width
+  forward to estimate retracement and target levels.
 pages: 3
-one_liner: "Short lesson on drawing price channels and projecting the channel's width forward to estimate retracement and target levels."
-related: [congestion-markets-estimating-a-breakout-target, big-ben-breakout]
-source_file: "ChannelTrading.pdf"
+related:
+- congestion-markets-estimating-a-breakout-target
+- big-ben-breakout
+reviewed_pdf_pages: 1-3
+slug: channeltrading
+source_file: ChannelTrading.pdf
+source_review: full
+tags:
+- channels
+- trendlines
+- retracement
+- price-targets
+- chart-geometry
+tier: B
+title: Master the Channel Projection
+year: unknown
 ---
 
 ## Summary

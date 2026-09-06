@@ -1,17 +1,31 @@
 ---
-title: Reverse Divergences and Momentum
 author: Martin J. Pring
-year: 1997
-slug: reverse-divergence-and-momentum
-tier: B
 category: Indicators
-tags: [momentum, divergence, oscillators, rate-of-change, rsi, trend-reversal]
 difficulty: intermediate
 doc_type: article
+one_liner: Stocks & Commodities article defining 'reverse divergence' — where price,
+  not the oscillator, leads a discrepancy at a turning point — as a distinct, normally
+  reliable reversal signal.
 pages: 4
-one_liner: "Stocks & Commodities article defining 'reverse divergence' — where price, not the oscillator, leads a discrepancy at a turning point — as a distinct, normally reliable reversal signal."
-related: [barbara-star-hidden-divergence, macd, trading-with-macd-a-lesson-on-divergence, john-hayden-how-to-use-the-rsi]
-source_file: "Reverse_Divergence_and_Momentum.pdf"
+related:
+- barbara-star-hidden-divergence
+- macd
+- trading-with-macd-a-lesson-on-divergence
+- john-hayden-how-to-use-the-rsi
+reviewed_pdf_pages: 1-4
+slug: reverse-divergence-and-momentum
+source_file: Reverse_Divergence_and_Momentum.pdf
+source_review: full
+tags:
+- momentum
+- divergence
+- oscillators
+- rate-of-change
+- rsi
+- trend-reversal
+tier: B
+title: Reverse Divergences and Momentum
+year: 1997
 ---
 
 ## Summary

@@ -1,17 +1,32 @@
 ---
-title: "Trading in the Zone: Master the Market with Confidence, Discipline, and a Winning Attitude"
 author: Mark Douglas
-year: 2000
-slug: trading-in-the-zone
-tier: A
 category: Trading Psychology & Discipline
-tags: [trading-psychology, discipline, probabilistic-thinking, self-discipline, risk-acceptance, consistency, beliefs]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Argues consistent trading success is purely a psychological/belief problem:
+  think in probabilities, fully accept risk, and mechanically execute a defined edge.'
 pages: 143
-one_liner: "Argues consistent trading success is purely a psychological/belief problem: think in probabilities, fully accept risk, and mechanically execute a defined edge."
-related: [disciplined-trader, jack-schwager-stock-market-wizards, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]
-source_file: "Trading_in_the_Zone.pdf"
+related:
+- disciplined-trader
+- jack-schwager-stock-market-wizards
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+reviewed_pdf_pages: 2-7, 48-49 (contents, the five fundamental truths and the trader-taxonomy
+  percentages)
+slug: trading-in-the-zone
+source_file: Trading_in_the_Zone.pdf
+source_review: partial
+tags:
+- trading-psychology
+- discipline
+- probabilistic-thinking
+- self-discipline
+- risk-acceptance
+- consistency
+- beliefs
+tier: A
+title: 'Trading in the Zone: Master the Market with Confidence, Discipline, and a
+  Winning Attitude'
+year: 2000
 ---
 
 ## Overview

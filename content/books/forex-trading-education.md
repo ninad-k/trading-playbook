@@ -1,17 +1,28 @@
 ---
-title: "Forex Trading Education: The Truth About Forex Education"
 author: Winsor A.G.A. Hoang
-year: unknown
-slug: forex-trading-education
-tier: B
 category: Trading Psychology & Discipline
-tags: [forex, trader-education, mentorship, discipline, beginner-mistakes]
 difficulty: beginner
 doc_type: article
+one_liner: A two-page essay arguing that short, mass-market forex courses cannot teach
+  real trading skill, and that one-on-one mentorship is the only method that works.
 pages: 2
-one_liner: "A two-page essay arguing that short, mass-market forex courses cannot teach real trading skill, and that one-on-one mentorship is the only method that works."
-related: [10-bankrupt, learning-to-trade, forex-manual-10-keys-to-successful-trading]
-source_file: "Forex Trading Education.pdf"
+related:
+- 10-bankrupt
+- learning-to-trade
+- forex-manual-10-keys-to-successful-trading
+reviewed_pdf_pages: 1-2
+slug: forex-trading-education
+source_file: Forex Trading Education.pdf
+source_review: full
+tags:
+- forex
+- trader-education
+- mentorship
+- discipline
+- beginner-mistakes
+tier: B
+title: 'Forex Trading Education: The Truth About Forex Education'
+year: unknown
 ---
 
 ## Summary

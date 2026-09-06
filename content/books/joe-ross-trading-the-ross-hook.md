@@ -1,85 +1,94 @@
 ---
-title: "Trading the Ross Hook"
 author: Joe Ross
-year: unknown
-slug: joe-ross-trading-the-ross-hook
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [ross-hook, 1-2-3-formation, traders-trick-entry, natural-support-resistance, stop-placement, trend-continuation, filters, joe-ross]
 difficulty: intermediate
 doc_type: book
+one_liner: Joe Ross's book-length treatment of the Ross Hook, a trend-continuation
+  correction pattern, with entry filters, natural-support stop placement, and money/trade
+  management rules.
 pages: 180
-one_liner: "Joe Ross's book-length treatment of the Ross Hook, a trend-continuation correction pattern, with entry filters, natural-support stop placement, and money/trade management rules."
-related: [tte, richard-l-weissman-mechanical-trading-systems, michael-covel-trend-following, curtis-faith-way-of-the-turtle]
-source_file: "Joe Ross - Trading The Ross Hook.pdf"
+related:
+- tte
+- richard-l-weissman-mechanical-trading-systems
+- michael-covel-trend-following
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 3-4, 43, 52, 56, 120, 125, 159, 176 (contents and index, the hook
+  entry and stop chapters, the Keltner-channel filter and the S&P worked example)
+slug: joe-ross-trading-the-ross-hook
+source_file: Joe Ross - Trading The Ross Hook.pdf
+source_review: partial
+tags:
+- ross-hook
+- 1-2-3-formation
+- traders-trick-entry
+- natural-support-resistance
+- stop-placement
+- trend-continuation
+- filters
+- joe-ross
+tier: A
+title: Trading the Ross Hook
+year: unknown
 ---
 
 ## Overview
 
-This is Joe Ross's dedicated book on the Ross Hook, a chart formation he named after noticing that markets almost always leave behind a small "pointy" correction whenever a trend pauses, and that trading the breakout of that pointy place offers a low-risk way to join or rejoin a trend. The book traces the pattern's discovery from Ross's earlier "1-2-3" work (his "Law of Charts"), gives a formal definition, and spends the bulk of its pages on filtering which hooks are worth taking (CCI, stochastics, Bollinger Bands, Keltner Channel, moving-average bands), where to place entries (including the Traders Trick Entry and the "Slaughterbeck entry"), and where to place stops (natural support/resistance, cost-covering, volatility-based, trailing). Later chapters cover money, trade, and risk management, and a catalogue of situations to avoid ("Don't Take That Hook").
+Joe Ross's dedicated book on the Ross Hook, a chart formation he named after noticing markets almost always leave behind a small "pointy" correction whenever a trend pauses, and that trading the breakout of that pointy place offers a low-risk way to join or rejoin a trend. The book traces the pattern's discovery from Ross's earlier "1-2-3"/"Law of Charts" work, gives a formal definition, and spends most of its pages on filtering which hooks are worth taking (CCI, Stochastics, Bollinger Bands, Keltner Channel), where to enter (the Traders Trick Entry and the "Slaughterbeck entry"), and where to place stops (natural support/resistance, cost-covering, volatility-based, trailing). Later chapters cover money/trade/risk management and situations to avoid ("Don't Take That Hook").
 
 ## Core thesis
 
-A trending market's own corrections create tradable low-risk entry points: because most other traders' stop and breakout orders cluster at the obvious high or low of a correction, buying (or selling) that level lets a trader ride the order-flow momentum created by everyone else's orders being triggered at the same price. Ross argues the pattern works not because it is magic but because enough traders' behavior around round, obvious levels is itself predictable, and because Fibonacci and Gann retracement traders reinforce the same price zones. The book explicitly rejects "black box"/indicator-only trading; oscillators and studies are used only as filters layered on top of the price-based hook, never as standalone signals.
+A trending market's own corrections create tradable low-risk entry points: because other traders' stop and breakout orders cluster at the obvious high or low of a correction, buying (or selling) that level rides the order-flow momentum created when those orders trigger together. Ross argues the pattern works because enough traders' behavior around obvious levels is predictable, reinforced by Fibonacci/Gann retracement traders acting at similar zones. The book rejects "black box" indicator-only trading; oscillators are used strictly as filters layered on the price-based hook, never as standalone signals.
 
 ## Key concepts
 
-- **1-2-3 formation** — the base pattern the hook grows out of: point 1 is a high or low where the prior move fails, point 2 is the extreme of the pullback/correction, point 3 is the breakout that retakes the point-1 level and defines (or re-establishes) the trend.
-- **Ross Hook (Rh)** — formally: whenever a market trend is interrupted by a correction, no matter how slight, it leaves behind a Ross hook. In a downtrend, failure of price to make a new low constitutes a hook; in an uptrend, failure to make a new high constitutes a hook. A double top (two consecutive equal highs) followed by a lower high, or a double bottom followed by a higher low, also counts as a hook.
+- **1-2-3 formation** — point 1 is a high/low where the prior move fails, point 2 is the correction's extreme, point 3 is the breakout that retakes point 1 and defines (or re-establishes) the trend.
+- **Ross Hook (Rh)** — whenever a trend is interrupted by a correction, no matter how slight, it leaves a hook: failure to make a new high (uptrend) or new low (downtrend). A double top followed by a lower high, or double bottom followed by a higher low, also counts.
 - **Reverse Ross Hook (RRh)** — a hook-type pattern used as an early warning of possible trend reversal rather than continuation.
-- **Congestion** — four or more bars with no clear directional progress (alternating higher/lower closes, dojis, or ^/V shapes); a "pointy" place made inside congestion is not a valid hook.
-- **Defined vs. established trend** — a trend is "defined" once the extreme of an emerging move (three to four consecutive closes beyond the open, or a gap-confirmed move) is taken out; it becomes "established" once a subsequent correction's extreme is also taken out.
-- **Trader's Trick Entry (TTE)** — entering ahead of the obvious hook breakout by buying/selling the violation of a smaller correcting bar that forms after the hook's extreme (see [[tte]] for the full rule set).
-- **Slaughterbeck entry** — an alternate, more conservative entry: wait for the market to make a higher low (long case) or lower high (short case) before entering, effectively trading the hook's confirmation rather than anticipating it.
-- **Natural support/resistance stop** — placing the protective stop one tick beyond a prior swing point rather than at an arbitrary distance, so the stop is only hit if the market genuinely violates real structure.
-- **Cost-covering stop** — a stop distance chosen so that even a losing trade nets close to breakeven once commissions and a small profit cushion are accounted for; a "free trade" if it fails.
-- **Volatility stop** — a stop derived from a study of recent bar-to-bar volatility rather than a fixed tick count.
-- **Filters (CCI, Stochastics, Bollinger Bands, Keltner Channel, moving-average bands)** — technical studies layered on top of the raw hook signal to skip lower-quality setups; Ross stresses none of them generate entry/exit signals by themselves.
+- **Congestion** — four-plus bars with no directional progress (alternating closes, dojis, ^/V shapes); a pointy place inside congestion is not a valid hook.
+- **Defined vs. established trend** — "defined" once an emerging move's extreme is taken out; "established" once the following correction's extreme is also taken out.
+- **Trader's Trick Entry (TTE)** — entering ahead of the hook's own breakout on the violation of a smaller correcting bar (full rules in [[tte]]).
+- **Slaughterbeck entry** — a more conservative alternative: wait for a higher low (or lower high) confirmation bar before entering.
+- **Natural support/resistance stop, cost-covering stop, volatility stop** — three stop-placement techniques, respectively: one tick beyond real prior structure; sized so a loss roughly breaks even after costs; derived from a rolling volatility study rather than a fixed tick count.
 
 ## Rules and setups
 
-1. **Trend context first**: only trade hooks that occur in a defined or established trend; a "pointy" place inside congestion is not tradable.
-2. **Entry — hook breakout**: buy one tick above the highest high of the hook (long case) or sell one tick below the lowest low (short case).
-3. **Entry — Trader's Trick Entry**: enter earlier, on the violation of a smaller correcting bar that forms after the hook point, provided (a) there is enough room to the hook's own breakout level to cover costs and bank a profit, and (b) no more than three correcting bars have formed (see [[tte]]).
-4. **Entry — Slaughterbeck entry**: wait instead for a higher low (or lower high) confirmation bar before entering, trading the breakout of that confirming bar.
-5. **Stop placement — natural support/resistance**: place the protective stop one tick beyond the nearest genuine prior support or resistance point rather than an arbitrary tick count.
-6. **Stop placement — cost-covering stop**: size the stop so a loss is largely offset by commission/cost coverage built into the entry's risk-reward, aiming for a breakeven-or-small-profit outcome on failed breakouts.
-7. **Stop placement — volatility stop**: derive the stop distance from a rolling measure of the market's own recent volatility (a dedicated "Volatility Stop Study") rather than a fixed distance.
-8. **Trailing stops**: once in profit, trail the stop behind each new correcting bar's extreme; a "50% trailing stop" (giving back roughly half of open profit) and a "full profit stop" vs. "small profit stop" are both discussed as alternative trade-management styles.
-9. **Profit-taking discipline (S&P 500 example)**: on a 40-bar Keltner Channel setup (multiplier 5) on a short intraday timeframe, take partial profits around 40–50 points, moving remaining stops to breakeven; about 90% of the time no further stop action is even needed.
-10. **Filter before taking a hook — CCI**: a 30-bar CCI with ±150 reference lines is used to confirm a hook is not overextended before entry.
-11. **Filter — Stochastics**: only the crossover of %K over %D matters (not "overbought"/"oversold" readings, which Ross argues are meaningless in a trending market); the level at which the cross occurs is not important to the entry decision.
-12. **Filter — Bollinger Bands / Keltner Channel / moving-average bands**: skip hooks whose entry would occur outside the channel/bands unless price has been trading predominantly in the upper (or lower) channel already; do not attempt entries against the prevailing side of the channel.
-13. **Capitalization rule**: do not trade a market unless you can afford at least two contracts — a one-contract trader has "all his eggs in one basket" and, absent unusual luck, is essentially gambling.
-14. **Situations to skip ("Don't Take That Hook")**: when the market is too volatile around the hook; when hooks come too close together (each trend move should have roughly one to three bars of correction before resuming — more suggests the trend is exhausted); when a hook forms too far from the point being anticipated; when volume dries up; and when a congestion has run too long a time period. A hook that forms just before congestion is specifically flagged as dangerous, since the last hook in a series tends to arrive right as V-shaped reversals or drawn-out congestion begin.
-15. Explicit position-sizing percentages (e.g., % of equity risked per trade) are not given in the sampled pages; risk control is expressed through stop-placement technique (above) rather than a stated percentage formula.
+1. Trade hooks only inside a defined or established trend; a pointy place inside congestion is not tradable.
+2. Standard entry: buy one tick above the hook's high (long) or sell one tick below its low (short).
+3. TTE entry: enter earlier on a correcting bar's violation, if there is enough room to cover costs before the hook's own breakout, and no more than three correcting bars have formed (see [[tte]]).
+4. Slaughterbeck entry: wait for a confirming higher low/lower high bar, then enter its breakout.
+5. Stops: place at natural support/resistance (one tick beyond real structure), or a cost-covering distance, or a volatility-study-derived distance; trail behind each new correcting bar's extreme once profitable (a 50% trailing stop is one variant).
+6. S&P 500 example: on a 40-bar Keltner Channel (multiplier 5) on a 3-minute chart, take partial profit around 40-50 points and move the remaining stop to breakeven; Ross reports a majority of trades reach 50 points, and says the stop can be held back if the market is still moving strongly at that level.
+7. Filter with CCI (30-bar, ±150 lines) to avoid an already-overextended hook; with Stochastics, only the %K/%D crossover matters, not overbought/oversold level.
+8. Filter with a channel study (Bollinger Bands, 40-bar Keltner, or ~39–40 bar moving-average bands): skip breakouts starting outside the channel unless price has been trading predominantly on that side already.
+9. Capitalization rule: trade only markets where at least two contracts can be afforded; a one-contract trader is effectively gambling.
+10. Skip the hook when: the market is too volatile around it; hooks come too close together (more than roughly one-to-three correction bars suggests exhaustion); the hook is too far from the anticipated level; volume has dried up; or the preceding congestion ran too long. A hook forming just before congestion is flagged as the highest-risk case.
+
+No explicit percent-of-equity risk formula is given in the sampled pages; risk control is expressed through stop-placement technique rather than a stated percentage.
 
 ## Risk and money management
 
-The book's risk framework is almost entirely about *where* to place the stop rather than *how much* equity to risk as a percentage. Ross layers several stop techniques (natural support/resistance, cost-covering, volatility-based, trailing) and picks among them by market conditions and how much of the position's profit he wants to protect versus how much room he wants to give the trade. The only explicit account-level rule sampled is the two-contract minimum capitalization requirement — trading a single contract is treated as gambling because a losing trade covers costs and delivers "no profit" at best. Ross also describes strict order-execution discipline (writing out and tape-recording every order, verbally confirming it is being recorded, using price/limit orders rather than accepting slippage) as part of trade management, framed as risk control at the execution level rather than the position-sizing level.
+The risk framework is almost entirely about *where* to place the stop rather than *how much* equity to risk. Ross layers the stop techniques above and picks among them by market conditions and how much profit he wants to protect versus how much room to give the trade. The only explicit account-level rule sampled is the two-contract minimum capitalization requirement — a single-contract trader is treated as gambling. Ross also describes strict order-execution discipline (writing out and tape-recording every order, verbally confirming the recording, using price/limit orders rather than accepting slippage) as risk control at the execution level.
 
 ## Psychology and discipline
 
-Ross frames disciplined execution as inseparable from the system itself: he tape-records and double-checks every order against a script to eliminate disputes and errors, and insists on getting his price "or no fill," refusing to chase a market that moves away without filling him. He is explicit that this book assumes prior trading experience — it is not for the raw beginner — and that the trend-identification and congestion-identification concepts took him years to internalize, so a single reading is not expected to be sufficient. The book also warns against crowd psychology: because the hook and its filters rely on other traders' orders clustering at obvious levels, Ross treats popular-indicator behavior as something to trade against once it becomes widely used, rather than to follow.
+Ross frames disciplined execution as inseparable from the system: he tape-records and double-checks every order against a script, and insists on getting his price "or no fill," refusing to chase a market that moves away. He states this book assumes prior trading experience — the trend- and congestion-identification concepts took him years to internalize, so a single reading is not expected to be enough. He also warns against crowd psychology: because the hook relies on other traders' orders clustering at obvious levels, popular-indicator behavior is something to trade against once it becomes widely used, not follow.
 
 ## Chapter map
 
-- Ch 1 — An Evolution / I Discover the Hook: how Ross found the pattern via 1-2-3 formations and named it.
-- Ch 2 — Philosophy: capitalization, order discipline, why one-contract trading is gambling.
-- Ch 3 — Trading Cycle: introduces the Ross Hook Definition and its all-caps formal statement.
-- Ch 4 — Hooks and 1-2-3's / Continuing Our Analysis: relates hooks back to the 1-2-3 formation and to Reverse Ross Hooks.
-- Ch 5–8 — Trading Anticipation: anticipating hooks, correction length, and trend resumption; identifying congestion and trend.
+- Ch 1–2 — An Evolution / I Discover the Hook; Philosophy (capitalization, order discipline).
+- Ch 3–4 — Trading Cycle: formal Ross Hook Definition; relating hooks to 1-2-3's and Reverse Ross Hooks.
+- Ch 5–8 — Trading Anticipation: anticipating hooks, correction length, trend resumption; identifying congestion and trend.
 - Ch 9 — The Trader's Trick: entering ahead of the hook breakout (full detail in [[tte]]).
 - Ch 10 — Confirmation filters: CCI, Stochastics.
-- Ch 11–13 — Stops: natural support/resistance, cost-covering, volatility stops, trailing stops, mechanical/automated considerations.
-- Ch 14–17 — Filtering the hook with Bollinger Bands, Keltner Channel, moving-average bands ("vanilla hooks" and variations).
-- Ch 18–20 — Don't Take That Hook: markets too volatile, hooks too close together, hooks too far away, volume drying up, congestion running too long.
-- Ch 21 — Money Management, Risk Management, Trade Management ("Plain Vanilla" approach): order-ticket discipline, tape recording, price/limit order use.
-- Ch 22–23 — Anticipating hooks in a series of worked chart examples; closing/contact material.
+- Ch 11–13 — Stops: natural support/resistance, cost-covering, volatility, trailing, and automation.
+- Ch 14–17 — Filtering with Bollinger Bands, Keltner Channel, moving-average bands.
+- Ch 18–20 — Don't Take That Hook: too volatile, too close together, too far away, volume dried up, congestion too long.
+- Ch 21 — Money, Risk, and Trade Management ("Plain Vanilla" approach): order-ticket and tape-recording discipline.
+- Ch 22–23 — Worked chart examples; closing/contact material.
 
 ## Strengths and caveats
 
-Because this book is from a scanned copy with OCR run only on a sample of pages, these notes are built from the chapters and passages that were actually recovered; large stretches of the book (particularly extended chart-walkthrough sections) were not sampled and could contain additional rule detail not reflected here. Within what was recovered, the material is unusually concrete about entries and stop placement compared to typical trend-following books, but Ross gives almost no formal backtest statistics for the hook itself (unlike his spread/seasonal book, which does show a decision-table backtest) — the evidence offered is worked chart examples rather than a system-wide track record. The book assumes the reader already knows Ross's proprietary "Law of Charts" 1-2-3 definition from his other writings; some 1-2-3 mechanics here are inferred from context rather than restated formally. Content reflects late-1990s retail charting software (CQG, Aspen, Ensign) and floor-broker order execution norms that have since been superseded by electronic execution.
+This is a scanned book with OCR run only on a sample of pages, so these notes reflect the chapters and passages actually recovered; large stretches (particularly extended chart walkthroughs) were not sampled and could contain rule detail not reflected here. Within what was recovered, the material is unusually concrete about entries and stops, but Ross gives almost no formal backtest statistics for the hook itself — the evidence is worked chart examples, not a system-wide track record. The book assumes the reader already knows Ross's proprietary 1-2-3/Law-of-Charts definition from his other writings. Content reflects late-1990s charting software (CQG, Aspen, Ensign) and floor-broker order execution norms since superseded by electronic execution.
 
 ## Who should read it
 

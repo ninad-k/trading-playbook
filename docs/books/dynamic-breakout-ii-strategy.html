@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Dynamic Break Out II Strategy — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>The Dynamic Break Out II Strategy</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-8. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=donchian-channel">donchian-channel</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=adaptive-parameters">adaptive-parameters</a> <a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=seasonality">seasonality</a> </td></tr>
+    <tr><th>Length</th><td>8 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Dynamic Break Out II Strategy” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An excerpt from &ldquo;Building Winning Trading Systems with TradeStation&rdquo; describing an upgraded version of George Pruitt&rsquo;s 1996 Dynamic Break Out system for Futures Magazine. The core idea is a Donchian channel breakout (buy on a new N-day high, sell on a new N-day low) where N (&ldquo;look-back days&rdquo;) is not fixed but adapts daily based on the percentage change in 30-day standard deviation of closing prices: rising volatility widens the look-back (making entry harder, since indecisive/choppy markets shouldn&rsquo;t trigger trades easily), falling volatility narrows it (making entry easier in a trending market). The look-back is bounded between 20 and 60 days. Version II adds an adaptive Bollinger Band filter on top of the breakout (yesterday&rsquo;s close must also be outside the band before a new signal fires) and replaces the original&rsquo;s flat $1,500 stop with a dynamic trailing stop set at the moving average of closing prices over the same adaptive look-back window. A 1982–2002 backtest across 17 futures markets (commissions/slippage $75) produced $452,504 total net profit and 1,820 trades; performance in grain markets (soybeans, wheat, corn) was poor or negative, which the authors attribute to seasonal/cyclical behavior that a pure trend-following breakout can&rsquo;t capture — illustrated with a soybean &ldquo;fade&rdquo; experiment and a March–July/July–February seasonal long/short filter.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Base logic: Donchian breakout — buy on a new N-day high, sell on a new N-day low, but N changes daily via an adaptive volatility engine instead of staying fixed.</li>
+<li>Look-back bounds: 20 days minimum, 60 days maximum, starting at 20 on bar 1.</li>
+<li>Volatility input: 30-day standard deviation of closing prices; % change from yesterday&rsquo;s to today&rsquo;s volatility is applied directly as the % change to the look-back length.</li>
+<li>Bollinger Band filter (added in version II): band width = length-adaptive moving average of closes ± 2.0 standard deviations over the same adaptive look-back; a long requires yesterday&rsquo;s close above the upper band AND today&rsquo;s high ≥ the N-day high; short is the mirror condition.</li>
+<li>Exit/stop: dynamic trailing stop = simple moving average of closes over the current adaptive look-back (replacing the original system&rsquo;s flat $1,500 money-management stop).</li>
+<li>Backtest (1982–2002, 17 futures markets, $75 commission/slippage): total net profit $452,504 over 1,820 trades; strongest results in currencies (Japanese Yen +$118,200, Swiss Franc +$57,338, Deutsche Mark +$49,088) and bonds; weakest/negative in grains (Copper −$25,175, Soybeans −$9,681, Live Cattle −$17,397, Wheat −$14,831).</li>
+<li>A &ldquo;fade&rdquo; experiment (reversing every signal) on soybeans still lost money overall (−$1,681 net over 128 trades, 64% win rate but poor average win/loss ratio), suggesting the grain underperformance isn&rsquo;t simply solved by trading the opposite side.</li>
+<li>A seasonal filter tested on soybeans (long only March 1–July 1, short only July 2–February 28, based on cyclical/seasonal analysis) also lost money in a 1996–2002 test (−$4,363 net, 36% win rate), showing seasonality alone didn&rsquo;t fix the grain-market problem either.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Initialize look-back length to 20 days; each day, compute deltaVolatility = (today&rsquo;s 30-day StdDev of closes − yesterday&rsquo;s) ÷ today&rsquo;s 30-day StdDev, then lookBackDays = lookBackDays × (1 + deltaVolatility), clipped to [20, 60].</li>
+<li>Compute upBand/dnBand as a Bollinger Band (± 2.0 std dev) of closes over the current look-back length.</li>
+<li>Enter long the next bar at a stop equal to the N-day highest high, but only if yesterday&rsquo;s close was above the upper Bollinger Band; enter short at the N-day lowest low only if yesterday&rsquo;s close was below the lower band.</li>
+<li>Exit a long when price trades at or below the moving average of closes over the current look-back (liquidation point); exit a short at or above the same moving average.</li>
+<li>Treat this as a long-term trend-following system requiring diversification across multiple markets — the authors explicitly note it needs heavy capitalization and can go years without profit in any single market.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Backtest uses static $75 commission/slippage assumptions and a fixed 1982–2002 window without out-of-sample validation or walk-forward testing; results are shown per-market rather than as a portfolio equity curve, so combined drawdown and correlation effects across the 17 markets are not demonstrated. The system reliably underperforms in grain/agricultural markets per the authors&rsquo; own admission, and neither the fade nor the seasonal-filter fix tested in the source resolved this. As with most channel breakout systems, it is vulnerable to failed breakouts in choppy, low-trend regimes.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Systematic futures traders comfortable coding TradeStation EasyLanguage strategies who want a volatility-adaptive alternative to a fixed-parameter Donchian channel system, applied across a diversified basket of markets rather than any single instrument.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/king-keltner-trading-strategy.html">The King Keltner Trading Strategy</a> — A 1960s Chester Keltner moving-average-band breakout system, modernized with a true-range channel and a moving-average liquidation stop.</li><li><a href="../books/money-management-in-trading.html">Money Management</a> — A Joe Ross chapter cataloguing common money-management mistakes — chasing opinions, overtrading, sunk-cost thinking, margin-inflation surprises — with a fix for each.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

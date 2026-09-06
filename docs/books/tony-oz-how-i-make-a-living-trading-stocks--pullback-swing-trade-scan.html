@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pullback Swing Trade Scan and Support/Resistance Entries (Full System) — Tony Oz · Trading Playbook</title>
+<meta name="description" content="A long-only setup that scans for three-day pullbacks into support, filters entries with a 3:1 reward-to-risk rule, and manages stops off intraday and multi-day support levels.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a> › <a href="../books/tony-oz-how-i-make-a-living-trading-stocks.html">The Stock Trader: How I Make a Living Trading Stocks</a></p>
+  <h1>Pullback Swing Trade Scan and Support/Resistance Entries (Full System)</h1>
+  <p class="byline">Tony Oz · 2000 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">beginner</span></p>
+  <p class="lead">A long-only setup that scans for three-day pullbacks into support, filters entries with a 3:1 reward-to-risk rule, and manages stops off intraday and multi-day support levels.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=support-resistance">support-resistance</a> <a class="tag" href="../search.html?q=scanning">scanning</a> <a class="tag" href="../search.html?q=pullback">pullback</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=risk-reward-ratio">risk-reward-ratio</a> <a class="tag" href="../search.html?q=stop-loss">stop-loss</a> <a class="tag" href="../search.html?q=day-trading">day-trading</a> </td></tr>
+    <tr><th>Length</th><td>146 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Pullback Swing Trade Scan and Support/Resistance Entries (Full System)” by Tony Oz at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>Tony Oz&rsquo;s named overnight scan and the entry/exit framework he built around it, used to generate the majority of long trades documented in his four-week trading diary. The scan mechanically identifies liquid, higher-priced stocks that have pulled back for three consecutive days, then screens for the moment price stops making new lows and trades back above the prior day&rsquo;s low — a mean-reversion-style pullback entry inside a stock&rsquo;s larger trading range, always taken in the direction of a bounce off identified support. Two companion real-time scans (Breakout Scan and Power Scan) use the same liquidity/volatility filters to catch continuation setups (new highs) and momentum-thrust setups (closes near the day&rsquo;s high) instead of pullbacks.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Universe filter (applies to all three scans)</strong>
+1. Price between $40 and $200 per share.
+2. Net change on the day of at least 5/8 of a point (for the real-time variants; the overnight Pullback scan does not require this).</p>
+<p><strong>Pullback Swing Trade Scan (primary overnight scan)</strong>
+3. 20-day average volume greater than 350,000 shares (Oz&rsquo;s general watch-list liquidity threshold is 750,000+ shares average daily volume; the coded scan example uses 350,000).
+4. Last price is above the previous day&rsquo;s low.
+5. Each of the last four closes is lower than the one before it (<code>Close[1] &lt; Close[2] &lt; Close[3] &lt; Close[4]</code>, most recent first) — i.e., three consecutive down days.
+6. Candidates are reviewed manually on a chart the next session for a defined support level (a price tested and held more than once) before any order is placed — the scan surfaces candidates, it does not auto-trigger entries.</p>
+<p><strong>Breakout Scan (real-time/overnight variant, for continuation entries)</strong>
+7. Average volume greater than 400,000 shares; today&rsquo;s volume greater than 1.7x its average.
+8. Last trade is a four-week high.</p>
+<p><strong>Power Scan (real-time variant, for momentum-thrust entries)</strong>
+9. Average volume greater than 350,000 shares; today&rsquo;s volume greater than 1.5x its average.
+10. Last trade is in the top 13% of the day&rsquo;s trading range.</p>
+<p><strong>Entry</strong>
+11. For a pullback candidate: buy once price confirms a bounce off the identified support level (support = a price where buying pressure previously stopped the decline, ideally tested more than once).
+12. For a breakout candidate: buy once price trades above the defining resistance level (the prior high), or buy the pullback back to that former-resistance/now-support level after the initial breakout.
+13. Before entering, compute the reward-to-risk ratio using the planned stop and price target; only take the trade if potential reward is at least 3x the planned risk. If the ratio is worse than 3:1, skip the trade regardless of how clean the pattern looks.</p>
+<p><strong>Exit — stop-loss (choose the applicable level)</strong>
+14. Place the initial stop below whichever is most relevant to the setup: today&rsquo;s low, yesterday&rsquo;s low, a secondary intraday support level, a multi-day intraday support level, a 50% retracement of the last rally, or a relevant market index&rsquo;s day-low/support level.</p>
+<p><strong>Exit — trailing stop and targets</strong>
+15. Once the trade is working, walk the stop up behind each new local support level (for longs) rather than leaving it at the original level.
+16. Once a position is meaningfully in profit (a volatility-scaled threshold — a low-volatility stock is &ldquo;in the money&rdquo; after 1 point, a high-volatility stock needs more room), move the stop to at least breakeven so a winner cannot turn into a loss.
+17. Take partial profit at the price target to lock in a portion of the trade, trailing the remainder.
+18. Apply a time stop if the position stagnates without reaching either the stop or the target, to free up capital.</p>
+<h2 id="risk">Risk</h2>
+<p>No fixed percent-of-equity or dollar risk cap is attached to this specific setup; risk is bounded by (a) the stop-loss distance chosen from the menu above and (b) the account-wide position-size limits described in the parent book (roughly $25,000–$30,000 per non-index position against $50,000 risk capital and $100,000 buying power). The 3:1 reward-to-risk filter is the setup&rsquo;s main built-in risk control — it rejects trades where the defined stop is too close to the entry relative to the realistic target. Across the four-week diary in which this scan supplied most trades, the account produced a 32.55% return (116 total trades, 64.6% winners) during a period when the Nasdaq fell 30.78%, though the book does not isolate performance of this scan alone from the Constant watch list or the other two scans.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The scan&rsquo;s exact volume thresholds are inconsistent within the source (350,000 in the coded formula versus a stated 750,000+ preference elsewhere), and the $40–$200 price band and fractional-point criteria (5/8 point net change) reflect pre-decimalization, dot-com-era Nasdaq stock prices and tick sizes that do not map cleanly onto modern markets. The setup is explicitly long-only in the source material (a rule imposed by the challenge, not an inherent limitation of the pattern) and was tested on a small sample (116 trades over four weeks) during one unusually volatile historical episode. Confirmation of support before entry, and the choice of which stop-loss rule from the menu applies, both require discretionary chart judgment — the scan narrows a universe of candidates but does not fully mechanize entry timing or stop placement.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/john-j-murphy-charting-made-easy.html">Charting Made Easy</a> — Murphy&#39;s condensed primer on bar-chart reading — trends, patterns, volume, moving averages, oscillators, and a top-down market/sector/stock approach.</li><li><a href="../books/jack-schwager-stock-market-wizards.html">Stock Market Wizards</a> — Fourteen interviews with top U.S. stock/derivatives traders plus a trading psychiatrist, distilled into 65 cross-cutting &#39;Wizard Lessons&#39; on edge, discipline, and risk control rather than one method.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

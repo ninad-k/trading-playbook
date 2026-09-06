@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Are Supply and Demand Driving Stock Prices? — Carl Hopman · Trading Playbook</title>
+<meta name="description" content="Paris Bourse order-flow data shows order imbalance explains ~50% of return variance, with a higher R² for market-wide moves than stock-specific ones — pointing to mechanical price pressure, not just information.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Are Supply and Demand Driving Stock Prices?</h1>
+  <p class="byline">Carl Hopman · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Paris Bourse order-flow data shows order imbalance explains ~50% of return variance, with a higher R² for market-wide moves than stock-specific ones — pointing to mechanical price pressure, not just information.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 5, 9, 12-13 (the price-impact estimation and the order-flow autocorrelation results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=order-flow">order-flow</a> <a class="tag" href="../search.html?q=price-impact">price-impact</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=limit-order-book">limit-order-book</a> <a class="tag" href="../search.html?q=bubbles">bubbles</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>41 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Are Supply and Demand Driving Stock Prices?” by Carl Hopman at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: does order-flow imbalance (supply and demand) drive stock returns, beyond what public information can explain? Data: complete limit-order submission data for 34 CAC40-era Paris Bourse stocks, 1995-1999 — an order-driven market with no market maker, so unrealized buy/sell intentions can be measured directly, unlike markets where realized volume nets to zero. Method: builds an order-flow imbalance measure (summing the square root of each order&rsquo;s volume by side, to capture the observed concave price impact of order size) and regresses returns on it across horizons from 10 minutes to 3 months, comparing R² for market-wide vs. idiosyncratic returns to separate private information from mechanical price pressure. Finding: order-flow imbalance explains about 50% of return variance for the average stock, with no reversal out to 3 months; R² is higher for market-wide returns (70%) than idiosyncratic ones (41%) — the opposite of what a pure private-information story predicts — implying a large role for uninformed, mechanical price pressure that can help explain bubble-like, mean-reverting swings.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Price impact of an order is a concave function of its volume (roughly volume^0.5), consistent with Hasbrouck (1991).</li>
+<li>Orders are split into market, spread, and book orders by urgency; more urgent orders have larger price impact for a given size.</li>
+<li>The order-flow measure aggregates orders via a square-root transform rather than raw volume or order count, and correlates best with returns.</li>
+<li>Order-flow imbalance is autocorrelated for 1-2 days (order splitting and/or herding), but the predictable component has almost no incremental price impact — consistent with an efficiently arbitraged market.</li>
+<li>Price impact of an order is not reversed later, holding across horizons from 10 minutes to 3 months.</li>
+<li>Campbell (1991) estimated only 33-50% of market-wide moves are due to fundamental news; this paper&rsquo;s 70% order-flow R² on the market factor exceeds that, implying orders help generate mean-reverting (bubble-like) moves, not just permanent information-driven ones.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is an academic empirical study, not a trading system. Practical takeaway: sustained one-directional order-flow imbalance tends to keep pushing price in the same direction rather than reverting in the short-to-medium term, and this holds for broad market-wide moves as well as single stocks.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Data is specific to the Paris Bourse (1995-1999), a pure limit-order market with no market makers; results may not transfer directly to dealer or hybrid markets. The order-flow measure uses submitted (not executed) orders and approximates cancellations, a limitation the author acknowledges. The paper is dense in econometric method (Box-Cox transforms, non-parametric kernel regression, block-bootstrap standard errors).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant-minded traders and researchers interested in evidence for order-flow-driven price pressure and its role in bubble formation, as an alternative or complement to pure efficient-market explanations.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size.</li><li><a href="../books/chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity.html">Market Liquidity and Trading Activity</a> — Journal of Finance (2001) study of 11 years of NYSE data finding aggregate market liquidity and trading volume are highly volatile, decline sharply in down markets, and show strong day-of-week patterns (weak on Fridays, strong on Tuesdays).</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

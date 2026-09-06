@@ -1,17 +1,33 @@
 ---
-title: "The Superstock Investor: Profiting from Wall Street's Best Undervalued Companies"
-author: "Charles M. LaLoggia, Cherrie A. Mahon"
-year: 2001
-slug: the-superstock-investor-profiting-from-wall-streets-best-undervalued-companies
-tier: B
-category: "Investing, Value & Market History"
-tags: [value-investing, takeover-targets, merger-arbitrage, insider-buying, small-cap, catalyst-investing, activist-clues]
+author: Charles M. LaLoggia, Cherrie A. Mahon
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: A newsletter editor's 25-year method for spotting undervalued small/mid-cap
+  takeover targets before the bid, using public 'Telltale Signs' like creeping insider
+  stakes and beneficial-owner filings.
 pages: 314
-one_liner: "A newsletter editor's 25-year method for spotting undervalued small/mid-cap takeover targets before the bid, using public 'Telltale Signs' like creeping insider stakes and beneficial-owner filings."
-related: [the-intelligent-investor-benjamin-graham, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks, jack-schwager-stock-market-wizards]
-source_file: "The Superstock Investor - Profiting From Wall Streets Best Undervalued Companies.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 13-14 (the track-record tables and the ownership and buyback signal
+  chapters)
+slug: the-superstock-investor-profiting-from-wall-streets-best-undervalued-companies
+source_file: The Superstock Investor - Profiting From Wall Streets Best Undervalued
+  Companies.pdf
+source_review: partial
+tags:
+- value-investing
+- takeover-targets
+- merger-arbitrage
+- insider-buying
+- small-cap
+- catalyst-investing
+- activist-clues
+tier: B
+title: 'The Superstock Investor: Profiting from Wall Street''s Best Undervalued Companies'
+year: 2001
 ---
 
 ## Summary

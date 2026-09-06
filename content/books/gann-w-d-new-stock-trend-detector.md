@@ -1,17 +1,32 @@
 ---
-title: "New Stock Trend Detector"
 author: W.D. Gann
-year: 1936
-slug: gann-w-d-new-stock-trend-detector
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [gann, trend-following, chart-reading, volume-analysis, pyramiding, stop-loss, classic-technical-analysis]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Gann''s post-1929 trend-detection manual: chart-hierarchy rules, single/double/triple
+  top-bottom setups, a 3-point stop rule, volume confirmation, and a pyramiding money-management
+  method.'
 pages: 52
-one_liner: "Gann's post-1929 trend-detection manual: chart-hierarchy rules, single/double/triple top-bottom setups, a 3-point stop rule, volume confirmation, and a pyramiding money-management method."
-related: [gann-w-d-1953-magic-words, gannwheel, george-alexander-maclean-fibonacci-and-gann-applications, fischer-robert-fibonacci-applications-and-strategies-for]
-source_file: "Gann, W D  - New Stock Trend Detector.pdf"
+related:
+- gannwheel
+- george-alexander-maclean-fibonacci-and-gann-applications
+- fischer-robert-fibonacci-applications-and-strategies-for
+reviewed_pdf_pages: 1-4, 8, 22, 24, 28, 30, 38 (the rules chapters on stop placement,
+  the 3-point rule, breakouts and pyramiding, plus the 1929-32 review)
+slug: gann-w-d-new-stock-trend-detector
+source_file: Gann, W D  - New Stock Trend Detector.pdf
+source_review: partial
+tags:
+- gann
+- trend-following
+- chart-reading
+- volume-analysis
+- pyramiding
+- stop-loss
+- classic-technical-analysis
+tier: A
+title: New Stock Trend Detector
+year: 1936
 ---
 
 ## Overview
@@ -77,7 +92,7 @@ Traders interested in classical, rule-based price/volume trend-following as prac
 
 ## Related books in this library
 
-- [[gann-w-d-1953-magic-words]] — a later Gann text; useful for comparing how his rule-based and more esoteric material relate.
+- **Magic Words** (no library summary: off topic) — a later Gann text; useful for comparing how his rule-based and more esoteric material relate.
 - [[gannwheel]] — the Square of Nine/Gann Wheel price-projection tool, a different Gann technique not covered in this book.
 - [[george-alexander-maclean-fibonacci-and-gann-applications]] — a modern practitioner's reinterpretation of Gann's swing-chart and angle techniques for contemporary charting software.
 - [[fischer-robert-fibonacci-applications-and-strategies-for]] — a contemporaneous-in-spirit but Fibonacci-based (rather than point-and-volume-based) rules approach to trend and correction trading.

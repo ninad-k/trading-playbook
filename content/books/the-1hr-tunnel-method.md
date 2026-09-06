@@ -1,17 +1,30 @@
 ---
-title: The Tunnel Method
-author: "Vegas (pseudonym)"
-year: unknown
-slug: the-1hr-tunnel-method
-tier: B
+author: Vegas (pseudonym)
 category: Forex Mechanics & Macro Drivers
-tags: [forex, moving-averages, fibonacci, trend-following, breakout, gann, price-action]
 difficulty: intermediate
 doc_type: manual
+one_liner: 1-hour forex breakout system trading breaks of a 144/169 EMA 'tunnel,'
+  scaling out profits at Fibonacci pip levels (55, 89, 144, 233, 377).
 pages: 11
-one_liner: "1-hour forex breakout system trading breaks of a 144/169 EMA 'tunnel,' scaling out profits at Fibonacci pip levels (55, 89, 144, 233, 377)."
-related: [camarilla-levels, jet-heat-mechanical-discretion, george-alexander-maclean-fibonacci-and-gann-applications]
-source_file: "THE 1HR TUNNEL METHOD.pdf"
+related:
+- camarilla-levels
+- jet-heat-mechanical-discretion
+- george-alexander-maclean-fibonacci-and-gann-applications
+reviewed_pdf_pages: 1-11
+slug: the-1hr-tunnel-method
+source_file: THE 1HR TUNNEL METHOD.pdf
+source_review: full
+tags:
+- forex
+- moving-averages
+- fibonacci
+- trend-following
+- breakout
+- gann
+- price-action
+tier: B
+title: The Tunnel Method
+year: unknown
 ---
 
 ## Summary

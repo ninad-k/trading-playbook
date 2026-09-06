@@ -1,17 +1,30 @@
 ---
-title: Intraday Trading with the TICK
 author: Christopher Terry
-year: 2002
-slug: tick
-tier: B
 category: Indicators
-tags: [tick-indicator, market-breadth, divergence, fibonacci-retracement, intraday, s-and-p-500]
 difficulty: intermediate
 doc_type: article
+one_liner: Active Trader magazine article combining the NYSE TICK (overbought/oversold
+  at ±500, divergence signals) with support/resistance and Fibonacci retracements
+  for intraday entries.
 pages: 4
-one_liner: "Active Trader magazine article combining the NYSE TICK (overbought/oversold at ±500, divergence signals) with support/resistance and Fibonacci retracements for intraday entries."
-related: [market-turns, picking-tops, the-nyse-tick-index-and-candlesticks]
-source_file: "Tick.pdf"
+related:
+- market-turns
+- picking-tops
+- the-nyse-tick-index-and-candlesticks
+reviewed_pdf_pages: 1-4
+slug: tick
+source_file: Tick.pdf
+source_review: full
+tags:
+- tick-indicator
+- market-breadth
+- divergence
+- fibonacci-retracement
+- intraday
+- s-and-p-500
+tier: B
+title: Intraday Trading with the TICK
+year: 2002
 ---
 
 ## Summary

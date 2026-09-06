@@ -1,17 +1,33 @@
 ---
-title: "The Impact of Illegal Insider Trading in Dealer and Specialist Markets: Evidence from a Natural Experiment"
-author: "Raymond P.H. Fishe, Michel A. Robe"
-year: 2002
-slug: fishea-and-robeb-the-impact-of-illegal-insider-trading-in-dealer-and-specialist-markets-ev
-tier: B
-category: "Quant, Microstructure & Academic Research"
+author: Raymond P.H. Fishe, Michel A. Robe
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
-tags: [market-microstructure, insider-trading, liquidity, bid-ask-spread, market-depth, academic-paper, nasdaq-nyse]
 doc_type: paper
+one_liner: Academic study using a real insider-trading court case to show illegal
+  informed trading widens spreads and cuts quoted depth, especially on NYSE/Amex.
 pages: 36
-one_liner: "Academic study using a real insider-trading court case to show illegal informed trading widens spreads and cuts quoted depth, especially on NYSE/Amex."
-related: [madhavan-market-microstructure-a-survey, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, foucault-and-kadan-limit-order-book-as-a-market-for-liquidity]
-source_file: "Fishea And Robeb-The Impact Of Illegal Insider Trading In Dealer And Specialist Markets - Evidenc.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+reviewed_pdf_pages: 2, 6 (the sample construction and the depth and abnormal-return
+  results)
+slug: fishea-and-robeb-the-impact-of-illegal-insider-trading-in-dealer-and-specialist-markets-ev
+source_file: Fishea And Robeb-The Impact Of Illegal Insider Trading In Dealer And
+  Specialist Markets - Evidenc.pdf
+source_review: partial
+tags:
+- market-microstructure
+- insider-trading
+- liquidity
+- bid-ask-spread
+- market-depth
+- academic-paper
+- nasdaq-nyse
+tier: B
+title: 'The Impact of Illegal Insider Trading in Dealer and Specialist Markets: Evidence
+  from a Natural Experiment'
+year: 2002
 ---
 
 ## Summary

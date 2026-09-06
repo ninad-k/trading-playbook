@@ -1,17 +1,30 @@
 ---
-title: "The NYSE Tick Index and Candlesticks"
-author: "Tim Ord"
-year: 1995
-slug: the-nyse-tick-index-and-candlesticks
-tier: B
+author: Tim Ord
 category: Indicators
-tags: [tick-index, candlesticks, sp500, double-top, double-bottom, reversal-signals]
 difficulty: intermediate
 doc_type: article
+one_liner: Stocks & Commodities article combining extreme NYSE tick-index readings
+  with candlestick reversal patterns on the S&P 500 to time short-term tops and bottoms.
 pages: 11
-one_liner: "Stocks & Commodities article combining extreme NYSE tick-index readings with candlestick reversal patterns on the S&P 500 to time short-term tops and bottoms."
-related: [market-turns, picking-tops, greg-morris-candlestick-charting-explained]
-source_file: "the-nyse-tick-index-and-candlesticks.pdf"
+related:
+- market-turns
+- picking-tops
+- greg-morris-candlestick-charting-explained
+reviewed_pdf_pages: 2-4, 9 (the tick thresholds, the double-top/bottom setup rules
+  and the closing-tick statistics)
+slug: the-nyse-tick-index-and-candlesticks
+source_file: the-nyse-tick-index-and-candlesticks.pdf
+source_review: partial
+tags:
+- tick-index
+- candlesticks
+- sp500
+- double-top
+- double-bottom
+- reversal-signals
+tier: B
+title: The NYSE Tick Index and Candlesticks
+year: 1995
 ---
 
 ## Summary

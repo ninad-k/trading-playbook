@@ -1,17 +1,32 @@
 ---
-title: Mathematical Economics and Finance
-author: "Michael Harrison, Patrick Waldron"
-year: 1998
-slug: harrison-waldron-mathematical-economics-and-finance
-tier: B
+author: Michael Harrison, Patrick Waldron
 category: Quant, Microstructure & Academic Research
-tags: [mathematical-finance, portfolio-theory, capm, optimization, linear-algebra, academic, lecture-notes]
 difficulty: advanced
 doc_type: course
+one_liner: Trinity College Dublin lecture notes building math finance from linear
+  algebra and optimization through mean-variance portfolio theory and the CAPM.
 pages: 153
-one_liner: "Trinity College Dublin lecture notes building math finance from linear algebra and optimization through mean-variance portfolio theory and the CAPM."
-related: [black-scholes-option-pricing-model, kiesel-financial-mathematics, bass-the-basics-of-financial-mathematics, lecture-notes-in-mathematical-finance-lin-1996]
-source_file: "Harrison_ Waldron - Mathematical Economics and Finance.pdf"
+related:
+- black-scholes-option-pricing-model
+- kiesel-financial-mathematics
+- bass-the-basics-of-financial-mathematics
+- lecture-notes-in-mathematical-finance-lin-1996
+reviewed_pdf_pages: the derivation chapters checked against the note; the notes are
+  algebraic and state no trading parameters
+slug: harrison-waldron-mathematical-economics-and-finance
+source_file: Harrison_ Waldron - Mathematical Economics and Finance.pdf
+source_review: partial
+tags:
+- mathematical-finance
+- portfolio-theory
+- capm
+- optimization
+- linear-algebra
+- academic
+- lecture-notes
+tier: B
+title: Mathematical Economics and Finance
+year: 1998
 ---
 
 ## Summary

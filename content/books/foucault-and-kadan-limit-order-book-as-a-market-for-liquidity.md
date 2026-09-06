@@ -1,17 +1,33 @@
 ---
-title: "Limit Order Book as a Market for Liquidity"
-author: "Thierry Foucault, Ohad Kadan, Eugene Kandel"
-year: 2001
-slug: foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
-tier: B
+author: Thierry Foucault, Ohad Kadan, Eugene Kandel
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, limit-order-book, liquidity, tick-size, bid-ask-spread, academic]
 difficulty: advanced
 doc_type: paper
+one_liner: A dynamic microstructure model showing how the mix of patient vs. impatient
+  traders, tick size, and order arrival rate jointly determine spreads and limit-order
+  execution time.
 pages: 59
-one_liner: "A dynamic microstructure model showing how the mix of patient vs. impatient traders, tick size, and order arrival rate jointly determine spreads and limit-order execution time."
-related: [foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets, parlour-and-seppi-liquidity-based-competition-for-order-flow, credit-derivatives]
-source_file: "Foucault And Kadan-Limit Order Book As A Market For Liquidity.pdf"
+related:
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets
+- parlour-and-seppi-liquidity-based-competition-for-order-flow
+- credit-derivatives
+reviewed_pdf_pages: the model setup and results sections checked against the note;
+  the paper is analytical rather than numeric
+slug: foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+source_file: Foucault And Kadan-Limit Order Book As A Market For Liquidity.pdf
+source_review: partial
+tags:
+- market-microstructure
+- limit-order-book
+- liquidity
+- tick-size
+- bid-ask-spread
+- academic
+tier: B
+title: Limit Order Book as a Market for Liquidity
+year: 2001
 ---
 
 ## Summary

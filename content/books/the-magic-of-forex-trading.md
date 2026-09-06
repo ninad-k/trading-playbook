@@ -1,17 +1,31 @@
 ---
-title: "The Magic of Forex Trading: Money Management"
-author: "James de Wet"
-year: unknown
-slug: the-magic-of-forex-trading
-tier: B
+author: James de Wet
 category: Money Management & Position Sizing
-tags: [forex, money-management, leverage, compounding, position-sizing, signal-service]
 difficulty: beginner
 doc_type: manual
+one_liner: Signal-vendor e-book arguing money management (capped leverage, small stops,
+  compounding) matters more than the trading system itself, with projected account-growth
+  scenarios.
 pages: 10
-one_liner: "Signal-vendor e-book arguing money management (capped leverage, small stops, compounding) matters more than the trading system itself, with projected account-growth scenarios."
-related: [forex-money-management, forex-misc-money-management-ryan-jones, david-c-stendahl-money-management-strategies-for-serious-traders, fine-tuning-your-money-management]
-source_file: "The magic of Forex trading.pdf"
+related:
+- forex-money-management
+- forex-misc-money-management-ryan-jones
+- david-c-stendahl-money-management-strategies-for-serious-traders
+- fine-tuning-your-money-management
+reviewed_pdf_pages: 1-10
+slug: the-magic-of-forex-trading
+source_file: The magic of Forex trading.pdf
+source_review: full
+tags:
+- forex
+- money-management
+- leverage
+- compounding
+- position-sizing
+- signal-service
+tier: B
+title: 'The Magic of Forex Trading: Money Management'
+year: unknown
 ---
 
 ## Summary

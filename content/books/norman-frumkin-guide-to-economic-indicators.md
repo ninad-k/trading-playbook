@@ -1,17 +1,33 @@
 ---
-title: Guide to Economic Indicators
 author: Norman Frumkin
-year: 2006
-slug: norman-frumkin-guide-to-economic-indicators
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [economic-indicators, gdp, cpi, unemployment, leading-indicators, macro-data, reference]
 difficulty: intermediate
 doc_type: book
+one_liner: Reference book covering roughly 60 US government economic indicators across
+  49 chapters, each explaining what the data measures, where it comes from, and how
+  to interpret it.
 pages: 305
-one_liner: "Reference book covering roughly 60 US government economic indicators across 49 chapters, each explaining what the data measures, where it comes from, and how to interpret it."
-related: [u-s-key-economic-indica, pocketbook-of-economic-indicator, the-pocketbook-of-economic-indicators-2, nfp]
-source_file: "Norman Frumkin - Guide to Economic Indicators.pdf"
+related:
+- u-s-key-economic-indica
+- pocketbook-of-economic-indicator
+- the-pocketbook-of-economic-indicators-2
+- nfp
+reviewed_pdf_pages: 5, 8-11 (the contents, thematic groupings and the preface on data-sharing
+  legislation)
+slug: norman-frumkin-guide-to-economic-indicators
+source_file: Norman Frumkin - Guide to Economic Indicators.pdf
+source_review: partial
+tags:
+- economic-indicators
+- gdp
+- cpi
+- unemployment
+- leading-indicators
+- macro-data
+- reference
+tier: B
+title: Guide to Economic Indicators
+year: 2006
 ---
 
 ## Summary

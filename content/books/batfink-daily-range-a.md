@@ -1,17 +1,33 @@
 ---
-title: "BatFink Daily Range (A)"
-author: "MarkJ"
-year: 2006
-slug: batfink-daily-range-a
-tier: B
+author: MarkJ
 category: Day Trading & Scalping
-tags: [forex, day-trading, daily-range, mechanical-system, gbp-usd, trailing-stop, backtest]
 difficulty: intermediate
 doc_type: manual
+one_liner: Mechanical GBP/USD intraday-range breakout system entering 40 pips from
+  the daily close, with staged profit targets and trailing stops, backtested May-Oct
+  2006.
 pages: 16
-one_liner: "Mechanical GBP/USD intraday-range breakout system entering 40 pips from the daily close, with staged profit targets and trailing stops, backtested May-Oct 2006."
-related: [forex-intraday-pivots-trading-system-complete-system, automated-intraday-open-pivot-setup, camarilla-levels, day-trading-the-currency-market]
-source_file: "Batfink Daily Range (A).pdf"
+related:
+- forex-intraday-pivots-trading-system-complete-system
+- automated-intraday-open-pivot-setup
+- camarilla-levels
+- day-trading-the-currency-market
+reviewed_pdf_pages: 4-8 (the entry-line construction, target ladder and the per-pair
+  results tables)
+slug: batfink-daily-range-a
+source_file: Batfink Daily Range (A).pdf
+source_review: partial
+tags:
+- forex
+- day-trading
+- daily-range
+- mechanical-system
+- gbp-usd
+- trailing-stop
+- backtest
+tier: B
+title: BatFink Daily Range (A)
+year: 2006
 ---
 
 ## Summary

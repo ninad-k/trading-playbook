@@ -1,17 +1,32 @@
 ---
-title: "Stock Liquidity and the Value of a Designated Liquidity Provider: Evidence from Euronext Paris"
 author: Steve Mann, Kumar Venkataraman, and Andy Waisburd
-year: 2002
-slug: mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, liquidity-provider, limit-order-book, event-study, euronext, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: Event study of 56 Paris Bourse stocks finds a designated liquidity provider
+  adds a 4%+ abnormal return for illiquid stocks by reducing auction failures, but
+  does nothing for already-liquid stocks.
 pages: 30
-one_liner: "Event study of 56 Paris Bourse stocks finds a designated liquidity provider adds a 4%+ abnormal return for illiquid stocks by reducing auction failures, but does nothing for already-liquid stocks."
-related: [madhavan-market-microstructure-a-survey, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity]
-source_file: "Mann, Venkataraman And Waisburd-Stock Liquidity And The Value Of A Designated Liquidity Provider Evidence From Paris Euronext.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+reviewed_pdf_pages: 1-3, 10, 14, 27 (the event-study design and the auction-participation
+  results)
+slug: mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro
+source_file: Mann, Venkataraman And Waisburd-Stock Liquidity And The Value Of A Designated
+  Liquidity Provider Evidence From Paris Euronext.pdf
+source_review: partial
+tags:
+- market-microstructure
+- liquidity-provider
+- limit-order-book
+- event-study
+- euronext
+- academic-research
+tier: B
+title: 'Stock Liquidity and the Value of a Designated Liquidity Provider: Evidence
+  from Euronext Paris'
+year: 2002
 ---
 
 ## Summary

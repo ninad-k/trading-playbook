@@ -1,17 +1,35 @@
 ---
-title: "New Era Value Investing: A Disciplined Approach to Buying Value and Growth Stocks"
 author: Nancy Tengler
-year: 2003
-slug: n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, dividend-yield, price-to-sales, relative-valuation, fundamental-analysis, portfolio-construction, stop-loss, quantitative-screening]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Extends Graham-and-Dodd value investing to non-dividend growth stocks
+  via two relative-valuation screens: Relative Dividend Yield and Relative Price-to-Sales.'
 pages: 242
-one_liner: "Extends Graham-and-Dodd value investing to non-dividend growth stocks via two relative-valuation screens: Relative Dividend Yield and Relative Price-to-Sales."
-related: [the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, david-dreman-contrarian-investment-strategies-the-next-generation, j-k-lasser-pick-stocks-like-warren-buffett]
-source_file: "N Tengler - New Era Value Investing - A Disciplined Approach To Buying Value And Growth Stocks.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- david-dreman-contrarian-investment-strategies-the-next-generation
+- j-k-lasser-pick-stocks-like-warren-buffett
+reviewed_pdf_pages: 4, 13, 48, 69 (the RDY and RPSR definitions, the 125% buy floor
+  and default sell range, and the worked screening tables)
+slug: n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+source_file: N Tengler - New Era Value Investing - A Disciplined Approach To Buying
+  Value And Growth Stocks.pdf
+source_review: partial
+tags:
+- value-investing
+- dividend-yield
+- price-to-sales
+- relative-valuation
+- fundamental-analysis
+- portfolio-construction
+- stop-loss
+- quantitative-screening
+tier: A
+title: 'New Era Value Investing: A Disciplined Approach to Buying Value and Growth
+  Stocks'
+year: 2003
 ---
 
 ## Overview

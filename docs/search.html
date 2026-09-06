@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search · Trading Playbook</title>
+<meta name="description" content="Trading books, explained and connected.">
+<link rel="stylesheet" href="assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="index.html">Index</a>
+    <a href="search.html">Search</a>
+    <a href="coverage.html">Source coverage</a>
+    <a href="paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="topics/indicators.html">Indicators</a><a href="topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="topics/swing-trading.html">Swing Trading</a><a href="topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article>
+  <h1>Search</h1>
+  <p class="muted">Search the complete text of every note, plus books, systems and topic catalogs. Try <em>kelly</em>, <em>turtle</em>, <em>divergence</em> or <em>expectancy</em>.</p>
+  <form id="sform" class="sform" onsubmit="return false">
+    <input id="q" type="search" placeholder="Search…" autofocus>
+    <select id="fcat"><option value="">All categories</option><option>Market Structure &amp; Price Action</option><option>Candlesticks &amp; Chart Patterns</option><option>Indicators</option><option>Fibonacci, Gann &amp; Elliott Wave</option><option>Trend Following &amp; Mechanical Systems</option><option>Day Trading &amp; Scalping</option><option>Swing Trading</option><option>Forex Mechanics &amp; Macro Drivers</option><option>Options, Futures &amp; Derivatives</option><option>Money Management &amp; Position Sizing</option><option>Trading Psychology &amp; Discipline</option><option>Quant, Microstructure &amp; Academic Research</option><option>Investing, Value &amp; Market History</option><option>Glossary</option></select>
+    <select id="ftier"><option value="">Any tier</option><option value="A">Tier A (deep)</option><option value="B">Tier B (concise)</option></select>
+    <select id="fdiff"><option value="">Any level</option><option>beginner</option><option>intermediate</option><option>advanced</option></select>
+    <select id="ftype"><option value="">Any type</option><option>book</option><option>course</option><option>article</option><option>paper</option><option>manual</option><option>system</option><option>topic</option></select>
+  </form>
+  <p id="status" class="muted">Loading index…</p>
+  <ol id="results" class="results"></ol>
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+<script src="search-data.js?v=7ab23979edb1"></script>
+<script>
+(function(){
+  const docs=window.TRADING_PLAYBOOK_SEARCH||[], $=id=>document.getElementById(id);
+  const params=new URLSearchParams(location.search); if(params.get('q')) $('q').value=params.get('q');
+  function snippet(d,q){const t=d.text||'';const i=t.toLowerCase().indexOf(q.toLowerCase());return i<0?t.slice(0,180):'…'+t.slice(Math.max(0,i-80),i+120)+'…';}
+  function score(d,terms){const fields=[['title',100],['tags',40],['author',25],['one_liner',12],['text',1],['category',20]];let n=0;for(const term of terms)for(const [key,weight] of fields){const v=(d[key]||'').toLowerCase();if(v.includes(term))n+=weight;}return n;}
+  function run(){
+    const q=$('q').value.trim(),cat=$('fcat').value,tier=$('ftier').value,diff=$('fdiff').value,type=$('ftype').value,terms=q.toLowerCase().split(/\s+/).filter(Boolean);
+    let hits=docs.filter(d=>(!cat||d.category===cat)&&(!tier||d.tier===tier)&&(!diff||d.difficulty===diff)&&(!type||d.doc_type===type));
+    if(terms.length)hits=hits.filter(d=>terms.every(term=>[d.title,d.author,d.tags,d.one_liner,d.text,d.category].join(' ').toLowerCase().includes(term))).sort((a,b)=>score(b,terms)-score(a,terms)||a.title.localeCompare(b.title));else hits.sort((a,b)=>a.title.localeCompare(b.title));
+    $('status').textContent=hits.length+' result'+(hits.length===1?'':'s')+(q?' for “'+q+'”':'')+(hits.length>200?' · showing first 200':'');
+    $('results').replaceChildren(...hits.slice(0,200).map(d=>{const li=document.createElement('li'),a=document.createElement('a');a.href=d.url||('books/'+d.slug+'.html');a.textContent=d.title;li.append(a);const meta=document.createElement('span');meta.className='muted';meta.textContent=(d.author||'')+(d.year&&d.year!=='unknown'?' · '+d.year:'');li.append(' ',meta,' ');if(d.tier){const b=document.createElement('span');b.className='badge tier-'+d.tier;b.textContent=d.tier;li.append(b,' ');}const tb=document.createElement('span');tb.className='badge';tb.textContent=d.doc_type||'';li.append(tb,document.createElement('br'));const summary=document.createElement('span');summary.textContent=d.one_liner||'';li.append(summary);if(q){li.append(document.createElement('br'));const sn=document.createElement('small');sn.className='muted';sn.textContent=snippet(d,q);li.append(sn);}li.append(document.createElement('br'));const tags=document.createElement('small');tags.className='muted';tags.textContent=(d.category||'')+(d.tags?' · '+d.tags:'');li.append(tags);return li;}));
+  }
+  ['q','fcat','ftier','fdiff','ftype'].forEach(id=>$(id).addEventListener('input',run));run();
+})();
+</script>
+
+</body>
+</html>

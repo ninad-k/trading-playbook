@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does Trend Following Work on Stocks? — Cole Wilcox and Eric Crittenden · Trading Playbook</title>
+<meta name="description" content="Blackstar Funds&#39; study buying 24,000+ US stocks at all-time highs with a 10-ATR trailing stop over 1983-2004, finding a positive expectancy despite realistic costs and survivorship correction.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>Does Trend Following Work on Stocks?</h1>
+  <p class="byline">Cole Wilcox and Eric Crittenden · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Blackstar Funds&#39; study buying 24,000+ US stocks at all-time highs with a 10-ATR trailing stop over 1983-2004, finding a positive expectancy despite realistic costs and survivorship correction.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3, 7-8, 11 (the universe construction, the expectancy and holding-period statistics and the year-by-year trade counts). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=atr-stop">atr-stop</a> <a class="tag" href="../search.html?q=survivorship-bias">survivorship-bias</a> <a class="tag" href="../search.html?q=stocks">stocks</a> <a class="tag" href="../search.html?q=expectancy">expectancy</a> <a class="tag" href="../search.html?q=blackstar-funds">blackstar-funds</a> </td></tr>
+    <tr><th>Length</th><td>20 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Does Trend Following Work on Stocks?” by Cole Wilcox and Eric Crittenden at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: does a long-only trend-following approach, well-documented on futures, also work on individual stocks? Data: 24,000+ US securities on NYSE/AMEX/NASDAQ from January 1983 to December 2004 (over half already delisted, included specifically to remove survivorship bias), back-adjusted for all corporate actions (splits, dividends, mergers). Method: buy any stock making a new all-time closing high (the purest possible trend-following entry), sized in a realistic tradable universe (minimum $15 price filter, minimum $500K/$1M average daily dollar volume for NYSE/AMEX vs. NASDAQ), exit on a 10-unit Average True Range (ATR) trailing stop, with 0.5% round-turn transaction costs deducted per trade. Finding: over 18,000+ trades and 22 years, the system shows a strongly right-skewed return distribution and a positive mathematical expectancy of approximately 15.2% per trade, supporting a &ldquo;yes&rdquo; answer.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>Entry rule</strong>: buy tomorrow&rsquo;s open whenever today&rsquo;s close is the highest close in the stock&rsquo;s entire history — a purely mechanical trend-following trigger.</li>
+<li><strong>Exit rule</strong>: a 10x Average True Range trailing stop (exit next open once price closes through it); ATR settings from 8 to 12 showed no material difference.</li>
+<li><strong>Win rate 49.3%</strong> with a 2.56 average-win-to-average-loss ratio; 17% of trades gained 50%+ while under 3% lost 50%+ — a right-skewed, long-volatility payoff typical of trend systems.</li>
+<li><strong>Expectancy ≈ 15.2%</strong> per trade, average holding period 305 calendar days.</li>
+<li><strong>Risk-normalized results</strong>: only about 2% of trades lost more than their initial budgeted risk by a wide margin, mostly from overnight gaps.</li>
+<li><strong>Short selling excluded</strong> deliberately — borrow/buy-in uncertainty and the asymmetry of unlimited loss vs. capped 100% gain was judged to break the model&rsquo;s assumptions.</li>
+<li><strong>Data integrity matters</strong>: excluding delisted stocks or failing to adjust for dividends materially distorts both entries (breakout levels) and exits (phantom volatility from unadjusted ex-dividend gaps).</li>
+<li><strong>Portfolio overlay</strong> (mechanics undisclosed): never add to losers, only trim winners, never skip a signal, always honor stops, cap total open risk — hypothetical result: 19.3% annualized vs. 12.0% for the S&amp;P 500 Total Return Index over 1991-2004, with a smaller max drawdown (−20.8% vs. −44.7%).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Buy at a new all-time closing high; enter on the next day&rsquo;s open.</li>
+<li>Set a trailing stop at 10x ATR below the high-water mark since entry; exit next open if breached.</li>
+<li>Apply a minimum price filter ($15) and minimum average dollar-volume filter ($500K NYSE/AMEX, $1M NASDAQ) to keep the universe realistically tradable.</li>
+<li>Deduct at least 0.5% round-turn for commissions/slippage; the paper warns lower assumptions distort results.</li>
+<li>Do not apply this same entry logic to shorts — the risk/reward and borrow mechanics are judged fundamentally asymmetric for it.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Published by Blackstar Funds as research/marketing for their own managed programs; the portfolio-level equity curve is explicitly hypothetical and its risk-management mechanics are undisclosed (&ldquo;not disclosed&rdquo;), so it cannot be independently verified or replicated. Results predate 2005 and are US-equity-specific; no out-of-sample period beyond the study window is shown. The paper is a single-parameter-set case study (10 ATR) rather than a robustness sweep, though it notes 8-12 ATR gave similar results.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Systematic/trend-following traders and researchers deciding whether trend entries (breakout to new highs) and ATR-based trailing stops, well known from futures CTAs, transfer to a long-only stock portfolio.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/1-a-mehanical-trading-system-tom-joseph.html">Practical Applications of a Mechanical Trading System Using Simplified Elliott Wave Analysis</a> — Advanced GET&#39;s creator distills Elliott Wave into two mechanical setups using an Elliott Oscillator, Profit Taking Index, and Wave Four Channels.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

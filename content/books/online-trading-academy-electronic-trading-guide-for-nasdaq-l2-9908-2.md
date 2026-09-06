@@ -1,17 +1,33 @@
 ---
-title: "Electronic Trading Guide for NASDAQ Level 2"
 author: Online Trading Academy
-year: 1999
-slug: online-trading-academy-electronic-trading-guide-for-nasdaq-l2-9908-2
-tier: B
 category: Day Trading & Scalping
-tags: [level-2, nasdaq, scalping, market-makers, order-execution, risk-management, soes]
 difficulty: beginner
 doc_type: course
+one_liner: OTA's original SOES-era training manual for reading NASDAQ Level 2 and
+  trading scalping, trend, and multiple-position styles.
 pages: 119
-one_liner: "OTA's original SOES-era training manual for reading NASDAQ Level 2 and trading scalping, trend, and multiple-position styles."
-related: [kevin-hagerty-day-trading-course, jeff-cooper-intra-day-trading-strategies-proven-steps, bernstein-jake-the-compleat-day-trader-vol-i, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading, lbr-scalp-setups]
-source_file: "Online Trading Academy - Electronic Trading Guide For Nasdaq L2(9908)_2.pdf"
+related:
+- kevin-hagerty-day-trading-course
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+- bernstein-jake-the-compleat-day-trader-vol-i
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+- lbr-scalp-setups
+reviewed_pdf_pages: the Level 2, order-routing and trading-style chapters checked
+  against the note
+slug: online-trading-academy-electronic-trading-guide-for-nasdaq-l2-9908-2
+source_file: Online Trading Academy - Electronic Trading Guide For Nasdaq L2(9908)_2.pdf
+source_review: partial
+tags:
+- level-2
+- nasdaq
+- scalping
+- market-makers
+- order-execution
+- risk-management
+- soes
+tier: B
+title: Electronic Trading Guide for NASDAQ Level 2
+year: 1999
 ---
 
 ## Summary

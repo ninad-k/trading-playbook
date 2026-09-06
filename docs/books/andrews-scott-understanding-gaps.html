@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Understanding Gaps — Scott Andrews · Trading Playbook</title>
+<meta name="description" content="Statistical framework for fading the opening gap in S&amp;P 500 futures using gap size, zone, seasonality, stop, and target data.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></p>
+  <h1>Understanding Gaps</h1>
+  <p class="byline">Scott Andrews · 2008 · <span class="badge tier-B">Tier B</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Statistical framework for fading the opening gap in S&amp;P 500 futures using gap size, zone, seasonality, stop, and target data.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3, 6, 19-22 (the gap-zone statistics, the fade results and the monthly breakdowns). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=gap-trading">gap-trading</a> <a class="tag" href="../search.html?q=gap-fade">gap-fade</a> <a class="tag" href="../search.html?q=s-p-500-futures">s-p-500-futures</a> <a class="tag" href="../search.html?q=day-trading">day-trading</a> <a class="tag" href="../search.html?q=statistics">statistics</a> <a class="tag" href="../search.html?q=stop-loss">stop-loss</a> <a class="tag" href="../search.html?q=target-optimization">target-optimization</a> </td></tr>
+    <tr><th>Length</th><td>61 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Understanding Gaps” by Scott Andrews at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A short, data-driven guide to trading the opening gap, focused on the E-mini S&amp;P 500 futures. The author defines a gap as the difference between the prior day&rsquo;s regular-session close and the next day&rsquo;s open, classifies gaps into four types (breakaway, common, continuation/runaway, exhaustion), and shows that roughly 72–73% of opening gaps in the S&amp;P 500 fill (retrace to the prior close) the same day, based on 1998–2008 data. The book&rsquo;s central point is a paradox: trading every gap fade with no stop is only marginally profitable (average profit factor ~1.08) because the 25–30% of gaps that don&rsquo;t fill tend to run hard against the position. The bulk of the book is a framework — gap size, gap zone (location relative to prior day&rsquo;s open/high/low/close), seasonality, stop size, and target optimization — for filtering which gaps to fade and how to manage the trade.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Four gap types: breakaway (after consolidation, doesn&rsquo;t fill same day, high volume), common (average/below-average volume, usually fills same day), continuation/runaway (confirms an ongoing trend, often doesn&rsquo;t fill same day), exhaustion (occurs near trend end, high volume, often reverses sharply).</li>
+<li>1998–2008 E-mini S&amp;P 500 data: ~72.6% average win rate fading gaps &gt;1 point with no stop and closing at day&rsquo;s end if unfilled; but average profit factor was only 1.08 — gross profits barely exceeded gross losses.</li>
+<li>Smaller gaps fill more often: win rate ranges from 84.5% for gaps &lt;0.2% of the index down to roughly 49–59% for gaps over 1%.</li>
+<li>&ldquo;Gap zone&rdquo; (location of the open relative to the prior day&rsquo;s high/low/close, and whether the prior day was up or down) materially changes win rate — zones ranged from 54% to 82% in the study.</li>
+<li>Day-of-week and month-of-year seasonality affects win rate; Wednesday and October historically had the highest fill rates, September the lowest, in the sample studied.</li>
+<li>Stop size trades off win rate against payoff: at 25% of gap size the stop gave a 21.4% win rate with a 3.49 win/loss ratio (profit factor 0.95); at 200% of gap size, win rate rose to 66.1% but win/loss ratio fell to 0.53 (profit factor 1.03) — profit factor stayed close to breakeven across all tested stop sizes.</li>
+<li>The author trades a fixed point stop per gap zone rather than scaling the stop to gap size, citing the flat/marginal profit-factor curve as evidence that variable stops add little edge.</li>
+<li>Target optimization (using extended targets beyond the full gap-fill level, not just the prior close) is presented as a key lever for turning a marginal edge into a profitable strategy.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Define the gap as opening price minus prior regular-session closing price; trade primarily in liquid index futures (S&amp;P 500, Nasdaq 100) rather than single stocks to reduce single-name news risk.</li>
+<li>Filter for smaller gaps and favorable gap zones first — win rate is far higher for gaps &lt;0.4% of the index and for zones where the gap direction runs counter to (fades) the prior day&rsquo;s trend.</li>
+<li>Use a fixed-point stop sized per gap zone (not scaled to gap size); the author&rsquo;s own studies found win rate rises with stop size but win/loss ratio falls almost proportionally, netting little edge from stop-size alone.</li>
+<li>Do not rely on gap-fill probability alone as an edge — with no stop, the aggregate strategy was barely profitable (profit factor ~1.08); a full system requires combining gap size, zone, and seasonality filters plus stop and target rules together.</li>
+<li>Consider extended targets beyond the prior day&rsquo;s close (partial or full gap-fill plus continuation) rather than exiting exactly at the fill level, since the author found this materially improved results.</li>
+<li>Enter at or shortly after the market open with a market order; day traders manage the trade within roughly 1–2 hours, closing by day&rsquo;s end if the gap has not filled.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>All statistics are drawn from a single instrument (E-mini S&amp;P 500 futures) over 1998–2008, a specific volatility regime; results will not necessarily transfer to other markets, single stocks, or post-2008 conditions. Sample sizes for some breakdowns (individual months, zones) are in the low hundreds, and the author himself warns readers not to over-optimize on subdivided seasonality data. The book stops short of giving one complete, ready-to-code system — it presents component statistics (size, zone, seasonality, stop, target) as inputs the reader must combine, not a single stated rule set.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Day and swing traders who want a probability-based approach to gap trading and are comfortable building their own filter/stop/target combination from historical win-rate and profit-factor tables rather than following one fixed rule set.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/using-up-gaps-to-anticipate-upward-price-moves.html">Using Upward Gaps to Predict Upward Trends</a> — A gap strategy scans for low-volatility stocks whose upward gaps have abnormal volume and sufficient dollar liquidity.</li><li><a href="../books/big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow.html">Big Profit Patterns Using Candlestick Signals and Gaps</a> — A candlestick guide that interprets gaps as evidence of changing sentiment and develops bottom, continuation, island, and kicker setups.</li><li><a href="../books/jeff-cooper-intra-day-trading-strategies-proven-steps.html">Intra-Day Trading Strategies: Proven Steps to Short-Term Trading Profits</a> — A chart-annotated catalog of Jeff Cooper&#39;s named short-term setups (1-2-3, Lizard, TNT, Expansion Breakout, Bubble Oops, and more), illustrated on daily, hourly, and 10-minute charts.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

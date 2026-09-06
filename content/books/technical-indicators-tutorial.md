@@ -1,17 +1,31 @@
 ---
-title: Technical Indicators Tutorial
 author: TradingEducation.com
-year: unknown
-slug: technical-indicators-tutorial
-tier: B
 category: Indicators
-tags: [indicators, macd, rsi, stochastics, bollinger-bands, adx, cci, williams-percent-r, volume]
 difficulty: beginner
 doc_type: article
+one_liner: A plain-language walkthrough of volume/open-interest, moving averages,
+  MACD, DMI/ADX, Bollinger Bands, stochastics, RSI, CCI, Williams %R, and momentum,
+  with standard signal rules for each.
 pages: 9
-one_liner: "A plain-language walkthrough of volume/open-interest, moving averages, MACD, DMI/ADX, Bollinger Bands, stochastics, RSI, CCI, Williams %R, and momentum, with standard signal rules for each."
-related: [futures-magazine-the-art-of-day-trading]
-source_file: "Technical_Indicators_Tutorial.pdf"
+related:
+- futures-magazine-the-art-of-day-trading
+reviewed_pdf_pages: 1-9
+slug: technical-indicators-tutorial
+source_file: Technical_Indicators_Tutorial.pdf
+source_review: full
+tags:
+- indicators
+- macd
+- rsi
+- stochastics
+- bollinger-bands
+- adx
+- cci
+- williams-percent-r
+- volume
+tier: B
+title: Technical Indicators Tutorial
+year: unknown
 ---
 
 ## Summary

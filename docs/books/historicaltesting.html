@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historical Testing — Scott Owens · Trading Playbook</title>
+<meta name="description" content="FX Engines&#39; Core Concepts brief on using historical (backtest) data to assess a system&#39;s risk before trading it live, and the five main ways backtests mislead.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>Historical Testing</h1>
+  <p class="byline">Scott Owens · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">beginner</span></p>
+  <p class="lead">FX Engines&#39; Core Concepts brief on using historical (backtest) data to assess a system&#39;s risk before trading it live, and the five main ways backtests mislead.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-3 (the analysis and optimization sections; the remainder is product marketing). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=curve-fitting">curve-fitting</a> <a class="tag" href="../search.html?q=drawdown">drawdown</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=system-optimization">system-optimization</a> <a class="tag" href="../search.html?q=risk-assessment">risk-assessment</a> </td></tr>
+    <tr><th>Length</th><td>6 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Historical Testing” by Scott Owens at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A short &ldquo;Core Concepts&rdquo; brief from FX Engines&rsquo; periodic Forex Report (January 2005, by Scott Owens), pitched at traders of all experience levels. It positions historical (back-)testing as a risk-assessment tool: since a new system has no live track record, a tick-by-tick re-enactment of its trades is the best available substitute. The piece walks through what a good backtest looks like, which metrics matter, and the specific ways backtests can mislead a trader who trusts them uncritically.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>A trader&rsquo;s risk profile per trade is driven mainly by position size, volatility, drawdown potential, and recent events; without live experience, historical and live-simulated tests are the closest substitute.</li>
+<li>A good historical test uses multiple years of tick-level data under real trading constraints, replicable by the trader in a live account.</li>
+<li>The most useful backtest metrics are net pips, maximum drawdown, consecutive losses, and success rate — used first to quickly reject bad systems, then to justify deeper study of promising ones.</li>
+<li>Reviewing individual trades (not just summary statistics) surfaces optimization ideas: adjusting a stop, changing the exit signal, or changing the entry schedule.</li>
+<li>Five named pitfalls: curve fitting (over-optimizing to one date range), ignoring trend (testing against-trend systems without checking they hold up), spread differences (test spread narrower than live spread), poor data source (too few or non-gap-free tick data points), over-mechanizing a system that should stay partly discretionary, and platform incompatibility (test platform behaves differently than the live platform).</li>
+<li>After optimization, the recommended sequence is: test many system variants, optimize with awareness of the pitfalls above, then trade live only after live-testing confirms the historical results.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Build and test a system on multiple years of tick-level (not just daily) data before trading it live.</li>
+<li>Judge a system first on net pips, max drawdown, consecutive losses, and success rate; only dig into individual trades for systems that pass this first screen.</li>
+<li>Match the backtest&rsquo;s assumed spread to the spread actually available in live trading — a system tested at a 3-pip spread that trades live at a wider spread will underperform its backtest.</li>
+<li>Confirm the backtest platform executes identically to the live platform before trusting the results.</li>
+<li>Run a live (forward) test after optimization and before committing real capital, since live results will deviate from historical ones in some ways regardless of test quality.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Published by a vendor (FX Engines) to promote its own backtesting platform and &ldquo;Back Test Multiplier&rdquo; optimization tool; treat the specific product claims as marketing. No concrete numeric thresholds are given for &ldquo;large&rdquo; drawdown or &ldquo;too few&rdquo; data points — the pitfalls are named conceptually rather than quantified. The content is generic risk-assessment guidance, not a specific tradable system.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders building or evaluating a mechanical system who want a short checklist of backtesting pitfalls before trusting a set of historical results.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/mechanical-trading-systems.html">Mechanical Trading Systems</a> — Pairs trend-following, mean-reversion, and short-term mechanical systems with matching trader personality profiles, plus a full price-risk-management toolkit.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li><li><a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a> — A TradeStation/EasyLanguage programming course built around six full turnkey mechanical systems, each backtested 1982-2002 across 17 futures markets.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

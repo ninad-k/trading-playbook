@@ -1,17 +1,33 @@
 ---
-title: Create Your Own Hedge Fund
 author: Mark D. Wolfinger
-year: 2005
-slug: m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti
-tier: A
 category: Options, Futures & Derivatives
-tags: [covered-calls, uncovered-puts, etfs, options-income, portfolio-construction, modern-portfolio-theory, volatility]
 difficulty: beginner
 doc_type: book
+one_liner: A retail-investor guide to replicating a hedge-fund-like return profile
+  by writing covered calls (or uncovered puts) on a diversified basket of optionable
+  ETFs.
 pages: 254
-one_liner: "A retail-investor guide to replicating a hedge-fund-like return profile by writing covered calls (or uncovered puts) on a diversified basket of optionable ETFs."
-related: [lawrence-g-mcmillan-profit-with-options, guy-cohen-the-bible-of-options-strategies, using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital]
-source_file: "M Wolfinger - Create Your Own Hedge Fund - Increase Profits And Reduce Risk With Etfs And Options.pdf"
+related:
+- lawrence-g-mcmillan-profit-with-options
+- guy-cohen-the-bible-of-options-strategies
+- using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital
+reviewed_pdf_pages: 2, 4, 33-34, 87, 127, 144, 163 (the BXM benchmark chapters, options
+  basics, and the worked covered-write portfolio examples)
+slug: m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti
+source_file: M Wolfinger - Create Your Own Hedge Fund - Increase Profits And Reduce
+  Risk With Etfs And Options.pdf
+source_review: partial
+tags:
+- covered-calls
+- uncovered-puts
+- etfs
+- options-income
+- portfolio-construction
+- modern-portfolio-theory
+- volatility
+tier: A
+title: Create Your Own Hedge Fund
+year: 2005
 ---
 
 ## Overview

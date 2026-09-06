@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Compleat Day Trader, Volume I — Jake Bernstein · Trading Playbook</title>
+<meta name="description" content="A futures day-trading toolkit of roughly twenty short-term systems and indicators (gaps, moving-average channel, RSI, stochastic pop, channel breakout, seasonality, CTOD) plus order mechanics and trading psychology.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></p>
+  <h1>The Compleat Day Trader, Volume I</h1>
+  <p class="byline">Jake Bernstein · 1995 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A futures day-trading toolkit of roughly twenty short-term systems and indicators (gaps, moving-average channel, RSI, stochastic pop, channel breakout, seasonality, CTOD) plus order mechanics and trading psychology.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3-7, 50, 59, 126, 142, 201-202 (contents, the Stochastic Pop parameters, technical-analysis chapter, spread economics and the full CTOD rule set). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=day-trading">day-trading</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=gap-trading">gap-trading</a> <a class="tag" href="../search.html?q=moving-average-channel">moving-average-channel</a> <a class="tag" href="../search.html?q=stochastics">stochastics</a> <a class="tag" href="../search.html?q=seasonality">seasonality</a> <a class="tag" href="../search.html?q=scalping">scalping</a> <a class="tag" href="../search.html?q=order-types">order-types</a> </td></tr>
+    <tr><th>Length</th><td>242 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Compleat Day Trader, Volume I” by Jake Bernstein at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/bernstein-jake-the-compleat-day-trader-vol-i--ctod-critical-time-of-day.html">Critical Time of Day (CTOD)</a> · <a href="../books/bernstein-jake-the-compleat-day-trader-vol-i--gap-trading-system.html">Gap Trading System (GO / Delayed GDO)</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>The first installment (1995) of Bernstein&rsquo;s two-volume day-trading series, cataloged by the Library of Congress under futures/futures markets and written primarily for short-term futures traders, though the indicator and system chapters apply to any liquid, actively-traded intraday instrument. The book surveys roughly twenty distinct timing tools and systems: moving averages, a stochastic-based &ldquo;Stochastic Pop&rdquo; (SP) technique, gap trading, Bernstein&rsquo;s own Moving Average Channel (MAC), Wilder&rsquo;s RSI and its first derivative, intraday momentum and rate of change, an intraday channel breakout, classical trend-line and chart-pattern reading, a proprietary open/close (O/C) oscillator, scalping, order mechanics, seasonality (including &ldquo;key seasonal dates&rdquo; and the Critical Time of Day, or CTOD, breakout method), intraday spread trading, a Consecutive Closes System (CCS), and a sentiment index (the Daily Sentiment Index, DSI) — closing with day-trading psychology and &ldquo;24 Keys to Success.&rdquo;</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>No single indicator or system is reliable on its own; consistent day trading comes from combining a handful of objective, rule-based short-term methods — chosen to fit the instrument and time of day — with strict stop-loss and trailing-stop discipline, sound order-handling practice, and psychological control (patience, discipline, avoidance of overtrading). Bernstein is explicitly skeptical of black-box, over-optimized systems, arguing that most fail once real slippage and commissions are accounted for, and repeatedly frames day trading as requiring a cardinal, non-negotiable risk rule that must never be violated regardless of conviction.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Stochastic Pop (SP)</strong> — a momentum-continuation technique on a 14-period slow stochastic: buy when %K reaches 75 percent or higher, on the premise that strong momentum readings often precede the sharpest continuation moves rather than an imminent reversal.</li>
+<li><strong>Opening gap</strong> — today&rsquo;s open trading above yesterday&rsquo;s high (gap up) or below yesterday&rsquo;s low (gap down); the precondition for Bernstein&rsquo;s gap-trading systems.</li>
+<li><strong>Delayed Gap Down/Up Buy (GDO)</strong> — a refinement of the basic gap method that waits through the first hour of trading before committing, to avoid chasing a gap that never fills.</li>
+<li><strong>Moving Average Channel (MAC)</strong> — a support/resistance channel from separate moving averages of highs and lows, with defined buy points (lower band, LBP), sell points (upper band, USP), and midpoints (MBP/MSP), exited on two consecutive bars closing outside the opposite band.</li>
+<li><strong>RSI first derivative</strong> — a smoothed transform of Wilder&rsquo;s RSI intended to be less choppy and more timely than the raw RSI.</li>
+<li><strong>Intraday Channel Breakout</strong> — buying strength above resistance or selling weakness below support, on the premise a fresh breakout continues long enough to be tradable.</li>
+<li><strong>O/C oscillator</strong> — Bernstein&rsquo;s own indicator comparing a moving average of 5-, 10-, or 15-minute opens against a moving average of the corresponding closes, intended to catch large intraday swings early.</li>
+<li><strong>Critical Time of Day (CTOD)</strong> — an opening-range breakout system using the first two hours of 5-minute closing prices to define breakout levels (detail in the sub-page).</li>
+<li><strong>Consecutive Closes System (CCS)</strong> — a trend-following entry triggered by a defined run of consecutive closes in one direction, held with a predetermined stop.</li>
+<li><strong>Daily Sentiment Index (DSI)</strong> — a contrarian sentiment gauge; extreme low or high readings historically preceded reversals or continuation moves with notable, though not universal, reliability in the book&rsquo;s S&amp;P case log.</li>
+<li><strong>Key seasonal dates</strong> — calendar dates on which a market has shown a statistically strong historical tendency to close higher or lower, used as a directional filter rather than a standalone entry.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>Gap trading (GO / Delayed GDO)</strong> — full rule set in the [[bernstein-jake-the-compleat-day-trader-vol-i&ndash;gap-trading-system|gap trading system sub-page]]: buy stop two ticks above the previous day&rsquo;s low after a gap-down open (mirror for a gap-up sell), with a delayed variant waiting through the first trading hour.</li>
+<li><strong>MAC entries</strong> — buy at the lower band (LBP) or midpoint (MBP) in an uptrend; sell at the upper band (USP) or midpoint (MSP) in a downtrend; exit on two consecutive bars closing outside the channel on the opposite side, or trail a stop once profitable.</li>
+<li><strong>CTOD</strong> — full rule set in the [[bernstein-jake-the-compleat-day-trader-vol-i&ndash;ctod-critical-time-of-day|CTOD sub-page]]: trade the breakout of the first two hours&rsquo; 5-minute closing-price range, with a 5-minute-close-based trailing stop.</li>
+<li><strong>Stochastic Pop (SP)</strong> — 14-period slow stochastic, buy when %K is at 75 percent or higher at period end; sampled pages omit the mirrored sell threshold and exit rule.</li>
+<li><strong>Scalping goals</strong> — trade as often as reasonable; exit quickly at either a profit or a loss; avoid holding a strong directional opinion, deferring to market fact tick-by-tick.</li>
+<li><strong>RSI day trading</strong> — the chapter is titled &ldquo;Rules for Day Trading with the RSI,&rdquo; but the sample ends at the heading before the numbered rules; the specific entry/exit thresholds are missing.</li>
+<li><strong>Seasonality</strong> — trade a market&rsquo;s key seasonal date only when its statistical sample is large; no specific date list survives in the sample.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Risk rules vary by system rather than following one universal formula. The MAC exits on a technical signal (two consecutive opposite-side closes) in preference to a fixed dollar stop; CTOD uses a 5-minute-closing-price trailing stop that ratchets in with each completed hour; the gap systems use a stop set in ticks from the entry level. No explicit percent-of-equity risk rule appears in the sampled pages, but Bernstein repeatedly frames risk control as a &ldquo;cardinal rule&rdquo; never to be violated, and recommends a trailing (not static) stop once a position shows a meaningful open profit, so a stalled or reversing move gives back only part of the gain.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The closing chapters push a practitioner&rsquo;s discipline checklist: keep a detailed trading diary logging every trade, its rationale, and the emotional context around it, reviewed regularly to reinforce winning behaviors and suppress losing ones; treat brief intraday price surges (news, large orders) as opportunities to exit or add rather than noise to ignore, adjusting a mental or trailing stop as the move develops; and hold to a single daily profit goal, taking profits more readily once it is within reach. Bernstein frames violating one&rsquo;s own risk or system rule as a &ldquo;cardinal&rdquo; error regardless of how compelling the market looks in the moment.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1-3 — The Basics; What a Day Trader Is and Does; The Illusion of System Testing: definitions, why day trade, why backtests often fail forward.</li>
+<li>Ch 4-5 — Day Trading with Moving Averages; Intraday Application of Stochastics: MA crossover basics; the Stochastic Pop (SP) method.</li>
+<li>Ch 6-7 — Gaps, Gaps, Gaps; Support and Resistance (the MAC): opening-gap GO/GDO systems; Bernstein&rsquo;s Moving Average Channel.</li>
+<li>Ch 8-10 — Wilder&rsquo;s RSI for Day Trading; Intraday Momentum; Rate of Change: derivative-based timing indicators.</li>
+<li>Ch 11-13 — Intraday Channel Breakout; Traditional Technical Analysis; A Unique Oscillator (O/C): support/resistance breaks, trend lines, and Bernstein&rsquo;s open/close oscillator.</li>
+<li>Ch 14-15 — Scalping the Markets; Importance of Orders: short-term goals/methods; market, MIT, FOK, stop, stop-limit, GTC, and OCO order mechanics.</li>
+<li>Ch 16-17 — How Seasonality Affects Markets; Intraday Spread Trading: key seasonal dates; spread day-trading preselection and methods.</li>
+<li>Ch 18-19 — The Consecutive Closes System (CCS); Sentiment Reigns Supreme: a consecutive-close entry method; the Daily Sentiment Index (DSI) and its S&amp;P record.</li>
+<li>Ch 20-22 — Critical Time of Day (CTOD); Putting It All Together; The Psychology of Day Trading: the two-hour opening-range breakout; combining methods; discipline.</li>
+<li>Ch 23-24 — The Impact of 24-Hour Trading; Twenty-Four Keys to Success as a Day Trader.</li>
+<li>Appendix — Formulae: indicator definitions (stochastic %K/%D periods and types, etc.).</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book is genuinely broad — one of the more comprehensive single-volume surveys of distinct, individually-testable short-term systems from a well-known commodity trading author — and two systems (gap trading, CTOD) are given complete, codeable rule sets even within the sampled OCR pages. Its futures orientation means examples are quoted in ticks and dollar amounts specific to 1990s contract specifications (e.g., an &ldquo;$800 stop loss&rdquo; on a 3- versus 54-period moving-average test), which a stock or forex trader must translate to their own instrument. The sentiment (DSI) case log spans 1982-1993, and several chapters — RSI day-trading rules, the seasonal date list, SP&rsquo;s sell-side threshold — reference numeric rules described as forthcoming but not present in the sampled OCR pages; these gaps are noted above rather than filled in. No aggregate, cross-system backtest or drawdown statistic is given; each system&rsquo;s support is a handful of illustrative chart examples plus, in a few cases, a single historical performance table.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Futures and other short-term traders wanting a toolbox of several distinct, individually adoptable mechanical or semi-mechanical systems rather than a single method, and who are comfortable adapting tick-denominated rules to their own instrument. Less useful for a reader who wants one fully specified system worked in depth (see the sub-pages for the two that are), or for a stock-only trader uninterested in translating futures-contract examples.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/jake-bernstein-stock-market-strategies-that-work.html">Stock Market Strategies That Work</a> — Bernstein&rsquo;s stock-market companion volume, sharing the MAC concept and discipline-first framing in a slower-timeframe context.</li>
+<li><a class="xref" href="../books/bernstein-jake-the-compleat-day-trader-vol-ii.html">The Compleat Day Trader II</a> — the direct sequel, introducing the 30-Minute Breakout and other newer systems.</li>
+<li><a class="xref" href="../books/jake-bernstein-trade-your-way-to-riches.html">Trade Your Way to Riches Now! Video Seminar: Introduction to Technical Analysis (Training Manual)</a> — another Bernstein title developing his broader systems and money-management philosophy.</li>
+<li><a class="xref" href="../books/turtlerules.html">The Original Turtle Trading Rules</a> — a contrasting, fully mechanical channel-breakout system with rigorous position sizing, useful for comparison against this book&rsquo;s looser, multi-system toolkit.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/jake-bernstein-stock-market-strategies-that-work.html">Stock Market Strategies That Work</a> — Bernstein father-son guide to stock trading: evaluates common technical indicators&#39; strengths and weaknesses, introduces their own Moving Average Channel (MAC) trend/support-resistance system, and stresses discipline as the deciding factor in results.</li><li><a href="../books/bernstein-jake-the-compleat-day-trader-vol-ii.html">The Compleat Day Trader II</a> — Bernstein&#39;s 1998 sequel introduces the 30-Minute Breakout and Dual Breakout day-trading systems alongside refined gap methods, the inside-day pattern, an A/D oscillator, and expanded day-trading psychology.</li><li><a href="../books/jake-bernstein-trade-your-way-to-riches.html">Trade Your Way to Riches Now! Video Seminar: Introduction to Technical Analysis (Training Manual)</a> — Slide-deck training manual for Bernstein&#39;s four-part video seminar covering futures basics, market cycles, seasonal price tendencies, and his back-tested Key Date Seasonal calendar system.</li><li><a href="../books/turtlerules.html">The Original Turtle Trading Rules</a> — The free, original written record of the actual 1983 Turtle rules — N-based unit sizing, System 1/2 breakouts, 2N stops, and unit-adding — released by an Original Turtle.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

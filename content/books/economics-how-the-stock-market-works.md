@@ -1,17 +1,31 @@
 ---
-title: "How the Stock Market Works"
 author: Mark A. Bradley
-year: unknown
-slug: economics-how-the-stock-market-works
-tier: B
 category: Market Structure & Price Action
-tags: [market-structure, ipo, brokers, market-makers, beginner, mechanics, sec-regulation]
 difficulty: beginner
 doc_type: manual
+one_liner: 'A beginner tutorial on stock market mechanics: why companies issue stock,
+  how IPOs and underwriting work, who the market participants are, and how an order
+  becomes a filled trade.'
 pages: 15
-one_liner: "A beginner tutorial on stock market mechanics: why companies issue stock, how IPOs and underwriting work, who the market participants are, and how an order becomes a filled trade."
-related: [fixed-income-securities, sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition, hull-options-futures-and-other-derivative-securities-5th-ed]
-source_file: "Economics - How The Stock Market Works.pdf"
+related:
+- fixed-income-securities
+- sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition
+- hull-options-futures-and-other-derivative-securities-5th-ed
+reviewed_pdf_pages: 1-15
+slug: economics-how-the-stock-market-works
+source_file: Economics - How The Stock Market Works.pdf
+source_review: full
+tags:
+- market-structure
+- ipo
+- brokers
+- market-makers
+- beginner
+- mechanics
+- sec-regulation
+tier: B
+title: How the Stock Market Works
+year: unknown
 ---
 
 ## Summary

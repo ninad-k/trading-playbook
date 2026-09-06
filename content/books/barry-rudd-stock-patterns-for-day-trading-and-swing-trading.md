@@ -1,17 +1,36 @@
 ---
-title: Stock Patterns for Day Trading and Swing Trading
 author: Barry Rudd
-year: 1998
-slug: barry-rudd-stock-patterns-for-day-trading-and-swing-trading
-tier: A
 category: Day Trading & Scalping
-tags: [day-trading, scalping, swing-trading, breakout, consolidation, tape-reading, stop-loss, nasdaq]
 difficulty: intermediate
 doc_type: book
+one_liner: SOES-era Nasdaq day trader's manual of intraday breakout/consolidation
+  chart setups, a stock-specific trailing-stop ('wiggle') method, and market-maker
+  tape-reading, plus a scalping supplement.
 pages: 196
-one_liner: "SOES-era Nasdaq day trader's manual of intraday breakout/consolidation chart setups, a stock-specific trailing-stop ('wiggle') method, and market-maker tape-reading, plus a scalping supplement."
-related: [kevin-hagerty-day-trading-course, day-trading-basket-stocks-underground-trader, george-angell-sniper-trading-workbook-pdf, jeff-cooper-intra-day-trading-strategies-proven-steps, oliver-velez-swing-trading-tactics]
-source_file: "Barry Rudd - Stock Patterns For Day Trading And Swing Trading.pdf"
+related:
+- kevin-hagerty-day-trading-course
+- day-trading-basket-stocks-underground-trader
+- george-angell-sniper-trading-workbook-pdf
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+- oliver-velez-swing-trading-tactics
+reviewed_pdf_pages: 1-13, 19, 26, 32, 64, 83, 89, 95, 102, 133, 140 (the definitions,
+  day-trade rules, scalping and profit-taking sections; the rest of the scan is chart
+  plates with little extractable text)
+slug: barry-rudd-stock-patterns-for-day-trading-and-swing-trading
+source_file: Barry Rudd - Stock Patterns For Day Trading And Swing Trading.pdf
+source_review: partial
+tags:
+- day-trading
+- scalping
+- swing-trading
+- breakout
+- consolidation
+- tape-reading
+- stop-loss
+- nasdaq
+tier: A
+title: Stock Patterns for Day Trading and Swing Trading
+year: 1998
 ---
 
 ## Overview
@@ -42,7 +61,7 @@ High-probability trades come from watching a stock's own price-action personalit
 3. **Initial stop-loss:** 1/4 point from the actual fill price (sometimes 3/8 point).
 4. **Trailing "wiggle" stop:** once open profit plus the initial 1/4-point stop equals roughly 3/8 point of profit, begin trailing the stop by the stock's standard wiggle amount; exit ("wiggled out") once price retraces beyond that amount.
 5. **Late-breakout filter:** after missing the first breakout of the day, take a later breakout on the same stock only if the broader market trend is intact (not "losing steam") and the day's range still leaves room versus the stock's average daily range.
-6. **Price-target override:** bank profits directly instead of trailing the wiggle when (a) a fast spike of about 3/4 point or more occurs within 5-10 minutes of the breakout, (b) price approaches a daily support/resistance level, or (c) a strong move happens on the first day of a multi-day setup.
+6. **Price-target override:** bank profits directly instead of trailing the wiggle when (a) a fast spike of roughly 1 point or more occurs within 5-10 minutes of the breakout, (b) price approaches a daily support/resistance level, or (c) a strong move happens on the first day of a multi-day setup.
 7. **Pre-trade risk check:** before entering, estimate the probable exit price if the market reverses immediately (via bid-side depth); pass on the setup if that immediate-reversal loss would exceed about 1/4 point (sometimes 3/8).
 8. **Beginner position sizing:** trade only 500-share clips when starting with real money, to limit the "tuition" cost of learning each stock's fill behavior.
 9. **Partial profit-taking:** near the close, on a strongly profitable day trade, consider selling roughly 700 of 1,000 shares to bank the bulk of the gain while letting the remainder run.

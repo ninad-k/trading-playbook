@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Neutral Equity Long-Short Portfolio Construction — Bruce I. Jacobs and Kenneth N. Levy (editors) · Trading Playbook</title>
+<meta name="description" content="Jacobs and Levy&#39;s integrated long-short optimization: build one portfolio where longs and shorts are chosen jointly, not a long book plus a short book bolted together.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a> › <a href="../books/marketneutralstrategies.html">Market Neutral Strategies</a></p>
+  <h1>Market Neutral Equity Long-Short Portfolio Construction</h1>
+  <p class="byline">Bruce I. Jacobs and Kenneth N. Levy (editors) · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">Jacobs and Levy&#39;s integrated long-short optimization: build one portfolio where longs and shorts are chosen jointly, not a long book plus a short book bolted together.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-neutral">market-neutral</a> <a class="tag" href="../search.html?q=long-short">long-short</a> <a class="tag" href="../search.html?q=pairs-trading">pairs-trading</a> <a class="tag" href="../search.html?q=portfolio-optimization">portfolio-optimization</a> <a class="tag" href="../search.html?q=leverage">leverage</a> </td></tr>
+    <tr><th>Length</th><td>304 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Market Neutral Equity Long-Short Portfolio Construction” by Bruce I. Jacobs and Kenneth N. Levy (editors) at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A method for constructing an equity portfolio with (approximately) zero sensitivity to the broad market — a portfolio beta near zero — so that its return reduces to the spread between securities held long (expected outperformers) and securities sold short (expected underperformers), independent of whether the market itself rises or falls. The key distinction the chapter draws is between a naive &ldquo;long-plus-short&rdquo; portfolio (a long-only book combined with a separately-built short-only book, each still constrained to move toward benchmark weights to control its own risk) and a true &ldquo;integrated optimization,&rdquo; where the long and short legs are selected jointly in a single optimization using expected returns, return volatilities and cross-security correlations. Only the integrated version fully escapes benchmark-weight constraints and captures the real advantage of being able to short.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Initial capital deployment.</strong> For $10 of initial capital, invest ~$9 long and simultaneously sell short ~$9 of other securities, retaining ~$1 (10%) as a cash liquidity buffer. This is comfortably inside Federal Reserve Regulation T&rsquo;s 50% initial-margin requirement for equity shorts (illustrated margin ≈ 55.6%).</li>
+<li><strong>Security selection: joint, not sequential.</strong> Do not build a long-only sub-portfolio and a short-only sub-portfolio separately. Select which names to hold long and which to sell short within one optimization that weighs each candidate&rsquo;s expected excess return, its volatility, and its correlation with every other candidate (long and short) simultaneously, plus the investor&rsquo;s risk tolerance.</li>
+<li><strong>No benchmark-weight anchor.</strong> Once a benchmark has been used only to estimate each security&rsquo;s systematic (market) sensitivity, discard it for position-sizing purposes. A 1% overweight and a 1% underweight both simply require allocating 1% of capital (long or short) — there is no need to hold &ldquo;neutral&rdquo; positions in stocks/sectors the investor has no view on, and no cap (like the ~0.01% weight of a median-cap stock) limiting how far the investor can underweight a disliked name, unlike in long-only.</li>
+<li><strong>Neutrality condition.</strong> True beta-neutrality requires that the <em>systematic risk sensitivities</em> (not just the dollar amounts) of the long and short books offset — equal dollar amounts long and short is not sufficient if their betas differ. Watch for and correct residual sector or factor tilts (e.g., longs overweight technology relative to shorts) unless deliberately chosen.</li>
+<li><strong>Liquidity buffer sizing.</strong> Hold roughly 10% of capital in cash as a liquidity buffer to absorb daily mark-to-market swings on the short book without breaching maintenance margin. Too small a buffer risks forced covering/selling or costly broker-call-rate borrowing; too large a buffer wastes deployable capital.</li>
+<li><strong>Rebalancing trigger.</strong> Rebalance back toward equal long/short dollar values (and matched systematic sensitivities) whenever: (a) the market moves enough to leave the account over- or under-collateralized on the short side (lenders return excess collateral on a decline; the account must post more on a rise), or (b) the long and short legs earn a differential return (a favorable spread still requires selling some longs and covering some shorts to restore balance and the target 10% liquidity buffer). A 2% realized long-short return spread on a $9M/$9M book required roughly $0.2M of rebalancing trades in the book&rsquo;s worked example.</li>
+<li><strong>Leverage is optional.</strong> The 50%-margin structure above uses no true leverage (equal dollars long/short from the same capital). An investor can choose $50 long/$50 short from $100 capital (unlevered, matching a $100 long-only bet&rsquo;s total capital at risk) up to Reg T&rsquo;s 2:1 maximum, or lever further outside Reg T (e.g., as a hedge fund) — but every added turn of leverage multiplies both expected active return and potential loss and drawdown speed.</li>
+<li><strong>Prime broker and shorting mechanics.</strong> Establish a margin account with a prime broker who arranges stock borrows, clears trades, and marks the short book to market daily. Diversify individual short positions across many small names rather than concentrating in a few, to reduce exposure to recall/buy-in risk and short squeezes, particularly in small-cap or hard-to-borrow names.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>Systematic risk is designed to be near zero, but residual (security-selection) risk, measured as the standard deviation of the long-short return spread, is retained by design — that is the source of the strategy&rsquo;s expected return and must be sized to the investor&rsquo;s risk tolerance via the optimization, not eliminated. Leverage, where used, multiplies this residual risk along with expected return; margin calls on the short book can force untimely covering. Short-specific costs reduce net return versus the gross long-short spread: the short rebate (interest on short-sale proceeds) is typically haircut 25–30bp below the Treasury-bill rate by the lender and prime broker (and can be more, or negative, for hard-to-borrow names); uptick-style restrictions on when a stock can be shorted can delay trade execution versus the model&rsquo;s intended timing; and shares can be recalled by the lender at any time, forcing a buy-in. A fully leveraged (2:1) portfolio incurs roughly double the trading costs of an unlevered long-only portfolio of the same gross capital, so expected returns must clear that higher cost hurdle.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The chapter presents this as a professional/institutional framework requiring prime-brokerage access, optimization software, and reliable factor-risk models — it is not a retail pairs-trading recipe with a specific entry/exit signal, and gives no security-selection alpha model of its own (it assumes the investor already has one). The worked numeric examples (margin percentages, liquidity buffer size, rebalancing amounts) use a hypothetical $10M account and stylized uniform return assumptions; real portfolios have heterogeneous position sizes and correlations that require actual optimization software, not the simplified arithmetic shown. The claimed advantage of &ldquo;no benchmark-weight constraint&rdquo; assumes the optimizer&rsquo;s risk model correctly captures each security&rsquo;s true factor exposures — a flawed or incomplete risk model (as in the Askin Capital Management case discussed in the parent book&rsquo;s Chapter 9) can leave a portfolio far less neutral than intended despite dollar-balanced longs and shorts.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/wyser-pratte-guy-risk-arbitrage.html">Risk Arbitrage</a> — A practitioner&#39;s manual for merger/risk arbitrage: parity and spread calculation, deal-risk checklists, and worked case studies from the 1960s through the 2000s.</li><li><a href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

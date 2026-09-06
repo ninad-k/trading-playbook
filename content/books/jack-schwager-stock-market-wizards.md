@@ -1,17 +1,35 @@
 ---
-title: "Stock Market Wizards"
 author: Jack D. Schwager
-year: 2001
-slug: jack-schwager-stock-market-wizards
-tier: A
 category: Trading Psychology & Discipline
-tags: [interview-anthology, risk-control, discipline, short-selling, value-investing, options, statistical-arbitrage, position-sizing]
 difficulty: intermediate
 doc_type: book
+one_liner: Fourteen interviews with top U.S. stock/derivatives traders plus a trading
+  psychiatrist, distilled into 65 cross-cutting 'Wizard Lessons' on edge, discipline,
+  and risk control rather than one method.
 pages: 177
-one_liner: "Fourteen interviews with top U.S. stock/derivatives traders plus a trading psychiatrist, distilled into 65 cross-cutting 'Wizard Lessons' on edge, discipline, and risk control rather than one method."
-related: [reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, richard-smitten-trade-like-jesse-livermore-2005, disciplined-trader, trading-in-the-zone, black-scholes-option-pricing-model]
-source_file: "Jack Schwager - Stock Market Wizards.pdf"
+related:
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- richard-smitten-trade-like-jesse-livermore-2005
+- disciplined-trader
+- trading-in-the-zone
+- black-scholes-option-pricing-model
+reviewed_pdf_pages: 3-5, 10, 59, 86 (the interview chapters checked against the note's
+  attributed rules and the closing Wizard Lessons)
+slug: jack-schwager-stock-market-wizards
+source_file: Jack Schwager - Stock Market Wizards.pdf
+source_review: partial
+tags:
+- interview-anthology
+- risk-control
+- discipline
+- short-selling
+- value-investing
+- options
+- statistical-arbitrage
+- position-sizing
+tier: A
+title: Stock Market Wizards
+year: 2001
 ---
 
 ## Overview

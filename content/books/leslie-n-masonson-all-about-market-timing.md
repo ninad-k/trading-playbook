@@ -1,17 +1,34 @@
 ---
-title: All About Market Timing
 author: Leslie N. Masonson
-year: 2004
-slug: leslie-n-masonson-all-about-market-timing
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [market-timing, seasonality, moving-averages, presidential-cycle, sentiment-indicators, backtesting, mechanical-systems]
 difficulty: intermediate
 doc_type: book
+one_liner: A backtested survey of mechanical, calendar- and moving-average-based market-timing
+  systems (Best Six Months, presidential cycle, VL4%/NC6% filters) that beat buy-and-hold
+  with lower drawdowns.
 pages: 275
-one_liner: "A backtested survey of mechanical, calendar- and moving-average-based market-timing systems (Best Six Months, presidential cycle, VL4%/NC6% filters) that beat buy-and-hold with lower drawdowns."
-related: [marcel-petro-market-timing, michael-covel-trend-following, elder-alexander-trading-for-a-living, jack-schwager-stock-market-wizards, joe-ross-trading-spreads-and-seasonals]
-source_file: "Leslie N Masonson - All About Market Timing.pdf"
+related:
+- marcel-petro-market-timing
+- michael-covel-trend-following
+- elder-alexander-trading-for-a-living
+- jack-schwager-stock-market-wizards
+- joe-ross-trading-spreads-and-seasonals
+reviewed_pdf_pages: 11, 16, 19, 21, 149-150 (contents, the drawdown-recovery arithmetic,
+  and the seasonal and electoral-cycle studies behind the timing systems)
+slug: leslie-n-masonson-all-about-market-timing
+source_file: Leslie N Masonson - All About Market Timing.pdf
+source_review: partial
+tags:
+- market-timing
+- seasonality
+- moving-averages
+- presidential-cycle
+- sentiment-indicators
+- backtesting
+- mechanical-systems
+tier: A
+title: All About Market Timing
+year: 2004
 ---
 
 ## Overview

@@ -1,17 +1,29 @@
 ---
-title: "10% Of Traders Go Bankrupt"
 author: Mark McRae
-year: unknown
-slug: 10-bankrupt
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, risk-management, discipline, beginner-mistakes, expectations]
 difficulty: beginner
 doc_type: article
+one_liner: Short introductory lesson from the 'Traders Secret Library' arguing that
+  lack of education, unrealistic expectations, and poor risk management — not low
+  IQ — cause most traders to fail.
 pages: 4
-one_liner: "Short introductory lesson from the 'Traders Secret Library' arguing that lack of education, unrealistic expectations, and poor risk management — not low IQ — cause most traders to fail."
-related: [mcrae-mark-sure-fire-forex-trading, trading-psychology, investmentpsychologyexplained]
-source_file: "10__bankrupt.pdf"
+related:
+- mcrae-mark-sure-fire-forex-trading
+- trading-psychology
+- investmentpsychologyexplained
+reviewed_pdf_pages: 1-4
+slug: 10-bankrupt
+source_file: 10__bankrupt.pdf
+source_review: full
+tags:
+- psychology
+- risk-management
+- discipline
+- beginner-mistakes
+- expectations
+tier: B
+title: 10% Of Traders Go Bankrupt
+year: unknown
 ---
 
 ## Summary

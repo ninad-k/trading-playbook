@@ -31,7 +31,7 @@
  },
  "sm-momentum-investing-screening-for": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex": {
@@ -51,9 +51,8 @@
  },
  "1-the-mathematics-of-financial-derivatives": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "10-minute-guide-to-investing-in-stocks": {
   "tier": "B",
@@ -82,18 +81,18 @@
  },
  "10keystosuccess": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "15-minutestf": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "17-money-making-candle-formations": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "17-money-making-candlestick-formations2": {
   "tier": "B",
@@ -182,7 +181,7 @@
  },
  "a-realistic-and-effective-strategy-for-using-candlestick-sri-0032": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "a-short-course-in-technical-trading": {
@@ -191,9 +190,9 @@
   "status": ""
  },
  "a-new-interprtation-of-information-rate-kelly": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Same Kelly 1956 paper; this copy's text layer is garbled"
  },
  "a-complete-guide-to-technical-trading-tactics-2004": {
   "tier": "A",
@@ -292,7 +291,7 @@
  },
  "amazing-forex-system": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets": {
@@ -302,7 +301,7 @@
  },
  "andrews-pitchfork": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "andrews-scott-understanding-gaps": {
@@ -316,9 +315,9 @@
   "status": ""
  },
  "appendix1": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "MQL4 programming appendix"
  },
  "application-of-multi-agent-games-to-the-prediction-of-financial-time-series": {
   "tier": "B",
@@ -332,17 +331,17 @@
  },
  "article-arbitrage-pricing-theory": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "article-finance-some-quantitative-tests-for-stock-price-generating-models-and-trading-folk": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "asset-pricing-with-speculative-trading": {
@@ -352,7 +351,7 @@
  },
  "asset-valuation-allocation-models": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "atrainer-method": {
@@ -362,12 +361,12 @@
  },
  "aust-vs-int-l-equity-portfolio-journal": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "automated-forex-ea": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "automated-intraday-open-pivot-setup": {
@@ -377,7 +376,7 @@
  },
  "avoiding-mistakes-in-forex-trading-forextrader": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "back-to-basics-historical-option-pricing-revisited": {
@@ -397,7 +396,7 @@
  },
  "barbara-star-hidden-divergence": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "barclay-and-hendershott-price-discovery-and-trading-after-hours": {
@@ -417,9 +416,9 @@
   "status": "duplicate"
  },
  "basic-financial-strategies": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "OCR full page is household budget/debt/life-planning checklist, no trading analysis."
  },
  "basic-guide-to-understanding-elliot-wave": {
   "tier": "B",
@@ -443,13 +442,13 @@
  },
  "bella-method": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "ben-branch-the-predictive-power-of-stock-market-indicator": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "benjamin-van-vliet-2004-modeling-financial-markets-using-visual-basic-net-and-databases-to": {
   "tier": "B",
@@ -480,7 +479,7 @@
  },
  "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "big-ben-breakout": {
@@ -511,14 +510,13 @@
  },
  "bollinger-band": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "bollinger-bandit-trading-strategy": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "bollingerbands": {
   "tier": "B",
@@ -527,7 +525,7 @@
  },
  "bonus-thoughts-on-trading": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "bonus-thoughts-on-trading-2": {
@@ -542,7 +540,7 @@
  },
  "borsellino-lewis-2001-trading-es-and-nq-futures-course": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "breakup-0-1": {
@@ -562,7 +560,7 @@
  },
  "brooks-and-kim-the-individual-investor-and-the-weekend-effect-a-reexamination-with-intrada": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "building-winning-trading-systems-with-tradestation-wiley": {
@@ -597,7 +595,7 @@
  },
  "cai-discretionary-risk-matrix": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "calming-the-mind": {
@@ -617,12 +615,12 @@
  },
  "candlestick-charting-explained": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "candlestick-and-pattern-1": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "candlesticks-fibonacci-and-chart-pattern-trading-tools": {
@@ -631,9 +629,9 @@
   "status": ""
  },
  "cantor-1997-split-ratings-and-the-pricing-of-credit-risk": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "cashing-in-on-short-term-currency-trends": {
   "tier": "B",
@@ -652,7 +650,7 @@
  },
  "cci-manual": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "chan-chockalingam-and-lai-overnight-information-and-intraday-trading-behavior-evidence-fro": {
@@ -673,7 +671,7 @@
  },
  "chart-formations": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "chart-patterns-and-technical-indicators": {
@@ -687,18 +685,18 @@
   "status": ""
  },
  "chinn": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "choosing-a-trading-system-that-actually-works": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "chordia-roll-and-subrahmanyam-commonality-in-liquidity": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity": {
@@ -707,9 +705,9 @@
   "status": ""
  },
  "client-expectations": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Financial adviser marketing flyer"
  },
  "colour-of-money-22d": {
   "tier": "B",
@@ -733,7 +731,7 @@
  },
  "competition-between-exchanges-euronext-versus-xetra": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "congestion-markets-estimating-a-breakout-target": {
@@ -743,17 +741,17 @@
  },
  "coreconcepts-automatedtrading": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "cornflower": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "cot": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "course1lesson1": {
@@ -778,7 +776,7 @@
  },
  "currency-trader0205": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "currency-trading-vehicles": {
@@ -797,10 +795,9 @@
   "status": ""
  },
  "cynthia-kase-multi-dimensional-trading": {
-  "tier": "A",
-  "reason": "manual: core trading text",
-  "status": "",
-  "ocr": true
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "daily-open-sr-technique": {
   "tier": "B",
@@ -819,7 +816,7 @@
  },
  "david-c-stendahl-money-management-strategies-for-serious-traders": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "david-dreman-contrarian-investment-strategies-the-next-generation": {
@@ -839,9 +836,9 @@
   "status": ""
  },
  "day-trading-university": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "daytradeforex-com-the-day-trade-forex-system-the-ultimate-step-by-step-guide-to-online-cur": {
   "tier": "C",
@@ -854,10 +851,9 @@
   "status": ""
  },
  "daytrading-university-trading-course": {
-  "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "tier": "C",
+  "status": "corrupt",
+  "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
  },
  "daytradingmind": {
   "tier": "B",
@@ -881,7 +877,7 @@
  },
  "demarchi-and-foucault-equity-trading-systems-in-europe-a-survey-of-recent-changes": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "demark-tom-demark-on-day-trading-options": {
@@ -902,7 +898,7 @@
  },
  "derivatives-pricing-and-financial-modelling": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "detecting-breakouts-from-flags-pennants": {
@@ -912,7 +908,7 @@
  },
  "deutsche-bank-asset-valuation-allocation-models-2001": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "deutsche-bank-asset-valuation-allocation-models-2001-2": {
@@ -937,7 +933,7 @@
  },
  "divergence": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "divorcing-the-dow-using-revolutionary-market-indicators-to-profit-from-the-stealth-boom-ah": {
@@ -977,7 +973,7 @@
  },
  "dow": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "dynamic-trading-by-robert-c-miner": {
@@ -1026,9 +1022,9 @@
   "status": ""
  },
  "eday-trading-in-mind": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "edward-dobson-understanding-spreads": {
   "tier": "B",
@@ -1043,12 +1039,12 @@
  },
  "electronic-trading-systems-in-europe-and-development-potentialities-for-russia": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "eleswarapu-and-venkataraman-the-impact-of-legal-and-political-institutions-on-equity-tradi": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "eleswarapu-thompson-and-venkataraman-the-impact-of-regulation-fair-disclosure-trading-cost": {
@@ -1082,9 +1078,9 @@
   "status": ""
  },
  "engle-the-econometric-of-high-frequency-data": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "epocketbook": {
   "tier": "B",
@@ -1098,7 +1094,7 @@
  },
  "etheebookoftechnicalmarketindicators": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "evaluation-of-value-at-risk-models": {
@@ -1137,18 +1133,18 @@
   "status": ""
  },
  "f-e-james-jr-monthly-moving-averages-an-effective-investment-tool": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "fabozzi-2004-default-rates-on-structured-finance-securities": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fairygoodtrader": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fallon-w-calculating-value-at-risk": {
@@ -1158,18 +1154,17 @@
  },
  "fc-power-trading-course-forex-capital-markets-2003": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "fernando-commonality-in-liquidity-transmission-of-liquidity-shocks-across-investors-and-se": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fi-lecture16-exotic-options-credit-derivatives": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fibonacci-ratios-with-pattern-recognition": {
@@ -1189,7 +1184,7 @@
  },
  "fibonaccimathinnature": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "financial-times-series-tbx-ug": {
@@ -1199,7 +1194,7 @@
  },
  "fine-tuning-your-money-management": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fischer-robert-fibonacci-applications-and-strategies-for": {
@@ -1215,12 +1210,12 @@
  },
  "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness": {
   "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "status": "duplicate",
+  "reason": "The zero-page file is corrupt and cannot be rendered; a source-reviewed canonical note and ACD method page already cover the same title."
  },
  "fixed-income-securities": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed": {
@@ -1230,7 +1225,7 @@
  },
  "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-for-everyone-revised": {
@@ -1270,12 +1265,12 @@
  },
  "forex-report-predicting-price-movement": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-strategy": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-study-book-for-successful-foreign-exchange-dealing": {
@@ -1295,7 +1290,7 @@
  },
  "forex-trading-is-challenging": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-amazing-forex-system": {
@@ -1305,12 +1300,12 @@
  },
  "forex-money-management": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-nfa": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-as-trader-s-alternative": {
@@ -1330,7 +1325,7 @@
  },
  "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-trader-e-book": {
@@ -1345,7 +1340,7 @@
  },
  "forex-trading-machine-ebook": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forex-trading-with-candlestick-and-pattern": {
@@ -1355,7 +1350,7 @@
  },
  "forex-trading-with-candlestick-and-pattern-2": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "forexintro": {
@@ -1390,7 +1385,7 @@
  },
  "fractal": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund": {
@@ -1419,9 +1414,9 @@
   "status": ""
  },
  "fx-engines-predicting-price-action": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Exact duplicate of forex-report-predicting-price-movement by page count, word count, title, authors, method, tables, and action text; no independent evidence."
  },
  "fx10": {
   "tier": "B",
@@ -1429,14 +1424,14 @@
   "status": ""
  },
  "fx-crossing-over-to-the-forex-market": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "fx-crossing-over-to-the-forex-market-2": {
   "tier": "C",
-  "reason": "triage: C",
-  "status": "duplicate"
+  "status": "duplicate",
+  "reason": "Exact SHA-1 duplicate of the reviewed three-page canonical article."
  },
  "fx-power-trading-course": {
   "tier": "C",
@@ -1445,7 +1440,7 @@
  },
  "fx-wizard": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "fxfutures": {
@@ -1459,10 +1454,9 @@
   "status": "duplicate"
  },
  "gann-how-to-trade": {
-  "tier": "A",
-  "reason": "manual: core trading text",
-  "status": "",
-  "ocr": true
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "gann-w-d-new-stock-trend-detector": {
   "tier": "A",
@@ -1471,9 +1465,9 @@
   "ocr": true
  },
  "gann-w-d-1953-magic-words": {
-  "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Religious/numerology tract, not a trading text"
  },
  "gannwheel": {
   "tier": "B",
@@ -1527,7 +1521,7 @@
  },
  "georgemuzea-the-vital-few-vs-the-trivial-many-invest-with-the-insiders-not-the-masses": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003": {
@@ -1547,13 +1541,13 @@
  },
  "gimmibar": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "giuciao-atspace-org-building-your-e-mini-trading-strategy": {
   "tier": "B",
@@ -1561,24 +1555,24 @@
   "status": ""
  },
  "glenn-neely-masterelliotwav-low-quality": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "glossary-of-forex-terms": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "got-your-trading-style-figured-out": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "greatestmoneymakingsecret": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Prosperity/spirituality book (Joe Vitale)"
  },
  "greg-morris-candlestick-charting-explained": {
   "tier": "A",
@@ -1602,7 +1596,7 @@
  },
  "handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "harris-sofianos-and-shapiro-program-trading-and-intraday-volatility": {
@@ -1622,7 +1616,7 @@
  },
  "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "he-global-money-markets": {
@@ -1652,13 +1646,13 @@
  },
  "hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "how-effective-is-automated-forex-trading": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Vendor advertisement, no content"
  },
  "how-i-made-2-million-in-the-stock-market": {
   "tier": "A",
@@ -1734,13 +1728,13 @@
  },
  "inside-the-guru-mind-warren-buffet-r-heller": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "insurances-strategies": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "OCR full page is personal insurance adviser checklist, no trading method."
  },
  "inter-l-vs-aust-shares": {
   "tier": "B",
@@ -1793,9 +1787,9 @@
   "status": ""
  },
  "investment-performance-and-investor-behavior": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "investment-psychology-explained-classic-strategies-to-beat-the-markets-wiley": {
   "tier": "C",
@@ -1803,9 +1797,9 @@
   "status": "duplicate"
  },
  "investment-science": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "investment-valuation-damodaran": {
   "tier": "A",
@@ -1814,7 +1808,7 @@
  },
  "investment-vehicles": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "investmentpsychologyexplained": {
@@ -1824,7 +1818,7 @@
  },
  "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "j-k-lasser-pick-stocks-like-warren-buffett": {
@@ -1859,18 +1853,18 @@
   "status": "duplicate"
  },
  "jaeckel-p-monte-carlo-methods-in-finance-wiley-2002-t-c-232s": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "jake-bernstein-dearborn-trade-publishing-no-bull-investing": {
   "tier": "B",
-  "reason": "manual: concise is enough",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "jake-bernstein-how-to-trade-the-new-single-stock-futures": {
   "tier": "B",
-  "reason": "manual: concise is enough",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "jake-bernstein-market-masters": {
@@ -1927,9 +1921,9 @@
   "status": "duplicate"
  },
  "jen-matshall-practical-fibonacci-methode-for-forex-trading": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Same title, authors, 31-page structure, rules, examples, stop guidance, and conclusion as the canonical copy; only an added website footer differs."
  },
  "jens-clever-master-trader": {
   "tier": "B",
@@ -1948,7 +1942,7 @@
  },
  "joe-ross-how-to-spot-a-trend": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "joe-ross-trading-spreads-and-seasonals": {
@@ -1965,17 +1959,17 @@
  },
  "joerosstrading-manual-intro-1-13": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "joerosstrading-manual-appendices-269-320": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "john-allen-paulos-mathematician-plays-the-stock-market": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "john-bollinger-bollinger-on-bollinger-band": {
@@ -1990,7 +1984,7 @@
  },
  "john-hayden-how-to-use-the-rsi": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "john-j-murphy-charting-made-easy": {
@@ -2020,12 +2014,12 @@
  },
  "john-wiley-sons-valuation-maximizing-corporate-value": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "john-wiley-sons-stock-trader-almanac-2005-38th-ed": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "john-wiley-sons-stock-trader-almanac-2005-38th-ed-2": {
@@ -2101,7 +2095,7 @@
  },
  "krugman-hedge-funds": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years": {
@@ -2156,7 +2150,7 @@
  },
  "learning-to-trade": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "lecture-notes-in-mathematical-finance-lin-1996": {
@@ -2211,7 +2205,7 @@
  },
  "madhavan-market-microstructure-a-survey": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "maitei-ma-method": {
@@ -2266,9 +2260,9 @@
   "status": "duplicate"
  },
  "market-making-and-reversal-on-the-stock-exchange": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "market-movement": {
   "tier": "B",
@@ -2292,7 +2286,7 @@
  },
  "markus-heitkoetter-how-to-make-money-with-trading-systems": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "martin-j-pring-investment-psychology-part-1": {
@@ -2307,8 +2301,8 @@
  },
  "masteelliowav": {
   "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "status": "duplicate",
+  "reason": "Both 168-page scans have the same title metadata, cover, sampled interiors, and near-identical recovered OCR; differences reflect scan compression."
  },
  "master-trader-by-jens-clever": {
   "tier": "C",
@@ -2327,7 +2321,7 @@
  },
  "maximizing-gains-with-trade-management": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures": {
@@ -2337,7 +2331,7 @@
  },
  "mcgraw-hill-understanding-stocks": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mcgraw-hill-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading-i": {
@@ -2357,7 +2351,7 @@
  },
  "mcgraw-hill-how-to-read-a-financial-statement": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mcgraw-hill-osborne-media-the-personal-finance-calculator": {
@@ -2372,7 +2366,7 @@
  },
  "mcgraw-hill-stock-options-and-the-new-rules": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mcgraw-hill-buy-the-rumor-sell-the-fact-85-maxims-of-wall-street-and-what-they-really-mean": {
@@ -2407,7 +2401,7 @@
  },
  "mcmillan-and-speight-nonlinear-dynamics-in-high-frequency-intra-day-financial-data": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mcrae-mark-sure-fire-forex-trading": {
@@ -2427,7 +2421,7 @@
  },
  "metastock-chart-patterns-tutorial": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "michael-covel-trend-following": {
@@ -2442,9 +2436,8 @@
  },
  "michael-sheimo-stock-market-rules": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "mike-sincere-understanding-stocksreduced": {
   "tier": "C",
@@ -2453,7 +2446,7 @@
  },
  "mindset-of-millionaire-traders": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur": {
@@ -2488,9 +2481,8 @@
  },
  "money-management1": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "money-management-by-david-landry": {
   "tier": "B",
@@ -2498,10 +2490,9 @@
   "status": ""
  },
  "money-management-for-gambler": {
-  "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "tier": "C",
+  "status": "corrupt",
+  "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
  },
  "money-management-in-trading": {
   "tier": "B",
@@ -2519,13 +2510,13 @@
   "status": "off_topic"
  },
  "moriarty-sfsg": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Regulatory disclosure form"
  },
  "morris-and-song-shin-liquidity-black-holes": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "mostmarketmoving08-09-06": {
@@ -2540,7 +2531,7 @@
  },
  "mulitple-patterns-and-time-periods": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "my-forex-strategy-no-10": {
@@ -2569,10 +2560,9 @@
   "status": ""
  },
  "new-concepts-in-technical-trading-systems-welles-wilder": {
-  "tier": "A",
-  "reason": "manual: core trading text",
-  "status": "",
-  "ocr": true
+  "tier": "C",
+  "status": "corrupt",
+  "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
  },
  "new-twist-on-an-old-indicator": {
   "tier": "B",
@@ -2586,7 +2576,7 @@
  },
  "nicktrader-on-no-price-trading": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "norman-frumkin-guide-to-economic-indicators": {
@@ -2601,7 +2591,7 @@
  },
  "oh-crap-free": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "oliver-velez-swing-trading-tactics": {
@@ -2651,9 +2641,9 @@
   "status": ""
  },
  "patterns-in-three-centuries-of-stock-market-prices": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "paul-wilmott-quantitative-finance": {
   "tier": "A",
@@ -2663,7 +2653,7 @@
  },
  "peaks-and-troughs-pring": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "performance-asx-resources": {
@@ -2684,7 +2674,7 @@
  },
  "personal-trading-behaviour": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "phantom-of-the-20-pits": {
@@ -2708,24 +2698,24 @@
   "status": ""
  },
  "pis-fsg": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Financial Services Guide / privacy policy"
  },
  "pivots": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "place-of-insurance": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "OCR full page is personal life/income insurance primer, not trading."
  },
  "plan-process": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Financial planner onboarding flowchart"
  },
  "pocketbook-of-economic-indicator": {
   "tier": "B",
@@ -2744,7 +2734,7 @@
  },
  "position-sizing": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "pouria-method": {
@@ -2754,7 +2744,7 @@
  },
  "practicalew": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "practicalew-2": {
@@ -2763,9 +2753,9 @@
   "status": "duplicate"
  },
  "prechter-robert-the-major-works-of-r-n-elliott-low-quality": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "predicting-price-movement": {
   "tier": "C",
@@ -2779,7 +2769,7 @@
  },
  "prob-tables-article": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "professional-trader-business-plan": {
@@ -2799,7 +2789,7 @@
  },
  "profitfromprices": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "prospect-theory": {
@@ -2834,7 +2824,7 @@
  },
  "r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "raveshmokhatereh": {
@@ -2929,9 +2919,8 @@
  },
  "rubinstein-mark-rubinstein-on-derivatives": {
   "tier": "A",
-  "reason": "manual: core trading text",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "russel-l-olson-handbook-for-investment-committee-members": {
   "tier": "C",
@@ -2960,7 +2949,7 @@
  },
  "secrets-of-the-millionaire-traders-vol-i": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "secrets-of-todays-top-traders": {
@@ -2990,7 +2979,7 @@
  },
  "sidus-method": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "sienna-currency-trading-system-results": {
@@ -3019,9 +3008,9 @@
   "status": ""
  },
  "speculative-investor-behavior-in-a-stock-market": {
-  "tier": "C",
-  "reason": "triage: C",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "spread-trade-to-win": {
   "tier": "A",
@@ -3030,9 +3019,8 @@
  },
  "staying-out-of-trouble-trading-currencies-with-channels": {
   "tier": "B",
-  "reason": "manual: concise is enough",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "steven-bolten-stock-market-cycles": {
   "tier": "A",
@@ -3041,7 +3029,7 @@
  },
  "stock-market-rules-50-of-the-most-widely-held-investment-axioms-explained-examined-and-exp": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "stops": {
@@ -3076,9 +3064,9 @@
   "status": ""
  },
  "super-combo-day-trading-strategy": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "supply-demand": {
   "tier": "B",
@@ -3092,7 +3080,7 @@
  },
  "t2w-trading-plan-template-2005-asb": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "take-the-money-and-run": {
@@ -3118,7 +3106,7 @@
  },
  "tfefuturecourse": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "the-1hr-tunnel-method": {
@@ -3168,13 +3156,13 @@
  },
  "the-forex-market-phenomena": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "the-forex-method-and-trading-strategies-that-keep-you-on-the-right-side-of-the-market": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "Sales letter only, no method"
  },
  "the-intelligent-investor-benjamin-graham": {
   "tier": "A",
@@ -3213,7 +3201,7 @@
  },
  "the-penny-stock-trading-sysyem": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "the-pocketbook-of-economic-indicators": {
@@ -3263,17 +3251,17 @@
  },
  "the-market-as-mass-mind": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "thermostat-trading-strategy": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "duplicate",
+  "reason": "Previously reviewed duplicate"
  },
  "thomas-and-patnaik-serial-correlation-in-high-frequency-data-and-the-link-with-liquidity": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "tick": {
@@ -3372,13 +3360,13 @@
   "status": ""
  },
  "trading-functions": {
-  "tier": "B",
-  "reason": "triage: B",
-  "status": ""
+  "tier": "C",
+  "status": "off_topic",
+  "reason": "MQL4 API function reference, no trading content"
  },
  "trading-psychology": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "trading-strategies-john-murphy-s-ten-laws-of-technical-trading": {
@@ -3418,12 +3406,12 @@
  },
  "trend-vs-no-trend": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "triangletradingmethod": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "truth-about-money-management": {
@@ -3473,7 +3461,7 @@
  },
  "understanding-forex-candlestick": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns": {
@@ -3488,17 +3476,17 @@
  },
  "using-up-gaps-to-anticipate-upward-price-moves": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "using-volatility-in-option-tradingpart-1": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "usingprocessresults": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "valuation-of-cash-flows-investment-decisions-capital-bud": {
@@ -3543,7 +3531,7 @@
  },
  "volatility-part-2": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "volatility": {
@@ -3563,9 +3551,8 @@
  },
  "walter-bressert-intraday-timing-for-low-risk-swing-trading": {
   "tier": "A",
-  "reason": "manual: core trading text",
-  "status": "",
-  "ocr": true
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "warren-buffet-inside-the-guru-mind-warren-buffet-r-heller": {
   "tier": "C",
@@ -3604,7 +3591,7 @@
  },
  "what-moves-the-currency-market": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "whats-in-your-head": {
@@ -3629,7 +3616,7 @@
  },
  "wiley-trading-study-guide-for-come-into-my-trading-room-a-complete-guide-to-trading-2002-i": {
   "tier": "B",
-  "reason": "long but not a core trading text",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "william-n-goetzmann-fibonacci-and-the-financial-revolution": {
@@ -3654,7 +3641,7 @@
  },
  "wolfe-waves": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks": {
@@ -3674,7 +3661,7 @@
  },
  "xavier-gabaix-a-theory-of-large-fluctuations-in-stock-market": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "xetra-xxl-the-new-dimension": {
@@ -3684,7 +3671,7 @@
  },
  "xetraxxl-marketmodel": {
   "tier": "B",
-  "reason": "triage: B",
+  "reason": "Source-reviewed study note",
   "status": ""
  },
  "yale-hirsch-stock-traders-almanac-2005": {
@@ -3693,9 +3680,9 @@
   "status": "duplicate"
  },
  "you-can-choose-to-be-rich-workbook-by-robert-t-kiyosaki": {
-  "tier": "C",
-  "reason": "scanned PDF without text layer (no OCR)",
-  "status": "no_text"
+  "tier": "B",
+  "reason": "Source-reviewed study note",
+  "status": ""
  },
  "your-trading-plan": {
   "tier": "B",

@@ -1,17 +1,33 @@
 ---
-title: Profit With Options
 author: Lawrence G. McMillan
-year: 2002
-slug: lawrence-g-mcmillan-profit-with-options
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, implied-volatility, straddles, contrary-indicators, put-call-ratio, system-trading, hedging]
 difficulty: intermediate
 doc_type: book
+one_liner: 'McMillan''s applied option-strategy text: reading options as sentiment
+  indicators, selecting strategies by where implied volatility sits versus its own
+  history, and mechanical system trading.'
 pages: 286
-one_liner: "McMillan's applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading."
-related: [guy-cohen-the-bible-of-options-strategies, fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, hull-options-futures-and-other-derivative-securities-5th-ed, george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments]
-source_file: "LAWRENCE G. McMILLAN - Profit With Options.pdf"
+related:
+- guy-cohen-the-bible-of-options-strategies
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments
+reviewed_pdf_pages: 4-5, 7, 29 (the volatility-percentile methodology chapters and
+  the strategy-selection rules)
+slug: lawrence-g-mcmillan-profit-with-options
+source_file: LAWRENCE G. McMILLAN - Profit With Options.pdf
+source_review: partial
+tags:
+- options
+- implied-volatility
+- straddles
+- contrary-indicators
+- put-call-ratio
+- system-trading
+- hedging
+tier: A
+title: Profit With Options
+year: 2002
 ---
 
 ## Overview

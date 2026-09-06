@@ -1,17 +1,28 @@
 ---
-title: "Trade Breakouts for Bigger Profit Potential"
-author: "Windsor Advisory Services"
-year: unknown
-slug: trade-breakouts
-tier: B
+author: Windsor Advisory Services
 category: Trend Following & Mechanical Systems
-tags: [breakouts, trend-following, support-resistance, turtles, discipline, risk-management]
 difficulty: beginner
 doc_type: manual
+one_liner: A short essay arguing that buying/selling into confirmed breakouts of well-tested
+  support/resistance beats waiting for pullbacks, citing the Turtles as proof.
 pages: 7
-one_liner: "A short essay arguing that buying/selling into confirmed breakouts of well-tested support/resistance beats waiting for pullbacks, citing the Turtles as proof."
-related: [detecting-breakouts-from-flags-pennants, congestion-markets-estimating-a-breakout-target]
-source_file: "Trade_Breakouts.pdf"
+related:
+- detecting-breakouts-from-flags-pennants
+- congestion-markets-estimating-a-breakout-target
+reviewed_pdf_pages: 3-4 (the breakout-validity rules and the worked return example)
+slug: trade-breakouts
+source_file: Trade_Breakouts.pdf
+source_review: partial
+tags:
+- breakouts
+- trend-following
+- support-resistance
+- turtles
+- discipline
+- risk-management
+tier: B
+title: Trade Breakouts for Bigger Profit Potential
+year: unknown
 ---
 
 ## Summary

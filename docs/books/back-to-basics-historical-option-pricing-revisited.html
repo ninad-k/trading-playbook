@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Back to Basics: Historical Option Pricing Revisited — Jean-Philippe Bouchaud, Marc Potters · Trading Playbook</title>
+<meta name="description" content="Physicists Bouchaud and Potters re-derive option pricing from historical (not risk-neutral) probability using a risk-minimization framework, and show the resulting volatility smile matches real BUND option data.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Back to Basics: Historical Option Pricing Revisited</h1>
+  <p class="byline">Jean-Philippe Bouchaud, Marc Potters · 1999 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Physicists Bouchaud and Potters re-derive option pricing from historical (not risk-neutral) probability using a risk-minimization framework, and show the resulting volatility smile matches real BUND option data.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1, 5, 8 (the residual-risk result, the empirical Bund-future study and the model assumptions). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=option-pricing">option-pricing</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=volatility-smile">volatility-smile</a> <a class="tag" href="../search.html?q=kurtosis">kurtosis</a> <a class="tag" href="../search.html?q=risk-minimization">risk-minimization</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>10 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Back to Basics: Historical Option Pricing Revisited” by Jean-Philippe Bouchaud, Marc Potters at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: can option prices be derived directly from the historical (real-world) probability distribution of the underlying asset, rather than from an abstract risk-neutral measure — and if so, does that theory match real option prices? Method: the authors build a risk-minimization pricing framework (minimizing the variance of a hedged wealth balance) for a general process with uncorrelated but not-necessarily-independent, non-Gaussian price increments, show it collapses to the standard Black-Scholes result in the Gaussian limit, then derive a formula linking the volatility smile&rsquo;s curvature to the underlying return distribution&rsquo;s kurtosis. Data: options on the BUND futures contract (a liquid European bond future) traded 1993-1995, compared against 5-minute tick data of the underlying future over the same period.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>In the risk-minimization framework, the option price and optimal hedge are not unique — they depend on the definition of risk used — but the Black-Scholes delta-hedge and price emerge exactly in the Gaussian (constant-volatility) special case.</li>
+<li>For realistic (fat-tailed, non-Gaussian) return distributions, residual hedging risk does not vanish: for a typical one-month option the standard deviation of residual risk can be as much as 25% of the option&rsquo;s price.</li>
+<li>A positive average return shifts the price of out-of-the-money and in-the-money options in opposite directions once return kurtosis is nonzero — so the Black-Scholes independence of option price from expected return breaks down outside the Gaussian case.</li>
+<li>The theory predicts implied volatility should vary with strike price in a roughly parabolic shape (&ldquo;volatility smile&rdquo;), with curvature set by the terminal distribution&rsquo;s kurtosis at that maturity.</li>
+<li>Empirically, implied volatility tracked a short-window filter of historical volatility closely, and implied kurtosis matched historical kurtosis from the underlying tick data with no free parameters.</li>
+<li>Historical kurtosis decayed with maturity more slowly than the N⁻¹ rate expected for independent, identically distributed returns — evidence of volatility persistence (clustering) in the underlying.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules — this is a theoretical/empirical asset-pricing paper. The practical takeaway for a trader: implied volatility skew/smile shape is not an arbitrary market quirk but tracks the real (measurable) fat-tailedness of the underlying&rsquo;s historical return distribution, so historical kurtosis can be used as a sanity check on whether an options market&rsquo;s smile is priced richly or cheaply relative to the underlying&rsquo;s actual statistical behavior.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Dense in stochastic calculus and cumulant-expansion mathematics; assumes graduate-level familiarity with Black-Scholes derivation and Fourier/cumulant methods. Findings are specific to the 1993-1995 BUND futures options market and may not generalize in form (though the qualitative smile-kurtosis link is widely cited in the market-microstructure/econophysics literature). The paper explicitly restricts to short maturities (up to ~2 months) and small average returns; its perturbative expansion is not valid for large trends or long-dated options.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant-leaning readers who want the theoretical link between fat tails/kurtosis and the volatility smile, and empirical confirmation that implied volatility is not fully detached from the underlying&rsquo;s historical statistics.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/kiesel-financial-mathematics.html">Financial Mathematics</a> — Graduate-level lecture notes deriving derivative pricing from first principles: arbitrage theory, single- and multi-period market models, Black-Scholes, and interest-rate/HJM models.</li><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

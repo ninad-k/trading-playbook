@@ -1,17 +1,30 @@
 ---
-title: "Preparing for the Worst: Incorporating Downside Risk in Stock Market Investments"
 author: Hrishikesh D. Vinod and Derrick P. Reagle
-year: 2005
-slug: hrishikesh-d-vinod-preparing-for-the-worst
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [value-at-risk, downside-risk, capm, utility-theory, volatility, bootstrap, portfolio-theory]
 difficulty: advanced
 doc_type: book
+one_liner: 'Academic treatment of downside risk in equities: VaR, CAPM/Sharpe/Treynor,
+  non-normal return distributions, utility theory, and bootstrap methods.'
 pages: 316
-one_liner: "Academic treatment of downside risk in equities: VaR, CAPM/Sharpe/Treynor, non-normal return distributions, utility theory, and bootstrap methods."
-related: [evaluation-of-value-at-risk-models, black-scholes-option-pricing-model, fallon-w-calculating-value-at-risk]
-source_file: "Hrishikesh D Vinod - Preparing For The Worst.pdf"
+related:
+- evaluation-of-value-at-risk-models
+- black-scholes-option-pricing-model
+- fallon-w-calculating-value-at-risk
+reviewed_pdf_pages: 6, 11, 14 (the VaR comparison and diversification chapters)
+slug: hrishikesh-d-vinod-preparing-for-the-worst
+source_file: Hrishikesh D Vinod - Preparing For The Worst.pdf
+source_review: partial
+tags:
+- value-at-risk
+- downside-risk
+- capm
+- utility-theory
+- volatility
+- bootstrap
+- portfolio-theory
+tier: B
+title: 'Preparing for the Worst: Incorporating Downside Risk in Stock Market Investments'
+year: 2005
 ---
 
 ## Summary

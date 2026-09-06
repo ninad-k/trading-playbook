@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Forex Report - Core Concepts: Signal Selection — Scott Owens · Trading Playbook</title>
+<meta name="description" content="Short FX Engines newsletter piece classifying technical-indicator signal types (crossing, oscillator, threshold, condition) and warning that longer chart intervals mask price action that causes stops to be hit.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a></p>
+  <h1>The Forex Report - Core Concepts: Signal Selection</h1>
+  <p class="byline">Scott Owens · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">beginner</span></p>
+  <p class="lead">Short FX Engines newsletter piece classifying technical-indicator signal types (crossing, oscillator, threshold, condition) and warning that longer chart intervals mask price action that causes stops to be hit.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the signal-selection discussion checked against the note; the brief states no numeric parameters. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=technical-indicators">technical-indicators</a> <a class="tag" href="../search.html?q=signals">signals</a> <a class="tag" href="../search.html?q=macd">macd</a> <a class="tag" href="../search.html?q=timeframes">timeframes</a> <a class="tag" href="../search.html?q=system-building">system-building</a> <a class="tag" href="../search.html?q=indicators-overview">indicators-overview</a> </td></tr>
+    <tr><th>Length</th><td>6 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Forex Report - Core Concepts: Signal Selection” by Scott Owens at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A short educational newsletter (&ldquo;The Forex Report,&rdquo; Core Concepts series) from FX Engines, Inc., a forex system-building/automation vendor. It argues against &ldquo;shopping charts&rdquo; for a signal confirming a preconceived view, recommending instead understanding what each class of indicator measures before building a system. It explains why chart interval choice matters (a smoother, longer-interval chart hides swings that trigger stops on a shorter one) and surveys four categories of trading signals with pros/cons, closing with a three-step process: select deliberately, test, and experiment with combinations.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Signals are indicator-based triggers for entry, exit, or intra-trade adjustment, giving traders &ldquo;a precise, explicit script&rdquo; instead of subjective judgment.</li>
+<li>Chart interval materially changes what a signal shows: a 5-minute chart smooths swings visible on a 1-minute chart, which can make a system look reliable on the smoothed view while getting stopped out on the underlying volatility.</li>
+<li><strong>Crossing signals</strong> (MACD, MA, Stochastic crosses) — explicit, but prone to false signals in low volume and can lag on longer intervals.</li>
+<li><strong>Oscillators</strong> (Stochastics, MACD, RSI, DMS) — good for reversals/targets, but volume-sensitive and can get &ldquo;stuck&rdquo; in overbought/oversold zones.</li>
+<li><strong>Thresholds</strong> (price/indicator hitting a fixed level) — explicit and responsive in high volume, but can be meaningless in low volume.</li>
+<li><strong>Conditions</strong> (relationship between two indicators, e.g. price above a MA) — good for trend context, but unresponsive to small moves.</li>
+<li>Exit signals are argued more context-sensitive than fixed stops/limits, since they react to actual market behavior rather than a static distance.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Choose signal type based on what you&rsquo;re trying to capture, not on whichever chart &ldquo;looks right.&rdquo;</li>
+<li>Match indicator choice to volume/volatility regime: crossing/threshold signals suit higher volume; oscillators risk sticking in trending, low-volume conditions.</li>
+<li>Test any signal both historically and in demo mode before trading real capital.</li>
+<li>Consider an exit signal instead of a purely fixed stop/limit to better capture a genuine move&rsquo;s length.</li>
+<li>Combine multiple signal types as a check-and-balance system rather than relying on one indicator.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Vendor content promoting FX Engines&rsquo; own platform; a conceptual primer with no specific parameters, backtested statistics, or complete system — it explicitly disclaims suggesting live-trading action. Very short (6 pages, much of it promotional).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Beginner-to-intermediate forex traders wanting a vocabulary for comparing indicators before building their own system, not a ready-made strategy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/macd.html">Moving Average Convergence-Divergence (MACD)</a> — Brief primer on the MACD indicator&#39;s construction, crossover/overbought-oversold/divergence uses, and the author&#39;s own multi-timeframe trend-filter approach.</li><li><a href="../books/chart-formations.html">Chart Formations</a> — A reference sheet defining trendlines, channels, chart patterns, gaps, and Fibonacci retracements.</li><li><a href="../books/technical-indicators-tutorial.html">Technical Indicators Tutorial</a> — A plain-language walkthrough of volume/open-interest, moving averages, MACD, DMI/ADX, Bollinger Bands, stochastics, RSI, CCI, Williams %R, and momentum, with standard signal rules for each.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

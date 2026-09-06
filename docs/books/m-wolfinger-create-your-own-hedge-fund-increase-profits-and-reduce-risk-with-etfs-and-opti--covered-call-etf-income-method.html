@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Covered Call / Uncovered Put ETF Income Method — Mark D. Wolfinger · Trading Playbook</title>
+<meta name="description" content="A mechanical, cycle-by-cycle method for writing covered calls (or cash-backed puts) against a diversified round-lot ETF portfolio, with strike-selection and rolling rules.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a> › <a href="../books/m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti.html">Create Your Own Hedge Fund</a></p>
+  <h1>Covered Call / Uncovered Put ETF Income Method</h1>
+  <p class="byline">Mark D. Wolfinger · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">beginner</span></p>
+  <p class="lead">A mechanical, cycle-by-cycle method for writing covered calls (or cash-backed puts) against a diversified round-lot ETF portfolio, with strike-selection and rolling rules.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=covered-calls">covered-calls</a> <a class="tag" href="../search.html?q=uncovered-puts">uncovered-puts</a> <a class="tag" href="../search.html?q=etfs">etfs</a> <a class="tag" href="../search.html?q=options-income">options-income</a> <a class="tag" href="../search.html?q=rolling">rolling</a> <a class="tag" href="../search.html?q=strike-selection">strike-selection</a> </td></tr>
+    <tr><th>Length</th><td>254 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Covered Call / Uncovered Put ETF Income Method” by Mark D. Wolfinger at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A repeatable monthly-cycle option-writing overlay for a diversified ETF portfolio: own round lots (100-share multiples) of several optionable, broad-market ETFs and, every expiration cycle, sell one call per 100 shares held (or, as a variant, sell cash-backed puts, which carry the same risk profile). It assumes the investor cannot reliably time or pick the market and instead extracts a repeatable premium edge cycle after cycle, trading some upside for higher win-rate income and lower volatility than plain buy-and-hold.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Setup</strong>: buy several optionable, diversified ETFs in exact round lots of 100 shares each.</li>
+<li><strong>Strike choice each cycle</strong>, front-month expiration by default: <strong>OTM call</strong> — most bullish, smallest premium/protection, full upside to the strike; <strong>ATM call</strong> — maximizes time premium, moderate protection (the recommended default); <strong>ITM call</strong> — most conservative, largest cushion, least profit potential (use when mildly bearish but staying invested). Never write at parity (zero time value).</li>
+<li><strong>Uncovered puts</strong>: ATM/slightly ITM if the goal is cheap assignment; further OTM, with enough premium to clear a minimum return, if the goal is income with lower assignment odds.</li>
+<li><strong>Minimum return floor</strong>: ≥0.5%/month net of commissions; a more comfortable target is ~1.5%/month.</li>
+<li><strong>Cycle management</strong>: if the option expires worthless, write a new one next trading day against the same shares. If assigned, reinvest proceeds next trading day into the same or a different qualifying ETF and write a fresh option — stay fully invested and hedged, not in cash.</li>
+<li><strong>Roll down and out</strong> (defensive): if the market falls and the written call&rsquo;s remaining premium offers little further protection, buy it back and sell a lower-strike and/or later-dated call, only if the added protection justifies the debit.</li>
+<li><strong>Roll up and out</strong> (offensive): if the underlying rallies and the call is meaningfully ITM while a further-out, higher-strike call still has worthwhile premium, roll up only if the extra potential gain justifies the extra capital at risk.</li>
+<li>Never repurchase a losing written option out of frustration and hold shares unhedged hoping for a bigger rally — that is unstructured market-timing; any repurchase should be a planned roll.</li>
+<li><strong>Cash discipline on naked puts</strong>: hold or be able to raise cash equal to 100 × strike per contract before writing; never rely on margin for the full obligation, and total up cash needed if every open put is assigned before adding size.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>Maximum loss per lot is the full ETF value, offset by premium collected — capped only by the underlying going to zero, not by any stop built into the strategy. Maximum gain per cycle is the premium collected plus, for OTM writes, appreciation up to the strike; once ITM at expiration, further gains accrue to the option owner. The strategy is expected to underperform unhedged buy-and-hold in strongly, persistently rising markets — a structural cost of the added protection and higher win-rate income elsewhere, not a flaw to fix. No formal stop-loss or percent-of-equity sizing rule exists beyond round lots and full cash coverage of any naked-put obligation.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Assumes liquid, tight-spread options on every ETF held; thin options erode the premium edge shown in the book&rsquo;s historical (BXM, 1988–2004) comparisons, not quantified here. That period favored selling slightly-OTM calls monthly and underperformed during 1995–1999&rsquo;s strong bull run. Commission assumptions ($10/stock order, $10 + $1.50/contract) are mid-2000s figures and should be updated. This is covered calls and cash-backed uncovered puts only, not a true collar — no protective put is purchased, so full downside below the premium cushion stays exposed.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li><li><a href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

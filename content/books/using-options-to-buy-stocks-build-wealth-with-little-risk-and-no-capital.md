@@ -1,17 +1,29 @@
 ---
-title: "Using Options to Buy Stocks: Build Wealth with Little Risk and No Capital"
 author: Dennis Eisen
-year: 2000
-slug: using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital
-tier: B
-category: "Options, Futures & Derivatives"
-tags: [leaps, put-writing, options-income, margin, hedging, stock-acquisition]
+category: Options, Futures & Derivatives
 difficulty: intermediate
 doc_type: book
+one_liner: Sells long-dated LEAP puts on quality stocks to harvest overpriced premium
+  and fund further stock purchases without new capital.
 pages: 534
-one_liner: "Sells long-dated LEAP puts on quality stocks to harvest overpriced premium and fund further stock purchases without new capital."
-related: [dynamic-breakout-ii-strategy, money-management-in-trading]
-source_file: "Using Options To Buy Stocks - Build Wealth With Little Risk And No Capital.pdf"
+related:
+- dynamic-breakout-ii-strategy
+- money-management-in-trading
+reviewed_pdf_pages: 3-4, 30, 32-33, 223 (the screening criteria and the simulation-run
+  results)
+slug: using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital
+source_file: Using Options To Buy Stocks - Build Wealth With Little Risk And No Capital.pdf
+source_review: partial
+tags:
+- leaps
+- put-writing
+- options-income
+- margin
+- hedging
+- stock-acquisition
+tier: B
+title: 'Using Options to Buy Stocks: Build Wealth with Little Risk and No Capital'
+year: 2000
 ---
 
 ## Summary

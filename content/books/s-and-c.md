@@ -8,8 +8,11 @@ one_liner: A bound year of S&C magazine (1987) mixing indicator research, a 15-p
 pages: 675
 related:
 - williams-larry-trade-stocks-and-commodities-with-the-insiders
+reviewed_pdf_pages: 1, 4-6, 19, 175, 180, 191, 218, 242, 248, 275 (the article index
+  and the MAE stop-setting, stochastic and Wyckoff position-sheet articles)
 slug: s-and-c
 source_file: S and C.pdf
+source_review: partial
 tags:
 - magazine-anthology
 - wyckoff

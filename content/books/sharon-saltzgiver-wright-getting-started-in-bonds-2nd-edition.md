@@ -1,17 +1,34 @@
 ---
-title: "Getting Started in Bonds, 2nd Edition"
 author: Sharon Saltzgiver Wright
-year: 2003
-slug: sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition
-tier: B
 category: Money Management & Position Sizing
-tags: [bonds, fixed-income, duration, yield-curve, bond-ladder, barbell, diversification, credit-rating]
 difficulty: beginner
 doc_type: book
+one_liner: 'A beginner-to-intermediate guide to bond investing: types of bonds, pricing/yield
+  mechanics, duration, and portfolio strategies like laddering, barbells, and duration
+  management.'
 pages: 306
-one_liner: "A beginner-to-intermediate guide to bond investing: types of bonds, pricing/yield mechanics, duration, and portfolio strategies like laddering, barbells, and duration management."
-related: [fixed-income-securities, lehman-currency-hedging-in-fixed-income-portfolios, position-sizing, money-management-report-van-tharp]
-source_file: "Sharon Saltzgiver Wright - Getting_Started_In_Bonds_2nd_Edition.pdf"
+related:
+- fixed-income-securities
+- lehman-currency-hedging-in-fixed-income-portfolios
+- position-sizing
+- money-management-report-van-tharp
+reviewed_pdf_pages: 7, 11, 15, 52 (the contents, the yield chapters and the rule-of-72
+  discussion)
+slug: sharon-saltzgiver-wright-getting-started-in-bonds-2nd-edition
+source_file: Sharon Saltzgiver Wright - Getting_Started_In_Bonds_2nd_Edition.pdf
+source_review: partial
+tags:
+- bonds
+- fixed-income
+- duration
+- yield-curve
+- bond-ladder
+- barbell
+- diversification
+- credit-rating
+tier: B
+title: Getting Started in Bonds, 2nd Edition
+year: 2003
 ---
 
 ## Summary

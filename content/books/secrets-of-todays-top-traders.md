@@ -1,17 +1,32 @@
 ---
-title: "Secrets of Today's Top Traders (Interview With C.V.)"
 author: Neal Weintraub
-year: unknown
-slug: secrets-of-todays-top-traders
-tier: B
 category: Money Management & Position Sizing
-tags: [trend-following, breakout-system, kelly-criterion, position-sizing, futures, risk-management]
 difficulty: intermediate
 doc_type: article
+one_liner: Interview with an anonymous full-time futures trader detailing his 48-day
+  breakout system, Kelly-formula position sizing, and a decade of real-account statistics.
 pages: 18
-one_liner: "Interview with an anonymous full-time futures trader detailing his 48-day breakout system, Kelly-formula position sizing, and a decade of real-account statistics."
-related: [curtis-faith-way-of-the-turtle, turtlerules, kellybetting, balsara-nauzer-j-money-management-strategies-for-futures-traders, jack-schwager-stock-market-wizards]
-source_file: "Secrets of Todays Top Traders.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- turtlerules
+- kellybetting
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 1, 3-4 (the Test 48 breakout results tables and the interview
+  sections)
+slug: secrets-of-todays-top-traders
+source_file: Secrets of Todays Top Traders.pdf
+source_review: partial
+tags:
+- trend-following
+- breakout-system
+- kelly-criterion
+- position-sizing
+- futures
+- risk-management
+tier: B
+title: Secrets of Today's Top Traders (Interview With C.V.)
+year: unknown
 ---
 
 ## Summary

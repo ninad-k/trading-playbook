@@ -1,17 +1,32 @@
 ---
-title: "Forex Gladiator: The Forex System That Fights For A Living"
 author: Juan Saton
-year: 2006
-slug: forex-gladiator
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, money-management, stochastic-oscillator, trend-trading, stops, trading-psychology]
 difficulty: beginner
 doc_type: manual
+one_liner: Forex primer covering market mechanics, broker selection, and money-management
+  stops, ending in a short-term trend system using dual-timeframe moving averages
+  and stochastics.
 pages: 59
-one_liner: "Forex primer covering market mechanics, broker selection, and money-management stops, ending in a short-term trend system using dual-timeframe moving averages and stochastics."
-related: [trade-easy-with-an-automated-forex-trading-system, jack-schwager-stock-market-wizards, forex-money-management, day-trading-the-currency-market]
-source_file: "Forex Gladiator.pdf"
+related:
+- trade-easy-with-an-automated-forex-trading-system
+- jack-schwager-stock-market-wizards
+- forex-money-management
+- day-trading-the-currency-market
+reviewed_pdf_pages: 6, 21-22, 36, 40 (the leverage discussion, the drawdown-recovery
+  table and the risk-per-trade rule)
+slug: forex-gladiator
+source_file: Forex Gladiator.pdf
+source_review: partial
+tags:
+- forex
+- money-management
+- stochastic-oscillator
+- trend-trading
+- stops
+- trading-psychology
+tier: B
+title: 'Forex Gladiator: The Forex System That Fights For A Living'
+year: 2006
 ---
 
 ## Summary

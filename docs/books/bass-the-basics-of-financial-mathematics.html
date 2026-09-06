@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Basics of Financial Mathematics — Richard F. Bass · Trading Playbook</title>
+<meta name="description" content="University lecture notes deriving option pricing rigorously: elementary probability, the binomial asset pricing model, Brownian motion/stochastic calculus, and the Black-Scholes formula via the risk-neutral measure.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>The Basics of Financial Mathematics</h1>
+  <p class="byline">Richard F. Bass · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">course</span> <span class="badge">advanced</span></p>
+  <p class="lead">University lecture notes deriving option pricing rigorously: elementary probability, the binomial asset pricing model, Brownian motion/stochastic calculus, and the Black-Scholes formula via the risk-neutral measure.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the binomial and Black-Scholes derivation sections checked against the note. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options-pricing">options-pricing</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=binomial-model">binomial-model</a> <a class="tag" href="../search.html?q=brownian-motion">brownian-motion</a> <a class="tag" href="../search.html?q=martingales">martingales</a> <a class="tag" href="../search.html?q=stochastic-calculus">stochastic-calculus</a> <a class="tag" href="../search.html?q=risk-neutral-pricing">risk-neutral-pricing</a> </td></tr>
+    <tr><th>Length</th><td>105 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Basics of Financial Mathematics” by Richard F. Bass at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>These are University of Connecticut course notes (Spring 2003) by mathematician Richard Bass, teaching the mathematics behind derivatives pricing rather than any trading strategy. The question addressed throughout: given a model of how a stock price moves, what is the fair (arbitrage-free) price of an option on it, and how does one replicate/hedge it? The notes build up in stages: elementary probability (sigma-fields, conditional expectation, martingales), the discrete-time binomial asset-pricing model (one-step, multi-step, American options), continuous-time tools (Brownian motion, stochastic integrals, Ito&rsquo;s formula, Girsanov&rsquo;s theorem), the continuous-time model culminating in Black-Scholes and the Fundamental Theorem of Asset Pricing, and finally term-structure/interest-rate models. The finding repeated in both settings: under &ldquo;no arbitrage,&rdquo; a risk-neutral probability measure exists under which the discounted asset price is a martingale, and any option&rsquo;s price equals its expected payoff under that measure.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>One-step binomial model: with up-factor u, down-factor d, and risk-free rate r, the no-arbitrage option price is V0 = [1/(1+r)] × E[V1] under risk-neutral probabilities p = (1+r-d)/(u-d) and q = (u-1-r)/(u-d) — not the real-world up/down probabilities.</li>
+<li>Hedge ratio (delta): Δ0 = (V1^u − V1^d)/(uS0 − dS0), i.e., replicate the option&rsquo;s payoff by holding Δ0 shares plus a bank position.</li>
+<li>Multi-step binomial model: under the risk-neutral measure, the discounted stock price (1+r)^(-k)S_k is a martingale, generalizing the one-step result to any number of steps.</li>
+<li>Continuous-time model (geometric Brownian motion, drift removed via Girsanov&rsquo;s theorem) yields the closed-form Black-Scholes formula: W0 = xΦ(g) − Ke^(−rT)Φ(h), with g = [ln(x/K) + (r+σ²/2)T]/(σ√T) and h = g − σ√T.</li>
+<li>Key qualitative result: the Black-Scholes price depends on volatility σ but is completely independent of the stock&rsquo;s real-world expected return μ.</li>
+<li>Fundamental Theorem of Finance: a market is arbitrage-free iff a probability measure exists under which discounted asset prices are martingales; it is &ldquo;complete&rdquo; if every payoff can be replicated by trading the underlying and the bank account.</li>
+<li>Later sections extend the framework to American options, martingale representation, explicit hedging strategies, and term-structure/interest-rate models.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules. This is a pure derivation of pricing theory, not a strategy manual — its &ldquo;rules&rdquo; are mathematical (the u/d/p/q and delta-hedging formulas and the Black-Scholes closed form above), not entry/exit/sizing rules a trader would apply directly.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is graduate-level applied mathematics (measure-theoretic probability, stochastic calculus), not a practitioner guide — it assumes calculus/probability background and offers no worked numerical trading examples or market-data calibration. All models assume frictionless markets (no transaction costs, unlimited borrowing/short-selling), which the notes themselves flag as unrealistic. It is a foundational-theory reference for why option-pricing formulas take the form they do, not for building a trading system.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quantitative traders, derivatives desk analysts, and finance students who want the rigorous mathematical derivation behind binomial option pricing and the Black-Scholes formula, as a foundation before or alongside practitioner texts like Hull.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

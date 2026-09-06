@@ -1,17 +1,33 @@
 ---
-title: "Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies"
-author: "John Okunev, Derek White"
-year: 2003
-slug: hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [hedge-funds, value-at-risk, credit-trading, return-smoothing, autocorrelation, risk-factors, fixed-income, academic-research]
+author: John Okunev, Derek White
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Academic paper finding fixed-income hedge fund returns understate true
+  risk by 60-100% due to smoothing, and that a short put on high-yield debt is the
+  dominant risk factor across most strategies.
 pages: 63
-one_liner: "Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, s-a-mccrary-hedge-fund-course, hedges-on-hedge-funds-how-to-successfully-analyze-2005]
-source_file: "Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies.pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- s-a-mccrary-hedge-fund-course
+- hedges-on-hedge-funds-how-to-successfully-analyze-2005
+reviewed_pdf_pages: 4, 6, 8, 12, 15-16 (the risk-factor results and the VaR comparison
+  tables)
+slug: hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+source_file: Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies.pdf
+source_review: partial
+tags:
+- hedge-funds
+- value-at-risk
+- credit-trading
+- return-smoothing
+- autocorrelation
+- risk-factors
+- fixed-income
+- academic-research
+tier: B
+title: Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies
+year: 2003
 ---
 
 ## Summary

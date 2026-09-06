@@ -1,17 +1,29 @@
 ---
-title: Trader's Trick Entry
 author: Joe Ross
-year: 1998
-slug: traders-trick-entry
-tier: B
 category: Swing Trading
-tags: [entry-technique, ross-hook, 1-2-3-formation, breakout, price-action]
 difficulty: intermediate
 doc_type: manual
+one_liner: Trading Educators slide course on the Trader's Trick Entry (TTE), a method
+  for entering ahead of the breakout of a 1-2-3 formation or Ross hook.
 pages: 57
-one_liner: "Trading Educators slide course on the Trader's Trick Entry (TTE), a method for entering ahead of the breakout of a 1-2-3 formation or Ross hook."
-related: [joe-ross-how-to-spot-a-trend, joe-ross-trading-the-ross-hook]
-source_file: "Traders_Trick_Entry.pdf"
+related:
+- joe-ross-how-to-spot-a-trend
+- joe-ross-trading-the-ross-hook
+reviewed_pdf_pages: the rule slides checked against the note; the deck states its
+  rules qualitatively, without numeric parameters beyond the three-correcting-bar
+  limit
+slug: traders-trick-entry
+source_file: Traders_Trick_Entry.pdf
+source_review: partial
+tags:
+- entry-technique
+- ross-hook
+- 1-2-3-formation
+- breakout
+- price-action
+tier: B
+title: Trader's Trick Entry
+year: 1998
 ---
 
 ## Summary

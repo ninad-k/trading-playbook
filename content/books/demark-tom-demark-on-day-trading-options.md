@@ -1,17 +1,31 @@
 ---
-title: DeMark on Day-Trading Options
 author: Thomas R. DeMark, Thomas R. DeMark Jr.
-year: 1999
-slug: demark-tom-demark-on-day-trading-options
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, day-trading, td-sequential, td-combo, market-timing, put-call-ratio, indicators]
 difficulty: advanced
 doc_type: book
+one_liner: Applies DeMark's TD Sequential/TD Combo timing indicators, plus option-specific
+  tools (TD % F, Dollar-Weighted Options), to buying short-dated, in-the-money calls
+  and puts instead of trading the underlying.
 pages: 364
-one_liner: "Applies DeMark's TD Sequential/TD Combo timing indicators, plus option-specific tools (TD % F, Dollar-Weighted Options), to buying short-dated, in-the-money calls and puts instead of trading the underlying."
-related: [come-into-my-trading-room-elder-alexander--triple-screen, elder-alexander-trading-for-a-living]
-source_file: "DeMark,Tom - DeMark on day-trading options.pdf"
+related:
+- come-into-my-trading-room-elder-alexander--triple-screen
+- elder-alexander-trading-for-a-living
+reviewed_pdf_pages: 122, 134, 249, 339 (the TD Sequential Setup/price-flip definition,
+  Countdown discussion, and the TD Line Gap REBO percentage rules)
+slug: demark-tom-demark-on-day-trading-options
+source_file: DeMark,Tom - DeMark on day-trading options.pdf
+source_review: partial
+tags:
+- options
+- day-trading
+- td-sequential
+- td-combo
+- market-timing
+- put-call-ratio
+- indicators
+tier: A
+title: DeMark on Day-Trading Options
+year: 1999
 ---
 
 ## Overview
@@ -37,14 +51,14 @@ Short-term reversal points in the underlying market can be timed with enough pre
 
 ## Rules and setups
 
-1. **Buy Setup (TD Sequential)**: a buy Setup begins with a "price flip" — a close less than the close 4 bars earlier, immediately following a bar where the close was greater than (or equal to) the close 4 bars earlier. Count consecutive bars whose close is less than the close 4 bars earlier; a completed buy Setup requires at least 9 such consecutive bars (numbered 1 through 9). Any bar whose close is greater than or equal to the close 4 bars earlier cancels the Setup and restarts the count.
-2. **Sell Setup (TD Sequential)**: mirror image — count consecutive bars whose close is greater than the close 4 bars earlier; completed at 9 consecutive bars; canceled by any bar whose close is less than or equal to the close 4 bars earlier.
-3. **Setup qualifier for entry**: for a completed buy Setup, the low of the 7th, 8th, or 9th bar of the count must satisfy an additional qualifying condition (per the sampled text) before the signal is used to justify purchase of the underlying asset or the purchase of a call option; the mirror qualifier applies to sell Setups for put purchases.
-4. **Countdown and Intersection**: after a completed Setup, the market proceeds through an Intersection step and then a Countdown phase, which the book uses to pinpoint a more precise "buy-low, sell-high" exhaustion point before entry; the specific bar-by-bar Countdown comparison rules were not present in the sampled OCR pages (see Caveats).
-5. **TD Line Gap breakout entries**: a low-risk call-buying opportunity occurs when price breaks above a downward-sloping TD Line Gap line, with the qualifier that the current bar's open must itself be in the direction of the breakout (greater than the prior bar's close); mirror for a low-risk put-buying opportunity on a downside break of an upward-sloping TD Line Gap line.
-6. **TD Line Gap REBO confirmation**: multiply the prior day's price range by a percentage (the text illustrates 38.2%) and add/subtract it from the current day's open to get a confirming breakout level; a valid low-risk entry occurs at the higher of the TD Line Gap level and the REBO level for calls (mirror, lower of the two, for puts); traders may also split entries between the two levels.
-7. **Option selection**: for short-term/day trades, prefer near-term, in-the-money options (small time-value premium, price tracks the underlying closely) over further out-of-the-money or longer-dated contracts; the book explicitly favors outright option buying (calls/puts) over spreads, covered writes, straddles, or other combination strategies for this style of trading.
-8. **Letting the option expire**: worthless (out-of-the-money) expiration is presented as an inherent, built-in stop-loss unique to option buying — the trader can simply do nothing and lose only the premium paid, unlike a position in the underlying, which must eventually be offset.
+1. **Buy Setup (TD Sequential)**: begins with a "price flip" — a close less than the close 4 bars earlier, immediately following a bar closing greater than or equal to the close 4 bars earlier. Count consecutive bars satisfying that condition; a completed buy Setup requires at least 9 in a row (numbered 1–9). Any bar closing greater than or equal to the close 4 bars earlier cancels and restarts the count.
+2. **Sell Setup**: mirror image — 9 consecutive closes greater than the close 4 bars earlier; canceled by a close less than or equal to the close 4 bars earlier.
+3. **Setup qualifier for entry**: for a completed buy Setup, the low of the 7th, 8th, or 9th bar must satisfy an additional qualifying condition (per the sampled text) before the signal justifies buying the underlying or a call option; the mirror qualifier applies to sell Setups for puts.
+4. **Countdown and Intersection**: after a completed Setup, the market proceeds through an Intersection step and a Countdown phase, used to pinpoint a more precise "buy-low, sell-high" exhaustion point before entry; the bar-by-bar Countdown rules were not present in the sampled OCR pages (see Caveats).
+5. **TD Line Gap breakout entries**: a low-risk call buy occurs when price breaks above a downward-sloping TD Line Gap line, qualified by the current bar's open itself being in the breakout direction; mirror for puts on a downside break of an upward-sloping line.
+6. **TD Line Gap REBO confirmation**: multiply the prior day's range by a percentage (38.2% illustrated) and add/subtract from the current day's open for a confirming level; entry is at the higher of the TD Line Gap and REBO levels for calls (lower, for puts), or split between both.
+7. **Option selection**: for short-term/day trades, prefer near-term, in-the-money options (small time-value premium, tracks the underlying closely) over out-of-the-money or longer-dated contracts; favor outright buying over spreads, covered writes, or straddles.
+8. **Letting the option expire**: worthless expiration is an inherent, built-in stop-loss unique to option buying — do nothing and lose only the premium, unlike a position in the underlying, which must eventually be offset.
 
 ## Risk and money management
 
@@ -57,14 +71,14 @@ The book frames option traders as a group with a demonstrated contrarian edge av
 ## Chapter map
 
 - Ch 1 — Background: context for combining DeMark's timing work with option trading and day trading.
-- Part I (Ch 2–3) — Option Basics and Option Mechanics and Trading: what an option is, pricing, exercising vs. trading vs. letting expire, spreads/straddles/combinations, order placement, and option selection.
-- Ch 4 — Tools and Techniques: buying weakness/selling strength, option purchasing rules, rules for buying calls and puts, introduction to the indicators used throughout.
-- Ch 5 — Option Indicators TD % F and TD Dollar-Weighted Options: indicators built from the option's own price/volume/open-interest data rather than the underlying.
-- Ch 6 — Anticipating the Trend: TD Sequential, TD Combo, and TD Setup Trend: the core Setup/Countdown counting methods, entry rules, stop-loss levels, and profit-taking.
-- Ch 7 — Disqualified Breakouts: TD Lines and TD Retracements: qualified/disqualified TD Line breakouts, TD Line Gap and REBO, and several retracement techniques.
+- Part I (Ch 2–3) — Option Basics, Option Mechanics and Trading: what an option is, pricing, exercising vs. trading vs. letting expire, spreads/straddles/combinations, order placement, option selection.
+- Ch 4 — Tools and Techniques: buying weakness/selling strength, option purchasing rules, rules for buying calls and puts, introduction to the book's indicators.
+- Ch 5 — Option Indicators TD % F and TD Dollar-Weighted Options: indicators built from the option's own price/volume/open-interest data.
+- Ch 6 — Anticipating the Trend: TD Sequential, TD Combo, TD Setup Trend: the core Setup/Countdown counting methods, entry rules, stop-loss levels, profit-taking.
+- Ch 7 — Disqualified Breakouts: TD Lines and TD Retracements: qualified/disqualified TD Line breakouts, TD Line Gap and REBO, retracement techniques.
 - Ch 8 — Perfecting an Oscillator: TD REI and TD POQ: range-expansion oscillator and its qualifier, including disqualified readings.
 - Ch 9 — Moving Forward in Reverse: TD Fib Range, TD Exit One, TD REBO Reverse, TD Camouflage, TD Range Projection: supplementary exit/entry refinements.
-- Ch 10 — Pulling It All Together: a trading game plan, game-plan summary, other option trading tips, and a conclusion.
+- Ch 10 — Pulling It All Together: trading game plan, other option trading tips, conclusion.
 
 ## Strengths and caveats
 

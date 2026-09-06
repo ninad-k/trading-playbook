@@ -1,17 +1,30 @@
 ---
-title: "From Trading Floor to Virtual Marketplace"
-author: "Deutsche Börse Group"
-year: 2002
-slug: deutsche-borse-group-from-trading-floor-to-virtual-marketplace
-tier: B
-category: "Market Structure & Price Action"
-tags: [market-structure, exchanges, xetra, eurex, clearing-settlement, dax, derivatives]
+author: Deutsche Börse Group
+category: Market Structure & Price Action
 difficulty: beginner
 doc_type: manual
+one_liner: Corporate primer on how the Frankfurt Stock Exchange, its Xetra electronic
+  trading system, Eurex derivatives exchange, and Clearstream settlement fit together.
 pages: 19
-one_liner: "Corporate primer on how the Frankfurt Stock Exchange, its Xetra electronic trading system, Eurex derivatives exchange, and Clearstream settlement fit together."
-related: [andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets, sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us]
-source_file: "Deutsche Borse Group - From Trading Floor To Virtual Marketplace.pdf"
+related:
+- andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets
+- sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us
+reviewed_pdf_pages: 2, 5, 7, 9, 11-13 (the market-structure and index sections and
+  the Xetra trading-model pages)
+slug: deutsche-borse-group-from-trading-floor-to-virtual-marketplace
+source_file: Deutsche Borse Group - From Trading Floor To Virtual Marketplace.pdf
+source_review: partial
+tags:
+- market-structure
+- exchanges
+- xetra
+- eurex
+- clearing-settlement
+- dax
+- derivatives
+tier: B
+title: From Trading Floor to Virtual Marketplace
+year: 2002
 ---
 
 ## Summary

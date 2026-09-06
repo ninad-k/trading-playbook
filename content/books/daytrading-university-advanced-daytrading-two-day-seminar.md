@@ -1,17 +1,32 @@
 ---
-title: "Advanced Daytrading: Two-Day Seminar Workbook"
 author: Ken Calhoun
-year: 2001
-slug: daytrading-university-advanced-daytrading-two-day-seminar
-tier: B
 category: Day Trading & Scalping
-tags: [nasdaq, day-trading, tape-reading, level-2, gaps, fibonacci, scalping, chart-patterns]
 difficulty: intermediate
 doc_type: manual
+one_liner: Participant workbook from a 2001 Nasdaq day-trading seminar covering premarket
+  gap scanning, minute-by-minute intraday timing windows, tape reading, and exit checklists.
 pages: 31
-one_liner: "Participant workbook from a 2001 Nasdaq day-trading seminar covering premarket gap scanning, minute-by-minute intraday timing windows, tape reading, and exit checklists."
-related: [andrews-scott-understanding-gaps, jeff-cooper-intra-day-trading-strategies-proven-steps, kevin-hagerty-day-trading-course]
-source_file: "Daytrading University - Advanced Daytrading Two-Day Seminar.pdf"
+related:
+- andrews-scott-understanding-gaps
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+- kevin-hagerty-day-trading-course
+reviewed_pdf_pages: 1-2, 10, 12-13 (the intraday time-window map and the breakout
+  setup rules)
+slug: daytrading-university-advanced-daytrading-two-day-seminar
+source_file: Daytrading University - Advanced Daytrading Two-Day Seminar.pdf
+source_review: partial
+tags:
+- nasdaq
+- day-trading
+- tape-reading
+- level-2
+- gaps
+- fibonacci
+- scalping
+- chart-patterns
+tier: B
+title: 'Advanced Daytrading: Two-Day Seminar Workbook'
+year: 2001
 ---
 
 ## Summary

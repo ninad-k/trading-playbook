@@ -1,17 +1,35 @@
 ---
-title: "How You Can Identify Turning Points Using Fibonacci, Part 1: Understanding Fibonacci Mathematics and Its Connection to the Wave Principle"
 author: Wayne Gorman
-year: 2008
-slug: wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
-tier: B
-category: "Fibonacci, Gann & Elliott Wave"
-tags: [fibonacci, elliott-wave, golden-ratio, retracements, price-targets, time-analysis, log-scale]
+category: Fibonacci, Gann & Elliott Wave
 difficulty: intermediate
 doc_type: course
+one_liner: Elliott Wave International webinar ebook cataloguing the common Fibonacci
+  ratios and multiples used to project Elliott wave retracements, extensions, and
+  turning points in both price and time.
 pages: 42
-one_liner: "Elliott Wave International webinar ebook cataloguing the common Fibonacci ratios and multiples used to project Elliott wave retracements, extensions, and turning points in both price and time."
-related: [elliott-waves-principle, fibonacci-ratios-with-pattern-recognition, fibonacci-studies, george-alexander-maclean-fibonacci-and-gann-applications, william-n-goetzmann-fibonacci-and-the-financial-revolution]
-source_file: "Wayne Gorman - How You Can Identify Turning Points Using Fibonacci.pdf"
+related:
+- elliott-waves-principle
+- fibonacci-ratios-with-pattern-recognition
+- fibonacci-studies
+- george-alexander-maclean-fibonacci-and-gann-applications
+- william-n-goetzmann-fibonacci-and-the-financial-revolution
+reviewed_pdf_pages: 2, 4, 8 (the ratio derivations and the wave retracement and projection
+  guidelines)
+slug: wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+source_file: Wayne Gorman - How You Can Identify Turning Points Using Fibonacci.pdf
+source_review: partial
+tags:
+- fibonacci
+- elliott-wave
+- golden-ratio
+- retracements
+- price-targets
+- time-analysis
+- log-scale
+tier: B
+title: 'How You Can Identify Turning Points Using Fibonacci, Part 1: Understanding
+  Fibonacci Mathematics and Its Connection to the Wave Principle'
+year: 2008
 ---
 
 ## Summary

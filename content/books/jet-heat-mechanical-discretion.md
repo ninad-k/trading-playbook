@@ -1,17 +1,33 @@
 ---
-title: Mechanical Discretion
 author: J. Heat
-year: unknown
-slug: jet-heat-mechanical-discretion
-tier: B
 category: Day Trading & Scalping
-tags: [forex, triple-screen, discretion, trend-following, bollinger-bands, camarilla-pivots, indicators]
 difficulty: intermediate
 doc_type: manual
+one_liner: Informal forex trading guide blending a mechanical Triple-Screen-style
+  system with trader discretion, built around the 'Jetset Trading Method' of three
+  combined strategies.
 pages: 44
-one_liner: "Informal forex trading guide blending a mechanical Triple-Screen-style system with trader discretion, built around the 'Jetset Trading Method' of three combined strategies."
-related: [come-into-my-trading-room-elder-alexander--triple-screen, camarilla-levels, the-1hr-tunnel-method, george-angell-sniper-trading-workbook-pdf]
-source_file: "Jet Heat - Mechanical Discretion.pdf"
+related:
+- come-into-my-trading-room-elder-alexander--triple-screen
+- camarilla-levels
+- the-1hr-tunnel-method
+- george-angell-sniper-trading-workbook-pdf
+reviewed_pdf_pages: 10, 12, 17, 20 (the indicator settings, session filter and the
+  worked entry examples)
+slug: jet-heat-mechanical-discretion
+source_file: Jet Heat - Mechanical Discretion.pdf
+source_review: partial
+tags:
+- forex
+- triple-screen
+- discretion
+- trend-following
+- bollinger-bands
+- camarilla-pivots
+- indicators
+tier: B
+title: Mechanical Discretion
+year: unknown
 ---
 
 ## Summary

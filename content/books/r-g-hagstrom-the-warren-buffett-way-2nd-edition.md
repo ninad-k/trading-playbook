@@ -1,17 +1,30 @@
 ---
-title: The Warren Buffett Way
 author: Robert G. Hagstrom
-year: 2005
-slug: r-g-hagstrom-the-warren-buffett-way-2nd-edition
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, warren-buffett, intrinsic-value, margin-of-safety, portfolio-management, business-analysis]
 difficulty: intermediate
 doc_type: book
+one_liner: Distills Warren Buffett's investment decisions into twelve tenets across
+  business, management, financial, and value criteria, plus his focus-portfolio approach.
 pages: 268
-one_liner: "Distills Warren Buffett's investment decisions into twelve tenets across business, management, financial, and value criteria, plus his focus-portfolio approach."
-related: [j-k-lasser-pick-stocks-like-warren-buffett, the-intelligent-investor-benjamin-graham, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "R G Hagstrom - The Warren Buffett Way  2nd Edition.pdf"
+related:
+- j-k-lasser-pick-stocks-like-warren-buffett
+- the-intelligent-investor-benjamin-graham
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 2, 8 and the tenets chapters checked against the note's twelve-tenet
+  checklist and turnover figures
+slug: r-g-hagstrom-the-warren-buffett-way-2nd-edition
+source_file: R G Hagstrom - The Warren Buffett Way  2nd Edition.pdf
+source_review: partial
+tags:
+- value-investing
+- warren-buffett
+- intrinsic-value
+- margin-of-safety
+- portfolio-management
+- business-analysis
+tier: A
+title: The Warren Buffett Way
+year: 2005
 ---
 
 ## Overview

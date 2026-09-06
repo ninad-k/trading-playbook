@@ -1,17 +1,32 @@
 ---
-title: "Investment Psychology Explained (Part 1)"
-author: "Martin J. Pring"
-year: 1993
-slug: martin-j-pring-investment-psychology-part-1
-tier: B
+author: Martin J. Pring
 category: Trading Psychology & Discipline
-tags: [trading-psychology, discipline, contrary-opinion, objectivity, patience, bubbles]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Pring''s classic on mastering emotion in trading: objectivity, independent
+  thinking, patience, staying the course, and reading contrary opinion and market
+  manias.'
 pages: 98
-one_liner: "Pring's classic on mastering emotion in trading: objectivity, independent thinking, patience, staying the course, and reading contrary opinion and market manias."
-related: [trading-in-the-zone, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, jack-schwager-stock-market-wizards, money-management-report-van-tharp]
-source_file: "Martin J Pring - Investment Psychology - Part 1.pdf"
+related:
+- trading-in-the-zone
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- jack-schwager-stock-market-wizards
+- money-management-report-van-tharp
+reviewed_pdf_pages: 2, 44 and the rule chapters checked against the note's worked
+  GBP example
+slug: martin-j-pring-investment-psychology-part-1
+source_file: Martin J Pring - Investment Psychology - Part 1.pdf
+source_review: partial
+tags:
+- trading-psychology
+- discipline
+- contrary-opinion
+- objectivity
+- patience
+- bubbles
+tier: B
+title: Investment Psychology Explained (Part 1)
+year: 1993
 ---
 
 ## Summary

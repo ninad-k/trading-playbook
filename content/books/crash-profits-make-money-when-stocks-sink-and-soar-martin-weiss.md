@@ -1,17 +1,33 @@
 ---
-title: "Crash Profits: Make Money When Stocks Sink and Soar"
 author: Martin D. Weiss
-year: 2003
-slug: crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss
-tier: A
 category: Money Management & Position Sizing
-tags: [bear-market, put-options, short-selling, asset-protection, deflation, 401k, bond-safety, reverse-index-funds]
 difficulty: beginner
 doc_type: book
+one_liner: A dramatized 2002-era guide to protecting capital and profiting from a
+  stock/bond/real-estate bust via safe-haven moves, put options, and reverse index
+  funds.
 pages: 368
-one_liner: "A dramatized 2002-era guide to protecting capital and profiting from a stock/bond/real-estate bust via safe-haven moves, put options, and reverse index funds."
-related: [harry-d-schultz-bear-market-investing-strategies, jack-schwager-stock-market-wizards, richard-l-weissman-mechanical-trading-systems]
-source_file: "Crash Profits Make Money When Stocks Sink And Soar Martin Weiss.pdf"
+related:
+- harry-d-schultz-bear-market-investing-strategies
+- jack-schwager-stock-market-wizards
+- richard-l-weissman-mechanical-trading-systems
+reviewed_pdf_pages: 3, 5-8, 116 (the rally-mode rule, the staged re-entry plan and
+  the historical panic chapters)
+slug: crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss
+source_file: Crash Profits Make Money When Stocks Sink And Soar Martin Weiss.pdf
+source_review: partial
+tags:
+- bear-market
+- put-options
+- short-selling
+- asset-protection
+- deflation
+- 401k
+- bond-safety
+- reverse-index-funds
+tier: A
+title: 'Crash Profits: Make Money When Stocks Sink and Soar'
+year: 2003
 ---
 
 ## Overview

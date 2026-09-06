@@ -1,17 +1,28 @@
 ---
-title: "ADX (Average Directional Index)"
 author: Mark McRae
-year: unknown
-slug: adx
-tier: B
 category: Indicators
-tags: [adx, trend-strength, moving-average, entry-timing, wilder]
 difficulty: beginner
 doc_type: article
+one_liner: Short lesson on reading ADX as a trend-strength gauge and a simple 30-plus,
+  pullback-to-21-MA entry technique.
 pages: 3
-one_liner: "Short lesson on reading ADX as a trend-strength gauge and a simple 30-plus, pullback-to-21-MA entry technique."
-related: [macd, bollingerbands, trading-with-macd-a-lesson-on-divergence]
-source_file: "ADX.pdf"
+related:
+- macd
+- bollingerbands
+- trading-with-macd-a-lesson-on-divergence
+reviewed_pdf_pages: 1-3
+slug: adx
+source_file: ADX.pdf
+source_review: full
+tags:
+- adx
+- trend-strength
+- moving-average
+- entry-timing
+- wilder
+tier: B
+title: ADX (Average Directional Index)
+year: unknown
 ---
 
 ## Summary

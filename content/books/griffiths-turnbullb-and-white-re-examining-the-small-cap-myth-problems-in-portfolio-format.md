@@ -1,17 +1,31 @@
 ---
-title: "Re-examining the Small-Cap Myth: Problems in Portfolio Formation and Liquidation"
-author: "Mark D. Griffiths, D. Alasdair S. Turnbull, Robert W. White"
-year: 1999
-slug: griffiths-turnbullb-and-white-re-examining-the-small-cap-myth-problems-in-portfolio-format
-tier: B
+author: Mark D. Griffiths, D. Alasdair S. Turnbull, Robert W. White
 category: Quant, Microstructure & Academic Research
-tags: [small-cap, turn-of-the-year-effect, liquidity, portfolio-formation, transaction-costs, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Intraday simulation shows small-cap turn-of-the-year outperformance largely
+  disappears once real order-book liquidity constraints replace the assumption of
+  instant execution.
 pages: 21
-one_liner: "Intraday simulation shows small-cap turn-of-the-year outperformance largely disappears once real order-book liquidity constraints replace the assumption of instant execution."
-related: [supply-demand, foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity]
-source_file: "Griffiths, Turnbullb And White-Re-Examining The Small-Cap Myth Problems In Portfolio Formation An.pdf"
+related:
+- supply-demand
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+reviewed_pdf_pages: 1, 5, 8, 12, 17 (the trading-cost methodology and the small-cap-versus-large-cap
+  results)
+slug: griffiths-turnbullb-and-white-re-examining-the-small-cap-myth-problems-in-portfolio-format
+source_file: Griffiths, Turnbullb And White-Re-Examining The Small-Cap Myth Problems
+  In Portfolio Formation An.pdf
+source_review: partial
+tags:
+- small-cap
+- turn-of-the-year-effect
+- liquidity
+- portfolio-formation
+- transaction-costs
+- academic-paper
+tier: B
+title: 'Re-examining the Small-Cap Myth: Problems in Portfolio Formation and Liquidation'
+year: 1999
 ---
 
 ## Summary

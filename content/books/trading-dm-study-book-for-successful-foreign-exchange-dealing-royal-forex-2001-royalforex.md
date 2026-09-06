@@ -1,17 +1,33 @@
 ---
-title: "Study Book for Successful Foreign Exchange Dealing"
-author: "Royal Forex"
-year: 2001
-slug: trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex
-tier: B
+author: Royal Forex
 category: Forex Mechanics & Macro Drivers
-tags: [forex, fundamental-analysis, technical-analysis, chart-patterns, indicators, fibonacci, elliott-wave]
 difficulty: beginner
 doc_type: manual
+one_liner: A broker-published forex primer covering market structure, risk types,
+  fundamental indicators, and a full run-through of chart patterns, technical indicators,
+  Fibonacci, and Elliott Wave.
 pages: 69
-one_liner: "A broker-published forex primer covering market structure, risk types, fundamental indicators, and a full run-through of chart patterns, technical indicators, Fibonacci, and Elliott Wave."
-related: [glossary-of-forex-terms, forex-education-seminar2, chart-patterns-tutorial, elliott-waves-principle]
-source_file: "(Trading)DM_Study_Book_for_Successful_Foreign_Exchange_Dealing(Royal_Forex_2001_royalforex.com)_[pdf].pdf"
+related:
+- glossary-of-forex-terms
+- forex-education-seminar2
+- chart-patterns-tutorial
+- elliott-waves-principle
+reviewed_pdf_pages: 10, 18, 26, 63 (the market-mechanics sections and the Fibonacci
+  and Elliott chapters)
+slug: trading-dm-study-book-for-successful-foreign-exchange-dealing-royal-forex-2001-royalforex
+source_file: (Trading)DM_Study_Book_for_Successful_Foreign_Exchange_Dealing(Royal_Forex_2001_royalforex.com)_[pdf].pdf
+source_review: partial
+tags:
+- forex
+- fundamental-analysis
+- technical-analysis
+- chart-patterns
+- indicators
+- fibonacci
+- elliott-wave
+tier: B
+title: Study Book for Successful Foreign Exchange Dealing
+year: 2001
 ---
 
 ## Summary

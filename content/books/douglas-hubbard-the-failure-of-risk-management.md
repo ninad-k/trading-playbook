@@ -1,17 +1,31 @@
 ---
-title: "The Failure of Risk Management: Why It's Broken and How to Fix It"
-author: "Douglas W. Hubbard"
-year: 2009
-slug: douglas-hubbard-the-failure-of-risk-management
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [risk-management, monte-carlo, risk-matrices, calibration, black-swans, cognitive-bias, quantitative-methods]
+author: Douglas W. Hubbard
+category: Quant, Microstructure & Academic Research
 difficulty: intermediate
 doc_type: book
+one_liner: Hubbard argues most corporate/financial risk management — subjective scoring
+  matrices especially — is unvalidated and often worse than no method at all, and
+  prescribes calibrated probabilities plus Monte Carlo modeling as the fix.
 pages: 300
-one_liner: "Hubbard argues most corporate/financial risk management — subjective scoring matrices especially — is unvalidated and often worse than no method at all, and prescribes calibrated probabilities plus Monte Carlo modeling as the fix."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, risk-management-systems, prospect-theory]
-source_file: "Douglas Hubbard - The Failure of Risk Management.pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- risk-management-systems
+- prospect-theory
+reviewed_pdf_pages: 6, 13 and the scoring-method chapters checked against the note
+slug: douglas-hubbard-the-failure-of-risk-management
+source_file: Douglas Hubbard - The Failure of Risk Management.pdf
+source_review: partial
+tags:
+- risk-management
+- monte-carlo
+- risk-matrices
+- calibration
+- black-swans
+- cognitive-bias
+- quantitative-methods
+tier: B
+title: 'The Failure of Risk Management: Why It''s Broken and How to Fix It'
+year: 2009
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "Managing Credit Risk with Credit and Macro Derivatives"
-author: "Udo Broll, Gerhard Schweimayer & Peter Welzel"
-year: 2003
-slug: managing-credit-risk-with-credit-and-macro-derivatives
-tier: B
+author: Udo Broll, Gerhard Schweimayer & Peter Welzel
 category: Quant, Microstructure & Academic Research
-tags: [credit-risk, credit-default-swap, macro-derivatives, hedging, banking-theory, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: An academic banking-theory paper deriving optimal hedge rules for a risk-averse
+  bank using credit default swaps and macro derivatives to hedge loan-portfolio credit
+  risk.
 pages: 21
-one_liner: "An academic banking-theory paper deriving optimal hedge rules for a risk-averse bank using credit default swaps and macro derivatives to hedge loan-portfolio credit risk."
-related: [credit-risk-modeling-and-valuation-an-introduction, credit-derivatives, derivatives-pricing-and-financial-modelling]
-source_file: "Managing Credit Risk With Credit And Macro Derivatives.pdf"
+related:
+- credit-risk-modeling-and-valuation-an-introduction
+- credit-derivatives
+- derivatives-pricing-and-financial-modelling
+reviewed_pdf_pages: the three separation cases and the macro-derivative section checked
+  against the note; the paper is analytical rather than numeric
+slug: managing-credit-risk-with-credit-and-macro-derivatives
+source_file: Managing Credit Risk With Credit And Macro Derivatives.pdf
+source_review: partial
+tags:
+- credit-risk
+- credit-default-swap
+- macro-derivatives
+- hedging
+- banking-theory
+- academic-research
+tier: B
+title: Managing Credit Risk with Credit and Macro Derivatives
+year: 2003
 ---
 
 ## Summary

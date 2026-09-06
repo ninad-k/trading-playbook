@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set-Up and Entry Strategy Design with the ANP Pyramid — Charlie Wright · Trading Playbook</title>
+<meta name="description" content="A codeable framework for building any mechanical strategy from a Set-Up plus a rule-checked Entry, sized with a profit-funded ANP Pyramid position-sizing scheme.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/trading-as-a-business.html">Trading As A Business</a></p>
+  <h1>Set-Up and Entry Strategy Design with the ANP Pyramid</h1>
+  <p class="byline">Charlie Wright · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A codeable framework for building any mechanical strategy from a Set-Up plus a rule-checked Entry, sized with a profit-funded ANP Pyramid position-sizing scheme.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=strategy-development">strategy-development</a> <a class="tag" href="../search.html?q=mechanical-trading">mechanical-trading</a> <a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=tradestation">tradestation</a> </td></tr>
+    <tr><th>Length</th><td>169 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Set-Up and Entry Strategy Design with the ANP Pyramid” by Charlie Wright at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A general-purpose method for turning any indicator or price pattern into a mechanical strategy, then sizing it so added contracts are funded only by the strategy&rsquo;s own accumulated profits. Two components: (1) &ldquo;Set-Up and Entry,&rdquo; a design discipline for building the trading rules, usable for trend-following, support/resistance, or volatility-expansion strategies; and (2) the &ldquo;ANP (Accumulated Net Profit) Pyramid,&rdquo; a position-sizing formula layered on any strategy with a defined per-contract money-management stop.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Building the Set-Up and Entry:</strong></p>
+<ol>
+<li>Choose a market type — trending, directionless, or volatile — and a matching Set-Up indicator (trend: moving-average crossover, rising ADX, price outside a channel; support/resistance: RSI or Stochastic overbought/oversold; volatility: an opening gap or a bar range exceeding the recent average).</li>
+<li>Treat the Set-Up as necessary but not sufficient — it signals &ldquo;get ready,&rdquo; never triggers a position alone.</li>
+<li>Design a separate Entry satisfying two rules: <strong>#1</strong> — price must move in the Set-Up&rsquo;s direction before entry (a bare market order fails unless conditioned, e.g. &ldquo;buy at market only if tomorrow&rsquo;s open exceeds today&rsquo;s high&rdquo;); <strong>#2</strong> — the Entry (or combination) must guarantee the strategy is in the market for every move it targets — an Entry dependent on an optional pattern (three up closes, a key-reversal bar) that might simply never occur is flawed even if profitable in isolation.</li>
+<li>Rank order types: stop orders (best — fill once price crosses the trigger, any time of day) &gt; Stop-Close-Only (needs a qualifying close) &gt; conditioned market orders &gt; limit orders (avoided — they require price to move against the Set-Up and aren&rsquo;t guaranteed to fill).</li>
+<li>If the primary Entry can fail Rule #2 in an unusually strong trend (check by scrolling the chart, not just the Performance Summary), add a failsafe secondary Entry — typically a breakout of a longer-term high/low (e.g., a 50-bar high/low).</li>
+<li>Validate by comparing the combined strategy against each component alone (Set-Up-only, Entry-only): it should show a higher average trade and better risk-adjusted return (ROMID = Net Profit ÷ MAXID) than any piece alone.</li>
+<li>Sanity-check: require ≥25–30 historical trades; largest winning trade ≤50% of gross profit or 25% of net profit; require the strategy to clear roughly 2× the T-Bill rate (stocks) or 4× (futures).</li>
+</ol>
+<p><strong>Sizing positions with the ANP Pyramid:</strong></p>
+<ol start="8">
+<li>Quantify per-contract risk: attach a money-management stop and optimize its distance (e.g., test $1,000–$5,000 in $500 steps) for the value maximizing both Net Profit and ROMID; a stop hit much more than ~10% of the time is too tight.</li>
+<li>Capitalize the account to at least 3× the strategy&rsquo;s historical MAXID plus margin before trading at all.</li>
+<li>Trade exactly one contract with personal capital while Accumulated Net Profit (ANP) is at or near zero.</li>
+<li>Pick a fixed percentage of ANP to risk (test a range, e.g. 10–60%, choosing on the Net Profit/ROMID/MAXID trade-off). Scale contracts up so total dollar risk always equals that percentage of current ANP (e.g., at 20% risk with a $4,000 per-contract stop, a second contract is added once ANP reaches $40,000).</li>
+<li>Revert to one contract whenever ANP falls back toward zero — original capital never funds more than the one-contract baseline; only accumulated winnings fund additional size.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>Two layers: a per-contract money-management stop (fixed distance chosen by optimization, not feel), and account-level sizing tying total contracts to accumulated profit rather than total equity. Capitalizing to 3× historical MAXID before risking real money is the primary defense against being forced out by an ordinary, previously-seen drawdown. This is a trade-off, not a free lunch: in the book&rsquo;s Swiss Franc example, raising ANP risk from 10% to 50% took Net Profit from ~$98,000 to ~$3.4 million over 15 years, but MAXID from ~$16,000 to ~$1.6 million — pick a risk percentage sustainable through the drawdown, not just the highest-return column.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Platform-specific in its worked form (TradeStation/EasyLanguage order types, MAXID/ROMID/SPF/PS terminology); the underlying logic transfers elsewhere but the exact code won&rsquo;t. Assumes a futures-style contract with roughly constant dollar risk per unit — adapting to equities or instruments with varying per-share risk requires recalculating effective &ldquo;contract size&rdquo; as volatility changes, which the source doesn&rsquo;t address. Worked examples use flat slippage/commission assumptions and pre-2000 data (Swiss Franc 1982–1997, Coca-Cola 1970–1997); modern spreads and execution costs aren&rsquo;t reflected. The optimization used to pick both the stop and the ANP risk percentage carries acknowledged curve-fitting risk, addressed only by a minimum trade count and cross-checking Net Profit against ROMID/MAXID together — not by out-of-sample or walk-forward testing.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — Defines the 8 components of a trading strategy and 8 sections of a full trading business plan, plus a system-development framework from an Army systems-design interview.</li><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

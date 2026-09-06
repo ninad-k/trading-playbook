@@ -1,17 +1,32 @@
 ---
-title: "Financial Time Series Toolbox for MATLAB: User's Guide"
 author: The MathWorks, Inc.
-year: 2004
-slug: financial-times-series-tbx-ug
-tier: B
 category: Indicators
-tags: [matlab, technical-indicators, macd, rsi, williams-pctr, on-balance-volume, data-tools, quant]
 difficulty: intermediate
 doc_type: manual
+one_liner: MATLAB toolbox reference for building and analyzing financial time series
+  objects, with worked examples computing MACD, Williams %R, RSI, and On-Balance Volume.
 pages: 286
-one_liner: "MATLAB toolbox reference for building and analyzing financial time series objects, with worked examples computing MACD, Williams %R, RSI, and On-Balance Volume."
-related: [macd, trading-with-macd-a-lesson-on-divergence, wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator, candlestick-charting-explained]
-source_file: "Financial_Times_Series_Tbx_UG.pdf"
+related:
+- macd
+- trading-with-macd-a-lesson-on-divergence
+- wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+- candlestick-charting-explained
+reviewed_pdf_pages: 2-3, 11-14 (the function reference and the worked indicator examples)
+slug: financial-times-series-tbx-ug
+source_file: Financial_Times_Series_Tbx_UG.pdf
+source_review: partial
+tags:
+- matlab
+- technical-indicators
+- macd
+- rsi
+- williams-pctr
+- on-balance-volume
+- data-tools
+- quant
+tier: B
+title: 'Financial Time Series Toolbox for MATLAB: User''s Guide'
+year: 2004
 ---
 
 ## Summary

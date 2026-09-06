@@ -1,17 +1,33 @@
 ---
-title: "The Logical Trader: Applying a Method to the Madness"
-author: "Mark B. Fisher"
-year: 2002
-slug: mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness
-tier: A
-category: "Day Trading & Scalping"
-tags: [acd-method, pivot-points, opening-range, futures, discipline, position-sizing, number-line]
+author: Mark B. Fisher
+category: Day Trading & Scalping
 difficulty: intermediate
 doc_type: book
+one_liner: 'Fisher''s ACD method: trade opening-range breakouts (Point A) and pivot-range
+  reversals (Point C) with price-defined B/D stops, layered with pivot ranges, rolling
+  pivots, and a macro sentiment number line.'
 pages: 137
-one_liner: "Fisher's ACD method: trade opening-range breakouts (Point A) and pivot-range reversals (Point C) with price-defined B/D stops, layered with pivot ranges, rolling pivots, and a macro sentiment number line."
-related: [pivots, automated-intraday-open-pivot-setup, forex-intraday-pivots-trading-system-complete-system, john-l-person-swing-trading-using-candlestick-charting-with-pivot-point, daytrading-university-trading-course]
-source_file: "Mark B Fisher, - The Logical Trader. Applying A Method To The Madness.pdf"
+related:
+- pivots
+- automated-intraday-open-pivot-setup
+- forex-intraday-pivots-trading-system-complete-system
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+reviewed_pdf_pages: 1-2, 5, 7, 11, 17, 20, 23, 135 (opening-range and ACD definitions,
+  the macro number line, worked A-through-pivot and rubber-band trade examples)
+slug: mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness
+source_file: Mark B Fisher, - The Logical Trader. Applying A Method To The Madness.pdf
+source_review: partial
+tags:
+- acd-method
+- pivot-points
+- opening-range
+- futures
+- discipline
+- position-sizing
+- number-line
+tier: A
+title: 'The Logical Trader: Applying a Method to the Madness'
+year: 2002
 ---
 
 ## Overview
@@ -24,34 +40,32 @@ Profitable trading comes from always knowing, before entering a trade, the exact
 
 ## Key concepts
 
-- **Opening range** — the high/low band established in the first few minutes (5–20 minutes for futures, longer for less liquid names) or first portion of the trading session; the baseline all other ACD levels are measured from.
-- **Point A (A up / A down)** — a price level a fixed number of ticks above or below the opening range; the market must trade there for at least half the opening-range time frame to "confirm" an A. Only one A can be established per day (an A up rules out an A down and vice versa).
-- **A value** — the instrument-specific tick distance used to plot Point A, calibrated to that market's typical volatility (given in an appendix table for various futures/stocks).
-- **Point B** — the stop-loss level for an ACD trade taken off Point A: the opposite end of the opening range.
-- **Pivot range** — a support/resistance band calculated from the prior period's high, low, and close ("the meat of the market"); price reaching, bouncing off, or slicing through it generates trade signals.
-- **Point C (C up / C down)** — a price target measured a fixed tick distance beyond the opening range, usable only after an opposite-direction A has already been confirmed that day (e.g., a C down requires a prior A up); a valid Point C reversal signals a shift in intraday bias.
-- **Point D** — the stop/exit level once Point C has been hit; once D is hit the trader is expected to stand aside for the rest of the session.
-- **C value** — the tick distance used for Point C, distinct from the A value (in commodities; equal to it in stocks).
-- **Rolling pivot (3-day, and longer)** — a pivot range recalculated on a rolling basis from the highest high, lowest low, and latest close of the last three (or more) trading days; used by swing traders for entries and trailing stops.
-- **Longer-term pivot** — the same pivot-range formula applied to a multi-week window (e.g., the first two weeks of the year, or of July) to define support/resistance for the following half-year.
-- **Rubber band trade** — a fade taken when price stretches toward but fails to reach an A/C target and snaps back, taken with a tight stop and small size.
-- **Macro ACD / number line** — a daily score from −4 to +4 assigned to each session based on which ACD events occurred (A up/down, C up/down, close location); summed cumulatively over a rolling ~30-day window to gauge broader trend bias.
-- **Pivot moving averages** — moving averages (e.g., 14-, 30-, 50-day) built on the daily pivot rather than the close, used mainly for their slope to judge whether the market's bias is trending, confused, or reversing (including a "moving-average fake-out" setup).
-- **Plus day** — a day where price opens below the pivot range and closes above it (or the mirror case), used as a bullish/bearish tell for the next session.
+- **Opening range** — the high/low band of the first few minutes (5–20 minutes for futures, longer for less liquid names) of the session; the baseline all other ACD levels are measured from.
+- **Point A / A value** — an instrument-specific tick distance above or below the opening range; price must hold there for at least half the opening-range time frame to "confirm" an A. Only one A can confirm per day.
+- **Point B** — the stop-loss for an A trade: the opposite end of the opening range.
+- **Pivot range** — a support/resistance band from the prior period's high, low, and close ("the meat of the market"); price reaching, bouncing off, or slicing through it generates signals.
+- **Point C / C value** — a price target beyond the opening range, usable only after an opposite-direction A confirmed that day; a valid Point C signals a shift in intraday bias.
+- **Point D** — the stop/exit once Point C is hit; the trader stands aside for the rest of the session after D is hit.
+- **Rolling pivot** — a pivot range recalculated from the last three (or more) trading days' high/low/close; used for swing entries and trailing stops.
+- **Longer-term pivot** — the same formula applied to a multi-week window (e.g., first two weeks of a half-year) to set support/resistance for the following months.
+- **Rubber band trade** — a fade taken when price stretches toward but fails to reach an A/C target and snaps back, with a tight stop and small size.
+- **Macro ACD / number line** — a daily score from −4 to +4 based on which ACD events occurred, summed over a rolling ~30-day window to gauge broader trend bias.
+- **Pivot moving averages** — moving averages (14-, 30-, 50-day) built on the daily pivot rather than the close; their slope shows whether bias is trending, confused, or reversing (includes a "moving-average fake-out" setup).
+- **Plus day** — a day that opens below the pivot range and closes above it (or the mirror case), read as a bullish/bearish tell for the next session.
 
 ## Rules and setups
 
-The book's full opening-range/pivot-range mechanics and stop placement are detailed on the system sub-page [[mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness--acd-method]]. In summary:
+Full opening-range/pivot-range mechanics and stop placement are on the system sub-page [[mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness--acd-method]]. In summary:
 
-1. **A-up/A-down breakout**: go long above a confirmed A up, short below a confirmed A down; stop is Point B (opposite side of the opening range).
-2. **A through the pivot**: an A up/down that also clears the daily pivot range is a higher-confidence entry; stop can be tightened to the far side of the pivot range instead of Point B, cutting risk substantially (book example: 40 ticks of risk via Point B versus 10 ticks via the pivot range).
-3. **C-reversal trades**: after an opposite A is confirmed, a Point C hit signals a sentiment shift; entries are taken with Point D as the stop.
-4. **Pivot-range fade / breakout**: trade a bounce off the pivot range with a stop on the other side of the range, or trade a "sliced through" break of the range in the breakout direction.
-5. **Rubber-band trade**: fade a failed approach to an A/C level that snaps back, with a stop at the A/C price and small size (book example: risked 4 ticks to make 126).
-6. **Rolling pivot / longer-term pivot**: for multi-day to multi-month holds, substitute a 3-day rolling pivot or a multi-week pivot range for the daily version, with wider A/C tick values scaled to the longer time frame.
-7. **Time stop**: if price reaches a target level but the anticipated move doesn't develop, exit after a defined time window rather than waiting for the price stop to be hit.
+1. **A breakout**: go long above a confirmed A up, short below a confirmed A down; stop is Point B.
+2. **A through the pivot**: an A that also clears the daily pivot range is higher-confidence; tighten the stop to the pivot's far edge instead of Point B (book example: 40 ticks of risk via B versus 10 via the pivot).
+3. **C-reversal**: after an opposite A confirms, a Point C hit signals a sentiment shift; enter with Point D as the stop.
+4. **Pivot-range fade / breakout**: trade a bounce off the pivot range, or a "sliced through" break of it, in the appropriate direction.
+5. **Rubber-band trade**: fade a failed approach to an A/C level that snaps back (book example: risked 4 ticks to make 126).
+6. **Rolling / longer-term pivot**: for multi-day to multi-month holds, substitute a 3-day rolling pivot or a multi-week pivot for the daily version, with wider A/C values.
+7. **Time stop**: if a target level is reached but the move doesn't develop, exit after a defined window rather than waiting for the price stop.
 
-No fixed percent-of-equity sizing formula is given; all stops in the base system are price levels (B, D, or the far side of the pivot range), not a percentage of account.
+No fixed percent-of-equity sizing formula is given; all base-system stops are price levels, not a percentage of account.
 
 ## Risk and money management
 
@@ -88,4 +102,4 @@ Futures and active-stock day traders and short-swing traders who want a fully pr
 - [[automated-intraday-open-pivot-setup]] — another opening-range-plus-pivot intraday system, useful for comparing entry/stop mechanics against ACD.
 - [[forex-intraday-pivots-trading-system-complete-system]] — a pivot-based intraday system applied to forex, for contrast with Fisher's futures/equity focus.
 - [[john-l-person-swing-trading-using-candlestick-charting-with-pivot-point]] — combines pivot points with candlestick confirmation, a useful complement to ACD's pure price-level triggers.
-- [[daytrading-university-trading-course]] — general day-trading course material to compare against ACD's narrower, single-system approach.
+- **Daytrading University Trading Course** (no library summary: corrupt) — general day-trading course material to compare against ACD's narrower, single-system approach.

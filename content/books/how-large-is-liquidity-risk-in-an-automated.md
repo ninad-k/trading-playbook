@@ -1,17 +1,30 @@
 ---
-title: How Large Is Liquidity Risk in an Automated Auction Market?
 author: Pierre Giot & Joachim Grammig
-year: 2002
-slug: how-large-is-liquidity-risk-in-an-automated
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [liquidity-risk, value-at-risk, market-microstructure, limit-order-book, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: Discussion paper introducing a Value-at-Risk methodology that prices in
+  liquidity risk (price impact of liquidation) for portfolios traded on the Xetra
+  automated auction market.
 pages: 35
-one_liner: "Discussion paper introducing a Value-at-Risk methodology that prices in liquidity risk (price impact of liquidation) for portfolios traded on the Xetra automated auction market."
-related: [depth-volatility, madhavan-market-microstructure-a-survey, hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets]
-source_file: "How Large Is Liquidity Risk In An Automated.pdf"
+related:
+- depth-volatility
+- madhavan-market-microstructure-a-survey
+- hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets
+reviewed_pdf_pages: 1-4 (title, authors and abstract; the body's text extraction is
+  corrupted and could not be read)
+slug: how-large-is-liquidity-risk-in-an-automated
+source_file: How Large Is Liquidity Risk In An Automated.pdf
+source_review: partial
+tags:
+- liquidity-risk
+- value-at-risk
+- market-microstructure
+- limit-order-book
+- academic-research
+tier: B
+title: How Large Is Liquidity Risk in an Automated Auction Market?
+year: 2002
 ---
 
 ## Summary

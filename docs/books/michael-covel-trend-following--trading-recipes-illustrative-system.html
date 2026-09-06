@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trend Following: Appendix C Illustrative System (Trading Recipes) — Michael Covel · Trading Playbook</title>
+<meta name="description" content="Covel&#39;s fully coded example system: 89-day breakout entry, 13-day breakdown exit, 2% equity risk sized off ATR — shown to illustrate mechanics, not as a recommendation.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/michael-covel-trend-following.html">Trend Following</a></p>
+  <h1>Trend Following: Appendix C Illustrative System (Trading Recipes)</h1>
+  <p class="byline">Michael Covel · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Covel&#39;s fully coded example system: 89-day breakout entry, 13-day breakdown exit, 2% equity risk sized off ATR — shown to illustrate mechanics, not as a recommendation.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=breakout-system">breakout-system</a> <a class="tag" href="../search.html?q=atr">atr</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=backtest">backtest</a> </td></tr>
+    <tr><th>Length</th><td>344 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Trend Following: Appendix C Illustrative System (Trading Recipes)” by Michael Covel at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A mechanical, price-only breakout system built in Bob Spear&rsquo;s Trading Recipes software and reproduced in the book&rsquo;s Appendix C purely to demonstrate how a trend-following system enters, sizes, and exits a trade. It trades a small diversified futures portfolio (currencies, energies, grains, softs — 15 markets total) and is explicitly not offered as a live trading recommendation; the backtest uses only in-sample data (1991–2001) with no commissions or slippage.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Entry</strong>
+- Long entry stop = highest high of the last 89 days + 1 tick (<code>MAX[H,89,1] + TICK[1]</code>).
+- Short entry stop = lowest low of the last 89 days − 1 tick (<code>MIN[L,89,1] − TICK[1]</code>).
+- A resting stop order is placed at this level each day; price touching it fills the entry.</p>
+<p><strong>Exit</strong>
+- Long exit stop (trailing) = lowest low of the last 13 days − 1 tick (<code>MIN[L,13,1] − TICK[1]</code>).
+- Short exit stop (trailing) = highest high of the last 13 days + 1 tick (<code>MAX[H,13,1] + TICK[1]</code>).
+- The exit stop is recalculated daily while in the trade; if the day&rsquo;s price range touches it, the position is closed.</p>
+<p><strong>Position sizing (risk 2% of equity per trade, taking the more conservative of two sizing methods)</strong>
+1. Compute a 15-day Average True Range (<code>ATR[15]</code>) and convert it to dollars via the instrument&rsquo;s point value (<code>MANAGER[1] = ATR[15] × POINTVALUE</code>).
+2. Method A — risk vs. actual stop distance: <code>contracts_A = (TotalEquity × 0.02) / |entry price − stop price| in dollars</code>.
+3. Method B — risk vs. volatility: <code>contracts_B = (TotalEquity × 0.02) / (2 × MANAGER[1])</code> (i.e., 2% of equity divided by twice the dollar value of 15-day ATR).
+4. Take the smaller of the two contract counts (more conservative sizing).
+5. Cap the result at 100 contracts regardless of what the formula produces.
+6. Round down to whole contracts.</p>
+<p><strong>Worked example:</strong> a Canadian Dollar short entered 14-Dec-1994 with account equity of $2,205,963. Entry/stop distance gave 37.1 contracts (Method A); volatility-based sizing gave 95.9 (Method B). The system took the smaller value, 37 contracts, applied the 100-contract cap (not binding here), for a final 37-contract position.</p>
+<p><strong>Backtest parameters:</strong> starting cash $1,000,000; sample period 1991-01-01 through 2000-12-31; 15-market portfolio spanning currencies, energies, grains, and softs.</p>
+<h2 id="risk">Risk</h2>
+<ul>
+<li>Fixed 2% of current total equity is risked per trade, computed against the <em>worse</em> (larger) of two candidate position sizes — actual stop distance or 2× the 15-day ATR — so the system never risks more than 2% by either measure.</li>
+<li>Equity used for the 2% calculation is marked-to-market current equity, not the starting balance, so position size shrinks after losses and grows after gains.</li>
+<li>A hard cap of 100 contracts per position overrides the sizing formula regardless of equity or volatility.</li>
+<li>No portfolio-level heat limit, correlation control, or max concurrent positions is specified beyond the per-trade 2% and per-position 100-contract cap.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<ul>
+<li>Illustrative only — the author states this is shown to demonstrate mechanics, not as a system to trade.</li>
+<li>Backtest uses in-sample data exclusively (1991–2000); no out-of-sample or walk-forward validation is presented.</li>
+<li>Commissions and slippage are excluded (&ldquo;for the sake of simplicity&rdquo;), which will materially overstate real-world performance given the system trades 18,879 total items over the test.</li>
+<li>Portfolio composition (15 specific futures markets) was not optimized or stress-tested — presented as a convenience sample.</li>
+<li>No filter, volatility regime check, or trade-frequency limit beyond the breakout/breakdown levels; whipsaws are expected and unmitigated by design.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/turtlerules.html">The Original Turtle Trading Rules</a> — The free, original written record of the actual 1983 Turtle rules — N-based unit sizing, System 1/2 breakouts, 2N stops, and unit-adding — released by an Original Turtle.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

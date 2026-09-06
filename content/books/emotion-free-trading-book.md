@@ -1,17 +1,29 @@
 ---
-title: "The Secrets To: Emotion Free Trading"
 author: Larry Levin
-year: unknown
-slug: emotion-free-trading-book
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, day-trading, rules, visualization, futures, s-and-p]
 difficulty: beginner
 doc_type: book
+one_liner: A former S&P floor trader's 35-chapter guide to acting in your own best
+  interest, built around personal trading rules and psycho-cybernetics visualization
+  exercises.
 pages: 101
-one_liner: "A former S&P floor trader's 35-chapter guide to acting in your own best interest, built around personal trading rules and psycho-cybernetics visualization exercises."
-related: [does-trendfollowing-work-on-stocks]
-source_file: "Emotion Free Trading Book.pdf"
+related:
+- does-trendfollowing-work-on-stocks
+reviewed_pdf_pages: 3, 5-7 (the case studies and the author's twelve-point rule sheet)
+slug: emotion-free-trading-book
+source_file: Emotion Free Trading Book.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- day-trading
+- rules
+- visualization
+- futures
+- s-and-p
+tier: B
+title: 'The Secrets To: Emotion Free Trading'
+year: unknown
 ---
 
 ## Summary

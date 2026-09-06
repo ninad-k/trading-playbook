@@ -8,8 +8,12 @@ one_liner: A former Turtle trader argues disciplined intuition, trained through 
 pages: 223
 related:
 - disciplined-trader
+reviewed_pdf_pages: 7, 15-16, 28, 31, 39, 59, 62, 64, 77, 94 (the intuition chapters,
+  the volatility-based stop example and the win/loss distribution from Faith's Turtle
+  year)
 slug: tradingyourgut
 source_file: TradingYourGut.pdf
+source_review: partial
 tags:
 - intuition
 - behavioral-finance

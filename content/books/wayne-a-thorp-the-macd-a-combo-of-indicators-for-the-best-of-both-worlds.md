@@ -1,17 +1,32 @@
 ---
-title: "The MACD: A Combo of Indicators for the Best of Both Worlds"
 author: Wayne A. Thorp
-year: 2000
-slug: wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds
-tier: B
 category: Indicators
-tags: [macd, moving-averages, oscillators, divergence, overbought-oversold, aaii]
 difficulty: beginner
 doc_type: article
+one_liner: 'AAII Journal (January 2000) tutorial on the MACD indicator: calculation,
+  crossover signals, overbought/oversold use, divergence, and daily-vs-weekly signal
+  weighting.'
 pages: 5
-one_liner: "AAII Journal (January 2000) tutorial on the MACD indicator: calculation, crossover signals, overbought/oversold use, divergence, and daily-vs-weekly signal weighting."
-related: [macd, trading-with-macd-a-lesson-on-divergence, chart-patterns-tutorial, technical-indicators-tutorial]
-source_file: "Wayne A. Thorp - The MACD A Combo of Indicators for the Best of Both Worlds.pdf"
+related:
+- macd
+- trading-with-macd-a-lesson-on-divergence
+- chart-patterns-tutorial
+- technical-indicators-tutorial
+reviewed_pdf_pages: 1-5
+slug: wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds
+source_file: Wayne A. Thorp - The MACD A Combo of Indicators for the Best of Both
+  Worlds.pdf
+source_review: full
+tags:
+- macd
+- moving-averages
+- oscillators
+- divergence
+- overbought-oversold
+- aaii
+tier: B
+title: 'The MACD: A Combo of Indicators for the Best of Both Worlds'
+year: 2000
 ---
 
 ## Summary

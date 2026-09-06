@@ -1,17 +1,32 @@
 ---
-title: "Sharpening Your Trading Skills: Tools the Winners Use"
 author: Jim Wyckoff
-year: unknown
-slug: sharpeningskills
-tier: B
 category: Trading Psychology & Discipline
-tags: [futures, discipline, order-types, fibonacci, swing-trading, seasonality, williams-percent-r, livermore]
 difficulty: beginner
 doc_type: article
+one_liner: Free promotional e-booklet of eight short Jim Wyckoff articles covering
+  trader mistakes, seasonality, Fibonacci retracements, order types, swing trading,
+  Williams %R, and Livermore's rules.
 pages: 24
-one_liner: "Free promotional e-booklet of eight short Jim Wyckoff articles covering trader mistakes, seasonality, Fibonacci retracements, order types, swing trading, Williams %R, and Livermore's rules."
-related: [reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, richard-smitten-trade-like-jesse-livermore-2005]
-source_file: "SharpeningSkills.pdf"
+related:
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- richard-smitten-trade-like-jesse-livermore-2005
+reviewed_pdf_pages: 1, 10-11, 14-15, 20-21 (the indicator definitions and the overbought/oversold
+  rules)
+slug: sharpeningskills
+source_file: SharpeningSkills.pdf
+source_review: partial
+tags:
+- futures
+- discipline
+- order-types
+- fibonacci
+- swing-trading
+- seasonality
+- williams-percent-r
+- livermore
+tier: B
+title: 'Sharpening Your Trading Skills: Tools the Winners Use'
+year: unknown
 ---
 
 ## Summary

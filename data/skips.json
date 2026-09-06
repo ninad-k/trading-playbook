@@ -8,40 +8,31 @@
   "note": "Sales letter only, no method"
  },
  "place-of-insurance": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
- },
- "forex-trading-with-candlestick-and-pattern-2": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
+  "status": "off_topic",
+  "note": "OCR full page is personal life/income insurance primer, not trading."
  },
  "17-money-making-candle-formations": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "17-money-making-candlestick-formations2"
  },
  "thermostat-trading-strategy": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
  },
  "eday-trading-in-mind": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "daytradingmind"
  },
  "moriarty-sfsg": {
   "status": "off_topic",
   "note": "Regulatory disclosure form"
  },
- "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
- },
  "plan-process": {
   "status": "off_topic",
   "note": "Financial planner onboarding flowchart"
- },
- "investment-vehicles": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
  },
  "greatestmoneymakingsecret": {
   "status": "off_topic",
@@ -53,27 +44,25 @@
  },
  "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "how-large-is-liquidity-risk-in-an-automated"
  },
  "insurances-strategies": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
+  "status": "off_topic",
+  "note": "OCR full page is personal insurance adviser checklist, no trading method."
  },
  "bollinger-bandit-trading-strategy": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
  },
  "client-expectations": {
   "status": "off_topic",
   "note": "Financial adviser marketing flyer"
  },
- "aust-vs-int-l-equity-portfolio-journal": {
-  "status": "no_text",
-  "note": "Text layer garbled (letter substitution)"
- },
  "basic-financial-strategies": {
-  "status": "no_text",
-  "note": "No usable text layer"
+  "status": "off_topic",
+  "note": "OCR full page is household budget/debt/life-planning checklist, no trading analysis."
  },
  "how-effective-is-automated-forex-trading": {
   "status": "off_topic",
@@ -83,41 +72,55 @@
   "status": "off_topic",
   "note": "MQL4 programming appendix"
  },
- "derivatives-pricing-and-financial-modelling": {
-  "status": "off_topic",
-  "note": "Unsolved problem sheet, no exposition"
- },
- "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
- },
- "trading-psychology": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
- },
  "jen-matshall-practical-fibonacci-methode-for-forex-trading": {
-  "status": "no_text",
-  "note": "Text layer garbled (font encoding)"
+  "status": "duplicate",
+  "note": "Same title, authors, 31-page structure, rules, examples, stop guidance, and conclusion as the canonical copy; only an added website footer differs.",
+  "dup_of": "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005"
  },
  "super-combo-day-trading-strategy": {
   "status": "duplicate",
+  "note": "Previously reviewed duplicate",
   "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
  },
  "pis-fsg": {
   "status": "off_topic",
   "note": "Financial Services Guide / privacy policy"
  },
- "gann-how-to-trade": {
-  "status": "no_text",
-  "note": "5-page image scan, OCR found no text"
- },
  "a-new-interprtation-of-information-rate-kelly": {
   "status": "duplicate",
-  "dup_of": "kellybetting",
-  "note": "Same Kelly 1956 paper; this copy's text layer is garbled"
+  "note": "Same Kelly 1956 paper; this copy's text layer is garbled",
+  "dup_of": "kellybetting"
  },
- "cynthia-kase-multi-dimensional-trading": {
-  "status": "no_text",
-  "note": "3-page image scan, OCR found no text"
+ "daytrading-university-trading-course": {
+  "status": "corrupt",
+  "note": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+ },
+ "fx-engines-predicting-price-action": {
+  "status": "duplicate",
+  "note": "Exact duplicate of forex-report-predicting-price-movement by page count, word count, title, authors, method, tables, and action text; no independent evidence.",
+  "dup_of": "forex-report-predicting-price-movement"
+ },
+ "money-management-for-gambler": {
+  "status": "corrupt",
+  "note": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+ },
+ "new-concepts-in-technical-trading-systems-welles-wilder": {
+  "status": "corrupt",
+  "note": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+ },
+ "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness": {
+  "status": "duplicate",
+  "note": "The zero-page file is corrupt and cannot be rendered; a source-reviewed canonical note and ACD method page already cover the same title.",
+  "dup_of": "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness"
+ },
+ "fx-crossing-over-to-the-forex-market-2": {
+  "status": "duplicate",
+  "note": "Exact SHA-1 duplicate of the reviewed three-page canonical article.",
+  "dup_of": "fx-crossing-over-to-the-forex-market"
+ },
+ "masteelliowav": {
+  "status": "duplicate",
+  "note": "Both 168-page scans have the same title metadata, cover, sampled interiors, and near-identical recovered OCR; differences reflect scan compression.",
+  "dup_of": "glenn-neely-masterelliotwav-low-quality"
  }
 }

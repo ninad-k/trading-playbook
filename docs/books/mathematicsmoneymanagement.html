@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mathematics of Money Management — Ralph Vince · Trading Playbook</title>
+<meta name="description" content="Derives optimal f mathematically from trade history, the TWR/geometric-mean framework, and why the best-growing fraction also produces the worst drawdowns.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></p>
+  <h1>The Mathematics of Money Management</h1>
+  <p class="byline">Ralph Vince · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">Derives optimal f mathematically from trade history, the TWR/geometric-mean framework, and why the best-growing fraction also produces the worst drawdowns.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-3, 7, 14-15, 53 (the HPR/TWR definitions, the optimal-f derivation and the worked geometric-growth tables). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=optimal-f">optimal-f</a> <a class="tag" href="../search.html?q=kelly-criterion">kelly-criterion</a> <a class="tag" href="../search.html?q=twr">twr</a> <a class="tag" href="../search.html?q=geometric-mean">geometric-mean</a> <a class="tag" href="../search.html?q=drawdown">drawdown</a> <a class="tag" href="../search.html?q=portfolio-theory">portfolio-theory</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=money-management">money-management</a> </td></tr>
+    <tr><th>Length</th><td>106 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Mathematics of Money Management” by Ralph Vince at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/mathematicsmoneymanagement--optimal-f-and-twr-framework.html">Optimal f and the TWR/Geometric Mean Framework</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Vince&rsquo;s follow-up to <em>Portfolio Management Formulas</em> is a pure math text: no chart patterns, no entries, no indicators. Its subject is what fraction of an account to commit to a trade stream that already has a positive expectancy. The book builds from empirical techniques (Ch. 1-2, using raw trade histories) to parametric techniques (Ch. 3-4, fitting distributions so the same math runs on assumed or fitted curves, not only historical trades). The throughline is optimal f: the single fixed fraction of capital, reinvested trade after trade, that maximizes an account&rsquo;s long-run geometric growth rate. The geometric mean, Terminal Wealth Relative (TWR), the Kelly formulas, drawdown severity, and portfolio-level allocation are all by-products of that one number.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Trading returns compound multiplicatively, not additively, so a money-management decision must be judged by its effect on geometric, not arithmetic, growth. For a trade stream with positive mathematical expectation, exactly one fixed fraction of equity — optimal f — maximizes the terminal wealth of reinvesting the account trade after trade. Betting more than optimal f reduces long-run return even though each bet still has positive expectancy; betting less also costs return, just more forgivingly. Optimal f is not a percentage of equity to risk — it is the divisor of the single biggest losing trade in the history, and its dollar-per-contract value tells a trader how many contracts to hold. The book&rsquo;s recurring corollary: the better a system&rsquo;s optimal f, the deeper its historical drawdown, because the worst historical loss at the optimal fraction always produces a retracement of at least f percent of equity. There is no way to keep optimal f&rsquo;s growth benefit without its drawdown penalty; diversification buffers this but never eliminates it.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>HPR (Holding Period Return)</strong> — 1 plus a trade&rsquo;s percentage gain or loss; a +10% trade is HPR 1.10, a -10% trade is HPR 0.90.</li>
+<li><strong>TWR (Terminal Wealth Relative)</strong> — the product of all HPRs in a sequence; final stake divided by starting stake under full reinvestment.</li>
+<li><strong>Geometric mean (G)</strong> — the Nth root of the TWR (N = trades); the &ldquo;growth factor per play.&rdquo; Systems are compared by G, not win rate, average trade, or total profit.</li>
+<li><strong>Optimal f</strong> — the fraction (0-1) of the biggest historical loss that, scaling every trade&rsquo;s HPR, produces the highest TWR/geometric mean.</li>
+<li><strong>Market system</strong> — a synthetic construct: one approach on one market, on a strict 1-unit basis so f can be computed and scaled.</li>
+<li><strong>Mathematical expectation</strong> — average amount won/lost per trade; must be positive or no money management helps.</li>
+<li><strong>Kelly formulas</strong> — f = 2P-1 (equal win/loss size) or f = ((B+1)P-1)/B (payoff ratio B, win probability P); valid only for Bernoulli (fixed two-outcome) distributions, which trading is not.</li>
+<li><strong>Geometric Average Trade (GAT)</strong> — (G-1) × (biggest loss ÷ -f); expected $ profit per contract per trade under fixed-fractional trading.</li>
+<li><strong>Threshold to the geometric</strong> — the point where reinvesting starts to beat not reinvesting; below it, or above too high an f, reinvestment can turn a winner into a loser.</li>
+<li><strong>Dependency (runs test, serial correlation)</strong> — checks for whether wins/losses cluster; if present at high confidence, split into after-win/after-loss sub-systems, each with its own f.</li>
+<li><strong>Estimated Geometric Mean (EGM)</strong> — √(AHPR² - variance of HPRs); ranks candidate portfolio allocations without recomputing full TWRs.</li>
+<li><strong>Efficient frontier / CPA</strong> — Markowitz&rsquo;s non-dominated portfolio weightings; the Combination Product Allocation with the highest EGM is the optimal-f portfolio.</li>
+<li><strong>Risk of ruin</strong> — the asymptotic certainty of losing everything trading an unlimited-liability instrument indefinitely; the book&rsquo;s case for a pre-committed equity ceiling.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>Vince&rsquo;s book has no market timing rules; the &ldquo;system&rdquo; is entirely about position sizing given an existing trade history. See the <a class="xref" href="../books/mathematicsmoneymanagement--optimal-f-and-twr-framework.html">Optimal f and the TWR/Geometric Mean Framework</a> sub-page for the exact formulas. Summary of the procedure:</p>
+<ol>
+<li>Reduce every trade to a P&amp;L on a strict 1-unit basis (1 contract, 1 share, or a defined lot); pyramided add-ons count as separate market systems.</li>
+<li>Test candidate f from 0.01 to 1.00; for each f compute HPR = 1 + f × (-trade ÷ biggest loss) for every trade and the resulting TWR.</li>
+<li>The f producing the highest TWR is optimal f; its Nth root is the geometric mean. Both peak at the same f.</li>
+<li>Convert f to a trading unit: dollars per contract = biggest loss ÷ (-optimal f). Divide current equity by that figure (floor to integer) for contract count; recompute as equity changes.</li>
+<li>For multiple systems, convert each day&rsquo;s $ P&amp;L to a daily HPR relative to that system&rsquo;s optimal-f dollar amount, then search allocations for the combination with the highest estimated geometric mean.</li>
+<li>Before trading any of this, write down the equity level at which you will stop trading unlimited-liability instruments — mandatory contingency planning, not optional.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>This entire book is a risk/money-management text. Its distinctive numeric claims: historical drawdown at optimal f is never smaller than f itself as a percentage of equity (f = .55 implies a drawdown of at least 55%); a well-tested multi-system portfolio traded at optimal f should still expect 30-95% equity retracements over a 5+ year history; diversification buffers but never eliminates this, since uncorrelated systems still periodically draw down in unison. Vince&rsquo;s practical response is to trade a fraction of full optimal f (he cites trimming to f/2 as a common compromise, with no universal ratio prescribed) and to size the smallest-denomination market possible so allocation tracks optimal f precisely as equity changes.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Before any math, the book instructs the reader to write out a worst-case contingency plan — what to do, who to call, and at what equity level to stop trading unlimited-liability instruments — and put it in a drawer before reading further. Vince&rsquo;s argument: money management only works on top of discipline most traders cannot sustain; optimal f is &ldquo;plutonium&rdquo; — tremendous growth power paired with the ability to produce a catastrophic, career-ending drawdown if a trader can&rsquo;t stay with it through the trough. He also warns against averaging win/loss sizes into the Kelly formula (this understates true optimal f) and against assuming dependency between trades without a very high statistical confidence level, since a wrong assumption of dependency is the costlier mistake.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — The Empirical Techniques — HPR/TWR/geometric mean, dependency testing (runs test, serial correlation), mathematical expectation, Kelly formulas and their Bernoulli-only validity, finding optimal f by geometric-mean search, severity of drawdown, Markowitz portfolio theory reworked with optimal f.</li>
+<li>Ch 2 — Fixed Fractional Trading Characteristics — optimal f for small accounts, threshold to the geometric, combined vs. separate bankrolls, time to reach a goal, comparing systems, sensitivity to the biggest loss, equalizing f, Arc Sine Laws and time in drawdown.</li>
+<li>Ch 3 — Parametric Optimal f on the Normal Distribution — distribution basics and moments, the Normal and Lognormal distributions, deriving optimal f from distribution parameters instead of raw trade lists.</li>
+<li>Ch 4 — Parametric Techniques on Other Distributions — Kolmogorov-Smirnov test, building a custom distribution function, fitting parameters, scenario planning, optimal f on binned/empirical data, choosing among candidate f&rsquo;s.</li>
+<li>Appendices — Bernoulli/Binomial distribution and significance testing; other common distributions and finding optimal f on them; further dependency tests (turning points, phase length).</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The math is rigorous and largely self-contained, and the book is candid that its worked examples assume fractional contracts and continuous reinvestment — real integer-lot trading lags the theoretical TWR, especially for small accounts. Vince is explicit this is a book about sizing, not signal generation, and repeatedly claims system profitability barely matters once a marginal edge exists — counterintuitive to some, and it assumes the edge stays stable out of sample, never guaranteed. The drawdown-severity argument is the book&rsquo;s own biggest caveat: full optimal f is mathematically correct but often psychologically and financially unsurvivable, and Vince gives no formal rule for how much to dilute f beyond noting the trade-off is geometric, not linear. The parametric chapters (3-4) need comfort with probability theory and curve-fitting most discretionary traders won&rsquo;t use directly; they matter mainly for quants automating the empirical technique.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Systematic and quantitative traders, and CTAs or fund managers who already have a positive-expectancy system and need a rigorous, math-first framework for position sizing and portfolio allocation across multiple systems. Not useful as a source of entries or trading rules, and too dense in probability theory for a trader who only wants a rule of thumb — for that, <a class="xref" href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> packages similar optimal-f math with more accessible worked examples.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — a more approachable, worked-example treatment of the same optimal-f and Kelly math applied directly to futures position sizing.</li>
+<li><a class="xref" href="../books/kellybetting.html">A New Interpretation of Information Rate</a> — Kelly&rsquo;s original 1956 paper deriving the criterion Vince builds on and explicitly departs from for non-Bernoulli trading outcomes.</li>
+<li><a class="xref" href="../books/kellybetting.html">A New Interpretation of Information Rate</a> — a further technical treatment of the Kelly criterion useful for comparing against Vince&rsquo;s optimal-f generalization.</li>
+<li><a class="xref" href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — a shorter, practitioner-oriented look at position sizing effects on trading performance, a useful counterpoint to this book&rsquo;s academic depth.</li>
+<li><a class="xref" href="../books/trade-your-way-to-financial-freedom.html">Trade Your Way to Financial Freedom</a> — Van Tharp&rsquo;s position-sizing framework, a less mathematically demanding alternative approach to the same core problem.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/kellybetting.html">A New Interpretation of Information Rate</a> — The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li><li><a href="../books/trade-your-way-to-financial-freedom.html">Trade Your Way to Financial Freedom</a> — Defines trading expectancy and R-multiples, then shows through backtested examples that position sizing (not entry signals) drives most of a system&#39;s real-world return.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

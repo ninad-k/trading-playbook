@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credit Risk Modelling and Credit Derivatives — Philipp J. Schönbucher · Trading Playbook</title>
+<meta name="description" content="Schönbucher&#39;s Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure framework to defaultable bonds, plus closed-form pricing for the main credit derivative structures.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Credit Risk Modelling and Credit Derivatives</h1>
+  <p class="byline">Philipp J. Schönbucher · 2000 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Schönbucher&#39;s Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure framework to defaultable bonds, plus closed-form pricing for the main credit derivative structures.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-2 and the structure and pricing chapters checked against the note. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=credit-derivatives">credit-derivatives</a> <a class="tag" href="../search.html?q=credit-risk">credit-risk</a> <a class="tag" href="../search.html?q=default-swaps">default-swaps</a> <a class="tag" href="../search.html?q=term-structure">term-structure</a> <a class="tag" href="../search.html?q=hjm-model">hjm-model</a> <a class="tag" href="../search.html?q=academic">academic</a> <a class="tag" href="../search.html?q=pricing-models">pricing-models</a> </td></tr>
+    <tr><th>Length</th><td>375 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Credit Risk Modelling and Credit Derivatives” by Philipp J. Schönbucher at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is Philipp J. Schönbucher&rsquo;s 2000 doctoral dissertation at the University of Bonn (&ldquo;Credit Risk Modelling and Credit Derivatives&rdquo;), later expanded into his well-known textbook of the same subject. The question addressed: how should the term structure of defaultable bond prices, and the market for credit derivatives built on it, be modeled in a way that is both arbitrage-free and flexible enough to price real-world credit derivative structures? The method extends the Heath-Jarrow-Morton (HJM) forward-rate framework — originally built for default-free interest rates — to defaultable bonds, introducing a &ldquo;multiple defaults&rdquo; model in which a defaulted bond is restructured and continues trading rather than being liquidated for cash. The main finding is a set of arbitrage-free drift and short-rate restrictions (analogous to the classic HJM drift condition) under which defaultable forward rates, ratings-transition dynamics, and jumps at default can all be modeled consistently, yielding closed-form pricing formulas for the major credit derivative types under both Gaussian-HJM and Cox-Ingersoll-Ross specifications.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Surveys the two dominant modeling traditions: firm&rsquo;s-value models (Merton, Black-Cox — default triggered by asset value hitting a boundary, good for capital-structure questions but generates unrealistically low short-term credit spreads) and intensity models (Jarrow-Turnbull, Duffie-Singleton, Lando — default as the first jump of a point process, better suited to derivative pricing).</li>
+<li>Develops a &ldquo;multiple defaults&rdquo; HJM extension in which defaulted debt is restructured rather than liquidated, allowing the defaultable term structure to keep evolving after a credit event.</li>
+<li>Derives the arbitrage-free drift restriction for defaultable forward rates, closely related to the standard HJM restriction, plus the additional requirement that the defaultable short rate never fall below the default-free short rate.</li>
+<li>Extends the model to allow jumps in defaultable forward rates at default, and further to a full ratings-transition framework with stochastic credit-spread dynamics in every rating class (not just a single spread multiplier).</li>
+<li>Catalogs and defines the standard credit derivative structures: asset swap packages, total rate of return swaps (TRORS), default swaps (credit default swaps), credit spread forwards/swaps/options, options on defaultable bonds, basket (first-to-default) default swaps, and credit-linked notes.</li>
+<li>Notes basket/first-to-default default swaps are most useful for small baskets (fewer than six credits); large portfolios are better handled with a loss-level trigger instead.</li>
+<li>Derives closed-form pricing formulas for these instruments under two recovery-model conventions (fractional recovery and equivalent recovery) and two interest-rate/spread dynamics (Gaussian HJM and Cox-Ingersoll-Ross).</li>
+<li>Identifies applications of credit derivatives for market participants: banks managing/freeing credit lines and regulatory capital, traders arbitraging mispriced defaultable bonds or taking a pure view on credit spreads, and investors gaining customized credit exposure via credit-linked notes.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules — this is a mathematical pricing-theory dissertation, not a trading system. What a practitioner can take from it: (1) understand what each named credit derivative structure (default swap, TRORS, asset swap, credit spread option, basket swap, credit-linked note) actually isolates — credit risk, market risk, or both — before using it to hedge or speculate; (2) recognize that credit-spread option payoffs and default-swap pricing are tightly linked to the price of an equivalent defaultable floating-rate note, useful for sanity-checking market quotes; (3) treat any credit-derivative pricing model&rsquo;s short-term spread output with skepticism if it is a pure firm&rsquo;s-value model, since those structurally understate near-term default risk.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is a highly mathematical academic dissertation (stochastic calculus, arbitrage pricing, HJM machinery) aimed at quantitative researchers and derivatives desks, not retail or discretionary traders — most of its content (measure changes, forward-rate SDEs, closed-form derivations) requires graduate-level mathematical finance to follow. Written in 2000, before the 2008 credit crisis exposed serious weaknesses in Gaussian copula and related credit-correlation modeling assumptions used elsewhere in the credit derivatives industry; this dissertation&rsquo;s single-name and basket pricing framework predates those events and the subsequent regulatory overhaul of credit derivatives markets (central clearing, standardized CDS contracts). Notation-heavy; the manuscript includes an extensive symbol glossary that is essential to follow the later chapters.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quantitative researchers, credit derivatives desks, or advanced students who need a rigorous, arbitrage-free pricing framework for defaultable bonds and the standard credit derivative structures — not a fit for discretionary or retail traders looking for tradable rules.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/managing-credit-risk-with-credit-and-macro-derivatives.html">Managing Credit Risk with Credit and Macro Derivatives</a> — An academic banking-theory paper deriving optimal hedge rules for a risk-averse bank using credit default swaps and macro derivatives to hedge loan-portfolio credit risk.</li><li><a href="../books/hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies.html">Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</a> — Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.</li><li><a href="../books/foucault-and-kadan-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — A dynamic microstructure model showing how the mix of patient vs. impatient traders, tick size, and order arrival rate jointly determine spreads and limit-order execution time.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

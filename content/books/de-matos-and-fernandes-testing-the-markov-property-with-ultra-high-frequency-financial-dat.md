@@ -1,17 +1,31 @@
 ---
-title: Testing the Markov Property with Ultra-High Frequency Financial Data
-author: "Joao Amaro de Matos, Marcelo Fernandes"
-year: 2001
-slug: de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat
-tier: B
+author: Joao Amaro de Matos, Marcelo Fernandes
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, bid-ask-spread, markov-process, nonparametric-testing, academic, nyse, ultra-high-frequency]
 difficulty: advanced
 doc_type: paper
+one_liner: Academic paper developing a nonparametric test for whether bid-ask spreads
+  follow a Markov process, rejecting the assumption for 3 of 5 NYSE stocks tested.
 pages: 24
-one_liner: "Academic paper developing a nonparametric test for whether bid-ask spreads follow a Markov process, rejecting the assumption for 3 of 5 NYSE stocks tested."
-related: [hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the, madhavan-market-microstructure-a-survey]
-source_file: "De Matos And Fernandes-Testing The Markov Property With Ultra-High Frequency Financial Data.pdf"
+related:
+- hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the
+- madhavan-market-microstructure-a-survey
+reviewed_pdf_pages: the methodology and results sections checked against the note;
+  the paper reports test statistics rather than trading parameters
+slug: de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat
+source_file: De Matos And Fernandes-Testing The Markov Property With Ultra-High Frequency
+  Financial Data.pdf
+source_review: partial
+tags:
+- market-microstructure
+- bid-ask-spread
+- markov-process
+- nonparametric-testing
+- academic
+- nyse
+- ultra-high-frequency
+tier: B
+title: Testing the Markov Property with Ultra-High Frequency Financial Data
+year: 2001
 ---
 
 ## Summary

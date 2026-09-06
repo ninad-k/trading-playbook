@@ -1,17 +1,34 @@
 ---
-title: How I Trade for a Living
 author: Gary Smith
-year: 2000
-slug: gary-smith-how-i-trade-living
-tier: A
 category: Swing Trading
-tags: [momentum-trading, mutual-funds, stock-index-futures, sentiment-indicators, seasonality, tape-reading, position-sizing]
 difficulty: intermediate
 doc_type: book
+one_liner: A self-taught trader's real-money account of momentum-pattern trading of
+  mutual funds and day-trading S&P/Nasdaq futures, with exact entry/exit percentages.
 pages: 284
-one_liner: "A self-taught trader's real-money account of momentum-pattern trading of mutual funds and day-trading S&P/Nasdaq futures, with exact entry/exit percentages."
-related: [jack-schwager-stock-market-wizards, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading, position-sizing, curtis-faith-way-of-the-turtle]
-source_file: "Gary Smith - How_i_trade_living.pdf"
+related:
+- jack-schwager-stock-market-wizards
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+- position-sizing
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 10-11, 75, 120, 131, 138, 206 (the V-bottom, late-day surge and
+  true-selling-day definitions with their percentage thresholds, plus the trade-diary
+  chapters)
+slug: gary-smith-how-i-trade-living
+source_file: Gary Smith - How_i_trade_living.pdf
+source_review: partial
+tags:
+- momentum-trading
+- mutual-funds
+- stock-index-futures
+- sentiment-indicators
+- seasonality
+- tape-reading
+- position-sizing
+tier: A
+title: How I Trade for a Living
+year: 2000
 ---
 
 ## Overview

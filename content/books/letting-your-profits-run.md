@@ -1,17 +1,30 @@
 ---
-title: "Letting Your Profits Run; When Not To Sell"
-author: "Market Wise Stock Trading School"
-year: 1999
-slug: letting-your-profits-run
-tier: B
+author: Market Wise Stock Trading School
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, exits, scaling-out, profit-taking, mindset]
 difficulty: beginner
 doc_type: article
+one_liner: Short essay arguing that staying in winning trades is a harder, less-discussed
+  discipline than cutting losses, and offering mental techniques for holding profitable
+  positions longer.
 pages: 3
-one_liner: "Short essay arguing that staying in winning trades is a harder, less-discussed discipline than cutting losses, and offering mental techniques for holding profitable positions longer."
-related: [trading-psychology, disciplined-trader, van-tharp-stop-worrying-yourself-out-of-profits]
-source_file: "Letting Your Profits Run.pdf"
+related:
+- trading-psychology
+- disciplined-trader
+- van-tharp-stop-worrying-yourself-out-of-profits
+reviewed_pdf_pages: 1-3
+slug: letting-your-profits-run
+source_file: Letting Your Profits Run.pdf
+source_review: full
+tags:
+- psychology
+- discipline
+- exits
+- scaling-out
+- profit-taking
+- mindset
+tier: B
+title: Letting Your Profits Run; When Not To Sell
+year: 1999
 ---
 
 ## Summary

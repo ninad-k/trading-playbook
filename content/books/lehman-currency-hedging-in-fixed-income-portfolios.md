@@ -1,17 +1,31 @@
 ---
-title: "Currency Hedging in Fixed Income Portfolios"
-author: "Lev Dynkin, Tony Gould"
-year: 2003
-slug: lehman-currency-hedging-in-fixed-income-portfolios
-tier: B
-category: "Forex Mechanics & Macro Drivers"
+author: Lev Dynkin, Tony Gould
+category: Forex Mechanics & Macro Drivers
 difficulty: advanced
-tags: [currency-hedging, fixed-income, forward-contracts, duration, tracking-error, index-replication, institutional]
 doc_type: article
+one_liner: Lehman Brothers research note on how FX forward hedges change a bond portfolio's
+  duration and create tracking error versus hedged benchmarks.
 pages: 8
-one_liner: "Lehman Brothers research note on how FX forward hedges change a bond portfolio's duration and create tracking error versus hedged benchmarks."
-related: [interest-rate-models, day-trading-the-currency-market, wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting]
-source_file: "Lehman Currency Hedging in Fixed Income Portfolios.pdf"
+related:
+- interest-rate-models
+- day-trading-the-currency-market
+- wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting
+reviewed_pdf_pages: 6-9 (the hedging-mechanics sections and the index weight/return
+  tables)
+slug: lehman-currency-hedging-in-fixed-income-portfolios
+source_file: Lehman Currency Hedging in Fixed Income Portfolios.pdf
+source_review: partial
+tags:
+- currency-hedging
+- fixed-income
+- forward-contracts
+- duration
+- tracking-error
+- index-replication
+- institutional
+tier: B
+title: Currency Hedging in Fixed Income Portfolios
+year: 2003
 ---
 
 ## Summary

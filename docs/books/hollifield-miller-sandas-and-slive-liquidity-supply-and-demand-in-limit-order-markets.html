@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liquidity Supply and Demand in Limit Order Markets — Burton Hollifield, Robert A. Miller, Patrik Sandås and Joshua Slive · Trading Playbook</title>
+<meta name="description" content="A structural model links limit-versus-market order choice to immediacy, execution probability, and picking-off risk.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Liquidity Supply and Demand in Limit Order Markets</h1>
+  <p class="byline">Burton Hollifield, Robert A. Miller, Patrik Sandås and Joshua Slive · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">A structural model links limit-versus-market order choice to immediacy, execution probability, and picking-off risk.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-55. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=limit-orders">limit-orders</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=execution-risk">execution-risk</a> </td></tr>
+    <tr><th>Length</th><td>55 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Liquidity Supply and Demand in Limit Order Markets” by Burton Hollifield, Robert A. Miller, Patrik Sandås and Joshua Slive at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>The paper models how traders choose market orders, limit orders, or no order when they differ in private valuations. It defines the price of immediacy from quoted prices, expected execution probability, and picking-off risk, then estimates the model with order and transaction records from three Vancouver Stock Exchange mining stocks observed from May 1990 to November 1993. The estimates show that market conditions alter both order timing and order type. In the sample, market orders were about 37% of submissions at a 2.5% proportional spread and about 30% at a 3.5% spread; market-order traders had valuations at least 4.9% and 7.1% from the average, respectively (pp. 5-7). Wider spreads and low depth made patient limit orders more attractive, with estimated utility gains up to 40% for liquidity traders and 10% for value traders (p. 6).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>A market order buys immediacy; a limit order buys price improvement while accepting delay and non-execution risk (pp. 5, 14-15).</li>
+<li>Extreme private valuations create high willingness to pay for immediacy; moderate valuations tend toward limit orders or no order (pp. 5-6, 13-15).</li>
+<li>The sample’s average time between submissions was about 6 minutes, versus about 23 minutes for a value trader arrival (p. 7).</li>
+<li>A Weibull hazard estimate found order-arrival probability declines with elapsed time since the previous submission; its shape parameter was below one (pp. 11-12).</li>
+<li>In the competing-risks estimates, execution-hazard shape parameters were 0.544-0.817 and cancellation-hazard parameters 0.468-0.652; cancellation becomes relatively more likely the longer an order remains (pp. 21-22).</li>
+<li>Wider spreads predicted longer time to the next submission but increased the probability that a submitted order was a limit order (pp. 11-12).</li>
+<li>The study uses 2.5% of mid-quote as a depth boundary and identifies marginal versus one-tick-away orders in its regressions (pp. 9, 15).</li>
+<li>The paper’s two-day execution forecasts put marginal sell/buy fill probabilities near 16%/13% and one-tick sell/buy probabilities near 61%/63%; wider spreads raise execution probability for one-tick orders, while larger size lowers it (pp. 23-24).</li>
+<li>Conditional picking-off risk is near zero for one-tick orders and about one cent for marginal orders at mean conditions; it is sensitive to the distance between common value and mid-quote (p. 25).</li>
+<li>The three-stock sample contains 55,444, 56,599, and 47,578 order submissions, with mean percentage spreads of 3.9%, 2.8%, and 3.4% and mean depths of 21, 10, and 10 thousand shares (p. 37, Table 1).</li>
+<li>Ordered-probit estimates show spread, depth, order size, recent trades, volatility, lagged return, and time-of-day variables jointly affect market-versus-limit choice, with 23,199-31,254 observations per stock-side model (p. 41, Table 5).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Compare spread, same-side depth, volatility, and order urgency before selecting a market or limit order; the paper’s model treats these as determinants of expected utility (pp. 11-15).</li>
+<li>Treat a limit order as a trade-off: estimate fill probability and adverse price movement rather than assuming quoted price improvement is free (pp. 5, 14-15).</li>
+<li>Do not generalize the 2.5%, 3.5%, 4.9%, or 7.1% thresholds into universal triggers; they are estimates from this sample (pp. 6, 8).</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>The evidence is from three mining stocks on a pre-decimal Vancouver market, and member firms’ proprietary versus customer trades could not be separated. Trader identities could not be linked across submissions, and the model relies on rational expectations and expected-utility maximization (p. 10). CEPR labels the discussion paper provisional. The paper’s execution probabilities are forecast over a two-day horizon and its tables are model estimates, not a complete trading strategy or current venue calibration (pp. 23-32, 37-44).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Readers studying order-book liquidity, execution quality, or empirical market microstructure.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/chordia-roll-and-subrahmanyam-commonality-in-liquidity.html">Commonality in Liquidity</a> — NYSE evidence shows quoted spreads, depth, and effective spreads co-move with market and industry liquidity after stock-level controls.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

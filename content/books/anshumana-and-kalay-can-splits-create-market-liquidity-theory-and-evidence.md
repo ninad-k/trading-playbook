@@ -1,17 +1,31 @@
 ---
-title: Can Splits Create Market Liquidity? Theory and Evidence
 author: V. Ravi Anshuman and Avner Kalay
-year: 2002
-slug: anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [stock-splits, market-microstructure, liquidity, tick-size, academic-paper, trading-volume]
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Financial Markets (2002) model and NYSE evidence arguing firms
+  split their stocks to reach an optimal price level that maximizes liquidity by inducing
+  traders to concentrate their trades in time, given fixed minimum tick sizes.
 pages: 43
-one_liner: "Journal of Financial Markets (2002) model and NYSE evidence arguing firms split their stocks to reach an optimal price level that maximizes liquidity by inducing traders to concentrate their trades in time, given fixed minimum tick sizes."
-related: [chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, chordia-roll-and-subrahmanyam-commonality-in-liquidity, liquidity-in-forex-markets]
-source_file: "Anshumana And Kalay-Can Splits Create Market Liquidity - Theory And Evidence.pdf"
+related:
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- chordia-roll-and-subrahmanyam-commonality-in-liquidity
+- liquidity-in-forex-markets
+reviewed_pdf_pages: 2, 10, 30-33, 37, 43 (the model, the data description and the
+  empirical results)
+slug: anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence
+source_file: Anshumana And Kalay-Can Splits Create Market Liquidity - Theory And Evidence.pdf
+source_review: partial
+tags:
+- stock-splits
+- market-microstructure
+- liquidity
+- tick-size
+- academic-paper
+- trading-volume
+tier: B
+title: Can Splits Create Market Liquidity? Theory and Evidence
+year: 2002
 ---
 
 ## Summary

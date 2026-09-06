@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Encyclopedia of Trading Strategies — Jeffrey Owen Katz and Donna L. McCormick · Trading Playbook</title>
+<meta name="description" content="Statistically tests entry families (breakouts, moving averages, oscillators, seasonality, cycles, neural nets, genetic rules) and exit families on a 30+ market portfolio, ranking which actually beat chance.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>The Encyclopedia of Trading Strategies</h1>
+  <p class="byline">Jeffrey Owen Katz and Donna L. McCormick · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">Statistically tests entry families (breakouts, moving averages, oscillators, seasonality, cycles, neural nets, genetic rules) and exit families on a 30+ market portfolio, ranking which actually beat chance.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4-5, 7, 10, 23, 27, 31, 35, 60, 63-64, 69, 73, 77, 95, 133, 157 (the test methodology chapters and the per-family results tables for breakouts, moving averages, oscillators, cycles and AI models). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=system-testing">system-testing</a> <a class="tag" href="../search.html?q=statistical-significance">statistical-significance</a> <a class="tag" href="../search.html?q=moving-averages">moving-averages</a> <a class="tag" href="../search.html?q=breakouts">breakouts</a> <a class="tag" href="../search.html?q=neural-networks">neural-networks</a> <a class="tag" href="../search.html?q=genetic-algorithms">genetic-algorithms</a> <a class="tag" href="../search.html?q=exit-strategies">exit-strategies</a> <a class="tag" href="../search.html?q=curve-fitting">curve-fitting</a> </td></tr>
+    <tr><th>Length</th><td>386 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Encyclopedia of Trading Strategies” by Jeffrey Owen Katz and Donna L. McCormick at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/mcgraw-hill-encyclopedia-of-trading-strategies--test-methodology.html">The Encyclopedia of Trading Strategies — Standard Test Methodology</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Jeffrey Owen Katz and Donna L. McCormick, both academic researchers and longtime Technical Analysis of Stocks &amp; Commodities contributors, treat trading-system development as an experimental science rather than a chart-reading art. Part I (&ldquo;Tools of the Trade&rdquo;) covers simulators, optimizers, and the statistics needed to judge whether a backtest result is real. Part II (&ldquo;The Study of Entries&rdquo;) systematically tests eight families of entry method — breakouts, moving averages, oscillators, seasonality, lunar/solar cycles, cycle-filter banks, neural networks, and genetic algorithms — each held to a fixed, standardized exit so entries can be compared apples-to-apples. Part III (&ldquo;The Study of Exits&rdquo;) holds entries fixed (random entry) and tests exit refinements: dynamic stops, profit targets, extended time limits, neural and genetic signal exits. Every test runs on a diversified 30+ market futures portfolio with in-sample optimization (1985-1994), out-of-sample verification (1995-1999), transaction costs included, and formal t-test significance reported; full methodology is in the sub-page <a class="xref" href="../books/mcgraw-hill-encyclopedia-of-trading-strategies--test-methodology.html">The Encyclopedia of Trading Strategies — Standard Test Methodology</a>.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Most popular technical methods do not survive rigorous, cost-inclusive, out-of-sample testing on a diversified portfolio — and the ones that do survive are not the ones with the best reputations. Moving-average crossovers, oscillator overbought/oversold signals, and cycle-based entries performed at or below random-entry chance out-of-sample; breakout models that once worked decayed toward chance as they became popular; neural networks and genetically evolved rule-based entries — methods with a &ldquo;terrible reputation&rdquo; for curve-fitting — were the only families that held a statistically significant edge out-of-sample, when trained on a large, pooled, whole-portfolio sample rather than one market. The authors&rsquo; explanation is sample size versus free parameters: curve-fitting is a function of how many parameters a model has relative to how much representative data trained it, not a property of the technique itself, so a large neural net or genetic system trained across an entire 30+ market portfolio can outrun its own capacity to merely memorize noise.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Standardized exit</strong> — a fixed stop/profit-target/time-limit exit (in average-true-range units) applied identically to every entry method under test, so results reflect the entry, not exit variation.</li>
+<li><strong>Dollar volatility equalization</strong> — contracts per market are scaled so every market contributes roughly equal risk/reward, computed from a 200-day average of daily price change times point value.</li>
+<li><strong>Standard portfolio</strong> — a fixed, diversified set of ~30 futures markets (indices, rates, currencies, energies, metals, livestock, grains, softs) used for every entry-family test.</li>
+<li><strong>In-sample / out-of-sample split</strong> — parameters are optimized only on 8/1/1985-12/31/1994 data; 1/1/1995-2/1/1999 is reserved purely for verification.</li>
+<li><strong>Curve-fitting / shrinkage</strong> — the tendency of a model with many free parameters to fit noise in the training sample; quantified with a shrinkage-corrected multiple-correlation formula and cross-checked against out-of-sample decay.</li>
+<li><strong>Annualized risk-to-reward ratio (ARRR)</strong> — the primary performance statistic, essentially a rescaled t-statistic on daily returns, tied directly to a formal significance test.</li>
+<li><strong>Walk-forward / genetic optimization</strong> — alternatives to brute-force grid search; genetic algorithms (OptEvolve) are also used directly as an entry- and exit-rule-generation technique.</li>
+<li><strong>Points of light</strong> — model/order/market combinations profitable and statistically significant in both samples, used to assemble a demonstration multi-system portfolio.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is a testing encyclopedia rather than a single strategy, so &ldquo;rules&rdquo; are the tested parameter ranges and headline out-of-sample findings for each entry family, all run against the standard portfolio and standardized exit (details in the system sub-page):</p>
+<ol>
+<li><strong>Breakouts (Ch. 5)</strong> — channel and highest-high/lowest-low breakouts, look-backs 5-100 by 5, entry at open/limit/stop. Best in-sample look-back was consistently 80 days; profitable before costs (76% annualized) but flipped to a loss once 3-tick slippage and $15/round-turn commission were added. Better than chance out-of-sample (losses under $1,000/trade vs. ~$2,000/trade at random) but not profitable, except a currencies-only volatility-breakout variant (+8.5% annualized, $2,106/trade out-of-sample).</li>
+<li><strong>Moving averages (Ch. 6)</strong> — crossover and slope models, four MA types, lengths 1-50. Trend-following variants lost ~$1,500/trade on average (near the ~$2,100/trade random baseline); a simple-MA support/resistance model with a stop order was profitable both samples ($227/trade in-sample, $482/trade / 14.8% annualized out-of-sample).</li>
+<li><strong>Oscillators (Ch. 7)</strong> — overbought/oversold, signal-line, divergence models. Worst family overall; RSI overbought/oversold was the single worst model, significantly worse than random. MACD divergence was the exception, profitable both samples (6.7%/$1,250 per trade in-sample, 6.1%/$985 out-of-sample).</li>
+<li><strong>Seasonality (Ch. 8)</strong> — calendar-date momentum/crossover models with optional Slow %K confirmation. Clearly better than chance; a crossover-with-confirmation model (entry on stop) was profitable both samples (7.4%/$846 in-sample, 9.5%/$1,677 out-of-sample).</li>
+<li><strong>Lunar/solar (Ch. 9), Cycles (Ch. 10)</strong> — lunar-month and MESA/filter-bank cycle models with phase-based entries. Both close to or worse than chance; cycles were the single worst-performing family out-of-sample.</li>
+<li><strong>Neural networks (Ch. 11)</strong> — 3-/4-layer feed-forward nets (e.g., 18-10-1, 18-20-6-1) trained across the whole portfolio (~88,000 facts). Small networks held up best out-of-sample (avg. loss $860/trade vs. ~$2,000+ random); larger networks showed heavy in-sample curve-fitting (up to 768% annualized) with mixed out-of-sample decay.</li>
+<li><strong>Genetic algorithms (Ch. 12)</strong> — rule-based entries evolved via OptEvolve over up to 2,500 generations, expressed as human-readable rules. Best out-of-sample performer of any family: $3,271/trade average profit, with the long-side model returning 64.2% in-sample / 41.0% out-of-sample annualized.</li>
+<li><strong>Exits (Ch. 13-15)</strong> — optimum near a 1.5 ATR stop / 4.5 ATR target (10-day max hold); a genetically evolved rule-based signal exit cut average losing-trade size roughly in half in-sample and held up out-of-sample, while a neural-network signal exit improved in-sample but did not hold up out-of-sample.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Risk is handled through the standardized exit and dollar-volatility equalization rather than a dedicated money-management chapter. Every system risks a stop-defined amount per trade (in ATR units, not a fixed dollar figure, so it stays comparable across eras and markets), and position size is scaled per market so each contributes equal dollar volatility rather than an equal contract count — essential to the finding that a diversified, cost-inclusive, portfolio-level test tells a different story than single-market anecdotes. The book avoids compounding in its main tests (constant risk exposure, not constant contract count) so t-tests on trade profitability stay valid through drawdowns; reinvestment schemes (optimal f, etc.) are noted as possible add-ons but are said to complicate significance testing.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The book has almost no discretionary-psychology content — its argument is that mechanical, fully specified systems remove emotion (fear, greed, second-guessing) from entries, exits, and stops, and that testing itself must be scientifically disciplined: parameters fixed before testing, the in/out-of-sample wall never violated, skepticism toward any result that hasn&rsquo;t survived a fresh sample. Katz&rsquo;s own origin story — an early discretionary S&amp;P/OEX signal service undermined by his own second-guessing and undisciplined exits — motivates the book&rsquo;s central rule: if it can&rsquo;t be coded and back-tested, it shouldn&rsquo;t be traded.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1-4 (Part I) — Data, Simulators, Optimizers, Statistics — infrastructure and statistical toolkit (t-tests, shrinkage, curve-fitting tradeoffs).</li>
+<li>Ch 5 — Breakout Models — channel and volatility breakouts, order-type and filter variations.</li>
+<li>Ch 6 — Moving-Average Models — trend-following and counter-trend crossover/slope/support-resistance variants.</li>
+<li>Ch 7 — Oscillator-Based Entries — overbought/oversold, signal-line, divergence models.</li>
+<li>Ch 8 — Seasonality — calendar-date momentum and crossover models with confirmation/inversion filters.</li>
+<li>Ch 9 — Lunar and Solar Rhythms — lunar-cycle and sunspot-activity entry models.</li>
+<li>Ch 10 — Cycle-Based Entries — MESA and filter-bank cycle detection and phase-timed entries.</li>
+<li>Ch 11 — Neural Networks — feed-forward nets for reversal and turning-point prediction.</li>
+<li>Ch 12 — Genetic Algorithms — evolved, human-readable rule-based entry models.</li>
+<li>Ch 13-15 (Part III) — Standard Exit, Improvements on the Standard Exit, AI Exits — fixed/dynamic stops, targets, time limits, neural/genetic signal exits vs. random entries.</li>
+<li>Conclusion — portfolio-wide ranking of every entry family plus an assembled &ldquo;points of light&rdquo; multi-system portfolio.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The methodology is the book&rsquo;s real value: a fixed standard portfolio, dollar-volatility equalization, an unchanging exit while entries are compared, formal in/out-of-sample separation, costs included by default, and t-test significance for every headline number — rigor rarely seen in retail-facing trading books. The main dating issue is the data window itself (1985-1999 futures markets, 1990s bid-ask/tick-size conventions), so absolute figures and even relative rankings may not transfer unchanged to today&rsquo;s markets. The neural-network and genetic-algorithm code uses period C/TradeStation idioms requiring the authors&rsquo; own C-Trader Toolkit to reproduce exactly. Some conclusions (cycles worse than chance) contradict optimistic claims made for the same techniques elsewhere — a useful check on hype, but a reader invested in cycles or oscillators will find this book unsparing.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>System developers and quantitative traders who want a template for testing their own entry/exit ideas rigorously — the standard-portfolio, standardized-exit, in/out-of-sample methodology is directly reusable regardless of which specific systems one trades. Less useful for discretionary traders looking for chart-pattern guidance, and requires comfort with basic inferential statistics (t-tests, significance, shrinkage) to get full value from the results tables.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual.html">Jack Schwager&#x27;s Guide to Winning with Automated Trading Systems</a> — a parallel treatment of building and testing mechanical systems, useful alongside this book&rsquo;s statistical rigor.</li>
+<li><a class="xref" href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a> — implements many similar entry/exit ideas directly in TradeStation code, complementing this book&rsquo;s C-based examples.</li>
+<li><a class="xref" href="../books/perry-kaufman-smarter-trading.html">Smarter Trading</a> — covers adaptive moving averages and other techniques this book tests statistically, from a design rather than testing perspective.</li>
+<li><a class="xref" href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — shares the philosophy that psychology-driven pitfalls are best solved with fully mechanical, tested systems.</li>
+<li><strong>New Concepts in Technical Trading Systems</strong> (no library summary: corrupt) — source of the directional movement index the Encyclopedia references as a candidate trend/no-trend filter for breakout systems.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual.html">Jack Schwager&#39;s Guide to Winning with Automated Trading Systems</a> — A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system&#39;s backtest performance report.</li><li><a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a> — A TradeStation/EasyLanguage programming course built around six full turnkey mechanical systems, each backtested 1982-2002 across 17 futures markets.</li><li><a href="../books/perry-kaufman-smarter-trading.html">Smarter Trading</a> — A systems-development handbook centered on the Adaptive Moving Average (KAMA) and a rigorous, skeptical process for testing trading strategies for robustness rather than curve-fit profitability.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

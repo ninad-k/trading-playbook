@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafeZone Stops — Alexander Elder · Trading Playbook</title>
+<meta name="description" content="Noise-adaptive trailing stop: place the stop a multiple of the average recent penetration below (uptrend) or above (downtrend) the prior bar, moving only in the trend&#39;s favor.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a> › <a href="../books/come-into-my-trading-room-elder-alexander.html">Come Into My Trading Room</a></p>
+  <h1>SafeZone Stops</h1>
+  <p class="byline">Alexander Elder · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Noise-adaptive trailing stop: place the stop a multiple of the average recent penetration below (uptrend) or above (downtrend) the prior bar, moving only in the trend&#39;s favor.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=safezone">safezone</a> <a class="tag" href="../search.html?q=trailing-stop">trailing-stop</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=noise-filter">noise-filter</a> <a class="tag" href="../search.html?q=chandelier-exit">chandelier-exit</a> </td></tr>
+    <tr><th>Length</th><td>322 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “SafeZone Stops” by Alexander Elder at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>SafeZone is a trailing-stop method Elder developed to place stops tight enough to protect capital but far enough away to avoid being hit by ordinary market &ldquo;noise&rdquo; (the countertrend portion of each day&rsquo;s range). It defines noise empirically from recent price behavior rather than using a fixed distance or percentage, and moves only in the direction that reduces risk (never loosens). Elder pairs the same underlying logic with a second method, the Chandelier Exit, for riding stronger trends with wider stops.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Trend filter</strong>: use the slope of a 22-day EMA (or another trend indicator) to determine whether the position is being held in an uptrend or a downtrend; SafeZone is calculated differently for each.</p>
+<p><strong>Uptrend (long) calculation, using daily bars</strong>:
+1. For each bar, measure the downside penetration: how far today&rsquo;s low is below yesterday&rsquo;s low (zero if none).
+2. Choose a lookback period (start at 10 days; test up to 100 for longer-term averaging) and sum the downside penetrations over that window.
+3. Count how many of those bars actually penetrated (had a nonzero value).
+4. Average Downside Penetration = sum of penetrations ÷ count of penetrating bars.
+5. Multiply yesterday&rsquo;s Average Downside Penetration by a coefficient (start at 2, test up to 3) and subtract the result from yesterday&rsquo;s low to get today&rsquo;s stop.
+6. The stop may only move up over time (in the direction of the trade) — if the formula would lower it, hold the stop at its prior level instead.</p>
+<p><strong>Downtrend (short) calculation</strong> mirrors the above using upside penetrations of the previous day&rsquo;s high: Average Upside Penetration × coefficient, added to yesterday&rsquo;s high; the stop may only move down, never up.</p>
+<p><strong>Lookback window discipline</strong>: do not let the lookback period extend back past the most recent significant trend reversal — e.g., if the trend flipped from down to up two weeks ago, cap the lookback at roughly 10 trading days so the noise estimate reflects the current regime, not the prior one.</p>
+<p><strong>Coefficient selection</strong>: 2–3× the average penetration is the starting range Elder recommends; back-test the coefficient on the specific instrument being traded rather than assuming a universal value.</p>
+<p><strong>Chandelier Exit (companion method for strong trends)</strong>: Chandelier = highest high over N days − coefficient × Average True Range(N) for longs (mirror with lowest low + coefficient × ATR for shorts). Elder&rsquo;s example uses N = 22 and coefficient = 3 (formula: <code>Hhv(hi,22) − 3×ATR(22)</code>). Because it hangs from the trend&rsquo;s price extreme rather than from the previous bar, it gives up more open profit than SafeZone but tolerates a strong, fast-moving trend without being prematurely stopped out; a trader may take partial profits at a channel line and trail the remainder with the Chandelier Exit.</p>
+<h2 id="risk">Risk</h2>
+<p>SafeZone stops still have to satisfy the parent book&rsquo;s 2% Rule: the position size must be set so that the distance from entry to the initial SafeZone (or Chandelier) stop, multiplied by shares/contracts, does not exceed 2% of trading equity. SafeZone can also be used as a pre-trade filter: multiply the 22-day EMA of the instrument&rsquo;s SafeZone value by 2 and compare it to 2% of account equity; only trade instruments where that noise-based figure is less than the 2% risk budget (i.e., average noise under roughly 1% of equity), otherwise a logical stop cannot be placed without breaking the risk rule.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Elder states SafeZone is &ldquo;not a mechanical gadget to replace independent thought&rdquo; — the lookback period, coefficient, and choice between SafeZone and Chandelier Exit are left to trader judgment and testing, with no single backtested optimum given in the text. The spreadsheet-based calculation (average penetration, coefficient multiplication) requires the trader to program it or track it manually; Elder notes that as of writing, few software packages included SafeZone natively. The Chandelier Exit&rsquo;s wider stop trades off protection of open profit for tolerance of volatility — Elder recommends it mainly for experienced traders riding a strong, established trend, not as a default stop method.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

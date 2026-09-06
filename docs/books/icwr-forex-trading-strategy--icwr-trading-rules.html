@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The ICWR Trading Rules — Quantum Globe Inc. · Trading Playbook</title>
+<meta name="description" content="A fully mechanical Fibonacci-retracement entry/exit system with two parameter sets: 5-minute/40-pip intraday and 4-hour/150-pip long-term, both filtered by a daily RSI(14) versus 50.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a> › <a href="../books/icwr-forex-trading-strategy.html">ICWR Forex Trading Strategy</a></p>
+  <h1>The ICWR Trading Rules</h1>
+  <p class="byline">Quantum Globe Inc. · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A fully mechanical Fibonacci-retracement entry/exit system with two parameter sets: 5-minute/40-pip intraday and 4-hour/150-pip long-term, both filtered by a daily RSI(14) versus 50.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=fibonacci">fibonacci</a> <a class="tag" href="../search.html?q=retracement">retracement</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=mechanical-system">mechanical-system</a> </td></tr>
+    <tr><th>Length</th><td>126 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The ICWR Trading Rules” by Quantum Globe Inc. at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a><ul>
+<li><a href="#step-1-identify-the-active-wave">Step 1 — Identify the active wave</a></li>
+<li><a href="#step-2-draw-fibonacci-levels">Step 2 — Draw Fibonacci levels</a></li>
+<li><a href="#step-3-wait-for-the-retracement-channel-to-trigger">Step 3 — Wait for the retracement channel to trigger</a></li>
+<li><a href="#step-4-read-the-signal-four-cases">Step 4 — Read the signal (four cases)</a></li>
+<li><a href="#step-5-confirm-with-the-daily-rsi-filter">Step 5 — Confirm with the daily RSI filter</a></li>
+<li><a href="#step-6-entry">Step 6 — Entry</a></li>
+<li><a href="#step-7-exit">Step 7 — Exit</a></li>
+<li><a href="#parameter-summary">Parameter summary</a></li>
+</ul>
+</li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>The ICWR Trading Rules generate objective long/short signals from Fibonacci retracement levels drawn around the most recent significant price swing (&ldquo;active wave&rdquo;), filtered by a daily-chart RSI momentum reading, with a fixed hard-pip stop-loss as backstop. The same rule structure is used for two trading horizons that differ only in their parameter values: the <strong>Intraday</strong> variant (5-minute candlesticks) and the <strong>Long-Term</strong> variant (4-hour candlesticks). Both are documented below.</p>
+<h2 id="rules">Rules</h2>
+<h3 id="step-1-identify-the-active-wave">Step 1 — Identify the active wave</h3>
+<p>The active wave is the nearest price swing to the current time whose height (high minus low) meets or exceeds a minimum threshold:
+- <strong>Intraday</strong>: minimum wave height of 40 pips, measured on a 5-minute candlestick chart.
+- <strong>Long-Term</strong>: minimum wave height of 150 pips, measured on a 4-hour candlestick chart.</p>
+<p>Procedure: identify candidate upward and downward swings on the chart; connect each swing&rsquo;s extreme values (high-to-low for downward swings, low-to-high for upward swings); enumerate them starting from the swing nearest the current time; calculate each swing&rsquo;s height; select the nearest swing meeting the minimum-height threshold as the active wave. If none qualifies, look further back in time. Each time a new qualifying swing forms, it replaces the previous active wave and its Fibonacci levels are redrawn.</p>
+<h3 id="step-2-draw-fibonacci-levels">Step 2 — Draw Fibonacci levels</h3>
+<p>From the active wave&rsquo;s extremes, draw Fibonacci retracement levels at 0.000 (the wave&rsquo;s starting/lower extreme for measurement), 0.250, 0.382, 0.618, 0.750, and 1.000 (the wave&rsquo;s other extreme). The 0.382–0.618 band is the <strong>retracement channel</strong>; the 0.250 and 0.750 levels are the <strong>confirmation levels</strong>. The 0.000 and 1.000 levels carry no trading signal (they exist only to confirm correct construction).</p>
+<h3 id="step-3-wait-for-the-retracement-channel-to-trigger">Step 3 — Wait for the retracement channel to trigger</h3>
+<p>No signal is valid until a candlestick&rsquo;s closing price falls inside the 0.382–0.618 retracement channel. Once triggered, only the confirmation levels (0.250, 0.750) matter going forward for that active wave.</p>
+<h3 id="step-4-read-the-signal-four-cases">Step 4 — Read the signal (four cases)</h3>
+<p>A signal requires a <strong>full candlestick</strong> (entire candle body and wick) to close beyond a confirmation level, after the retracement channel has been triggered:</p>
+<table>
+<thead>
+<tr>
+<th>Active wave direction</th>
+<th>Candlestick closes fully&hellip;</th>
+<th>Wave type</th>
+<th>Signal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Downward</td>
+<td>below 0.250</td>
+<td>Impulsive (continuing the down-trend)</td>
+<td>Bearish</td>
+</tr>
+<tr>
+<td>Upward</td>
+<td>above 0.750</td>
+<td>Impulsive (continuing the up-trend)</td>
+<td>Bullish</td>
+</tr>
+<tr>
+<td>Downward</td>
+<td>above 0.750</td>
+<td>Corrective (against the down-trend)</td>
+<td>Bullish</td>
+</tr>
+<tr>
+<td>Upward</td>
+<td>below 0.250</td>
+<td>Corrective (against the up-trend)</td>
+<td>Bearish</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-5-confirm-with-the-daily-rsi-filter">Step 5 — Confirm with the daily RSI filter</h3>
+<p>Both variants use the same filter: a 14-period Relative Strength Index (RSI) on the <strong>1-day</strong> chart, referenced against the 50 midline (not the conventional 30/70 overbought/oversold levels).
+- A bullish ICWR signal is only actionable if the daily RSI(14) is above 50.
+- A bearish ICWR signal is only actionable if the daily RSI(14) is below 50.</p>
+<h3 id="step-6-entry">Step 6 — Entry</h3>
+<p>Enter long on a confirmed bullish signal (ICWR signal + RSI &gt; 50); enter short on a confirmed bearish signal (ICWR signal + RSI &lt; 50).</p>
+<h3 id="step-7-exit">Step 7 — Exit</h3>
+<p>Two independent exit triggers, whichever occurs first:
+1. <strong>Opposite ICWR signal</strong> — an opposite-direction signal generated by the same process (Steps 1–4) as the position is held, tracked continuously as new active waves form.
+2. <strong>Hard stop-loss</strong> — a fixed-pip stop placed immediately on entry:
+   - <strong>Intraday</strong>: 50 pips from entry (above entry for shorts, below entry for longs).
+   - <strong>Long-Term</strong>: 100 pips from entry.</p>
+<p>There is no fixed profit target; the system is explicitly designed to &ldquo;let profits run&rdquo; by staying in the trade through multiple corrective retracements as long as none breaches the opposite confirmation level.</p>
+<h3 id="parameter-summary">Parameter summary</h3>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Intraday</th>
+<th>Long-Term</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chart timeframe</td>
+<td>5-minute</td>
+<td>4-hour</td>
+</tr>
+<tr>
+<td>Minimum active-wave height</td>
+<td>40 pips</td>
+<td>150 pips</td>
+</tr>
+<tr>
+<td>Hard stop-loss distance</td>
+<td>50 pips</td>
+<td>100 pips</td>
+</tr>
+<tr>
+<td>RSI filter</td>
+<td>Daily RSI(14) vs. 50</td>
+<td>Daily RSI(14) vs. 50</td>
+</tr>
+<tr>
+<td>Confirmation levels</td>
+<td>0.250 / 0.750</td>
+<td>0.250 / 0.750</td>
+</tr>
+<tr>
+<td>Retracement channel</td>
+<td>0.382–0.618</td>
+<td>0.382–0.618</td>
+</tr>
+</tbody>
+</table>
+<h2 id="risk">Risk</h2>
+<p>Risk per trade is capped by the hard stop (50 pips intraday, 100 pips long-term), but position sizing in dollar/percentage-of-equity terms is left to the trader — the book&rsquo;s own examples size trades in fixed notional units (e.g., 10,000 units of the quote currency) combined with a stated leverage ratio (commonly 1:20 in examples) rather than a percentage-of-equity risk formula. Because exits rely on waiting for an opposite full-candlestick confirmation signal rather than a trailing stop, open profit can give back a meaningful amount before the exit triggers — the book&rsquo;s own comparison example shows this cost 147 pips of foregone profit relative to a simple trailing stop in one specific trade, in exchange for capturing a larger overall move. The authors&rsquo; own parameter-sensitivity charts (varying active-wave threshold, stop distance, and RSI cutoff) show the reported backtest net-profit results are not highly sensitive to small parameter changes, which the book presents as evidence of robustness — though this is self-reported and not independently replicated.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The reported backtest performance (net pips over a &ldquo;5 months&rdquo; test averaged across EUR/USD, GBP/USD, and CAD/USD, informed by &ldquo;two years&rdquo; of historical data) does not disclose the specific date range, spread/commission/slippage assumptions, maximum drawdown, or out-of-sample testing — treat the figures as promotional illustrations rather than validated results. The &ldquo;active wave&rdquo; identification step retains an element of subjective judgment (choosing which swing on the chart qualifies) despite the system&rsquo;s mechanical framing, which could produce different signals between two traders applying the rules to the same chart. The RSI(1-day; 50/50) filter and the specific Fibonacci confirmation levels (0.250/0.750) were selected by the authors&rsquo; own internal comparison against several alternative filters (moving averages, CCI, other RSI thresholds) reported only as summary bar-chart results, not as a rigorously cross-validated parameter search.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/icwr-forex-trading-strategy.html">ICWR Forex Trading Strategy</a> — A fully mechanical Fibonacci-retracement system (the Impulsive/Corrective Wave Retracement phenomenon) with precise entry, exit and stop rules for both intraday (5-min) and long-term (4-hour) forex trading.</li><li><a href="../books/day-trading-the-currency-market.html">Day Trading the Currency Market</a> — Seven concrete, rule-based FX day-trading strategies (double zeros, breakouts, perfect order, carry trade) built on a trading-journal and trend/range classification framework.</li><li><a href="../books/elliott-waves-principle.html">Elliott Wave Principle</a> — The foundational course on R.N. Elliott&#39;s Wave Principle: motive/corrective wave structure, the three inviolable rules, Fibonacci ratio relationships, alternation, and channeling.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

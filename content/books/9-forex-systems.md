@@ -1,17 +1,32 @@
 ---
-title: "9 Forex Systems"
 author: Various
-year: 2006
-slug: 9-forex-systems
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, moving-averages, macd, stochastic, pivots, news-trading, scalping, day-trading]
 difficulty: beginner
 doc_type: manual
+one_liner: Compilation of nine short intraday forex systems (EMA/Parabolic SAR crosses,
+  scalping, MACD/RSI/Stochastic combos, pivot points, news-jump trading) pulled from
+  various online forex educators.
 pages: 35
-one_liner: "Compilation of nine short intraday forex systems (EMA/Parabolic SAR crosses, scalping, MACD/RSI/Stochastic combos, pivot points, news-jump trading) pulled from various online forex educators."
-related: [the-forex-chartist-companion, forex-money-management]
-source_file: "9 Forex Systems.pdf"
+related:
+- the-forex-chartist-companion
+- forex-money-management
+reviewed_pdf_pages: 2, 4, 8-9 (the money-management section and the individual system
+  rules)
+slug: 9-forex-systems
+source_file: 9 Forex Systems.pdf
+source_review: partial
+tags:
+- forex
+- moving-averages
+- macd
+- stochastic
+- pivots
+- news-trading
+- scalping
+- day-trading
+tier: B
+title: 9 Forex Systems
+year: 2006
 ---
 
 ## Summary

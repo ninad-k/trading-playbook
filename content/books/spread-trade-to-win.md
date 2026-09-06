@@ -1,17 +1,34 @@
 ---
-title: Spread Trade to Win
 author: Rob Walton
-year: 2004
-slug: spread-trade-to-win
-tier: A
 category: Day Trading & Scalping
-tags: [spread-betting, day-trading, indices, candlesticks, technical-indicators, uk-markets, discretionary]
 difficulty: beginner
 doc_type: course
+one_liner: 'UK financial spread-betting primer for day-trading indices (mainly the
+  Dow): mechanics of the bid/offer spread plus a beginner tour of candlesticks and
+  standard indicators used to confirm intraday reversals.'
 pages: 214
-one_liner: "UK financial spread-betting primer for day-trading indices (mainly the Dow): mechanics of the bid/offer spread plus a beginner tour of candlesticks and standard indicators used to confirm intraday reversals."
-related: [beyond-candlesticks-steve-nison, candlestick-charting-explained, 17-money-making-candle-formations, bernstein-jake-the-compleat-day-trader-vol-i, jeff-cooper-intra-day-trading-strategies-proven-steps]
-source_file: "Spread_Trade_To_Win.pdf"
+related:
+- beyond-candlesticks-steve-nison
+- candlestick-charting-explained
+- 17-money-making-candlestick-formations2
+- bernstein-jake-the-compleat-day-trader-vol-i
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+reviewed_pdf_pages: 1-2, 5, 10, 12, 26-27, 30, 47, 49, 52, 55 (method overview, spread-betting
+  mechanics, MACD/stochastic/RSI rules and worked index examples)
+slug: spread-trade-to-win
+source_file: Spread_Trade_To_Win.pdf
+source_review: partial
+tags:
+- spread-betting
+- day-trading
+- indices
+- candlesticks
+- technical-indicators
+- uk-markets
+- discretionary
+tier: A
+title: Spread Trade to Win
+year: 2004
 ---
 
 ## Overview
@@ -77,6 +94,6 @@ Complete beginners to UK financial spread-betting who need account-opening and b
 
 - [[beyond-candlesticks-steve-nison]] — the authoritative source for the candlestick patterns this book reproduces in summary form.
 - [[candlestick-charting-explained]] — a fuller, more rigorous treatment of the same reversal-pattern catalog.
-- [[17-money-making-candle-formations]] — a shorter, more actionable candlestick reference in the same spirit as this book's Ch 14.
+- [[17-money-making-candlestick-formations2]] — a shorter, more actionable candlestick reference in the same spirit as this book's Ch 14.
 - [[bernstein-jake-the-compleat-day-trader-vol-i]] — a more complete day-trading course with similar indicator methods and more explicit rules.
 - [[jeff-cooper-intra-day-trading-strategies-proven-steps]] — the concrete, numbered intraday setups this book's excerpt lacks.

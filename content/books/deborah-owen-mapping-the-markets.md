@@ -1,17 +1,34 @@
 ---
-title: "Mapping the Markets: A Guide to Stockmarket Analysis"
 author: Deborah Owen and Robin Griffiths
-year: 2006
-slug: deborah-owen-mapping-the-markets
-tier: A
-category: "Investing, Value & Market History"
-tags: [economic-cycles, elliott-wave, technical-analysis, chart-patterns, sector-rotation, moving-averages, fibonacci, market-history]
+category: Investing, Value & Market History
 difficulty: beginner
 doc_type: book
+one_liner: Layers economic cycle theory (Kondratieff, Juglar, Kitchin, the four-year
+  electoral cycle) under a practical primer on technical stock selection and sector
+  rotation.
 pages: 145
-one_liner: "Layers economic cycle theory (Kondratieff, Juglar, Kitchin, the four-year electoral cycle) under a practical primer on technical stock selection and sector rotation."
-related: [elliott-waves-principle, john-j-murphy-charting-made-easy, jack-schwager-stock-market-wizards, trading-strategies-john-murphy-s-ten-laws-of-technical-trading]
-source_file: "Deborah Owen - Mapping_the_Markets.pdf"
+related:
+- elliott-waves-principle
+- john-j-murphy-charting-made-easy
+- jack-schwager-stock-market-wizards
+- trading-strategies-john-murphy-s-ten-laws-of-technical-trading
+reviewed_pdf_pages: 5, 9-10, 14, 20 (figure list, the long-cycle chapters and the
+  moving-average/golden-cross rules)
+slug: deborah-owen-mapping-the-markets
+source_file: Deborah Owen - Mapping_the_Markets.pdf
+source_review: partial
+tags:
+- economic-cycles
+- elliott-wave
+- technical-analysis
+- chart-patterns
+- sector-rotation
+- moving-averages
+- fibonacci
+- market-history
+tier: A
+title: 'Mapping the Markets: A Guide to Stockmarket Analysis'
+year: 2006
 ---
 
 ## Overview

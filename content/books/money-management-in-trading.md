@@ -1,17 +1,29 @@
 ---
-title: "Money Management"
 author: Joe Ross
-year: unknown
-slug: money-management-in-trading
-tier: B
-category: "Money Management & Position Sizing"
-tags: [money-management, psychology, overtrading, sunk-cost, margin, discipline]
+category: Money Management & Position Sizing
 difficulty: beginner
 doc_type: article
+one_liner: A Joe Ross chapter cataloguing common money-management mistakes — chasing
+  opinions, overtrading, sunk-cost thinking, margin-inflation surprises — with a fix
+  for each.
 pages: 8
-one_liner: "A Joe Ross chapter cataloguing common money-management mistakes — chasing opinions, overtrading, sunk-cost thinking, margin-inflation surprises — with a fix for each."
-related: [mental-fitness-for-traders, andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets]
-source_file: "Money_Management_In_Trading.pdf"
+related:
+- mental-fitness-for-traders
+- andrew-willis-the-insiders-guide-to-trading-the-world-stock-markets
+reviewed_pdf_pages: 1-8
+slug: money-management-in-trading
+source_file: Money_Management_In_Trading.pdf
+source_review: full
+tags:
+- money-management
+- psychology
+- overtrading
+- sunk-cost
+- margin
+- discipline
+tier: B
+title: Money Management
+year: unknown
 ---
 
 ## Summary

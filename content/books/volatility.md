@@ -1,17 +1,31 @@
 ---
-title: "Volatility"
 author: Guy Bower
-year: unknown
-slug: volatility
-tier: B
 category: Options, Futures & Derivatives
-tags: [options, volatility, implied-volatility, historical-volatility, theta, strangle, ratio-spread]
 difficulty: beginner
 doc_type: article
+one_liner: CDM Trading primer distinguishing historical from implied volatility and
+  outlining basic strategies for trading high vs. low volatility with options.
 pages: 4
-one_liner: "CDM Trading primer distinguishing historical from implied volatility and outlining basic strategies for trading high vs. low volatility with options."
-related: [using-volatility-in-option-tradingpart-1, volatility-part-2, mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures]
-source_file: "Volatility.pdf"
+related:
+- using-volatility-in-option-tradingpart-1
+- volatility-part-2
+- mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures
+reviewed_pdf_pages: 1-2 (the volatility definitions and the worked option-pricing
+  example)
+slug: volatility
+source_file: Volatility.pdf
+source_review: partial
+tags:
+- options
+- volatility
+- implied-volatility
+- historical-volatility
+- theta
+- strangle
+- ratio-spread
+tier: B
+title: Volatility
+year: unknown
 ---
 
 ## Summary

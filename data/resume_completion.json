@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-06",
+  "new_parent_notes": 148,
+  "parent_notes": 582,
+  "method_pages": 151,
+  "source_pdfs": 733,
+  "excluded_pdfs": {
+    "duplicate": 106,
+    "off_topic": 41,
+    "corrupt": 4
+  },
+  "source_review": {
+    "partial": 354,
+    "full": 228
+  },
+  "missing_eligible_notes": [],
+  "topic_synthesis_files": 14
+}

@@ -8,8 +8,11 @@ one_liner: 'A 2003 scrape of the TurtleTrader.com marketing site: trend-followin
   Turtle entry/exit rules.'
 pages: 807
 related: []
+reviewed_pdf_pages: 1-2, 7-8, 10, 12, 17, 222-223, 434 (the site's performance tables,
+  the Kelly and drawdown-recovery pages and the trader profiles)
 slug: turtletrader
 source_file: Turtletrader.pdf
+source_review: partial
 tags:
 - trend-following
 - turtle-trading

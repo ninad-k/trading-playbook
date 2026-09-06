@@ -1,17 +1,29 @@
 ---
-title: "What's in Your Head? Becoming a Trader"
-author: "Brett N. Steenbarger and Doug Foster"
-year: 2005
-slug: whats-in-your-head
-tier: B
+author: Brett N. Steenbarger and Doug Foster
 category: Trading Psychology & Discipline
-tags: [psychology, deliberate-practice, mentorship, trader-development, learning-curve, journaling]
 difficulty: beginner
 doc_type: article
+one_liner: Applies deliberate-practice and expertise research (Ericsson, Simonton)
+  to explain why becoming a competent trader takes structured, mentored practice over
+  months to years, not shortcuts.
 pages: 8
-one_liner: "Applies deliberate-practice and expertise research (Ericsson, Simonton) to explain why becoming a competent trader takes structured, mentored practice over months to years, not shortcuts."
-related: [van-tharp-trading-systems, howtothinklikeawinningtrader]
-source_file: "Whats In Your Head.pdf"
+related:
+- van-tharp-trading-systems
+- howtothinklikeawinningtrader
+reviewed_pdf_pages: 1-8
+slug: whats-in-your-head
+source_file: Whats In Your Head.pdf
+source_review: full
+tags:
+- psychology
+- deliberate-practice
+- mentorship
+- trader-development
+- learning-curve
+- journaling
+tier: B
+title: What's in Your Head? Becoming a Trader
+year: 2005
 ---
 
 ## Summary

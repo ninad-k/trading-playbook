@@ -1,17 +1,29 @@
 ---
-title: "The Forex Report: When to Trade"
 author: Scott Owens with Omer Lizotte
-year: 2004
-slug: forex-report-when-totrade
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, market-timing, volatility, trading-sessions, data-brief, pip-range]
 difficulty: beginner
 doc_type: article
+one_liner: Data brief showing average pip range by hour, session, day of week, and
+  day of month for the four major forex pairs, from four years of tick data.
 pages: 6
-one_liner: "Data brief showing average pip range by hour, session, day of week, and day of month for the four major forex pairs, from four years of tick data."
-related: [six-forces-of-forex, liquidity-in-forex-markets, forex-money-management]
-source_file: "Forex_Report_-_When_toTrade.pdf"
+related:
+- six-forces-of-forex
+- liquidity-in-forex-markets
+- forex-money-management
+reviewed_pdf_pages: 1-6
+slug: forex-report-when-totrade
+source_file: Forex_Report_-_When_toTrade.pdf
+source_review: full
+tags:
+- forex
+- market-timing
+- volatility
+- trading-sessions
+- data-brief
+- pip-range
+tier: B
+title: 'The Forex Report: When to Trade'
+year: 2004
 ---
 
 ## Summary

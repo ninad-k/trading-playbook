@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading As A Business — Charlie Wright · Trading Playbook</title>
+<meta name="description" content="A TradeStation-based framework for building, testing, and money-managing mechanical trading strategies, run like a business rather than traded on prediction.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>Trading As A Business</h1>
+  <p class="byline">Charlie Wright · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A TradeStation-based framework for building, testing, and money-managing mechanical trading strategies, run like a business rather than traded on prediction.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 23, 26, 31, 36, 40-41 (the entry-rule chapters, order-type ranking, T-Bill benchmark and the strategy-evaluation checklist). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=strategy-development">strategy-development</a> <a class="tag" href="../search.html?q=mechanical-trading">mechanical-trading</a> <a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=tradestation">tradestation</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> </td></tr>
+    <tr><th>Length</th><td>169 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Trading As A Business” by Charlie Wright at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/trading-as-a-business--set-up-and-entry-with-anp-pyramid.html">Set-Up and Entry Strategy Design with the ANP Pyramid</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Charlie Wright argues that consistent trading profit comes from running a small business — designing and executing a rules-based strategy — rather than predicting the market. Built around TradeStation/EasyLanguage historical testing, the book moves from psychological principles through a four-stage trader-education model, a market-type taxonomy (trending, directionless, volatile), a strategy-design method built on &ldquo;Set-Up&rdquo; and &ldquo;Entry,&rdquo; optimization and evaluation methodology, and a cash-management (&ldquo;ANP Pyramid&rdquo;) position-sizing approach. Every claim is illustrated with real TradeStation code and Performance Summary output (Coca-Cola stock, Swiss Franc and S&amp;P futures), making it unusually concrete and codeable.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>No one can reliably predict where or when the market will move; profitable trading instead comes from designing, backtesting, and mechanically executing a rules-based strategy with disciplined risk and cash management, then trusting the strategy (not personal judgment) to determine when to be long, short, or flat. Because a market must keep moving to survive (Steidlmayer&rsquo;s market-facilitation idea), a trend-following strategy that stays in the market cheaply during quiet periods will eventually catch the big move that produces most of its profit — so the trader&rsquo;s real job is minimizing losses and drawdown while waiting, not calling tops and bottoms.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Four stages of trader education</strong> — discretionary trader (intuition, hot tips, no rules) → technical trader (indicators applied inconsistently, &ldquo;indicator fascination&rdquo;) → strategy trader (backtested, quantifiable rules) → complete strategy trader (rules plus disciplined cash management).</li>
+<li><strong>Market facilitation</strong> — Peter Steidlmayer&rsquo;s idea that markets must keep moving to attract participants or they die; used to argue that a losing streak in a trend strategy cannot continue indefinitely.</li>
+<li><strong>Three market types</strong> — trending (sustained directional moves), directionless (small sideways chop), volatile (sharp price jumps); each favors a different strategy style, and the same instrument can look like a different type depending on the chart&rsquo;s time frame.</li>
+<li><strong>Set-Up</strong> — the condition(s) that make a trader aware a trade may be coming (e.g., a moving-average crossover, ADX trending, RSI overbought/oversold); a set-up alone does not trigger a trade.</li>
+<li><strong>Entry</strong> — the separate technique that actually triggers the trade once a set-up is active; combining a set-up with a purpose-built entry is presented as the core innovation that turns a mediocre indicator into a workable strategy.</li>
+<li><strong>Entry Rule #1 and #2</strong> — (1) price must confirm the set-up&rsquo;s direction before entry; (2) the entry must guarantee the strategy will catch every move it was designed for (no reliance on a pattern, like a key reversal, that might simply never occur).</li>
+<li><strong>MAXID / ROMID</strong> — Maximum Intra-day Drawdown, treated as the trader&rsquo;s actual &ldquo;investment&rdquo; in a strategy, and Return On MAXID, the corresponding return-on-investment metric (margin is deliberately excluded from the investment figure).</li>
+<li><strong>ANP (Accumulated Net Profit) Pyramid</strong> — a position-sizing method that risks a fixed percentage of a strategy&rsquo;s accumulated open profit (not original capital) per additional contract, so size grows and shrinks with profits while personal starting capital is never risked beyond one contract.</li>
+<li><strong>Contribution / fixed costs</strong> — treating trading like a small business&rsquo;s income statement: variable costs (slippage, commission) reduce contribution, which must in turn cover fixed costs (data, software, office) before counting as profit.</li>
+<li><strong>Risk premium over T-Bills</strong> — Wright&rsquo;s personal benchmark that a strategy must beat the 90-day T-Bill rate by a multiple (roughly 2× for stocks, 4× for futures) to justify the added risk of trading it.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>The book teaches a <em>process</em> for building a strategy, not one fixed system. Core rules (fully detailed, with worked numbers, in the companion system page <a class="xref" href="../books/trading-as-a-business--set-up-and-entry-with-anp-pyramid.html">Set-Up and Entry Strategy Design with the ANP Pyramid</a>):</p>
+<ol>
+<li><strong>Entry must satisfy two rules</strong> — price must move in the set-up&rsquo;s direction before entry (a bare market order fails unless conditioned); the entry must guarantee the strategy catches every move of the type it targets, rejecting any entry a strong trend could bypass entirely (e.g., a key reversal that never forms).</li>
+<li><strong>Preferred order types, ranked</strong> — stop orders (best) &gt; Stop-Close-Only &gt; conditioned market orders &gt; limit orders (rejected outright: not guaranteed to fill and require price to move against the set-up).</li>
+<li><strong>Failsafe entries</strong> — add a secondary breakout trigger (e.g., a new 50-bar high/low) whenever the primary entry could fail to fire during an unusually strong trend.</li>
+<li><strong>Money-management stop sizing</strong> — set a per-contract stop by optimizing a range of distances and picking the level maximizing both Net Profit and ROMID; a stop hit much more than ~10% of the time is too tight.</li>
+<li><strong>Strategy evaluation checklist</strong> — beat the T-Bill rate by roughly 2× (stocks) or 4× (futures); require at least ~25–30 historical trades; verify the combined strategy beats each component (set-up alone, entry alone); treat drawdown exceeding ~2× the historical worst as a red flag.</li>
+<li><strong>Largest-trade sanity check</strong> — the largest winning trade should be no more than ~50% of gross profit or ~25% of net profit, or the strategy is fragile despite good aggregate statistics.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Wright treats money management, not the indicator or set-up, as the book&rsquo;s central differentiator. The mechanism (Chapter 9): fix a per-contract money-management stop by optimization; capitalize the account to at least 3× the strategy&rsquo;s historical MAXID plus margin before trading even one contract; trade one contract with personal capital; once Accumulated Net Profit (ANP) crosses a threshold set by a chosen risk percentage (his examples test 10–60% of ANP), add contracts funded only by that accumulated profit; drop back to one contract whenever ANP falls back toward zero. In his worked Swiss Franc example, moving from a flat one-contract strategy to the ANP Pyramid (20–50% of ANP, $4,000 stop) turned a strategy netting ~$90,000 over 15 years into one netting $300,000–$3.4 million, with correspondingly larger MAXID as the risk percentage rises — an explicit growth-versus-drawdown trade-off. Full mechanics and formulas are in <a class="xref" href="../books/trading-as-a-business--set-up-and-entry-with-anp-pyramid.html">Set-Up and Entry Strategy Design with the ANP Pyramid</a>.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Discipline is framed as doing the opposite of &ldquo;human nature&rdquo;: buying high and exiting higher, selling low and exiting lower (since the 95% of traders who lose money are, by definition, doing what feels natural). Wright&rsquo;s central psychological rules: accept losses as an unavoidable cost of doing business (many top traders lose money on more than half their trades); do all analysis before the market opens and concentrate purely on execution during market hours; never fight the market or hold an opinion that overrides the strategy&rsquo;s signal; give a strategy a realistic time horizon based on its own historical loss streaks rather than judging it after a week or month; and always remain in position for trend strategies so the (unpredictable) big move is never missed while waiting.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — The Principles of Successful Trading — don&rsquo;t predict, don&rsquo;t fight the market, accept losses, use historical statistics, buy high/sell low.</li>
+<li>Ch 2 — The Path to Successful Trading — the four-stage trader-education model (discretionary → technical → strategy → complete strategy trader).</li>
+<li>Ch 3 — Markets, Strategies &amp; Time Frames — the three market types and matching strategy styles and time frames.</li>
+<li>Ch 4 — Profile of a Winning Strategy — the Set-Up/Entry framework, the two entry rules, and the four order types, via a worked Coca-Cola example.</li>
+<li>Ch 5 — The Art of Strategy Design – In Theory — matching market type and time frame to the trader&rsquo;s own psychology.</li>
+<li>Ch 6 — The Art of Strategy Design – In Practice — a full worked example building a volatility-expansion strategy from an &ldquo;up key reversal&rdquo; pattern.</li>
+<li>Ch 7 — Optimization, The Double-Edged Sword — the case for cautious optimization/backtesting over &ldquo;soft&rdquo; predictive techniques (Elliott Wave, Gann, Market Profile).</li>
+<li>Ch 8 — The Science of Strategy Evaluation — MAXID/ROMID, the T-Bill risk-premium benchmark, and statistical criteria for judging a strategy.</li>
+<li>Ch 9 — Trading as a Business — cost accounting and the ANP Pyramid position-sizing method, via a Swiss Franc example.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s strength is unusual concreteness: every concept is shown as runnable EasyLanguage code with a real Performance Summary, and the ANP Pyramid and money-management-stop optimization are fully specified and codeable. It is explicitly TradeStation-centric — terminology (MAXID, ROMID, ANP, SPF/PS tables) and even the entry-order taxonomy assume that platform, and later editions of TradeStation or other platforms may not expose identical order types. The historical examples (Coca-Cola 1970–1997, Swiss Franc 1982–1997) predate decimalization, electronic execution, and modern slippage/liquidity conditions; the flat per-trade slippage/commission assumptions ($0–$100, 15–35 cents/share) are dated. The book is also a strong advocate for optimization as a legitimate practice and dismisses &ldquo;soft&rdquo; predictive methods (Elliott Wave, Gann, Market Profile) somewhat polemically, without engaging seriously with curve-fitting critiques beyond asserting that all investment analysis relies on historical data. No author biography, publisher, or copyright date is present in the source file, so the year above is left unknown.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders who already have basic charting/indicator literacy and want a structured, TradeStation-flavored process for turning an idea into a backtested, risk-managed mechanical strategy — particularly the Set-Up/Entry design method and the ANP Pyramid position-sizing approach. Less useful for discretionary or pattern-based traders (Elliott Wave, Gann, candlestick) since the book explicitly argues against those approaches in favor of quantified, backtested rules.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — another fully mechanical trend-following system with an explicit, business-like position-sizing framework.</li>
+<li><a class="xref" href="../books/michael-covel-trend-following.html">Trend Following</a> — broader survey of the trend-following philosophy this book&rsquo;s market-facilitation argument sits within.</li>
+<li><a class="xref" href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — a complementary framework for evaluating whether a trading system fits the trader&rsquo;s own psychology and objectives.</li>
+<li><a class="xref" href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — alternative position-sizing models to compare against the ANP Pyramid.</li>
+<li><a class="xref" href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — a similar mechanical-systems-development approach with additional statistical validation methods.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/michael-covel-trend-following.html">Trend Following</a> — Profiles of top CTAs plus the shared rulebook of trend followers: cut losses fast, let winners run, risk a fixed % per trade, ignore forecasts.</li><li><a href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — Defines the 8 components of a trading strategy and 8 sections of a full trading business plan, plus a system-development framework from an Army systems-design interview.</li><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li><li><a href="../books/trading-in-the-zone.html">Trading in the Zone: Master the Market with Confidence, Discipline, and a Winning Attitude</a> — Argues consistent trading success is purely a psychological/belief problem: think in probabilities, fully accept risk, and mechanically execute a defined edge.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

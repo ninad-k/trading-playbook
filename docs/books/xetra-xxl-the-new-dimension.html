@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xetra XXL: The New Dimension — Deutsche Börse AG · Trading Playbook</title>
+<meta name="description" content="Deutsche Börse sales deck explaining Xetra XXL, its periodic crossing-auction block-trading platform for large stock orders on DAX/MDAX/TecDAX names.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Xetra XXL: The New Dimension</h1>
+  <p class="byline">Deutsche Börse AG · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">Deutsche Börse sales deck explaining Xetra XXL, its periodic crossing-auction block-trading platform for large stock orders on DAX/MDAX/TecDAX names.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 10-11, 29 (the crossing-auction schedule, order-book design and the fee model). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=block-trading">block-trading</a> <a class="tag" href="../search.html?q=xetra">xetra</a> <a class="tag" href="../search.html?q=crossing-network">crossing-network</a> <a class="tag" href="../search.html?q=transaction-costs">transaction-costs</a> <a class="tag" href="../search.html?q=exchange-mechanics">exchange-mechanics</a> </td></tr>
+    <tr><th>Length</th><td>33 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Xetra XXL: The New Dimension” by Deutsche Börse AG at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is a Deutsche Börse internal/client presentation (PowerPoint deck) introducing Xetra XXL, an exchange-based, fully electronic block-trading venue launched to pull large-order (&ldquo;block&rdquo;) volume away from telephone trading, brokered &ldquo;upstairs&rdquo; markets, and crossing networks like POSIT and E-Crossnet. It is not a trading strategy document; it explains the market model, transaction cost theory behind block trading, and the fee structure of this specific 2001-era German market-structure product.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Breaks transaction costs into explicit costs (commissions/fees), spread, market impact, timing costs, and opportunity costs — the framework used to justify why block trading needs a separate venue.</li>
+<li>Xetra XXL uses a completely closed order book with periodic crossing auctions (originally every 15 minutes, 34 crossings per trading day) rather than continuous price discovery.</li>
+<li>Trades execute at the current Xetra reference-market midpoint price, not at an independently discovered price — no autonomous price formation happens inside the block segment.</li>
+<li>A &ldquo;trigger corridor&rdquo; around the midpoint prevents manipulation: only a market order or a marketable limit order within the corridor advances the auction from pre-call to call phase.</li>
+<li>Only DAX, MDAX, and TecDAX-listed instruments were eligible for Xetra XXL trading.</li>
+<li>Fee model rewards liquidity supply: orders that trigger a call phase pay no transaction fee; orders that trade during a call phase pay 0.02% (2 basis points) of trade value, capped at €1,000 (cap reached at €5 million order size).</li>
+<li>Access required members/clearing banks to hold a minimum €10 million security deposit under the exchange&rsquo;s exposure-monitoring regime.</li>
+<li>Settlement and contract notes use the underlying instrument&rsquo;s original identifier (WKN/ISIN), even though trades are booked under an artificial &ldquo;BC-&rdquo; prefixed block-crossing identifier.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given. This is a market-structure/venue description, not a trading system — there are no entry, exit, or position-sizing rules for an individual trader. The only &ldquo;numbers&rdquo; of note are structural: 15-minute crossing intervals, a 2bp/€1,000-cap fee schedule, and the €10 million minimum deposit for direct access.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Historical and highly institutional: this describes a specific Deutsche Börse product as it existed around 2001, aimed at large block traders and clearing members, not retail or even most active individual traders. Xetra XXL as a specific platform has since been superseded by other block-trading mechanisms; treat the numbers (crossing frequency, fee levels, deposit minimum) as historical rather than current. Useful mainly as a case study in how exchanges structure block/crossing markets and transaction-cost trade-offs.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Readers interested in market microstructure and exchange design — how large orders are matched away from continuous trading to minimize market impact — rather than traders looking for a strategy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/competition-between-exchanges-euronext-versus-xetra.html">Competition Between Exchanges: Euronext versus Xetra</a> — A matched comparison of 40 French-German stock pairs finds lower effective spreads and adverse selection on Xetra than Euronext Paris.</li><li><a href="../books/xetraxxl-marketmodel.html">Xetra XXL Market Model</a> — Deutsche Börse’s 2001 model specifies periodic anonymous block crossings at the midpoint of a liquid Xetra reference market.</li><li><a href="../books/exchange-rules-for-the-frankfurt-stock-exchange.html">Exchange Rules for the Frankfurt Stock Exchange</a> — The official rulebook governing admission, price determination, and electronic trading (auction, continuous trading, continuous auction, block trading) on the Frankfurt Stock Exchange, effective November 2004.</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

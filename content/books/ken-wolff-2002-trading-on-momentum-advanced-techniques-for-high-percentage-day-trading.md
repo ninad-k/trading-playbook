@@ -1,17 +1,34 @@
 ---
-title: Trading on Momentum
 author: Ken Wolff
-year: 2002
-slug: ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
-tier: A
 category: Day Trading & Scalping
-tags: [momentum-trading, day-trading, gap-trading, tape-reading, level-2, stop-loss-discipline, scalping]
 difficulty: intermediate
 doc_type: book
+one_liner: A former online-chat-room trader's playbook of repeatable intraday momentum
+  setups (gainers, dumpers, gap plays) and his 14 'Golden Rules' of stop-loss discipline.
 pages: 332
-one_liner: "A former online-chat-room trader's playbook of repeatable intraday momentum setups (gainers, dumpers, gap plays) and his 14 'Golden Rules' of stop-loss discipline."
-related: [barry-rudd-stock-patterns-for-day-trading-and-swing-trading, jeff-cooper-intra-day-trading-strategies-proven-steps, professional-traders-still-day-trade, lbr-scalp-setups, andrews-scott-understanding-gaps]
-source_file: "Ken Wolff - 2002 - Trading On Momentum Advanced Techniques For High Percentage Day Trading.pdf"
+related:
+- barry-rudd-stock-patterns-for-day-trading-and-swing-trading
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+- professional-traders-still-day-trade
+- lbr-scalp-setups
+- andrews-scott-understanding-gaps
+reviewed_pdf_pages: 4-5, 8-9, 15, 26, 49-50, 104-105 (the setup qualification thresholds,
+  pre-market volume filters and the stop-loss discipline chapters)
+slug: ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+source_file: Ken Wolff - 2002 - Trading On Momentum Advanced Techniques For High Percentage
+  Day Trading.pdf
+source_review: partial
+tags:
+- momentum-trading
+- day-trading
+- gap-trading
+- tape-reading
+- level-2
+- stop-loss-discipline
+- scalping
+tier: A
+title: Trading on Momentum
+year: 2002
 ---
 
 ## Overview

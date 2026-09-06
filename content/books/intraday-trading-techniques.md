@@ -1,17 +1,34 @@
 ---
-title: "Intra-Day Trading Techniques"
-author: "Greg Capra (Pristine.com)"
-year: 2001
-slug: intraday-trading-techniques
-tier: B
+author: Greg Capra (Pristine.com)
 category: Day Trading & Scalping
-tags: [day-trading, candlesticks, moving-averages, retracements, support-resistance, tick-index, trin, pristine-method]
 difficulty: beginner
 doc_type: course
+one_liner: Pristine.com seminar slide deck teaching a candlestick + 20/200-period
+  MA + retracement framework for intraday setups, using the TICK and TRIN indicators
+  to gauge broad-market strength.
 pages: 66
-one_liner: "Pristine.com seminar slide deck teaching a candlestick + 20/200-period MA + retracement framework for intraday setups, using the TICK and TRIN indicators to gauge broad-market strength."
-related: [candlestick-patterns-for-day-trading, greg-morris-candlestick-charting-explained, jeff-cooper-intra-day-trading-strategies-proven-steps, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading]
-source_file: "Intraday Trading Techniques.pdf"
+related:
+- candlestick-patterns-for-day-trading
+- greg-morris-candlestick-charting-explained
+- jeff-cooper-intra-day-trading-strategies-proven-steps
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+reviewed_pdf_pages: 6, 10, 39-40, 44, 53, 57 (the timeframe map, retracement zones
+  and the TICK/TRIN interpretation rules)
+slug: intraday-trading-techniques
+source_file: Intraday Trading Techniques.pdf
+source_review: partial
+tags:
+- day-trading
+- candlesticks
+- moving-averages
+- retracements
+- support-resistance
+- tick-index
+- trin
+- pristine-method
+tier: B
+title: Intra-Day Trading Techniques
+year: 2001
 ---
 
 ## Summary

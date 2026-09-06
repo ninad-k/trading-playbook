@@ -1,17 +1,31 @@
 ---
-title: "ATrainer Method"
 author: Unknown
-year: unknown
-slug: atrainer-method
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [moving-average-envelope, dmi, forex, breakout, discretionary-system, eur-usd]
 difficulty: intermediate
 doc_type: manual
+one_liner: A forum-posted breakout system combining a 1-period MA, a standard-deviation-based
+  moving-average envelope, and DMI (+DI/-DI) crossovers, tuned for 20-pip EUR/USD
+  gains.
 pages: 3
-one_liner: "A forum-posted breakout system combining a 1-period MA, a standard-deviation-based moving-average envelope, and DMI (+DI/-DI) crossovers, tuned for 20-pip EUR/USD gains."
-related: [bollinger-band, macd, six-forces-of-forex, wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator]
-source_file: "Atrainer Method.pdf"
+related:
+- bollinger-band
+- macd
+- six-forces-of-forex
+- wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+reviewed_pdf_pages: 1-3
+slug: atrainer-method
+source_file: Atrainer Method.pdf
+source_review: full
+tags:
+- moving-average-envelope
+- dmi
+- forex
+- breakout
+- discretionary-system
+- eur-usd
+tier: B
+title: ATrainer Method
+year: unknown
 ---
 
 ## Summary

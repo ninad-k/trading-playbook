@@ -7,9 +7,12 @@ one_liner: Reduces Elliott Wave theory to eleven codeable 'C wave' end-of-correc
   patterns with specific entry-stop and stop-loss placement rules.
 pages: 203
 related: []
+reviewed_pdf_pages: 1-4, 17, 27, 29-30 (contents, wave-counting guidelines, and the
+  zigzag/flat/strong-B correction definitions with their Fibonacci limits)
 slug: walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
 source_file: Walker, Myles Wilson - How To Indentify High-Profit Elliott Wave Trades
   in Real Time.pdf
+source_review: partial
 tags:
 - elliott-wave
 - c-wave

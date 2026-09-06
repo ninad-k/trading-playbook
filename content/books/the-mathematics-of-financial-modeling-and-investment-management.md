@@ -1,17 +1,30 @@
 ---
-title: "The Mathematics of Financial Modeling and Investment Management"
-author: "Sergio M. Focardi, Frank J. Fabozzi"
-year: 2004
-slug: the-mathematics-of-financial-modeling-and-investment-management
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [quant-finance, portfolio-theory, stochastic-calculus, term-structure, risk-management, reference]
+author: Sergio M. Focardi, Frank J. Fabozzi
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: book
+one_liner: 801-page graduate reference covering the full math toolkit behind modern
+  portfolio theory, derivatives pricing, and fixed-income modeling.
 pages: 801
-one_liner: "801-page graduate reference covering the full math toolkit behind modern portfolio theory, derivatives pricing, and fixed-income modeling."
-related: [interest-rate-models, introduction-to-arbitrage-pricing-of-financial-derivatives, lehman-currency-hedging-in-fixed-income-portfolios]
-source_file: "The Mathematics Of Financial Modeling And Investment Management.pdf"
+related:
+- interest-rate-models
+- introduction-to-arbitrage-pricing-of-financial-derivatives
+- lehman-currency-hedging-in-fixed-income-portfolios
+reviewed_pdf_pages: 3-7 (front matter, contents and the opening chapters; the note's
+  scope description was checked against these)
+slug: the-mathematics-of-financial-modeling-and-investment-management
+source_file: The Mathematics Of Financial Modeling And Investment Management.pdf
+source_review: partial
+tags:
+- quant-finance
+- portfolio-theory
+- stochastic-calculus
+- term-structure
+- risk-management
+- reference
+tier: B
+title: The Mathematics of Financial Modeling and Investment Management
+year: 2004
 ---
 
 ## Summary

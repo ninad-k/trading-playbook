@@ -1,17 +1,32 @@
 ---
-title: "Reminiscences of a Stock Operator"
 author: Edwin Lefèvre
-year: 1923
-slug: reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
-tier: A
 category: Trading Psychology & Discipline
-tags: [jesse-livermore, tape-reading, speculation, trading-psychology, pyramiding, line-of-least-resistance, market-manipulation]
 difficulty: intermediate
 doc_type: book
+one_liner: Fictionalized memoir of Jesse Livermore distilling tape reading, cutting
+  losses, pyramiding into strength, and the psychology of speculation.
 pages: 356
-one_liner: "Fictionalized memoir of Jesse Livermore distilling tape reading, cutting losses, pyramiding into strength, and the psychology of speculation."
-related: [richard-smitten-trade-like-jesse-livermore-2005, richard-smitten-trade-like-jesse-livermore-2005--pivotal-point-trading, jack-schwager-stock-market-wizards, trading-in-the-zone]
-source_file: "Reminiscences_Of_A_Stock_Operator_By_Edwin_Lefevre__To_Jesse_Livermore_.pdf"
+related:
+- richard-smitten-trade-like-jesse-livermore-2005
+- richard-smitten-trade-like-jesse-livermore-2005--pivotal-point-trading
+- jack-schwager-stock-market-wizards
+- trading-in-the-zone
+reviewed_pdf_pages: 6, 58, 65, 73, 130, 251 (the wheat and cotton episodes that carry
+  the book's stated trading rules)
+slug: reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+source_file: Reminiscences_Of_A_Stock_Operator_By_Edwin_Lefevre__To_Jesse_Livermore_.pdf
+source_review: partial
+tags:
+- jesse-livermore
+- tape-reading
+- speculation
+- trading-psychology
+- pyramiding
+- line-of-least-resistance
+- market-manipulation
+tier: A
+title: Reminiscences of a Stock Operator
+year: 1923
 ---
 
 ## Overview

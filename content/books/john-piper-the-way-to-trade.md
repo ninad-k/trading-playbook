@@ -1,17 +1,34 @@
 ---
-title: "The Way to Trade: Discover Your Successful Trading Personality"
 author: John Piper
-year: 1999
-slug: john-piper-the-way-to-trade
-tier: A
 category: Trading Psychology & Discipline
-tags: [trading-psychology, money-management, market-profile, discipline, futures, risk-control, trading-pyramid]
 difficulty: intermediate
 doc_type: book
+one_liner: A UK futures trader's 'Trading Pyramid' framework — from self-knowledge
+  through money management to system operation — plus a set of named low-risk Market
+  Profile setups.
 pages: 304
-one_liner: "A UK futures trader's 'Trading Pyramid' framework — from self-knowledge through money management to system operation — plus a set of named low-risk Market Profile setups."
-related: [trading-in-the-zone, come-into-my-trading-room-elder-alexander, money-management-report-van-tharp, cbot-a-six-part-study-guide-to-market-profile, joe-ross-trading-the-ross-hook]
-source_file: "John Piper - The Way To Trade.pdf"
+related:
+- trading-in-the-zone
+- come-into-my-trading-room-elder-alexander
+- money-management-report-van-tharp
+- cbot-a-six-part-study-guide-to-market-profile
+- joe-ross-trading-the-ross-hook
+reviewed_pdf_pages: 1, 7-9, 70-71, 78, 162 (the 55 steps and three stages, the edge
+  estimate and the money-management worked example)
+slug: john-piper-the-way-to-trade
+source_file: John Piper - The Way To Trade.pdf
+source_review: partial
+tags:
+- trading-psychology
+- money-management
+- market-profile
+- discipline
+- futures
+- risk-control
+- trading-pyramid
+tier: A
+title: 'The Way to Trade: Discover Your Successful Trading Personality'
+year: 1999
 ---
 
 ## Overview

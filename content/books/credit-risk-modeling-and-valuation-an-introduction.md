@@ -1,17 +1,32 @@
 ---
-title: "Credit Risk Modeling and Valuation: An Introduction"
-author: "Kay Giesecke"
-year: 2004
-slug: credit-risk-modeling-and-valuation-an-introduction
-tier: B
+author: Kay Giesecke
 category: Quant, Microstructure & Academic Research
-tags: [credit-risk, default-probability, structural-models, reduced-form-models, credit-spreads, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: 'A survey/review paper comparing the three main quantitative frameworks
+  for modeling default and pricing credit-sensitive securities: structural, reduced-form,
+  and incomplete-information.'
 pages: 40
-one_liner: "A survey/review paper comparing the three main quantitative frameworks for modeling default and pricing credit-sensitive securities: structural, reduced-form, and incomplete-information."
-related: [credit-derivatives, managing-credit-risk-with-credit-and-macro-derivatives, derivatives-pricing-and-financial-modelling, hull-options-futures-and-other-derivative-securities-5th-ed]
-source_file: "Credit Risk Modeling and Valuation_An Introduction.pdf"
+related:
+- credit-derivatives
+- managing-credit-risk-with-credit-and-macro-derivatives
+- derivatives-pricing-and-financial-modelling
+- hull-options-futures-and-other-derivative-securities-5th-ed
+reviewed_pdf_pages: 6, 13, 20, 36 (the structural, reduced-form and incomplete-information
+  sections and the references)
+slug: credit-risk-modeling-and-valuation-an-introduction
+source_file: Credit Risk Modeling and Valuation_An Introduction.pdf
+source_review: partial
+tags:
+- credit-risk
+- default-probability
+- structural-models
+- reduced-form-models
+- credit-spreads
+- academic-research
+tier: B
+title: 'Credit Risk Modeling and Valuation: An Introduction'
+year: 2004
 ---
 
 ## Summary

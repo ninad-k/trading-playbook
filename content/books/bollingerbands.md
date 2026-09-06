@@ -1,17 +1,29 @@
 ---
-title: "Bollinger Bands Revealed (Trading Lesson 31)"
 author: Mark McRae
-year: unknown
-slug: bollingerbands
-tier: B
 category: Indicators
-tags: [bollinger-bands, volatility, rsi, overbought-oversold, mean-reversion]
 difficulty: beginner
 doc_type: article
+one_liner: Short lesson explaining Bollinger Band construction and the author's RSI
+  + band-touch method for spotting overbought/oversold reversals.
 pages: 4
-one_liner: "Short lesson explaining Bollinger Band construction and the author's RSI + band-touch method for spotting overbought/oversold reversals."
-related: [adx, macd, john-bollinger-bollinger-on-bollinger-band, trading-bollinger-john-bollinger-bands-done]
-source_file: "BollingerBands.pdf"
+related:
+- adx
+- macd
+- john-bollinger-bollinger-on-bollinger-band
+- trading-bollinger-john-bollinger-bands-done
+reviewed_pdf_pages: 1-4
+slug: bollingerbands
+source_file: BollingerBands.pdf
+source_review: full
+tags:
+- bollinger-bands
+- volatility
+- rsi
+- overbought-oversold
+- mean-reversion
+tier: B
+title: Bollinger Bands Revealed (Trading Lesson 31)
+year: unknown
 ---
 
 ## Summary

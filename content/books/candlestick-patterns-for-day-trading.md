@@ -1,17 +1,28 @@
 ---
-title: "Candlestick Patterns for Day Trading"
 author: Unknown
-year: unknown
-slug: candlestick-patterns-for-day-trading
-tier: B
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, reversal-patterns, continuation-patterns, doji, engulfing, reference-glossary]
 difficulty: beginner
 doc_type: manual
+one_liner: A compact illustrated glossary of roughly 35 Japanese candlestick patterns
+  with pattern description and bullish/bearish interpretation for each.
 pages: 8
-one_liner: "A compact illustrated glossary of roughly 35 Japanese candlestick patterns with pattern description and bullish/bearish interpretation for each."
-related: [jens-clever-master-trader]
-source_file: "Candlestick Patterns for Day Trading.pdf"
+related:
+- jens-clever-master-trader
+reviewed_pdf_pages: 1-5 (the pattern glossary through the Gravestone Doji entry; pages
+  6-8 continue the same catalogue format)
+slug: candlestick-patterns-for-day-trading
+source_file: Candlestick Patterns for Day Trading.pdf
+source_review: partial
+tags:
+- candlesticks
+- reversal-patterns
+- continuation-patterns
+- doji
+- engulfing
+- reference-glossary
+tier: B
+title: Candlestick Patterns for Day Trading
+year: unknown
 ---
 
 ## Summary

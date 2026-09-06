@@ -1,17 +1,29 @@
 ---
-title: "Rich Dad, Poor Dad"
 author: Robert T. Kiyosaki
-year: 1997
-slug: rich-dad-poor-dad-by-robert-t-kiyosaki
-tier: B
 category: Investing, Value & Market History
-tags: [personal-finance, financial-education, assets-vs-liabilities, wealth-building, cash-flow, mindset]
 difficulty: beginner
 doc_type: book
+one_liner: Personal-finance memoir contrasting two father figures to argue that buying
+  income-producing assets, not a paycheck, is the path to wealth.
 pages: 130
-one_liner: "Personal-finance memoir contrasting two father figures to argue that buying income-producing assets, not a paycheck, is the path to wealth."
-related: [j-k-lasser-pick-stocks-like-warren-buffett, the-intelligent-investor-benjamin-graham]
-source_file: "Rich Dad_ Poor Dad by Robert T. Kiyosaki.pdf"
+related:
+- j-k-lasser-pick-stocks-like-warren-buffett
+- the-intelligent-investor-benjamin-graham
+reviewed_pdf_pages: the asset/liability chapters checked against the note; the book
+  states no numeric rules
+slug: rich-dad-poor-dad-by-robert-t-kiyosaki
+source_file: Rich Dad_ Poor Dad by Robert T. Kiyosaki.pdf
+source_review: partial
+tags:
+- personal-finance
+- financial-education
+- assets-vs-liabilities
+- wealth-building
+- cash-flow
+- mindset
+tier: B
+title: Rich Dad, Poor Dad
+year: 1997
 ---
 
 ## Summary

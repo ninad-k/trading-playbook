@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Currency Hedging in Fixed Income Portfolios — Lev Dynkin, Tony Gould · Trading Playbook</title>
+<meta name="description" content="Lehman Brothers research note on how FX forward hedges change a bond portfolio&#39;s duration and create tracking error versus hedged benchmarks.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a></p>
+  <h1>Currency Hedging in Fixed Income Portfolios</h1>
+  <p class="byline">Lev Dynkin, Tony Gould · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">advanced</span></p>
+  <p class="lead">Lehman Brothers research note on how FX forward hedges change a bond portfolio&#39;s duration and create tracking error versus hedged benchmarks.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 6-9 (the hedging-mechanics sections and the index weight/return tables). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=currency-hedging">currency-hedging</a> <a class="tag" href="../search.html?q=fixed-income">fixed-income</a> <a class="tag" href="../search.html?q=forward-contracts">forward-contracts</a> <a class="tag" href="../search.html?q=duration">duration</a> <a class="tag" href="../search.html?q=tracking-error">tracking-error</a> <a class="tag" href="../search.html?q=index-replication">index-replication</a> <a class="tag" href="../search.html?q=institutional">institutional</a> </td></tr>
+    <tr><th>Length</th><td>8 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Currency Hedging in Fixed Income Portfolios” by Lev Dynkin, Tony Gould at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An institutional research note explaining that hedging currency exposure in a bond portfolio with FX forwards is never perfectly clean: forwards cannot fully eliminate currency volatility because bond values fluctuate between hedge resets, and using forwards also alters the portfolio&rsquo;s interest-rate exposure. It works through the covered-interest-arbitrage relationship that prices forwards, shows how a currency hedge swaps local interest-rate duration for base-currency duration, and discusses the tracking error created when hedge timing or tenor differs from the monthly reset used in Lehman Brothers&rsquo; own bond indices.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Forward rates are set by covered interest arbitrage (worked example: borrow euros at 2%, invest dollars at 1%, sell forward at $/€1.08 versus spot 1.10, capturing a 0.87 euro profit on 100 euros).</li>
+<li>Formula: Hedged yield ≈ Bond yield + (Base currency rate − Local currency rate).</li>
+<li>Formula: Hedged bond duration ≈ Bond duration − tenor of the hedge, offset by an equivalent rise in base-currency duration.</li>
+<li>Because the hedge is sized once per month against an expected future value, intra-month market moves leave a position over- or under-hedged; a 3-month hedge with no adjustment cost a euro investor 0.11% over Q2 2003.</li>
+<li>Currency volatility has limited effect on overall hedged-index volatility, and fully eliminating currency risk can actually raise portfolio risk by removing a diversifying return source.</li>
+<li>Longer-tenor hedges (up to six months) trade increased tracking error for potentially higher carry and lower transaction costs from less frequent rolling.</li>
+<li>Currency moves shift hedged-index country weights (the euro&rsquo;s 5.4% May 2003 rise lifted the Global Aggregate&rsquo;s euro weight by 1.5%), requiring periodic rebalancing.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Hedging a foreign bond with a forward gives up local-currency rate exposure for base-currency exposure of roughly the hedge&rsquo;s tenor.</li>
+<li>To replicate a monthly-reset hedged index intra-month, sell forward the expected month-end value of local bonds computed at month start, not the current market value.</li>
+<li>Weigh a longer hedge tenor (up to ~6 months) against a shorter one: potentially higher carry and lower costs versus greater tracking error and duration mismatch.</li>
+<li>Rebalance hedged-portfolio country weights periodically to offset currency-driven drift versus the benchmark.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Written for institutional bond-index managers benchmarked against Lehman Brothers (later Barclays/Bloomberg) hedged indices; the numeric examples (2003 rates, index composition) are dated. Not directly applicable to discretionary FX or futures traders — this is portfolio-construction and index-tracking guidance, not a directional strategy.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Fixed-income portfolio managers and quants managing currency-hedged bond portfolios against benchmark indices, or anyone who wants to understand the duration and tracking-error mechanics of FX forward hedging.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/interest-rate-models.html">Interest-Rate Models</a> — Encyclopedia article surveying arbitrage-free term-structure models from Vasicek through Heath-Jarrow-Morton and Markov-functional approaches.</li><li><a href="../books/day-trading-the-currency-market.html">Day Trading the Currency Market</a> — Seven concrete, rule-based FX day-trading strategies (double zeros, breakouts, perfect order, carry trade) built on a trading-journal and trend/range classification framework.</li><li><a href="../books/wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting.html">Currency Strategy: The Practitioner&#39;s Guide to Currency Investing, Hedging and Forecasting</a> — A four-discipline (economics, flow, technical, valuation) framework for analyzing, trading, and hedging currencies, written for corporate treasurers, institutional investors, and speculators.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,32 @@
 ---
-title: "Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo Stock Exchange"
-author: "Yasushi Hamao, Joel Hasbrouck"
-year: 1995
-slug: hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the
-tier: B
+author: Yasushi Hamao, Joel Hasbrouck
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, limit-order-book, tokyo-stock-exchange, liquidity, academic, price-limits]
 difficulty: advanced
 doc_type: paper
+one_liner: Academic microstructure study finding that Tokyo Stock Exchange's pure
+  limit-order-book system (no dealers) supplies immediacy nearly as well as dealer
+  markets, using warning/special quotes to slow large orders.
 pages: 30
-one_liner: "Academic microstructure study finding that Tokyo Stock Exchange's pure limit-order-book system (no dealers) supplies immediacy nearly as well as dealer markets, using warning/special quotes to slow large orders."
-related: [madhavan-market-microstructure-a-survey, de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat, hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market]
-source_file: "Hamao And Hasbrouck-Securities Trading In The Absence Of Dealers - Trades, And Quotes On The Toky.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat
+- hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market
+reviewed_pdf_pages: 1-2, 4 (the market description, tick-size rules and sample period)
+slug: hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the
+source_file: Hamao And Hasbrouck-Securities Trading In The Absence Of Dealers - Trades,
+  And Quotes On The Toky.pdf
+source_review: partial
+tags:
+- market-microstructure
+- limit-order-book
+- tokyo-stock-exchange
+- liquidity
+- academic
+- price-limits
+tier: B
+title: 'Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo
+  Stock Exchange'
+year: 1995
 ---
 
 ## Summary

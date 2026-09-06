@@ -1,17 +1,31 @@
 ---
-title: VanessaFX Advanced Systems
 author: Vanessa FX and Nick B
-year: 2006
-slug: vanessafx-advanced-systems
-tier: B
 category: Swing Trading
-tags: [forex, support-resistance, moving-average, macd, parabolic-sar, awesome-oscillator, discretionary-trading]
 difficulty: intermediate
 doc_type: manual
+one_liner: A discretionary forex e-book pairing a 4-hour swing system (GBP/USD, GBP/JPY)
+  with a 30-minute intraday system (USD/CHF, EUR/USD), both built on manually-drawn
+  support/resistance plus trend indicators.
 pages: 25
-one_liner: "A discretionary forex e-book pairing a 4-hour swing system (GBP/USD, GBP/JPY) with a 30-minute intraday system (USD/CHF, EUR/USD), both built on manually-drawn support/resistance plus trend indicators."
-related: [day-trading-the-currency-market, forex-misc-money-management-ryan-jones]
-source_file: "VanessaFX_Advanced_Systems.pdf"
+related:
+- day-trading-the-currency-market
+- forex-misc-money-management-ryan-jones
+reviewed_pdf_pages: 9-11, 20 (the indicator settings and the entry/exit rules for
+  the 4hr and daily systems)
+slug: vanessafx-advanced-systems
+source_file: VanessaFX_Advanced_Systems.pdf
+source_review: partial
+tags:
+- forex
+- support-resistance
+- moving-average
+- macd
+- parabolic-sar
+- awesome-oscillator
+- discretionary-trading
+tier: B
+title: VanessaFX Advanced Systems
+year: 2006
 ---
 
 ## Summary

@@ -17,7 +17,7 @@ source_file: "Barry Rudd - Stock Patterns For Day Trading And Swing Trading.pdf"
 
 ## What it is
 
-A discretionary-but-rule-bounded intraday breakout method built around two ideas: (1) trade the break of a tight, multi-bar price consolidation on a 5-minute chart, and (2) once in the trade, give it room to breathe using the stock's own historical average pullback size — its "standard wiggle" — rather than an arbitrary or fixed profit target. The same consolidation-then-breakout logic is applied to daily bars for multi-day swing trades, and to very tight, short compressions for the scalping variant.
+A discretionary-but-rule-bounded intraday breakout method built on two ideas: trade the break of a tight, multi-bar price consolidation on a 5-minute chart, then give the position room to breathe using the stock's own historical average pullback size — its "standard wiggle" — rather than an arbitrary fixed profit target. The same consolidation-then-breakout logic is applied to daily bars for multi-day swing trades.
 
 ## Rules
 
@@ -29,7 +29,7 @@ A discretionary-but-rule-bounded intraday breakout method built around two ideas
 6. **Set the initial stop.** 1/4 point from the actual fill price (sometimes 3/8), not from the breakout level.
 7. **Convert to a trailing stop.** Once open profit plus the initial stop equals roughly 3/8 point, trail the stop by the standard wiggle amount from step 2.
 8. **Exit ("wiggled out")** the moment price retraces beyond the standard wiggle amount from its most favorable point — the primary exit in place of a fixed target.
-9. **Override with a direct profit-take** when a fast spike of about 3/4 point or more stalls within 5-10 minutes of the breakout, price approaches daily support/resistance, or a strong move occurs on day one of a multi-day setup.
+9. **Override with a direct profit-take** when a fast spike of roughly 1 point or more stalls within 5-10 minutes of the breakout, price approaches daily support/resistance, or a strong move occurs on day one of a multi-day setup.
 10. **Swing variant.** Apply the same trigger to daily bars for 2-to-5+-day trades; the sample gives no distinct stop/wiggle size for this timeframe — treat it as the intraday rules scaled up until better data is available.
 
 ## Risk

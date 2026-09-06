@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The CMO-Driven VIDYA Trading System — Tushar S. Chande and Stanley Kroll · Trading Playbook</title>
+<meta name="description" content="A fully backtested trend system: buy/sell stop when price closes on the same side of a CMO-indexed VIDYA for two consecutive days, reverse on the opposite signal, flat $1,500 stop.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a> › <a href="../books/chande-kroll-the-new-technical-trader.html">The New Technical Trader: Boost Your Profit by Plugging Into the Latest Indicators</a></p>
+  <h1>The CMO-Driven VIDYA Trading System</h1>
+  <p class="byline">Tushar S. Chande and Stanley Kroll · 1994 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A fully backtested trend system: buy/sell stop when price closes on the same side of a CMO-indexed VIDYA for two consecutive days, reverse on the opposite signal, flat $1,500 stop.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=momentum">momentum</a> <a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=mechanical-system">mechanical-system</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> </td></tr>
+    <tr><th>Length</th><td>115 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The CMO-Driven VIDYA Trading System” by Tushar S. Chande and Stanley Kroll at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A single-indicator, always-in-the-market trend-following system built entirely on VIDYA (Variable Index Dynamic Average), a moving average whose smoothing constant is scaled by the absolute value of the Chande Momentum Oscillator (CMO), so it speeds up in strongly trending/volatile conditions and flattens in quiet ones. The system was backtested across ten years of daily data (roughly 1983–1993, split into two five-year blocks) on a broad set of futures markets (bonds, currencies, metals, softs, grains, livestock) using System Writer Plus.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Indicator construction</strong>
+- Compute the 9-day sum of up-day price changes (Su) and down-day price changes (Sd).
+- <code>CMO = (Su − Sd) / (Su + Sd)</code>, bounded −1 to +1; <code>absCMO = |CMO|</code>.
+- <code>VIDYA(today) = (0.5 × absCMO) × Close(today) + (1 − 0.5 × absCMO) × VIDYA(yesterday)</code>. A higher scaling multiplier than 0.5 makes VIDYA more responsive; the book also demonstrates indexing VIDYA off the r² of a rolling linear regression instead of CMO.</p>
+<p><strong>Entry</strong>
+- <strong>Long</strong>: if today&rsquo;s close and yesterday&rsquo;s close are both above today&rsquo;s VIDYA, place a buy stop for tomorrow one tick above today&rsquo;s high.
+- <strong>Short</strong> (mirror rule): if today&rsquo;s close and yesterday&rsquo;s close are both below today&rsquo;s VIDYA, place a sell stop for tomorrow one tick below today&rsquo;s low.</p>
+<p><strong>Exit / reversal</strong>
+- No separate profit target or independent exit rule is used — the system is always in the market. A new signal in the opposite direction simultaneously closes the current position and opens the reverse position (stop-and-reverse).</p>
+<p><strong>Backtest configuration used by the authors</strong>
+- Flat $1,500 initial stop per trade.
+- $125 added to every loss and subtracted from every gain to approximate slippage and commissions.
+- Continuous/perpetual futures contracts, tested over two five-year blocks (~1983–1988 and ~1988–1993).
+- Design targets stated before testing: 30–45% win rate, payoff ratio (average winner ÷ average loser) above 2.50.</p>
+<h2 id="risk">Risk</h2>
+<p>Risk is controlled entirely by the flat $1,500 stop plus the stop-and-reverse structure (there is no flat, unstopped period). The authors report the first five-year Swiss franc test block hit their design targets: 33 trades, a 36% win rate, a 3.37 payoff ratio (3.18 excluding the single largest winner and loser), average losing trades cut off in 13 trading days, average winning trades held for 79 trading days, and an average per-trade profit above $700 (comfortably above the $175 modeled slippage/commission cost). No position-sizing formula (fixed-fractional, volatility-based, or otherwise) is specified — the $1,500 stop is a fixed dollar amount per contract, not a percentage of equity.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This system is reconstructed from a sampled OCR pass over a scanned book; the sampled pages contained the short (sell) side of the entry rule explicitly, and the long side has been mirrored here on the assumption of symmetry (consistent with how the rest of the book presents long/short rule pairs), but the exact long-side wording was not present in the sample and should be verified against the source before live use. Only the first five-year backtest block&rsquo;s results (33 trades, Swiss franc) were present in the sampled text; the book states a second five-year block (~1988–1993) and a wider set of markets were also tested, but those specific numbers were not recoverable from the OCR sample. The system is unoptimized by the authors&rsquo; own description — it is presented as a reasonable baseline trend-follower rather than a tuned, market-specific system, and the $1,500/$ 125 dollar figures are 1990s futures-contract-scale assumptions that would need rescaling for other instruments or account sizes.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/perry-kaufman-smarter-trading.html">Smarter Trading</a> — A systems-development handbook centered on the Adaptive Moving Average (KAMA) and a rigorous, skeptical process for testing trading strategies for robustness rather than curve-fit profitability.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

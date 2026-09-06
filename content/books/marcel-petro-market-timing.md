@@ -1,17 +1,33 @@
 ---
-title: Market Timing
 author: Pedro V. Marcal, Sr.
-year: 2004
-slug: marcel-petro-market-timing
-tier: B
 category: Indicators
-tags: [bollinger-bands, macd, moving-averages, cyclic-analysis, fibonacci, dow-theory, portfolio-theory]
 difficulty: advanced
 doc_type: manual
+one_liner: Self-published technical-analysis manual treating the market as a cyclic/harmonic
+  system, using Bollinger Bands, MACD, moving-average crossovers, and Fibonacci objective
+  points to time turns.
 pages: 58
-one_liner: "Self-published technical-analysis manual treating the market as a cyclic/harmonic system, using Bollinger Bands, MACD, moving-average crossovers, and Fibonacci objective points to time turns."
-related: [john-bollinger-bollinger-on-bollinger-band, macd, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, position-sizing]
-source_file: "Marcel Petro - Market Timing.pdf"
+related:
+- john-bollinger-bollinger-on-bollinger-band
+- macd
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- position-sizing
+reviewed_pdf_pages: 5-6, 8, 15 (the moving-average step tests and the MACD construction)
+slug: marcel-petro-market-timing
+source_file: Marcel Petro - Market Timing.pdf
+source_review: partial
+tags:
+- bollinger-bands
+- macd
+- moving-averages
+- cyclic-analysis
+- fibonacci
+- dow-theory
+- portfolio-theory
+tier: B
+title: Market Timing
+year: 2004
 ---
 
 ## Summary

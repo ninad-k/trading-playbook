@@ -1,17 +1,30 @@
 ---
-title: "The 25-Point Mantra: Discipline for Day Trading"
 author: Douglas E. Zalesky
-year: 2003
-slug: 25-rules-of-trading
-tier: B
 category: Trading Psychology & Discipline
-tags: [trading-discipline, risk-management, position-sizing, day-trading, scalping, futures]
 difficulty: intermediate
 doc_type: article
+one_liner: 20-year CBOT pit scalper's 25-rule discipline checklist built around cutting
+  losers fast, sizing up only after proven results, and scaling out of winners.
 pages: 6
-one_liner: "20-year CBOT pit scalper's 25-rule discipline checklist built around cutting losers fast, sizing up only after proven results, and scaling out of winners."
-related: [disciplined-trader, miracle-of-discipline, trading-psychology, money-management-risk-control-for-traders]
-source_file: "25 rules of trading.pdf"
+related:
+- disciplined-trader
+- miracle-of-discipline
+- trading-psychology
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 1-6
+slug: 25-rules-of-trading
+source_file: 25 rules of trading.pdf
+source_review: full
+tags:
+- trading-discipline
+- risk-management
+- position-sizing
+- day-trading
+- scalping
+- futures
+tier: B
+title: 'The 25-Point Mantra: Discipline for Day Trading'
+year: 2003
 ---
 
 ## Summary

@@ -1,17 +1,30 @@
 ---
-title: "The Hedge Fund Compliance and Risk Management Guide"
 author: Armelle Guizot
-year: 2007
-slug: armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
-tier: B
 category: Money Management & Position Sizing
-tags: [hedge-funds, risk-management, value-at-risk, compliance, due-diligence, leverage, operational-risk]
 difficulty: advanced
 doc_type: book
+one_liner: A Wiley Finance reference covering hedge fund strategies, risk types, VaR/stress-testing
+  methodology, fraud detection, ratings, and the compliance/regulatory landscape circa
+  2006-2007.
 pages: 467
-one_liner: "A Wiley Finance reference covering hedge fund strategies, risk types, VaR/stress-testing methodology, fraud detection, ratings, and the compliance/regulatory landscape circa 2006-2007."
-related: [black-scholes-option-pricing-model]
-source_file: "ARMELLE GUIZOT - The Hedge Fund Compliance and Risk Management Guide.pdf"
+related:
+- black-scholes-option-pricing-model
+reviewed_pdf_pages: 5, 7, 10, 13-15 (the contents, strategy taxonomy and the risk-management
+  chapters)
+slug: armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+source_file: ARMELLE GUIZOT - The Hedge Fund Compliance and Risk Management Guide.pdf
+source_review: partial
+tags:
+- hedge-funds
+- risk-management
+- value-at-risk
+- compliance
+- due-diligence
+- leverage
+- operational-risk
+tier: B
+title: The Hedge Fund Compliance and Risk Management Guide
+year: 2007
 ---
 
 ## Summary

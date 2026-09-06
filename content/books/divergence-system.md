@@ -1,17 +1,34 @@
 ---
-title: "TraderBO Divergence System"
 author: Oleg Alexandrovich But
-year: 2006
-slug: divergence-system
-tier: B
 category: Indicators
-tags: [divergence, macd, stochastic, rsi, williams-percent-r, forex, multi-timeframe]
 difficulty: beginner
-doc_type: system
+doc_type: course
+one_liner: 'Free forex e-book teaching a multi-timeframe divergence system: enter
+  on one MACD/Stochastic divergence, exit on the opposite, confirmed with RSI and
+  Williams %R.'
 pages: 44
-one_liner: "Free forex e-book teaching a multi-timeframe divergence system: enter on one MACD/Stochastic divergence, exit on the opposite, confirmed with RSI and Williams %R."
-related: [divergence, trading-with-macd-a-lesson-on-divergence, reverse-divergence-and-momentum, barbara-star-hidden-divergence, macd]
-source_file: "Divergence System.pdf"
+related:
+- divergence
+- trading-with-macd-a-lesson-on-divergence
+- reverse-divergence-and-momentum
+- barbara-star-hidden-divergence
+- macd
+reviewed_pdf_pages: 3, 15-16, 33 (the indicator set, stop-loss sizing and the worked
+  trade sequence)
+slug: divergence-system
+source_file: Divergence System.pdf
+source_review: partial
+tags:
+- divergence
+- macd
+- stochastic
+- rsi
+- williams-percent-r
+- forex
+- multi-timeframe
+tier: B
+title: TraderBO Divergence System
+year: 2006
 ---
 
 ## Summary

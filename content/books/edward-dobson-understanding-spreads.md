@@ -1,17 +1,31 @@
 ---
-title: Understanding Spreads
-author: "Edward Dobson and Roger Reimer"
-year: 2007
-slug: edward-dobson-understanding-spreads
-tier: B
+author: Edward Dobson and Roger Reimer
 category: Options, Futures & Derivatives
-tags: [spread-trading, futures, seasonality, intermarket, hedging, carrying-charge]
 difficulty: intermediate
 doc_type: manual
+one_liner: 'A Traders Press primer on futures spread trading: why spreads exist, the
+  main relationship types, and how to build a seasonal-spread approach.'
 pages: 42
-one_liner: "A Traders Press primer on futures spread trading: why spreads exist, the main relationship types, and how to build a seasonal-spread approach."
-related: [joe-ross-trading-spreads-and-seasonals, spread-trade-to-win, futuresintro, balsara-nauzer-j-money-management-strategies-for-futures-traders]
-source_file: "Edward Dobson - Understanding Spreads.pdf"
+related:
+- joe-ross-trading-spreads-and-seasonals
+- spread-trade-to-win
+- futuresintro
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+reviewed_pdf_pages: 3, 6, 22-23 (the spread definitions and the worked crack/crush
+  examples)
+slug: edward-dobson-understanding-spreads
+source_file: Edward Dobson - Understanding Spreads.pdf
+source_review: partial
+tags:
+- spread-trading
+- futures
+- seasonality
+- intermarket
+- hedging
+- carrying-charge
+tier: B
+title: Understanding Spreads
+year: 2007
 ---
 
 ## Summary

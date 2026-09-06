@@ -1,17 +1,34 @@
 ---
-title: Commodity Futures Trading for Beginners
 author: Bruce Babcock
-year: 1999
-slug: commodity-futures-trading-for-beginners
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [futures, beginner, trend-following, risk-management, trading-plan, leverage, money-management]
 difficulty: beginner
 doc_type: manual
+one_liner: 'Bruce Babcock''s free beginner primer on futures trading, built around
+  four cardinal rules: trade with the trend, cut losses short, let profits run, manage
+  risk.'
 pages: 30
-one_liner: "Bruce Babcock's free beginner primer on futures trading, built around four cardinal rules: trade with the trend, cut losses short, let profits run, manage risk."
-related: [curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, michael-covel-trend-following, balsara-nauzer-j-money-management-strategies-for-futures-traders, jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]
-source_file: "Commodity_Futures_Trading_For_Beginners.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- michael-covel-trend-following
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- jay-kaeppel-the-four-biggest-mistakes-in-futures-trading
+reviewed_pdf_pages: 6, 15, 21 (the market list, capital minimum and the order-mechanics
+  examples)
+slug: commodity-futures-trading-for-beginners
+source_file: Commodity_Futures_Trading_For_Beginners.pdf
+source_review: partial
+tags:
+- futures
+- beginner
+- trend-following
+- risk-management
+- trading-plan
+- leverage
+- money-management
+tier: B
+title: Commodity Futures Trading for Beginners
+year: 1999
 ---
 
 ## Summary

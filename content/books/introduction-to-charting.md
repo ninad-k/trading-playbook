@@ -1,17 +1,31 @@
 ---
-title: "An Introduction to Charting"
-author: "Windsor Advisory Services"
-year: unknown
-slug: introduction-to-charting
-tier: B
-category: "Market Structure & Price Action"
+author: Windsor Advisory Services
+category: Market Structure & Price Action
 difficulty: beginner
-tags: [technical-analysis, bar-charts, support-resistance, trend-following, chart-patterns, gaps, currencies]
 doc_type: manual
+one_liner: Short primer on core technical-analysis concepts — bar charts, support/resistance,
+  gaps, and continuation patterns — built around trading the long-term trend in currencies.
 pages: 8
-one_liner: "Short primer on core technical-analysis concepts — bar charts, support/resistance, gaps, and continuation patterns — built around trading the long-term trend in currencies."
-related: [common-sense-commodities-a-common-sense-approach-to-trading-commodities, chart-patterns-tutorial, chart-formations]
-source_file: "Introduction_to_Charting.pdf"
+related:
+- common-sense-commodities-a-common-sense-approach-to-trading-commodities
+- chart-patterns-tutorial
+- chart-formations
+reviewed_pdf_pages: the charting-basics pages checked against the note; the primer
+  states no numeric parameters
+slug: introduction-to-charting
+source_file: Introduction_to_Charting.pdf
+source_review: partial
+tags:
+- technical-analysis
+- bar-charts
+- support-resistance
+- trend-following
+- chart-patterns
+- gaps
+- currencies
+tier: B
+title: An Introduction to Charting
+year: unknown
 ---
 
 ## Summary

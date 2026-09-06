@@ -1,17 +1,33 @@
 ---
-title: "Forex Trader E-Book"
 author: Unknown
-year: unknown
-slug: forex-trader-e-book
-tier: B
-category: "Forex Mechanics & Macro Drivers"
-tags: [forex, reference-manual, candlesticks, technical-indicators, economic-indicators, spot-forward, glossary]
+category: Forex Mechanics & Macro Drivers
 difficulty: beginner
 doc_type: manual
+one_liner: Reference manual covering Forex basics, chart/candlestick patterns, 14
+  technical indicators, spot/forward mechanics, and 33 economic indicators, plus 8
+  core trading rules.
 pages: 116
-one_liner: "Reference manual covering Forex basics, chart/candlestick patterns, 14 technical indicators, spot/forward mechanics, and 33 economic indicators, plus 8 core trading rules."
-related: [glossary-of-forex-terms, understanding-forex-candlestick, technical-indicators-tutorial, chart-formations]
-source_file: "Forex_Trader_E-book.pdf"
+related:
+- glossary-of-forex-terms
+- understanding-forex-candlestick
+- technical-indicators-tutorial
+- chart-formations
+reviewed_pdf_pages: 3-4, 33 (the indicator and economic-indicator glossaries and the
+  candlestick section)
+slug: forex-trader-e-book
+source_file: Forex_Trader_E-book.pdf
+source_review: partial
+tags:
+- forex
+- reference-manual
+- candlesticks
+- technical-indicators
+- economic-indicators
+- spot-forward
+- glossary
+tier: B
+title: Forex Trader E-Book
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,33 @@
 ---
-title: "Beyond Candlesticks: New Japanese Charting Techniques Revealed"
-author: "Steve Nison"
-year: 1994
-slug: beyond-candlesticks-steve-nison
-tier: A
+author: Steve Nison
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, disparity-index, three-line-break, renko, kagi, moving-averages, japanese-charting]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Nison''s follow-up to Japanese Candlestick Charting Techniques adds the
+  disparity index and three under-translated Japanese charting styles: three-line
+  break, renko, and kagi.'
 pages: 276
-one_liner: "Nison's follow-up to Japanese Candlestick Charting Techniques adds the disparity index and three under-translated Japanese charting styles: three-line break, renko, and kagi."
-related: [trading-hill-arthur-introduction-to-candlesticks, greg-morris-candlestick-charting-explained, candlestick-charting-explained, john-l-person-swing-trading-using-candlestick-charting-with-pivot-point]
-source_file: "Beyond_Candlesticks__Steve_Nison_.pdf"
+related:
+- trading-hill-arthur-introduction-to-candlesticks
+- greg-morris-candlestick-charting-explained
+- candlestick-charting-explained
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+reviewed_pdf_pages: 8-11, 22-23, 31, 39-40 (contents, the disparity index and moving-average
+  chapters, and the three-line break/renko/kagi construction rules)
+slug: beyond-candlesticks-steve-nison
+source_file: Beyond_Candlesticks__Steve_Nison_.pdf
+source_review: partial
+tags:
+- candlesticks
+- disparity-index
+- three-line-break
+- renko
+- kagi
+- moving-averages
+- japanese-charting
+tier: A
+title: 'Beyond Candlesticks: New Japanese Charting Techniques Revealed'
+year: 1994
 ---
 
 ## Overview

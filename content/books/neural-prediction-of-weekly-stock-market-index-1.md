@@ -1,17 +1,30 @@
 ---
-title: "Application of Neural Networks to Stock Market Prediction"
 author: Amol S. Kulkarni
-year: 1996
-slug: neural-prediction-of-weekly-stock-market-index-1
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [neural-networks, backpropagation, s-and-p-500, interest-rates, academic, forecasting, quant]
 difficulty: advanced
 doc_type: paper
+one_liner: A feedforward neural network using detrended S&P 500 history plus lagged
+  interest rates predicts next week's index one week ahead, tested on the 1987 crash
+  and 1994 bull run.
 pages: 18
-one_liner: "A feedforward neural network using detrended S&P 500 history plus lagged interest rates predicts next week's index one week ahead, tested on the 1987 crash and 1994 bull run."
-related: [international-macro-economics-and-finance]
-source_file: "Neural Prediction Of Weekly Stock Market Index(1).pdf"
+related:
+- international-macro-economics-and-finance
+reviewed_pdf_pages: 2, 5, 8-9, 12-14, 16 (the network design, the test results and
+  the error statistics)
+slug: neural-prediction-of-weekly-stock-market-index-1
+source_file: Neural Prediction Of Weekly Stock Market Index(1).pdf
+source_review: partial
+tags:
+- neural-networks
+- backpropagation
+- s-and-p-500
+- interest-rates
+- academic
+- forecasting
+- quant
+tier: B
+title: Application of Neural Networks to Stock Market Prediction
+year: 1996
 ---
 
 ## Summary

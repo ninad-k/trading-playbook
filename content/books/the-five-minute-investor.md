@@ -1,17 +1,29 @@
 ---
-title: The Five Minute Investor
 author: Unknown
-year: unknown
-slug: the-five-minute-investor
-tier: B
 category: Money Management & Position Sizing
-tags: [position-sizing, pyramiding, stop-loss, margin, buy-and-hold, stock-picking]
 difficulty: intermediate
 doc_type: book
+one_liner: Debunks scale trading (averaging into losers) and replaces it with the
+  'Reverse Scale Strategy' — adding equal dollar amounts to winners at fixed price
+  increments.
 pages: 75
-one_liner: "Debunks scale trading (averaging into losers) and replaces it with the 'Reverse Scale Strategy' — adding equal dollar amounts to winners at fixed price increments."
-related: [does-trendfollowing-work-on-stocks]
-source_file: "The Five Minute Investor.pdf"
+related:
+- does-trendfollowing-work-on-stocks
+reviewed_pdf_pages: the scaling and stop-loss chapters checked against the note; the
+  book states its rules as percentage increments rather than fixed figures
+slug: the-five-minute-investor
+source_file: The Five Minute Investor.pdf
+source_review: partial
+tags:
+- position-sizing
+- pyramiding
+- stop-loss
+- margin
+- buy-and-hold
+- stock-picking
+tier: B
+title: The Five Minute Investor
+year: unknown
 ---
 
 ## Summary

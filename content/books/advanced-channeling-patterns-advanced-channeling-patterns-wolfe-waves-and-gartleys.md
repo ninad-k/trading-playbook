@@ -1,17 +1,31 @@
 ---
-title: "Advanced Channeling Patterns: Wolfe Waves and Gartleys"
-author: "Justin Kuepper"
-year: 2005
-slug: advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys
-tier: B
+author: Justin Kuepper
 category: Fibonacci, Gann & Elliott Wave
-tags: [wolfe-wave, gartley-pattern, fibonacci, elliott-wave, channel-trading, harmonic-patterns]
 difficulty: intermediate
 doc_type: article
+one_liner: Investopedia article compilation defining the five-wave Wolfe Wave and
+  the Fibonacci-based Gartley (XABCD) pattern for predicting channel breakouts, plus
+  bonus pieces on Elliott Wave and Fibonacci extensions.
 pages: 16
-one_liner: "Investopedia article compilation defining the five-wave Wolfe Wave and the Fibonacci-based Gartley (XABCD) pattern for predicting channel breakouts, plus bonus pieces on Elliott Wave and Fibonacci extensions."
-related: [wolfe-waves, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, george-alexander-maclean-fibonacci-and-gann-applications]
-source_file: "Advanced_Channeling_Patterns_Advanced_Channeling_Patterns_Wolfe_Waves_and_Gartleys.pdf"
+related:
+- wolfe-waves
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- george-alexander-maclean-fibonacci-and-gann-applications
+reviewed_pdf_pages: 1-16
+slug: advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys
+source_file: Advanced_Channeling_Patterns_Advanced_Channeling_Patterns_Wolfe_Waves_and_Gartleys.pdf
+source_review: full
+tags:
+- wolfe-wave
+- gartley-pattern
+- fibonacci
+- elliott-wave
+- channel-trading
+- harmonic-patterns
+tier: B
+title: 'Advanced Channeling Patterns: Wolfe Waves and Gartleys'
+year: 2005
 ---
 
 ## Summary

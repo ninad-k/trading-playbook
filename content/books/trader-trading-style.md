@@ -1,17 +1,31 @@
 ---
-title: "Define Your Game: Finding a Trading Style That Fits Your Personality"
-author: "Christopher Terry"
-year: 2005
-slug: trader-trading-style
-tier: B
+author: Christopher Terry
 category: Trading Psychology & Discipline
-tags: [trading-psychology, position-sizing, timeframe-selection, risk-per-trade, e-mini, bull-flag, self-assessment]
 difficulty: beginner
 doc_type: article
+one_liner: SFO magazine article arguing traders lose not from bad technique but from
+  trading a style that doesn't fit their personality, illustrated through one trader's
+  process of finding her fit.
 pages: 4
-one_liner: "SFO magazine article arguing traders lose not from bad technique but from trading a style that doesn't fit their personality, illustrated through one trader's process of finding her fit."
-related: [trading-in-the-zone, learning-to-trade, lbr-scalp-setups]
-source_file: "Trader_Trading_Style.pdf"
+related:
+- trading-in-the-zone
+- learning-to-trade
+- lbr-scalp-setups
+reviewed_pdf_pages: 1-4
+slug: trader-trading-style
+source_file: Trader_Trading_Style.pdf
+source_review: full
+tags:
+- trading-psychology
+- position-sizing
+- timeframe-selection
+- risk-per-trade
+- e-mini
+- bull-flag
+- self-assessment
+tier: B
+title: 'Define Your Game: Finding a Trading Style That Fits Your Personality'
+year: 2005
 ---
 
 ## Summary

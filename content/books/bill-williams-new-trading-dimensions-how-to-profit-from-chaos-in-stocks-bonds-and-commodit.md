@@ -1,17 +1,35 @@
 ---
-title: "New Trading Dimensions: How to Profit from Chaos in Stocks, Bonds, and Commodities"
 author: Bill Williams
-year: 1998
-slug: bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [chaos-theory, alligator, fractals, awesome-oscillator, momentum, trading-psychology, mechanical-system]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Bill Williams'' Profitunity method: five ''dimensions'' (Fractal, AO,
+  AC, Zone, Balance Line) filtered through the Alligator, plus a psychology chapter
+  on trading ''in the zone.'''
 pages: 102
-one_liner: "Bill Williams' Profitunity method: five 'dimensions' (Fractal, AO, AC, Zone, Balance Line) filtered through the Alligator, plus a psychology chapter on trading 'in the zone.'"
-related: [bill-williams-trading-chaos, trading-in-the-zone, elliott-waves-principle, money-management-report-van-tharp, come-into-my-trading-room-elder-alexander]
-source_file: "Bill Williams - New Trading Dimensions - How To Profit From Chaos In Stocks, Bonds, And Commodities.pdf"
+related:
+- bill-williams-trading-chaos
+- trading-in-the-zone
+- elliott-waves-principle
+- money-management-report-van-tharp
+- come-into-my-trading-room-elder-alexander
+reviewed_pdf_pages: 35, 41, 44 (Alligator construction, the Awesome Oscillator definition
+  and the fractal/AO signal rules)
+slug: bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit
+source_file: Bill Williams - New Trading Dimensions - How To Profit From Chaos In
+  Stocks, Bonds, And Commodities.pdf
+source_review: partial
+tags:
+- chaos-theory
+- alligator
+- fractals
+- awesome-oscillator
+- momentum
+- trading-psychology
+- mechanical-system
+tier: A
+title: 'New Trading Dimensions: How to Profit from Chaos in Stocks, Bonds, and Commodities'
+year: 1998
 ---
 
 ## Overview

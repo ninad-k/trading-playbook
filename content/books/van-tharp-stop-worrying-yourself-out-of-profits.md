@@ -1,17 +1,33 @@
 ---
-title: Stop Worrying Yourself Out of Profits
 author: Van K. Tharp
-year: 2005
-slug: van-tharp-stop-worrying-yourself-out-of-profits
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, worry, stress, perception, discipline, self-awareness, mental-capacity]
 difficulty: beginner
 doc_type: article
+one_liner: Short psychology article arguing that worry consumes limited mental processing
+  capacity needed for trading decisions, and gives a two-step technique for identifying
+  and disrupting a trader's personal worry pattern.
 pages: 5
-one_liner: "Short psychology article arguing that worry consumes limited mental processing capacity needed for trading decisions, and gives a two-step technique for identifying and disrupting a trader's personal worry pattern."
-related: [van-tharp-the-flow-of-the-markets, van-tharp-trading-systems, money-management-report-van-tharp, disciplined-trader, trading-psychology]
-source_file: "Van Tharp - Stop Worrying Yourself out of Profits.pdf"
+related:
+- van-tharp-the-flow-of-the-markets
+- van-tharp-trading-systems
+- money-management-report-van-tharp
+- disciplined-trader
+- trading-psychology
+reviewed_pdf_pages: 1-5
+slug: van-tharp-stop-worrying-yourself-out-of-profits
+source_file: Van Tharp - Stop Worrying Yourself out of Profits.pdf
+source_review: full
+tags:
+- psychology
+- worry
+- stress
+- perception
+- discipline
+- self-awareness
+- mental-capacity
+tier: B
+title: Stop Worrying Yourself Out of Profits
+year: 2005
 ---
 
 ## Summary

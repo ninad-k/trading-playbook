@@ -1,17 +1,36 @@
 ---
-title: "Dean LeBaron's Treasury of Investment Wisdom: 30 Great Investing Minds"
 author: Dean LeBaron and Romesh Vaitilingam
-year: 2002
-slug: dean-lebaron-s-treasury-of-investment-wisdom-30-great-investing-minds-wiley
-tier: A
 category: Investing, Value & Market History
-tags: [anthology, market-history, value-investing, growth-investing, behavioral-finance, risk-management, indexing, hedge-funds]
 difficulty: intermediate
 doc_type: book
+one_liner: Thirty short essays, each pairing a market idea (value, growth, indexing,
+  hedge funds, behavioral finance...) with its leading practitioner and a skeptical
+  counterpoint.
 pages: 320
-one_liner: "Thirty short essays, each pairing a market idea (value, growth, indexing, hedge funds, behavioral finance...) with its leading practitioner and a skeptical counterpoint."
-related: [the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, j-k-lasser-pick-stocks-like-warren-buffett, robert-slater-soros-unauthorized-biography, jack-schwager-stock-market-wizards]
-source_file: "Dean Lebaron's Treasury Of Investment Wisdom 30 Great Investing Minds - Wiley.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- j-k-lasser-pick-stocks-like-warren-buffett
+- robert-slater-soros-unauthorized-biography
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 2, 4, 7, 11, 69-70 (contents and the growth-stock, risk-management
+  and market-efficiency chapters)
+slug: dean-lebaron-s-treasury-of-investment-wisdom-30-great-investing-minds-wiley
+source_file: Dean Lebaron's Treasury Of Investment Wisdom 30 Great Investing Minds
+  - Wiley.pdf
+source_review: partial
+tags:
+- anthology
+- market-history
+- value-investing
+- growth-investing
+- behavioral-finance
+- risk-management
+- indexing
+- hedge-funds
+tier: A
+title: 'Dean LeBaron''s Treasury of Investment Wisdom: 30 Great Investing Minds'
+year: 2002
 ---
 
 ## Overview

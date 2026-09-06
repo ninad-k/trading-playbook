@@ -1,17 +1,29 @@
 ---
-title: "Practical Applications of a Mechanical Trading System Using Simplified Elliott Wave Analysis"
 author: Tom Joseph
-year: 1998
-slug: 1-a-mehanical-trading-system-tom-joseph
-tier: B
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, oscillator, mechanical-system, wave-counting, futures, stocks]
 difficulty: intermediate
 doc_type: manual
+one_liner: Advanced GET's creator distills Elliott Wave into two mechanical setups
+  using an Elliott Oscillator, Profit Taking Index, and Wave Four Channels.
 pages: 83
-one_liner: "Advanced GET's creator distills Elliott Wave into two mechanical setups using an Elliott Oscillator, Profit Taking Index, and Wave Four Channels."
-related: [optimal-ma-crossovers]
-source_file: "1 A Mehanical Trading System Tom Joseph.pdf"
+related:
+- optimal-ma-crossovers
+reviewed_pdf_pages: 1, 3, 5 (contents, the wave definitions and the Profit Taking
+  Index threshold)
+slug: 1-a-mehanical-trading-system-tom-joseph
+source_file: 1 A Mehanical Trading System Tom Joseph.pdf
+source_review: partial
+tags:
+- elliott-wave
+- oscillator
+- mechanical-system
+- wave-counting
+- futures
+- stocks
+tier: B
+title: Practical Applications of a Mechanical Trading System Using Simplified Elliott
+  Wave Analysis
+year: 1998
 ---
 
 ## Summary

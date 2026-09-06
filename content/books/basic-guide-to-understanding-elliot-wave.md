@@ -1,17 +1,31 @@
 ---
-title: "Basic Guide to Understanding Elliott Wave"
 author: Kathy Lien
-year: 2004
-slug: basic-guide-to-understanding-elliot-wave
-tier: B
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, wave-counting, fibonacci-retracement, forex, impulsive-waves, corrective-waves]
 difficulty: beginner
 doc_type: article
+one_liner: 'A DailyFX/FXCM primer on Elliott Wave Theory: the 5-wave impulsive/3-wave
+  corrective structure, the three inviolable wave-count rules, and Fibonacci retracement
+  levels.'
 pages: 6
-one_liner: "A DailyFX/FXCM primer on Elliott Wave Theory: the 5-wave impulsive/3-wave corrective structure, the three inviolable wave-count rules, and Fibonacci retracement levels."
-related: [elliott-waves-principle, walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time, elite-trader-s-secrets, forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005]
-source_file: "Basic_Guide_To_Understanding_Elliot_Wave.pdf"
+related:
+- elliott-waves-principle
+- walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
+- elite-trader-s-secrets
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+reviewed_pdf_pages: 1-6
+slug: basic-guide-to-understanding-elliot-wave
+source_file: Basic_Guide_To_Understanding_Elliot_Wave.pdf
+source_review: full
+tags:
+- elliott-wave
+- wave-counting
+- fibonacci-retracement
+- forex
+- impulsive-waves
+- corrective-waves
+tier: B
+title: Basic Guide to Understanding Elliott Wave
+year: 2004
 ---
 
 ## Summary

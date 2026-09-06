@@ -1,17 +1,31 @@
 ---
-title: "Foreign Exchange as the Trader's Alternative"
 author: Mark Galant
-year: 2002
-slug: forex-as-trader-s-alternative
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, trend-following, moving-average-crossover, macd, rsi, diversification]
 difficulty: beginner
 doc_type: article
+one_liner: Stocks & Commodities magazine reprint (GAIN Capital) pitching forex as
+  a portfolio diversifier and illustrating trendline breaks and MA-crossover entries
+  on hourly charts.
 pages: 4
-one_liner: "Stocks & Commodities magazine reprint (GAIN Capital) pitching forex as a portfolio diversifier and illustrating trendline breaks and MA-crossover entries on hourly charts."
-related: [trading-with-macd-a-lesson-on-divergence, reverse-divergence-and-momentum, macd, day-trading-the-currency-market]
-source_file: "FOREX_as_trader_s_alternative.pdf"
+related:
+- trading-with-macd-a-lesson-on-divergence
+- reverse-divergence-and-momentum
+- macd
+- day-trading-the-currency-market
+reviewed_pdf_pages: 1-4
+slug: forex-as-trader-s-alternative
+source_file: FOREX_as_trader_s_alternative.pdf
+source_review: full
+tags:
+- forex
+- trend-following
+- moving-average-crossover
+- macd
+- rsi
+- diversification
+tier: B
+title: Foreign Exchange as the Trader's Alternative
+year: 2002
 ---
 
 ## Summary

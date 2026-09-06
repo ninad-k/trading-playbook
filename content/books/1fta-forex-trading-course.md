@@ -1,17 +1,31 @@
 ---
-title: "1st Forex Trading Academy Course"
-author: "1st Forex Trading Academy"
-year: 2004
-slug: 1fta-forex-trading-course
-tier: B
-category: "Forex Mechanics & Macro Drivers"
-tags: [forex-basics, fundamental-analysis, economic-calendar, leverage, risk-management, beginner-course]
+author: 1st Forex Trading Academy
+category: Forex Mechanics & Macro Drivers
 difficulty: beginner
 doc_type: course
+one_liner: 2004 beginner forex course covering market mechanics and history, day-trading
+  vs. position-trading, leverage/margin, reading an economic calendar, and general
+  risk-management principles.
 pages: 58
-one_liner: "2004 beginner forex course covering market mechanics and history, day-trading vs. position-trading, leverage/margin, reading an economic calendar, and general risk-management principles."
-related: [boot-camp-papers-2, norman-frumkin-guide-to-economic-indicators, forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional]
-source_file: "1fta Forex Trading Course.pdf"
+related:
+- boot-camp-papers-2
+- norman-frumkin-guide-to-economic-indicators
+- forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional
+reviewed_pdf_pages: 5-8, 15 (the market-history and participant chapters and the trading-style
+  comparison)
+slug: 1fta-forex-trading-course
+source_file: 1fta Forex Trading Course.pdf
+source_review: partial
+tags:
+- forex-basics
+- fundamental-analysis
+- economic-calendar
+- leverage
+- risk-management
+- beginner-course
+tier: B
+title: 1st Forex Trading Academy Course
+year: 2004
 ---
 
 ## Summary

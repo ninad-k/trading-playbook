@@ -1,17 +1,28 @@
 ---
-title: Why Does Technical Analysis Work?
 author: Zoran Kolundzic
-year: 2005
-slug: doestawork
-tier: B
 category: Market Structure & Price Action
-tags: [technical-analysis, pivot-points, market-efficiency, crowd-psychology, support-resistance]
 difficulty: beginner
 doc_type: article
+one_liner: Short essay arguing TA works because enough traders act on it, then introduces
+  the standard daily pivot-point formula and swing vs. breakout trading around it.
 pages: 3
-one_liner: "Short essay arguing TA works because enough traders act on it, then introduces the standard daily pivot-point formula and swing vs. breakout trading around it."
-related: [chart-patterns-and-technical-indicators, optimal-ma-crossovers, forex-report-predicting-price-movement]
-source_file: "DoesTAWork.pdf"
+related:
+- chart-patterns-and-technical-indicators
+- optimal-ma-crossovers
+- forex-report-predicting-price-movement
+reviewed_pdf_pages: 1-3
+slug: doestawork
+source_file: DoesTAWork.pdf
+source_review: full
+tags:
+- technical-analysis
+- pivot-points
+- market-efficiency
+- crowd-psychology
+- support-resistance
+tier: B
+title: Why Does Technical Analysis Work?
+year: 2005
 ---
 
 ## Summary

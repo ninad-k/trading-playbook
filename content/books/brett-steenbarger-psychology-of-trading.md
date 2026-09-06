@@ -1,17 +1,32 @@
 ---
-title: "A Dozen Reflections on Life and Markets: Collected Trading Psychology Articles"
 author: Brett N. Steenbarger
-year: 2005
-slug: brett-steenbarger-psychology-of-trading
-tier: A
 category: Trading Psychology & Discipline
-tags: [trading-psychology, discipline, cognitive-behavioral, self-assessment, trading-journal, expertise, rules-based-trading]
 difficulty: intermediate
 doc_type: book
+one_liner: A compiled archive of Brett Steenbarger's short trading-psychology articles
+  and self-assessment tools, not the 2003 Wiley book of a similar name.
 pages: 274
-one_liner: "A compiled archive of Brett Steenbarger's short trading-psychology articles and self-assessment tools, not the 2003 Wiley book of a similar name."
-related: [trading-in-the-zone, come-into-my-trading-room-elder-alexander, jack-schwager-stock-market-wizards, money-management-report-van-tharp]
-source_file: "Brett Steenbarger - Psychology Of Trading.pdf"
+related:
+- trading-in-the-zone
+- come-into-my-trading-room-elder-alexander
+- jack-schwager-stock-market-wizards
+- money-management-report-van-tharp
+reviewed_pdf_pages: 7, 88 and the trading-system articles checked against the note's
+  description of the archive's contents
+slug: brett-steenbarger-psychology-of-trading
+source_file: Brett Steenbarger - Psychology Of Trading.pdf
+source_review: partial
+tags:
+- trading-psychology
+- discipline
+- cognitive-behavioral
+- self-assessment
+- trading-journal
+- expertise
+- rules-based-trading
+tier: A
+title: 'A Dozen Reflections on Life and Markets: Collected Trading Psychology Articles'
+year: 2005
 ---
 
 ## Overview

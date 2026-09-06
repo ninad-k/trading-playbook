@@ -1,17 +1,30 @@
 ---
-title: Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns
 author: Efstathios Kalyvas
-year: 2001
-slug: using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [neural-networks, genetic-algorithms, stock-prediction, autoregressive, academic-research, efficient-markets]
 difficulty: advanced
 doc_type: paper
+one_liner: MSc thesis testing whether autoregressive and neural-network models can
+  predict daily FTSE/S&P excess returns; neither beats naive random-walk benchmarks.
 pages: 166
-one_liner: "MSc thesis testing whether autoregressive and neural-network models can predict daily FTSE/S&P excess returns; neither beats naive random-walk benchmarks."
-related: [neural-prediction-of-weekly-stock-market-index-1, madhavan-market-microstructure-a-survey]
-source_file: "Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns.pdf"
+related:
+- neural-prediction-of-weekly-stock-market-index-1
+- madhavan-market-microstructure-a-survey
+reviewed_pdf_pages: 6, 11 and the results chapters checked against the note's benchmark
+  findings
+slug: using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns
+source_file: Using Neural Networks and Genetic Algorithms to Predict Stock Market
+  Returns.pdf
+source_review: partial
+tags:
+- neural-networks
+- genetic-algorithms
+- stock-prediction
+- autoregressive
+- academic-research
+- efficient-markets
+tier: B
+title: Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns
+year: 2001
 ---
 
 ## Summary

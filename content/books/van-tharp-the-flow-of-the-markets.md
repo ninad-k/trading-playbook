@@ -1,17 +1,29 @@
 ---
-title: The Flow of the Markets
 author: Van K. Tharp
-year: 2005
-slug: van-tharp-the-flow-of-the-markets
-tier: B
 category: Trading Psychology & Discipline
-tags: [psychology, trend-following, letting-go, loss-acceptance, ego, discipline]
 difficulty: beginner
 doc_type: article
+one_liner: Short psychology essay using a river-flow metaphor to argue traders lose
+  by fighting the market's direction and refusing to accept small losses.
 pages: 2
-one_liner: "Short psychology essay using a river-flow metaphor to argue traders lose by fighting the market's direction and refusing to accept small losses."
-related: [van-tharp-stop-worrying-yourself-out-of-profits, van-tharp-trading-systems, money-management-report-van-tharp]
-source_file: "Van-Tharp - The Flow of the Markets.pdf"
+related:
+- van-tharp-stop-worrying-yourself-out-of-profits
+- van-tharp-trading-systems
+- money-management-report-van-tharp
+reviewed_pdf_pages: 1-2
+slug: van-tharp-the-flow-of-the-markets
+source_file: Van-Tharp - The Flow of the Markets.pdf
+source_review: full
+tags:
+- psychology
+- trend-following
+- letting-go
+- loss-acceptance
+- ego
+- discipline
+tier: B
+title: The Flow of the Markets
+year: 2005
 ---
 
 ## Summary

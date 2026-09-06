@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profit With Options — Lawrence G. McMillan · Trading Playbook</title>
+<meta name="description" content="McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Profit With Options</h1>
+  <p class="byline">Lawrence G. McMillan · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4-5, 7, 29 (the volatility-percentile methodology chapters and the strategy-selection rules). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=implied-volatility">implied-volatility</a> <a class="tag" href="../search.html?q=straddles">straddles</a> <a class="tag" href="../search.html?q=contrary-indicators">contrary-indicators</a> <a class="tag" href="../search.html?q=put-call-ratio">put-call-ratio</a> <a class="tag" href="../search.html?q=system-trading">system-trading</a> <a class="tag" href="../search.html?q=hedging">hedging</a> </td></tr>
+    <tr><th>Length</th><td>286 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Profit With Options” by Lawrence G. McMillan at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/lawrence-g-mcmillan-profit-with-options--volatility-based-strategy-selection.html">McMillan&#39;s Volatility-Based Option Strategy Selection</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Lawrence McMillan, author of the reference text <em>Options as a Strategic Investment</em> and publisher of an options newsletter and daily fax service, wrote this book (part of the Wiley Trading / Marketplace Books series, structured with review questions like a course text) to teach applied option strategy rather than fresh theory. It works through four uses of options: as direct technical indicators (implied volatility and volume as signals), as contrary sentiment indicators (put-call ratios, $VIX), as inputs to mechanical trading systems, as stock-portfolio insurance, and — the book&rsquo;s centerpiece — as a volatility-trading vehicle, where the strategy chosen (buy or sell premium, and which structure) is driven entirely by where current implied volatility sits relative to its own historical range.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Option prices (implied volatility) carry two kinds of usable information: sentiment (extreme option buying/selling reveals crowd positioning, useful as a contrarian signal) and value (options are objectively cheap or expensive relative to their own trading history, not relative to some universal &ldquo;normal&rdquo; level, since different underlyings trade at structurally different implied volatility levels). A trader who measures where current implied and historical volatility rank against their own multi-month or multi-year range — rather than simply comparing implied to historical — has a real, testable edge for choosing between volatility-buying strategies (straddles, backspreads) and volatility-selling strategies (strangle sales, ratio spreads, credit spreads).</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Implied volatility (IV)</strong> — the volatility level an option&rsquo;s market price implies through an option-pricing model; rises as options get more expensive.</li>
+<li><strong>Historical volatility (HV)</strong> — realized volatility of the underlying computed directly from past price data, typically compared across 10-, 20-, 50-, and 100-day windows.</li>
+<li><strong>Percentile/decile ranking</strong> — placing today&rsquo;s IV (and HV) reading against the last 200–600+ daily readings for the same underlying to judge &ldquo;cheap&rdquo; versus &ldquo;expensive&rdquo; objectively.</li>
+<li><strong>Volatility skew</strong> — the pattern of IV across strikes (forward/positive skew: higher strikes more expensive, typical of commodities; reverse/negative skew: lower strikes more expensive, typical of equity indexes).</li>
+<li><strong>Contrary indicator</strong> — a sentiment measure (put-call ratio, $VIX) that signals the opposite of what the crowd is doing once it reaches an extreme.</li>
+<li><strong>Put-call ratio</strong> — daily put volume ÷ call volume for a stock, index, or futures market; smoothed with a moving average and read as a contrarian extreme.</li>
+<li><strong>Ever probability vs. closing probability</strong> — the (much higher) probability an underlying ever touches a target price before expiration, versus the (lower) probability it closes beyond that price at expiration; computed via Monte Carlo simulation, not the option&rsquo;s delta (which only gives the closing probability).</li>
+<li><strong>Straddle / strangle</strong> — simultaneous long (or short) call and put, same (straddle) or different (strangle) strikes; the book&rsquo;s primary volatility-buying and volatility-selling vehicles.</li>
+<li><strong>Backspread / ratio spread</strong> — unequal numbers of long vs. short options at different strikes, used respectively to buy or sell volatility while exploiting a skew.</li>
+<li><strong>Event-driven straddle</strong> — a straddle bought just before a known binary event (earnings, litigation ruling) to profit from the resulting price gap.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>Full volatility-based strategy-selection rules (with exact percentile thresholds and follow-up actions) are on the linked system page. In summary:</p>
+<ol>
+<li><strong>Rank, don&rsquo;t just compare</strong>: measure both IV and HV against their own multi-month/year percentile history before concluding options are cheap or expensive — a raw IV-vs-HV gap alone is misleading (e.g. OEX structurally trades at higher IV than its HV).</li>
+<li><strong>Cheap options (IV in the ~10th percentile or lower)</strong>: favor straddle buying or backspreads (buy volatility), subject to the four straddle-buying criteria in the system page.</li>
+<li><strong>Expensive options (IV in the ~90th percentile or higher)</strong>: favor strangle/combination sales or ratio spreads (sell volatility) — confined mainly to index options or stocks where the news causing the spike is already known.</li>
+<li><strong>Contrary sentiment</strong>: read extreme put-call ratios and $VIX spikes as reversal signals — buy when the crowd is extremely bearish (high put-call ratio, IV spike into a decline), sell/fade when extremely bullish.</li>
+<li><strong>System trading</strong>: any mechanical system needs explicit, pre-defined entry rules, exit rules, and a stop sized to the market&rsquo;s volatility (not an arbitrary dollar amount) — and the discipline to follow the system through its worst historical drawdown without overriding it.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Naked option selling (strangles, naked puts) carries theoretically large or unlimited loss and is explicitly discouraged on individual stocks (gap risk from takeovers, earnings, litigation) — McMillan confines volatility-selling largely to broad index options, where single-name gap risk doesn&rsquo;t apply. Backspreads are structured to collect a net credit at initiation so there is always some profit potential on the &ldquo;wrong&rdquo; side even if the anticipated move doesn&rsquo;t happen. For system trading, stops must be volatility-scaled (e.g. a point stop sized to the market&rsquo;s typical daily range) rather than fixed, and a system&rsquo;s historical maximum drawdown must be survivable on the capital actually allocated to it. Margin for naked index option sales should be over-allowed beyond the exchange minimum, sized to what would be required if the underlying moved to the strike, not just the current out-of-the-money margin.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>McMillan&rsquo;s most repeated caution is skepticism about why options are cheap or expensive before trading the number: expensive options with no visible news may reflect insider information about a pending takeover or earnings surprise, and cheap options after a cash-tender bid are cheap for a legitimate structural reason (the stock won&rsquo;t move), not a mispricing to exploit. He also warns that straddle buying is often &ldquo;watching paint dry&rdquo; — long stretches with no move — and that traders abandon a statistically sound strategy out of boredom or impatience before it has a chance to pay off. For system trading, the chapter is explicit that the hardest part is not designing rules but obeying them exactly through a live drawdown, since emotional overrides are what turn a profitable system into a losing one.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Introduction — option terminology, pricing components, historical vs. implied volatility basics.</li>
+<li>Ch 2 — Options as Direct Indicators — reading price and volume in the options market itself as a signal (insider-activity screening, event-driven straddles).</li>
+<li>Ch 3 — Options as Contrary Indicators — put-call ratios, $VIX, and implied volatility as contrarian sentiment gauges.</li>
+<li>Ch 4 — System Trading — choosing/building a mechanical system, drawdown tolerance, worked short-term and intermediate-term system examples.</li>
+<li>Ch 5 — Protecting a Stock Portfolio — protective puts, collars, and other portfolio-insurance structures.</li>
+<li>Ch 6 — Trading Volatility — volatility skew, call/put backspreads and ratio spreads for exploiting it.</li>
+<li>Ch 7 — Buy Low and Sell High—Volatility, That Is — the percentile method, straddle-buying criteria, and naked-option-selling criteria (this book&rsquo;s core system).</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s percentile-based, quantified approach to &ldquo;cheap vs. expensive&rdquo; options is more rigorous and more actionable than most volatility-trading writing, and its Monte Carlo &ldquo;ever vs. closing probability&rdquo; distinction is a genuinely useful correction to naive delta-as-probability reasoning. It assumes access to historical IV/HV databases and option-evaluation or Monte Carlo software (McMillan points readers to his own firm&rsquo;s website and paid tools) that a self-directed reader must source elsewhere today. Several worked examples use 1990s option chains, index levels, and margin rules that are dated; the underlying percentile method still applies. As with most option-selling literature, the naked-selling chapters understate tail risk relative to what live trading experience (and the book&rsquo;s own acknowledgment of &ldquo;eight standard deviation&rdquo; daily moves) would suggest.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders who already understand basic option mechanics (calls, puts, strike, expiration, delta) and want a systematic framework for choosing between buying and selling volatility, plus a primer on reading options-market sentiment as a contrarian signal. Less useful as a first options book — it assumes the reader can price and evaluate options already, unlike a pure strategy-mechanics primer.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — a broader catalogue of option structures for readers who need the mechanics McMillan assumes as background.</li>
+<li><a class="xref" href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — another applied options strategy text covering similar ground for comparison.</li>
+<li><a class="xref" href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — the standard academic reference for the option-pricing theory McMillan applies but doesn&rsquo;t derive.</li>
+<li><a class="xref" href="../books/george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments.html">The Option Trader Handbook: Strategies and Trade Adjustments</a> — practical follow-up on adjusting option positions once established, a topic this book only touches on.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.</li><li><a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments.html">The Option Trader Handbook: Strategies and Trade Adjustments</a> — A trade-management manual devoted entirely to adjusting existing stock and option positions — rolling, collars, ratio spreads, and repair strategies — as the underlying moves.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

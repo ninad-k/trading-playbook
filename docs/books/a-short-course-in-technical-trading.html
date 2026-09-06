@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Short Course in Technical Trading — Perry J. Kaufman · Trading Playbook</title>
+<meta name="description" content="A graduate-course walkthrough of trend, momentum, and volatility indicators with worked spreadsheet formulas, backtest tables, and explicit trading rules.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>A Short Course in Technical Trading</h1>
+  <p class="byline">Perry J. Kaufman · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">beginner</span></p>
+  <p class="lead">A graduate-course walkthrough of trend, momentum, and volatility indicators with worked spreadsheet formulas, backtest tables, and explicit trading rules.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 5, 7-8, 10, 15, 23, 74-77, 84 (the regression-slope and moving-average system chapters with their backtest tables). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=momentum">momentum</a> <a class="tag" href="../search.html?q=macd">macd</a> <a class="tag" href="../search.html?q=stochastic">stochastic</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> </td></tr>
+    <tr><th>Length</th><td>339 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “A Short Course in Technical Trading” by Perry J. Kaufman at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/a-short-course-in-technical-trading--bollinger-band-system.html">Bollinger Band System</a> · <a href="../books/a-short-course-in-technical-trading--macd-divergence-system.html">MACD Crossover and Divergence System</a> · <a href="../books/a-short-course-in-technical-trading--n-day-breakout-system.html">N-Day Rolling Breakout System</a> · <a href="../books/a-short-course-in-technical-trading--two-moving-average-system.html">Two-Moving-Average Trend System</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Adapted from a graduate course Kaufman taught at Baruch College, this book builds technical trading from the ground up: charting trends, calculating them mathematically, controlling risk, reading momentum and oscillators, and sizing a portfolio by volatility. Each chapter pairs a concept with an Excel formula, a worked backtest table (often on Microsoft, Enron, AOL, or Amazon data from the late 1990s), and a short set of review questions, closing with informal &ldquo;trading game&rdquo; tips drawn from watching students trade paper accounts.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Markets trend because price runs are not randomly distributed — they show a &ldquo;fat tail&rdquo; of longer-than-expected up or down streaks — and any of the standard trend calculations (moving average, exponential smoothing, regression slope, N-day breakout) will profit from that fat tail if applied with discipline. The choice of trend method matters less than consistently controlling risk, sizing positions by volatility, and accepting many small losses in exchange for a few large trend-following profits (&ldquo;conservation of capital&rdquo;).</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Fat tail of price runs</strong> — price streaks are less random than a coin flip; there are fewer short runs and more long runs than a normal distribution predicts, which is the statistical reason trend-following works.</li>
+<li><strong>Time-driven vs. event-driven trend</strong> — a moving average reacts to the passage of time and slows to catch up with price; a breakout only changes on a new high/low &ldquo;event,&rdquo; so it holds through sideways drift.</li>
+<li><strong>Conservation of capital</strong> — a trend system takes many small losses (roughly 60-75% of trades lose) and a few large wins; average losing trade and holding time should be much smaller than the average winner.</li>
+<li><strong>True range</strong> — the largest of (today&rsquo;s high − low), (today&rsquo;s high − yesterday&rsquo;s close), (yesterday&rsquo;s close − today&rsquo;s low); used instead of the simple daily range so gap opens are captured.</li>
+<li><strong>Front-weighted (exponential) smoothing</strong> — each new price is blended into the trendline by a fixed percentage, giving recent prices more weight than a simple moving average of the same &ldquo;length.&rdquo;</li>
+<li><strong>Divergence</strong> — price makes a new high/low but the momentum/MACD/stochastic indicator makes a lower/higher extreme; signals an approaching reversal.</li>
+<li><strong>Free exposure</strong> — placing an order just ahead of an anticipated breakout so a price gap works in your favor instead of leaving you executed at the crowd&rsquo;s price.</li>
+<li><strong>Lognormal volatility</strong> — in equities, absolute daily volatility rises roughly in proportion to the natural log of price, so risk (and stop distance) must widen as price rises.</li>
+<li><strong>Stop close only</strong> — an order type that exits only if the closing price, not the intraday price, breaches the stop level; used to avoid single-tick false breakouts.</li>
+<li><strong>Two-trend (dual moving average) risk control</strong> — pairing a fast and slow moving average reduces the giveback at trend turns compared with a single slow trend.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>N-day breakout (three variants).</strong> Rule 1: buy on a new N-day high, sell on a new N-day low (intraday). Rule 2 (more conservative): only act if the close itself makes the new high/low, avoiding one-tick false breaks. Rule 3 (compromise): buy on an N-day high if today&rsquo;s close is also higher than yesterday&rsquo;s close; symmetric for sells. A 20-day or 30-week rolling breakout is the common default; risk equals the width between the resistance and support levels used for entry.</li>
+<li><strong>Moving-average trend.</strong> Enter/reverse when the moving average itself turns up or down (compare today&rsquo;s MA value to yesterday&rsquo;s), not merely when price crosses the average. Kaufman&rsquo;s backtests on Microsoft (5-year window) show all periods from 5-200 days roughly profitable except calculation lengths of 20-55 days; profit per trade and profit factor rise steadily as the calculation period lengthens, while win rate stays near 25-35%.</li>
+<li><strong>Exponential smoothing equivalence.</strong> A moving average of length N maps to a smoothing percentage of 2/(N+1) (e.g., 20-day MA ≈ 9.5% smoothing, 40-day ≈ 4.9%, 80-day ≈ 2.47%). Trade the smoothed trendline the same way as a moving average: direction of the line, not price vs. line.</li>
+<li><strong>Regression slope trend.</strong> Fit a linear regression over a fixed window (Kaufman uses ~125-day/6-month windows); trend is up while the slope is positive, down when negative. Use the <em>slope value itself</em>, not price relative to the line.</li>
+<li><strong>Two-moving-average risk control.</strong> Use a slow MA (50-200 days) and a fast MA (5-30 days). Buy when both are rising; exit when the fast one turns down (it always turns first). Produces more, smaller trades with a better reward-to-risk ratio than a single slow trend, at the cost of some total profit.</li>
+<li><strong>Stop-loss placement.</strong> Never set a stop closer than 1.5x the current daily volatility (true range); place the initial stop below the nearest real support level (for longs). Never lower a stop once raised (raise only, tied to new support levels or a fresh trendline) — with the single explicit exception of an increase in volatility, where the stop may be lowered to the low of the most volatile day.</li>
+<li><strong>Volatility-scaled profit/stop targets.</strong> For short-term trades: profit target = entry + (2 × average daily range); stop = entry − (3 × average daily range) for a long. Profit target is deliberately closer than the stop because the nearer order is the one most likely to be hit.</li>
+<li><strong>Percentage price bands.</strong> Upper band = 20-day MA × 1.05; lower band = 20-day MA / 1.05 (or × 0.95). Buy near the lower band, sell near the upper band, exit near the middle; works best in slow, sideways markets and fails badly in sustained trends (see <a class="xref" href="../books/a-short-course-in-technical-trading--bollinger-band-system.html">Bollinger Band System</a>).</li>
+<li><strong>Portfolio position sizing by volatility.</strong> To equalize risk across positions of different price/volatility: solve simultaneously for shares of each instrument so that (shares × instrument&rsquo;s average daily volatility) is equal across the book, subject to a total-capital constraint. Example: $10,000 split between a $100 stock with $3/day volatility and a $25 stock with $1/day volatility solves to 57 and 171 shares respectively.</li>
+<li><strong>Exposure discipline.</strong> Do not hold any single position more than about 30% of the time; the less time and less capital exposed, the smaller the damage from an unpredictable price shock (Kaufman cites 9/11 as the canonical example).</li>
+<li><strong>Diversification cap.</strong> Real risk reduction from adding uncorrelated markets levels off after three or four positions; more than four adds little further benefit (and in a systemic crisis correlations go to 1 regardless).</li>
+<li><strong>Risk per trade (paper-trading game rule).</strong> Never risk more than 20% of capital on one trade; 10% is a better target. Expect roughly 2-3 of every 4 concurrent positions to be profitable if positions are properly diversified.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Kaufman treats risk control as inseparable from trend-following: a stop-loss &ldquo;fights with the trend system&rdquo; if set too tight relative to the trend&rsquo;s natural noise, so stop distance must scale with volatility (never closer than 1.5x current true range) and with the speed of the trend being traded (slower trend = farther stop). He favors true range over simple daily range so gap opens count toward risk, and recommends multiplying the average true range by a &ldquo;stop factor&rdquo; (e.g., 3x) and a smaller &ldquo;profit factor&rdquo; (e.g., 2x) for short-term volatility-based exits. For portfolios, position sizes should be set so each holding contributes roughly equal dollar volatility — not equal share counts or equal dollar value, both of which let the highest-volatility name dominate the book&rsquo;s risk. He also stresses that stops do not protect against price shocks (gaps discontinuously through the stop); the only real defenses are smaller position size and shorter average holding time (target under ~30% market exposure).</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The book repeatedly frames trend trading as &ldquo;conservation of capital&rdquo;: traders must accept a majority of small losing trades as the unavoidable cost of capturing the occasional large winning trend, and must not personalize losses. Kaufman warns against curve-fitting rules to a single chart in hindsight (his own MACD ±2.00 threshold example), against day trading before mastering the basics, against buying on minor support pullbacks (a habit that tends to lose money), and against mistaking a lucky price-shock windfall for skill. He distinguishes a reasoned market &ldquo;bias&rdquo; from wishful thinking, and insists a trader must know the exit — both profit target and stop — before entering, and should log the technical reason for every trade rather than a vague hunch.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Timing Is Everything — why systematic, rule-based trading beats discretionary chart-gazing.</li>
+<li>Ch 2 — Charting the Trend — hand-drawn trendlines, support/resistance, redrawing rules.</li>
+<li>Ch 3 — Breakout Trends — sideways ranges, rolling N-day breakout, false breakouts, fat-tail statistics.</li>
+<li>Ch 4 — Calculating the Trend — moving average, exponential smoothing, regression slope, and breakout compared head-to-head with backtest tables.</li>
+<li>Ch 5 — The Trading Game — a paper-trading exercise applying the rules learned so far.</li>
+<li>Ch 6 — Channels and Bands — trend channels, percentage bands, Bollinger bands, regression bands.</li>
+<li>Ch 7 — Event-Driven Trends — swing charting and point-and-figure charting as time-independent trend methods.</li>
+<li>Ch 8 — Controlling the Risk of a Trade — stop-loss placement, stop close only, two-moving-average risk control.</li>
+<li>Ch 9 — One-Day Chart Patterns and Reversals — gaps (common, breakaway, runaway, exhaustion) and reversal bars.</li>
+<li>Ch 10 — Continuation Patterns — flags, pennants, triangles.</li>
+<li>Ch 11 — Top and Bottom Formations — double tops/bottoms, head-and-shoulders, rounded turns.</li>
+<li>Ch 12 — Retracements, Reversals, Fibonacci Numbers, and Gann — classic retracement levels and their limits.</li>
+<li>Ch 13 — Volume, Breadth, and Open Interest — confirming price action with participation data.</li>
+<li>Ch 14 — Momentum and MACD — momentum as speed/acceleration, full MACD calculation, divergence trading.</li>
+<li>Ch 15 — Overbought/Oversold Indicators and Double Smoothing — stochastic (%K/%D/%D-slow) and 14-day RSI, divergence rules.</li>
+<li>Ch 16 — Managing Your Entry and Exit — order types and execution timing.</li>
+<li>Ch 17 — Volatility and Portfolio Management — four volatility measures, lognormal volatility, volatility-based position sizing.</li>
+<li>Ch 18 — Dow Theory — the classical index-confirmation framework revisited for modern markets.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>Every technique is backed by a reproducible spreadsheet formula and a real backtest table (not just a chart picture), which makes this unusually easy to code directly from the text. The examples lean heavily on late-1990s/2000-2001 dot-com-era stocks (Enron, AOL, Amazon, Microsoft) — Enron&rsquo;s collapse and 9/11 both appear as case studies, which dates some illustrations but the mechanics are era-independent. Kaufman is explicit that back-tested parameter windows (e.g., &ldquo;sell when MACD crosses +2.00&rdquo;) that look great on one chart can be curve-fit and should be treated skeptically; he flags this himself rather than glossing over it. Coverage of pattern-based chapters (candlesticks-adjacent one-day patterns, Fibonacci/Gann, Dow Theory) is comparatively thin (a chapter each) versus the depth given to moving averages, breakouts, and oscillators.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Beginner-to-intermediate traders who want a self-contained, formula-level introduction to trend and momentum indicators and basic volatility-based position sizing, ideally with a spreadsheet open alongside the text to reproduce the examples.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/elder-alexander-trading-for-a-living.html">Trading for a Living</a> — complements Kaufman&rsquo;s indicator mechanics with a fuller psychology and money-management framework (the 2% rule).</li>
+<li><a class="xref" href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> and <a class="xref" href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results.html">The Complete TurtleTrader: The Legend, the Lessons, the Results</a> — both build on the same N-day breakout / volatility-sizing logic Kaufman introduces, taken to a fully mechanical system.</li>
+<li><a class="xref" href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — deeper treatment of the position-sizing-by-volatility idea Kaufman sketches in Chapter 17.</li>
+<li><a class="xref" href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — a more short-term, pattern-driven counterpart to Kaufman&rsquo;s oscillator chapters (stochastic, RSI).</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/elder-alexander-trading-for-a-living.html">Trading for a Living</a> — Elder&#39;s original three-pillar framework (psychology, technical method, money management), introducing Triple Screen, Force Index, and Elder-ray.</li><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results.html">The Complete TurtleTrader: The Legend, the Lessons, the Results</a> — Tells the Richard Dennis/William Eckhardt Turtle experiment and, unlike the earlier Covel site archive, publishes the actual N/ATR-based System One and System Two breakout rules.</li><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — A catalogue of fully specified short-term swing-trading setups (Turtle Soup, 80-20&#39;s, the Anti, Holy Grail, Wolfe Waves, and more) built on tests, retracements, and climax reversals.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

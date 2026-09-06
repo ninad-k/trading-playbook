@@ -1,17 +1,31 @@
 ---
-title: "A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data"
-author: "P. J. Bolland and J. T. Connor"
-year: 1995
-slug: kalman-filter-for-arbitrage-identification-in-high-frequency-data
-tier: B
+author: P. J. Bolland and J. T. Connor
 category: Quant, Microstructure & Academic Research
-tags: [kalman-filter, triangular-arbitrage, high-frequency-data, tick-data, forex, outlier-detection, neural-network]
 difficulty: advanced
 doc_type: paper
+one_liner: London Business School paper using a robust multivariate Kalman filter
+  to detect FX triangular-arbitrage mispricings in erratic 1990s tick data.
 pages: 20
-one_liner: "London Business School paper using a robust multivariate Kalman filter to detect FX triangular-arbitrage mispricings in erratic 1990s tick data."
-related: [application-of-multi-agent-games-to-the-prediction-of-financial-time-series, fallon-w-calculating-value-at-risk]
-source_file: "Kalman Filter For Arbitrage Identification In High Frequency Data.pdf"
+related:
+- application-of-multi-agent-games-to-the-prediction-of-financial-time-series
+- fallon-w-calculating-value-at-risk
+reviewed_pdf_pages: 1-2, 16 (the triangular-arbitrage formulation and the worked outlier
+  case study)
+slug: kalman-filter-for-arbitrage-identification-in-high-frequency-data
+source_file: Kalman Filter For Arbitrage Identification In High Frequency Data.pdf
+source_review: partial
+tags:
+- kalman-filter
+- triangular-arbitrage
+- high-frequency-data
+- tick-data
+- forex
+- outlier-detection
+- neural-network
+tier: B
+title: A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification
+  in High Frequency Data
+year: 1995
 ---
 
 ## Summary

@@ -1,17 +1,34 @@
 ---
-title: "The Equity Options Strategy Guide"
 author: Unknown
-year: 2001
-slug: the-equity-options-strategy-guide
-tier: B
 category: Options, Futures & Derivatives
-tags: [options, calls, puts, covered-call, spreads, collar, options-basics, occ]
 difficulty: beginner
 doc_type: manual
+one_liner: 'An OCC-affiliated introductory booklet defining option mechanics and walking
+  through nine basic strategies: long call/put, married put, protective put, covered
+  call/put, bull/bear spreads, and collar.'
 pages: 32
-one_liner: "An OCC-affiliated introductory booklet defining option mechanics and walking through nine basic strategies: long call/put, married put, protective put, covered call/put, bull/bear spreads, and collar."
-related: [options-essential-concepts-and-trading-strategies-2nd-edition, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options, george-a-fontanills-the-option-course-with-exercise]
-source_file: "The Equity Options Strategy Guide.pdf"
+related:
+- options-essential-concepts-and-trading-strategies-2nd-edition
+- guy-cohen-the-bible-of-options-strategies
+- lawrence-g-mcmillan-profit-with-options
+- george-a-fontanills-the-option-course-with-exercise
+reviewed_pdf_pages: the strategy pages checked against the note's break-even and assignment
+  rules
+slug: the-equity-options-strategy-guide
+source_file: The Equity Options Strategy Guide.pdf
+source_review: partial
+tags:
+- options
+- calls
+- puts
+- covered-call
+- spreads
+- collar
+- options-basics
+- occ
+tier: B
+title: The Equity Options Strategy Guide
+year: 2001
 ---
 
 ## Summary

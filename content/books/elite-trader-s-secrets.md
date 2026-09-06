@@ -1,17 +1,28 @@
 ---
-title: "Elite Trader's Secrets: Market Forecasting with the New Refined Elliott Wave Principle"
 author: Rich Swannell
-year: 2003
-slug: elite-trader-s-secrets
-tier: B
-category: "Fibonacci, Gann & Elliott Wave"
-tags: [elliott-wave, pattern-recognition, fibonacci, wave-analysis, forecasting, research]
+category: Fibonacci, Gann & Elliott Wave
 difficulty: advanced
 doc_type: manual
+one_liner: Elliott Wave Research's promotional research report claiming statistical
+  proof that Elliott Wave pattern shapes forecast future price direction better than
+  random chance.
 pages: 83
-one_liner: "Elliott Wave Research's promotional research report claiming statistical proof that Elliott Wave pattern shapes forecast future price direction better than random chance."
 related: []
-source_file: "Elite_Trader_s_Secrets.pdf"
+reviewed_pdf_pages: 1-2, 12, 45, 68 (the wave probabilities and the pattern chapters)
+slug: elite-trader-s-secrets
+source_file: Elite_Trader_s_Secrets.pdf
+source_review: partial
+tags:
+- elliott-wave
+- pattern-recognition
+- fibonacci
+- wave-analysis
+- forecasting
+- research
+tier: B
+title: 'Elite Trader''s Secrets: Market Forecasting with the New Refined Elliott Wave
+  Principle'
+year: 2003
 ---
 
 ## Summary

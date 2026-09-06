@@ -1,17 +1,34 @@
 ---
-title: Chart Patterns Tutorial
 author: TradingEducation.com
-year: 2006
-slug: chart-patterns-tutorial
-tier: B
 category: Candlesticks & Chart Patterns
-tags: [chart-patterns, trend-lines, support-resistance, retracements, gaps, continuation-patterns, reversal-patterns]
 difficulty: beginner
 doc_type: article
+one_liner: ActionForex/TradingEducation.com tutorial covering trend lines, channels,
+  continuation patterns (flags, triangles, cup-and-saucer), reversal patterns (double
+  tops/bottoms, head-and-shoulders, wedges, diamond), support/resistance, retracements,
+  and gaps.
 pages: 14
-one_liner: "ActionForex/TradingEducation.com tutorial covering trend lines, channels, continuation patterns (flags, triangles, cup-and-saucer), reversal patterns (double tops/bottoms, head-and-shoulders, wedges, diamond), support/resistance, retracements, and gaps."
-related: [chart-patterns-and-technical-indicators, metastock-chart-patterns-tutorial, technical-indicators-tutorial, forex-intraday-pivots-trading-system-complete-system, elliott-waves-principle]
-source_file: "Chart_Patterns_Tutorial.pdf"
+related:
+- chart-patterns-and-technical-indicators
+- metastock-chart-patterns-tutorial
+- technical-indicators-tutorial
+- forex-intraday-pivots-trading-system-complete-system
+- elliott-waves-principle
+reviewed_pdf_pages: 1-14
+slug: chart-patterns-tutorial
+source_file: Chart_Patterns_Tutorial.pdf
+source_review: full
+tags:
+- chart-patterns
+- trend-lines
+- support-resistance
+- retracements
+- gaps
+- continuation-patterns
+- reversal-patterns
+tier: B
+title: Chart Patterns Tutorial
+year: 2006
 ---
 
 ## Summary

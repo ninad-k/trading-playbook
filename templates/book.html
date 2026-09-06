@@ -7,6 +7,7 @@
   <h1>{{ m.title }}</h1>
   <p class="byline">{{ m.author }}{% if m.year and m.year != 'unknown' %} · {{ m.year }}{% endif %} · <span class="badge tier-{{ m.tier }}">Tier {{ m.tier }}</span> <span class="badge">{{ m.doc_type }}</span> <span class="badge">{{ m.difficulty }}</span></p>
   <p class="lead">{{ m.one_liner }}</p>
+  {% if m.source_review %}<div class="callout"><strong>Source coverage: {{ m.source_review }} review.</strong>{% if m.reviewed_pdf_pages %} PDF pages inspected: {{ m.reviewed_pdf_pages }}.{% endif %} Page references in these notes identify source locations, not independently verified trading results.</div>{% endif %}
   <table class="facts">
     <tr><th>Category</th><td><a href="{{ root }}topics/{{ cat_slug }}.html">{{ m.category }}</a></td></tr>
     <tr><th>Tags</th><td>{% for t in m.tags %}<a class="tag" href="{{ root }}search.html?q={{ t|urlencode }}">{{ t }}</a> {% endfor %}</td></tr>

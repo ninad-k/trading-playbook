@@ -1,17 +1,32 @@
 ---
-title: "Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models"
 author: Oesterreichische Nationalbank
-year: 1999
-slug: evaluation-of-value-at-risk-models
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [value-at-risk, backtesting, risk-management, regulation, basel, model-validation, bank-risk]
 difficulty: advanced
 doc_type: manual
+one_liner: Austrian central bank regulatory guideline specifying how bank-internal
+  VaR models must be built, validated, and backtested for market-risk capital approval.
 pages: 58
-one_liner: "Austrian central bank regulatory guideline specifying how bank-internal VaR models must be built, validated, and backtested for market-risk capital approval."
-related: [fallon-w-calculating-value-at-risk, exploring-value-at-risk, hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies, credit-risk-modeling-and-valuation-an-introduction]
-source_file: "Evaluation Of Value At Risk-Models.pdf"
+related:
+- fallon-w-calculating-value-at-risk
+- exploring-value-at-risk
+- hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+- credit-risk-modeling-and-valuation-an-introduction
+reviewed_pdf_pages: 4, 6, 9, 39, 54 (the regulatory framework, backtesting rules and
+  the traffic-light zones)
+slug: evaluation-of-value-at-risk-models
+source_file: Evaluation Of Value At Risk-Models.pdf
+source_review: partial
+tags:
+- value-at-risk
+- backtesting
+- risk-management
+- regulation
+- basel
+- model-validation
+- bank-risk
+tier: B
+title: 'Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models'
+year: 1999
 ---
 
 ## Summary

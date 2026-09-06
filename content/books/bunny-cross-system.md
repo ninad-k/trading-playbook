@@ -1,17 +1,29 @@
 ---
-title: "Bunny Cross System"
 author: Lester
-year: unknown
-slug: bunny-cross-system
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, moving-average-cross, wma, scalping, trailing-stop, scaling-out, eur-usd]
 difficulty: intermediate
 doc_type: manual
+one_liner: A forum thread compiling one forex trader's WMA5/WMA20 crossover system
+  for EUR/USD, GBP/USD and USD/CHF on 30-minute charts, with a pip-filter entry and
+  multi-lot scale-out exits.
 pages: 7
-one_liner: "A forum thread compiling one forex trader's WMA5/WMA20 crossover system for EUR/USD, GBP/USD and USD/CHF on 30-minute charts, with a pip-filter entry and multi-lot scale-out exits."
-related: [fx10]
-source_file: "BUNNY CROSS SYSTEM.pdf"
+related:
+- fx10
+reviewed_pdf_pages: 1-7
+slug: bunny-cross-system
+source_file: BUNNY CROSS SYSTEM.pdf
+source_review: full
+tags:
+- forex
+- moving-average-cross
+- wma
+- scalping
+- trailing-stop
+- scaling-out
+- eur-usd
+tier: B
+title: Bunny Cross System
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "Introduction to Arbitrage Pricing of Financial Derivatives"
-author: "Marek Rutkowski"
-year: 1997
-slug: introduction-to-arbitrage-pricing-of-financial-derivatives
-tier: B
-category: "Options, Futures & Derivatives"
+author: Marek Rutkowski
+category: Options, Futures & Derivatives
 difficulty: advanced
-tags: [arbitrage-pricing, options, binomial-model, martingale, risk-neutral-valuation, replicating-portfolio, academic-reference]
 doc_type: paper
+one_liner: Lecture-note derivation of no-arbitrage option pricing via replicating
+  portfolios and martingale measures, from a one-period binomial model up through
+  futures markets.
 pages: 19
-one_liner: "Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets."
-related: [interest-rate-models, the-mathematics-of-financial-modeling-and-investment-management, black-scholes-option-pricing-model]
-source_file: "INTRODUCTION TO ARBITRAGE PRICING OF FINANCIAL DERIVATIVES.pdf"
+related:
+- interest-rate-models
+- the-mathematics-of-financial-modeling-and-investment-management
+- black-scholes-option-pricing-model
+reviewed_pdf_pages: 2-3, 10 (the binomial worked example and the replication argument)
+slug: introduction-to-arbitrage-pricing-of-financial-derivatives
+source_file: INTRODUCTION TO ARBITRAGE PRICING OF FINANCIAL DERIVATIVES.pdf
+source_review: partial
+tags:
+- arbitrage-pricing
+- options
+- binomial-model
+- martingale
+- risk-neutral-valuation
+- replicating-portfolio
+- academic-reference
+tier: B
+title: Introduction to Arbitrage Pricing of Financial Derivatives
+year: 1997
 ---
 
 ## Summary

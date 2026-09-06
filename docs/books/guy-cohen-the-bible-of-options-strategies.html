@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Bible of Options Strategies — Guy Cohen · Trading Playbook</title>
+<meta name="description" content="A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>The Bible of Options Strategies</h1>
+  <p class="byline">Guy Cohen · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 5, 16, 47-48, 51 (the strategy taxonomy and the per-strategy selection filters for liquidity, open interest and expiration). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=spreads">spreads</a> <a class="tag" href="../search.html?q=straddles-strangles">straddles-strangles</a> <a class="tag" href="../search.html?q=iron-condors">iron-condors</a> <a class="tag" href="../search.html?q=synthetics">synthetics</a> <a class="tag" href="../search.html?q=greeks">greeks</a> <a class="tag" href="../search.html?q=income-strategies">income-strategies</a> <a class="tag" href="../search.html?q=taxation">taxation</a> </td></tr>
+    <tr><th>Length</th><td>401 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Bible of Options Strategies” by Guy Cohen at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/guy-cohen-the-bible-of-options-strategies--strategy-family-playbook.html">The Bible of Options Strategies — Strategy Family Construction Playbook</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is a reference encyclopedia, not a narrative trading book. Cohen documents 58 options strategies grouped into seven families (the four basic positions, income strategies, vertical spreads, volatility strategies, sideways strategies, leveraged strategies, and synthetic strategies), plus a closing chapter on U.S. options taxation. Every strategy gets identical treatment: a proficiency rating, a market-outlook/volatility tag, a description with a diagram, step-by-step construction and exit rules, a &ldquo;Context&rdquo; block (outlook, rationale, net position, time-decay effect, holding period, stock/option-selection filters), a max-risk/max-reward/breakeven formula, a five-Greeks risk-profile diagram, advantages/disadvantages, and a worked numeric example. The book assumes the reader already knows what a call and a put are and wants a construction manual, not options theory.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Every one of the 58 strategies is a variation on four building blocks (long call, short call, long put, short put) combined in different ratios, strikes, and expirations to produce a specific risk/reward shape suited to a specific market view (bullish, bearish, sideways) and volatility expectation (rising or falling). Choosing a strategy is a mechanical matching exercise: define the market outlook and volatility view first, then pick the strategy family whose risk profile fits, then apply Cohen&rsquo;s fixed selection filters (liquidity minimums, strike distance, days to expiration) to the specific trade.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Proficiency rating</strong> — each strategy is tagged novice/intermediate/advanced/expert by complexity and risk, not just mechanics (a naked short call is simple to place but rated advanced for its uncapped risk).</li>
+<li><strong>Net debit vs. net credit trade</strong> — whether combined premiums paid exceed premiums received; sets the max-risk formula and whether time decay helps or hurts the position.</li>
+<li><strong>ITM / ATM / OTM</strong> — in-, at-, and out-of-the-money strikes relative to the stock price; the book&rsquo;s primary strike-selection language.</li>
+<li><strong>The Greeks (five-pack)</strong> — delta, gamma, theta, vega, rho shown as a labeled risk-profile diagram for every strategy.</li>
+<li><strong>Vertical spread</strong> — two same-type, same-expiration options at different strikes (bull/bear call/put spreads); max risk and reward are both fixed by the strike gap.</li>
+<li><strong>Calendar and diagonal spreads</strong> — a longer-dated option paired with a shorter-dated one, same strike (calendar) or different strikes (diagonal); the diagonal&rsquo;s deep-ITM long leg avoids the calendar&rsquo;s &ldquo;right but still lose&rdquo; risk shape.</li>
+<li><strong>Ratio spread / backspread</strong> — unequal long/short option counts (2:1 or 3:2) trading a cheaper entry for uncapped risk (ratio spread) or uncapped reward with capped risk (backspread).</li>
+<li><strong>Butterfly / condor</strong> — three- or four-strike, capped-risk, capped-reward structures; a condor separates the two middle strikes of a butterfly, widening the profit zone at a lower peak payout.</li>
+<li><strong>Iron butterfly / iron condor</strong> — the same payoff shapes built by mixing puts and calls instead of one option type.</li>
+<li><strong>Synthetic position</strong> — reproducing stock, straddle, or futures payoffs using only options, mainly for margin, tax, or execution reasons.</li>
+<li><strong>Collar</strong> — long stock plus a protective long put financed by a covered short call; a long-dated, low-risk, low-return &ldquo;insured&rdquo; stock position.</li>
+<li><strong>&ldquo;Steps In&rdquo; / &ldquo;Steps Out&rdquo;</strong> — Cohen&rsquo;s fixed template: the technical entry condition, and a trading-plan-driven exit rule.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>Selection filters Cohen applies to nearly every strategy: minimum stock liquidity of 500,000 average daily volume; minimum option open interest of 100 (preferably 500); strikes and expirations chosen from a short list of standardized offsets rather than optimized per-trade.</p>
+<p>Representative construction and risk/reward rules by family (all use the maximum-risk/reward formulas exactly as printed):</p>
+<table>
+<thead>
+<tr>
+<th>Strategy</th>
+<th>Legs</th>
+<th>Max risk</th>
+<th>Max reward</th>
+<th>Typical holding period</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Long call</td>
+<td>Buy 1 call</td>
+<td>Premium paid</td>
+<td>Uncapped</td>
+<td>3+ months (avoid last month)</td>
+</tr>
+<tr>
+<td>Covered call</td>
+<td>Long stock + short 1 call</td>
+<td>Stock cost − premium</td>
+<td>(Strike − stock cost) + premium</td>
+<td>Monthly, roll each expiration</td>
+</tr>
+<tr>
+<td>Bull put spread</td>
+<td>Short higher-strike put + long lower-strike put</td>
+<td>Strike difference − net credit</td>
+<td>Net credit</td>
+<td>≤1 month</td>
+</tr>
+<tr>
+<td>Calendar call</td>
+<td>Long far-dated call + short near-dated call, same strike</td>
+<td>Net debit paid</td>
+<td>Long call&rsquo;s residual value at short expiration − net debit</td>
+<td>Long leg 6+ months, short leg ~1 month</td>
+</tr>
+<tr>
+<td>Diagonal call</td>
+<td>Long far-dated deep-ITM call + short near-dated OTM call</td>
+<td>Net debit paid</td>
+<td>Value at short strike − net debit</td>
+<td>Long leg 6+ months, short leg ~1 month</td>
+</tr>
+<tr>
+<td>Straddle / strangle (long)</td>
+<td>Long 1 call + 1 put, same (straddle) or different (strangle) strikes</td>
+<td>Combined premium</td>
+<td>Uncapped</td>
+<td>Before an expected volatility event</td>
+</tr>
+<tr>
+<td>Long call/put condor</td>
+<td>4 strikes, buy outer 2, sell inner 2</td>
+<td>Net debit</td>
+<td>Strike gap − net debit</td>
+<td>≤1 month, equidistant strikes</td>
+</tr>
+<tr>
+<td>Call ratio backspread</td>
+<td>Sell 1–2 lower-strike calls, buy 2–3 higher-strike calls (ratio ≤0.67 short:long)</td>
+<td>Capped</td>
+<td>Uncapped</td>
+<td>High-volatility, directional</td>
+</tr>
+<tr>
+<td>Long iron butterfly</td>
+<td>Buy low put, sell mid put, sell mid call, buy high call</td>
+<td>Net debit (or bounded)</td>
+<td>Capped, often opened for a credit</td>
+<td>≤1 month</td>
+</tr>
+<tr>
+<td>Collar</td>
+<td>Long stock + long ATM/OTM put + short OTM call</td>
+<td>Capped by put strike</td>
+<td>Capped by call strike</td>
+<td>12–18 months, held near-to-expiration</td>
+</tr>
+</tbody>
+</table>
+<p>Cohen&rsquo;s worked example compares ratio constructions directly: a 2:1 call ratio backspread costing $0.10 net debit outperformed a 3:2 version netting a $2.30 credit but pushing the upper breakeven further out — his rule is to compare upper breakeven and max risk across ratios rather than default to whichever nets a credit.</p>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Every strategy carries an explicit max-risk/max-reward/breakeven formula in terms of premiums and strike differences, not percent-of-equity sizing — the book gives no position-sizing or portfolio-level risk rule, leaving that to the reader&rsquo;s own trading plan, which Cohen references constantly but never specifies. Exits are strategy-specific: capped-risk positions (butterflies, condors, verticals) are typically held to expiration or unwound by reversing all legs; uncapped-risk positions (naked calls, short straddles/strangles, ratio spreads, ladders) need a hard stop-loss on the underlying since Cohen gives no other exit trigger. For credit and calendar-type income trades, time decay is the source of profit, so holding periods stay short (one month or less) to maximize theta while limiting uncapped-risk exposure to the same short window.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The book is procedural, not psychological — there is no dedicated chapter on trading psychology. The discipline message is indirect: every &ldquo;Steps Out&rdquo; section defers to &ldquo;the rules defined in your Trading Plan,&rdquo; implying pre-committed rather than improvised entries and exits, and the proficiency-rating system itself warns novices and intermediates away from uncapped-risk strategies regardless of how simple their mechanics look. Cohen also repeatedly flags the &ldquo;false economy&rdquo; of short-dated long options or long-dated short options, using time-decay math as a check against intuitively appealing but mathematically poor structures.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — The Four Basic Options Strategies — long call, short call, long put, short put, with full Greeks and worked examples.</li>
+<li>Ch 2 — Income Strategies — covered call, naked put, bull put/bear call spreads, iron butterfly/condor, covered straddle/strangle, calendar and diagonal calls/puts, covered put.</li>
+<li>Ch 3 — Vertical Spreads — bull call, bear put, and call/put ladders (unbalanced verticals with uncapped risk or reward).</li>
+<li>Ch 4 — Volatility Strategies — straddle, strangle, strip, strap, guts, and short butterfly/condor variants (profit from a big move).</li>
+<li>Ch 5 — Sideways Strategies — short straddle/strangle/guts, long butterflies/condors, modified butterflies (profit from range-bound action).</li>
+<li>Ch 6 — Leveraged Strategies — call/put ratio backspreads and ratio spreads.</li>
+<li>Ch 7 — Synthetic Strategies — collar, synthetic call/put, synthetic straddles, synthetic futures, combos, and the box.</li>
+<li>Ch 8 — Taxation for Stock and Options Traders — U.S. capital-gains rules, wash sales, constructive sales, option holding-period and exercise tax treatment.</li>
+<li>Appendix A — Strategy Table — one-line construction/benefit/disadvantage summary for all 58 strategies (source of the &ldquo;awkward to adjust&rdquo; caveat on every butterfly/condor).</li>
+<li>Appendix B — Glossary.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The construction, risk/reward, and Greeks presentation is unusually consistent across all 58 strategies, making the book genuinely usable as a lookup reference rather than a cover-to-cover read. The taxation chapter is U.S.-only and uses pre-2008 rates (15%/35% long/short capital gains), dated and not reliable for current tax law. The book gives no portfolio-level risk framework, no position-sizing rule, and little on implied-volatility modeling — its Greeks diagrams are qualitative shapes, not a pricing tutorial, so readers needing options-pricing math (Black-Scholes, volatility skew) need a companion text. Butterflies and condors are repeatedly flagged by Cohen himself as &ldquo;awkward to adjust,&rdquo; meaning the book&rsquo;s own stance is that these are hold-to-expiration trades, not actively managed positions.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders who already understand call/put mechanics and want a single-volume construction manual for any of the 58 named strategies — how to build it, what it costs, its Greeks, and how to exit it. Less useful for traders wanting pricing theory, implied-volatility analysis, dynamic adjustment tactics, or portfolio-level risk management.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — another broad options-strategy course, useful for cross-checking construction rules and adding volatility-trading theory Cohen omits.</li>
+<li><a class="xref" href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — deeper treatment of position adjustment and dynamic management, the gap this book&rsquo;s own &ldquo;awkward to adjust&rdquo; caveats point to.</li>
+<li><a class="xref" href="../books/george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments.html">The Option Trader Handbook: Strategies and Trade Adjustments</a> — focused specifically on adjusting existing option positions, complementing this book&rsquo;s static construction-only approach.</li>
+<li><a class="xref" href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — the options-pricing and Greeks-mechanics theory this book assumes but never derives.</li>
+<li><a class="xref" href="../books/the-equity-options-strategy-guide.html">The Equity Options Strategy Guide</a> — a shorter, complementary strategy reference for cross-checking risk/reward formulas on the same core strategy set.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps.</li><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li><li><a href="../books/george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments.html">The Option Trader Handbook: Strategies and Trade Adjustments</a> — A trade-management manual devoted entirely to adjusting existing stock and option positions — rolling, collars, ratio spreads, and repair strategies — as the underlying moves.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/the-equity-options-strategy-guide.html">The Equity Options Strategy Guide</a> — An OCC-affiliated introductory booklet defining option mechanics and walking through nine basic strategies: long call/put, married put, protective put, covered call/put, bull/bear spreads, and collar.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

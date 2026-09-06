@@ -1,17 +1,31 @@
 ---
-title: Building Your E-mini Trading Strategy
 author: Daniel Gramza
-year: 2005
-slug: giuciao-atspace-org-building-your-e-mini-trading-strategy
-tier: B
 category: Day Trading & Scalping
-tags: [e-mini-futures, japanese-candlesticks, trend-analysis, trading-strategy-design, stochastics, risk-management, performance-measurement]
 difficulty: intermediate
 doc_type: course
+one_liner: Slide presentation on a seven-step process for building a CME E-mini futures
+  trading strategy, from market/timeframe selection through candlestick-based entry
+  rules to performance measurement.
 pages: 121
-one_liner: "Slide presentation on a seven-step process for building a CME E-mini futures trading strategy, from market/timeframe selection through candlestick-based entry rules to performance measurement."
-related: [candlestick-patterns-for-day-trading, forex-intraday-pivots-trading-system-complete-system]
-source_file: "Giuciao Atspace Org-Building Your E-Mini Trading Strategy.pdf"
+related:
+- candlestick-patterns-for-day-trading
+- forex-intraday-pivots-trading-system-complete-system
+reviewed_pdf_pages: 2, 5, 12-14, 88 (the contract specifications, the swing entry
+  rules and the risk/heat discussion)
+slug: giuciao-atspace-org-building-your-e-mini-trading-strategy
+source_file: Giuciao Atspace Org-Building Your E-Mini Trading Strategy.pdf
+source_review: partial
+tags:
+- e-mini-futures
+- japanese-candlesticks
+- trend-analysis
+- trading-strategy-design
+- stochastics
+- risk-management
+- performance-measurement
+tier: B
+title: Building Your E-mini Trading Strategy
+year: 2005
 ---
 
 ## Summary

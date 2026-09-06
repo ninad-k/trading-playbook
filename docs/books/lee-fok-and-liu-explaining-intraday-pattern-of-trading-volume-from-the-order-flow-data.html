@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explaining Intraday Pattern of Trading Volume from the Order Flow Data — Yi-Tsung Lee, Robert C.W. Fok, Yu-Jane Liu · Trading Playbook</title>
+<meta name="description" content="Taiwan Stock Exchange order-book data shows a J-shaped (not U-shaped) intraday volume pattern, driven more by liquidity flow than informed trading.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Explaining Intraday Pattern of Trading Volume from the Order Flow Data</h1>
+  <p class="byline">Yi-Tsung Lee, Robert C.W. Fok, Yu-Jane Liu · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Taiwan Stock Exchange order-book data shows a J-shaped (not U-shaped) intraday volume pattern, driven more by liquidity flow than informed trading.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-4 (the market structure, sample period and hypotheses). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=order-flow">order-flow</a> <a class="tag" href="../search.html?q=trading-volume">trading-volume</a> <a class="tag" href="../search.html?q=intraday-patterns">intraday-patterns</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=information-asymmetry">information-asymmetry</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>32 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Explaining Intraday Pattern of Trading Volume from the Order Flow Data” by Yi-Tsung Lee, Robert C.W. Fok, Yu-Jane Liu at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: why does trading volume spike at the market open and close, and how does informed vs. uninformed traders&rsquo; order placement drive that pattern? Data: the complete limit order book for the 30 most-traded stocks on the Taiwan Stock Exchange (TWSE), March-May 1995, covering 46% of total market value; TWSE is an agency call-auction market with price-time priority and no dealer/specialist. Method: classifies orders by size (large = informed, small = uninformed) and by whether they execute immediately (&ldquo;real&rdquo; orders) or sit away from the market (&ldquo;waiting&rdquo; orders), then regresses volume on informed/uninformed and real/waiting order flow across 31 intraday intervals. Finding: contrary to the classic U-shaped pattern found on the NYSE/Toronto, TWSE volume follows a J-shape (heaviest near the close); both informed and uninformed investors place the most orders at the open and close, but real orders are J-shaped while waiting orders are reverse-J-shaped; and uninformed (liquidity) order flow has a slightly larger effect on volume than informed order flow.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>TWSE call-auction structure: the open call accumulates orders from 8:30-9:00am; subsequent calls execute roughly every minute; no dealer/specialist intermediary.</li>
+<li>Volume is J-shaped, not U-shaped: the largest orders are placed at the open, but only moderate executed volume results, because traders place conservative/away-from-market orders then.</li>
+<li>Orders are split into &ldquo;real&rdquo; (executable at submission) and &ldquo;waiting&rdquo; (priced away from the market) to separate genuine trading intent from price-priority positioning.</li>
+<li>Real orders (informed and uninformed alike) show a J-shaped pattern matching volume; waiting orders show a reverse-J pattern, shrinking as the session progresses and uncertainty resolves.</li>
+<li>Regression coefficients for both informed and uninformed order flow are significant in every interval tested; the uninformed (liquidity) coefficient is consistently larger.</li>
+<li>Results hold across six alternative size/price thresholds used to define informed/uninformed and real/waiting orders.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is an academic microstructure study, not a trading system. Practical read for traders: on markets with this order-book structure, visible order-book depth at the open can overstate likely executed volume (much of it is exploratory &ldquo;waiting&rdquo; order flow), and liquidity-driven flow — not just informed trading — is the larger driver of volume spikes at the open and close.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Findings are specific to the Taiwan Stock Exchange&rsquo;s call-auction, no-dealer market structure in 1995 and may not generalize to continuous double-auction or dealer markets (the U-shaped pattern found elsewhere is explicitly contrasted). The informed/uninformed classification is a size-based proxy (e.g., orders over 20 lots vs. under 5-20 lots), not a direct measure of who possesses private information.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Researchers and quant traders interested in how order-book composition (informed vs. uninformed, real vs. waiting orders) explains intraday volume patterns, particularly in auction-market structures outside the US.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/supply-demand.html">Are Supply and Demand Driving Stock Prices?</a> — Paris Bourse order-flow data shows order imbalance explains ~50% of return variance, with a higher R² for market-wide moves than stock-specific ones — pointing to mechanical price pressure, not just information.</li><li><a href="../books/foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size.</li><li><a href="../books/the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex.html">The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market</a> — Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency are simultaneously determined, with time-of-day dummies removing much of the GARCH-type clustering in returns.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

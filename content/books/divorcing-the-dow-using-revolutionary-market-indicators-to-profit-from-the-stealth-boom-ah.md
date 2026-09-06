@@ -1,17 +1,32 @@
 ---
-title: Divorcing the Dow
 author: Jim Troup and Sharon Michalsky
-year: 2003
-slug: divorcing-the-dow-using-revolutionary-market-indicators-to-profit-from-the-stealth-boom-ah
-tier: A
 category: Investing, Value & Market History
-tags: [market-cycles, asset-allocation, market-history, diversification, forecasting, macro]
 difficulty: intermediate
 doc_type: book
+one_liner: Argues NASDAQ-era markets are repeating the Dow's 1896-1929 discovery/formulation/acceleration
+  cycle a century later, and prescribes real style diversification over index/Dow
+  investing.
 pages: 273
-one_liner: "Argues NASDAQ-era markets are repeating the Dow's 1896-1929 discovery/formulation/acceleration cycle a century later, and prescribes real style diversification over index/Dow investing."
-related: [steven-bolten-stock-market-cycles, mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go, handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz]
-source_file: "Divorcing the Dow - Using Revolutionary Market Indicators to Profit From the Stealth Boom Ahead.pdf"
+related:
+- steven-bolten-stock-market-cycles
+- mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
+- handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz
+reviewed_pdf_pages: 8, 14-15, 19, 21, 25, 42-44 (the market-history tables behind
+  the acceleration-phase statistics and the diversification and classification critiques)
+slug: divorcing-the-dow-using-revolutionary-market-indicators-to-profit-from-the-stealth-boom-ah
+source_file: Divorcing the Dow - Using Revolutionary Market Indicators to Profit From
+  the Stealth Boom Ahead.pdf
+source_review: partial
+tags:
+- market-cycles
+- asset-allocation
+- market-history
+- diversification
+- forecasting
+- macro
+tier: A
+title: Divorcing the Dow
+year: 2003
 ---
 
 ## Overview

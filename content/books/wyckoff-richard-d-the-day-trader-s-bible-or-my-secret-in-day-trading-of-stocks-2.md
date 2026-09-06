@@ -1,17 +1,33 @@
 ---
-title: The Day Trader's Bible (My Secrets of Day Trading in Stocks)
 author: Richard D. Wyckoff
-year: 1919
-slug: wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2
-tier: A
 category: Day Trading & Scalping
-tags: [tape-reading, day-trading, volume-analysis, points-of-resistance, stops, market-technique]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Wyckoff''s original 1919 manual on tape reading: judging price and volume
+  transaction-by-transaction to trade the immediate trend with tight stops.'
 pages: 116
-one_liner: "Wyckoff's original 1919 manual on tape reading: judging price and volume transaction-by-transaction to trade the immediate trend with tight stops."
-related: [reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, richard-smitten-trade-like-jesse-livermore-2005, jack-schwager-stock-market-wizards, disciplined-trader, s-and-c]
-source_file: "Wyckoff, Richard D  - The Day Trader's Bible - Or My Secret In Day Trading Of Stocks_2.pdf"
+related:
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- richard-smitten-trade-like-jesse-livermore-2005
+- jack-schwager-stock-market-wizards
+- disciplined-trader
+- s-and-c
+reviewed_pdf_pages: 2, 5, 10, 16, 20-21, 32-33, 36 (capital and unit sizing, the stop-order
+  chapter with the two-point maximum-loss rule and the tape-derived stop discussion)
+slug: wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2
+source_file: Wyckoff, Richard D  - The Day Trader's Bible - Or My Secret In Day Trading
+  Of Stocks_2.pdf
+source_review: partial
+tags:
+- tape-reading
+- day-trading
+- volume-analysis
+- points-of-resistance
+- stops
+- market-technique
+tier: A
+title: The Day Trader's Bible (My Secrets of Day Trading in Stocks)
+year: 1919
 ---
 
 ## Overview

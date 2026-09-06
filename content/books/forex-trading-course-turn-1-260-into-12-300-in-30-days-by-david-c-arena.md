@@ -1,17 +1,34 @@
 ---
-title: "#1 Forex Trading Course"
-author: "David C. Arena"
-year: unknown
-slug: forex-trading-course-turn-1-260-into-12-300-in-30-days-by-david-c-arena
-tier: B
+author: David C. Arena
 category: Forex Mechanics & Macro Drivers
-tags: [forex, pip-value, leverage, order-types, trendlines, macd, candlesticks, risk-management]
 difficulty: beginner
 doc_type: course
+one_liner: Retail forex course covering pip/lot mechanics, order types, and a candlestick-plus-MACD
+  entry strategy, wrapped around risk-management rules of thumb and an affiliate-marketing
+  pitch for the author's broker.
 pages: 126
-one_liner: "Retail forex course covering pip/lot mechanics, order types, and a candlestick-plus-MACD entry strategy, wrapped around risk-management rules of thumb and an affiliate-marketing pitch for the author's broker."
-related: [quick-guide-to-trade-forex, 9-forex-systems, trading-hill-arthur-introduction-to-candlesticks, currency-trading-vehicles]
-source_file: "Forex_Trading_Course_-_Turn__1_260_into__12_300_in_30_days_by_David_C._Arena.pdf"
+related:
+- quick-guide-to-trade-forex
+- 9-forex-systems
+- trading-hill-arthur-introduction-to-candlesticks
+- currency-trading-vehicles
+reviewed_pdf_pages: 3-4, 10, 16, 18-19 (the pip-value arithmetic, the indicator chapters
+  and the worked trade statements)
+slug: forex-trading-course-turn-1-260-into-12-300-in-30-days-by-david-c-arena
+source_file: Forex_Trading_Course_-_Turn__1_260_into__12_300_in_30_days_by_David_C._Arena.pdf
+source_review: partial
+tags:
+- forex
+- pip-value
+- leverage
+- order-types
+- trendlines
+- macd
+- candlesticks
+- risk-management
+tier: B
+title: '#1 Forex Trading Course'
+year: unknown
 ---
 
 ## Summary

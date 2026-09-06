@@ -1,17 +1,32 @@
 ---
-title: The Global Money Markets
 author: Frank J. Fabozzi, Steven V. Mann & Moorad Choudhry
-year: 2002
-slug: he-global-money-markets
-tier: B
 category: Options, Futures & Derivatives
-tags: [money-markets, treasury-bills, repo, commercial-paper, mortgage-backed-securities, interest-rate-swaps, bank-capital, fixed-income]
 difficulty: advanced
 doc_type: book
+one_liner: 'Institutional reference on money-market instruments: T-bills, agency paper,
+  CP, repo, floaters, MBS/ABS, futures/FRAs, swaps, and bank regulatory capital.'
 pages: 337
-one_liner: "Institutional reference on money-market instruments: T-bills, agency paper, CP, repo, floaters, MBS/ABS, futures/FRAs, swaps, and bank regulatory capital."
-related: [fixed-income-securities, hull-options-futures-and-other-derivative-securities-5th-ed, lehman-currency-hedging-in-fixed-income-portfolios]
-source_file: "He Global Money Markets.pdf"
+related:
+- fixed-income-securities
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- lehman-currency-hedging-in-fixed-income-portfolios
+reviewed_pdf_pages: the repo, bank-capital and instrument chapters checked against
+  the note
+slug: he-global-money-markets
+source_file: He Global Money Markets.pdf
+source_review: partial
+tags:
+- money-markets
+- treasury-bills
+- repo
+- commercial-paper
+- mortgage-backed-securities
+- interest-rate-swaps
+- bank-capital
+- fixed-income
+tier: B
+title: The Global Money Markets
+year: 2002
 ---
 
 ## Summary

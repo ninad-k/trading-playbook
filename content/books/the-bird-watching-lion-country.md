@@ -1,17 +1,35 @@
 ---
-title: "Bird Watching in Lion Country: Retail Forex Trading Explained"
 author: Dirk du Toit
-year: 2004
-slug: the-bird-watching-lion-country
-tier: A
-category: "Forex Mechanics & Macro Drivers"
-doc_type: book
-pages: 236
-one_liner: "A South African forex mentor's discretionary day-trading framework: one currency, low gearing, one direction, a median-grid comfort zone, and a Price-Event-Time reading of the market."
-tags: [forex, discretionary-trading, day-trading, median-grid, gearing, risk-management, real-time-analysis, trend-following]
+category: Forex Mechanics & Macro Drivers
 difficulty: intermediate
-related: [reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, taleb-nassim-fooled-by-randomness, day-trading-the-currency-market, trading-in-the-zone, jack-schwager-stock-market-wizards]
-source_file: "The Bird Watching Lion Country.pdf"
+doc_type: book
+one_liner: 'A South African forex mentor''s discretionary day-trading framework: one
+  currency, low gearing, one direction, a median-grid comfort zone, and a Price-Event-Time
+  reading of the market.'
+pages: 236
+related:
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- taleb-nassim-fooled-by-randomness
+- day-trading-the-currency-market
+- trading-in-the-zone
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 5, 23, 38-39, 42, 60, 62, 67, 69, 86, 90, 98, 100, 121 (the gearing
+  and edge chapters, worked pip arithmetic and the market-participant sections)
+slug: the-bird-watching-lion-country
+source_file: The Bird Watching Lion Country.pdf
+source_review: partial
+tags:
+- forex
+- discretionary-trading
+- day-trading
+- median-grid
+- gearing
+- risk-management
+- real-time-analysis
+- trend-following
+tier: A
+title: 'Bird Watching in Lion Country: Retail Forex Trading Explained'
+year: 2004
 ---
 
 ## Overview

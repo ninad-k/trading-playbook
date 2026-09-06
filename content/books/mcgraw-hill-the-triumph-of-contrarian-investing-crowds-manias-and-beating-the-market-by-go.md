@@ -8,9 +8,12 @@ one_liner: Ned Davis Research's case for contrarian investing, built from crowd-
   buy/sell thresholds.
 pages: 194
 related: []
+reviewed_pdf_pages: 3, 6, 18-23, 26, 66-67 (strategist-forecast tables, the sentiment-indicator
+  chapters, Rydex ratio thresholds and the COT speculator index)
 slug: mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
 source_file: Mcgraw-Hill, The Triumph Of Contrarian Investing - Crowds, Manias, And
   Beating The Market By Goin.pdf
+source_review: partial
 tags:
 - contrarian-investing
 - sentiment-indicators

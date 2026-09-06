@@ -1,17 +1,30 @@
 ---
-title: 18 Trading Champions Share Their Keys to Top Trading Profits
 author: Various
-year: 1996
-slug: 18-trading-champions-share-their-keys-to-top-trading-profits
-tier: B
 category: Trading Psychology & Discipline
-tags: [trader-interviews, discipline, risk-control, technical-analysis, futures, market-wizards, discretionary-trading]
 difficulty: beginner
 doc_type: article
+one_liner: Eighteen 1996 trader-profile interviews (Angell, Bernstein, DeMark, Raschke,
+  L. Williams, and others), each distilling one signature method and one risk rule.
 pages: 20
-one_liner: "Eighteen 1996 trader-profile interviews (Angell, Bernstein, DeMark, Raschke, L. Williams, and others), each distilling one signature method and one risk rule."
-related: [jack-schwager-stock-market-wizards, george-angell-sniper-trading-workbook-pdf, trading-in-the-zone]
-source_file: "18 Trading Champions Share Their Keys To Top Trading Profits.pdf"
+related:
+- jack-schwager-stock-market-wizards
+- george-angell-sniper-trading-workbook-pdf
+- trading-in-the-zone
+reviewed_pdf_pages: 2, 5-7, 15 (the interview sections carrying the attributed rules)
+slug: 18-trading-champions-share-their-keys-to-top-trading-profits
+source_file: 18 Trading Champions Share Their Keys To Top Trading Profits.pdf
+source_review: partial
+tags:
+- trader-interviews
+- discipline
+- risk-control
+- technical-analysis
+- futures
+- market-wizards
+- discretionary-trading
+tier: B
+title: 18 Trading Champions Share Their Keys to Top Trading Profits
+year: 1996
 ---
 
 ## Summary

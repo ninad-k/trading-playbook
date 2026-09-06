@@ -1,17 +1,33 @@
 ---
-title: MTPredictor Trading Course — Part 1
 author: Steve Griffiths
-year: 2004
-slug: forex-mtpredictor-trading-course-part-1a
-tier: B
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, wave-price-targets, reversal-bars, risk-reward, mtpredictor, forex]
 difficulty: intermediate
 doc_type: course
+one_liner: 'Introductory volume of Steve Griffiths'' MTPredictor manual: basic Elliott
+  wave rules, the software''s three automatic trade set-ups (TS1/TS2/TS3), and a strict
+  initial-risk-first approach to trade sizing.'
 pages: 144
-one_liner: "Introductory volume of Steve Griffiths' MTPredictor manual: basic Elliott wave rules, the software's three automatic trade set-ups (TS1/TS2/TS3), and a strict initial-risk-first approach to trade sizing."
-related: [forex-mtpredictor-trading-course-part2, elliott-waves-principle, jen-matshall-practical-fibonacci-methode-for-forex-trading, walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time]
-source_file: "(FOREX) MTPredictor Trading Course - Part 1a.pdf"
+related:
+- forex-mtpredictor-trading-course-part2
+- elliott-waves-principle
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+- walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
+reviewed_pdf_pages: the Elliott-rule, set-up and risk chapters checked against the
+  note (including the 2-3% risk limit in chapter 8)
+slug: forex-mtpredictor-trading-course-part-1a
+source_file: (FOREX) MTPredictor Trading Course - Part 1a.pdf
+source_review: partial
+tags:
+- elliott-wave
+- fibonacci
+- wave-price-targets
+- reversal-bars
+- risk-reward
+- mtpredictor
+- forex
+tier: B
+title: MTPredictor Trading Course — Part 1
+year: 2004
 ---
 
 ## Summary

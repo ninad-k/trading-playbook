@@ -1,17 +1,35 @@
 ---
-title: "Candlesticks, Fibonacci, and Chart Pattern Trading Tools"
-author: "Robert Fischer, Jens Fischer"
-year: 2003
-slug: candlesticks-fibonacci-and-chart-pattern-trading-tools
-tier: A
-category: "Fibonacci, Gann & Elliott Wave"
-tags: [fibonacci, candlesticks, chart-patterns, phi-ellipse, confluence, retracement, 3-point-patterns, elliott-wave]
+author: Robert Fischer, Jens Fischer
+category: Fibonacci, Gann & Elliott Wave
 difficulty: intermediate
 doc_type: book
+one_liner: Merges Fibonacci retracements/extensions, candlestick reversal patterns,
+  and 3-point chart patterns into a single confluence timing method, plus the proprietary
+  PHI-ellipse tool.
 pages: 273
-one_liner: "Merges Fibonacci retracements/extensions, candlestick reversal patterns, and 3-point chart patterns into a single confluence timing method, plus the proprietary PHI-ellipse tool."
-related: [fischer-robert-fibonacci-applications-and-strategies-for, elliott-waves-principle, greg-morris-candlestick-charting-explained, candlestick-charting-explained, fibonacci-studies]
-source_file: "Candlesticks Fibonacci and Chart Pattern Trading Tools.pdf"
+related:
+- fischer-robert-fibonacci-applications-and-strategies-for
+- elliott-waves-principle
+- greg-morris-candlestick-charting-explained
+- candlestick-charting-explained
+- fibonacci-studies
+reviewed_pdf_pages: 7, 9, 27, 31, 33-34, 68, 70 (the PHI ratio derivations, extension
+  and correction targets, and the worked trade tables)
+slug: candlesticks-fibonacci-and-chart-pattern-trading-tools
+source_file: Candlesticks Fibonacci and Chart Pattern Trading Tools.pdf
+source_review: partial
+tags:
+- fibonacci
+- candlesticks
+- chart-patterns
+- phi-ellipse
+- confluence
+- retracement
+- 3-point-patterns
+- elliott-wave
+tier: A
+title: Candlesticks, Fibonacci, and Chart Pattern Trading Tools
+year: 2003
 ---
 
 ## Overview

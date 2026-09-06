@@ -1,17 +1,33 @@
 ---
-title: Investment Psychology Explained
 author: Martin J. Pring
-year: 1993
-slug: investmentpsychologyexplained
-tier: A
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, contrary-opinion, money-management, trading-rules, risk-management]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Pring''s case for mastering yourself over the market: no Holy Grail exists,
+  pride and impatience destroy accounts, and 19 concrete rules plus a written plan
+  are the antidote.'
 pages: 134
-one_liner: "Pring's case for mastering yourself over the market: no Holy Grail exists, pride and impatience destroy accounts, and 19 concrete rules plus a written plan are the antidote."
-related: [trading-in-the-zone, money-management-report-van-tharp, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, jack-schwager-stock-market-wizards, martin-j-pring-investment-psychology-part-1]
-source_file: "InvestmentPsychologyExplained.pdf"
+related:
+- trading-in-the-zone
+- money-management-report-van-tharp
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- jack-schwager-stock-market-wizards
+- martin-j-pring-investment-psychology-part-1
+reviewed_pdf_pages: 2, 6, 8, 10, 17, 29 (contents, the anti-Holy-Grail argument, the
+  staying-the-course tests and the nineteen trading rules chapter)
+slug: investmentpsychologyexplained
+source_file: InvestmentPsychologyExplained.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- contrary-opinion
+- money-management
+- trading-rules
+- risk-management
+tier: A
+title: Investment Psychology Explained
+year: 1993
 ---
 
 ## Overview

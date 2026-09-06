@@ -1,17 +1,31 @@
 ---
-title: "7 Chart Patterns That Consistently Make Money"
-author: "Ed Downs"
-year: unknown
-slug: trade-7-chart-patterns-that-consistantly-make-money-downs
-tier: B
+author: Ed Downs
 category: Candlesticks & Chart Patterns
-tags: [chart-patterns, support-resistance, fibonacci, gaps, volume, trailing-stops, reward-risk]
 difficulty: beginner
 doc_type: manual
+one_liner: A slide-deck workbook from the OmniTrader creator identifying 7 recurring
+  chart patterns and a rule set (eighths-based trailing stops, 2:1 reward:risk) for
+  trading each.
 pages: 71
-one_liner: "A slide-deck workbook from the OmniTrader creator identifying 7 recurring chart patterns and a rule set (eighths-based trailing stops, 2:1 reward:risk) for trading each."
-related: [detecting-breakouts-from-flags-pennants, chart-patterns-and-technical-indicators]
-source_file: "trade_7_Chart_Patterns_That_Consistantly_Make_Money_(Downs).pdf"
+related:
+- detecting-breakouts-from-flags-pennants
+- chart-patterns-and-technical-indicators
+reviewed_pdf_pages: 1, 6, 17, 24 (the pattern list, the Fibonacci eighths and the
+  reward/risk filter; the remaining pages are chart plates)
+slug: trade-7-chart-patterns-that-consistantly-make-money-downs
+source_file: trade_7_Chart_Patterns_That_Consistantly_Make_Money_(Downs).pdf
+source_review: partial
+tags:
+- chart-patterns
+- support-resistance
+- fibonacci
+- gaps
+- volume
+- trailing-stops
+- reward-risk
+tier: B
+title: 7 Chart Patterns That Consistently Make Money
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,28 @@
 ---
-title: "Using Bollinger Bands"
-author: "John Bollinger"
-year: 1992
-slug: trading-bollinger-john-bollinger-bands-done
-tier: A
+author: John Bollinger
 category: Indicators
-tags: [bollinger-bands, volatility, percent-b, bandwidth, trading-bands, mean-reversion]
 difficulty: intermediate
 doc_type: article
+one_liner: Bollinger's original 1992 Stocks & Commodities article introducing Bollinger
+  Bands, %b, and BandWidth — the condensed source of his later full book.
 pages: 11
-one_liner: "Bollinger's original 1992 Stocks & Commodities article introducing Bollinger Bands, %b, and BandWidth — the condensed source of his later full book."
-related: [john-bollinger-bollinger-on-bollinger-band, candlestick-charting-explained]
-source_file: "[Trading] Bollinger_ John - Bollinger Bands (Done).pdf"
+related:
+- john-bollinger-bollinger-on-bollinger-band
+- candlestick-charting-explained
+reviewed_pdf_pages: 1-11
+slug: trading-bollinger-john-bollinger-bands-done
+source_file: '[Trading] Bollinger_ John - Bollinger Bands (Done).pdf'
+source_review: full
+tags:
+- bollinger-bands
+- volatility
+- percent-b
+- bandwidth
+- trading-bands
+- mean-reversion
+tier: A
+title: Using Bollinger Bands
+year: 1992
 ---
 
 ## Overview
@@ -26,7 +37,7 @@ Trading bands answer whether a price is high or low on a *relative* basis, not a
 
 - **Bollinger Bands** — a simple moving average (20-period default) plus/minus two standard deviations, calculated from the same closing-price data as the average.
 - **Envelope history** — Hurst's hand-drawn cyclical envelopes; the 1970s fixed-percentage shift (e.g., a 21-day average shifted ±4%); Chaikin's Bomar Bands, which set width to contain a fixed 85% of the past year's data.
-- **%b** — `(Last − Lower Band) / (Upper Band − Lower Band)`, using George Lane's stochastics formula applied to the bands; 100 at the upper band, 0 at the lower band, and unbounded beyond either.
+- **%b** — `100 × (Last − Lower Band) / (Upper Band − Lower Band)`, George Lane's stochastics formula applied to the bands; it reads 100 at the upper band, 0 at the lower band, and goes negative or above 100 when price is outside them.
 - **Band width (BandWidth)** — the width of the bands expressed as a percent of the moving average; a sharp narrowing (e.g., under 2% for the S&P 500 in this article) precedes a volatility expansion.
 - **Multicollinearity avoidance** — Bollinger's rule against combining indicators derived from the same underlying data (e.g., RSI + MACD + rate of change, all from closing price); he recommends pairing bands with one indicator each from price (RSI), volume+price (on-balance volume), and range+volume (money flow).
 - **Parameter scaling** — as the moving average period lengthens, the standard deviation multiplier should increase (1.5σ at 10 periods, 2σ at 20 periods, 2.5σ at 50 periods).

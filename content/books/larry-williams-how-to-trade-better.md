@@ -1,17 +1,31 @@
 ---
-title: "How to Trade Better"
-author: "Larry Williams"
-year: 2000
-slug: larry-williams-how-to-trade-better
-tier: B
-category: "Trading Psychology & Discipline"
+author: Larry Williams
+category: Trading Psychology & Discipline
 difficulty: intermediate
-tags: [trading-psychology, fear-and-greed, trend-change, moving-average, discipline, short-article]
 doc_type: article
+one_liner: Short Larry Williams article on managing fear and greed, plus a simple
+  18-day moving-average trend-change signal requiring two consecutive closes on each
+  side.
 pages: 4
-one_liner: "Short Larry Williams article on managing fear and greed, plus a simple 18-day moving-average trend-change signal requiring two consecutive closes on each side."
-related: [trading-psychology, jack-schwager-stock-market-wizards, whats-in-your-head, miracle-of-discipline]
-source_file: "Larry Williams - How To Trade Better.pdf"
+related:
+- trading-psychology
+- jack-schwager-stock-market-wizards
+- whats-in-your-head
+- miracle-of-discipline
+reviewed_pdf_pages: 1-4
+slug: larry-williams-how-to-trade-better
+source_file: Larry Williams - How To Trade Better.pdf
+source_review: full
+tags:
+- trading-psychology
+- fear-and-greed
+- trend-change
+- moving-average
+- discipline
+- short-article
+tier: B
+title: How to Trade Better
+year: 2000
 ---
 
 ## Summary

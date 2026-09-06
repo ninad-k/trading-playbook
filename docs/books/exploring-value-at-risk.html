@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exploring the Limitations of Value at Risk: How Good Is It in Practice? — Andreas Krause · Trading Playbook</title>
+<meta name="description" content="Journal of Risk Finance article showing Value at Risk is not a coherent risk measure, is prone to large estimation error and downward bias, and can be deliberately manipulated by traders.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Exploring the Limitations of Value at Risk: How Good Is It in Practice?</h1>
+  <p class="byline">Andreas Krause · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Journal of Risk Finance article showing Value at Risk is not a coherent risk measure, is prone to large estimation error and downward bias, and can be deliberately manipulated by traders.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-10. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=risk-management">risk-management</a> <a class="tag" href="../search.html?q=statistics">statistics</a> <a class="tag" href="../search.html?q=coherent-risk-measures">coherent-risk-measures</a> <a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>10 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Exploring the Limitations of Value at Risk: How Good Is It in Practice?” by Andreas Krause at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: is Value at Risk (VaR) — the dominant risk-measurement standard adopted after the derivatives blowups of the early 1990s (Orange County, Metallgesellschaft, Barings, Daiwa) — actually a reliable measure of risk in practice? Method: theoretical/statistical analysis of VaR&rsquo;s mathematical properties (coherence, subadditivity) plus worked numerical examples using Nasdaq Composite daily returns (March 1999–March 2001) and Bienaymé-Chebyshev/Kendall estimation-error formulas. Finding: VaR is not a coherent risk measure — it can rank a more diversified, genuinely safer portfolio as riskier than a concentrated one, and it ignores the size of losses beyond the cutoff. VaR estimates also carry large statistical estimation error, a downward bias when the number of assets approaches the number of historical observations, and can be deliberately manipulated (e.g., with options) to look safer than the position actually is, while systemic use of VaR-based rules can itself amplify market crashes.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>VaR is defined as the loss level not exceeded with a given confidence (e.g., &ldquo;99% confidence that losses will not exceed $13m&rdquo;) over a specified time horizon; estimated either non-parametrically (from historical return quantiles) or parametrically (assuming a distribution, usually normal).</li>
+<li>Under Basel-style banking regulation, the standard VaR horizon is 10 working days, and annual return/volatility figures must be rescaled to that horizon.</li>
+<li>VaR is only a coherent risk measure (correctly ranking riskier positions as riskier) when returns follow an elliptical distribution (e.g., normal); it fails for skewed or fat-tailed payoffs, including most options and other derivatives.</li>
+<li>Worked example: two investments with identical 95% VaR can have very different actual tail risk if the loss distributions diverge only beyond the VaR cutoff — VaR treats them as equally risky when one is clearly worse.</li>
+<li>Worked example: 100 units of one risky asset show VaR of –500, while a diversified 1-asset-each portfolio of the same 100 independent assets shows VaR of +200 — VaR wrongly flags the diversified portfolio as riskier, violating subadditivity.</li>
+<li>Estimation error in the tail quantile is large because tail observations are, by definition, rare; the paper gives closed-form standard-error formulas (non-parametric vs. normal-distribution-assumed) and shows error grows sharply as the confidence level rises.</li>
+<li>When the number of traded instruments approaches the number of historical data points used to estimate the correlation matrix, VaR estimates show a substantial downward bias — the true VaR can be roughly double the estimated VaR under realistic conditions.</li>
+<li>Because VaR is not coherent, traders can manipulate it without reducing true risk — e.g., writing calls at the old VaR cutoff and buying puts at the new lower cutoff shifts the reported VaR down while increasing downside risk and lowering expected return.</li>
+<li>Widespread reliance on VaR-based rules can create systemic risk: when many participants react identically to a VaR breach (selling to cut reported risk), the resulting synchronized selling can itself cause or worsen a crash, echoing the 1987 portfolio-insurance-driven crash dynamic.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as a trading system — this is a critique of a risk-measurement methodology. What a risk-conscious trader/allocator can take from it: (1) never treat a single VaR number as a complete risk picture, especially for options or other skewed payoffs; (2) complement VaR with stress testing for tail/crash scenarios not present in the historical estimation window; (3) be skeptical of reported VaR from any desk or fund trading many correlated instruments relative to its data history, since the estimate is likely biased low; (4) recognize that VaR-based position limits can be gamed (e.g., via options overlays) without a real reduction in risk.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Technical/mathematical paper (density functions, quantile estimation, Bienaymé-Chebyshev inequality) aimed at risk-management practitioners and academics, not retail traders. Uses a 2003 dataset (Nasdaq 1999–2001) and pre-Basel-II/III regulatory framing; VaR practice and regulation have evolved since (e.g., wider adoption of Expected Shortfall/CVaR specifically to address the non-coherence problem this paper identifies). No entry/exit or position-sizing rules are given.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers, quants, and serious allocators who rely on or report VaR and want to understand its mathematical blind spots — not a fit for readers looking for a trading strategy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fallon-w-calculating-value-at-risk.html">Calculating Value-at-Risk</a> — Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.</li><li><a href="../books/evaluation-of-value-at-risk-models.html">Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models</a> — Austrian central bank regulatory guideline specifying how bank-internal VaR models must be built, validated, and backtested for market-risk capital approval.</li><li><a href="../books/hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies.html">Hedge Fund Risk Factors and Value at Risk of Credit Trading Strategies</a> — Academic paper finding fixed-income hedge fund returns understate true risk by 60-100% due to smoothing, and that a short put on high-yield debt is the dominant risk factor across most strategies.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

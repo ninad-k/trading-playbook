@@ -1,17 +1,33 @@
 ---
-title: Trend Following
 author: Michael Covel
-year: 2004
-slug: michael-covel-trend-following
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [trend-following, managed-futures, risk-management, discipline, drawdowns, mechanical-systems, performance-data]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Profiles of top CTAs plus the shared rulebook of trend followers: cut
+  losses fast, let winners run, risk a fixed % per trade, ignore forecasts.'
 pages: 344
-one_liner: "Profiles of top CTAs plus the shared rulebook of trend followers: cut losses fast, let winners run, risk a fixed % per trade, ignore forecasts."
-related: [curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, trading-in-the-zone, jack-schwager-stock-market-wizards, turtlerules]
-source_file: "Michael Covel - Trend Following.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- trading-in-the-zone
+- jack-schwager-stock-market-wizards
+- turtlerules
+reviewed_pdf_pages: 7, 20-21, 29-30, 33, 36, 44, 51, 63, 78 (the entry/exit philosophy
+  chapters, the heat and robustness discussions and the trader profiles)
+slug: michael-covel-trend-following
+source_file: Michael Covel - Trend Following.pdf
+source_review: partial
+tags:
+- trend-following
+- managed-futures
+- risk-management
+- discipline
+- drawdowns
+- mechanical-systems
+- performance-data
+tier: A
+title: Trend Following
+year: 2004
 ---
 
 ## Overview

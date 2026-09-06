@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black-Scholes Option Pricing Model — Nathan Coelen · Trading Playbook</title>
+<meta name="description" content="A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Black-Scholes Option Pricing Model</h1>
+  <p class="byline">Nathan Coelen · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the derivation sections checked against the note; the paper is algebraic rather than numeric. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options-pricing">options-pricing</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=stochastic-calculus">stochastic-calculus</a> <a class="tag" href="../search.html?q=brownian-motion">brownian-motion</a> <a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>19 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Black-Scholes Option Pricing Model” by Nathan Coelen at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p><strong>Question:</strong> how can a European call option be priced consistently using no-arbitrage arguments? <strong>Method:</strong> the paper builds up the theory piece by piece — arbitrage pricing, hedging and delta, a geometric Brownian motion model for stock prices, Itô calculus (Itô&rsquo;s formula, quadratic variation), then constructs a riskless hedged portfolio (long the option, short ∂V/∂S shares) whose return must equal the risk-free rate. <strong>Finding:</strong> this no-arbitrage condition yields the Black-Scholes PDE, which, solved with the boundary condition C(S,T) = max(S−E, 0) for a European call, gives the closed-form Black-Scholes formula.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Arbitrage pricing theory: two identical assets cannot sell at different prices; any price discrepancy is arbitraged away instantaneously.</li>
+<li>Delta (Δ = ∂V/∂S) measures the option&rsquo;s price sensitivity to the underlying; delta hedging offsets an option position with a proportional stock position.</li>
+<li>Stock price model: dS/S = μdt + σdB, i.e., a deterministic drift (μ) plus a random Brownian-motion term (σdB) — geometric Brownian motion.</li>
+<li>Brownian motion properties used: normal increments, independence of increments, continuous but nowhere-differentiable paths, and quadratic variation equal to t.</li>
+<li>Itô&rsquo;s formula is the stochastic-calculus analogue of the chain rule; it&rsquo;s the key tool for finding dV(S,t) when S follows a stochastic process.</li>
+<li>The hedged portfolio π = V − S·(∂V/∂S) is riskless (no dB term), so dπ = rπdt by no-arbitrage — this substitution produces the Black-Scholes PDE: ∂V/∂t + ½σ²S²∂²V/∂S² + rS∂V/∂S − rV = 0.</li>
+<li>Final formula for a European call: C(S,t) = S·N(d1) − E·e^(−r(T−t))·N(d2), with d1 = [ln(S/E) + (r + ½σ²)(T−t)] / (σ√(T−t)) and d2 = d1 − σ√(T−t).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a mathematical derivation, not a trading system. Practical takeaway for traders: the five inputs that determine an option&rsquo;s theoretical fair value are the underlying price (S), strike (E), time to expiry (T−t), risk-free rate (r), and volatility (σ) — of which volatility is the only unobservable, making it the key variable options traders estimate and trade around (implied volatility).</p>
+<h2 id="caveats">Caveats</h2>
+<p>Assumes constant volatility and risk-free rate, continuous trading with no transaction costs, log-normal stock price distribution, and no dividends — all of which are known to break down in real markets (volatility smiles/skew, jumps, transaction costs). The paper is a derivation exercise, not a market-tested implementation guide.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders and students who want to understand the mathematical foundation of options pricing (the &ldquo;why&rdquo; behind the Black-Scholes formula) rather than just how to plug numbers into a calculator.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/introduction-to-arbitrage-pricing-of-financial-derivatives.html">Introduction to Arbitrage Pricing of Financial Derivatives</a> — Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets.</li><li><a href="../books/the-mathematics-of-financial-modeling-and-investment-management.html">The Mathematics of Financial Modeling and Investment Management</a> — 801-page graduate reference covering the full math toolkit behind modern portfolio theory, derivatives pricing, and fixed-income modeling.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

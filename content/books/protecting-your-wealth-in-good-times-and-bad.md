@@ -1,17 +1,31 @@
 ---
-title: Protecting Your Wealth in Good Times and Bad
 author: Richard A. Ferri
-year: 2003
-slug: protecting-your-wealth-in-good-times-and-bad
-tier: B
 category: Investing, Value & Market History
-tags: [retirement-planning, asset-allocation, behavioral-finance, mutual-fund-fees, index-funds, personal-finance, herd-behavior]
 difficulty: beginner
 doc_type: book
+one_liner: Life-stage guide to saving, fees, and asset allocation, using the 2000-2002
+  bear market to show how herding and high costs wreck retirement accounts.
 pages: 337
-one_liner: "Life-stage guide to saving, fees, and asset allocation, using the 2000-2002 bear market to show how herding and high costs wreck retirement accounts."
-related: [the-intelligent-investor-benjamin-graham, exchange-traded-funds, jack-schwager-stock-market-wizards]
-source_file: "Protecting Your Wealth In Good Times And Bad.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- exchange-traded-funds
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 9, 23, 52, 65-66 (the index-versus-active comparison tables and
+  the turnover discussion)
+slug: protecting-your-wealth-in-good-times-and-bad
+source_file: Protecting Your Wealth In Good Times And Bad.pdf
+source_review: partial
+tags:
+- retirement-planning
+- asset-allocation
+- behavioral-finance
+- mutual-fund-fees
+- index-funds
+- personal-finance
+- herd-behavior
+tier: B
+title: Protecting Your Wealth in Good Times and Bad
+year: 2003
 ---
 
 ## Summary

@@ -1,17 +1,33 @@
 ---
-title: "Trading Chaos: Applying Expert Techniques to Maximize Your Profits"
 author: Bill Williams
-year: 1995
-slug: bill-williams-trading-chaos
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [chaos-theory, fractals, market-facilitation-index, elliott-wave, trader-development, trading-psychology]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Bill Williams'' original Profitunity book: a five-level trader-development
+  model paired with the Market Facilitation Index, fractals, and Elliott wave ''five
+  magic bullets'' for calling trend exhaustion.'
 pages: 251
-one_liner: "Bill Williams' original Profitunity book: a five-level trader-development model paired with the Market Facilitation Index, fractals, and Elliott wave 'five magic bullets' for calling trend exhaustion."
-related: [bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit, elliott-waves-principle, trading-in-the-zone, come-into-my-trading-room-elder-alexander, money-management-report-van-tharp]
-source_file: "Bill Williams - Trading Chaos.pdf"
+related:
+- bill-williams-new-trading-dimensions-how-to-profit-from-chaos-in-stocks-bonds-and-commodit
+- elliott-waves-principle
+- trading-in-the-zone
+- come-into-my-trading-room-elder-alexander
+- money-management-report-van-tharp
+reviewed_pdf_pages: 2, 4, 7, 25, 36, 42, 47, 124, 136, 169, 174 (fractal definition
+  and the 98%-of-highs claim, the 5/34 oscillator, Point Zero and the scaling example)
+slug: bill-williams-trading-chaos
+source_file: Bill Williams - Trading Chaos.pdf
+source_review: partial
+tags:
+- chaos-theory
+- fractals
+- market-facilitation-index
+- elliott-wave
+- trader-development
+- trading-psychology
+tier: A
+title: 'Trading Chaos: Applying Expert Techniques to Maximize Your Profits'
+year: 1995
 ---
 
 ## Overview

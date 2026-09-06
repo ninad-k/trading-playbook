@@ -1,17 +1,35 @@
 ---
-title: The Encyclopedia of Trading Strategies
-author: "Jeffrey Owen Katz and Donna L. McCormick"
-year: 1999
-slug: mcgraw-hill-encyclopedia-of-trading-strategies
-tier: A
-category: "Quant, Microstructure & Academic Research"
-tags: [system-testing, statistical-significance, moving-averages, breakouts, neural-networks, genetic-algorithms, exit-strategies, curve-fitting]
+author: Jeffrey Owen Katz and Donna L. McCormick
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: book
+one_liner: Statistically tests entry families (breakouts, moving averages, oscillators,
+  seasonality, cycles, neural nets, genetic rules) and exit families on a 30+ market
+  portfolio, ranking which actually beat chance.
 pages: 386
-one_liner: "Statistically tests entry families (breakouts, moving averages, oscillators, seasonality, cycles, neural nets, genetic rules) and exit families on a 30+ market portfolio, ranking which actually beat chance."
-related: [jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual, george-pruitt-building-winning-trading-systems-with-tradestation, perry-kaufman-smarter-trading, richard-l-weissman-mechanical-trading-systems, new-concepts-in-technical-trading-systems-welles-wilder]
-source_file: "Mcgraw.Hill.Encyclopedia Of Trading Strategies.pdf"
+related:
+- jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+- george-pruitt-building-winning-trading-systems-with-tradestation
+- perry-kaufman-smarter-trading
+- richard-l-weissman-mechanical-trading-systems
+reviewed_pdf_pages: 4-5, 7, 10, 23, 27, 31, 35, 60, 63-64, 69, 73, 77, 95, 133, 157
+  (the test methodology chapters and the per-family results tables for breakouts,
+  moving averages, oscillators, cycles and AI models)
+slug: mcgraw-hill-encyclopedia-of-trading-strategies
+source_file: Mcgraw.Hill.Encyclopedia Of Trading Strategies.pdf
+source_review: partial
+tags:
+- system-testing
+- statistical-significance
+- moving-averages
+- breakouts
+- neural-networks
+- genetic-algorithms
+- exit-strategies
+- curve-fitting
+tier: A
+title: The Encyclopedia of Trading Strategies
+year: 1999
 ---
 
 ## Overview
@@ -82,4 +100,4 @@ System developers and quantitative traders who want a template for testing their
 - [[george-pruitt-building-winning-trading-systems-with-tradestation]] — implements many similar entry/exit ideas directly in TradeStation code, complementing this book's C-based examples.
 - [[perry-kaufman-smarter-trading]] — covers adaptive moving averages and other techniques this book tests statistically, from a design rather than testing perspective.
 - [[richard-l-weissman-mechanical-trading-systems]] — shares the philosophy that psychology-driven pitfalls are best solved with fully mechanical, tested systems.
-- [[new-concepts-in-technical-trading-systems-welles-wilder]] — source of the directional movement index the Encyclopedia references as a candidate trend/no-trend filter for breakout systems.
+- **New Concepts in Technical Trading Systems** (no library summary: corrupt) — source of the directional movement index the Encyclopedia references as a candidate trend/no-trend filter for breakout systems.

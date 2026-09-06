@@ -1,17 +1,33 @@
 ---
-title: Come Into My Trading Room
 author: Alexander Elder
-year: 2002
-slug: come-into-my-trading-room-elder-alexander
-tier: A
 category: Trading Psychology & Discipline
-tags: [psychology, indicators, money-management, triple-screen, impulse-system, force-index, day-trading]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Elder''s sequel to Trading for a Living: updated Triple Screen and Impulse
+  systems, SafeZone stops, and the 2%/6% money-management rules.'
 pages: 322
-one_liner: "Elder's sequel to Trading for a Living: updated Triple Screen and Impulse systems, SafeZone stops, and the 2%/6% money-management rules."
-related: [elder-alexander-trading-for-a-living, trading-in-the-zone, disciplined-trader, money-management-report-van-tharp, van-tharp-trading-systems]
-source_file: "Come Into My Trading Room - Elder Alexander.pdf"
+related:
+- elder-alexander-trading-for-a-living
+- trading-in-the-zone
+- disciplined-trader
+- money-management-report-van-tharp
+- van-tharp-trading-systems
+reviewed_pdf_pages: 7-9, 22, 35 (contents, the Impulse System and Force Index definitions,
+  and the money-management chapter listing the 2% and 6% rules)
+slug: come-into-my-trading-room-elder-alexander
+source_file: Come Into My Trading Room - Elder Alexander.pdf
+source_review: partial
+tags:
+- psychology
+- indicators
+- money-management
+- triple-screen
+- impulse-system
+- force-index
+- day-trading
+tier: A
+title: Come Into My Trading Room
+year: 2002
 ---
 
 ## Overview

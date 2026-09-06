@@ -1,17 +1,34 @@
 ---
-title: "Introduction to Candlesticks"
-author: "Arthur Hill"
-year: 2004
-slug: trading-hill-arthur-introduction-to-candlesticks
-tier: B
+author: Arthur Hill
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, doji, hammer, engulfing, harami, morning-star, support-resistance, reversal-patterns]
 difficulty: beginner
 doc_type: article
+one_liner: Structured primer on candlestick construction and the major single-, double-,
+  and triple-candle reversal patterns, with rules for confirmation and combining candles
+  with support/resistance and momentum indicators.
 pages: 39
-one_liner: "Structured primer on candlestick construction and the major single-, double-, and triple-candle reversal patterns, with rules for confirmation and combining candles with support/resistance and momentum indicators."
-related: [17-money-making-candlestick-formations2, beyond-candlesticks-steve-nison, greg-morris-candlestick-charting-explained, candlestick-charting-explained]
-source_file: "[Trading] Hill_ Arthur - Introduction to Candlesticks.pdf"
+related:
+- 17-money-making-candlestick-formations2
+- beyond-candlesticks-steve-nison
+- greg-morris-candlestick-charting-explained
+- candlestick-charting-explained
+reviewed_pdf_pages: 6, 17 and the pattern chapters checked against the note's confirmation
+  rules
+slug: trading-hill-arthur-introduction-to-candlesticks
+source_file: '[Trading] Hill_ Arthur - Introduction to Candlesticks.pdf'
+source_review: partial
+tags:
+- candlesticks
+- doji
+- hammer
+- engulfing
+- harami
+- morning-star
+- support-resistance
+- reversal-patterns
+tier: B
+title: Introduction to Candlesticks
+year: 2004
 ---
 
 ## Summary

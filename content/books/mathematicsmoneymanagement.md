@@ -1,17 +1,33 @@
 ---
-title: The Mathematics of Money Management
 author: Ralph Vince
-year: 1992
-slug: mathematicsmoneymanagement
-tier: A
 category: Money Management & Position Sizing
-tags: [optimal-f, kelly-criterion, twr, geometric-mean, drawdown, portfolio-theory, position-sizing, money-management]
 difficulty: advanced
 doc_type: book
+one_liner: Derives optimal f mathematically from trade history, the TWR/geometric-mean
+  framework, and why the best-growing fraction also produces the worst drawdowns.
 pages: 106
-one_liner: "Derives optimal f mathematically from trade history, the TWR/geometric-mean framework, and why the best-growing fraction also produces the worst drawdowns."
-related: [balsara-nauzer-j-money-management-strategies-for-futures-traders, a-new-interprtation-of-information-rate-kelly, kellybetting, position-sizing, trade-your-way-to-financial-freedom]
-source_file: "MathematicsMoneyManagement.pdf"
+related:
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- kellybetting
+- position-sizing
+- trade-your-way-to-financial-freedom
+reviewed_pdf_pages: 2-3, 7, 14-15, 53 (the HPR/TWR definitions, the optimal-f derivation
+  and the worked geometric-growth tables)
+slug: mathematicsmoneymanagement
+source_file: MathematicsMoneyManagement.pdf
+source_review: partial
+tags:
+- optimal-f
+- kelly-criterion
+- twr
+- geometric-mean
+- drawdown
+- portfolio-theory
+- position-sizing
+- money-management
+tier: A
+title: The Mathematics of Money Management
+year: 1992
 ---
 
 ## Overview
@@ -76,7 +92,7 @@ Systematic and quantitative traders, and CTAs or fund managers who already have 
 ## Related books in this library
 
 - [[balsara-nauzer-j-money-management-strategies-for-futures-traders]] — a more approachable, worked-example treatment of the same optimal-f and Kelly math applied directly to futures position sizing.
-- [[a-new-interprtation-of-information-rate-kelly]] — Kelly's original 1956 paper deriving the criterion Vince builds on and explicitly departs from for non-Bernoulli trading outcomes.
+- [[kellybetting]] — Kelly's original 1956 paper deriving the criterion Vince builds on and explicitly departs from for non-Bernoulli trading outcomes.
 - [[kellybetting]] — a further technical treatment of the Kelly criterion useful for comparing against Vince's optimal-f generalization.
 - [[position-sizing]] — a shorter, practitioner-oriented look at position sizing effects on trading performance, a useful counterpoint to this book's academic depth.
 - [[trade-your-way-to-financial-freedom]] — Van Tharp's position-sizing framework, a less mathematically demanding alternative approach to the same core problem.

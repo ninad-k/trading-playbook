@@ -1,17 +1,29 @@
 ---
-title: "Commodities Trading: An Introduction to Futures and Options on Commodities"
-author: "Stefano Casati & Andrea Mereghetti"
-year: unknown
-slug: ebook-trading-commodities-investing-people
-tier: B
+author: Stefano Casati & Andrea Mereghetti
 category: Options, Futures & Derivatives
-tags: [commodities, futures, options, hedging, leverage, cot-report, marketing-ebook]
 difficulty: beginner
 doc_type: manual
+one_liner: An Italian-language promotional ebook explaining commodity futures and
+  options basics as a lead-in to a paid two-day trading seminar.
 pages: 35
-one_liner: "An Italian-language promotional ebook explaining commodity futures and options basics as a lead-in to a paid two-day trading seminar."
-related: [hull-options-futures-and-other-derivative-securities-5th-ed, options-essential-concepts-and-trading-strategies-2nd-edition]
-source_file: "ebook_trading_commodities_investing_people.pdf"
+related:
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- options-essential-concepts-and-trading-strategies-2nd-edition
+reviewed_pdf_pages: 14-15, 18-19 (the contract-specification and leverage examples)
+slug: ebook-trading-commodities-investing-people
+source_file: ebook_trading_commodities_investing_people.pdf
+source_review: partial
+tags:
+- commodities
+- futures
+- options
+- hedging
+- leverage
+- cot-report
+- marketing-ebook
+tier: B
+title: 'Commodities Trading: An Introduction to Futures and Options on Commodities'
+year: unknown
 ---
 
 ## Summary

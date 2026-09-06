@@ -1,17 +1,30 @@
 ---
-title: The Basics of Financial Mathematics
 author: Richard F. Bass
-year: 2003
-slug: bass-the-basics-of-financial-mathematics
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [options-pricing, black-scholes, binomial-model, brownian-motion, martingales, stochastic-calculus, risk-neutral-pricing]
 difficulty: advanced
 doc_type: course
+one_liner: 'University lecture notes deriving option pricing rigorously: elementary
+  probability, the binomial asset pricing model, Brownian motion/stochastic calculus,
+  and the Black-Scholes formula via the risk-neutral measure.'
 pages: 105
-one_liner: "University lecture notes deriving option pricing rigorously: elementary probability, the binomial asset pricing model, Brownian motion/stochastic calculus, and the Black-Scholes formula via the risk-neutral measure."
-related: [black-scholes-option-pricing-model]
-source_file: "Bass - The Basics of Financial Mathematics.pdf"
+related:
+- black-scholes-option-pricing-model
+reviewed_pdf_pages: the binomial and Black-Scholes derivation sections checked against
+  the note
+slug: bass-the-basics-of-financial-mathematics
+source_file: Bass - The Basics of Financial Mathematics.pdf
+source_review: partial
+tags:
+- options-pricing
+- black-scholes
+- binomial-model
+- brownian-motion
+- martingales
+- stochastic-calculus
+- risk-neutral-pricing
+tier: B
+title: The Basics of Financial Mathematics
+year: 2003
 ---
 
 ## Summary

@@ -1,17 +1,33 @@
 ---
-title: "The Trading Game: Playing by the Numbers to Make Millions"
 author: Ryan Jones
-year: 1999
-slug: forex-misc-money-management-ryan-jones
-tier: A
 category: Money Management & Position Sizing
-tags: [money-management, position-sizing, fixed-ratio, fixed-fractional, futures, risk-of-ruin, drawdown-control]
 difficulty: intermediate
 doc_type: book
+one_liner: Introduces Fixed Ratio position sizing (the delta formula) and mathematically
+  dismantles Fixed Fractional and Optimal f sizing as its rivals.
 pages: 115
-one_liner: "Introduces Fixed Ratio position sizing (the delta formula) and mathematically dismantles Fixed Fractional and Optimal f sizing as its rivals."
-related: [balsara-nauzer-j-money-management-strategies-for-futures-traders, curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, money-management-report-van-tharp, position-sizing]
-source_file: "Forex Misc - Money Management - Ryan Jones.pdf"
+related:
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- money-management-report-van-tharp
+- position-sizing
+reviewed_pdf_pages: 1, 7, 10-11 (the opening argument for money management, the asymmetrical-leverage
+  arithmetic and the fixed-fractional critique)
+slug: forex-misc-money-management-ryan-jones
+source_file: Forex Misc - Money Management - Ryan Jones.pdf
+source_review: partial
+tags:
+- money-management
+- position-sizing
+- fixed-ratio
+- fixed-fractional
+- futures
+- risk-of-ruin
+- drawdown-control
+tier: A
+title: 'The Trading Game: Playing by the Numbers to Make Millions'
+year: 1999
 ---
 
 ## Overview

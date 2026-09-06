@@ -1,17 +1,34 @@
 ---
-title: The Bible of Options Strategies
 author: Guy Cohen
-year: 2005
-slug: guy-cohen-the-bible-of-options-strategies
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, spreads, straddles-strangles, iron-condors, synthetics, greeks, income-strategies, taxation]
 difficulty: intermediate
 doc_type: book
+one_liner: A 58-strategy options reference giving construction, Greeks, risk/reward,
+  and exit rules for every strategy from a long call to iron condors and synthetics.
 pages: 401
-one_liner: "A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics."
-related: [fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, lawrence-g-mcmillan-profit-with-options, george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments, hull-options-futures-and-other-derivative-securities-5th-ed, the-equity-options-strategy-guide]
-source_file: "Guy Cohen The Bible of Options Strategies.pdf"
+related:
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- lawrence-g-mcmillan-profit-with-options
+- george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- the-equity-options-strategy-guide
+reviewed_pdf_pages: 5, 16, 47-48, 51 (the strategy taxonomy and the per-strategy selection
+  filters for liquidity, open interest and expiration)
+slug: guy-cohen-the-bible-of-options-strategies
+source_file: Guy Cohen The Bible of Options Strategies.pdf
+source_review: partial
+tags:
+- options
+- spreads
+- straddles-strangles
+- iron-condors
+- synthetics
+- greeks
+- income-strategies
+- taxation
+tier: A
+title: The Bible of Options Strategies
+year: 2005
 ---
 
 ## Overview

@@ -1,17 +1,31 @@
 ---
-title: "Introduction to Online Trading"
 author: Realtime Forex SA
-year: 2006
-slug: realtime-forex
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, order-types, technical-indicators, chart-patterns, economic-indicators, beginner-education]
 difficulty: beginner
 doc_type: manual
+one_liner: Broker-produced forex tutorial covering order types, chart/candlestick
+  basics, an indicator formula glossary, and a 30+ item economic-calendar reference.
 pages: 117
-one_liner: "Broker-produced forex tutorial covering order types, chart/candlestick basics, an indicator formula glossary, and a 30+ item economic-calendar reference."
-related: [understanding-forex-candlestick, forex-money-management, day-trading-the-currency-market, john-l-person-swing-trading-using-candlestick-charting-with-pivot-point]
-source_file: "Realtime_Forex.pdf"
+related:
+- understanding-forex-candlestick
+- forex-money-management
+- day-trading-the-currency-market
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+reviewed_pdf_pages: 2-4, 85, 109 (contents, the order-type definitions and the indicator
+  glossary)
+slug: realtime-forex
+source_file: Realtime_Forex.pdf
+source_review: partial
+tags:
+- forex
+- order-types
+- technical-indicators
+- chart-patterns
+- economic-indicators
+- beginner-education
+tier: B
+title: Introduction to Online Trading
+year: 2006
 ---
 
 ## Summary

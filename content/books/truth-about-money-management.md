@@ -1,17 +1,30 @@
 ---
-title: "The Truth About Money Management"
-author: "Murray A. Ruggiero Jr."
-year: 2004
-slug: truth-about-money-management
-tier: B
+author: Murray A. Ruggiero Jr.
 category: Money Management & Position Sizing
-tags: [money-management, position-sizing, optimal-f, kelly-criterion, drawdown, fund-management]
 difficulty: intermediate
 doc_type: article
+one_liner: Futures Magazine article contrasting individual-trader vs. fund-manager
+  money management goals and walking through percent-risk, percent-volatility, and
+  optimal f position-sizing formulas.
 pages: 4
-one_liner: "Futures Magazine article contrasting individual-trader vs. fund-manager money management goals and walking through percent-risk, percent-volatility, and optimal f position-sizing formulas."
-related: [mathematicsmoneymanagement, money-management-report-van-tharp, money-management-risk-control-for-traders]
-source_file: "truth_about_money_management.pdf"
+related:
+- mathematicsmoneymanagement
+- money-management-report-van-tharp
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 1-4
+slug: truth-about-money-management
+source_file: truth_about_money_management.pdf
+source_review: full
+tags:
+- money-management
+- position-sizing
+- optimal-f
+- kelly-criterion
+- drawdown
+- fund-management
+tier: B
+title: The Truth About Money Management
+year: 2004
 ---
 
 ## Summary

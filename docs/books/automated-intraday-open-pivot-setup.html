@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automated Intraday Open Pivot Setup — Jeff Reimer · Trading Playbook</title>
+<meta name="description" content="A spreadsheet-driven forex system that compares the daily pivot point to the previous session&#39;s open to pick direction, then trades a fixed 20-pip limit/20-pip stop, best tested on GBP/USD.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></p>
+  <h1>Automated Intraday Open Pivot Setup</h1>
+  <p class="byline">Jeff Reimer · 2005 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">beginner</span></p>
+  <p class="lead">A spreadsheet-driven forex system that compares the daily pivot point to the previous session&#39;s open to pick direction, then trades a fixed 20-pip limit/20-pip stop, best tested on GBP/USD.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-9. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=pivot-points">pivot-points</a> <a class="tag" href="../search.html?q=intraday">intraday</a> <a class="tag" href="../search.html?q=spreadsheet-system">spreadsheet-system</a> <a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=gbpusd">gbpusd</a> </td></tr>
+    <tr><th>Length</th><td>9 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Automated Intraday Open Pivot Setup” by Jeff Reimer at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Jeff Reimer describes a short, mechanical intraday forex system built around a spreadsheet (&ldquo;trade sheet&rdquo;) that calculates a pivot point from the prior session&rsquo;s open/high/low/close and compares it to the previous open to set direction, then requires a second confirming calculation before entering. The whole daily process — record OHLC, run the calculator, place one order at the new session&rsquo;s open — is designed to take under two minutes.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Direction rule: pivot above the previous open → long bias; pivot below → short bias.</li>
+<li>Confirmation: for a long bias, (Previous High − Previous Open) must exceed the profit goal plus spread; for a short bias, (Previous Low − Previous Open) must exceed goal plus spread. Only then is a trade taken.</li>
+<li>The author&rsquo;s own testing of 16 limit/stop combinations found 20 pips each way most efficient.</li>
+<li>Backtested over three years of GBP/USD data (CMS), the 20/20 setup reportedly achieved 83.17% accuracy.</li>
+<li>Session close/open time must match the trader&rsquo;s preferred market (author trades Asian/Sydney off a 17:00 EST close); other sessions require recalculating OHLC at their own local close.</li>
+<li>Position sizing example: 1 mini-lot (10K) per $250 of balance at 200:1 leverage — called &ldquo;high by most standards&rdquo; by the author himself.</li>
+<li>A hypothetical compounding table (starting at $250, reaching millions within a year if lot size scales with balance) is explicitly flagged as hypothetical.</li>
+<li>The Asian session reportedly dips ~20 points from the open before reversing toward the forecast direction, motivating a discretionary entry 15–25 points beyond the open rather than immediately at the open.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>At the session close, record open, high, low, close for the pair being traded.</li>
+<li>Calculate the pivot point; compare it to the previous open to set direction.</li>
+<li>Confirm only if (High − Open) [long] or (Low − Open) [short] exceeds the profit goal plus spread; otherwise skip the session.</li>
+<li>Enter at the new session&rsquo;s open, or wait for price to move 15–25 points against the open first, per the session&rsquo;s typical pattern.</li>
+<li>Set both limit and stop at 20 pips from entry (the author&rsquo;s tested optimum).</li>
+<li>Cross-check against a standard indicator (e.g., MACD) or a higher timeframe before entering.</li>
+<li>Size positions at roughly 1 mini-lot per $250 of equity at 200:1 leverage (the author&rsquo;s own — aggressive — practice); readers are told to set their own comfortable risk level.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Self-published, with a liability disclaimer; the 83.17% accuracy and multi-million-dollar compounding projection come solely from the author&rsquo;s own backtest and are not independently verified. The position sizing shown (200:1 leverage, full balance re-compounded into lot size) is extremely aggressive. The system requires manual entry into an accompanying spreadsheet not included in this text.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Part-time forex traders wanting a very short daily routine for one intraday session, comfortable with an aggressive, single-pair (GBP/USD-tested), fixed-pip approach and setting their own risk parameters around it.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/pivots.html">Pivot Points</a> — Previous-day pivot calculations provide intraday support, resistance, trend filters, and an example entry plan.</li><li><a href="../books/camarilla-levels.html">The Camarilla Equation</a> — Short explainer on the Camarilla equation&#39;s 8 intraday support/resistance levels and how to trade reversals off L3 and breakouts through L4.</li><li><a href="../books/forex-intraday-pivots-trading-system-complete-system.html">One More Zero: Forex Intraday Pivots Trading System</a> — FX Solutions-branded promotional e-book presenting Dr. Brent Strouse&#39;s intraday pivot-point system for USD/CHF: traditional daily pivot/support/resistance formulas plus a stochastic oscillator backup, on 5-minute and 1-hour charts.</li><li><a href="../books/forex-money-management.html">Forex Money Management</a> — A forex primer defines core equity, caps per-trade risk, scales size to stop distance, and warns against correlated exposure and Martingale sizing.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

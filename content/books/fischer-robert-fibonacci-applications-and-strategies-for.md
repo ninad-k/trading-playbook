@@ -1,17 +1,34 @@
 ---
-title: "Fibonacci Applications and Strategies for Traders"
 author: Robert Fischer
-year: 1993
-slug: fischer-robert-fibonacci-applications-and-strategies-for
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [fibonacci-ratio, elliott-wave, corrections, extensions, time-goal-days, logarithmic-spiral, price-time-analysis]
 difficulty: advanced
 doc_type: book
+one_liner: Replaces Elliott's subjective wave count with mechanical Fibonacci rules
+  for corrections, extensions, and time-goal days, ending in a logarithmic-spiral
+  price/time tool.
 pages: 93
-one_liner: "Replaces Elliott's subjective wave count with mechanical Fibonacci rules for corrections, extensions, and time-goal days, ending in a logarithmic-spiral price/time tool."
-related: [george-alexander-maclean-fibonacci-and-gann-applications, gann-w-d-new-stock-trend-detector, elliott-waves-principle, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci, fibonacci-ratios-with-pattern-recognition]
-source_file: "Fischer, Robert - Fibonacci Applications and Strategies for .pdf"
+related:
+- george-alexander-maclean-fibonacci-and-gann-applications
+- gann-w-d-new-stock-trend-detector
+- elliott-waves-principle
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+- fibonacci-ratios-with-pattern-recognition
+reviewed_pdf_pages: 2-11, 24, 30, 38 (front matter and contents, filter-swing sizes,
+  correction and extension ratios, and the Time Goal Day and spiral chapters)
+slug: fischer-robert-fibonacci-applications-and-strategies-for
+source_file: Fischer, Robert - Fibonacci Applications and Strategies for .pdf
+source_review: partial
+tags:
+- fibonacci-ratio
+- elliott-wave
+- corrections
+- extensions
+- time-goal-days
+- logarithmic-spiral
+- price-time-analysis
+tier: A
+title: Fibonacci Applications and Strategies for Traders
+year: 1993
 ---
 
 ## Overview

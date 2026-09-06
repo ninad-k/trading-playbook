@@ -1,17 +1,33 @@
 ---
-title: Paul Wilmott Introduces Quantitative Finance
 author: Paul Wilmott
-year: 2001
-slug: paul-wilmott-quantitative-finance
-tier: A
 category: Quant, Microstructure & Academic Research
-tags: [quantitative-finance, derivatives, options, no-arbitrage, black-scholes, technical-analysis, market-microstructure]
 difficulty: intermediate
 doc_type: book
+one_liner: 'A gentle, discursive intro to quant finance: products and no-arbitrage,
+  option jargon and payoff diagrams, then a skeptical tour of technical analysis and
+  market microstructure.'
 pages: 72
-one_liner: "A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure."
-related: [rubinstein-mark-rubinstein-on-derivatives, hull-options-futures-and-other-derivative-securities-5th-ed, black-scholes-option-pricing-model, chart-formations]
-source_file: "Paul Wilmott-Quantitative Finance.pdf"
+related:
+- rubinstein-mark-rubinstein-on-derivatives
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- black-scholes-option-pricing-model
+- chart-formations
+reviewed_pdf_pages: 1-11, 43, 59, 70 (products/markets front matter, the speculation-and-gearing
+  worked example, and the technical-analysis chapter checked against the note's claims)
+slug: paul-wilmott-quantitative-finance
+source_file: Paul Wilmott-Quantitative Finance.pdf
+source_review: partial
+tags:
+- quantitative-finance
+- derivatives
+- options
+- no-arbitrage
+- black-scholes
+- technical-analysis
+- market-microstructure
+tier: A
+title: Paul Wilmott Introduces Quantitative Finance
+year: 2001
 ---
 
 ## Overview

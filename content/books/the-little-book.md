@@ -1,17 +1,32 @@
 ---
-title: The Little Book That Beats the Market
 author: Joel Greenblatt
-year: 2006
-slug: the-little-book
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, magic-formula, earnings-yield, return-on-capital, quantitative-investing, stock-screening]
 difficulty: beginner
 doc_type: book
+one_liner: A plain-language derivation and 17-year backtest of the 'Magic Formula'
+  — ranking stocks by combined return-on-capital and earnings-yield rank — plus step-by-step
+  instructions to run it.
 pages: 177
-one_liner: "A plain-language derivation and 17-year backtest of the 'Magic Formula' — ranking stocks by combined return-on-capital and earnings-yield rank — plus step-by-step instructions to run it."
-related: [the-intelligent-investor-benjamin-graham, damodaran-aswath-investment-fables, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks, l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years]
-source_file: "The Little Book.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- damodaran-aswath-investment-fables
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+- l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years
+reviewed_pdf_pages: 7, 11, 22, 26, 32, 35, 76-77, 93, 114 (the ranking method, the
+  combined-rank worked example, the universe definition and the underperformance statistics)
+slug: the-little-book
+source_file: The Little Book.pdf
+source_review: partial
+tags:
+- value-investing
+- magic-formula
+- earnings-yield
+- return-on-capital
+- quantitative-investing
+- stock-screening
+tier: A
+title: The Little Book That Beats the Market
+year: 2006
 ---
 
 ## Overview

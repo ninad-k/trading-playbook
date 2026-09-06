@@ -1,17 +1,30 @@
 ---
-title: "Scalp Trading Methods: Six High-Probability Setups from the Pit"
-author: "Kevin Ho"
-year: 2003
-slug: lbr-scalp-setups
-tier: B
-category: "Day Trading & Scalping"
+author: Kevin Ho
+category: Day Trading & Scalping
 difficulty: intermediate
-tags: [scalping, s-and-p-500-futures, opening-range, stochastics, engulfing-pattern, tight-stops, intraday]
 doc_type: article
+one_liner: Six named S&P 500 futures scalp setups with exact entry, profit-target,
+  and stop-loss numbers, including Linda Bradford Raschke's 'ANTI' pattern.
 pages: 4
-one_liner: "Six named S&P 500 futures scalp setups with exact entry, profit-target, and stop-loss numbers, including Linda Bradford Raschke's 'ANTI' pattern."
-related: [day-trading-basket-stocks-underground-trader, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading, position-sizing]
-source_file: "LBR_Scalp_setups.pdf"
+related:
+- day-trading-basket-stocks-underground-trader
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+- position-sizing
+reviewed_pdf_pages: 1-4
+slug: lbr-scalp-setups
+source_file: LBR_Scalp_setups.pdf
+source_review: full
+tags:
+- scalping
+- s-and-p-500-futures
+- opening-range
+- stochastics
+- engulfing-pattern
+- tight-stops
+- intraday
+tier: B
+title: 'Scalp Trading Methods: Six High-Probability Setups from the Pit'
+year: 2003
 ---
 
 ## Summary

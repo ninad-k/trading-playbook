@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using Bollinger Bands — John Bollinger · Trading Playbook</title>
+<meta name="description" content="Bollinger&#39;s original 1992 Stocks &amp; Commodities article introducing Bollinger Bands, %b, and BandWidth — the condensed source of his later full book.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a></p>
+  <h1>Using Bollinger Bands</h1>
+  <p class="byline">John Bollinger · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">article</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Bollinger&#39;s original 1992 Stocks &amp; Commodities article introducing Bollinger Bands, %b, and BandWidth — the condensed source of his later full book.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-11. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=percent-b">percent-b</a> <a class="tag" href="../search.html?q=bandwidth">bandwidth</a> <a class="tag" href="../search.html?q=trading-bands">trading-bands</a> <a class="tag" href="../search.html?q=mean-reversion">mean-reversion</a> </td></tr>
+    <tr><th>Length</th><td>11 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Using Bollinger Bands” by John Bollinger at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is John Bollinger&rsquo;s original 1992 article for <em>Stocks &amp; Commodities</em> magazine (&ldquo;Using Bollinger Bands&rdquo;), an 11-page piece that predates and condenses the material he later expanded into the full book <em>Bollinger on Bollinger Bands</em> (2002), already covered in this library at <a class="xref" href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a>. It traces trading-band history from J.M. Hurst&rsquo;s hand-drawn cycle envelopes through Marc Chaikin&rsquo;s percentage-based Bomar Bands to Bollinger&rsquo;s own standard-deviation-based construction, then introduces the %b and BandWidth indicators and the core rule that band tags are not standalone buy/sell signals.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Trading bands answer whether a price is high or low on a <em>relative</em> basis, not an absolute one — and Bollinger Bands do this better than fixed-percentage or fixed-point envelopes because band width is set by a volatility measure (standard deviation) that automatically widens and narrows with the market itself. A tag of the upper or lower band is not, by itself, a sell or buy signal; it only becomes actionable when compared against the behavior of an independent, non-colinear indicator (something derived from a different data source than closing price alone).</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Bollinger Bands</strong> — a simple moving average (20-period default) plus/minus two standard deviations, calculated from the same closing-price data as the average.</li>
+<li><strong>Envelope history</strong> — Hurst&rsquo;s hand-drawn cyclical envelopes; the 1970s fixed-percentage shift (e.g., a 21-day average shifted ±4%); Chaikin&rsquo;s Bomar Bands, which set width to contain a fixed 85% of the past year&rsquo;s data.</li>
+<li><strong>%b</strong> — <code>100 × (Last − Lower Band) / (Upper Band − Lower Band)</code>, George Lane&rsquo;s stochastics formula applied to the bands; it reads 100 at the upper band, 0 at the lower band, and goes negative or above 100 when price is outside them.</li>
+<li><strong>Band width (BandWidth)</strong> — the width of the bands expressed as a percent of the moving average; a sharp narrowing (e.g., under 2% for the S&amp;P 500 in this article) precedes a volatility expansion.</li>
+<li><strong>Multicollinearity avoidance</strong> — Bollinger&rsquo;s rule against combining indicators derived from the same underlying data (e.g., RSI + MACD + rate of change, all from closing price); he recommends pairing bands with one indicator each from price (RSI), volume+price (on-balance volume), and range+volume (money flow).</li>
+<li><strong>Parameter scaling</strong> — as the moving average period lengthens, the standard deviation multiplier should increase (1.5σ at 10 periods, 2σ at 20 periods, 2.5σ at 50 periods).</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>Construction</strong>: 20-day simple moving average ± 2 standard deviations as the default for stocks; use 10-day/1.5σ for a shorter-term view and 50-day/2.5σ for a longer-term view.</li>
+<li><strong>No standalone band-tag signal</strong>: a tag of the upper band with a confirming (non-diverging) indicator reading is a continuation signal, not a sell signal; a tag with a diverging indicator reading is the sell signal.</li>
+<li><strong>W-bottom / M-top price-only signal</strong>: a low (high) outside the bands followed by a second low (high) inside the bands, regardless of the second point&rsquo;s price relative to the first, constitutes a buy (sell) signal from price action within the bands alone.</li>
+<li><strong>%b + indicator divergence entry</strong>: e.g., price makes a new low with %b around −20 while RSI reads 35, then a shallower low with %b only to 10 while RSI holds above 40 (does not make a new low) — the non-confirmed second low is a buy signal.</li>
+<li><strong>BandWidth squeeze</strong>: a sharp drop in BandWidth (the article cites sub-2% readings for the S&amp;P 500) flags an imminent volatility expansion, though not its direction.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The article gives no position-sizing or stop-loss framework; it is purely a signal-construction piece. The only risk-relevant guidance is indirect: avoid over-trusting any single confirming indicator by choosing confirmations that are not mathematically colinear with each other or with the bands (Bollinger explicitly warns that the Commodity Channel Index, an early popular choice, was found to be too colinear with the bands themselves).</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Limited coverage given the article&rsquo;s length; the closest guidance is Bollinger&rsquo;s framing that trading bands should prompt questions rather than issue verdicts — &ldquo;asking the market what is happening is always a better approach than telling the market what to do&rdquo; — an early statement of the same anti-false-certainty stance he develops at length in the full book.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<p>Not applicable — this is an 11-page magazine article with informal section breaks: envelope/trading-band history; Bollinger&rsquo;s own construction method and parameter selection; &ldquo;answering the questions&rdquo; (relative vs. absolute price); introducing %b and BandWidth; avoiding multicollinearity among confirming indicators.</p>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p><strong>This document substantially overlaps with <a class="xref" href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a></strong> already in this library: it is Bollinger&rsquo;s own earlier (1992) statement of the same construction formula, the same %b and BandWidth indicators, and the same core &ldquo;bands are relative, not absolute&rdquo; thesis that the full 2002 book expands into three complete trading methods (Volatility Breakout, Trend Following, Reversals) with worked multi-market parameter testing. Everything of substance here is a subset of that book&rsquo;s Parts I-II and the confirmation-indicator logic in Part IV; readers should treat this article as historical context (Bollinger&rsquo;s original public introduction of the indicator) rather than a separate source of trading rules. As a magazine piece, it is also necessarily brief: no worked full trading system, no backtest, and pre-Squeeze-terminology (the formal &ldquo;Squeeze&rdquo; and &ldquo;Method I/II/III&rdquo; system names introduced in the later book do not appear here).</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Only worth reading directly for someone specifically interested in the historical origin of Bollinger Bands or in seeing Bollinger&rsquo;s own earliest public formulation of %b and BandWidth. Anyone wanting Bollinger&rsquo;s actual trading rules should go straight to <a class="xref" href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a>, which contains everything in this article plus the fully specified trading methods.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a> — the full-length, later book by the same author that supersedes this article; contains the same construction and indicators plus three complete trading methods.</li>
+<li><a class="xref" href="../books/candlestick-charting-explained.html">Candlestick Charting Explained</a> — a natural companion for reading the price bars that interact with the bands.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a> — The creator&#39;s own manual for Bollinger Bands: construction, the %b and BandWidth indicators, The Squeeze, and three complete trading methods.</li><li><a href="../books/candlestick-charting-explained.html">Candlestick Charting Explained</a> — An introductory primer explains candle bodies and shadows and uses changing open-close relationships to read sentiment.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,31 @@
 ---
-title: The Six Forces of Forex
 author: Scott Owens
-year: 2004
-slug: six-forces-of-forex
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, discipline, market-structure, leverage, dealer-selection, timing, automation]
 difficulty: beginner
 doc_type: article
+one_liner: Conceptual framework (Who/Why/Where/What/When/How) for building a forex
+  trading plan, from FX Engines' promotional 'Forex Report' series.
 pages: 15
-one_liner: "Conceptual framework (Who/Why/Where/What/When/How) for building a forex trading plan, from FX Engines' promotional 'Forex Report' series."
-related: [liquidity-in-forex-markets, forex-money-management, forex-trading-is-challenging]
-source_file: "Six Forces of Forex.pdf"
+related:
+- liquidity-in-forex-markets
+- forex-money-management
+- forex-trading-is-challenging
+reviewed_pdf_pages: 2-3, 6, 9-10 (the six forces and the worked leverage and time-of-day
+  examples)
+slug: six-forces-of-forex
+source_file: Six Forces of Forex.pdf
+source_review: partial
+tags:
+- forex
+- discipline
+- market-structure
+- leverage
+- dealer-selection
+- timing
+- automation
+tier: B
+title: The Six Forces of Forex
+year: 2004
 ---
 
 ## Summary

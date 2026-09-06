@@ -1,17 +1,32 @@
 ---
-title: "Modeling Financial Markets: Using Visual Basic.NET and Databases to Create Pricing, Trading, and Risk Management Models"
-author: "Benjamin Van Vliet and Robert Hendry"
-year: 2004
-slug: benjamin-van-vliet-2004-modeling-financial-markets-using-visual-basic-net-and-databases-to
-tier: B
+author: Benjamin Van Vliet and Robert Hendry
 category: Quant, Microstructure & Academic Research
-tags: [system-development, financial-engineering, backtesting, automated-trading, vb-net, software-methodology, apis]
 difficulty: advanced
 doc_type: manual
+one_liner: Financial-engineering textbook teaching the Kumiega-Van Vliet trading-system
+  development methodology (research, backtest, implement, manage risk) alongside VB.NET,
+  databases, and exchange API programming.
 pages: 401
-one_liner: "Financial-engineering textbook teaching the Kumiega-Van Vliet trading-system development methodology (research, backtest, implement, manage risk) alongside VB.NET, databases, and exchange API programming."
-related: [ghost-trader-trading-strategy, turtletrader]
-source_file: "Benjamin Van Vliet - 2004 - Modeling Financial Markets  Using Visual Basic Net And Databases To C.pdf"
+related:
+- ghost-trader-trading-strategy
+- turtletrader
+reviewed_pdf_pages: 381 and the design-process chapters checked against the note
+slug: benjamin-van-vliet-2004-modeling-financial-markets-using-visual-basic-net-and-databases-to
+source_file: Benjamin Van Vliet - 2004 - Modeling Financial Markets  Using Visual
+  Basic Net And Databases To C.pdf
+source_review: partial
+tags:
+- system-development
+- financial-engineering
+- backtesting
+- automated-trading
+- vb-net
+- software-methodology
+- apis
+tier: B
+title: 'Modeling Financial Markets: Using Visual Basic.NET and Databases to Create
+  Pricing, Trading, and Risk Management Models'
+year: 2004
 ---
 
 ## Summary

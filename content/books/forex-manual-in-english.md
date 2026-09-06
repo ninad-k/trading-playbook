@@ -1,17 +1,31 @@
 ---
-title: FOREX On-Line Manual for Successful Trading
 author: Unknown
-year: unknown
-slug: forex-manual-in-english
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, fundamentals, technical-analysis, chart-patterns, fibonacci, elliott-wave, risk]
 difficulty: beginner
 doc_type: manual
+one_liner: Broker-style introductory manual covering FX market structure, fundamental
+  drivers, classic chart patterns, Fibonacci/Elliott Wave basics, and FX risk types.
 pages: 141
-one_liner: "Broker-style introductory manual covering FX market structure, fundamental drivers, classic chart patterns, Fibonacci/Elliott Wave basics, and FX risk types."
-related: [the-forex-chartist-companion, chart-patterns-tutorial, fibonacci-studies]
-source_file: "Forex Manual In English.pdf"
+related:
+- the-forex-chartist-companion
+- chart-patterns-tutorial
+- fibonacci-studies
+reviewed_pdf_pages: the history, Fibonacci/Elliott and risk chapters checked against
+  the note
+slug: forex-manual-in-english
+source_file: Forex Manual In English.pdf
+source_review: partial
+tags:
+- forex
+- fundamentals
+- technical-analysis
+- chart-patterns
+- fibonacci
+- elliott-wave
+- risk
+tier: B
+title: FOREX On-Line Manual for Successful Trading
+year: unknown
 ---
 
 ## Summary

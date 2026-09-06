@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking — Gregory L. Morris · Trading Playbook</title>
+<meta name="description" content="Numeric recognition rules for the classic candlestick catalogue, the trend/success-measurement methodology Morris coded to test them, and the resulting reliability rankings across S&amp;P 100 stocks and 41 futures markets.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a> › <a href="../books/greg-morris-candlestick-charting-explained.html">Candlestick Charting Explained</a></p>
+  <h1>Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking</h1>
+  <p class="byline">Gregory L. Morris · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Numeric recognition rules for the classic candlestick catalogue, the trend/success-measurement methodology Morris coded to test them, and the resulting reliability rankings across S&amp;P 100 stocks and 41 futures markets.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=candlestick-patterns">candlestick-patterns</a> <a class="tag" href="../search.html?q=pattern-recognition">pattern-recognition</a> <a class="tag" href="../search.html?q=statistical-testing">statistical-testing</a> <a class="tag" href="../search.html?q=indicator-filtering">indicator-filtering</a> </td></tr>
+    <tr><th>Length</th><td>155 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Candlestick Charting Explained — Pattern Catalogue and Reliability Ranking” by Gregory L. Morris at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A codeable candlestick pattern-recognition system paired with Morris&rsquo;s own back-tested reliability statistics, rather than a single tradable strategy. It has two layers: (1) precise, numeric recognition rules for the classic reversal and continuation candle patterns, replacing the traditionally subjective &ldquo;does this look like a Hammer&rdquo; judgment; and (2) a trend-and-success measurement methodology that lets any of those patterns be objectively scored, plus the actual scores Morris obtained testing over 60 patterns on the S&amp;P 100 (82,000+ days of data) and 41 CSI perpetual futures contracts (49,000+ days), at 3-, 5-, and 7-day prediction intervals. An optional third layer — filtering candle signals through a conventional oscillator&rsquo;s &ldquo;pre-signal zone&rdquo; — is included as the book&rsquo;s own recommended enhancement.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>A. Identification thresholds (apply before any pattern can be recognized).</strong>
+1. <strong>Trend context</strong>: compute a 10-day exponential moving average (EMA) of closing price. Today&rsquo;s close above the EMA = uptrend; below = downtrend. Most patterns require this context to even qualify as a signal.
+2. <strong>Long day</strong>: a body (|close − open|) whose size exceeds a minimum threshold relative to recent (5-10 day) price action — Morris offers three interchangeable methods: percent-of-price, percent-of-recent-range, or percent-of-recent-average-body; pick one minimum (e.g., 5% of price) and apply consistently.
+3. <strong>Short day</strong>: the mirror of a long day — body size below the same class of threshold.
+4. <strong>Doji</strong>: |close − open| less than a small maximum percentage (roughly 1-3%) of the day&rsquo;s high-low range.
+5. <strong>Shadow-based subtypes</strong>: classify long lower/upper shadows relative to body length (e.g., a lower shadow ≥2x body = candidate Hammer/Hanging Man territory; ≥3x = Takuri) to distinguish Marubozu, Spinning Top, Dragonfly/Gravestone/Long-Legged Doji subtypes.</p>
+<p><strong>B. Representative pattern rules (full catalogue covers ~60 patterns; these anchor the family).</strong>
+6. <strong>Hammer (bullish, downtrend) / Hanging Man (bearish, uptrend)</strong>: small real body at the extreme (top) of the day&rsquo;s range; lower shadow ≥2x body length (any color body); upper shadow ≤5-10% of the day&rsquo;s range; require next-day confirmation (higher close for Hammer, lower open + black body for Hanging Man).
+7. <strong>Bullish/Bearish Engulfing</strong>: a trend must be in force; day 2&rsquo;s real body fully engulfs day 1&rsquo;s real body (neither top nor bottom of day 1 may exceed day 2&rsquo;s, though one edge may tie); day 1&rsquo;s color matches the prior trend, day 2&rsquo;s is opposite; ≥30% overlap beyond day 1&rsquo;s body strengthens the signal.
+8. <strong>Piercing Line (bullish) / Dark Cloud Cover (bearish)</strong>: day 1 is a long body in the trend direction; day 2 opens beyond day 1&rsquo;s extreme (below day 1&rsquo;s low for Piercing, above day 1&rsquo;s high for Dark Cloud Cover) and closes within, and past the midpoint of, day 1&rsquo;s body — this 50% threshold is rigid; less penetration reclassifies the pair as a continuation pattern (On Neck/In Neck/Thrusting Line) instead.
+9. <strong>Three White Soldiers (bullish) / Three Black Crows (bearish)</strong>: three consecutive long bodies of the same color, each closing progressively higher (Soldiers) or lower (Crows), each ideally opening within the prior day&rsquo;s body and closing near its own extreme.
+10. <strong>Star family (Morning Star, Evening Star, Doji Star)</strong>: a long body in the trend direction, followed by a small body (or Doji, for a Doji Star) that gaps away from it, followed — for Morning/Evening Star — by a third day closing well into the first day&rsquo;s body in the opposite direction.</p>
+<p><strong>C. Measuring success/failure (the testable core of the system).</strong>
+11. <strong>Two baselines</strong>: for each day the trend is known (close vs. 10-day EMA), classify the outcome at a chosen future point as Reverse Current Trend or Continue Current Trend. Because trends persist more often than not, &ldquo;Continue&rdquo; is the higher base rate and &ldquo;Reverse&rdquo; the lower one.
+12. <strong>Prediction interval</strong>: choose how many days ahead to score the outcome (Morris tests 3, 5, and 7; results are reported to be broadly similar for any interval from 1-10 days). At that interval, if price is still on the pattern&rsquo;s predicted side of the trend line, score a success.
+13. <strong>Scoring a reversal pattern</strong>: compare its success rate against the Reverse Current Trend base rate — a reversal pattern only adds value if it beats this (inherently sub-50%) baseline.
+14. <strong>Scoring a continuation pattern</strong>: compare its success rate against the (higher) Continue Current Trend base rate — a continuation pattern must beat the odds of the trend persisting anyway to be considered valuable; this is why some continuation patterns show high raw success but a negative ranking score.
+15. <strong>Discount low-frequency patterns</strong>: any pattern occurring only once or twice in the test sample should be treated as statistically meaningless regardless of its reported success rate; check a pattern&rsquo;s ranking stability across multiple prediction intervals (3/5/7-day) before trusting it — a pattern that jumps around in rank across intervals is unreliable, one that moves steadily in one direction has a horizon preference, and one that stays stable across all intervals is the most dependable signal.</p>
+<p><strong>D. Optional enhancement — indicator filtering.</strong>
+16. Choose a bounded oscillator (RSI 14 with 30/70 or 35/65 thresholds; stochastic %D 14 with 20/80 thresholds; CCI 14 with ±100 thresholds; or a zero-line/self-smoothing crossover indicator like MACD, rate of change, or Bollinger %B). Define its &ldquo;pre-signal area&rdquo;: for a threshold oscillator, the zone beyond the threshold before the reversing cross; for a zero-line oscillator, the zone after crossing zero and before crossing its own smoothing.
+17. Only act on a bullish candle pattern while the chosen oscillator sits in its buy pre-signal zone, and only act on a bearish candle pattern while it sits in its sell pre-signal zone; ignore candle signals that fire outside the relevant zone. In Morris&rsquo;s 100-stock 1989-1992 test this cut trade count by more than half (37.1 to 13.7 trades on average) while raising average gain per trade (0.40% unfiltered to 0.60% filtered), though results were mixed pattern-by-pattern (e.g., the price detrend oscillator and linear trend indicator filters underperformed their own unfiltered indicator in the worked single-stock example).</p>
+<h2 id="risk">Risk</h2>
+<p>No stop-loss, position sizing, or profit target is specified anywhere in this system — Morris&rsquo;s test harness is deliberately simplistic (&ldquo;always in the market&rdquo;: buy, sell, sell-short, cover) purely to compare candle-only, indicator-only, and filtered signals on equal footing, and he states explicitly that commissions and slippage are excluded from every reported percentage. Risk control here is entirely about avoiding false confidence in an untested or low-frequency pattern: require the trend-context check before accepting any pattern, discount patterns with few occurrences, and prefer patterns whose ranking is stable across multiple prediction intervals rather than the single best-ranked pattern at one interval, which may be an artifact of that specific horizon and sample.</p>
+<h2 id="caveats">Caveats</h2>
+<p>All reliability statistics come from one dataset and era (S&amp;P 100 constituents 1989-1992ish for the ranking tables&rsquo; underlying data window referenced elsewhere in the book, and CSI perpetual futures contracts of similar vintage) and have not been shown to hold out-of-sample in later or different markets. The &ldquo;successful&rdquo; designation is binary and direction-only (did price end up on the predicted side of trend at the prediction interval) — it carries no magnitude, so a barely-positive outcome counts the same as a large favorable move, and the book&rsquo;s own tables show several 100%-success patterns that occurred only once, which Morris himself flags as not meaningful. Thresholds for long/short/Doji classification are given as ranges (&ldquo;5% is often used,&rdquo; &ldquo;1 to 3% seems to work quite well&rdquo;) rather than fixed constants, so two implementations using different thresholds will identify a different — sometimes substantially different — set of pattern occurrences from the same price data. The filtering enhancement&rsquo;s results were also pattern- and indicator-specific in Morris&rsquo;s own examples (some indicator filters clearly helped, at least one clearly hurt), so the filtering rule should be validated per indicator and market rather than assumed universally beneficial.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/greg-morris-candlestick-charting-explained.html">Candlestick Charting Explained</a> — A candlestick pattern catalogue with precise numeric recognition rules, then a computer test of over 60 patterns&#39; actual success rates across S&amp;P 100 stocks and 41 futures markets.</li><li><a href="../books/beyond-candlesticks-steve-nison.html">Beyond Candlesticks: New Japanese Charting Techniques Revealed</a> — Nison&#39;s follow-up to Japanese Candlestick Charting Techniques adds the disparity index and three under-translated Japanese charting styles: three-line break, renko, and kagi.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

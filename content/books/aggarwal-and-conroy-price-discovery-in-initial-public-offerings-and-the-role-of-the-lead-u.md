@@ -1,17 +1,31 @@
 ---
-title: Price Discovery in Initial Public Offerings and the Role of the Lead Underwriter
 author: Reena Aggarwal & Pat Conroy
-year: 2000
-slug: aggarwal-and-conroy-price-discovery-in-initial-public-offerings-and-the-role-of-the-lead-u
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [ipo, price-discovery, market-makers, nasdaq, underwriting, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Finance study showing the lead underwriter's first preopening
+  quote explains most of an IPO's initial return, even for the hottest deals.
 pages: 20
-one_liner: "Journal of Finance study showing the lead underwriter's first preopening quote explains most of an IPO's initial return, even for the hottest deals."
-related: [madhavan-market-microstructure-a-survey, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, foucault-and-kadan-limit-order-book-as-a-market-for-liquidity]
-source_file: "Aggarwal And Conroy-Price Discovery In Initial Public Offerings And The Role Of The Lead Underwri.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+reviewed_pdf_pages: 1-5, 12, 15 (the sample construction and the preopening quote
+  statistics)
+slug: aggarwal-and-conroy-price-discovery-in-initial-public-offerings-and-the-role-of-the-lead-u
+source_file: Aggarwal And Conroy-Price Discovery In Initial Public Offerings And The
+  Role Of The Lead Underwri.pdf
+source_review: partial
+tags:
+- ipo
+- price-discovery
+- market-makers
+- nasdaq
+- underwriting
+- academic-research
+tier: B
+title: Price Discovery in Initial Public Offerings and the Role of the Lead Underwriter
+year: 2000
 ---
 
 ## Summary

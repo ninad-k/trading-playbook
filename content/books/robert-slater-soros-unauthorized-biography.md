@@ -1,17 +1,32 @@
 ---
-title: Soros - The Life, Times and Trading Secrets of the World's Greatest Investor
 author: Robert Slater
-year: 1996
-slug: robert-slater-soros-unauthorized-biography
-tier: B
 category: Investing, Value & Market History
-tags: [soros, hedge-funds, reflexivity, biography, macro-trading, quantum-fund, market-history]
 difficulty: beginner
 doc_type: book
+one_liner: Unauthorized biography of George Soros covering his Hungarian childhood,
+  philosophy, reflexivity theory, and the Quantum Fund trades including breaking the
+  Bank of England.
 pages: 261
-one_liner: "Unauthorized biography of George Soros covering his Hungarian childhood, philosophy, reflexivity theory, and the Quantum Fund trades including breaking the Bank of England."
-related: [elder-alexander-trading-for-a-living, krugman-hedge-funds, hedges-on-hedge-funds-how-to-successfully-analyze-2005]
-source_file: "Robert Slater - Soros Unauthorized Biography.pdf"
+related:
+- elder-alexander-trading-for-a-living
+- krugman-hedge-funds
+- hedges-on-hedge-funds-how-to-successfully-analyze-2005
+reviewed_pdf_pages: 48, 77, 111-113, 148 (the Plaza Accord and Quantum Fund performance
+  chapters)
+slug: robert-slater-soros-unauthorized-biography
+source_file: Robert Slater - Soros Unauthorized Biography.pdf
+source_review: partial
+tags:
+- soros
+- hedge-funds
+- reflexivity
+- biography
+- macro-trading
+- quantum-fund
+- market-history
+tier: B
+title: Soros - The Life, Times and Trading Secrets of the World's Greatest Investor
+year: 1996
 ---
 
 ## Summary

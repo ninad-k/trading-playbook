@@ -1,17 +1,33 @@
 ---
-title: Exchange Rules for the Frankfurt Stock Exchange
 author: Deutsche Börse / Frankfurter Wertpapierbörse
-year: 2004
-slug: exchange-rules-for-the-frankfurt-stock-exchange
-tier: B
 category: Market Structure & Price Action
-tags: [market-microstructure, xetra, order-book, auction, designated-sponsor, exchange-rules, price-determination]
 difficulty: advanced
 doc_type: manual
+one_liner: The official rulebook governing admission, price determination, and electronic
+  trading (auction, continuous trading, continuous auction, block trading) on the
+  Frankfurt Stock Exchange, effective November 2004.
 pages: 61
-one_liner: "The official rulebook governing admission, price determination, and electronic trading (auction, continuous trading, continuous auction, block trading) on the Frankfurt Stock Exchange, effective November 2004."
-related: [competition-between-exchanges-euronext-versus-xetra, madhavan-market-microstructure-a-survey, parlour-and-seppi-liquidity-based-competition-for-order-flow, foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity]
-source_file: "Exchange Rules For The Frankfurt Stock Exchange.pdf"
+related:
+- competition-between-exchanges-euronext-versus-xetra
+- madhavan-market-microstructure-a-survey
+- parlour-and-seppi-liquidity-based-competition-for-order-flow
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+reviewed_pdf_pages: 1-2 and the admission and trading-model sections checked against
+  the note
+slug: exchange-rules-for-the-frankfurt-stock-exchange
+source_file: Exchange Rules For The Frankfurt Stock Exchange.pdf
+source_review: partial
+tags:
+- market-microstructure
+- xetra
+- order-book
+- auction
+- designated-sponsor
+- exchange-rules
+- price-determination
+tier: B
+title: Exchange Rules for the Frankfurt Stock Exchange
+year: 2004
 ---
 
 ## Summary

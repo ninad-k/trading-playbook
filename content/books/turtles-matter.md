@@ -1,17 +1,31 @@
 ---
-title: Why the Turtles Matter
 author: TradingMarkets Research (Steven Gabriel)
-year: 2005
-slug: turtles-matter
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [turtles, richard-dennis, william-eckhardt, mechanical-systems, nature-vs-nurture, moving-average]
 difficulty: beginner
 doc_type: article
+one_liner: Yahoo!/TradingMarkets reprint retelling the Turtle experiment as proof
+  that trading can be taught, then illustrates the idea with Larry Connors' 4-rule
+  S&P mean-reversion setup.
 pages: 2
-one_liner: "Yahoo!/TradingMarkets reprint retelling the Turtle experiment as proof that trading can be taught, then illustrates the idea with Larry Connors' 4-rule S&P mean-reversion setup."
-related: [curtis-faith-way-of-the-turtle, the-complete-turtletrader-the-legend-the-lessons-the-results, turtlerules, turtletrader]
-source_file: "turtles-matter.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- turtlerules
+- turtletrader
+reviewed_pdf_pages: 1-2
+slug: turtles-matter
+source_file: turtles-matter.pdf
+source_review: full
+tags:
+- turtles
+- richard-dennis
+- william-eckhardt
+- mechanical-systems
+- nature-vs-nurture
+- moving-average
+tier: B
+title: Why the Turtles Matter
+year: 2005
 ---
 
 ## Summary

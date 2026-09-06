@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Large Is Liquidity Risk in an Automated Auction Market? — Pierre Giot &amp; Joachim Grammig · Trading Playbook</title>
+<meta name="description" content="Discussion paper introducing a Value-at-Risk methodology that prices in liquidity risk (price impact of liquidation) for portfolios traded on the Xetra automated auction market.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>How Large Is Liquidity Risk in an Automated Auction Market?</h1>
+  <p class="byline">Pierre Giot &amp; Joachim Grammig · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Discussion paper introducing a Value-at-Risk methodology that prices in liquidity risk (price impact of liquidation) for portfolios traded on the Xetra automated auction market.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-4 (title, authors and abstract; the body&#39;s text extraction is corrupted and could not be read). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=liquidity-risk">liquidity-risk</a> <a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=limit-order-book">limit-order-book</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>35 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “How Large Is Liquidity Risk in an Automated Auction Market?” by Pierre Giot &amp; Joachim Grammig at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how large is liquidity risk — the extra loss from having to liquidate a position and moving the price against yourself — for stocks and portfolios traded on a pure electronic limit-order market? Data: order-book data from Xetra, the automated auction system used on several European exchanges, supplied by Deutsche Börse AG. Method: the authors extend a standard Value-at-Risk (VaR) framework to explicitly incorporate the price impact of liquidating a position of a given size, producing a &ldquo;liquidity risk premium&rdquo; on top of conventional price-risk VaR, and examine how this premium varies with portfolio/position size and the VaR time horizon. Finding (per the abstract): liquidity risk is sensitive to both position size and holding/liquidation horizon, and exhibits an intraday (&ldquo;diurnal&rdquo;) pattern consistent with market-microstructure theory (i.e., liquidity risk is not constant through the trading day).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Introduces liquidity-adjusted VaR: standard price-risk VaR plus a liquidity risk premium reflecting the price impact of unwinding a position.</li>
+<li>Studied on Xetra, a computerized, order-driven (&ldquo;automated auction&rdquo;) market with no designated market maker.</li>
+<li>Liquidity risk premiums are computed at both the individual-stock and portfolio level.</li>
+<li>Sensitivity analysis covers two dimensions: how much is being liquidated (portfolio/position size) and over what time horizon (VaR horizon).</li>
+<li>Liquidity risk shows a diurnal (time-of-day) pattern, which the authors interpret through market microstructure theory (i.e., liquidity varies predictably across the trading session, likely thinner near the open/close).</li>
+<li>JEL classification: liquidity, Value-at-Risk, microstructure — positions this as institutional risk-management research, not a trading strategy paper.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a risk-measurement methodology paper, not a trading system. The practical takeaway for traders and risk managers: standard VaR understates true risk for a position that must be liquidated quickly, and that understatement grows with position size and shrinks (or grows, depending on time-of-day liquidity) with the assumed liquidation horizon — position sizing and stop-out planning should account for expected slippage, not just quoted volatility.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The source PDF&rsquo;s text extraction was corrupted beyond the title, author, and abstract (pages 1–4); the detailed methodology, tables, and specific numeric findings from the body of the paper could not be read and are not represented here beyond what the abstract states. This is a 2002 academic discussion paper reflecting late-1990s/early-2000s Xetra market conditions and may not reflect current European equity market liquidity dynamics.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers and quant researchers who need a framework for pricing liquidity risk into VaR for order-driven electronic markets; not a resource for retail trade setups.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/depth-volatility.html">Limit Orders, Depth, and Volatility</a> — Academic study of the Hong Kong Stock Exchange finding transitory volatility and market depth move inversely, and volatility side determines limit-order flow direction.</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets.html">Liquidity Supply and Demand in Limit Order Markets</a> — A structural model links limit-versus-market order choice to immediacy, execution probability, and picking-off risk.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

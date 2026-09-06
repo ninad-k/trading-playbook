@@ -1,17 +1,35 @@
 ---
-title: Candlestick Charting Explained
 author: Gregory L. Morris
-year: 1992
-slug: greg-morris-candlestick-charting-explained
-tier: A
-category: "Candlesticks & Chart Patterns"
-tags: [candlestick-patterns, japanese-charting, pattern-recognition, reversal-patterns, continuation-patterns, statistical-testing, indicator-filtering]
+category: Candlesticks & Chart Patterns
 difficulty: intermediate
 doc_type: book
+one_liner: A candlestick pattern catalogue with precise numeric recognition rules,
+  then a computer test of over 60 patterns' actual success rates across S&P 100 stocks
+  and 41 futures markets.
 pages: 155
-one_liner: "A candlestick pattern catalogue with precise numeric recognition rules, then a computer test of over 60 patterns' actual success rates across S&P 100 stocks and 41 futures markets."
-related: [beyond-candlesticks-steve-nison, big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow, candlesticks-fibonacci-and-chart-pattern-trading-tools, john-l-person-swing-trading-using-candlestick-charting-with-pivot-point, candlestick-patterns-for-day-trading]
-source_file: "Greg Morris - Candlestick Charting Explained.pdf"
+related:
+- beyond-candlesticks-steve-nison
+- big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow
+- candlesticks-fibonacci-and-chart-pattern-trading-tools
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+- candlestick-patterns-for-day-trading
+reviewed_pdf_pages: 4, 11, 22, 38-39, 101, 114-115 (pattern definitions and engulfing/piercing
+  rules, the success-benchmark discussion and the trend-determination chapter with
+  the ten-day exponential average)
+slug: greg-morris-candlestick-charting-explained
+source_file: Greg Morris - Candlestick Charting Explained.pdf
+source_review: partial
+tags:
+- candlestick-patterns
+- japanese-charting
+- pattern-recognition
+- reversal-patterns
+- continuation-patterns
+- statistical-testing
+- indicator-filtering
+tier: A
+title: Candlestick Charting Explained
+year: 1992
 ---
 
 ## Overview

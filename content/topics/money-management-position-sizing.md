@@ -1,0 +1,100 @@
+---
+title: Money Management & Position Sizing
+summary: "How much to risk per trade and across a portfolio: the library converges on small fixed-fractional risk, and disagrees sharply on how close to the growth-optimal fraction anyone should trade."
+books_covered: 40
+---
+## What it is
+
+Money management answers one question that is separate from "what should I buy?": *how much?* Given an entry price, a stop, and an account balance, it determines the number of shares or contracts, and it governs how much of the account may be exposed across all open positions at once. Most authors in this category insist on that separation — position sizing is not stop placement, not diversification, and not trade selection ([[money-management-report-van-tharp]], [[forex-misc-money-management-ryan-jones]]). The category also covers what follows from sizing: the arithmetic of drawdown and recovery, the probability of ruin, when to add to a winner, and how correlated positions quietly compound exposure. The recurring claim, stated most forcefully by Van Tharp and Ryan Jones, is that two traders taking identical signals will produce wildly different equity curves, and that the difference is almost entirely sizing.
+
+## Core principles
+
+- Signal generation and money management are separate problems, and a positive-expectancy system can still be driven to ruin by oversized bets [[balsara-nauzer-j-money-management-strategies-for-futures-traders]] [[money-management-report-van-tharp]] [[trade-your-way-to-financial-freedom]].
+- Drawdown recovery is non-linear: the gain needed to recover always exceeds the loss taken, and the gap widens sharply past 50% — a 50% loss requires a 100% gain, a 90% loss a 900% gain [[balsara-nauzer-j-money-management-strategies-for-futures-traders]] [[money-management-by-david-landry]] [[position-sizing]].
+- Sizing should be anti-martingale — exposure rises with equity and falls after losses. Martingale progressions redistribute outcomes but cannot manufacture an edge [[money-management-report-van-tharp]] [[forex-misc-money-management-ryan-jones]] [[money-management1]].
+- No staking scheme rescues a negative expectancy; expectancy must be established before sizing is layered on top [[money-management1]] [[trade-your-way-to-financial-freedom]] [[mathematicsmoneymanagement]].
+- Maximising expected value on each bet leads to ruin with probability one under repeated reinvestment; the correct objective is expected log capital, which is what makes growth-optimal sizing a fraction rather than everything [[kellybetting]] [[mathematicsmoneymanagement]].
+- Size must be recomputed for every trade, because entry, stop distance and equity all change; a constant share or contract count is the wrong size on most trades [[fine-tuning-your-money-management]] [[managing-your-money]] [[truth-about-money-management]].
+- Risk must be normalised across instruments before it can be compared. Percent-risk sizing does this through the entry-to-stop distance; volatility sizing does it through ATR or standard deviation [[trade-your-way-to-financial-freedom--position-sizing-models]] [[money-manager-trading-strategy]] [[money-management-report-van-tharp--position-sizing-models]].
+- Per-trade limits are insufficient on their own: aggregate open risk needs its own ceiling, or several individually acceptable positions combine into an unacceptable one [[money-management-by-david-landry]] [[maximizing-gains-with-trade-management]] [[fine-tuning-your-money-management]].
+- Correlated positions are effectively one larger position and must be budgeted as such [[money-management-by-david-landry]] [[forex-money-management]] [[balsara-nauzer-j-money-management-strategies-for-futures-traders]].
+- Portfolio volatility is driven by covariance, not by the weighted average of individual volatilities, so a lower-return, low-correlation holding can reduce total risk more than its own numbers suggest [[portfolio-risk-reduction]] [[resource-stocks-in-portfolio]] [[s-a-mccrary-hedge-fund-course]].
+- The growth-maximising fraction is also the drawdown-maximising one: at optimal f, the historical drawdown is never smaller than f itself as a percentage of equity, which is why almost every author trades a fraction of it [[mathematicsmoneymanagement]] [[secrets-of-todays-top-traders]] [[truth-about-money-management]].
+- Leverage, not underlying volatility, is what makes futures accounts fail, and most traders do not consciously register the multiple they are running [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]] [[risk-reward-margin]].
+- Because leverage is a free parameter, a fund's apparent riskiness is a business decision rather than a property of its strategy — compare managers by risk-adjusted ratio, not raw volatility [[risk-reward-margin]] [[s-a-mccrary-hedge-fund-course]].
+- Live results are worse than backtests, so capitalisation should assume drawdowns larger than anything in the test window [[money-management-by-david-landry]] [[secrets-of-todays-top-traders]] [[truth-about-money-management]].
+- Sizing is only as good as the trader's willingness to execute it; a mathematically optimal fraction that produces an unbearable drawdown will be abandoned mid-decline [[david-c-stendahl-money-management-strategies-for-serious-traders]] [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]] [[cai-discretionary-risk-matrix]].
+
+## Concrete rules and setups
+
+### Per-trade sizing formulas
+
+1. Percent-risk sizing: position size = (equity × risk %) ÷ (entry − stop), always rounded down [[managing-your-money]] [[money-management-risk-control-for-traders]] [[trade-your-way-to-financial-freedom--position-sizing-models]].
+2. The same formula net of costs: (risk amount − commission) ÷ entry-to-stop distance. Worked example: ($500 − $80) ÷ $1.50 = 280 shares [[fine-tuning-your-money-management]].
+3. Percent-volatility sizing: size = (equity × volatility %) ÷ dollar ATR per contract, using a 4- to 20-day ATR depending on the source; preferred when stops are tighter than the daily range [[money-management-report-van-tharp--position-sizing-models]] [[trade-your-way-to-financial-freedom--position-sizing-models]].
+4. Standard-deviation normalisation: market risk = 30-day standard deviation of closes × big point value; contracts = floor((equity × risk %) ÷ market risk). Worked example: $100,000 at 2% with $750 market risk gives 2.67, floored to 2 contracts [[money-manager-trading-strategy]].
+5. Kelly / optimal f with a payoff ratio A: f = [(A + 1)p − 1] ÷ A. Worked example: p = 0.33, A = 5 gives f = 0.20 [[balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing]] [[kellybetting]].
+6. Empirical optimal f from a trade history: HPR = 1 + f × (−trade ÷ biggest loss); TWR is the product of all HPRs; search f from 0.01 to 1.00 and take the peak. Convert with dollars per contract = biggest loss ÷ −f (a −$100 worst loss at f = 0.25 gives one contract per $400) [[mathematicsmoneymanagement--optimal-f-and-twr-framework]].
+7. Fixed Ratio: add the next contract at previous required equity + (contracts held × delta), with delta set near half the expected worst-case per-contract drawdown. At a $5,000 delta from $10,000: 2 contracts at $15,000, 3 at $25,000, 4 at $40,000 [[forex-misc-money-management-ryan-jones--fixed-ratio-position-sizing]].
+8. Blended per-contract capital: (optimal f $ + largest overnight gap $ + (max drawdown $ + margin)) ÷ 3; without a backtest, substitute margin × 3 [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading--account-sizing-formula]].
+9. Take the lower of the margin-based and risk-based contract counts so neither constraint is breached, and round fractional contracts down [[balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing]].
+
+### Risk limits
+
+10. Per-trade risk: 1% or less when managing other people's money, up to about 3% on your own, beyond which Tharp calls it gunslinger territory [[money-management-report-van-tharp]] [[trade-your-way-to-financial-freedom]]. Professional norms are cited at 1-3% [[truth-about-money-management]], with interviewees ranging from 0.25-0.5% up to 5% [[money-management-by-david-landry]].
+11. Competing caps for the same decision: 2% per trade inclusive of commission and slippage [[fine-tuning-your-money-management]] [[managing-your-money]]; 2% as standard with 5% as a ceiling [[money-management-risk-control-for-traders]]; 1% preferred and 3% never exceeded [[forex-money-management]]; 5% as an outer bound [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]].
+12. Aggregate open risk: 6% total with 2% per sector [[fine-tuning-your-money-management]]; 20% of equity as a portfolio cap [[money-management-by-david-landry]]; portfolio heat of 20-25%, derived as roughly 80% of the Kelly-implied fraction and divided by the expected number of simultaneous positions [[money-management-report-van-tharp--position-sizing-models]]; a 50%-of-equity open-risk gate before any new trade [[secrets-of-todays-top-traders]].
+13. Margin-to-equity below roughly 30% as a leverage proxy [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]]; managed futures funds typically run 5-30% [[risk-reward-margin]]; a 5:1 leverage cap regardless of what the broker offers [[the-magic-of-forex-trading]].
+14. Drawdown stop-points: 12% of initial capital [[money-management-risk-control-for-traders]]; 20-25% maximum acceptable [[money-management-by-david-landry]]; roughly 15% for managed accounts against 40-60% an individual might accept [[truth-about-money-management]].
+15. Capitalise a systematic strategy at 2-5× its historical worst drawdown, and expect live profits near half the backtested figure [[money-management-by-david-landry]].
+16. Fund the account with risk capital only, never borrowed money, and keep it to 10-20% of investable capital [[money-management-risk-control-for-traders]] [[fine-tuning-your-money-management]].
+
+### Stops, scaling and adding
+
+17. Set the stop before entry and size the position to it, rather than picking a size and forcing a stop to fit [[stops]] [[fine-tuning-your-money-management]].
+18. Size stops to recent volatility — around 3-4 days' average range — since stops tighter than normal noise convert an edge into a near-certain loss [[money-management-by-david-landry]]; one source specifies at least two standard deviations, referenced to a higher timeframe than the entry [[money-management-risk-control-for-traders]].
+19. Stops may be tightened but never loosened, and a hit stop is taken immediately rather than overridden [[managing-your-money]] [[stops]] [[money-management-risk-control-for-traders]].
+20. Size new trades off core equity — total equity minus dollar risk open in all positions — so capacity shrinks automatically as exposure grows [[managing-your-money]] [[forex-money-management]].
+21. Two-for-one management: once open profit exceeds the initial risk, exit half and move the remaining stop to breakeven [[money-management-by-david-landry]] [[crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss--put-option-crash-strategy]].
+22. Pyramid only into winners, financed from locked-in profit: additional contracts = (chosen fraction × assured unrealised profit × current contracts) ÷ permissible loss per contract. Never average down [[balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing]] [[the-five-minute-investor]].
+23. Reverse Scale: add an equal dollar amount at each fixed percentage increment above the last purchase, and exit the whole position on a retrace through the previous decision point [[the-five-minute-investor]].
+24. Risk bands tied to trend stage: stop 2.5-5% of price in a strong trend, 5-10% early, 10-15% choppy, 15-20% late, with risk of 1-5% falling to 1-2.5% in late-stage conditions [[cai-discretionary-risk-matrix]].
+25. Cap a speculative options sleeve at about 5% of the portfolio, staged across roughly a year rather than deployed at once [[crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss--put-option-crash-strategy]].
+
+## Common mistakes
+
+- Trading a fixed number of shares or contracts regardless of stop distance and equity, so real risk varies trade to trade without the trader noticing [[fine-tuning-your-money-management]] [[truth-about-money-management]].
+- Treating unrealised gains as "house money" and risking them more loosely than original capital; a stop left unmoved as a winner runs can let a 2% risk balloon to 9% or more [[managing-your-money]] [[money-management-in-trading]].
+- Averaging down, and rationalising it with costs already sunk into the trade — commissions, research, or the wait for the setup [[money-management-in-trading]] [[the-five-minute-investor]] [[money-management-by-david-landry]].
+- Setting stops too tight for the instrument's normal range, which converts ordinary noise into realised losses [[money-management-by-david-landry]] [[money-management-risk-control-for-traders]].
+- Sizing each position independently and ignoring correlation, so a book of related markets carries far more aggregate risk than any single calculation shows [[trade-your-way-to-financial-freedom--position-sizing-models]] [[forex-money-management]].
+- Trading at or near calculated optimal f, which is acutely sensitive to the single largest historical loss and to the ordering of trades [[truth-about-money-management]] [[mathematicsmoneymanagement]].
+- Relying on mental stops at exactly the moment execution is psychologically hardest [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]] [[money-management-by-david-landry]].
+- Undertrading as well as overtrading: risk small enough to be swamped by costs wastes a real edge [[managing-your-money]] [[money-management1]].
+- Adopting a fraction the account can bear arithmetically but the trader cannot bear psychologically, then abandoning the system partway into the drawdown [[david-c-stendahl-money-management-strategies-for-serious-traders]] [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]].
+- Judging a fund or system by raw volatility when volatility is largely a leverage setting [[risk-reward-margin]].
+
+## Best books for this topic
+
+1. [[balsara-nauzer-j-money-management-strategies-for-futures-traders]] — the most complete single treatment: risk of ruin, fixed-fractional and Kelly sizing, multi-commodity allocation and pyramiding, all worked numerically. Best for anyone who wants the whole framework in one place.
+2. [[mathematicsmoneymanagement]] — the rigorous derivation of optimal f, TWR and the geometric-mean objective, and unusually candid about the drawdowns its own answer implies. For quantitative readers.
+3. [[trade-your-way-to-financial-freedom]] — expectancy and R-multiples, plus four sizing models demonstrated on identical signals. The clearest demonstration that sizing dominates entry choice.
+4. [[money-management-report-van-tharp]] — nine sizing models compared on one reference system, with the drawdown-recovery table and portfolio heat. The best menu-style reference.
+5. [[forex-misc-money-management-ryan-jones]] — Fixed Ratio and the delta formula, and the sharpest critique of fixed-fractional sizing for small accounts.
+6. [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading]] — the most practical account-sizing method for futures, blending optimal f, overnight gap and drawdown, with leverage made concrete.
+7. [[kellybetting]] — the 1956 original. Short, and worth reading to see exactly what the criterion does and does not claim.
+8. [[money-management-by-david-landry]] — a compact set of 17 guidelines plus practitioner interviews; the fastest route to a workable default for a discretionary trader.
+9. [[truth-about-money-management]] — the best short statement of why individual traders and fund managers should not use the same sizing targets.
+10. [[position-sizing]] — a controlled experiment rather than assertion: smaller positions cut bankruptcy rates roughly tenfold without raising average profit.
+11. [[crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss]] — the defensive end of the subject: how to move capital out of harm's way in stages rather than in one decision, with a single explicit market filter (the S&P against its 20-day average) and a staged re-entry plan.
+
+## Open debates
+
+- **Fixed Ratio versus fixed fractional.** Jones argues fixed-fractional sizing either compounds too slowly to matter or courts ruinous drawdowns, and that Fixed Ratio dominates both [[forex-misc-money-management-ryan-jones--fixed-ratio-position-sizing]]. His comparisons use selected bounded-loss scenarios rather than full simulation, and he concedes the advantage narrows at fund scale; the percent-risk camp remains the default elsewhere [[money-management-report-van-tharp--position-sizing-models]].
+- **How close to optimal f to trade.** Vince derives it as the growth-maximising fraction while stating it implies 30-95% retracements [[mathematicsmoneymanagement]]. Tharp rejects it in favour of Kelly on the grounds that it assumes the worst loss has already happened [[money-management-report-van-tharp]]; Ruggiero calls it a theoretical ceiling, never a target [[truth-about-money-management]]; Kaeppel uses it only as one input among three [[jay-kaeppel-the-four-biggest-mistakes-in-futures-trading--account-sizing-formula]]; one practitioner reports trading about 10% of full Kelly [[secrets-of-todays-top-traders]].
+- **What number belongs in the percent-risk rule.** The library offers 0.25%, 1%, 2%, 3% and 5% as "the" limit, mostly as convention rather than derivation [[money-management-by-david-landry]] [[forex-money-management]] [[fine-tuning-your-money-management]] [[money-management-risk-control-for-traders]]. Only the Kelly-derived approaches attempt to compute it from a system's own statistics [[kellybetting]] [[balsara-nauzer-j-money-management-strategies-for-futures-traders]].
+- **Whether an acceptable drawdown is universal.** Ruggiero argues individuals can rationally target 40-60% while managed accounts need roughly 15%, because the objectives differ [[truth-about-money-management]] [[risk-reward-margin]]; most retail-facing sources prescribe a single ceiling around 12-25% for everyone [[money-management-risk-control-for-traders]] [[money-management-by-david-landry]].
+- **Scaling out versus holding the full position.** Partial exits are advocated as stress reduction that converts marginal trades into small winners [[fine-tuning-your-money-management]] [[money-management-by-david-landry]], but they cut exactly the outsized trades that carry a trend-following system's expectancy [[trade-your-way-to-financial-freedom]], and require divisible size and liquidity most small accounts lack.
+- **Percent risk versus percent volatility.** Risk-based sizing is criticised because a fixed percentage can mean one contract or many depending on stop distance, so nominally equal risks differ in real exposure [[trade-your-way-to-financial-freedom--position-sizing-models]]; volatility-based sizing normalises across instruments but ignores where the stop actually sits [[money-manager-trading-strategy]].
+- **Whether stops are always required.** Most sources treat a stop as non-negotiable [[stops]] [[managing-your-money]], but Weiss deliberately omits stops from a capped-size options sleeve on the grounds that the size cap is itself the risk control [[crash-profits-make-money-when-stocks-sink-and-soar-martin-weiss--put-option-crash-strategy]].
+- **Whether a locked-in profit still counts as risk.** McDowell frees a position from the risk budget once a trailing stop is past breakeven [[fine-tuning-your-money-management]], and Balsara formalises this as negative effective exposure [[balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing]]; gap risk means a resting stop is not a guaranteed exit, which neither source addresses.

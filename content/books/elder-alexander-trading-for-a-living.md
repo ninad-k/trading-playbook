@@ -1,17 +1,32 @@
 ---
-title: Trading for a Living
 author: Alexander Elder
-year: 1993
-slug: elder-alexander-trading-for-a-living
-tier: A
 category: Trading Psychology & Discipline
-tags: [psychology, indicators, money-management, triple-screen, force-index, elder-ray]
 difficulty: intermediate
 doc_type: book
+one_liner: Elder's original three-pillar framework (psychology, technical method,
+  money management), introducing Triple Screen, Force Index, and Elder-ray.
 pages: 312
-one_liner: "Elder's original three-pillar framework (psychology, technical method, money management), introducing Triple Screen, Force Index, and Elder-ray."
-related: [come-into-my-trading-room-elder-alexander, trading-in-the-zone, disciplined-trader, van-tharp-trading-systems, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]
-source_file: "Elder Alexander - Trading For A Living.pdf"
+related:
+- come-into-my-trading-room-elder-alexander
+- trading-in-the-zone
+- disciplined-trader
+- van-tharp-trading-systems
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+reviewed_pdf_pages: 8-10, 282, 288, 306 (contents, the money-management chapter containing
+  the 2% rule, paper-trading guidance and the index)
+slug: elder-alexander-trading-for-a-living
+source_file: Elder Alexander - Trading For A Living.pdf
+source_review: partial
+tags:
+- psychology
+- indicators
+- money-management
+- triple-screen
+- force-index
+- elder-ray
+tier: A
+title: Trading for a Living
+year: 1993
 ---
 
 ## Overview

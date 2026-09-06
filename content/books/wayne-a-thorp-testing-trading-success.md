@@ -1,17 +1,31 @@
 ---
-title: "How to Test and Interpret Trading System Performance"
 author: Wayne A. Thorp
-year: 2001
-slug: wayne-a-thorp-testing-trading-success
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [backtesting, system-testing, optimization, slippage, commissions, money-management-stops]
 difficulty: intermediate
 doc_type: article
+one_liner: AAII Journal article showing, with a worked 20-year example, how commissions,
+  slippage, margin, stops and idle interest each swing a mechanical system's reported
+  returns.
 pages: 5
-one_liner: "AAII Journal article showing, with a worked 20-year example, how commissions, slippage, margin, stops and idle interest each swing a mechanical system's reported returns."
-related: [wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator, wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds, balsara-nauzer-j-money-management-strategies-for-futures-traders, jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual]
-source_file: "Wayne A. Thorp - Testing Trading Success.pdf"
+related:
+- wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+- wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+reviewed_pdf_pages: 1-5
+slug: wayne-a-thorp-testing-trading-success
+source_file: Wayne A. Thorp - Testing Trading Success.pdf
+source_review: full
+tags:
+- backtesting
+- system-testing
+- optimization
+- slippage
+- commissions
+- money-management-stops
+tier: B
+title: How to Test and Interpret Trading System Performance
+year: 2001
 ---
 
 ## Summary

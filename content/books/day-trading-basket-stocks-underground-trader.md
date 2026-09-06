@@ -1,17 +1,31 @@
 ---
-title: "Daytrading Basket Stocks: The Undergroundtrader.com Way"
-author: "Unknown"
-year: unknown
-slug: day-trading-basket-stocks-underground-trader
-tier: B
-category: "Day Trading & Scalping"
+author: Unknown
+category: Day Trading & Scalping
 difficulty: intermediate
-tags: [scalping, level-2, basket-stocks, nasdaq-futures, stochastics, momentum, intraday]
 doc_type: manual
+one_liner: Slide-deck manual for scalping a correlated basket of Nasdaq stocks using
+  Level 2, NQ futures ('noodles'), and 1-/3-minute stochastic synergy signals.
 pages: 36
-one_liner: "Slide-deck manual for scalping a correlated basket of Nasdaq stocks using Level 2, NQ futures ('noodles'), and 1-/3-minute stochastic synergy signals."
-related: [lbr-scalp-setups, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading, position-sizing]
-source_file: "Day Trading Basket Stocks - Underground Trader.pdf"
+related:
+- lbr-scalp-setups
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+- position-sizing
+reviewed_pdf_pages: 4, 6, 14, 23, 25, 28-29, 31 (the indicator set, consistency target
+  and the intraday time-window map)
+slug: day-trading-basket-stocks-underground-trader
+source_file: Day Trading Basket Stocks - Underground Trader.pdf
+source_review: partial
+tags:
+- scalping
+- level-2
+- basket-stocks
+- nasdaq-futures
+- stochastics
+- momentum
+- intraday
+tier: B
+title: 'Daytrading Basket Stocks: The Undergroundtrader.com Way'
+year: unknown
 ---
 
 ## Summary

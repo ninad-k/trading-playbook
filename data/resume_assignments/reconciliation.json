@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "17-money-making-candle-formations",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "17-money-making-candlestick-formations2"
+  },
+  {
+    "slug": "a-new-interprtation-of-information-rate-kelly",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Same Kelly 1956 paper; this copy's text layer is garbled",
+    "dup_of": "kellybetting"
+  },
+  {
+    "slug": "appendix1",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "MQL4 programming appendix",
+    "dup_of": null
+  },
+  {
+    "slug": "basic-financial-strategies",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "OCR full page is household budget/debt/life-planning checklist, no trading analysis.",
+    "dup_of": null
+  },
+  {
+    "slug": "bollinger-bandit-trading-strategy",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
+  },
+  {
+    "slug": "client-expectations",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Financial adviser marketing flyer",
+    "dup_of": null
+  },
+  {
+    "slug": "daytrading-university-trading-course",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "corrupt",
+    "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented.",
+    "dup_of": null
+  },
+  {
+    "slug": "eday-trading-in-mind",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "daytradingmind"
+  },
+  {
+    "slug": "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "The zero-page file is corrupt and cannot be rendered; a source-reviewed canonical note and ACD method page already cover the same title.",
+    "dup_of": "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness"
+  },
+  {
+    "slug": "fx-engines-predicting-price-action",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Exact duplicate of forex-report-predicting-price-movement by page count, word count, title, authors, method, tables, and action text; no independent evidence.",
+    "dup_of": "forex-report-predicting-price-movement"
+  },
+  {
+    "slug": "fx-crossing-over-to-the-forex-market-2",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Exact SHA-1 duplicate of the reviewed three-page canonical article.",
+    "dup_of": "fx-crossing-over-to-the-forex-market"
+  },
+  {
+    "slug": "gann-w-d-1953-magic-words",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Religious/numerology tract, not a trading text",
+    "dup_of": null
+  },
+  {
+    "slug": "giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "how-large-is-liquidity-risk-in-an-automated"
+  },
+  {
+    "slug": "greatestmoneymakingsecret",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Prosperity/spirituality book (Joe Vitale)",
+    "dup_of": null
+  },
+  {
+    "slug": "how-effective-is-automated-forex-trading",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Vendor advertisement, no content",
+    "dup_of": null
+  },
+  {
+    "slug": "insurances-strategies",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "OCR full page is personal insurance adviser checklist, no trading method.",
+    "dup_of": null
+  },
+  {
+    "slug": "jen-matshall-practical-fibonacci-methode-for-forex-trading",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Same title, authors, 31-page structure, rules, examples, stop guidance, and conclusion as the canonical copy; only an added website footer differs.",
+    "dup_of": "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005"
+  },
+  {
+    "slug": "masteelliowav",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Both 168-page scans have the same title metadata, cover, sampled interiors, and near-identical recovered OCR; differences reflect scan compression.",
+    "dup_of": "glenn-neely-masterelliotwav-low-quality"
+  },
+  {
+    "slug": "money-management-for-gambler",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "corrupt",
+    "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented.",
+    "dup_of": null
+  },
+  {
+    "slug": "moriarty-sfsg",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Regulatory disclosure form",
+    "dup_of": null
+  },
+  {
+    "slug": "new-concepts-in-technical-trading-systems-welles-wilder",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "corrupt",
+    "reason": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented.",
+    "dup_of": null
+  },
+  {
+    "slug": "pis-fsg",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Financial Services Guide / privacy policy",
+    "dup_of": null
+  },
+  {
+    "slug": "place-of-insurance",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "OCR full page is personal life/income insurance primer, not trading.",
+    "dup_of": null
+  },
+  {
+    "slug": "plan-process",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Financial planner onboarding flowchart",
+    "dup_of": null
+  },
+  {
+    "slug": "super-combo-day-trading-strategy",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
+  },
+  {
+    "slug": "the-forex-method-and-trading-strategies-that-keep-you-on-the-right-side-of-the-market",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "Sales letter only, no method",
+    "dup_of": null
+  },
+  {
+    "slug": "thermostat-trading-strategy",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "duplicate",
+    "reason": "Previously reviewed duplicate",
+    "dup_of": "george-pruitt-building-winning-trading-systems-with-tradestation"
+  },
+  {
+    "slug": "trading-functions",
+    "previous_tier": "C",
+    "tier": "C",
+    "status": "off_topic",
+    "reason": "MQL4 API function reference, no trading content",
+    "dup_of": null
+  }
+]

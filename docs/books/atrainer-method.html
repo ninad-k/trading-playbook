@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATrainer Method — Unknown · Trading Playbook</title>
+<meta name="description" content="A forum-posted breakout system combining a 1-period MA, a standard-deviation-based moving-average envelope, and DMI (+DI/-DI) crossovers, tuned for 20-pip EUR/USD gains.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>ATrainer Method</h1>
+  <p class="byline">Unknown · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A forum-posted breakout system combining a 1-period MA, a standard-deviation-based moving-average envelope, and DMI (+DI/-DI) crossovers, tuned for 20-pip EUR/USD gains.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-3. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=moving-average-envelope">moving-average-envelope</a> <a class="tag" href="../search.html?q=dmi">dmi</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=discretionary-system">discretionary-system</a> <a class="tag" href="../search.html?q=eur-usd">eur-usd</a> </td></tr>
+    <tr><th>Length</th><td>3 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “ATrainer Method” by Unknown at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A trading-forum write-up describing a self-developed system that replaces a conventional slow moving average with a moving-average (MA) envelope calibrated to roughly a 0.5 standard-deviation width (matched visually against a 0.5 Bollinger Band at pivot points, then the Bollinger is discarded), paired with a 1-period MA of price as the &ldquo;fast&rdquo; line and DMI +DI/-DI crossovers as a confirming oscillator. The author trades it with discretion rather than as a pure mechanical system, primarily to catch ~20 pip moves in EUR/USD on a 30-minute chart.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>The &ldquo;fast MA&rdquo; is simply price plotted as a 1-period moving average (no lag), which the author found filters noise better than expected despite being unsmoothed.</li>
+<li>The &ldquo;slow&rdquo; component is not a moving average but an MA envelope, sized to roughly a 0.5 standard deviation — calibrated by overlaying a 0.5-setting Bollinger Band, matching envelope width to Bollinger width at major pivots, then dropping the Bollinger.</li>
+<li>The envelope&rsquo;s key property (unlike a Bollinger Band) is that it narrows during strong breakouts (giving price room to run outside it) and holds steady width during consolidation, rather than widening on breakouts and squeezing in consolidation like a Bollinger Band.</li>
+<li>DMI is used only for its +DI/-DI crossover; the author explicitly does not use the ADX line.</li>
+<li>Highest-probability signal: an MA-envelope cross confirmed by a simultaneous +DI/-DI crossover.</li>
+<li>Lower-probability continuation signal: a re-entry into the envelope followed by a new breakout, with DMI still favoring the same direction; trendlines drawn on the DMI lines are used for early exits near tops/bottoms.</li>
+<li>A signal is treated as false if price closes back inside the envelope and DMI recrosses within two bars of the signal.</li>
+<li>Author&rsquo;s own settings: 10-period MA envelope at a 0.04 shift and a 10-bar DMI on a 30-minute EUR/USD chart; a 20-period envelope is offered as a more conservative variant.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Plot price as a 1-period MA (fast line) alongside an MA envelope calibrated to ~0.5 standard deviation width (found by matching against a 0.5 Bollinger Band at pivots, then removing the Bollinger).</li>
+<li>Add a DMI with a 10-bar period; use only the +DI/-DI cross, ignore ADX.</li>
+<li>Primary entry: MA-envelope breakout confirmed by a simultaneous +DI over -DI (or vice versa) crossover.</li>
+<li>Secondary/continuation entry: re-entry into the envelope followed by a fresh breakout while DMI still favors the same direction; lower probability than the primary signal.</li>
+<li>Exit/false-signal rule: if price closes back inside the envelope and DMI recrosses within 2 bars, treat the original signal as false.</li>
+<li>Author&rsquo;s tested settings: 10-period MA envelope, 0.04 shift, 10-bar DMI, 30-minute EUR/USD chart, targeting ~20 pip gains.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Posted with the explicit admission that the author lacks backtesting capability and &ldquo;can&rsquo;t optimize&rdquo; the 0.5 standard-deviation parameter — it is a heuristic, not a validated setting. The author states the system is traded &ldquo;with a large amount of discretion,&rdquo; and the entry rules for the two-bar false-signal filter and trendline-based DMI exits are described loosely rather than as precise, codeable rules. No track record, win rate, or drawdown data is given. Author identity and publication date are unknown (informal forum/PDF repost).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Discretionary forex traders interested in an alternative to Bollinger Bands for envelope-based breakout trading, willing to backtest and formalize the loosely specified rules themselves.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/bollinger-band.html">Bollinger Bands: Using Volatility</a> — Uses Bollinger Band Width to distinguish volatility contraction from expansion and add context to breakouts and oscillator signals.</li><li><a href="../books/macd.html">Moving Average Convergence-Divergence (MACD)</a> — Brief primer on the MACD indicator&#39;s construction, crossover/overbought-oversold/divergence uses, and the author&#39;s own multi-timeframe trend-filter approach.</li><li><a href="../books/six-forces-of-forex.html">The Six Forces of Forex</a> — Conceptual framework (Who/Why/Where/What/When/How) for building a forex trading plan, from FX Engines&#39; promotional &#39;Forex Report&#39; series.</li><li><a href="../books/wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator.html">Measuring Internal Strength: Wilder&#39;s RSI Indicator</a> — AAII Journal primer on Wilder&#39;s RSI covering its calculation, overbought/oversold use, divergence signals, failure swings, and the indicator&#39;s breakdown in trending markets.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

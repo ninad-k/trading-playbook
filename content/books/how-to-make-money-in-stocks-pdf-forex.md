@@ -1,17 +1,33 @@
 ---
-title: "How to Make Money in Stocks"
 author: William J. O'Neil
-year: 1994
-slug: how-to-make-money-in-stocks-pdf-forex
-tier: A
-category: "Investing, Value & Market History"
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: 'O''Neil''s CAN SLIM system for finding growth-stock winners: strong current
+  and annual earnings, new highs off a proper base, and a market-direction filter,
+  paired with strict numeric sell rules (8% stop, 20-25% profit target).'
 pages: 142
-tags: [can-slim, growth-investing, relative-strength, chart-patterns, sell-rules, market-timing, institutional-sponsorship]
-one_liner: "O'Neil's CAN SLIM system for finding growth-stock winners: strong current and annual earnings, new highs off a proper base, and a market-direction filter, paired with strict numeric sell rules (8% stop, 20-25% profit target)."
-related: [tom-dorsey-s-trading-tips-a-playbook-for-stock-market-success, jack-schwager-stock-market-wizards, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "How To Make Money In Stocks(pdf) forex.pdf"
+related:
+- tom-dorsey-s-trading-tips-a-playbook-for-stock-market-success
+- jack-schwager-stock-market-wizards
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 4, 6, 10-11 (contents, the CAN SLIM criteria with their earnings
+  thresholds and the base/pivot definitions)
+slug: how-to-make-money-in-stocks-pdf-forex
+source_file: How To Make Money In Stocks(pdf) forex.pdf
+source_review: partial
+tags:
+- can-slim
+- growth-investing
+- relative-strength
+- chart-patterns
+- sell-rules
+- market-timing
+- institutional-sponsorship
+tier: A
+title: How to Make Money in Stocks
+year: 1994
 ---
 
 ## Overview

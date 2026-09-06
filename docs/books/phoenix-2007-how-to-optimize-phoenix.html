@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Optimize Phoenix&#39;s Settings — VinceTheBeast · Trading Playbook</title>
+<meta name="description" content="A forum-written walkthrough for optimizing the settings of the &#39;Phoenix&#39; MetaTrader expert advisor using the Strategy Tester&#39;s parameter-sweep function.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>How to Optimize Phoenix&#39;s Settings</h1>
+  <p class="byline">VinceTheBeast · 2007 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A forum-written walkthrough for optimizing the settings of the &#39;Phoenix&#39; MetaTrader expert advisor using the Strategy Tester&#39;s parameter-sweep function.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1, 8-9 (the prerequisites and the worked optimization sweeps). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=expert-advisor">expert-advisor</a> <a class="tag" href="../search.html?q=metatrader">metatrader</a> <a class="tag" href="../search.html?q=optimization">optimization</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=envelope">envelope</a> <a class="tag" href="../search.html?q=walk-forward">walk-forward</a> </td></tr>
+    <tr><th>Length</th><td>10 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “How to Optimize Phoenix&#39;s Settings” by VinceTheBeast at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A community-written how-to guide for optimizing the parameters of &ldquo;Phoenix,&rdquo; a MetaTrader4 forex expert advisor (EA) built by a user named &ldquo;Hendrick.&rdquo; It is a software/process manual, not a strategy description: it walks through the MetaTrader Strategy Tester UI, setting up baseline data (six months, M15 bars, &ldquo;every tick&rdquo; modeling), verifying settings transferred correctly, then running iterative parameter sweeps (coarse range first, then narrowed range) on the EA&rsquo;s signal parameters, followed by take-profit/stop-loss, and finally risk-management add-ons (trailing stop, break-even, close-after-hours).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Optimizing improves back-tested results but is explicitly stated to be no guarantee of live-account performance.</li>
+<li>The EA&rsquo;s settings (currency pair, timeframe, TP, SL, and each signal) are described as needing to be kept &ldquo;in balance&rdquo; — changing one parameter requires re-optimizing the others rather than tweaking in isolation.</li>
+<li>Recommended workflow: optimize each signal parameter individually first (coarse step size, then a narrower range around the best result), only optimize combined signals afterward, and address TP/SL/other money-management settings last.</li>
+<li>A parameter found at the edge of its tested range (its &ldquo;Stop&rdquo; value) is flagged as a warning that the true optimum lies outside the tested range and the sweep should be widened.</li>
+<li>Maximum profit alone is treated as a misleading metric; the author explicitly weighs drawdown against profit (e.g., preferring a lower-profit result with an 8% drawdown over a higher-profit result with 50% drawdown).</li>
+<li>The guide references a prerequisite (&ldquo;Hendrick&rsquo;s manual on getting 90% modeling quality&rdquo;) as required reading before any of this optimization is meaningful.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Back-test using &ldquo;Every tick&rdquo; modeling quality and roughly six months of data before optimizing.</li>
+<li>Optimize signal parameters individually first with a coarse step size, then re-run with a narrower range centered on the best result.</li>
+<li>If the best-found value sits at the edge of the tested range, re-run the sweep with that range shifted/widened.</li>
+<li>After finding acceptable values for each signal individually, re-test them together (retesting one unit above/below each found value) to confirm the combination still holds.</li>
+<li>Optimize TP/SL last, starting with a wide range (e.g., 0-100 pips, step 10) then narrowing around the best result (e.g., ±5 pips, step 1).</li>
+<li>Reject the highest-profit parameter set if it carries disproportionately higher drawdown than a nearby, slightly-lower-profit set.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is a process guide for one specific, non-public commercial/community EA (&ldquo;Phoenix,&rdquo; version 5.6.03) whose actual trading logic, signals, and rules are never described — only how to tune it inside MetaTrader&rsquo;s Strategy Tester. It has no value as a standalone trading strategy and is really a generic lesson in walk-forward-style parameter optimization and overfitting awareness applied to a black-box system the reader must already own. Written in 2007 for an old MT4 build; UI details are dated.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Owners of the Phoenix EA (or readers wanting a concrete, low-level example of how retail forex traders historically approached EA parameter optimization and the curve-fitting risks around it).</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/automated-forex-ea.html">Automated Forex EAs</a> — A vendor essay recommends evaluating automated FX systems by fixed-lot live results, drawdown, stops, and diversification.</li><li><a href="../books/trade-easy-with-an-automated-forex-trading-system.html">Trade Easy with an Automated Forex Trading System</a> — Short promotional article on the case for automated forex trading, ending with a rule on riding out a system&#39;s drawdown rather than chasing hot streaks.</li><li><a href="../books/jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual.html">Jack Schwager&#39;s Guide to Winning with Automated Trading Systems</a> — A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system&#39;s backtest performance report.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

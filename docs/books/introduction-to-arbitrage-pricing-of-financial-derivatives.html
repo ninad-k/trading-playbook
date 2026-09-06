@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introduction to Arbitrage Pricing of Financial Derivatives — Marek Rutkowski · Trading Playbook</title>
+<meta name="description" content="Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Introduction to Arbitrage Pricing of Financial Derivatives</h1>
+  <p class="byline">Marek Rutkowski · 1997 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-3, 10 (the binomial worked example and the replication argument). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=arbitrage-pricing">arbitrage-pricing</a> <a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=binomial-model">binomial-model</a> <a class="tag" href="../search.html?q=martingale">martingale</a> <a class="tag" href="../search.html?q=risk-neutral-valuation">risk-neutral-valuation</a> <a class="tag" href="../search.html?q=replicating-portfolio">replicating-portfolio</a> <a class="tag" href="../search.html?q=academic-reference">academic-reference</a> </td></tr>
+    <tr><th>Length</th><td>19 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Introduction to Arbitrage Pricing of Financial Derivatives” by Marek Rutkowski at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A lecture-note style excerpt (based on Musiela and Rutkowski&rsquo;s &ldquo;Martingale Methods in Financial Modelling&rdquo;) that builds the theory of arbitrage-free option pricing from first principles. It starts with call and put payoff definitions and put-call parity, then works a fully worked one-period binomial example (a $280 stock that can move to $320 or $260) to show that a European call&rsquo;s fair price is determined not by subjective probability assumptions but by constructing a replicating portfolio of stock and cash. It then formalizes this using risk-neutral (martingale) probability measures, proves the risk-neutral valuation formula, and extends the same machinery from spot markets to futures markets, ending with multi-period pricing.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Frictionless-market assumptions throughout: no transaction costs, unlimited borrowing/lending at equal rates, perfectly divisible assets, full use of short-sale proceeds.</li>
+<li>A European option&rsquo;s payoff depends only on the terminal stock price; the worked example gives a call payoff of $40 up / $0 down for a $280 strike.</li>
+<li>&ldquo;Expected discounted payoff&rdquo; under a trader&rsquo;s subjective probability isn&rsquo;t a reliable price — it shifts with a bull vs. bear view, which is why replication is needed instead.</li>
+<li>A unique arbitrage-free price comes from a portfolio of stock and a risk-free bond that exactly replicates the option&rsquo;s payoff in both states.</li>
+<li>The risk-neutral (martingale) measure P* is a mathematical tool, not a claim real-world investors are risk-neutral — it exists precisely when the discounted stock price process has no arbitrage.</li>
+<li>The same logic extends to pricing derivatives on futures contracts with a modified martingale measure for the futures price.</li>
+<li>Put-call parity falls directly out of the algebraic relationship between call and put payoffs.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given in trading terms — this is a pure derivatives-pricing theory text. Its practical relevance for a trader: the replicating-portfolio logic is the theoretical basis for options market-making, delta hedging, and understanding why an option&rsquo;s &ldquo;fair value&rdquo; does not depend on your own market view.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Written at an advanced mathematical level (measure-theoretic probability, martingale theory) drawn from a graduate textbook chapter, not aimed at practitioners looking for trading rules. Only European-style options and idealized frictionless markets are treated in the parts reviewed; American option pricing is explicitly noted in the text as lacking closed-form solutions even under Black-Scholes assumptions.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quants, derivatives traders, and finance graduate students who want a rigorous, step-by-step derivation of why arbitrage-free option pricing works, starting from a simple two-state example before generalizing to full martingale pricing theory.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/interest-rate-models.html">Interest-Rate Models</a> — Encyclopedia article surveying arbitrage-free term-structure models from Vasicek through Heath-Jarrow-Morton and Markov-functional approaches.</li><li><a href="../books/the-mathematics-of-financial-modeling-and-investment-management.html">The Mathematics of Financial Modeling and Investment Management</a> — 801-page graduate reference covering the full math toolkit behind modern portfolio theory, derivatives pricing, and fixed-income modeling.</li><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

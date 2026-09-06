@@ -1,17 +1,27 @@
 ---
-title: "Valuation of Cash Flows: Investment Decisions and Capital Budgeting"
-author: "Alon Brav, Campbell R. Harvey, Stephen Gray, Ernst Maug"
-year: 1999
-slug: valuation-of-cash-flows-investment-decisions-capital-bud
-tier: B
-category: "Investing, Value & Market History"
-tags: [capital-budgeting, net-present-value, irr, payback-period, profitability-index, discounted-cash-flow, corporate-finance]
+author: Alon Brav, Campbell R. Harvey, Stephen Gray, Ernst Maug
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: course
+one_liner: Global Financial Management lecture notes covering NPV, IRR, payback period
+  and the profitability index for corporate investment decisions.
 pages: 32
-one_liner: "Global Financial Management lecture notes covering NPV, IRR, payback period and the profitability index for corporate investment decisions."
 related: []
-source_file: "Valuation Of Cash Flows Investment Decisions Capital Bud.pdf"
+reviewed_pdf_pages: 1, 7 and the NPV/IRR sections checked against the note
+slug: valuation-of-cash-flows-investment-decisions-capital-bud
+source_file: Valuation Of Cash Flows Investment Decisions Capital Bud.pdf
+source_review: partial
+tags:
+- capital-budgeting
+- net-present-value
+- irr
+- payback-period
+- profitability-index
+- discounted-cash-flow
+- corporate-finance
+tier: B
+title: 'Valuation of Cash Flows: Investment Decisions and Capital Budgeting'
+year: 1999
 ---
 
 ## Summary

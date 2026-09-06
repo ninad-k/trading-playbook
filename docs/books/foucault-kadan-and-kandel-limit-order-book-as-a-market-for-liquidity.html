@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Limit Order Book as a Market for Liquidity — Thierry Foucault, Ohad Kadan, Eugene Kandel · Trading Playbook</title>
+<meta name="description" content="Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Limit Order Book as a Market for Liquidity</h1>
+  <p class="byline">Thierry Foucault, Ohad Kadan, Eugene Kandel · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Theoretical model shows market resiliency after liquidity shocks rises with the share of patient traders and falls with order arrival rate and tick size.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3, 46 and the model sections checked against the note. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=limit-order-book">limit-order-book</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=market-resiliency">market-resiliency</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>65 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Limit Order Book as a Market for Liquidity” by Thierry Foucault, Ohad Kadan, Eugene Kandel at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how does traders&rsquo; impatience shape order choice, spread dynamics, and how quickly a limit order market recovers after a liquidity shock? Method: a dynamic equilibrium model of an order-driven market where liquidity traders arrive sequentially, are randomly patient or impatient, and choose between market and limit orders to minimize execution cost. Finding: patient traders supply liquidity to impatient traders; market &ldquo;resiliency&rdquo; (the probability the spread reverts to its competitive level before the next trade) rises with the share of patient traders and falls with the order arrival rate; and reducing the minimum tick size can paradoxically widen average spreads by letting limit orders sit less aggressively.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Liquidity has three dimensions (Harris, 1990): tight (small spread), deep (large size), resilient (spread reverts quickly) — this paper&rsquo;s focus is resiliency, the least-studied of the three.</li>
+<li>Traders must trade for exogenous reasons and are randomly patient or impatient; only the trade-off between waiting cost and immediacy cost drives order choice.</li>
+<li>Patient traders bid more aggressively (tighter limit prices) when expected waiting time is longer — i.e. when patient traders are scarce or arrivals are frequent.</li>
+<li>Resiliency is maximal only when all traders share the same patience level; heterogeneity leaves a meaningful chance the spread stays wide until the next trade.</li>
+<li>Markets dominated by impatient traders show spreads skewed wide and are less resilient.</li>
+<li>A smaller tick size can reduce resiliency and increase the average spread where impatient traders dominate, because it lets patient traders shade their limit prices by less.</li>
+<li>Predicts a positive correlation between trading frequency and spread, controlling for arrival rate, and predicts spreads and trading frequency rise while limit-order aggressiveness falls over the trading day.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a theoretical microstructure model, not a trading system. Practical read for traders: expect wider, less resilient spreads around news events or the close, when urgency-driven order flow dominates, and don&rsquo;t assume a smaller tick size automatically means tighter realized spreads, particularly in less liquid names.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Highly mathematical equilibrium model with simplifying assumptions (a discrete K-tick price grid, only two patience types; the paper shows its baseline results survive relaxing the assumption that buyers and sellers strictly alternate). Several predictions, including the intraday decline in limit-order aggressiveness, are explicitly flagged by the authors as untested against real data at the time of writing.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers and advanced traders interested in why bid-ask spreads widen after order flow shocks and how tick size and order-arrival intensity affect market resiliency.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/foucault-and-kadan-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — A dynamic microstructure model showing how the mix of patient vs. impatient traders, tick size, and order arrival rate jointly determine spreads and limit-order execution time.</li><li><a href="../books/chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity.html">Market Liquidity and Trading Activity</a> — Journal of Finance (2001) study of 11 years of NYSE data finding aggregate market liquidity and trading volume are highly volatile, decline sharply in down markets, and show strong day-of-week patterns (weak on Fridays, strong on Tuesdays).</li><li><a href="../books/hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets.html">Liquidity Supply and Demand in Limit Order Markets</a> — A structural model links limit-versus-market order choice to immediacy, execution probability, and picking-off risk.</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

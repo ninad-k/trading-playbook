@@ -1,18 +1,29 @@
 ---
-title: Optimal f, Fixed-Fractional Sizing, and Risk-of-Ruin Allocation
 author: Nauzer J. Balsara
-year: 1992
-slug: balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing
-tier: A
 category: Money Management & Position Sizing
-tags: [optimal-f, kelly-criterion, fixed-fractional, risk-of-ruin, position-sizing, pyramiding]
 difficulty: advanced
 doc_type: system
-parent: balsara-nauzer-j-money-management-strategies-for-futures-traders
+one_liner: 'The formula set for sizing futures positions: fixed-fractional and Kelly/optimal-f
+  exposure, risk-of-ruin control, multi-commodity allocation, and pyramiding of open
+  profits.'
 pages: 137
-one_liner: "The formula set for sizing futures positions: fixed-fractional and Kelly/optimal-f exposure, risk-of-ruin control, multi-commodity allocation, and pyramiding of open profits."
-related: [a-new-interprtation-of-information-rate-kelly, position-sizing, forex-misc-money-management-ryan-jones]
-source_file: "BALSARA, Nauzer J. - Money Management Strategies for Futures Traders.pdf"
+parent: balsara-nauzer-j-money-management-strategies-for-futures-traders
+related:
+- kellybetting
+- position-sizing
+- forex-misc-money-management-ryan-jones
+slug: balsara-nauzer-j-money-management-strategies-for-futures-traders--optimal-f-and-risk-of-ruin-position-sizing
+source_file: BALSARA, Nauzer J. - Money Management Strategies for Futures Traders.pdf
+tags:
+- optimal-f
+- kelly-criterion
+- fixed-fractional
+- risk-of-ruin
+- position-sizing
+- pyramiding
+tier: A
+title: Optimal f, Fixed-Fractional Sizing, and Risk-of-Ruin Allocation
+year: 1992
 ---
 
 ## What it is

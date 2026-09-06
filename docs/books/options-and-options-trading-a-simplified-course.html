@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Options and Options Trading: A Simplified Course — Robert W. Ward · Trading Playbook</title>
+<meta name="description" content="Builds option pricing from coin-toss probability up through the Black-Scholes formula, then argues no strategy is an automatic winner and the real edge is order flow, customer business, and reading volatility.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Options and Options Trading: A Simplified Course</h1>
+  <p class="byline">Robert W. Ward · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">beginner</span></p>
+  <p class="lead">Builds option pricing from coin-toss probability up through the Black-Scholes formula, then argues no strategy is an automatic winner and the real edge is order flow, customer business, and reading volatility.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 3-4, 25, 27-29, 36, 71, 75 (moneyness and Greeks definitions, the binomial chapters and the conversion/reversal mechanics). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=binomial-model">binomial-model</a> <a class="tag" href="../search.html?q=greeks">greeks</a> <a class="tag" href="../search.html?q=delta-hedging">delta-hedging</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=probability">probability</a> <a class="tag" href="../search.html?q=derivatives">derivatives</a> </td></tr>
+    <tr><th>Length</th><td>405 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Options and Options Trading: A Simplified Course” by Robert W. Ward at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Ward, a former head trader in gold and foreign exchange derivatives, wrote this as a from-scratch derivatives primer aimed at readers with no math background. Part One builds intuition using coin-toss probability (binomial trees, Pascal&rsquo;s triangle, frequency distributions) and applies it to a running IBM stock-option example. Part Two extends that groundwork into &ldquo;the Formula,&rdquo; walking through a skeleton option-pricing model up to Black-Scholes itself, including volatility and the model&rsquo;s known weaknesses. Part Three turns to trading: a primer on risk and hedging, the Greeks, how professional trading desks actually make money (mostly from customers, not forecasting), converting puts into calls and back, a survey of the most common option strategies, and a closing chapter of &ldquo;market insights and edges.&rdquo; Each chapter ends with a key-concepts review and practice questions (answers in a back-of-book answer key), reflecting its origin as a course text rather than a strategy manual.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Option pricing is not black magic — it is built from the same probability logic as counting the outcomes of coin tosses, and once a reader accepts that, the Black-Scholes formula becomes a transparent (if imperfect) codification of intuitive ideas rather than an opaque black box. But understanding the pricing math is not the same as having a trading edge. The book&rsquo;s second, more cynical thesis (Part Three) is that no option strategy is inherently profitable — under fair pricing all strategies break even before costs — and that professional traders&rsquo; real profits come from customer order flow, bid/ask spreads, information advantages, and off-market pricing of private deals, not from clever formulas or &ldquo;mispriced&rdquo; options. For a self-directed trader, the only legitimate edges are a genuinely better-than-average opinion about future volatility and price direction, and discipline about costs.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Binomial tree / coin-toss model</strong> — the number of paths to each outcome of N coin tosses (2^N total paths, N+1 outcomes) mirrors the logic behind the Cox-Ross-Rubinstein binomial option model; frequency counts follow Pascal&rsquo;s triangle (1-4-6-4-1 pattern for four tosses).</li>
+<li><strong>Moneyness</strong> — at-the-money (strike = spot), in-the-money (exercising now nets a profit), out-of-the-money (exercising now would lose money); illustrated with a $100 IBM stock and a ladder of strikes from $80–$120.</li>
+<li><strong>Cash, forward, and futures markets</strong> — three venues for the same underlying that trade in line with each other except around delivery frictions; futures are standardized/exchange-traded (fungible, liquid), forwards are bespoke dealer-to-client contracts (invitation-only, less liquid).</li>
+<li><strong>Spot-to-forward pricing (S·e^rT)</strong> — the forward price is the spot price compounded at the risk-free rate to the delivery date; this is why an at-the-money call costs more than an at-the-money put of the same strike and tenor (the forward, not the spot, is the &ldquo;fair&rdquo; reference price).</li>
+<li><strong>Delta</strong> — the option&rsquo;s rate of price change relative to a $1 move in the underlying (0.00–1.00 for calls), also called the hedge ratio; interpreted loosely as an approximate probability of finishing in-the-money.</li>
+<li><strong>Gamma</strong> — the rate of change of delta (the &ldquo;delta of the delta&rdquo; / the option&rsquo;s &ldquo;acceleration&rdquo;); the source of the mismatch between a static hedge and a moving underlying.</li>
+<li><strong>Theta</strong> — the option&rsquo;s time decay, measured typically per day or per week of remaining life.</li>
+<li><strong>Vega (kappa)</strong> — the option&rsquo;s sensitivity to a percentage-point change in implied volatility.</li>
+<li><strong>Rho</strong> — sensitivity to interest rates (rho 1) and, separately, to dividends (rho 2, described as much harder to hedge).</li>
+<li><strong>Delta neutral</strong> — a position built so component deltas net to zero, removing first-order directional exposure; the book argues this is far less automatically profitable than academic theory suggests once real-world costs are included.</li>
+<li><strong>Implied vs. statistical (historical) volatility</strong> — implied volatility is backed out of an option&rsquo;s market price via a pricing model; statistical volatility is computed from realized past price changes; the book frames forecasting the gap between them as the central skill in options.</li>
+<li><strong>CPL.PCS (put-call-long / put-call-short)</strong> — mnemonic (&ldquo;Corporal Paces&rdquo;) for the two synthetic-equivalence formulas: Call − Put = Long, and Put − Call = Short, used to convert between puts, calls, and stock.</li>
+<li><strong>Mispriced options</strong> — the book argues genuine, persistent option mispricing is effectively undetectable in practice (&ldquo;phantoms&rdquo;); apparent edges are usually relative (cross-strike/cross-maturity) rather than absolute.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is a pricing-theory and market-structure course, not a signal-based trading system — it gives no entries, stops, or position-sizing formulas for directional trading. Its actionable content is a set of mechanical construction/conversion rules and a strategy-selection map:</p>
+<ol>
+<li><strong>Conversion mechanics (CPL.PCS).</strong> To build a synthetic call: buy the put and buy the equivalent long stock (Call = Put + Long). To build a synthetic put: buy the call and sell the equivalent stock short (Put = Call + Short).</li>
+<li><strong>Conversion validity conditions.</strong> For a conversion or reverse conversion to be a true (near risk-free) hedge: (a) put and call strikes must match exactly; (b) expirations must match exactly; (c) the stock leg must be executed in the market that corresponds to the option type (spot stock for spot options, futures for futures options); (d) share count must offset precisely (1 option contract = 100 shares); (e) all legs must be placed simultaneously at prevailing prices — &ldquo;lifting a leg&rdquo; (executing legs sequentially) adds uncompensated risk.</li>
+<li><strong>Pit-trader rule of thumb for conversions.</strong> Whatever you do with the put, do the same with the stock (buy the put → buy the stock as the offset; sell the put → sell the stock).</li>
+<li><strong>Strategy-to-market-view map</strong> (Ch. 21, non-numeric but concrete): covered write / buy-write for a flat-to-mildly-bullish view; vertical (bull/bear) spreads for a directional view with defined risk; horizontal/calendar spreads to trade time and volatility term structure; ratio writes (e.g., buy 1 ATM call, sell 3 OTM calls) when expecting volatility to fall sharply; back spreads (the reverse ratio) when expecting volatility to rise sharply; long straddle/strangle (same-strike vs. different-strike puts+calls) when expecting a large move or volatility spike; short straddle/strangle for an expected quiet, range-bound market; synthetic long/short (call+put combinations) to replicate stock exposure without holding shares; conversion/reverse conversion to flatten three-legged exposure to near zero.</li>
+<li><strong>Worked straddle example (numbers from the book).</strong> With IBM at $100, the $100 straddle (call $3.50 + put $3.50 = $7.00) breaks even at $93 and $107 by January expiry; the $95/$105 strangle costs $3.40 combined and breaks even at $91.60 and $108.40 — cheaper premium for a wider required move, illustrating the straddle-vs.-strangle cost/breakeven tradeoff.</li>
+<li><strong>General execution discipline.</strong> Never leg into or out of a multi-leg position; treat mispricing claims skeptically — an &ldquo;edge&rdquo; must come from a demonstrably better forecast of future volatility or direction, not from an assumed pricing error.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book frames risk management almost entirely through the Greeks rather than through position-sizing percentages: a trader should know a portfolio&rsquo;s aggregate delta (directional exposure), gamma (how fast delta will move against the trader as price moves), theta (daily cost of holding the position), vega (exposure to a volatility shift), and rho/rho-2 (interest-rate and dividend exposure), and should hedge each dimension deliberately rather than assume a position is safe because it &ldquo;looks&rdquo; balanced. It explicitly warns that &ldquo;there are no perfect hedges&rdquo; — every open position, however offset, retains residual risk (basis risk, gamma risk between rebalances, dividend risk) that can surface violently in a large, seemingly well-hedged portfolio. On delta-neutral trading specifically, the author disputes the Black-Scholes textbook claim that continuous delta hedging is riskless and only earns the risk-free rate: in the real world, borrowing costs exceed the risk-free rate, commissions and bid/ask spreads are nonzero, liquidity is finite, and continuous rebalancing is impossible, so the average delta-neutral trader loses money to these frictions unless the original position carried a built-in mispricing edge. No percentage-of-capital risk limits, stop-loss rules, or position-sizing formulas are given anywhere in the book — risk is managed by measuring and offsetting Greek exposures, not by capping dollar loss per trade.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Psychology is addressed less as trader self-management and more as a market-structure observation: prices are set by emotional humans, not the unemotional statistical models used to value options, so fear and greed create measurable phenomena (volatility skew, panics near popular strangle breakevens) that a disciplined trader can study and exploit. The book explicitly warns against two behavioral traps: (1) treating a good run of profitability as proof of skill, which tempts traders and management to raise position size right before &ldquo;the inevitable bad turn,&rdquo; and (2) listening to confident media commentators and forecasters, since being average in one&rsquo;s opinions guarantees an average (or worse, cost-adjusted negative) return. Its practical psychological prescription, borrowed from a Wayne Gretzky anecdote (&ldquo;skate to where the puck is going to be&rdquo;), is to develop a documented, testable view of how sentiment and volatility are likely to shift — through patient, structured observation — rather than reacting to where the market already is.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — What a derivative is: options, forwards, futures defined; moneyness; cash/forward/futures market structure.</li>
+<li>Ch 2–3 — Binomials, coin tosses, Pascal&rsquo;s triangle: the combinatorial basis for option pricing models.</li>
+<li>Ch 4–5 — Distributions, probabilities, odds, and payoffs: frequency vs. probability distributions, expected payoff logic.</li>
+<li>Ch 6–8 — Writing a first option; strike prices and summation notation; deriving the &ldquo;fair price&rdquo; of an option from expected payoff.</li>
+<li>Ch 9 — Applying the framework to a real instrument: an IBM stock option worked example.</li>
+<li>Ch 10–11 — A statistics crash course; comparing Dow Jones price behavior to coin-toss randomness.</li>
+<li>Ch 12 — Converting spot prices to forward prices (S·e^rT).</li>
+<li>Ch 13–14 — Building a &ldquo;skeleton&rdquo; option formula and arriving at Black-Scholes.</li>
+<li>Ch 15–16 — Volatility&rsquo;s role in the formula; the pros and cons (assumptions and failure modes) of Black-Scholes.</li>
+<li>Ch 17–18 — A primer on risk and hedging; finding and hedging option risk via the Greeks (delta, gamma, theta, vega, rho).</li>
+<li>Ch 19 — How professional traders actually make money: bid/ask spreads, order flow, customer markups, scalping, spreading, arbitrage, off-market private deal pricing.</li>
+<li>Ch 20 — Converting puts and calls (CPL.PCS synthetic-equivalence formulas and pit-trading conversion mechanics).</li>
+<li>Ch 21 — The most common option strategies (covered writes, vertical/horizontal/diagonal/ratio spreads, straddles/strangles, synthetics, conversions) mapped to market views.</li>
+<li>Ch 22 — Market insights and edges: why no strategy is an automatic winner, why claimed mispricings are rarely real, and why volatility forecasting is the central skill.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s genuine strength is pedagogical sequencing: it is unusually careful about building intuition for probability and pricing from first principles before introducing any formula, which makes it a strong on-ramp for a reader with no quantitative background. The tradeoff is that roughly two-thirds of the book (Parts One and Two) is pricing theory and probability education rather than trading material, so a reader looking for concrete setups will find comparatively little until Part Three, and even there the content is a strategy catalog and a set of qualitative market observations rather than a testable rule set. Some content is dated: references to open-outcry pits, &ldquo;SOES,&rdquo; and 2001–2003-era market examples reflect early-2000s market structure that has since moved almost entirely to electronic execution. The book&rsquo;s central claim that professional profits come overwhelmingly from customer flow and market-making rather than forecasting is a useful corrective to retail strategy-selling books, but it also means the book offers little to a reader whose only realistic account type is a retail brokerage account without access to order flow or private deal pricing.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Best suited to a complete beginner who wants to understand where option pricing formulas come from before using them, or an intermediate trader who has learned to run Black-Scholes as a &ldquo;black box&rdquo; and wants the underlying logic explained in plain language. Less useful for a trader who already understands the Greeks and wants concrete, numbered entry/exit/sizing rules for a specific strategy — for that, a strategy-specific book with defined systems is a better fit.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — the formal derivation of the same Black-Scholes formula this book approaches intuitively through coin-toss probability.</li>
+<li><a class="xref" href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — picks up where this book&rsquo;s Greeks chapter leaves off, with numbered entry/adjustment/exit road maps for delta-neutral strategies this book only surveys conceptually.</li>
+<li><a class="xref" href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — the rigorous academic derivative-pricing text this book is a simplified, narrative on-ramp to.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li><li><a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,34 @@
 ---
-title: The Four Biggest Mistakes in Futures Trading
 author: Jay Kaeppel
-year: 2000
-slug: jay-kaeppel-the-four-biggest-mistakes-in-futures-trading
-tier: A
 category: Money Management & Position Sizing
 difficulty: intermediate
 doc_type: book
-tags: [futures, leverage, position-sizing, risk-control, discipline, optimal-f, stop-loss]
+one_liner: Diagnoses the four errors — no plan, too much leverage, no risk control,
+  no discipline — that cause roughly 90% of futures traders to lose money, with worked
+  formulas for each.
 pages: 123
-one_liner: "Diagnoses the four errors — no plan, too much leverage, no risk control, no discipline — that cause roughly 90% of futures traders to lose money, with worked formulas for each."
-related: [balsara-nauzer-j-money-management-strategies-for-futures-traders, position-sizing, van-tharp-trading-systems, curtis-faith-way-of-the-turtle, money-management-risk-control-for-traders]
-source_file: "Jay Kaeppel - The Four Biggest Mistakes In Futures Trading.pdf"
+related:
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- position-sizing
+- van-tharp-trading-systems
+- curtis-faith-way-of-the-turtle
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 3, 5-6, 8, 15-16, 20, 23, 37-39, 73-75 (the trading-plan and leverage
+  chapters, the leverage-ratio table, and the margin-to-equity risk-control method)
+slug: jay-kaeppel-the-four-biggest-mistakes-in-futures-trading
+source_file: Jay Kaeppel - The Four Biggest Mistakes In Futures Trading.pdf
+source_review: partial
+tags:
+- futures
+- leverage
+- position-sizing
+- risk-control
+- discipline
+- optimal-f
+- stop-loss
+tier: A
+title: The Four Biggest Mistakes in Futures Trading
+year: 2000
 ---
 
 ## Overview

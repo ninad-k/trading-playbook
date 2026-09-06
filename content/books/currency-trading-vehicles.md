@@ -1,17 +1,30 @@
 ---
-title: "Currency Trading Vehicles"
-author: "Windsor Advisory Services"
-year: unknown
-slug: currency-trading-vehicles
-tier: B
+author: Windsor Advisory Services
 category: Forex Mechanics & Macro Drivers
-tags: [forex, leverage, spot-market, forward-market, futures, currency-options, market-structure]
 difficulty: beginner
 doc_type: article
+one_liner: Short broker report comparing spot, forward, futures, and options as ways
+  to trade currencies, arguing options are the best vehicle for limiting risk under
+  leverage.
 pages: 4
-one_liner: "Short broker report comparing spot, forward, futures, and options as ways to trade currencies, arguing options are the best vehicle for limiting risk under leverage."
-related: [quick-guide-to-trade-forex, glossary-of-forex-terms]
-source_file: "Currency_Trading_Vehicles.pdf"
+related:
+- quick-guide-to-trade-forex
+- glossary-of-forex-terms
+reviewed_pdf_pages: 1-4
+slug: currency-trading-vehicles
+source_file: Currency_Trading_Vehicles.pdf
+source_review: full
+tags:
+- forex
+- leverage
+- spot-market
+- forward-market
+- futures
+- currency-options
+- market-structure
+tier: B
+title: Currency Trading Vehicles
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,30 @@
 ---
-title: "Money Management: Controlling Risk and Capturing Profits"
 author: Dave Landry
-year: 1999
-slug: money-management-by-david-landry
-tier: B
 category: Money Management & Position Sizing
-tags: [drawdown, risk-per-trade, position-sizing, stops, pyramiding, portfolio-risk]
 difficulty: intermediate
 doc_type: article
+one_liner: Four-part TradingMarkets series on drawdown math, 17 practical money-management
+  guidelines, and interviews with professional traders on risk control.
 pages: 20
-one_liner: "Four-part TradingMarkets series on drawdown math, 17 practical money-management guidelines, and interviews with professional traders on risk control."
-related: [money-management-report-van-tharp, van-tharp-trading-systems, truth-about-money-management]
-source_file: "Money_Management_by_David_Landry.pdf"
+related:
+- money-management-report-van-tharp
+- van-tharp-trading-systems
+- truth-about-money-management
+reviewed_pdf_pages: 2, 10 (the drawdown arithmetic and the interviewees' risk-per-trade
+  ranges)
+slug: money-management-by-david-landry
+source_file: Money_Management_by_David_Landry.pdf
+source_review: partial
+tags:
+- drawdown
+- risk-per-trade
+- position-sizing
+- stops
+- pyramiding
+- portfolio-risk
+tier: B
+title: 'Money Management: Controlling Risk and Capturing Profits'
+year: 1999
 ---
 
 ## Summary

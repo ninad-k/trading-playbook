@@ -1,17 +1,32 @@
 ---
-title: Market Liquidity and Trading Activity
 author: Tarun Chordia, Richard Roll, and Avanidhar Subrahmanyam
-year: 2001
-slug: chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, liquidity, bid-ask-spread, trading-volume, day-of-week-effect, academic-paper, nyse]
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Finance (2001) study of 11 years of NYSE data finding aggregate
+  market liquidity and trading volume are highly volatile, decline sharply in down
+  markets, and show strong day-of-week patterns (weak on Fridays, strong on Tuesdays).
 pages: 30
-one_liner: "Journal of Finance (2001) study of 11 years of NYSE data finding aggregate market liquidity and trading volume are highly volatile, decline sharply in down markets, and show strong day-of-week patterns (weak on Fridays, strong on Tuesdays)."
-related: [chordia-roll-and-subrahmanyam-commonality-in-liquidity, anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence, liquidity-in-forex-markets, bangia-diebold-schuermann-and-stroughair-modeling-liquidity-risk-with-implications-for-tra]
-source_file: "Chordia, Roll And Subrahmanyam -Market Liquidity And Trading Activity.pdf"
+related:
+- chordia-roll-and-subrahmanyam-commonality-in-liquidity
+- anshumana-and-kalay-can-splits-create-market-liquidity-theory-and-evidence
+- liquidity-in-forex-markets
+- bangia-diebold-schuermann-and-stroughair-modeling-liquidity-risk-with-implications-for-tra
+reviewed_pdf_pages: 3, 6-7, 14, 16 (the sample description and the regression results)
+slug: chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+source_file: Chordia, Roll And Subrahmanyam -Market Liquidity And Trading Activity.pdf
+source_review: partial
+tags:
+- market-microstructure
+- liquidity
+- bid-ask-spread
+- trading-volume
+- day-of-week-effect
+- academic-paper
+- nyse
+tier: B
+title: Market Liquidity and Trading Activity
+year: 2001
 ---
 
 ## Summary

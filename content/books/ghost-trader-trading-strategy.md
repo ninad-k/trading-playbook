@@ -1,17 +1,27 @@
 ---
-title: "The Ghost Trader Trading Strategy"
-author: "George Pruitt, John R. Hill"
-year: 2002
-slug: ghost-trader-trading-strategy
-tier: B
+author: George Pruitt, John R. Hill
 category: Trend Following & Mechanical Systems
-tags: [tradestation-easylanguage, mechanical-system, moving-average, rsi, trade-filtering, backtesting]
 difficulty: advanced
 doc_type: article
+one_liner: Excerpt from Building Winning Trading Systems with TradeStation showing
+  a template that only issues a real trade signal after a simulated 'ghost' trade
+  on the same rules has lost.
 pages: 4
-one_liner: "Excerpt from Building Winning Trading Systems with TradeStation showing a template that only issues a real trade signal after a simulated 'ghost' trade on the same rules has lost."
 related: []
-source_file: "Ghost_Trader_Trading_Strategy.pdf"
+reviewed_pdf_pages: 1-4
+slug: ghost-trader-trading-strategy
+source_file: Ghost_Trader_Trading_Strategy.pdf
+source_review: full
+tags:
+- tradestation-easylanguage
+- mechanical-system
+- moving-average
+- rsi
+- trade-filtering
+- backtesting
+tier: B
+title: The Ghost Trader Trading Strategy
+year: 2002
 ---
 
 ## Summary

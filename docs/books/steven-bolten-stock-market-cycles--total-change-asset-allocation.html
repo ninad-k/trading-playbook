@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Total Change Asset Allocation and the Time Horizon Duration Bubble Indicator — Steven E. Bolten · Trading Playbook</title>
+<meta name="description" content="A quarterly stock/bond switching rule based on earnings growth minus interest-rate change, paired with a dividend-discount-model &#39;years of growth priced in&#39; bubble measure, both backtested by the author.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a> › <a href="../books/steven-bolten-stock-market-cycles.html">Stock Market Cycles: A Practical Explanation</a></p>
+  <h1>Total Change Asset Allocation and the Time Horizon Duration Bubble Indicator</h1>
+  <p class="byline">Steven E. Bolten · 2000 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">A quarterly stock/bond switching rule based on earnings growth minus interest-rate change, paired with a dividend-discount-model &#39;years of growth priced in&#39; bubble measure, both backtested by the author.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=asset-allocation">asset-allocation</a> <a class="tag" href="../search.html?q=market-timing">market-timing</a> <a class="tag" href="../search.html?q=dividend-discount-model">dividend-discount-model</a> <a class="tag" href="../search.html?q=sector-rotation">sector-rotation</a> <a class="tag" href="../search.html?q=quantitative">quantitative</a> </td></tr>
+    <tr><th>Length</th><td>184 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Total Change Asset Allocation and the Time Horizon Duration Bubble Indicator” by Steven E. Bolten at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>Two related, quantitative tools from Bolten&rsquo;s dividend-discount framework, reprinted from the author&rsquo;s peer-reviewed papers in Chapter 8: (1) <strong>Total Change</strong>, a quarterly signal for reallocating between equities and long government bonds based on earnings growth versus interest-rate change, backtested by Bolten and Besley over 1967-1987; and (2) <strong>Time Horizon Duration</strong> (&ldquo;n&rdquo;), a bubble/trough measure expressing how many years of assumed earnings growth are priced into a stock or index relative to its theoretical no-growth value, applied to historical extremes (1972, 1974, 1983, 1987). Both operationalize the book&rsquo;s claim that prices move on the relative rate of change between earnings and interest rates.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Total Change asset allocation</strong></p>
+<ol>
+<li>Each quarter, calculate <code>Total Change = %ΔE − %Δi</code>, where %ΔE is the prior quarter&rsquo;s change in trailing/consensus index earnings (original study: S&amp;P 400) and %Δi is the prior quarter&rsquo;s change in the 30-year Treasury yield.</li>
+<li><strong>Positive</strong> Total Change (earnings outgrowing rates, or rates falling faster than earnings) → shift weighting <strong>toward equities</strong>.</li>
+<li><strong>Negative</strong> Total Change (rates outrunning earnings growth, or earnings falling faster than rates) → shift weighting <strong>toward long bonds</strong>.</li>
+<li>Reallocation is proportional to the magnitude, not a binary switch; the backtest rebalanced every quarter on the sign/size of the prior reading.</li>
+<li>Use homogeneous, low-cost, liquid instruments for both legs (index funds/ETFs with switching capability) to keep costs low (~0.25%-0.50%/year estimated).</li>
+<li>This is a <strong>quarterly, full-cycle strategy</strong>, not for intra-quarter trading; the stated risk is quarter-to-quarter whipsaw in the allocation itself.</li>
+</ol>
+<p><strong>Time Horizon Duration (&ldquo;n&rdquo;)</strong></p>
+<ol start="7">
+<li>Compute the no-growth value: <code>Sng = E / r</code> (current earnings E as a perpetuity, discounted at the long Treasury yield r).</li>
+<li>Compute the gap: <code>Gap % = (P − Sng) / Sng</code>.</li>
+<li>Divide by the consensus earnings growth rate (g) to get years of growth priced in: <code>n = Gap % ÷ g</code>.</li>
+<li>Track n over time; rising n means a longer growth runway is being priced in than historically typical - extreme readings signal bubble risk.</li>
+<li>Reference points: Q4 1972 n=46.62 (preceded the 1973-74 bear market); Q4 1974 n=17.84; Q3 1983 n=9.84 (fell then recovered as n normalized); Q1 1987 n=20.01, Q2 1987 n=11.54 (crash followed in Q4 1987). Bubble readings have historically clustered in Q3/Q4.</li>
+<li>Use n as a risk overlay, not a timing trigger - it flags an unusually long assumed growth runway, not a correction date.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>Reported backtest (1967 Q4-1987 Q4): buy-and-hold S&amp;P 400 = 10.6%/yr; 30-yr Treasuries = 7.8%/yr; T-bills = 6.1%/yr; Total Change reallocation = 12.9%/yr pre-commission; hindsight-optimal switching = 15.7%/yr. The 12.9% outperformed all static benchmarks without hindsight, and estimated expense costs (0.25%-0.50%/yr) would not erode this given only quarterly rebalancing. Risk is quarter-to-quarter allocation whipsaw, not stock-specific volatility, since both legs already eliminate individual-security and default risk. The Time Horizon Duration measure carries no stop-loss or sizing rule - it is a valuation gauge to combine with judgment, not a mechanical trigger.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The Total Change backtest covers one 20-year window with only a two-year out-of-sample extension, predating the low-rate regime of the 1990s-2020s; a strategy premised on tradable swings in bond yields may behave differently near zero rates. It also assumes earnings/yield data are interpretable on a consistent quarterly cadence, more reliable at the index level than for individual securities. The Time Horizon Duration examples are illustrative, not a systematic backtest with defined entry/exit rules - no numeric n threshold is specified as reliably actionable, only that extremes (its highest reading, 46.6, preceded the worst outcome) warrant caution. Treat both as diagnostic overlays for a longer-horizon allocator, not fully specified, risk-managed systems.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/steven-bolten-stock-market-cycles.html">Stock Market Cycles: A Practical Explanation</a> — An academic dividend-discount-model explanation of bull/bear cycles as the interaction of the rate of change in expected earnings versus interest rates, with a market-timing indicator and asset-allocation backtest.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

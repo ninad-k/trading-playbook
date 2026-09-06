@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Options, Futures, and Other Derivatives (5th Edition) — John C. Hull · Trading Playbook</title>
+<meta name="description" content="The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Options, Futures, and Other Derivatives (5th Edition)</h1>
+  <p class="byline">John C. Hull · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 5-9, 71, 133, 299, 341, 346, 362 (contents, the margin rules, the Greeks chapters and the VaR/regulatory-capital sections). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=greeks">greeks</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=hedging">hedging</a> <a class="tag" href="../search.html?q=put-call-parity">put-call-parity</a> <a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> </td></tr>
+    <tr><th>Length</th><td>756 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Options, Futures, and Other Derivatives (5th Edition)” by John C. Hull at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is John Hull&rsquo;s widely used derivatives textbook — described on its own cover as both &ldquo;a best-selling college textbook&rdquo; and &ldquo;the bible in trading rooms throughout the world.&rdquo; The fifth edition runs to 30 chapters covering futures, forwards, swaps, options mechanics, and pricing theory, with seven chapters new to this edition (hedging with futures, more on numerical procedures, swaps revisited, credit derivatives, real options, insurance/weather/energy derivatives, and derivatives mishaps). It is a rigorous, math-heavy academic text rather than a trading manual, built around a small number of core ideas — no-arbitrage pricing, risk-neutral valuation, and continuous hedging — that it then applies across every derivative type. These notes focus on the parts of the book most relevant to a practitioner: pricing intuition, the Greeks, put-call parity, hedging mechanics, and the logic behind the binomial and Black-Scholes models, rather than the full mathematical derivations or the more specialized later chapters (interest-rate derivatives, swaps, credit derivatives, real options).</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Nearly every derivative can be priced by constructing a hedge — a combination of the underlying asset and cash (or the underlying and the derivative) that eliminates risk over a short interval — and then arguing that a riskless portfolio must earn the risk-free rate, or an arbitrage opportunity would exist. This &ldquo;no-arbitrage&rdquo; logic underlies forward/futures pricing, the binomial option-pricing model, and the Black-Scholes-Merton equation alike. A closely related idea, risk-neutral valuation, shows that a derivative can be priced by pretending all investors are risk-neutral, computing the expected payoff under that assumption, and discounting it at the risk-free rate — which gives the same answer as the real, risk-averse world because the risk preferences cancel out of the pricing equation. The book treats hedging (for corporates and portfolio managers) and pricing (for market-makers and quants) as two sides of the same coin: an options market-maker prices a contract by working out the cost of replicating (hedging) it.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Forward vs. futures contract</strong> — a forward is a private, customized OTC agreement to buy/sell at a future date; a futures contract is the same idea standardized and exchange-traded with daily marking-to-market.</li>
+<li><strong>Cost of carry / no-arbitrage forward pricing</strong> — a forward price is pinned down by the spot price plus the net cost of financing and holding the asset (interest less any income/yield); any deviation creates a riskless arbitrage.</li>
+<li><strong>Hedging with futures</strong> — using a futures position to offset exposure in the underlying; the minimum-variance hedge ratio sizes the futures leg when the hedge is imperfect (basis risk).</li>
+<li><strong>Put-call parity</strong> — for European options on the same stock and strike, <code>c + Ke^{-rT} = p + S0</code> (call price plus present value of the strike equals put price plus stock price); it lets a trader infer one option&rsquo;s fair price from the other&rsquo;s, and violations (net of transaction costs) are the classic options arbitrage.</li>
+<li><strong>Six factors that move an option&rsquo;s value</strong> — current stock price, strike price, time to expiration, volatility, the risk-free rate, and expected dividends; a call generally rises with stock price, time, volatility, and rates, and falls with strike and dividends (a put moves in mirror fashion on most of these).</li>
+<li><strong>The Greeks</strong> — sensitivities of an option&rsquo;s price to each input: <strong>Delta</strong> (∂price/∂stock price; for a European call on a dividend-yield-paying stock, delta = e^{-qT}N(d1)), <strong>Gamma</strong> (rate of change of delta), <strong>Theta</strong> (time decay), <strong>Vega</strong> (sensitivity to volatility), <strong>Rho</strong> (sensitivity to interest rates).</li>
+<li><strong>Delta hedging</strong> — offsetting an option position with a position in the underlying sized by delta so the combined position is (instantaneously) insensitive to small price moves; because delta changes as price and time move, a delta-hedge must be rebalanced continuously (dynamic hedging), and cannot be &ldquo;set and forget.&rdquo;</li>
+<li><strong>Risk-neutral valuation</strong> — pricing a derivative by discounting its expected payoff under an assumed world where all assets earn the risk-free rate; produces correct prices in the real world too, because risk preferences drop out of the no-arbitrage argument.</li>
+<li><strong>Binomial tree model</strong> — models the underlying as moving up or down by fixed factors (u, d) over discrete steps; the option is priced by replicating its payoff with a position in the stock and a risk-free bond (or, equivalently, using risk-neutral probabilities), and refining the tree (more, shorter steps) converges toward the Black-Scholes price.</li>
+<li><strong>Black-Scholes-Merton model</strong> — the continuous-time limit of the same replication logic: a continuously-rebalanced riskless hedge between the option and the stock must earn the risk-free rate, which yields a partial differential equation with closed-form solutions for European calls and puts.</li>
+<li><strong>Value at Risk (VaR)</strong> — a single number summarizing portfolio risk: the loss over N days that will not be exceeded with X% confidence; bank regulators use N = 10 days, X = 99%, and require capital of at least 3× that VaR figure.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>This is a pricing/hedging textbook, not a trading-signal book, so it has no entries, exits, or position-sizing rules in the trading-playbook sense. The closest things to operational &ldquo;rules&rdquo; it lays out are option-margin formulas and the seven Black-Scholes assumptions, both stated precisely enough to apply directly:</p>
+<ol>
+<li><strong>Naked written call margin</strong> (per contract, ×100 shares): the greater of (a) 100% of the sale proceeds + 20% of the stock price − any out-of-the-money amount, or (b) 100% of proceeds + 10% of the stock price. The 20% is replaced by 15% for a broad-based stock index option.</li>
+<li><strong>Naked written put margin</strong>: the greater of (a) 100% of proceeds + 20% of stock price − any out-of-the-money amount, or (b) 100% of proceeds + 10% of the strike price.</li>
+<li><strong>Black-Scholes-Merton assumptions</strong> (the conditions under which the pricing formula is exact): stock price follows a constant-volatility lognormal process; short selling with full use of proceeds is allowed; no transaction costs or taxes and infinitely divisible securities; no dividends during the derivative&rsquo;s life; no riskless arbitrage opportunities exist; trading is continuous; the risk-free rate is constant and the same for all maturities. The book notes several of these (constant volatility/rates, no dividends) are later relaxed in more advanced chapters.</li>
+<li><strong>VaR capital rule</strong>: regulatory market-risk capital ≈ k × (10-day, 99% VaR), with multiplier k set by regulators at a minimum of 3.0.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book&rsquo;s risk content is about measuring and hedging risk rather than sizing trades. Chapter 14 covers the Greeks individually and then in combination (a &ldquo;delta-gamma-vega&rdquo; analysis), warning that a portfolio can be delta-neutral while still carrying large gamma or vega risk — e.g., a delta-neutral position with large negative gamma is exposed to big losses from a large price move in either direction, because delta neutrality only protects against small moves. Chapter 16 introduces Value at Risk as the practical, single-number way large institutions and regulators summarize aggregate risk across hundreds of market variables, using historical-simulation or model-building approaches. The book also flags that simple hedging schemes can fail badly in practice — the discussion of portfolio insurance notes it did not work well during the October 19, 1987 crash, because the assumption of continuous, frictionless rebalancing broke down in a fast, gapping market.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Not a focus of the book; this is a quantitative/technical text aimed at pricing and hedging, not trader behavior. The closest material is procedural discipline around hedge rebalancing: because delta (and the other Greeks) change continuously with price and time, a hedger who fails to rebalance frequently enough will drift away from a riskless position, which the book frames as an execution/discipline problem as much as a modeling one.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Introduction — exchange-traded and OTC markets, forwards, futures, options, types of traders.</li>
+<li>Ch 2 — Mechanics of futures markets — contract specification, margin, delivery, regulation.</li>
+<li>Ch 3 — Determination of forward and futures prices — cost of carry, no-arbitrage pricing.</li>
+<li>Ch 4 — Hedging strategies using futures — basis risk, minimum-variance hedge ratio, stock index hedges.</li>
+<li>Ch 5 — Interest rate markets — zero rates, bond pricing, duration-based hedging.</li>
+<li>Ch 6 — Swaps — mechanics and valuation of interest-rate and currency swaps.</li>
+<li>Ch 7 — Mechanics of options markets — contract specification, margins, taxation.</li>
+<li>Ch 8 — Properties of stock options — bounds on option prices, put-call parity, early exercise, dividends.</li>
+<li>Ch 9 — Trading strategies involving options — spreads, combinations, and other payoff structures.</li>
+<li>Ch 10 — Introduction to binomial trees — one- and two-step trees, risk-neutral valuation, delta.</li>
+<li>Ch 11 — A model of the behavior of stock prices — the Markov property, Itô&rsquo;s lemma, the lognormal property.</li>
+<li>Ch 12 — The Black-Scholes model — derivation, closed-form formulas, implied volatility, dividends.</li>
+<li>Ch 13 — Options on stock indices, currencies, and futures — extending the pricing formulas.</li>
+<li>Ch 14 — The Greek letters — delta, gamma, theta, vega, rho, and dynamic hedging.</li>
+<li>Ch 15 — Volatility smiles — empirical departures from the Black-Scholes constant-volatility assumption.</li>
+<li>Ch 16 — Value at risk — the VaR measure and its use in bank capital requirements.</li>
+<li>Ch 17–19 — (not captured in the sampled pages; per the book&rsquo;s own structure these cover further interest-rate/numerical topics before Ch 20).</li>
+<li>Ch 20 — More on models and numerical procedures — additional numerical pricing methods.</li>
+<li>Ch 21 — Martingales and measures — the mathematical machinery behind risk-neutral pricing.</li>
+<li>Ch 22–24, 26 — (not captured in the sampled pages).</li>
+<li>Ch 25 — Swaps revisited — nonstandard swap products.</li>
+<li>Ch 27 — Credit derivatives — how credit default products work and are valued, including convertible debentures.</li>
+<li>Ch 28 — Real options — applying options theory to capital investment appraisal.</li>
+<li>Ch 29 — Insurance, weather, and energy derivatives — non-traditional derivatives and risk management.</li>
+<li>Ch 30 — Derivatives, mishaps, and what we can learn from them — case studies in derivatives losses.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>This is a graduate-level finance textbook, not a retail trading guide — it assumes calculus/probability fluency and is written for pricing and risk-managing derivatives, not for generating trading signals. Being a 5th edition from the early 2000s, it predates some post-2008 developments in derivatives regulation, OIS/SOFR discounting, and the post-crisis overhaul of credit-derivatives and swap-valuation practice found in later editions; a reader using it for current market conventions (e.g., interest-rate benchmark reform, central clearing) should cross-check against a newer edition or current material. The empirical put-call-parity research it cites (Bhattacharya; Klemkosky and Resnick) is from the late 1970s options market, illustrating the ideas historically rather than describing current market microstructure.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders and analysts who want the underlying pricing logic behind options and futures rather than a strategy cookbook: how delta-hedging and no-arbitrage arguments produce option prices, why the Greeks matter for managing an options book, and how institutions quantify aggregate portfolio risk via VaR. Less suited to a reader looking only for concrete options trading strategies or setups — pair it with a strategy-focused options book for that.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — practitioner-oriented options strategy counterpart to Hull&rsquo;s pricing theory.</li>
+<li><a class="xref" href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — a strategy reference to pair with Hull&rsquo;s Greeks and payoff-diagram material.</li>
+<li><a class="xref" href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — applies option pricing concepts to concrete trading strategies.</li>
+<li><a class="xref" href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — another pricing-theory-focused derivatives text for cross-reference.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>These notes are based on OCR of a sampled subset of pages (front matter plus evenly spaced pages) of a 756-page scanned textbook; the great majority of pages were not machine-readable, so the chapter map beyond Chapter 16 and several later chapters (17–19, 22–24, 26) is reconstructed from the table of contents, the book&rsquo;s own &ldquo;new chapters&rdquo; summary, and scattered running headers rather than from a full read of those chapters&rsquo; content. Formulas and figures presented here (put-call parity, delta, VaR parameters, margin rules, Black-Scholes assumptions) were confirmed directly in the sampled OCR text.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps.</li><li><a href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.</li><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

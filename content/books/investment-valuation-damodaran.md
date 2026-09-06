@@ -1,17 +1,33 @@
 ---
-title: Investment Valuation
 author: Aswath Damodaran
-year: 2002
-slug: investment-valuation-damodaran
-tier: A
 category: Investing, Value & Market History
-tags: [valuation, dcf, relative-valuation, cost-of-capital, terminal-value, growth-rate, cash-flow]
 difficulty: advanced
 doc_type: book
+one_liner: Graduate-level valuation textbook covering DCF models (dividend, FCFE,
+  FCFF), relative valuation multiples, and growth/terminal-value estimation, with
+  worked company examples.
 pages: 1356
-one_liner: "Graduate-level valuation textbook covering DCF models (dividend, FCFE, FCFF), relative valuation multiples, and growth/terminal-value estimation, with worked company examples."
-related: [damodaran-aswath-investment-fables, the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, j-k-lasser-pick-stocks-like-warren-buffett]
-source_file: "Investment Valuation - Damodaran.pdf"
+related:
+- damodaran-aswath-investment-fables
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- j-k-lasser-pick-stocks-like-warren-buffett
+reviewed_pdf_pages: 45, 85, 384, 452 (the model-choice chapters and the worked Con
+  Ed dividend/FCFE comparison; the note's formulas were checked against these sections)
+slug: investment-valuation-damodaran
+source_file: Investment Valuation - Damodaran.pdf
+source_review: partial
+tags:
+- valuation
+- dcf
+- relative-valuation
+- cost-of-capital
+- terminal-value
+- growth-rate
+- cash-flow
+tier: A
+title: Investment Valuation
+year: 2002
 ---
 
 ## Overview

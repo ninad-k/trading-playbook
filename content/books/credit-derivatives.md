@@ -1,17 +1,34 @@
 ---
-title: "Credit Risk Modelling and Credit Derivatives"
 author: Philipp J. Schönbucher
-year: 2000
-slug: credit-derivatives
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [credit-derivatives, credit-risk, default-swaps, term-structure, hjm-model, academic, pricing-models]
 difficulty: advanced
 doc_type: paper
+one_liner: Schönbucher's Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure
+  framework to defaultable bonds, plus closed-form pricing for the main credit derivative
+  structures.
 pages: 375
-one_liner: "Schönbucher's Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure framework to defaultable bonds, plus closed-form pricing for the main credit derivative structures."
-related: [derivatives-pricing-and-financial-modelling, hull-options-futures-and-other-derivative-securities-5th-ed, managing-credit-risk-with-credit-and-macro-derivatives, hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies, foucault-and-kadan-limit-order-book-as-a-market-for-liquidity]
-source_file: "Credit Derivatives.pdf"
+related:
+- derivatives-pricing-and-financial-modelling
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- managing-credit-risk-with-credit-and-macro-derivatives
+- hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+- foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+reviewed_pdf_pages: 1-2 and the structure and pricing chapters checked against the
+  note
+slug: credit-derivatives
+source_file: Credit Derivatives.pdf
+source_review: partial
+tags:
+- credit-derivatives
+- credit-risk
+- default-swaps
+- term-structure
+- hjm-model
+- academic
+- pricing-models
+tier: B
+title: Credit Risk Modelling and Credit Derivatives
+year: 2000
 ---
 
 ## Summary

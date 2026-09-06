@@ -1,17 +1,35 @@
 ---
-title: "Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis"
 author: Richard L. Weissman
-year: 2005
-slug: richard-l-weissman-mechanical-trading-systems
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [mechanical-systems, trend-following, mean-reversion, risk-management, position-sizing, trader-psychology, backtesting, curve-fitting]
 difficulty: intermediate
 doc_type: book
+one_liner: Matches three trader personality types (trend-following, mean-reversion,
+  short-term) to fully coded, backtested mechanical systems and the specific risk-management
+  math each requires.
 pages: 241
-one_liner: "Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires."
-related: [curtis-faith-way-of-the-turtle, michael-covel-trend-following, van-tharp-trading-systems, john-bollinger-bollinger-on-bollinger-band, jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual]
-source_file: "RICHARD L. WEISSMAN - Mechanical Trading Systems.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- michael-covel-trend-following
+- van-tharp-trading-systems
+- john-bollinger-bollinger-on-bollinger-band
+- jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+reviewed_pdf_pages: 2, 6, 12, 34, 43, 48, 74-75 (system definitions and the backtest
+  tables showing the 8.48% annualized return, 19.98% drawdown and their degradation)
+slug: richard-l-weissman-mechanical-trading-systems
+source_file: RICHARD L. WEISSMAN - Mechanical Trading Systems.pdf
+source_review: partial
+tags:
+- mechanical-systems
+- trend-following
+- mean-reversion
+- risk-management
+- position-sizing
+- trader-psychology
+- backtesting
+- curve-fitting
+tier: A
+title: 'Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis'
+year: 2005
 ---
 
 ## Overview

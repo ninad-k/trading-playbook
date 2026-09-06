@@ -1,17 +1,33 @@
 ---
-title: Mechanical Trading Systems
 author: Richard L. Weissman
-year: 2005
-slug: mechanical-trading-systems
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [mechanical-systems, trend-following, mean-reversion, backtesting, position-sizing, trader-psychology, moving-averages, value-at-risk]
 difficulty: intermediate
 doc_type: book
+one_liner: Pairs trend-following, mean-reversion, and short-term mechanical systems
+  with matching trader personality profiles, plus a full price-risk-management toolkit.
 pages: 241
-one_liner: "Pairs trend-following, mean-reversion, and short-term mechanical systems with matching trader personality profiles, plus a full price-risk-management toolkit."
-related: [curtis-faith-way-of-the-turtle, turtlerules, john-bollinger-bollinger-on-bollinger-band, come-into-my-trading-room-elder-alexander]
-source_file: "Mechanical Trading Systems.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- turtlerules
+- john-bollinger-bollinger-on-bollinger-band
+- come-into-my-trading-room-elder-alexander
+reviewed_pdf_pages: 6, 12-14, 34, 43, 48, 99, 101 (position-sizing chapters, the moving-average
+  and channel-breakout system definitions, and the portfolio risk tables)
+slug: mechanical-trading-systems
+source_file: Mechanical Trading Systems.pdf
+source_review: partial
+tags:
+- mechanical-systems
+- trend-following
+- mean-reversion
+- backtesting
+- position-sizing
+- trader-psychology
+- moving-averages
+- value-at-risk
+tier: A
+title: Mechanical Trading Systems
+year: 2005
 ---
 
 ## Overview

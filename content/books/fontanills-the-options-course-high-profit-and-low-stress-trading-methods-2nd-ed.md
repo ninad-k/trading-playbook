@@ -1,17 +1,34 @@
 ---
-title: "The Options Course: High Profit & Low Stress Trading Methods"
 author: George A. Fontanills
-year: 2005
-slug: fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, delta-neutral, greeks, spreads, volatility, ratio-backspread, straddle, money-management]
 difficulty: intermediate
 doc_type: book
+one_liner: 'Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles,
+  ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit
+  road maps.'
 pages: 592
-one_liner: "Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps."
-related: [black-scholes-option-pricing-model, using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital, introduction-to-arbitrage-pricing-of-financial-derivatives]
-source_file: "Fontanills - The Options Course - High Profit And Low Stress Trading Methods, 2nd Ed.pdf"
+related:
+- black-scholes-option-pricing-model
+- using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital
+- introduction-to-arbitrage-pricing-of-financial-derivatives
+reviewed_pdf_pages: 4, 7-8, 503-511 (contents, the Greeks chapters and the strategy-review
+  appendix with its risk/reward formulas)
+slug: fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+source_file: Fontanills - The Options Course - High Profit And Low Stress Trading
+  Methods, 2nd Ed.pdf
+source_review: partial
+tags:
+- options
+- delta-neutral
+- greeks
+- spreads
+- volatility
+- ratio-backspread
+- straddle
+- money-management
+tier: A
+title: 'The Options Course: High Profit & Low Stress Trading Methods'
+year: 2005
 ---
 
 ## Overview

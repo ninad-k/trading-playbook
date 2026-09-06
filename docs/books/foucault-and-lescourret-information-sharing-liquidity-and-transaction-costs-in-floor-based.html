@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Information Sharing, Liquidity and Transaction Costs in Floor-Based Trading Systems — Thierry Foucault and Laurence Lescourret · Trading Playbook</title>
+<meta name="description" content="Theoretical model of floor brokers pooling fundamental and order-flow information, showing it improves price discovery and cuts liquidity traders&#39; costs but can raise or lower market depth.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Information Sharing, Liquidity and Transaction Costs in Floor-Based Trading Systems</h1>
+  <p class="byline">Thierry Foucault and Laurence Lescourret · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Theoretical model of floor brokers pooling fundamental and order-flow information, showing it improves price discovery and cuts liquidity traders&#39; costs but can raise or lower market depth.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 6-7 (the model setup and the information-sharing results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=floor-trading">floor-trading</a> <a class="tag" href="../search.html?q=information-sharing">information-sharing</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>43 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Information Sharing, Liquidity and Transaction Costs in Floor-Based Trading Systems” by Thierry Foucault and Laurence Lescourret at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: does information sharing between two floor brokers with different information types (one holding fundamental/payoff information on a security, the other holding information about incoming liquidity/order flow) help or hurt floor-based markets? Method: a theoretical microstructure model (in the tradition of Kyle 1985) in which &ldquo;dual-capacity&rdquo; floor brokers can pool private information before trading against a competitive market maker and other, non-informed speculators. Finding: under identifiable parameter conditions, the two informed brokers are jointly better off sharing information; when they do, price discovery improves, return volatility falls, and the aggregate expected trading costs borne by liquidity traders decrease — but the effect on quoted market depth and bid-ask spreads is ambiguous (it can go either way depending on parameter values).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Floor-based markets (NYSE, Frankfurt, AMEX, CBOT/CBOE-style open outcry) allow person-to-person contact that lets brokers share information — something anonymous electronic limit-order systems cannot easily replicate.</li>
+<li>Two types of floor information sharing are distinguished: (1) floor brokers with market-makers (mitigates adverse selection, per Benveniste, Marcus &amp; Wilhelm 1992) and (2) floor brokers with other floor brokers (the paper&rsquo;s focus).</li>
+<li>The model separates &ldquo;fundamental&rdquo; speculators (who know the security&rsquo;s payoff) from a broker who instead observes non-fundamental information (client order flow / liquidity demand).</li>
+<li>When information sharing occurs, it increases competition among the counterparties serving the informed broker&rsquo;s clients, so a smaller share of that broker&rsquo;s client orders must be executed against the market maker.</li>
+<li>Proposition: expected trading costs borne by liquidity traders overall are always lower when the two brokers share information versus when they do not.</li>
+<li>Because the trading game is zero-sum, the aggregate reduction in liquidity traders&rsquo; costs and the increase in the two sharing speculators&rsquo; profits come at the expense of the other (non-sharing) speculators in the market.</li>
+<li>With only a single fundamental speculator (N=1), there is no parameter combination under which information sharing is optimal for the two brokers — sharing requires competition among multiple fundamental speculators to make sense.</li>
+<li>Information sharing makes prices more informative and less volatile, and its effect on the bid-ask spread and quoted depth depends on the relative variance of fundamental versus liquidity-driven order flow.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a theoretical market-microstructure model, not a trading system. What a trader/market participant can take from it: floor/pit-style markets with informal broker-to-broker information sharing can produce tighter effective trading costs for liquidity-driven orders than a naive comparison of quoted spreads alone would suggest, and that advantage is a structural feature of person-to-person floor trading that anonymous electronic order books do not automatically replicate.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Purely theoretical/mathematical (a Kyle-style linear-equilibrium model) with no empirical dataset — conclusions are model-dependent and the appendix proofs use notation that OCRs with garbled symbols in places. The paper is explicitly about floor-based/open-outcry markets, which have been largely displaced by electronic trading since it was written (2001); its practical relevance today is mainly historical/academic. The authors themselves flag that whether floor-sharing benefits outweigh floor trading&rsquo;s other costs (higher operating costs, less transparency) is left for future research.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Readers interested in market microstructure theory — why floor/pit markets historically retained an edge in certain conditions, and how information sharing among market participants affects price discovery, volatility, and liquidity costs. Not for traders looking for an executable strategy.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/liquidity-in-forex-markets.html">Liquidity in the Forward Exchange Market</a> — Journal of Empirical Finance paper building a limited-participation two-country model to explain spot-return autocorrelation, forward-discount persistence, and the forward bias puzzle via a liquidity &#39;wedge.&#39;</li><li><a href="../books/hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market.html">The Microstructure of the Euro Money Market</a> — Five months of intraday data show how ECB events, reserve operations, and settlement infrastructure shape euro overnight liquidity and volatility.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

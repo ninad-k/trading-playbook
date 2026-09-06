@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modeling High-Frequency FX Data Dynamics — Oscar Jorda and Massimiliano Marcellino · Trading Playbook</title>
+<meta name="description" content="Academic paper showing that non-normality and volatility clustering in FX data can be artifacts of time aggregation, and introduces a Poisson-based &#39;ACI&#39; model of quote-arrival intensity and spreads.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Modeling High-Frequency FX Data Dynamics</h1>
+  <p class="byline">Oscar Jorda and Massimiliano Marcellino · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Academic paper showing that non-normality and volatility clustering in FX data can be artifacts of time aggregation, and introduces a Poisson-based &#39;ACI&#39; model of quote-arrival intensity and spreads.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4-5, 15, 21 (the model description and the quote-intensity results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=academic-paper">academic-paper</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=high-frequency-data">high-frequency-data</a> <a class="tag" href="../search.html?q=fx">fx</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=poisson-model">poisson-model</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=tick-data">tick-data</a> </td></tr>
+    <tr><th>Length</th><td>32 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Modeling High-Frequency FX Data Dynamics” by Oscar Jorda and Massimiliano Marcellino at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An academic microstructure paper on the spot FX market (question: how much of the &ldquo;stylized facts&rdquo; of high-frequency financial data — non-normality, leptokurtosis, conditional heteroskedasticity — is a real feature of the market versus an artifact of aggregating irregularly-arriving tick data into fixed calendar-time intervals?). Method: the authors derive analytically and confirm via Monte Carlo simulation that fixed-interval time aggregation of an irregularly-timed data-generating process can itself produce these &ldquo;stylized facts&rdquo; even when they are absent from the underlying process. They then propose a new autoregressive conditional intensity (ACI) model — a Poisson-regression-based approach that keeps the analysis in calendar time while modeling the random intensity of quote arrivals — and apply it to interdealer FX quote data to study whether high-activity periods carry more or less information than low-activity periods, using the bid-ask spread as a proxy for information content.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Time aggregation of irregularly-spaced, high-frequency data can mechanically generate non-normality, fat tails, and volatility clustering, independent of the true underlying process.</li>
+<li>The ACI(1,1) model conditions the Poisson intensity of quote arrivals (per half-hour interval) on its own past values and on lagged bid-ask spreads, with seasonal (time-of-day, day-of-week, holiday) terms.</li>
+<li>Empirically, the ACI model dramatically outperforms a simple seasonal-dummy Poisson model in fit and residual autocorrelation (Ljung-Box statistics).</li>
+<li>Average FX quote intensity in the sample runs around 120 quotes per half-hour in a regular business day.</li>
+<li>Spread dynamics show two distinct peaks as a function of quote intensity: one at very low activity (consistent with dealer inventory-rebalancing noise, per Lyons 2001) and one around 140 quotes/half-hour (consistent with an information-signal-extraction effect, per Easley &amp; O&rsquo;Hara 1992) — i.e., the relationship between activity and informativeness is non-monotonic, not simply &ldquo;more activity = more/less information&rdquo; in one direction.</li>
+<li>Autoregressive persistence of the spread varies substantially (from high persistence to negative correlation and back) as trading intensity changes.</li>
+<li>No evidence of ARCH effects in the model residuals once the intensity-dependent dynamics are accounted for, suggesting explicit variance modeling may be secondary once time-deformation is handled.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules — this is a market-microstructure econometrics paper, not a trading system. What a trader can take from it:</p>
+<ol>
+<li>Apparent &ldquo;fat tails&rdquo; or volatility clustering in a fixed-interval (e.g., 1-minute, 1-hour) FX price series may partly reflect the sampling/aggregation scheme itself, not just genuine regime shifts — be cautious drawing risk conclusions from calendar-time-aggregated tick data without accounting for tick intensity.</li>
+<li>Bid-ask spreads (a proxy for cost/liquidity) behave non-monotonically with trading intensity: both very quiet and moderately busy periods can carry wider or more &ldquo;informative&rdquo; spreads than mid-range activity, so &ldquo;more volume = tighter/wider spread&rdquo; is not a safe blanket assumption.</li>
+<li>Time-of-day/day-of-week seasonality in quote intensity is substantial and should be filtered out before comparing spread or volatility behavior across sessions.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Highly technical: assumes familiarity with point processes, Poisson regression, and time-series econometrics. Uses early-2000s interdealer FX quote data (not trade data), so findings about spread/intensity dynamics may not carry over unchanged to modern electronic FX markets with different microstructure. The authors themselves caution that the informativeness result &ldquo;has to be guarded due to the limitations that these data impose.&rdquo;</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers and market-microstructure specialists studying high-frequency FX data properties; not intended for discretionary or systematic retail traders looking for signals.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/asset-pricing-with-speculative-trading.html">Asset Pricing with Speculative Trading</a> — Academic model showing speculative price premiums arise from persistent, rational-but-diverse investor beliefs, formalizing Keynes&#39;s &#39;beauty contest&#39; intuition.</li><li><a href="../books/hrishikesh-d-vinod-preparing-for-the-worst.html">Preparing for the Worst: Incorporating Downside Risk in Stock Market Investments</a> — Academic treatment of downside risk in equities: VaR, CAPM/Sharpe/Treynor, non-normal return distributions, utility theory, and bootstrap methods.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

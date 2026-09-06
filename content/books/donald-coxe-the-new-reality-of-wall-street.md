@@ -1,17 +1,34 @@
 ---
-title: "The New Reality of Wall Street: An Investor's Survival Guide to Triple Waterfalls and Other Stock Market Perils"
 author: Donald G. M. Coxe
-year: 2003
-slug: donald-coxe-the-new-reality-of-wall-street
-tier: B
 category: Investing, Value & Market History
-tags: [bear-market, market-history, diversification, portfolio-construction, dollar, gold, macro]
 difficulty: intermediate
 doc_type: book
+one_liner: Post-dotcom-crash investor survival guide defining the 'Triple Waterfall'
+  pattern of manias and collapses, then building a diversified 'Survival Pak' portfolio
+  across ten asset classes to weather the next one.
 pages: 290
-one_liner: "Post-dotcom-crash investor survival guide defining the 'Triple Waterfall' pattern of manias and collapses, then building a diversified 'Survival Pak' portfolio across ten asset classes to weather the next one."
-related: [harry-d-schultz-bear-market-investing-strategies, elder-alexander-trading-for-a-living, come-into-my-trading-room-elder-alexander, jack-schwager-stock-market-wizards]
-source_file: "Donald Coxe - The New Reality Of Wall Street.pdf"
+related:
+- harry-d-schultz-bear-market-investing-strategies
+- elder-alexander-trading-for-a-living
+- come-into-my-trading-room-elder-alexander
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 6, 9, 11-12, 41, 43 (the Triple Waterfall framework and the historical
+  case chapters)
+slug: donald-coxe-the-new-reality-of-wall-street
+source_file: Donald Coxe - The New Reality Of Wall Street.pdf
+source_review: partial
+tags:
+- bear-market
+- market-history
+- diversification
+- portfolio-construction
+- dollar
+- gold
+- macro
+tier: B
+title: 'The New Reality of Wall Street: An Investor''s Survival Guide to Triple Waterfalls
+  and Other Stock Market Perils'
+year: 2003
 ---
 
 ## Summary

@@ -1,0 +1,42 @@
+# FX10: 5 Minute or 10 Minute Chart Day Trading Method: the trader's summary
+
+*A four-indicator confluence method (WMA/SMA cross, Slow Stochastic, RSI, MACD) for day-trading any major forex pair on 5- or 10-minute charts, restricted to two specific session windows.*
+
+**Erol Bortucene** · 2005 · Day Trading & Scalping · beginner
+
+*Source coverage: full. PDF pages inspected: 1-4. These are study notes, not verified trading results.*
+
+## Summary
+
+Erol Bortucene of TradeCurrency.ca (formerly Forex Research Corp.) published this short intraday trend-following method in 2005 on MoneyTec.com. It requires all four of a moving-average cross, a slow stochastic, RSI, and MACD to align in the same direction before taking a trade, restricted to two specific time windows to avoid low-liquidity chop. The document gives two indicator parameter sets: one for a 5-minute chart and a faster one for a 10-minute chart, applied to any major exchange rate.
+
+## Key points
+
+- **Session filter**: only trade between 8AM-12PM EST and/or 2AM-4AM EST — outside these windows the method is not used.
+- **5-minute setup indicators**: 10-period WMA, 20-period SMA, Slow Stochastic (10,6,6 exponential), RSI (28), MACD (24/52/18 exponential).
+- **10-minute setup indicators**: 5-period WMA, 10-period SMA, Slow Stochastic (5,3,3 exponential), RSI (14), MACD (12/26/9 exponential) — the standard MACD settings.
+- **Buy confluence**: 10 WMA crosses up through the 20 SMA, Stochastic fast line above slow line, RSI above 50, MACD histogram above zero, and MACD average lines crossed up — all required together.
+- **Sell confluence**: the exact mirror of the buy conditions (WMA crosses down, Stochastic down, RSI below 50, MACD histogram below zero, MACD averages crossed down).
+- **Profit-taking heuristic**: target exchange rates ending in round numbers (00, 20, 50, 80), e.g., EUR/USD 1.1980, as psychological levels where price tends to react.
+- **Stop-loss**: left explicitly discretionary — no fixed pip or percentage rule is given.
+
+## Actionable rules
+
+1. Trade only within the 8AM-12PM EST or 2AM-4AM EST windows.
+2. On the 5-minute chart, go long when the 10 WMA crosses above the 20 SMA and Slow Stochastic (10,6,6), RSI(28), and MACD(24/52/18) all confirm up (fast Stochastic line above slow, RSI > 50, MACD histogram > 0, MACD lines crossed up); go short on the full mirror-image condition.
+3. On the 10-minute chart, use the same logic with 5-period WMA, 10-period SMA, Stochastic (5,3,3), RSI(14), and standard MACD (12/26/9).
+4. Take profit near round-number price levels (prices ending in 00, 20, 50, 80).
+5. Stop-loss placement is left to trader discretion — no rule given.
+
+## Caveats
+
+Very short (4 pages) and explicitly promotional — it ends with an invitation to open a demo or live account with a specific broker (CMS) through the author as an introducing broker, which is a conflict of interest to note. No backtest, win rate, or sample trades are shown beyond two illustrative chart screenshots (not reproduced here); discretionary stop-loss sizing leaves risk management undefined. Indicator settings are given without justification for why those specific periods were chosen.
+
+## Who it is for
+
+Beginner forex day-traders who want a simple, fully mechanical multi-indicator confluence checklist and a defined session window, and who are comfortable supplying their own stop-loss and risk rules.
+
+---
+*Educational summary of ideas from the book, written in my own words. Not financial advice. Please buy the book if these notes are useful.*
+
+More notes like this: [https://ninad-k.github.io/trading-playbook/](https://ninad-k.github.io/trading-playbook/) · Tags: forex, day-trading, wma, sma, macd, stochastic, rsi, scalping, session-timing

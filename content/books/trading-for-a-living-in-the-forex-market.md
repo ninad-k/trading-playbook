@@ -1,17 +1,31 @@
 ---
-title: Trading For A Living In The Forex Market
 author: Trading International LLC
-year: 2004
-slug: trading-for-a-living-in-the-forex-market
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, fundamental-analysis, technical-analysis, chart-patterns, indicators, fibonacci, elliott-wave]
 difficulty: beginner
 doc_type: course
+one_liner: Broad forex education manual covering market structure, fundamental drivers,
+  chart patterns, indicators, and Fibonacci/Elliott basics with no proprietary trading
+  system.
 pages: 75
-one_liner: "Broad forex education manual covering market structure, fundamental drivers, chart patterns, indicators, and Fibonacci/Elliott basics with no proprietary trading system."
-related: [glossary-of-forex-terms, day-trading-the-currency-market, come-into-my-trading-room-elder-alexander]
-source_file: "Trading For A Living In The Forex Market.pdf"
+related:
+- glossary-of-forex-terms
+- day-trading-the-currency-market
+- come-into-my-trading-room-elder-alexander
+reviewed_pdf_pages: 2-3, 70 (the front matter and the Fibonacci/Elliott closing chapter)
+slug: trading-for-a-living-in-the-forex-market
+source_file: Trading For A Living In The Forex Market.pdf
+source_review: partial
+tags:
+- forex
+- fundamental-analysis
+- technical-analysis
+- chart-patterns
+- indicators
+- fibonacci
+- elliott-wave
+tier: B
+title: Trading For A Living In The Forex Market
+year: 2004
 ---
 
 ## Summary

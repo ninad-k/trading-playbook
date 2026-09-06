@@ -1,17 +1,28 @@
 ---
-title: "Congestion Markets: Estimating a Breakout Target"
 author: Ray Barros
-year: 2000
-slug: congestion-markets-estimating-a-breakout-target
-tier: B
 category: Market Structure & Price Action
-tags: [congestion, breakout, price-targets, andrews-method, median-line, price-objectives]
 difficulty: intermediate
 doc_type: article
+one_liner: Compares two traditional breakout-target methods against a six-step Andrews-based
+  technique for projecting price objectives from a congestion range.
 pages: 6
-one_liner: "Compares two traditional breakout-target methods against a six-step Andrews-based technique for projecting price objectives from a congestion range."
-related: [channeltrading, big-ben-breakout]
-source_file: "Congestion_Markets_-_Estimating_a_Breakout_Target.pdf"
+related:
+- channeltrading
+- big-ben-breakout
+reviewed_pdf_pages: 1-6
+slug: congestion-markets-estimating-a-breakout-target
+source_file: Congestion_Markets_-_Estimating_a_Breakout_Target.pdf
+source_review: full
+tags:
+- congestion
+- breakout
+- price-targets
+- andrews-method
+- median-line
+- price-objectives
+tier: B
+title: 'Congestion Markets: Estimating a Breakout Target'
+year: 2000
 ---
 
 ## Summary

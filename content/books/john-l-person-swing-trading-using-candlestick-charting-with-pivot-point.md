@@ -1,17 +1,32 @@
 ---
-title: "Swing Trading Using Candlestick Charting with Pivot Point Analysis"
 author: John L. Person
-year: 2002
-slug: john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
-tier: B
 category: Swing Trading
-tags: [pivot-points, candlestick-patterns, swing-trading, support-resistance, multiple-confirmation, futures]
 difficulty: intermediate
 doc_type: manual
+one_liner: Booklet combining pivot-point support/resistance formulas with candlestick
+  confirmation, using a 'Rule of Multiple Verification' across several real futures
+  trade examples.
 pages: 16
-one_liner: "Booklet combining pivot-point support/resistance formulas with candlestick confirmation, using a 'Rule of Multiple Verification' across several real futures trade examples."
-related: [pivots, forex-intraday-pivots-trading-system-complete-system, automated-intraday-open-pivot-setup, jp-candlesticks, understanding-forex-candlestick]
-source_file: "John L Person - Swing Trading Using Candlestick Charting With Pivot Point.pdf"
+related:
+- pivots
+- forex-intraday-pivots-trading-system-complete-system
+- automated-intraday-open-pivot-setup
+- jp-candlesticks
+- understanding-forex-candlestick
+reviewed_pdf_pages: 1-3, 14 (the pivot-point formulas and the worked S&P examples)
+slug: john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+source_file: John L Person - Swing Trading Using Candlestick Charting With Pivot Point.pdf
+source_review: partial
+tags:
+- pivot-points
+- candlestick-patterns
+- swing-trading
+- support-resistance
+- multiple-confirmation
+- futures
+tier: B
+title: Swing Trading Using Candlestick Charting with Pivot Point Analysis
+year: 2002
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "Predicting VNET: A Model of the Dynamics of Market Depth"
-author: "Robert F. Engle and Joe Lange"
-year: 2001
-slug: engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [academic-paper, market-microstructure, market-depth, liquidity, order-flow, bid-ask-spread]
+author: Robert F. Engle and Joe Lange
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Financial Markets paper introducing VNET, an event-time measure
+  of realized market depth, and modeling how volume, transaction count, spread, and
+  trading patience predict it on NYSE stocks.
 pages: 30
-one_liner: "Journal of Financial Markets paper introducing VNET, an event-time measure of realized market depth, and modeling how volume, transaction count, spread, and trading patience predict it on NYSE stocks."
-related: [liquidity-in-forex-markets, madhavan-market-microstructure-a-survey, the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex]
-source_file: "Engle And Lange-Predicting Vnet - A Model Of The Dynamics Of Market Depth.pdf"
+related:
+- liquidity-in-forex-markets
+- madhavan-market-microstructure-a-survey
+- the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex
+reviewed_pdf_pages: 1, 5, 11 (the VNET definition, the ACD linkage and the 1997 robustness
+  check)
+slug: engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth
+source_file: Engle And Lange-Predicting Vnet - A Model Of The Dynamics Of Market Depth.pdf
+source_review: partial
+tags:
+- academic-paper
+- market-microstructure
+- market-depth
+- liquidity
+- order-flow
+- bid-ask-spread
+tier: B
+title: 'Predicting VNET: A Model of the Dynamics of Market Depth'
+year: 2001
 ---
 
 ## Summary

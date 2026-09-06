@@ -1,17 +1,32 @@
 ---
-title: "Math & Money: Eliminate the Weak Link in Your Trading System"
 author: Alma Miranda
-year: 2005
-slug: alma-miranda-math-and-money
-tier: B
 category: Money Management & Position Sizing
-tags: [money-management, position-sizing, capitalization, compounding, margin, psychology]
 difficulty: beginner
 doc_type: manual
+one_liner: A short position-sizing and capitalization primer arguing money management,
+  not the entry signal, is the real weak link in most trading systems.
 pages: 21
-one_liner: "A short position-sizing and capitalization primer arguing money management, not the entry signal, is the real weak link in most trading systems."
-related: [money-management-risk-control-for-traders, position-sizing, van-tharp-trading-systems, truth-about-money-management, fine-tuning-your-money-management]
-source_file: "Alma Miranda - Math and Money.pdf"
+related:
+- money-management-risk-control-for-traders
+- position-sizing
+- van-tharp-trading-systems
+- truth-about-money-management
+- fine-tuning-your-money-management
+reviewed_pdf_pages: 5, 7-9, 11-12 (the expectancy and compounding tables and the position-size
+  examples)
+slug: alma-miranda-math-and-money
+source_file: Alma Miranda - Math and Money.pdf
+source_review: partial
+tags:
+- money-management
+- position-sizing
+- capitalization
+- compounding
+- margin
+- psychology
+tier: B
+title: 'Math & Money: Eliminate the Weak Link in Your Trading System'
+year: 2005
 ---
 
 ## Summary

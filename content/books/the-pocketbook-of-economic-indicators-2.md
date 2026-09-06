@@ -1,17 +1,31 @@
 ---
-title: The Pocketbook of Economic Indicators
 author: Manuel Jesus-Backus
-year: 2002
-slug: the-pocketbook-of-economic-indicators-2
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [economic-indicators, macro, gdp, cpi, ppi, employment, fed-policy, economic-calendar]
 difficulty: beginner
 doc_type: manual
+one_liner: Reference guide to 20 major US economic indicators (release schedule, source,
+  revision pattern, and market interpretation) used to anticipate Fed policy and market
+  moves.
 pages: 39
-one_liner: "Reference guide to 20 major US economic indicators (release schedule, source, revision pattern, and market interpretation) used to anticipate Fed policy and market moves."
-related: [trade-book]
-source_file: "The Pocketbook Of Economic Indicators_2.pdf"
+related:
+- trade-book
+reviewed_pdf_pages: 7, 14, 17, 23 and the indicator entries checked against the note's
+  thresholds
+slug: the-pocketbook-of-economic-indicators-2
+source_file: The Pocketbook Of Economic Indicators_2.pdf
+source_review: partial
+tags:
+- economic-indicators
+- macro
+- gdp
+- cpi
+- ppi
+- employment
+- fed-policy
+- economic-calendar
+tier: B
+title: The Pocketbook of Economic Indicators
+year: 2002
 ---
 
 ## Summary

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When Buy Means Sell — Strong-Buy Artificial-Maturity Strategy — Eric Shkolnik · Trading Playbook</title>
+<meta name="description" content="Buy on a brokerage&#39;s top rating, but replace the analyst&#39;s own (late) downgrade with a fixed 6- or 12-month sell date to capture the drift and skip the reversal.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a> › <a href="../books/when-buy-means-sell-mcgraw-hill.html">When Buy Means Sell: An Investor&#39;s Guide to Investing When It Counts</a></p>
+  <h1>When Buy Means Sell — Strong-Buy Artificial-Maturity Strategy</h1>
+  <p class="byline">Eric Shkolnik · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Buy on a brokerage&#39;s top rating, but replace the analyst&#39;s own (late) downgrade with a fixed 6- or 12-month sell date to capture the drift and skip the reversal.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=analyst-recommendations">analyst-recommendations</a> <a class="tag" href="../search.html?q=exit-strategy">exit-strategy</a> <a class="tag" href="../search.html?q=time-based-exit">time-based-exit</a> <a class="tag" href="../search.html?q=regression-to-the-mean">regression-to-the-mean</a> </td></tr>
+    <tr><th>Length</th><td>241 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “When Buy Means Sell — Strong-Buy Artificial-Maturity Strategy” by Eric Shkolnik at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A time-exit overlay on ordinary sell-side stock ratings. The observation driving it: brokerage-house Strong Buy (or equivalent top-tier) recommendations do generate real outperformance for a while, but analysts are consistently slow to downgrade once the story turns, so holding a Strong-Buy stock all the way to the eventual downgrade gives back most or all of the gain. Instead of waiting for the analyst&rsquo;s sell signal, the strategy imposes its own fixed holding period and exits on schedule regardless of what the analyst still says.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Universe</strong>: any stock that receives a top-tier rating (Strong Buy, Recommended List, or the issuing institution&rsquo;s equivalent highest category) from a tracked brokerage house. Recommendation data can be pulled from free aggregators (Yahoo Finance, MSN Money) or a paid feed; the book&rsquo;s own tests used MarketPerform.com&rsquo;s database.</li>
+<li><strong>Entry</strong>: buy a fixed dollar amount (the book&rsquo;s illustrations use $1,000 per position for comparability) at that day&rsquo;s closing price — not the prior day&rsquo;s close, which analysts and vendors often quote to flatter results, and not an average/opening price.</li>
+<li><strong>Exit — the artificial maturity date</strong>: sell automatically 130 business days (~6 months) or 255 business days (~12 months) after entry, regardless of the current rating, UNLESS the institution issues a rating change (upgrade, downgrade, or dropped coverage) before that date, in which case sell immediately at that day&rsquo;s close instead.</li>
+<li><strong>Choosing 6 vs. 12 months</strong>: the book found no single dominant choice — 12-month exits outperformed 6-month exits in some sectors/institutions (e.g., Gerard Klauer Mattison utilities recommendations: 22.05% at 6 months vs. 93.59% at 12 months) but underperformed in others (e.g., Bank of America&rsquo;s PC Connection call: 25.79% at 6 months vs. 10.7% at 12 months). Treat the horizon as a parameter to test per sector/institution rather than a universal constant; extending a day or two past the 1-year mark also converts a short-term gain into a long-term-capital-gains holding period under U.S. tax rules.</li>
+<li><strong>Mandatory filters before entry</strong>:
+   - Exclude IPOs outright — any stock trading for less than roughly one year. Check the price history on the recommendation date; if it is short, skip the trade even if the rating and commentary look compelling. A same-day analyst note mentioning &ldquo;lockup expiration&rdquo; is treated as a hard skip regardless of the rating.
+   - Spinoffs and ADRs are an explicit exception to the IPO filter — they behave more like established companies (the book found NRG Energy, a spinoff, and British Energy, an ADR, performed acceptably despite being nominally new listings) and may be admitted back into the universe.</li>
+<li><strong>Diversification requirement</strong>: never concentrate in a handful of names; run the strategy across an institution&rsquo;s full set of top-rated names in a sector (or across sectors) so that individual blowups (the book&rsquo;s example: Active Power Corp., -63% after a Strong Buy issued the same day as a lockup-expiration warning) are absorbed by the portfolio rather than sinking the account.</li>
+<li><strong>Segment by institution and sector, not blindly across the whole market</strong>: track performance separately by brokerage house and by sector before committing capital, since results vary meaningfully — in the book&rsquo;s tests, a given institution&rsquo;s second-best rating tier (plain Buy) sometimes outperformed its top tier (Strong Buy) in the same period, which would not be visible without segmenting.</li>
+<li><strong>Position management between entry and exit</strong>: fully passive — no scaling in/out, no stop-loss, no profit target. The only two events that can end the trade early are a rating change from the issuing institution or (implicitly) a delisting/bankruptcy.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>No price-based stop-loss exists in this system; risk control is entirely structural: (a) fixed, equal dollar sizing per position so no single name can dominate the portfolio, (b) mandatory diversification across many simultaneous positions (the book&rsquo;s Hold-strategy companion piece notes roughly 160 trades/year, i.e., about 3 open positions turning over per week, when run across a full sector), and (c) the IPO/lockup exclusion filter, which in the book&rsquo;s tests removed the single largest loss from every portfolio it was tested on (excluding IPOs improved one utilities-sector test from 8.37% to 11.64%, and to 15% if spinoffs/ADRs were allowed). Transaction costs are estimated at a flat ~5% of round-trip return (commissions plus bid-ask spread) and should be subtracted from any backtested figure before judging viability; several of the book&rsquo;s headline gains (e.g., 11.51% raw improving to 16.71% after excluding IPOs, in the combined technology-sector test) were reported as still net-positive after this haircut, but some were not (Bank of America&rsquo;s original held-to-downgrade portfolio lost 10.57%, in line with a losing market).</p>
+<h2 id="caveats">Caveats</h2>
+<p>The entire evidence base is one brokerage-recommendation dataset covering February 1999 through roughly February 2002 — a period dominated by the dot-com bubble and its collapse — so both the size of the early Strong-Buy drift and the size of the subsequent give-back on held-to-downgrade portfolios may be larger than in a calmer market; the strategy has not been shown to hold up out-of-sample in a different regime. Sample sizes per institution/sector/rating combination are often small (a dozen or so names), and no formal statistical significance test accompanies the percentage-return figures despite the author&rsquo;s language of &ldquo;statistically meaningful&rdquo; results. The 6-versus-12-month choice is not resolved by the book&rsquo;s own data — it flips depending on institution and sector — so a user must re-test both horizons on current data rather than assume either is universally better. Analyst rating taxonomies and thresholds also drift over time and across firms (a &ldquo;Buy&rdquo; at one house may mean 5%+ expected outperformance, at another something else entirely), so the universe definition requires re-verifying each institution&rsquo;s current rating scale before applying the rule mechanically.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/when-buy-means-sell-mcgraw-hill.html">When Buy Means Sell: An Investor&#39;s Guide to Investing When It Counts</a> — Backtests analyst Buy/Hold/Sell ratings and finds two exploitable lags: sell Strong-Buy stocks on a fixed 6-12 month date instead of waiting for the downgrade, and buy Hold-rated stocks a year after they were downgraded.</li><li><a href="../books/david-dreman-contrarian-investment-strategies-the-next-generation.html">Contrarian Investment Strategies: The Next Generation</a> — Behavioral-finance case for buying statistically cheap, out-of-favor stocks (low P/E, P/CF, P/BV, high yield) because analysts and the market systematically overreact.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

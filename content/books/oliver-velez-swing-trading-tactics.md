@@ -1,17 +1,34 @@
 ---
-title: Swing Trading Tactics
 author: Oliver L. Velez
-year: 2001
-slug: oliver-velez-swing-trading-tactics
-tier: A
 category: Swing Trading
-tags: [swing-trading, candlesticks, pristine-method, trend-stages, moving-averages, cci, setups]
 difficulty: beginner
 doc_type: course
+one_liner: Pristine.com's slide-deck seminar teaching the 4-stage stock cycle and
+  the Pristine Buy/Sell Setup (three consecutive lower-highs/higher-lows bars) for
+  1-to-5-bar swing trades.
 pages: 87
-one_liner: "Pristine.com's slide-deck seminar teaching the 4-stage stock cycle and the Pristine Buy/Sell Setup (three consecutive lower-highs/higher-lows bars) for 1-to-5-bar swing trades."
-related: [ebook-building-wealth-with-pristine-s-guerilla-trading-tactics, pristine-s-cardinal-rules-of-trading, beyond-candlesticks-steve-nison, candlestick-charting-explained, alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s]
-source_file: "Oliver Velez - Swing Trading Tactics.pdf"
+related:
+- ebook-building-wealth-with-pristine-s-guerilla-trading-tactics
+- pristine-s-cardinal-rules-of-trading
+- beyond-candlesticks-steve-nison
+- candlestick-charting-explained
+- alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s
+reviewed_pdf_pages: 1-13, 23, 72, 79 (trading styles, stage analysis and the Pristine
+  Buy/Short Setup trigger, stop and management rules)
+slug: oliver-velez-swing-trading-tactics
+source_file: Oliver Velez - Swing Trading Tactics.pdf
+source_review: partial
+tags:
+- swing-trading
+- candlesticks
+- pristine-method
+- trend-stages
+- moving-averages
+- cci
+- setups
+tier: A
+title: Swing Trading Tactics
+year: 2001
 ---
 
 ## Overview

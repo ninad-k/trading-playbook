@@ -1,17 +1,32 @@
 ---
-title: "The Day Trade Forex System: $50 to $500 a Day Trading Forex"
 author: Erol Bortucene and Cynthia Macy
-year: 2003
-slug: 50-per-day-trading-forex
-tier: B
 category: Day Trading & Scalping
-tags: [forex, day-trading, scalping, moving-average, bollinger-bands, macd, rsi, stochastic]
 difficulty: beginner
 doc_type: course
+one_liner: 'DayTradeForex.com''s step-by-step retail-forex day-trading course: set
+  up a 5/10-minute chart stack and trade breakouts, trends, or tops/bottoms for 5-20
+  pip profits.'
 pages: 44
-one_liner: "DayTradeForex.com's step-by-step retail-forex day-trading course: set up a 5/10-minute chart stack and trade breakouts, trends, or tops/bottoms for 5-20 pip profits."
-related: [day-trading-the-currency-market, forex-misc-money-management-ryan-jones]
-source_file: "50_Per_Day_Trading_Forex.pdf"
+related:
+- day-trading-the-currency-market
+- forex-misc-money-management-ryan-jones
+reviewed_pdf_pages: 1-2, 15, 18, 20 (the system rules, stop sizing and the Micro Trading
+  bonus method)
+slug: 50-per-day-trading-forex
+source_file: 50_Per_Day_Trading_Forex.pdf
+source_review: partial
+tags:
+- forex
+- day-trading
+- scalping
+- moving-average
+- bollinger-bands
+- macd
+- rsi
+- stochastic
+tier: B
+title: 'The Day Trade Forex System: $50 to $500 a Day Trading Forex'
+year: 2003
 ---
 
 ## Summary

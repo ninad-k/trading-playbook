@@ -1,17 +1,31 @@
 ---
-title: Market Turns and Continuation Moves with the Tick Index
 author: Tim Ord
-year: 1992
-slug: market-turns
-tier: B
 category: Indicators
-tags: [tick-index, market-breadth, futures, day-trading, divergence, s-and-p-500, candlesticks]
 difficulty: intermediate
 doc_type: article
+one_liner: Tim Ord's four NYSE TICK-index rules (600+ intraday extremes, narrow-range
+  closes, breakaway ticks) for spotting reversals and continuations, tested on two
+  1991-92 S&P moves.
 pages: 7
-one_liner: "Tim Ord's four NYSE TICK-index rules (600+ intraday extremes, narrow-range closes, breakaway ticks) for spotting reversals and continuations, tested on two 1991-92 S&P moves."
-related: [tick, picking-tops, the-nyse-tick-index-and-candlesticks]
-source_file: "market_turns.pdf"
+related:
+- tick
+- picking-tops
+- the-nyse-tick-index-and-candlesticks
+reviewed_pdf_pages: 1-7
+slug: market-turns
+source_file: market_turns.pdf
+source_review: full
+tags:
+- tick-index
+- market-breadth
+- futures
+- day-trading
+- divergence
+- s-and-p-500
+- candlesticks
+tier: B
+title: Market Turns and Continuation Moves with the Tick Index
+year: 1992
 ---
 
 ## Summary

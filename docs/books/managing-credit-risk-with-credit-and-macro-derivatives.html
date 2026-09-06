@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Managing Credit Risk with Credit and Macro Derivatives — Udo Broll, Gerhard Schweimayer &amp; Peter Welzel · Trading Playbook</title>
+<meta name="description" content="An academic banking-theory paper deriving optimal hedge rules for a risk-averse bank using credit default swaps and macro derivatives to hedge loan-portfolio credit risk.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Managing Credit Risk with Credit and Macro Derivatives</h1>
+  <p class="byline">Udo Broll, Gerhard Schweimayer &amp; Peter Welzel · 2003 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">An academic banking-theory paper deriving optimal hedge rules for a risk-averse bank using credit default swaps and macro derivatives to hedge loan-portfolio credit risk.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the three separation cases and the macro-derivative section checked against the note; the paper is analytical rather than numeric. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=credit-risk">credit-risk</a> <a class="tag" href="../search.html?q=credit-default-swap">credit-default-swap</a> <a class="tag" href="../search.html?q=macro-derivatives">macro-derivatives</a> <a class="tag" href="../search.html?q=hedging">hedging</a> <a class="tag" href="../search.html?q=banking-theory">banking-theory</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>21 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Managing Credit Risk with Credit and Macro Derivatives” by Udo Broll, Gerhard Schweimayer &amp; Peter Welzel at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how should a large, risk-averse commercial bank use credit derivatives (credit default swaps) and &ldquo;macro derivatives&rdquo; (contracts on macroeconomic indices) to hedge the credit risk in its loan book, and how does derivative design affect the bank&rsquo;s optimal deposit, loan, and hedge decisions? Data: none — a theoretical model, not an empirical study. Method: the authors extend the industrial-organization microeconomics-of-banking framework (a monopolist bank setting deposit and loan rates) by adding risk aversion, an uncertain default/loss-given-default variable, and a hedge instrument, then solve the bank&rsquo;s expected-utility maximization problem under three CDS designs plus a macro derivative. Finding: whether a bank can neatly separate its deposit/loan decisions from its hedging decisions — and how much of its credit risk it should hedge — depends critically on how closely the derivative&rsquo;s payoff tracks the bank&rsquo;s actual credit losses (&ldquo;basis risk&rdquo;).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Credit risk is split into two components: the probability of default and the loss given default (LGD); their product is the loss variable the bank actually cares about.</li>
+<li><strong>Case 1 — CDS with no basis risk</strong> (payoff perfectly negatively correlated with the bank&rsquo;s credit losses): the bank can fully separate its deposit/loan decisions from its hedge decision (&ldquo;strong separation&rdquo;), and if the CDS market is unbiased (fairly priced) the bank optimally hedges 100% of its credit exposure.</li>
+<li><strong>Case 2 — CDS with basis risk</strong> (imperfect correlation): only &ldquo;weak separation&rdquo; holds — the bank can still set deposit/loan volumes first and then hedge — but the optimal hedge ratio depends on risk preferences and probabilities, following a beta-style partial-hedge rule.</li>
+<li><strong>Case 3 — CDS with a fixed, pre-determined payout</strong> (rather than a payout tied to realized losses): no simple hedge rule exists at all; the optimal hedge depends on the bank&rsquo;s degree of &ldquo;prudence&rdquo; (third-derivative property of the utility function), and neither strong nor weak separation holds.</li>
+<li><strong>Macro derivatives</strong> — hedge only the <em>systematic</em> (economy-wide) component of credit risk via a macro index (e.g., non-farm payrolls, a retail sales index); mathematically equivalent to a basis-risk CDS (Case 2), yielding a &ldquo;beta-hedge rule&rdquo;: the bank hedges a fraction β of its risky position, where β is how strongly its loan book&rsquo;s risk loads on the systematic factor.</li>
+<li>Macro derivatives cannot fully hedge credit risk because they deliberately leave the specific (idiosyncratic) risk with the bank — which the authors argue is desirable, since it preserves the bank&rsquo;s incentive to properly monitor its own borrowers (an information-asymmetry argument).</li>
+<li>The authors sketch how a bank-specific macro index could be built from standardized single-indicator products via a linear aggregation function, estimated in practice with a logistic regression of historical default rates on macro variables.</li>
+<li>Real-world context cited: the credit derivatives market grew from about $118 billion (mid-1998) to $693 billion (mid-2001) notional, with credit default swaps the dominant instrument; Deutsche Bank and Goldman Sachs began auctioning macro derivatives on U.S. economic indices in October 2002.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a theoretical banking-economics model, not a trading or hedging system with numeric parameters. The transferable idea for a credit or macro trader: hedge ratios should be scaled down (a beta-hedge, not a 1:1 hedge) whenever the hedging instrument&rsquo;s payoff is imperfectly correlated with the actual exposure, and a hedge instrument with a fixed/binary payout structure requires a materially more complex (prudence-dependent) sizing decision than one with a payout proportional to realized loss.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Purely theoretical, closed-form banking model (monopolistic bank, single period, no empirical calibration or backtest); conclusions are derived from utility-maximization proofs, not tested against real bank data. Written in 2003, before the 2008 financial crisis reshaped credit derivatives markets and regulation; the optimism about macro derivatives as a hedging innovation did not play out — this market never developed meaningful liquidity.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Academic and quant readers interested in the theory of bank credit-risk hedging and optimal hedge-ratio derivation; not a practical trading guide.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/credit-risk-modeling-and-valuation-an-introduction.html">Credit Risk Modeling and Valuation: An Introduction</a> — A survey/review paper comparing the three main quantitative frameworks for modeling default and pricing credit-sensitive securities: structural, reduced-form, and incomplete-information.</li><li><a href="../books/credit-derivatives.html">Credit Risk Modelling and Credit Derivatives</a> — Schönbucher&#39;s Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure framework to defaultable bonds, plus closed-form pricing for the main credit derivative structures.</li><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

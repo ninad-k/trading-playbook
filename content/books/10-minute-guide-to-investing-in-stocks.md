@@ -1,17 +1,32 @@
 ---
-title: 10 Minute Guide to Investing in Stocks
 author: E. Saenz
-year: 2000
-slug: 10-minute-guide-to-investing-in-stocks
-tier: B
 category: Investing, Value & Market History
-tags: [beginner, stocks, brokers, order-types, fundamentals, dollar-cost-averaging, indices]
 difficulty: beginner
 doc_type: book
+one_liner: 'Absolute-beginner primer on buying stocks: what a share is, how brokers
+  and orders work, basic valuation (P/E), and simple strategies like buy-and-hold
+  and dollar-cost averaging.'
 pages: 248
-one_liner: "Absolute-beginner primer on buying stocks: what a share is, how brokers and orders work, basic valuation (P/E), and simple strategies like buy-and-hold and dollar-cost averaging."
-related: [the-intelligent-investor-benjamin-graham, buy-and-hold-is-dead, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "10 Minute Guide To Investing In Stocks.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- buy-and-hold-is-dead
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 4, 17, 182 (the index and stock-table sections and the order-type
+  discussion)
+slug: 10-minute-guide-to-investing-in-stocks
+source_file: 10 Minute Guide To Investing In Stocks.pdf
+source_review: partial
+tags:
+- beginner
+- stocks
+- brokers
+- order-types
+- fundamentals
+- dollar-cost-averaging
+- indices
+tier: B
+title: 10 Minute Guide to Investing in Stocks
+year: 2000
 ---
 
 ## Summary

@@ -1,17 +1,36 @@
 ---
-title: "A Complete Guide to Technical Trading Tactics: How to Profit Using Pivot Points, Candlesticks & Other Indicators"
-author: "John L. Person"
-year: 2004
-slug: a-complete-guide-to-technical-trading-tactics-2004
-tier: A
-category: "Candlesticks & Chart Patterns"
-tags: [pivot-points, candlesticks, chart-patterns, futures, fibonacci, elliott-wave, commitments-of-traders, trading-psychology]
+author: John L. Person
+category: Candlesticks & Chart Patterns
 difficulty: intermediate
 doc_type: book
+one_liner: A futures/options trader's toolkit built around pivot point support/resistance
+  formulas verified by candlestick patterns, oscillators, and Commitments of Traders
+  positioning.
 pages: 287
-one_liner: "A futures/options trader's toolkit built around pivot point support/resistance formulas verified by candlestick patterns, oscillators, and Commitments of Traders positioning."
-related: [john-l-person-swing-trading-using-candlestick-charting-with-pivot-point, pivots, camarilla-levels, candlestick-charting-explained, street-smarts-laurence-connors]
-source_file: "A_Complete_Guide_to_Technical_Trading_Tactics_2004_.pdf"
+related:
+- john-l-person-swing-trading-using-candlestick-charting-with-pivot-point
+- pivots
+- camarilla-levels
+- candlestick-charting-explained
+- street-smarts-laurence-connors
+reviewed_pdf_pages: 9, 88, 126, 171, 175-177 (the opening-range statistics, pivot-point
+  chapters and the Fibonacci ratio rules)
+slug: a-complete-guide-to-technical-trading-tactics-2004
+source_file: A_Complete_Guide_to_Technical_Trading_Tactics_2004_.pdf
+source_review: partial
+tags:
+- pivot-points
+- candlesticks
+- chart-patterns
+- futures
+- fibonacci
+- elliott-wave
+- commitments-of-traders
+- trading-psychology
+tier: A
+title: 'A Complete Guide to Technical Trading Tactics: How to Profit Using Pivot Points,
+  Candlesticks & Other Indicators'
+year: 2004
 ---
 
 ## Overview

@@ -1,17 +1,36 @@
 ---
-title: "Building Winning Trading Systems with TradeStation"
-author: "George Pruitt, John R. Hill"
-year: 2003
-slug: george-pruitt-building-winning-trading-systems-with-tradestation
-tier: A
-category: "Trend Following & Mechanical Systems"
-tags: [tradestation, easylanguage, mechanical-systems, backtesting, optimization, bollinger-bands, keltner-channel, donchian-breakout, day-trading, money-management]
+author: George Pruitt, John R. Hill
+category: Trend Following & Mechanical Systems
 difficulty: intermediate
 doc_type: book
+one_liner: A TradeStation/EasyLanguage programming course built around six full turnkey
+  mechanical systems, each backtested 1982-2002 across 17 futures markets.
 pages: 406
-one_liner: "A TradeStation/EasyLanguage programming course built around six full turnkey mechanical systems, each backtested 1982-2002 across 17 futures markets."
-related: [dynamic-breakout-ii-strategy, king-keltner-trading-strategy, ghost-trader-trading-strategy, van-tharp-trading-systems, curtis-faith-way-of-the-turtle]
-source_file: "George Pruitt-Building_Winning_Trading_Systems_With_Tradestation.pdf"
+related:
+- dynamic-breakout-ii-strategy
+- king-keltner-trading-strategy
+- ghost-trader-trading-strategy
+- van-tharp-trading-systems
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 1-2, 5, 8-10, 130, 134, 176 (the EasyLanguage chapters, the ChoppyMarketIndex
+  function and the system performance tables with their test protocol)
+slug: george-pruitt-building-winning-trading-systems-with-tradestation
+source_file: George Pruitt-Building_Winning_Trading_Systems_With_Tradestation.pdf
+source_review: partial
+tags:
+- tradestation
+- easylanguage
+- mechanical-systems
+- backtesting
+- optimization
+- bollinger-bands
+- keltner-channel
+- donchian-breakout
+- day-trading
+- money-management
+tier: A
+title: Building Winning Trading Systems with TradeStation
+year: 2003
 ---
 
 ## Overview

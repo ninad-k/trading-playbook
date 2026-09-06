@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "day-trading-university",
+    "pages_reviewed": "1-9, 26, 43, 60, 77, 95, 112, 129, 146, 163, 181, 198, 215, 232, 249, 267, 284, 301, 318, 335",
+    "corrections": [
+      "Changed the title from the descriptive Daytrading University Course Materials to the source header Daytrading University."
+    ],
+    "limitations": "The note is based on the listed recovered OCR pages rather than a continuous review of all 352 pages. The source is promotional course material, and its probability and income statements are not independently tested.",
+    "outcome": "corrected"
+  },
+  {
+    "slug": "glenn-neely-masterelliotwav-low-quality",
+    "pages_reviewed": "1-13, 20, 28, 36, 44, 52, 59, 67, 75, 83, 91, 98, 106, 114, 122, 130, 137, 145, 153, 161",
+    "corrections": [
+      "Corrected the author from Glenn Neely with Eric Hall to Glenn Neely; the title page credits Neely alone, while Hall appears in the acknowledgments."
+    ],
+    "limitations": "The note is based on sampled OCR pages from a noisy scan. Diagrams and intervening classification rules were not reviewed continuously, so the note does not represent the complete decision framework.",
+    "outcome": "corrected"
+  },
+  {
+    "slug": "investment-science",
+    "pages_reviewed": "3-13, 87, 187, 212, 262, 286, 336, 361",
+    "corrections": [
+      "Removed page 212 from the CAPM citation because the directly supporting contents pages are 8-9."
+    ],
+    "limitations": "The note is based on the listed pages of a 510-page text. Most derivations and exercises were not reviewed continuously, and the models depend on their stated financing, trading, and return assumptions.",
+    "outcome": "corrected"
+  },
+  {
+    "slug": "jaeckel-p-monte-carlo-methods-in-finance-wiley-2002-t-c-232s",
+    "pages_reviewed": "3-13, 90, 123, 145, 189",
+    "corrections": [],
+    "limitations": "The note is based on the listed sampled pages. It does not reproduce most equations, algorithms, or comparative plots and does not validate the financial models to which the numerical methods are applied.",
+    "outcome": "verified"
+  },
+  {
+    "slug": "prechter-robert-the-major-works-of-r-n-elliott-low-quality",
+    "pages_reviewed": "1-13, 18, 30, 70, 92, 98",
+    "corrections": [
+      "Recast the first numbered rule as the source's expectation for a normal five-wave advance and noted the collection's rare wave-failure qualification, instead of stating an absolute endpoint requirement."
+    ],
+    "limitations": "The note is based on sampled OCR pages from a scan that combines facing book pages. The wave classifications and Fibonacci interpretations are historical claims and are not independently validated in the source.",
+    "outcome": "corrected"
+  },
+  {
+    "slug": "you-can-choose-to-be-rich-workbook-by-robert-t-kiyosaki",
+    "pages_reviewed": "1-13, 32, 51, 148, 167, 187, 264, 283",
+    "corrections": [
+      "Corrected the title to Choose to Be Rich.",
+      "Corrected the asset checklist to investments that produce income, or appreciate and can be readily sold.",
+      "Corrected the debt rule to preserve the source's conditional sequence: use and replenish a rainy-day reserve when possible; otherwise cover listed essentials before ordering card debt by APR."
+    ],
+    "limitations": "The note is based on the listed recovered pages rather than a continuous review of the 399-page workbook. Its recommendations are motivational and may be dated or jurisdiction-specific.",
+    "outcome": "corrected"
+  }
+]

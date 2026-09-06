@@ -16,7 +16,7 @@
 </article>
 {% endblock %}
 {% block scripts %}
-<script src="search-data.js"></script>
+<script src="search-data.js?v={{ search_version }}"></script>
 <script>
 (function(){
   const docs=window.TRADING_PLAYBOOK_SEARCH||[], $=id=>document.getElementById(id);

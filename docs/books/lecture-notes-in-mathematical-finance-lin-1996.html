@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lecture Notes in Mathematical Finance — X. Sheldon Lin · Trading Playbook</title>
+<meta name="description" content="University graduate-course lecture notes building arbitrage-free asset pricing from discrete one-period models up through Ito calculus, Black-Scholes-style dynamic hedging, and interest-rate/swap models.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Lecture Notes in Mathematical Finance</h1>
+  <p class="byline">X. Sheldon Lin · 1996 · <span class="badge tier-B">Tier B</span> <span class="badge">course</span> <span class="badge">advanced</span></p>
+  <p class="lead">University graduate-course lecture notes building arbitrage-free asset pricing from discrete one-period models up through Ito calculus, Black-Scholes-style dynamic hedging, and interest-rate/swap models.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the derivation chapters checked against the note; the notes are algebraic and state no trading parameters. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=arbitrage-pricing">arbitrage-pricing</a> <a class="tag" href="../search.html?q=stochastic-calculus">stochastic-calculus</a> <a class="tag" href="../search.html?q=option-pricing">option-pricing</a> <a class="tag" href="../search.html?q=interest-rate-models">interest-rate-models</a> <a class="tag" href="../search.html?q=risk-neutral-valuation">risk-neutral-valuation</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>339 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Lecture Notes in Mathematical Finance” by X. Sheldon Lin at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A university lecture-note course (Department of Statistics &amp; Actuarial Science, University of Iowa) building the mathematics of no-arbitrage asset pricing from the ground up in two parts. Part I covers discrete-time finance: one-period market models, trading strategies, no-arbitrage characterization, risk-neutral valuation, discrete-time stochastic processes, lattice/binomial models, and binomial option and interest-rate pricing. Part II covers continuous-time finance: stochastic calculus (Wiener processes, the Ito integral, stochastic differential equations, Ito&rsquo;s lemma, the Feynman-Kac formula, Girsanov&rsquo;s theorem), the dynamic-hedging approach to option pricing, multi-dimensional Ito processes, security-market valuation, digital and barrier options, interest-rate models, and swaps/swaptions, with probability-theory and functional-analysis appendices.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>One-period market model</strong> — a finite state space of possible outcomes, a set of primitive securities with known payoffs in each state, and investor endowments; a &ldquo;trading strategy&rdquo; is a portfolio of these securities.</li>
+<li><strong>No-arbitrage condition</strong> — the foundational assumption throughout the notes: no trading strategy can produce a sure profit with zero net cost; this alone restricts the set of valid prices.</li>
+<li><strong>Market completeness</strong> — a market is complete if every possible payoff can be replicated by some portfolio of the primitive securities (equivalent to the payoff matrix having full rank); incomplete markets require creating new (derivative) securities to complete them.</li>
+<li><strong>Risk-neutral probability measure</strong> — under no-arbitrage, there exists a probability measure under which discounted asset prices are martingales; pricing any claim reduces to computing its expected discounted payoff under this measure rather than the real-world probability.</li>
+<li><strong>Binomial models</strong> — the discrete-time workhorse for pricing options and interest-rate derivatives by building a lattice (tree) of up/down price moves and applying risk-neutral valuation at each node.</li>
+<li><strong>Ito calculus</strong> — the continuous-time toolkit (Wiener process, Ito integral, Ito&rsquo;s lemma, stochastic differential equations) needed to model continuously-evolving asset prices and derive pricing PDEs.</li>
+<li><strong>Dynamic hedging / Black-Scholes-style approach</strong> — options are priced by constructing a continuously-rebalanced replicating portfolio in the underlying and a risk-free bond; the same risk-neutral valuation logic from the discrete case reappears via Girsanov&rsquo;s theorem (which formalizes the change from the real-world to the risk-neutral measure).</li>
+<li><strong>Feynman-Kac formula</strong> — connects the price of a derivative (an expectation under the risk-neutral measure) to the solution of a partial differential equation, the bridge between the probabilistic and PDE approaches to option pricing.</li>
+<li><strong>Interest-rate models and swaps</strong> — the later chapters extend the same no-arbitrage/risk-neutral machinery to term-structure (interest-rate) models and to pricing swaps and swaptions, plus digital and barrier options as examples of exotic payoffs.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is graduate coursework in the mathematics of arbitrage-free pricing, not a trading system. The conceptual takeaway a trader can use: any consistent options or derivatives price must be expressible as a discounted expectation under some risk-neutral measure; the binomial-tree logic in Part I is the intuitive version of the continuous-time Black-Scholes machinery in Part II.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The source PDF&rsquo;s text layer has systematic ligature-stripping corruption (common character pairs like &ldquo;ti,&rdquo; &ldquo;tt,&rdquo; &ldquo;fi&rdquo; are dropped or mis-spaced throughout, e.g., &ldquo;securit y,&rdquo; &ldquo;Sto c hastic&rdquo;), which degrades readability of the fine mathematical notation and equations; the table of contents and prose outline used here were reconstructed from the recoverable text and are reliable, but exact formulas and worked numerical examples could not be verified in detail. This is dense, prerequisite-heavy graduate material (real analysis, probability theory, stochastic calculus) with no discussion of practical trading, market frictions, or transaction costs; content predates most 2000s-era volatility-modeling and credit-derivatives developments.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Graduate students or quant practitioners who want a compact, rigorous course build-up of arbitrage pricing theory from discrete one-period models through continuous-time stochastic calculus and interest-rate derivatives; not intended for discretionary or retail traders.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li><li><a href="../books/introduction-to-arbitrage-pricing-of-financial-derivatives.html">Introduction to Arbitrage Pricing of Financial Derivatives</a> — Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets.</li><li><a href="../books/1-the-mathematics-of-financial-derivatives.html">The Mathematics of Financial Derivatives: A Student Introduction</a> — A student-oriented route from random walks and Black–Scholes PDEs to numerical and path-dependent option valuation.</li><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/paul-wilmott-quantitative-finance.html">Paul Wilmott Introduces Quantitative Finance</a> — A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

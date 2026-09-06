@@ -1,17 +1,31 @@
 ---
-title: "Real Options in Practice"
-author: "Marion A. Brach"
-year: 2003
-slug: real-options-in-practice
-tier: B
+author: Marion A. Brach
 category: Options, Futures & Derivatives
-tags: [real-options, corporate-finance, binomial-model, capital-budgeting, game-theory, npv, valuation]
 difficulty: advanced
 doc_type: book
+one_liner: A corporate-finance text applying financial option-pricing (binomial model)
+  to value managerial flexibility in capital investment decisions — not a trading
+  book.
 pages: 378
-one_liner: "A corporate-finance text applying financial option-pricing (binomial model) to value managerial flexibility in capital investment decisions — not a trading book."
-related: [hull-options-futures-and-other-derivative-securities-5th-ed, jamie-rogers-strategy-value-and-risk-the-real-options-approach]
-source_file: "Real Options In Practice.pdf"
+related:
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- jamie-rogers-strategy-value-and-risk-the-real-options-approach
+reviewed_pdf_pages: the framework chapters checked against the note; the book states
+  no trading parameters
+slug: real-options-in-practice
+source_file: Real Options In Practice.pdf
+source_review: partial
+tags:
+- real-options
+- corporate-finance
+- binomial-model
+- capital-budgeting
+- game-theory
+- npv
+- valuation
+tier: B
+title: Real Options in Practice
+year: 2003
 ---
 
 ## Summary

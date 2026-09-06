@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo Stock Exchange — Yasushi Hamao, Joel Hasbrouck · Trading Playbook</title>
+<meta name="description" content="Academic microstructure study finding that Tokyo Stock Exchange&#39;s pure limit-order-book system (no dealers) supplies immediacy nearly as well as dealer markets, using warning/special quotes to slow large orders.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo Stock Exchange</h1>
+  <p class="byline">Yasushi Hamao, Joel Hasbrouck · 1995 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Academic microstructure study finding that Tokyo Stock Exchange&#39;s pure limit-order-book system (no dealers) supplies immediacy nearly as well as dealer markets, using warning/special quotes to slow large orders.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-2, 4 (the market description, tick-size rules and sample period). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=limit-order-book">limit-order-book</a> <a class="tag" href="../search.html?q=tokyo-stock-exchange">tokyo-stock-exchange</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=academic">academic</a> <a class="tag" href="../search.html?q=price-limits">price-limits</a> </td></tr>
+    <tr><th>Length</th><td>30 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo Stock Exchange” by Yasushi Hamao, Joel Hasbrouck at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Published in the Review of Financial Studies (1995). Question: can a market with no dealers or market makers — where all liquidity comes from public limit orders — supply immediacy comparable to dealer-based markets like the NYSE? Data: intraday trade and quote records for three actively traded Tokyo Stock Exchange (TSE) stocks over the first three months of 1990. Method: descriptive statistics on execution delay and price improvement, plus a dynamic VAR of trades and quote revisions to study how the TSE&rsquo;s &ldquo;warning&rdquo;/&rdquo;special&rdquo; quote mechanism (pausing and re-displaying large orders that would otherwise walk through the book) affects price impact. Finding: public-order liquidity was good — small orders were blocked from immediate execution less than 5% of the time — and about one-fifth of paused orders received price improvement, but delayed orders had a larger cumulative price impact than orders executed immediately in full.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>TSE prohibits members from placing proprietary limit orders on both sides of the market, structurally preventing de facto dealers from emerging.</li>
+<li>Tick sizes run 0.1%-1% of price; sessions open with a call auction (itayose) before continuous double-auction trading (zaraba).</li>
+<li>Large orders that would walk through the book are only partially executed; the remainder becomes a &ldquo;warning&rdquo; or &ldquo;special&rdquo; indicative quote inviting competing liquidity for up to about a minute.</li>
+<li>Roughly one-fifth of these indicative quotes get hit by competing liquidity, delivering price improvement.</li>
+<li>Small hypothetical orders were blocked from immediate execution less than 5% of trading time — good public liquidity supply.</li>
+<li>Delayed (paused) orders show larger cumulative price impact in the VAR analysis than immediately executed orders of the same size, implying the mechanism affects market depth, not just transient smoothing.</li>
+<li>Post-trade quotes tend to keep moving in the initiating trade&rsquo;s direction, from order-flow autocorrelation and cancellation of limit orders that set the best quote.</li>
+<li>Single-price fills show continuation; multi-level fills tend to show reversals afterward, suggesting liquidity partially restores after large trades.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading signals — an empirical microstructure study. Transferable insight: in a pure limit-order-book market, a large order that triggers a price-limit pause tends to carry more information (larger subsequent impact) than one executing immediately, and roughly 1 in 5 paused orders see meaningful price improvement for a patient trader.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Narrow sample — three stocks, three months, 1990 data — and TSE rules have since evolved. Technical academic paper requiring familiarity with VAR-based microstructure methodology.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Market-microstructure researchers and quants studying limit-order-book dynamics, not retail traders seeking a system.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/de-matos-and-fernandes-testing-the-markov-property-with-ultra-high-frequency-financial-dat.html">Testing the Markov Property with Ultra-High Frequency Financial Data</a> — Academic paper developing a nonparametric test for whether bid-ask spreads follow a Markov process, rejecting the assumption for 3 of 5 NYSE stocks tested.</li><li><a href="../books/hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market.html">The Microstructure of the Euro Money Market</a> — Five months of intraday data show how ECB events, reserve operations, and settlement infrastructure shape euro overnight liquidity and volatility.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

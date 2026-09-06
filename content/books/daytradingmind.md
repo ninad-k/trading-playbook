@@ -1,17 +1,29 @@
 ---
-title: "Trading in Mind: 10 Ways to Stay Focused for Real-Time Traders"
 author: Unknown
-year: 2002
-slug: daytradingmind
-tier: B
 category: Trading Psychology & Discipline
-tags: [trading-psychology, discipline, risk-per-trade, trading-journal, day-trading, emotional-control]
 difficulty: beginner
 doc_type: manual
+one_liner: 'Free 10-point psychology ebook for day traders: probabilistic thinking,
+  a written plan, small risk per trade, and a trading journal for weekly review.'
 pages: 17
-one_liner: "Free 10-point psychology ebook for day traders: probabilistic thinking, a written plan, small risk per trade, and a trading journal for weekly review."
-related: [trading-in-the-zone, disciplined-trader, brett-steenbarger-psychology-of-trading]
-source_file: "DayTradingMind.pdf"
+related:
+- trading-in-the-zone
+- disciplined-trader
+- brett-steenbarger-psychology-of-trading
+reviewed_pdf_pages: 5 and the discipline chapters checked against the note's rules
+slug: daytradingmind
+source_file: DayTradingMind.pdf
+source_review: partial
+tags:
+- trading-psychology
+- discipline
+- risk-per-trade
+- trading-journal
+- day-trading
+- emotional-control
+tier: B
+title: 'Trading in Mind: 10 Ways to Stay Focused for Real-Time Traders'
+year: 2002
 ---
 
 ## Summary

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Test and Interpret Trading System Performance — Wayne A. Thorp · Trading Playbook</title>
+<meta name="description" content="AAII Journal article showing, with a worked 20-year example, how commissions, slippage, margin, stops and idle interest each swing a mechanical system&#39;s reported returns.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>How to Test and Interpret Trading System Performance</h1>
+  <p class="byline">Wayne A. Thorp · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">intermediate</span></p>
+  <p class="lead">AAII Journal article showing, with a worked 20-year example, how commissions, slippage, margin, stops and idle interest each swing a mechanical system&#39;s reported returns.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-5. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=system-testing">system-testing</a> <a class="tag" href="../search.html?q=optimization">optimization</a> <a class="tag" href="../search.html?q=slippage">slippage</a> <a class="tag" href="../search.html?q=commissions">commissions</a> <a class="tag" href="../search.html?q=money-management-stops">money-management-stops</a> </td></tr>
+    <tr><th>Length</th><td>5 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “How to Test and Interpret Trading System Performance” by Wayne A. Thorp at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An AAII Journal (January 2001) technical-analysis column by Wayne Thorp, assistant financial analyst at AAII, explaining why a trading system&rsquo;s headline backtest return is usually misleading. Using a simple moving-average-crossover stock system tested over 20 years, the article layers in commissions, slippage, margin, protective stops, and idle-balance interest one at a time to show how far actual results diverge from the &ldquo;sterile&rdquo; (assumption-free) backtest.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Backtested results are more easily manipulated (&ldquo;optimized&rdquo;) than live results; ask whether performance numbers are from real trading or backtesting, and over what period.</li>
+<li>Recommends a &ldquo;hold-out&rdquo; validation method: optimize parameters on half the historical data, then test unchanged on the other half — large divergence between the two halves signals overfitting.</li>
+<li>A system should be compared against a simple buy-and-hold benchmark; if it can&rsquo;t beat buy-and-hold, it needs rework.</li>
+<li>Dividends and taxes are usually ignored by backtesting software but materially affect real returns.</li>
+<li>In the worked example (20-year backtest, simple crossover system), trading on margin cost $141.88 versus not using margin (but buy-and-hold on margin would have earned an extra ~$97,000).</li>
+<li>$15/trade commissions on 807 trades cost $12,105 directly, but $14,101.46 in true opportunity cost.</li>
+<li>Delaying execution to the next day&rsquo;s open (realistic slippage) turned the sterile system&rsquo;s result into a net loss of $1,604.27 — a swing of $22,207.59 versus the no-slippage case.</li>
+<li>Adding a 2%-of-equity max-loss stop and a 20%-of-open-profit trailing stop added $102,050.32 versus the sterile system ($81,447 improvement) — protective stops were the single largest positive factor in this example.</li>
+<li>Combining every real-world factor (margin, commissions, slippage, stops, idle interest) turned the system&rsquo;s $200,000+ theoretical gain into a net loss, ending with only $9,999.46 of the original $100,000 test equity.</li>
+<li>System execution requires ongoing trader attention (or automation); most trading software generates signals but doesn&rsquo;t execute trades — following the system in real time is often the hardest part.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Never evaluate a system on its raw backtest number alone — re-run it with commissions, realistic slippage (next-bar-open fills), margin cost, and dividend/tax treatment applied.</li>
+<li>Validate any optimized parameter set on a hold-out period the optimizer never saw; distrust results that only look good in the optimization window.</li>
+<li>Include an explicit money-management stop (the article&rsquo;s example: 2% of remaining equity per trade) and a trailing stop (example: 20% giveback of open profit) — in the worked example these turned a losing sterile system materially more favorable.</li>
+<li>Compare final system equity to a buy-and-hold benchmark over the same period before adopting the system.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Single illustrative example (one moving-average-crossover system on one 20-year run) — the specific dollar figures are not generalizable to other systems or markets, only the categories of cost they illustrate. Article is over two decades old; 2001-era commission ($15/trade) and margin conventions are dated, though the underlying methodology (hold-out testing, layering in real-world costs) remains standard practice.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Anyone building or evaluating a mechanical/systematic trading strategy who needs a checklist of the real-world costs that must be added to a raw backtest before trusting its numbers.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator.html">Measuring Internal Strength: Wilder&#39;s RSI Indicator</a> — AAII Journal primer on Wilder&#39;s RSI covering its calculation, overbought/oversold use, divergence signals, failure swings, and the indicator&#39;s breakdown in trending markets.</li><li><a href="../books/wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds.html">The MACD: A Combo of Indicators for the Best of Both Worlds</a> — AAII Journal (January 2000) tutorial on the MACD indicator: calculation, crossover signals, overbought/oversold use, divergence, and daily-vs-weekly signal weighting.</li><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual.html">Jack Schwager&#39;s Guide to Winning with Automated Trading Systems</a> — A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system&#39;s backtest performance report.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

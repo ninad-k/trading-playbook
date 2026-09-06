@@ -1,17 +1,31 @@
 ---
-title: "LSS - An Introduction to the 3-Day Cycle Method"
 author: George Angell
-year: unknown
-slug: lss-3-day-cycle-method
-tier: B
 category: Day Trading & Scalping
-tags: [taylor-trading-technique, day-trading, contrarian, futures, support-resistance, cycles, fade-trading]
 difficulty: intermediate
 doc_type: manual
+one_liner: Day-trading guide built on George Douglas Taylor's 3-day Buy/Sell/Short-Sell
+  cycle, fading stop-run gaps around a rolling support/resistance envelope.
 pages: 14
-one_liner: "Day-trading guide built on George Douglas Taylor's 3-day Buy/Sell/Short-Sell cycle, fading stop-run gaps around a rolling support/resistance envelope."
-related: [george-angell-sniper-trading-workbook-pdf, camarilla-levels, the-1hr-tunnel-method]
-source_file: "lss_3_day_cycle_method.pdf"
+related:
+- george-angell-sniper-trading-workbook-pdf
+- camarilla-levels
+- the-1hr-tunnel-method
+reviewed_pdf_pages: 5, 10 (the cycle definition and the trending/non-trending oscillator
+  filters)
+slug: lss-3-day-cycle-method
+source_file: lss_3_day_cycle_method.pdf
+source_review: partial
+tags:
+- taylor-trading-technique
+- day-trading
+- contrarian
+- futures
+- support-resistance
+- cycles
+- fade-trading
+tier: B
+title: LSS - An Introduction to the 3-Day Cycle Method
+year: unknown
 ---
 
 ## Summary

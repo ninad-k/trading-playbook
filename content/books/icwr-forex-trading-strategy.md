@@ -1,17 +1,34 @@
 ---
-title: ICWR Forex Trading Strategy
-author: "Quantum Globe Inc."
-year: 2005
-slug: icwr-forex-trading-strategy
-tier: A
+author: Quantum Globe Inc.
 category: Fibonacci, Gann & Elliott Wave
-tags: [forex, fibonacci, elliott-wave, retracement, rsi, mechanical-system, eur-usd]
 difficulty: intermediate
 doc_type: book
+one_liner: A fully mechanical Fibonacci-retracement system (the Impulsive/Corrective
+  Wave Retracement phenomenon) with precise entry, exit and stop rules for both intraday
+  (5-min) and long-term (4-hour) forex trading.
 pages: 126
-one_liner: "A fully mechanical Fibonacci-retracement system (the Impulsive/Corrective Wave Retracement phenomenon) with precise entry, exit and stop rules for both intraday (5-min) and long-term (4-hour) forex trading."
-related: [day-trading-the-currency-market, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005, come-into-my-trading-room-elder-alexander]
-source_file: "ICWR_Forex_Trading_Strategy.pdf"
+related:
+- day-trading-the-currency-market
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+- come-into-my-trading-room-elder-alexander
+reviewed_pdf_pages: 1, 5, 7, 9, 12-13, 15, 18, 37 (leverage arithmetic, the Fibonacci
+  level set, the worked intraday examples and the stop-loss rules)
+slug: icwr-forex-trading-strategy
+source_file: ICWR_Forex_Trading_Strategy.pdf
+source_review: partial
+tags:
+- forex
+- fibonacci
+- elliott-wave
+- retracement
+- rsi
+- mechanical-system
+- eur-usd
+tier: A
+title: ICWR Forex Trading Strategy
+year: 2005
 ---
 
 ## Overview

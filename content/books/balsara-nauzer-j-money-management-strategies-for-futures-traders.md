@@ -1,17 +1,36 @@
 ---
-title: Money Management Strategies for Futures Traders
 author: Nauzer J. Balsara
-year: 1992
-slug: balsara-nauzer-j-money-management-strategies-for-futures-traders
-tier: A
 category: Money Management & Position Sizing
-tags: [risk-of-ruin, optimal-f, kelly-criterion, fixed-fractional, position-sizing, diversification, pyramiding]
 difficulty: advanced
 doc_type: book
+one_liner: An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional
+  and optimal-f position sizing, diversification, and capital allocation across futures
+  trades.
 pages: 137
-one_liner: "An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades."
-related: [a-new-interprtation-of-information-rate-kelly, position-sizing, money-management-report-van-tharp, van-tharp-trading-systems, forex-misc-money-management-ryan-jones, money-management-risk-control-for-traders, fine-tuning-your-money-management]
-source_file: "BALSARA, Nauzer J. - Money Management Strategies for Futures Traders.pdf"
+related:
+- kellybetting
+- position-sizing
+- money-management-report-van-tharp
+- van-tharp-trading-systems
+- forex-misc-money-management-ryan-jones
+- money-management-risk-control-for-traders
+- fine-tuning-your-money-management
+reviewed_pdf_pages: 1-3, 6, 84, 115, 137 (contents, the risk-of-ruin and payoff-ratio
+  chapters, fixed-fraction exposure and the optimal-f allocation sections)
+slug: balsara-nauzer-j-money-management-strategies-for-futures-traders
+source_file: BALSARA, Nauzer J. - Money Management Strategies for Futures Traders.pdf
+source_review: partial
+tags:
+- risk-of-ruin
+- optimal-f
+- kelly-criterion
+- fixed-fractional
+- position-sizing
+- diversification
+- pyramiding
+tier: A
+title: Money Management Strategies for Futures Traders
+year: 1992
 ---
 
 ## Overview
@@ -86,7 +105,7 @@ Systematic and discretionary futures/derivatives traders who already have a sign
 
 ## Related books in this library
 
-- [[a-new-interprtation-of-information-rate-kelly]] — Kelly's original 1956 paper, the source of the optimal-f/Kelly formula this book builds its exposure-sizing chapter around.
+- [[kellybetting]] — Kelly's original 1956 paper, the source of the optimal-f/Kelly formula this book builds its exposure-sizing chapter around.
 - [[position-sizing]] — a complementary, narrower treatment of position-sizing's effect on trader performance, useful alongside Balsara's fixed-fractional and optimal-f chapters.
 - [[money-management-report-van-tharp]] and [[van-tharp-trading-systems]] — Van Tharp's parallel position-sizing and system-design framework, a useful second perspective on the same core problem.
 - [[forex-misc-money-management-ryan-jones]] — an alternative (non-Kelly) fixed-ratio position-sizing scheme worth contrasting with Balsara's optimal-f approach.

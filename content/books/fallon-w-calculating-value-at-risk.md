@@ -1,17 +1,30 @@
 ---
-title: "Calculating Value-at-Risk"
-author: "William Fallon"
-year: 1996
-slug: fallon-w-calculating-value-at-risk
-tier: B
+author: William Fallon
 category: Quant, Microstructure & Academic Research
-tags: [value-at-risk, garch, options-greeks, delta-normal, gamma-normal, risk-management, portfolio-risk]
 difficulty: advanced
 doc_type: paper
+one_liner: Wharton working paper comparing six VaR models, finding second-order (gamma)
+  approximations paired with multivariate GARCH beat the first-order delta models
+  used by most practitioners.
 pages: 39
-one_liner: "Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners."
-related: [kalman-filter-for-arbitrage-identification-in-high-frequency-data]
-source_file: "Fallon_ W - Calculating Value-At-Risk.pdf"
+related:
+- kalman-filter-for-arbitrage-identification-in-high-frequency-data
+reviewed_pdf_pages: 3, 5-6, 22, 30 (the methodology comparison and the test-portfolio
+  results)
+slug: fallon-w-calculating-value-at-risk
+source_file: Fallon_ W - Calculating Value-At-Risk.pdf
+source_review: partial
+tags:
+- value-at-risk
+- garch
+- options-greeks
+- delta-normal
+- gamma-normal
+- risk-management
+- portfolio-risk
+tier: B
+title: Calculating Value-at-Risk
+year: 1996
 ---
 
 ## Summary

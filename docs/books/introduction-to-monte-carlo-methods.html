@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introduction to Monte Carlo Methods — Computational Science Education Project · Trading Playbook</title>
+<meta name="description" content="General-purpose scientific-computing primer on Monte Carlo simulation and probability theory, with physics examples; contains no finance or trading content.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Introduction to Monte Carlo Methods</h1>
+  <p class="byline">Computational Science Education Project · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">General-purpose scientific-computing primer on Monte Carlo simulation and probability theory, with physics examples; contains no finance or trading content.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4 and the method sections checked against the note; the tutorial&#39;s worked example is physical rather than financial. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=monte-carlo">monte-carlo</a> <a class="tag" href="../search.html?q=simulation">simulation</a> <a class="tag" href="../search.html?q=probability">probability</a> <a class="tag" href="../search.html?q=statistics">statistics</a> <a class="tag" href="../search.html?q=numerical-methods">numerical-methods</a> <a class="tag" href="../search.html?q=random-sampling">random-sampling</a> </td></tr>
+    <tr><th>Length</th><td>30 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Introduction to Monte Carlo Methods” by Computational Science Education Project at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is an excerpt from the Computational Science Education Project&rsquo;s public-domain electronic textbook on Monte Carlo methods — a general numerical-methods reference for scientific computing, not a finance or trading text. It defines Monte Carlo methods as statistical simulation techniques that use sequences of random numbers, traces the name&rsquo;s origin (coined by Metropolis, inspired by Ulam&rsquo;s interest in poker during the Manhattan Project), and builds up the underlying probability and statistics theory (sample spaces, composite/joint events, probability density functions, expectation values, unbiased estimators). Its worked example is simulating a physical system (the sun&rsquo;s radiance and solar wind), not a market.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Monte Carlo methods simulate a physical or mathematical system directly by sampling from probability density functions (pdfs) that describe its behavior, rather than solving differential equations analytically.</li>
+<li>A single simulation run is called a &ldquo;trial&rdquo; or &ldquo;history&rdquo;; results are taken as an average over many trials.</li>
+<li>Core statistical building blocks covered: sample space, events, composite/joint events and joint probability, probability density functions, and expectation values.</li>
+<li>States that an average of N observations of a function g(x) is a reasonable estimate of the expectation value E[g], introducing the concept of an unbiased estimator.</li>
+<li>Historical framing: the technique predates its name by centuries but only became a full numerical method in the last several decades (as of the text&rsquo;s writing); the &ldquo;Monte Carlo&rdquo; name references the Monaco gambling connection.</li>
+<li>Worked example applies the method to a physical system (the sun) rather than a financial one — random numbers on [0,1] are mapped through pdfs to produce simulated outputs like solar radiance and solar wind fluence.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this document contains no trading rules, market examples, or finance applications of any kind; it is a foundational reference on the statistical machinery (random sampling, pdfs, expectation values) that underlies Monte Carlo techniques used elsewhere in quant finance (e.g., option pricing simulation, VaR/risk simulation, strategy backtesting under randomized paths).</p>
+<h2 id="caveats">Caveats</h2>
+<p>Not written for traders — no market, options, or portfolio examples appear in the assigned excerpt. The source PDF was generated from a DVI/TeX document and its extracted text has systematically broken ligatures and inserted spaces (e.g., &ldquo;Introduction&rdquo; renders as &ldquo;In tro duction&rdquo;), making exact quotation unreliable; content here is paraphrased from what could be reliably reconstructed. Readers wanting Monte Carlo applied to finance (option pricing, risk simulation) should look elsewhere in this library.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant-minded readers wanting foundational probability/statistics and Monte Carlo simulation theory as background before applying the technique to option pricing or risk modeling; not useful as a standalone trading resource.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

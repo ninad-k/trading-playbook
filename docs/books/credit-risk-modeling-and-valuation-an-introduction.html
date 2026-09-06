@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credit Risk Modeling and Valuation: An Introduction — Kay Giesecke · Trading Playbook</title>
+<meta name="description" content="A survey/review paper comparing the three main quantitative frameworks for modeling default and pricing credit-sensitive securities: structural, reduced-form, and incomplete-information.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Credit Risk Modeling and Valuation: An Introduction</h1>
+  <p class="byline">Kay Giesecke · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">A survey/review paper comparing the three main quantitative frameworks for modeling default and pricing credit-sensitive securities: structural, reduced-form, and incomplete-information.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 6, 13, 20, 36 (the structural, reduced-form and incomplete-information sections and the references). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=credit-risk">credit-risk</a> <a class="tag" href="../search.html?q=default-probability">default-probability</a> <a class="tag" href="../search.html?q=structural-models">structural-models</a> <a class="tag" href="../search.html?q=reduced-form-models">reduced-form-models</a> <a class="tag" href="../search.html?q=credit-spreads">credit-spreads</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>40 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Credit Risk Modeling and Valuation: An Introduction” by Kay Giesecke at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: how should default probabilities and prices of credit-sensitive securities (corporate bonds, credit derivatives) be modeled? Data: none — this is a theoretical/expository review, not an empirical study. Method: the author (writing for a Riskbooks handbook chapter) walks through and contrasts three modeling families: the structural approach (Black-Scholes/Merton and Black-Cox), the reduced-form/intensity approach, and the newer incomplete-information approach that combines features of both. Finding: each family makes a different assumption about what investors can observe about the firm, and that assumption — not the math — is what drives whether a model produces realistic short-term credit spreads and can generate the sudden price jumps observed empirically at default.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>Structural approach (Merton 1974)</strong> — models the firm&rsquo;s asset value as geometric Brownian motion; default occurs if assets fall below debt face value at maturity; equity is priced as a call option on firm assets, debt as a risk-free bond minus a put option (Black-Scholes formulas apply directly).</li>
+<li><strong>First-passage extension (Black-Cox 1976)</strong> — default can occur any time assets hit a barrier (not just at bond maturity), which is more realistic given bond covenants that trigger reorganization early.</li>
+<li><strong>Predictability problem</strong> — in classical structural models default can be &ldquo;seen coming&rdquo; as assets approach the barrier, so the model-implied credit spread mathematically goes to zero as maturity shrinks to zero — contradicting the fact that real short-maturity bonds still carry positive spreads.</li>
+<li><strong>Reduced-form approach (Artzner &amp; Delbaen 1995; Jarrow &amp; Turnbull 1995; Duffie &amp; Singleton 1999)</strong> — does not explain <em>why</em> a firm defaults; instead default is driven by an exogenous &ldquo;intensity&rdquo; (hazard rate) calibrated directly to market prices, using the Doob-Meyer &ldquo;compensator&rdquo; to isolate the default process&rsquo;s upward trend.</li>
+<li><strong>Incomplete-information approach (Duffie &amp; Lando 2001; Giesecke 2001b)</strong> — keeps the intuitive structural setup (assets vs. a default barrier) but assumes investors cannot observe the true asset value or barrier precisely; this makes default a genuine surprise even in a structural framework, fixing the &ldquo;zero short-spread&rdquo; problem while keeping economic interpretability.</li>
+<li><strong>Credit spread</strong> — defined as the yield gap between a defaultable bond and an equivalent default-free bond; its term structure (spread vs. maturity) is the standard diagnostic used to compare model classes.</li>
+<li><strong>Dependent defaults</strong> — in incomplete-information models, observing one firm&rsquo;s default lets investors update their beliefs about the (unobserved) default barriers of other, correlated firms — a &ldquo;contagion&rdquo; effect not present in classical structural models.</li>
+<li><strong>Credit risk premium</strong> — the mapping between real-world (&ldquo;physical&rdquo;) default probabilities and market-implied probabilities embedded in prices; distinct from the raw probability of default itself.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a theoretical/methodological review paper, not a trading or risk-limit system. The practical takeaway for a credit-sensitive trader or risk manager: classical structural (Merton-style) models will understate near-term default risk and short-dated credit spreads for distressed names; reduced-form (intensity) models fit market spreads well but offer no economic story for <em>why</em> spreads move; incomplete-information models are the more defensible middle ground when pricing short-dated credit protection or explaining sudden spread jumps.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Purely theoretical/mathematical exposition (stochastic calculus, option-pricing formulas) with no backtested trading application, aimed at quants and credit-risk academics, not discretionary traders. Written in 2002–2004; references pre-2008-crisis credit derivatives market conventions and does not reflect post-crisis regulatory changes (e.g., CVA, central clearing) to credit derivatives markets.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers, credit risk modelers, and derivatives-pricing students who need a compact comparative map of the structural, reduced-form, and incomplete-information default modeling literatures.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/credit-derivatives.html">Credit Risk Modelling and Credit Derivatives</a> — Schönbucher&#39;s Bonn PhD dissertation extending the Heath-Jarrow-Morton term-structure framework to defaultable bonds, plus closed-form pricing for the main credit derivative structures.</li><li><a href="../books/managing-credit-risk-with-credit-and-macro-derivatives.html">Managing Credit Risk with Credit and Macro Derivatives</a> — An academic banking-theory paper deriving optimal hedge rules for a risk-averse bank using credit default swaps and macro derivatives to hedge loan-portfolio credit risk.</li><li><a href="../books/derivatives-pricing-and-financial-modelling.html">Derivatives Pricing and Financial Modelling: Tutorial 10</a> — An unsolved tutorial connecting short-rate models, HJM dynamics, bond-option pricing and coupon-bond volatility.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

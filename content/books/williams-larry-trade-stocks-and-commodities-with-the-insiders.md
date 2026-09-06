@@ -1,17 +1,33 @@
 ---
-title: "Trade Stocks and Commodities with the Insiders: Secrets of the COT Report"
 author: Larry Williams
-year: 2005
-slug: williams-larry-trade-stocks-and-commodities-with-the-insiders
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [cot-report, commitments-of-traders, commercials, contrarian, futures, sentiment, trend-filter, smart-money]
 difficulty: intermediate
 doc_type: book
+one_liner: Builds a COT Index from the CFTC's Commitments of Traders report to gauge
+  commercial hedgers' relative bullishness, and combines it with a trend filter into
+  a complete trading method.
 pages: 224
-one_liner: "Builds a COT Index from the CFTC's Commitments of Traders report to gauge commercial hedgers' relative bullishness, and combines it with a trend filter into a complete trading method."
-related: [turtletrader, van-tharp-trading-systems, dynamic-breakout-ii-strategy]
-source_file: "Williams Larry - Trade Stocks and Commodities With the Insiders.pdf"
+related:
+- turtletrader
+- van-tharp-trading-systems
+- dynamic-breakout-ii-strategy
+reviewed_pdf_pages: 3, 5, 7, 20, 22 (contents, the COT report structure, and the Public/Commercial
+  index threshold rules)
+slug: williams-larry-trade-stocks-and-commodities-with-the-insiders
+source_file: Williams Larry - Trade Stocks and Commodities With the Insiders.pdf
+source_review: partial
+tags:
+- cot-report
+- commitments-of-traders
+- commercials
+- contrarian
+- futures
+- sentiment
+- trend-filter
+- smart-money
+tier: A
+title: 'Trade Stocks and Commodities with the Insiders: Secrets of the COT Report'
+year: 2005
 ---
 
 ## Overview

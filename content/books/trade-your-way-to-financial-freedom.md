@@ -1,17 +1,32 @@
 ---
-title: "Trade Your Way to Financial Freedom"
-author: "Van K. Tharp"
-year: 1998
-slug: trade-your-way-to-financial-freedom
-tier: A
-category: "Money Management & Position Sizing"
-tags: [expectancy, r-multiples, position-sizing, system-development, trading-psychology, money-management]
+author: Van K. Tharp
+category: Money Management & Position Sizing
 difficulty: intermediate
 doc_type: book
+one_liner: Defines trading expectancy and R-multiples, then shows through backtested
+  examples that position sizing (not entry signals) drives most of a system's real-world
+  return.
 pages: 181
-one_liner: "Defines trading expectancy and R-multiples, then shows through backtested examples that position sizing (not entry signals) drives most of a system's real-world return."
-related: [van-tharp-trading-systems, money-management-report-van-tharp, curtis-faith-way-of-the-turtle, george-pruitt-building-winning-trading-systems-with-tradestation]
-source_file: "Trade_Your_Way_to_Financial_Freedom.pdf"
+related:
+- van-tharp-trading-systems
+- money-management-report-van-tharp
+- curtis-faith-way-of-the-turtle
+- george-pruitt-building-winning-trading-systems-with-tradestation
+reviewed_pdf_pages: 1-4, 9, 14, 18, 22, 28, 34, 81, 112, 121, 275-290 (the expectancy
+  arithmetic, position-sizing models and the system-development chapters)
+slug: trade-your-way-to-financial-freedom
+source_file: Trade_Your_Way_to_Financial_Freedom.pdf
+source_review: partial
+tags:
+- expectancy
+- r-multiples
+- position-sizing
+- system-development
+- trading-psychology
+- money-management
+tier: A
+title: Trade Your Way to Financial Freedom
+year: 1998
 ---
 
 ## Overview

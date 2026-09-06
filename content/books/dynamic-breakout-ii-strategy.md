@@ -1,17 +1,29 @@
 ---
-title: "The Dynamic Break Out II Strategy"
-author: "George Pruitt, John R. Hill"
-year: 2002
-slug: dynamic-breakout-ii-strategy
-tier: B
-category: "Trend Following & Mechanical Systems"
-tags: [breakout, donchian-channel, volatility, adaptive-parameters, bollinger-bands, trend-following, seasonality]
+author: George Pruitt, John R. Hill
+category: Trend Following & Mechanical Systems
 difficulty: intermediate
 doc_type: manual
+one_liner: A Donchian-style breakout system that adapts its look-back length daily
+  to market volatility, adding a Bollinger Band filter and dynamic trailing stop.
 pages: 8
-one_liner: "A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop."
-related: [king-keltner-trading-strategy, money-management-in-trading]
-source_file: "Dynamic_Breakout_II_Strategy.pdf"
+related:
+- king-keltner-trading-strategy
+- money-management-in-trading
+reviewed_pdf_pages: 1-8
+slug: dynamic-breakout-ii-strategy
+source_file: Dynamic_Breakout_II_Strategy.pdf
+source_review: full
+tags:
+- breakout
+- donchian-channel
+- volatility
+- adaptive-parameters
+- bollinger-bands
+- trend-following
+- seasonality
+tier: B
+title: The Dynamic Break Out II Strategy
+year: 2002
 ---
 
 ## Summary

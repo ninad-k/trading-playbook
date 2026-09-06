@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Optimal f, Fixed-Fractional Sizing, and Risk-of-Ruin Allocation — Nauzer J. Balsara · Trading Playbook</title>
+<meta name="description" content="The formula set for sizing futures positions: fixed-fractional and Kelly/optimal-f exposure, risk-of-ruin control, multi-commodity allocation, and pyramiding of open profits.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a> › <a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a></p>
+  <h1>Optimal f, Fixed-Fractional Sizing, and Risk-of-Ruin Allocation</h1>
+  <p class="byline">Nauzer J. Balsara · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">The formula set for sizing futures positions: fixed-fractional and Kelly/optimal-f exposure, risk-of-ruin control, multi-commodity allocation, and pyramiding of open profits.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=optimal-f">optimal-f</a> <a class="tag" href="../search.html?q=kelly-criterion">kelly-criterion</a> <a class="tag" href="../search.html?q=fixed-fractional">fixed-fractional</a> <a class="tag" href="../search.html?q=risk-of-ruin">risk-of-ruin</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=pyramiding">pyramiding</a> </td></tr>
+    <tr><th>Length</th><td>137 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Optimal f, Fixed-Fractional Sizing, and Risk-of-Ruin Allocation” by Nauzer J. Balsara at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A formula-driven procedure for deciding what fraction of capital to risk per trade and per portfolio, independent of the signal method. It answers, in sequence: what fraction to expose per trade, how many contracts that implies given margin/stop constraints, how to scale across several commodities, and how to pyramid a winner&rsquo;s own locked-in profit.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>1. Choose an exposure fraction, f.</strong>
+- Probability-only (payoff ratio A=1): f = p − (1 − p), p = win rate. Trade only if p &gt; 0.51.
+- Kelly/optimal-f with payoff ratio A (avg $ win ÷ avg $ loss): f = [(A+1)p − 1] / A. Example: p=0.33, A=5 → f=0.20.
+- Trade-specific: A = expected win ÷ permissible loss; expected value = (p×A) − (1−p); f = expected value ÷ A. Example: risking 8¢ to make 20¢, p=0.45 → A=2.50, expected value=0.575, f≈0.23.
+- Historic-returns (Vince/TWR): divide each trade&rsquo;s return by the (negated) worst loss to get r_i; for candidate f, HPR_i = 1 + f×(−r_i); TWR(f) = product of all HPR_i. Test f from 0.01–1.00; the f maximizing TWR is the empirically optimal fraction.</p>
+<p><strong>2. Convert f to contracts.</strong>
+Risk capital = f × bankroll (or a lower user cap). Risk-based contracts = risk capital ÷ dollar risk per contract; margin-based contracts = capital allocated ÷ initial margin per contract. Trade the smaller; round down. If under one contract, skip the trade or replicate the delta with options (ATM ≈ 0.50 futures-equivalent).</p>
+<p><strong>3. Scale across multiple commodities.</strong>
+Don&rsquo;t sum individual f&rsquo;s — ignores correlation and can exceed 100%. Avoid full-size concurrent positions in positively correlated commodities; negative correlations may be ignored. For a precise aggregate F: compute each round&rsquo;s geometric joint return across commodities, then run the step-1 TWR-maximization on those joint returns. Allocate per commodity equally (F × bankroll ÷ concurrent commodities), by mean-variance (Markowitz) optimization, or by each commodity&rsquo;s own f scaled to sum to F. A user cap on any single commodity overrides the formula. If a commodity&rsquo;s (permissible risk ÷ margin) exceeds F, risk governs contract count; if lower, margin governs.</p>
+<p><strong>4. Control risk of ruin directly.</strong>
+Estimate p and A from a track record; look up or simulate risk of ruin R at the planned exposure (closed-form: R=(q/p)^k for A=1; R=[(0.25+1/(2A))(1/p−0.5)]^k for A=2; other ratios need simulation — tables cover A=1–10 at exposures 100/50/33/25/20/10%). If R is too high, raise capital units k=1/exposure and recheck. Hard floor: at A=2, R=1 (certain ruin) once p ≤ 0.33.</p>
+<p><strong>5. Pyramid only realized profit on winners.</strong>
+Effective exposure = |entry − stop| × contracts while the stop hasn&rsquo;t passed breakeven. Past breakeven, assured unrealized profit = (stop − entry) × contracts (long) or (entry − stop) × contracts (short). Choose p (0–1), the fraction of that locked-in gain to risk again: additional contracts = (p × assured profit × current contracts) ÷ permissible loss per new contract. Never pyramid to average down a loser.</p>
+<h2 id="risk">Risk</h2>
+<p>Cutting exposure from 50% to 20% of capital (p=0.60, A=2) cuts risk of ruin from 0.209 to 0.020. The gain needed to recover a percentage loss L = 1/(1−L) − 1: a 50% loss needs +100% to recover, a 90% loss needs +900% — why oversized single-trade losses matter more than raw edge. Optimal f, uncapped, can recommend aggressive exposure (20%+ in the worked examples) that maximizes growth but produces large drawdowns; always run the risk-of-ruin check (step 4) alongside any optimal-f result.</p>
+<h2 id="caveats">Caveats</h2>
+<p>All formulas assume p and A stay stable for the next trade; in practice these drift as conditions change. Closed-form risk-of-ruin only exists for A=1 or A=2; other ratios need simulation and table interpolation is approximate. Mean-variance multi-commodity allocation assumes a stable opportunity set and correlations, better suited to a longer-horizon position trader than a short-term futures trader. Dollar/margin examples are 1980s-era; the mechanics transfer but inputs must be updated.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/kellybetting.html">A New Interpretation of Information Rate</a> — The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li><li><a href="../books/forex-misc-money-management-ryan-jones.html">The Trading Game: Playing by the Numbers to Make Millions</a> — Introduces Fixed Ratio position sizing (the delta formula) and mathematically dismantles Fixed Fractional and Optimal f sizing as its rivals.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

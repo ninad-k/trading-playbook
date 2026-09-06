@@ -1,17 +1,32 @@
 ---
-title: Managing Your Money
 author: Gibbons Burke
-year: 2000
-slug: managing-your-money
-tier: B
 category: Money Management & Position Sizing
-tags: [money-management, position-sizing, risk-per-trade, stops, core-equity, active-trader-magazine]
 difficulty: intermediate
 doc_type: article
+one_liner: 'Active Trader magazine feature (July 2000) on trade-risk sizing: the 2%-of-equity
+  rule, stop-based position sizing, Ed Seykota''s ''core equity'' concept, and a survey
+  of money-management software of the era.'
 pages: 6
-one_liner: "Active Trader magazine feature (July 2000) on trade-risk sizing: the 2%-of-equity rule, stop-based position sizing, Ed Seykota's 'core equity' concept, and a survey of money-management software of the era."
-related: [money-management-risk-control-for-traders, position-sizing, balsara-nauzer-j-money-management-strategies-for-futures-traders, van-tharp-trading-systems, david-c-stendahl-money-management-strategies-for-serious-traders]
-source_file: "Managing_your_money.pdf"
+related:
+- money-management-risk-control-for-traders
+- position-sizing
+- balsara-nauzer-j-money-management-strategies-for-futures-traders
+- van-tharp-trading-systems
+- david-c-stendahl-money-management-strategies-for-serious-traders
+reviewed_pdf_pages: 1-6
+slug: managing-your-money
+source_file: Managing_your_money.pdf
+source_review: full
+tags:
+- money-management
+- position-sizing
+- risk-per-trade
+- stops
+- core-equity
+- active-trader-magazine
+tier: B
+title: Managing Your Money
+year: 2000
 ---
 
 ## Summary

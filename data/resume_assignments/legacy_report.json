@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "article-finance-some-quantitative-tests-for-stock-price-generating-models-and-trading-folk",
+    "outcome": "written",
+    "limitations": "Full 21-page OCR source reviewed; historical statistical tests are summarized as research evidence rather than current trading prescriptions."
+  },
+  {
+    "slug": "ben-branch-the-predictive-power-of-stock-market-indicator",
+    "outcome": "written",
+    "limitations": "Full 18-page OCR source reviewed; findings concern the paper's historical sample and indicator definitions."
+  },
+  {
+    "slug": "cantor-1997-split-ratings-and-the-pricing-of-credit-risk",
+    "outcome": "written",
+    "limitations": "Full 30-page OCR source reviewed; the note preserves the study's sample and model limits."
+  },
+  {
+    "slug": "chinn",
+    "outcome": "written",
+    "limitations": "Full 41-page OCR source reviewed; survey findings describe the respondents and period studied."
+  },
+  {
+    "slug": "day-trading-university",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 1-9, 26, 43, 60, 77, 95, 112, 129, 146, 163, 181, 198, 215, 232, 249, 267, 284, 301, 318, and 335 from a 352-page course compilation."
+  },
+  {
+    "slug": "engle-the-econometric-of-high-frequency-data",
+    "outcome": "written",
+    "limitations": "Full 19-page OCR source reviewed; empirical estimates concern the paper's IBM transaction sample."
+  },
+  {
+    "slug": "f-e-james-jr-monthly-moving-averages-an-effective-investment-tool",
+    "outcome": "written",
+    "limitations": "Full 13-page OCR source reviewed; the historical moving-average comparison is not presented as a current executable signal."
+  },
+  {
+    "slug": "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness",
+    "outcome": "duplicate",
+    "duplicate_of": "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness",
+    "limitations": "The zero-page file is corrupt and cannot be rendered; a source-reviewed canonical note and ACD method page already cover the same title."
+  },
+  {
+    "slug": "fx-crossing-over-to-the-forex-market",
+    "outcome": "written",
+    "limitations": "Full three-page OCR article reviewed; it is one retrospective AUD/JPY case rather than a performance test."
+  },
+  {
+    "slug": "glenn-neely-masterelliotwav-low-quality",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 1-13, 20, 28, 36, 44, 52, 59, 67, 75, 83, 91, 98, 106, 114, 122, 130, 137, 145, 153, and 161 from a 168-page scan; intervening rule trees and diagrams remain unsampled."
+  },
+  {
+    "slug": "investment-performance-and-investor-behavior",
+    "outcome": "written",
+    "limitations": "Full 30-page OCR source reviewed; the note distinguishes period-specific account evidence from general investing advice."
+  },
+  {
+    "slug": "investment-science",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 3-13, 87, 187, 212, 262, 286, 336, and 361 from a 510-page mathematical text; most exercises and derivations remain unsampled."
+  },
+  {
+    "slug": "jaeckel-p-monte-carlo-methods-in-finance-wiley-2002-t-c-232s",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 3-13, 90, 123, 145, and 189 from a 232-page implementation text; many equations, algorithms, and plots remain unsampled."
+  },
+  {
+    "slug": "market-making-and-reversal-on-the-stock-exchange",
+    "outcome": "written",
+    "limitations": "Full 21-page OCR paper reviewed; results describe a historical specialist-market sample."
+  },
+  {
+    "slug": "masteelliowav",
+    "outcome": "duplicate",
+    "duplicate_of": "glenn-neely-masterelliotwav-low-quality",
+    "limitations": "Both 168-page scans have the same title metadata, cover, sampled interiors, and near-identical recovered OCR; differences reflect scan compression."
+  },
+  {
+    "slug": "patterns-in-three-centuries-of-stock-market-prices",
+    "outcome": "written",
+    "limitations": "Full 23-page OCR paper reviewed; historical persistence findings are preserved with their data and testing limits."
+  },
+  {
+    "slug": "prechter-robert-the-major-works-of-r-n-elliott-low-quality",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 1-13, 18, 30, 70, 92, and 98 from a 126-page scan; the source combines Elliott's writings with Prechter's editorial qualifications."
+  },
+  {
+    "slug": "speculative-investor-behavior-in-a-stock-market",
+    "outcome": "written",
+    "limitations": "Full 15-page OCR paper reviewed; the model is theoretical and does not estimate an implementable trading strategy."
+  },
+  {
+    "slug": "you-can-choose-to-be-rich-workbook-by-robert-t-kiyosaki",
+    "outcome": "written",
+    "limitations": "Partial review of OCR pages 1-13, 32, 51, 148, 167, 187, 264, and 283 from a 399-page workbook; motivational claims and unsampled exercises are not treated as evidence."
+  },
+  {
+    "slug": "fx-crossing-over-to-the-forex-market-2",
+    "outcome": "duplicate",
+    "duplicate_of": "fx-crossing-over-to-the-forex-market",
+    "limitations": "Exact SHA-1 duplicate of the reviewed three-page canonical article."
+  }
+]

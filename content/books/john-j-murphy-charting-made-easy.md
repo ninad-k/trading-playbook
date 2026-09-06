@@ -1,17 +1,32 @@
 ---
-title: "Charting Made Easy"
-author: "John J. Murphy"
-year: 2000
-slug: john-j-murphy-charting-made-easy
-tier: A
+author: John J. Murphy
 category: Market Structure & Price Action
-tags: [chart-patterns, trendlines, volume, moving-averages, oscillators, top-down-analysis, technical-analysis]
 difficulty: beginner
 doc_type: book
+one_liner: Murphy's condensed primer on bar-chart reading — trends, patterns, volume,
+  moving averages, oscillators, and a top-down market/sector/stock approach.
 pages: 82
-one_liner: "Murphy's condensed primer on bar-chart reading — trends, patterns, volume, moving averages, oscillators, and a top-down market/sector/stock approach."
-related: [trading-strategies-john-murphy-s-ten-laws-of-technical-trading, john-bollinger-bollinger-on-bollinger-band, macd, elder-alexander-trading-for-a-living]
-source_file: "John J Murphy - Charting Made Easy.pdf"
+related:
+- trading-strategies-john-murphy-s-ten-laws-of-technical-trading
+- john-bollinger-bollinger-on-bollinger-band
+- macd
+- elder-alexander-trading-for-a-living
+reviewed_pdf_pages: 5-8, 11, 24, 40, 43, 53, 55, 60-61 (contents, trendlines, retracements,
+  moving averages, RSI/stochastics and the top-down sector chapter)
+slug: john-j-murphy-charting-made-easy
+source_file: John J Murphy - Charting Made Easy.pdf
+source_review: partial
+tags:
+- chart-patterns
+- trendlines
+- volume
+- moving-averages
+- oscillators
+- top-down-analysis
+- technical-analysis
+tier: A
+title: Charting Made Easy
+year: 2000
 ---
 
 ## Overview

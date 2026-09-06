@@ -1,17 +1,32 @@
 ---
-title: "Stealth Forex System: Trading Methodology"
 author: Unknown
-year: unknown
-slug: version9i
-tier: B
 category: Day Trading & Scalping
-tags: [forex, scalping, proprietary-indicators, money-management, metatrader, multi-timeframe]
 difficulty: beginner
 doc_type: manual
+one_liner: The trading-rules manual for the proprietary 'Stealth Forex' system, covering
+  four sub-strategies (Simple, Scalper, Mission, Creamer) built on custom LCD and
+  Stealth buy/sell indicators.
 pages: 16
-one_liner: "The trading-rules manual for the proprietary 'Stealth Forex' system, covering four sub-strategies (Simple, Scalper, Mission, Creamer) built on custom LCD and Stealth buy/sell indicators."
-related: [forex-trading-machine-ebook, mcrae-mark-sure-fire-forex-trading, take-the-money-and-run, six-forces-of-forex]
-source_file: "Version9i.PDF"
+related:
+- forex-trading-machine-ebook
+- mcrae-mark-sure-fire-forex-trading
+- take-the-money-and-run
+- six-forces-of-forex
+reviewed_pdf_pages: 2, 7-8 (the news filter and the three systems' entry, stop and
+  trailing rules)
+slug: version9i
+source_file: Version9i.PDF
+source_review: partial
+tags:
+- forex
+- scalping
+- proprietary-indicators
+- money-management
+- metatrader
+- multi-timeframe
+tier: B
+title: 'Stealth Forex System: Trading Methodology'
+year: unknown
 ---
 
 ## Summary

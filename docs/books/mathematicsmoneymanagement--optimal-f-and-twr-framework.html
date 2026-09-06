@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Optimal f and the TWR/Geometric Mean Framework — Ralph Vince · Trading Playbook</title>
+<meta name="description" content="The exact formulas for computing optimal f from a trade history, comparing systems by geometric mean, and sizing contracts trade to trade.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a> › <a href="../books/mathematicsmoneymanagement.html">The Mathematics of Money Management</a></p>
+  <h1>Optimal f and the TWR/Geometric Mean Framework</h1>
+  <p class="byline">Ralph Vince · 1992 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">The exact formulas for computing optimal f from a trade history, comparing systems by geometric mean, and sizing contracts trade to trade.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=optimal-f">optimal-f</a> <a class="tag" href="../search.html?q=kelly-criterion">kelly-criterion</a> <a class="tag" href="../search.html?q=twr">twr</a> <a class="tag" href="../search.html?q=geometric-mean">geometric-mean</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=drawdown">drawdown</a> </td></tr>
+    <tr><th>Length</th><td>106 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Optimal f and the TWR/Geometric Mean Framework” by Ralph Vince at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A position-sizing procedure, not a trading signal. Given any market system&rsquo;s historical trade-by-trade P&amp;L (computed on a strict 1-unit basis), it finds the single fixed fraction f of the biggest historical loss that maximizes long-run geometric growth of an account under full reinvestment, then converts that fraction into a dollars-per-contract figure usable on the next trade.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>1. Prepare the trade stream.</strong> Collect every trade&rsquo;s P&amp;L for one market system (one method, one market, one unit size — e.g., 1 futures contract or 100 shares). Pyramided add-ons are separate market systems. Identify the single largest losing trade in the series (must be negative).</p>
+<p><strong>2. Compute HPR for a candidate f.</strong>
+HPR_i = 1 + f × (−Trade_i ÷ Biggest Loss), where Trade_i is signed (losses negative) and Biggest Loss is negative, so −Trade_i/Biggest Loss is positive for losses and negative for wins.</p>
+<p><strong>3. Compute TWR and geometric mean for that f.</strong>
+TWR(f) = Π(i=1..N) HPR_i
+G(f) = TWR(f)^(1/N), N = number of trades.</p>
+<p><strong>4. Search for optimal f.</strong> Loop f from 0.01 to 1.00 (step 0.01, or use a faster search such as parabolic interpolation). Both TWR(f) and G(f) are smooth, single-peaked curves in f, so the point where TWR stops rising and starts falling is the optimal f. TWR and G peak at the same f — either can be used as the objective.</p>
+<p><strong>5. Convert f to a tradable size.</strong>
+Dollars per contract = Biggest Loss ÷ (−optimal f). Example: biggest loss = −$100, optimal f = .25 → $100/.25 = $400 per contract (1 contract for every $400 of equity).
+Contracts to trade = floor(current account equity ÷ dollars per contract). Recompute this every day/period as equity changes, not just once.</p>
+<p><strong>6. Geometric Average Trade (GAT), for comparing systems in dollar terms.</strong>
+GAT = (G − 1) × (Biggest Loss ÷ −f). This is the system&rsquo;s expected profit per contract per trade under fixed-fractional trading — a fairer comparison across systems than the raw average trade, since it already reflects the effect of fewer contracts held through losers.</p>
+<p><strong>7. Kelly formulas — use only as a sanity check, not as optimal f.</strong>
+- Equal-size win/loss: f = 2P − 1 = P − Q (P = win probability, Q = 1 − P).
+- Fixed payoff ratio B (win size ÷ loss size), Bernoulli only: f = ((B+1)P − 1) / B = P − Q/B.
+- Averaging unequal wins/losses into B understates true optimal f (Vince&rsquo;s example: averaged-Kelly gives f=.16 vs. the correct f=.24 on the same 9-trade sequence) — Kelly is valid strictly for two-outcome, fixed-size distributions, which trading is not.</p>
+<p><strong>8. Multi-system portfolio allocation.</strong> Convert each system&rsquo;s daily $ P&amp;L to a daily HPR relative to its own optimal-f dollar amount: Daily HPR = (Dollars made/lost that day ÷ optimal f in dollars) + 1. For a candidate allocation, Net HPR for a day = Σ(system HPR × its % allocation). Tabulate the mean and population standard deviation of daily net HPRs per candidate; Estimated Geometric Mean EGM = √(AHPR² − SD²) ranks candidates without recomputing full TWRs. The allocation with the highest EGM is the optimal portfolio mix.</p>
+<p><strong>9. Daily rebalancing.</strong> Divide each system&rsquo;s optimal-f dollar amount by its % allocation to get a &ldquo;contract per total account equity&rdquo; figure; divide current equity by that figure and floor to the integer for contracts to hold, recalculated daily regardless of profit or loss.</p>
+<h2 id="risk">Risk</h2>
+<p>Historical drawdown at optimal f is never less than f expressed as a percentage of equity — optimal f = .55 implies at least a 55% equity retracement somewhere in the history. Better systems (higher optimal f) mechanically imply deeper drawdowns; no configuration of optimal f avoids this trade-off. A 5+ year multi-system portfolio traded at full optimal f should still expect 30-95% equity retracements regardless of diversification, since uncorrelated systems still periodically draw down in unison — diversification buffers but does not eliminate this, and can increase it under some correlation structures. Betting beyond optimal f reduces long-run TWR relative to optimal f, and past a large enough f (e.g., f &gt; 0.5 in a 50/50, 2:1 payoff game) the account is a near-certainty to reach zero even though the game still has positive expectancy.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The framework requires a positive-expectancy trade stream to begin with — no money management rescues a negative- or zero-expectancy system. TWR assumes fractional contracts are tradable; real integer-lot trading causes small accounts to diverge from the theoretical curve, converging only as equity grows large relative to one contract&rsquo;s dollar-per-unit requirement. Optimal f assumes the historical biggest loss and trade distribution represent the future — a larger future loss invalidates the calibration. The book gives no formal rule for diluting f below the mathematical optimum, beyond noting the trade-off is geometric, not linear.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/kellybetting.html">A New Interpretation of Information Rate</a> — The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

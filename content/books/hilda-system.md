@@ -1,17 +1,32 @@
 ---
-title: The Broom-Hilda System
 author: Unknown
-year: 2005
-slug: hilda-system
-tier: B
 category: Day Trading & Scalping
-tags: [forex, multi-timeframe, cci, moving-averages, trend-following, scalping, mt4, metatrader]
 difficulty: intermediate
 doc_type: manual
+one_liner: Free MetaTrader 4 multi-timeframe forex system ('Broom-Hilda') combining
+  Woodies CCI, a custom OsMA and moving averages to trade trends, reversals, and scalps
+  across paired timeframes.
 pages: 6
-one_liner: "Free MetaTrader 4 multi-timeframe forex system ('Broom-Hilda') combining Woodies CCI, a custom OsMA and moving averages to trade trends, reversals, and scalps across paired timeframes."
-related: [forex-trading-machine-ebook, icwr-forex-trading-strategy, forex-money-management]
-source_file: "Hilda System.pdf"
+related:
+- forex-trading-machine-ebook
+- icwr-forex-trading-strategy
+- forex-money-management
+reviewed_pdf_pages: 1-6
+slug: hilda-system
+source_file: Hilda System.pdf
+source_review: full
+tags:
+- forex
+- multi-timeframe
+- cci
+- moving-averages
+- trend-following
+- scalping
+- mt4
+- metatrader
+tier: B
+title: The Broom-Hilda System
+year: 2005
 ---
 
 ## Summary

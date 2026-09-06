@@ -1,0 +1,97 @@
+---
+title: Candlesticks & Chart Patterns
+summary: "Pattern recognition from candle anatomy to flags and head-and-shoulders: the library agrees patterns need trend context and confirmation, and rarely tests whether they work."
+books_covered: 21
+---
+## What it is
+
+Candlestick and chart-pattern analysis reads recurring shapes in price as evidence about what buyers and sellers just did. Candlesticks work at the scale of one to a few sessions, encoding the relationship between open, high, low and close — a long body shows conviction, a long shadow shows a price rejected ([[trading-hill-arthur-introduction-to-candlesticks]], [[beyond-candlesticks-steve-nison]]). Western chart patterns work at the scale of weeks: flags, triangles, double tops and head-and-shoulders formations, most of which carry a measured-move target derived from the pattern's own dimensions ([[chart-patterns-and-technical-indicators]]). The two traditions are usually combined, because candles pinpoint a session but supply no target, while chart patterns supply a target but not a precise entry bar. Almost every source in this category insists a pattern means nothing without the trend that precedes it: the same shape is a hammer after a decline and a hanging man after an advance.
+
+## Core principles
+
+- Trend context is part of the pattern definition, not an optional filter — identical shapes carry opposite meanings depending on what preceded them [[trading-hill-arthur-introduction-to-candlesticks]] [[understanding-forex-candlestick]] [[greg-morris-candlestick-charting-explained]].
+- Most single- and two-candle signals require confirmation within the next one to three sessions before they are acted on; three-candle star patterns are treated as strong enough to stand alone [[trading-hill-arthur-introduction-to-candlesticks]] [[17-money-making-candlestick-formations2]].
+- Candles identify reversal sessions but supply neither a price target nor a stop, so they need a second tool for exits [[beyond-candlesticks-steve-nison]] [[greg-morris-candlestick-charting-explained]].
+- Signals gain reliability at confluence — a pattern landing on an independently derived level (pivot, moving average, Fibonacci retracement, prior swing) rather than in open space [[a-complete-guide-to-technical-trading-tactics-2004]] [[a-realistic-and-effective-strategy-for-using-candlestick-sri-0032]] [[forex-trading-with-candlestick-and-pattern-2]].
+- Filtering candle signals through an oscillator's overbought/oversold zone improves results over either tool alone, mainly by cutting trade count and raising average gain per trade [[greg-morris-candlestick-charting-explained]] [[jp-candlesticks]].
+- Subjective pattern recognition can be replaced with numeric thresholds — body size relative to recent range, shadow length as a multiple of the body, penetration percentage — which is what makes patterns testable at all [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]] [[detecting-breakouts-from-flags-pennants]].
+- When patterns are actually tested, individual reliability is modest: roughly half of the catalogue beats its own baseline, and continuation patterns face a higher bar because trends persist anyway [[greg-morris-candlestick-charting-explained]].
+- Chart patterns carry measured-move targets computed from their own geometry — flagpole height, triangle width, head-to-neckline distance — projected from the breakout [[chart-patterns-and-technical-indicators]] [[chart-patterns-tutorial]] [[doubletopsandbottoms]].
+- A pattern is not complete until price closes beyond its boundary; an intraday touch of a neckline or trendline is not a signal [[doubletopsandbottoms]] [[chart-patterns-tutorial]].
+- Volume behaviour is part of several Western patterns' definitions: contraction while the pattern forms, expansion on the break [[chart-patterns-and-technical-indicators]] [[detecting-breakouts-from-flags-pennants]] [[trade-7-chart-patterns-that-consistantly-make-money-downs]].
+- Patterns fail routinely, and the trader should be prepared to trade the failure rather than assume the expected resolution [[trade-7-chart-patterns-that-consistantly-make-money-downs]] [[chart-formations]] [[candlestick-and-pattern-1]].
+- Broken support tends to act as resistance afterwards and vice versa, which is what gives retested levels their significance [[chart-patterns-tutorial]] [[candlestick-charting-explained]].
+- Alternative Japanese charts — three-line break, renko, kagi — print only on new highs or lows, which strips out sideways noise and makes trend and support/resistance visually explicit; the recommended workflow is to set trend on one of these and trigger on candles [[beyond-candlesticks-steve-nison]].
+- Intraday forex rarely gaps, so gap-dependent pattern definitions must be relaxed or dropped in that market [[candlestick-and-pattern-1]] [[chart-formations]].
+
+## Concrete rules and setups
+
+### Candlestick recognition thresholds
+
+1. Hammer, hanging man, shooting star and inverted hammer: lower (or upper) shadow at least twice the real body, with little or no opposite shadow — no more than roughly 5-10% of the day's range [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]] [[trading-hill-arthur-introduction-to-candlesticks]]. A shadow of three times the body or more reclassifies it as the stronger Takuri line [[greg-morris-candlestick-charting-explained]].
+2. Doji: absolute open-to-close distance under roughly 1-3% of the day's high-low range, and only meaningful after a run of non-doji sessions in an established trend [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]].
+3. Engulfing: a trend must be in force, the second body must fully cover the first, and the second candle's colour must oppose the trend; penetration of at least 30% beyond the first body strengthens it, and shadows are ignored [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]] [[candlestick-and-pattern-1]].
+4. Piercing line and dark cloud cover: day two opens beyond day one's extreme and closes past the midpoint of day one's body. Morris allows no flexibility on the 50% rule — less penetration reclassifies the pair as a weaker continuation pattern (on-neck, in-neck, thrusting line) [[greg-morris-candlestick-charting-explained]] [[17-money-making-candlestick-formations2]].
+5. Trend context for pattern qualification: Morris uses a 10-day EMA of closes, Hill accepts price below a 20-day EMA, successively lower swing peaks and troughs, or a broken trendline [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]] [[trading-hill-arthur-introduction-to-candlesticks]].
+6. Blending: reduce a multi-candle pattern to one synthetic candle using the first open, the last close and the pattern's high and low — a bullish engulfing or piercing pattern blends into a hammer [[trading-hill-arthur-introduction-to-candlesticks]].
+
+### Alternative Japanese charts
+
+7. Disparity index = ((close − MA) ÷ MA) × 100. Roughly +10% to +15% is commonly overbought and −10% to −15% oversold, market-dependent; a price high against a lower disparity peak is bearish divergence [[beyond-candlesticks-steve-nison--disparity-index]].
+8. Three-line break: draw a line only on a new closing high or low. Once three lines share a colour, a reversal requires a close beyond the extreme of all three, not merely a new high or low [[beyond-candlesticks-steve-nison--three-line-break-chart]].
+9. Renko: fixed brick height; a brick prints only when price closes a full brick beyond the current extreme. Buy on a white brick, sell on a black one — a pure stop-and-reverse system [[beyond-candlesticks-steve-nison--renko-chart]].
+10. Kagi: fixed turnaround amount, around 3% for Japanese stocks as a starting convention. Buy when the line thickens through a prior shoulder, sell when it thins through a prior waist; two- or three-level break variants trade less often at higher confidence [[beyond-candlesticks-steve-nison--kagi-chart]].
+
+### Western chart patterns
+
+11. Flags and pennants: require a sharp high-volume flagpole; the pattern should resolve within about 20 sessions; target = flagpole height added to the breakout [[chart-patterns-and-technical-indicators]] [[chart-patterns-tutorial]].
+12. Katsanos's coded flag/pennant filter: flag duration 2-21 days, flagpole slope at least 2.2%/day on a 13-bar regression, flag slope between −1.2% and +0.2%/day, declining volume and volatility, 20-day stochastic above 55, 10-day ADX above 30, and a close above both the prior close and the day's open [[detecting-breakouts-from-flags-pennants]].
+13. Katsanos's exits: profit target = 1.94 × (pole height %)^0.724; stop on a close below the flag's lower trendline; exit for inactivity after 14 days if profit is under 25% of target; trail 10% below the highest close of the last four days; force exit at 24 days [[detecting-breakouts-from-flags-pennants]].
+14. Triangles: enter on a close beyond the boundary occurring between roughly two-thirds and three-quarters of the way to the apex, with volume contracting during formation and expanding on the break; target = the triangle's widest height from the breakout [[chart-patterns-and-technical-indicators]]. Person notes that the longer a triangle takes to form, the weaker the eventual breakout tends to be, with typical daily-chart triangles running 6-10 sessions [[a-complete-guide-to-technical-trading-tactics-2004]].
+15. Double tops and bottoms: confirmed only on a close through the neckline. Target = neckline − (C − B) for a top, neckline + (B − C) for a bottom; stop between the neckline and the intervening peak or trough [[doubletopsandbottoms]].
+16. Head-and-shoulders: the neckline break confirms; project the head-to-neckline distance from the break [[a-complete-guide-to-technical-trading-tactics-2004]] [[chart-patterns-and-technical-indicators]].
+17. Gap taxonomy: breakaway gaps start a move, measuring or continuation gaps mark its middle, exhaustion gaps mark its end; a breakaway, midpoint and exhaustion gap in sequence, or an island reversal, marks a likely termination [[a-complete-guide-to-technical-trading-tactics-2004]] [[chart-patterns-tutorial]] [[trade-7-chart-patterns-that-consistantly-make-money-downs]].
+
+### Confluence entries
+
+18. P3T: calculate P = (H + L + C) ÷ 3, R1 = 2P − L, R2 = (P + H) − L, S1 = 2P − H, S2 = (P − H) + L on daily, weekly and monthly data in parallel. Trade only the first test of a level, require a candlestick reversal there, and add an oscillator divergence or lopsided Commitments of Traders positioning where available [[a-complete-guide-to-technical-trading-tactics-2004--p3t-pivot-candle-confluence]].
+19. The CI System: read weekly through hourly candles, mark pivots, trendlines and Fibonacci levels, then enter on a 15-minute engulfing candle only when the stochastic has crossed in the trade direction, using a 5/13 EMA cross on the 5-minute chart as secondary confirmation. Exit on an opposite engulfing candle, a rejection at a marked level, a Fibonacci target or an adverse EMA cross [[forex-trading-with-candlestick-and-pattern-2]].
+20. Pullback entry sequence: identify the trend, wait for a retracement to a Fibonacci level, pivot, trendline or prior extreme, then buy one pip above the high of the pullback's pivot-low bar once the following bar confirms it, with the stop beyond that pivot [[candlestick-and-pattern-1]].
+21. Bigalow's bottom setup: an oversold stochastic plus a bullish reversal candle plus a gap up is treated as confirmation of demand at a low; the J-Hook adds a pullback that does not reach oversold before price hooks back through the prior high [[big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow]] [[jp-candlesticks]].
+22. Downs's rule set across all seven of his patterns: establish a reference scale first, trail stops using the eighths (38%, 50%, 62%), and reject any setup offering less than 2:1 reward to risk, preferably 3:1 [[trade-7-chart-patterns-that-consistantly-make-money-downs]].
+23. Stops sit on the far side of the pattern's extreme — below a hammer's low, above a hanging man's high, beyond a chart pattern's boundary — rather than at an arbitrary dollar figure [[beyond-candlesticks-steve-nison]] [[a-complete-guide-to-technical-trading-tactics-2004]].
+
+## Common mistakes
+
+- Trading a shape without the prior trend it requires, which is the single most common error the primers warn about [[understanding-forex-candlestick]] [[trading-hill-arthur-introduction-to-candlesticks]] [[a-realistic-and-effective-strategy-for-using-candlestick-sri-0032]].
+- Acting on a single pattern in isolation instead of requiring independent agreement — Person's "verify, verify, verify" [[a-complete-guide-to-technical-trading-tactics-2004]] [[a-realistic-and-effective-strategy-for-using-candlestick-sri-0032]].
+- Skipping the required confirmation session on hammers, hanging men and inverted hammers [[17-money-making-candlestick-formations2]] [[trading-hill-arthur-introduction-to-candlesticks]].
+- Treating an intraday penetration of a neckline or trendline as a completed pattern rather than waiting for the close [[doubletopsandbottoms]] [[chart-patterns-tutorial]].
+- Using vague thresholds so that two traders identify different patterns in the same data; Morris shows classification is highly sensitive to where the long/short/doji cutoffs are set [[greg-morris-candlestick-charting-explained--pattern-catalogue-and-reliability]].
+- Trusting reported success rates that come from selected charts rather than a sample — including the explicitly "unofficial" 80% figure one source attaches to its own setup [[big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow]] [[jp-candlesticks]].
+- Reading a high raw success rate as an edge when the relevant comparison is the base rate of the trend continuing or reversing anyway [[greg-morris-candlestick-charting-explained]].
+- Ignoring costs: Morris notes an average 0.6% gain per trade disappears once commissions and slippage are counted [[greg-morris-candlestick-charting-explained]].
+- Re-entering on the second or third test of the same pivot level, after the edge has eroded [[a-complete-guide-to-technical-trading-tactics-2004--p3t-pivot-candle-confluence]].
+- Switching timeframes mid-trade after choosing one to fit the pattern's visible size [[trade-7-chart-patterns-that-consistantly-make-money-downs]].
+
+## Best books for this topic
+
+1. [[greg-morris-candlestick-charting-explained]] — the only source here that assigns numeric recognition rules and then tests over 60 patterns against a baseline. Essential for anyone who wants to know whether candles work rather than what they are called.
+2. [[beyond-candlesticks-steve-nison]] — the three-line break, renko and kagi construction chapters are built from worked numeric tables and are unambiguous enough to code. For traders who need trend context and exits that candles cannot supply.
+3. [[a-complete-guide-to-technical-trading-tactics-2004]] — pivot formulas stated exactly and applied across timeframes, with candlesticks as the confirming layer. The most complete confluence framework in the category.
+4. [[trading-hill-arthur-introduction-to-candlesticks]] — the clearest structured primer: construction, the full reversal set, and explicit confirmation and trend-definition rules. The best starting point.
+5. [[detecting-breakouts-from-flags-pennants]] — a fully coded flag and pennant system with a derived target formula; a model of how to make a chart pattern mechanical.
+6. [[chart-patterns-and-technical-indicators]] — the most complete single reference for Western patterns with durations, volume requirements and target formulas.
+7. [[candlestick-and-pattern-1]] and [[forex-trading-with-candlestick-and-pattern-2]] — a two-part course carrying the material through to a trade plan, useful where gap-based definitions break down.
+8. [[doubletopsandbottoms]] — three pages, but the neckline-confirmation and measured-move rules are stated more precisely than in most longer treatments.
+9. [[17-money-making-candlestick-formations2]] — a compact illustrated glossary for looking up a shape quickly. Reference only; there is no system here.
+
+## Open debates
+
+- **Whether candlestick patterns have a measurable edge.** Morris's own testing finds roughly half the catalogue beats its baseline, with rankings shifting materially across 3-, 5- and 7-day horizons, and several perfect-scoring patterns occurring only once or twice [[greg-morris-candlestick-charting-explained]]. Most other sources in this category assert reliability through selected charts and give no sample at all [[jp-candlesticks]] [[chart-formations]] [[candlestick-patterns-for-day-trading]].
+- **Why they would work.** Bigalow argues candles are self-fulfilling — enough traders watch them that the crowd response validates the signal [[jp-candlesticks]]. Morris treats them instead as an encoding of short-term trader psychology at turning points, testable like any other signal [[greg-morris-candlestick-charting-explained]]. Downs points to academic work finding patterns occur more often than chance would predict, without claiming they are tradable after costs [[trade-7-chart-patterns-that-consistantly-make-money-downs]].
+- **Whether candlestick names add anything over bar charts.** Kamada argues the named patterns are not inherently better than the equivalent bar shapes and that the value lies entirely in the surrounding context [[a-realistic-and-effective-strategy-for-using-candlestick-sri-0032]]; Nison's case is that the open-to-close relationship is genuinely additional information [[beyond-candlesticks-steve-nison]].
+- **How strict the penetration rules should be.** Morris treats the 50% close on piercing and dark cloud cover as non-negotiable, reclassifying anything less [[greg-morris-candlestick-charting-explained]]; other sources accept "well into the body" without quantifying it, which makes their signals unreproducible [[jp-candlesticks]] [[17-money-making-candlestick-formations2]].
+- **Confirmation versus timeliness.** Requiring a confirming session avoids acting on shapes that resolve into nothing [[trading-hill-arthur-introduction-to-candlesticks]], but Nison's new-price charts only confirm on the close, by which point price may be far past the reversal threshold — some Japanese traders take a light position at the touch and resolve it at the close [[beyond-candlesticks-steve-nison]].
+- **Fade the level or trade the break.** Person's method treats a pivot as a place to fade when a reversal candle appears there, with the candle deciding direction [[a-complete-guide-to-technical-trading-tactics-2004--p3t-pivot-candle-confluence]]; the breakout literature treats the same boundaries as places to enter in the direction of the break [[chart-formations]] [[chart-patterns-and-technical-indicators]].
+- **How much risk a confluence setup justifies.** The CI System caps single-trade risk at 7% of equity, far above the 1-2% typical elsewhere in this library, on the strength of multiple confirmations [[forex-trading-with-candlestick-and-pattern-2]]; Downs instead constrains by reward-to-risk ratio and says nothing about equity percentage [[trade-7-chart-patterns-that-consistantly-make-money-downs]].

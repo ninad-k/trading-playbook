@@ -1,17 +1,31 @@
 ---
-title: "Not So Squeezy"
-author: "Akuma99 (Adam Jowett)"
-year: 2009
-slug: not-so-squeezy
-tier: B
+author: Akuma99 (Adam Jowett)
 category: Indicators
-tags: [bollinger-bands, keltner-channel, moving-averages, forex, volatility, entry-timing]
 difficulty: beginner
 doc_type: manual
+one_liner: A discretionary forex/CFD system reading market 'mood' — trend, acceleration,
+  volatility — via Bollinger/Keltner squeeze, an 88-EMA rainbow, and 100/200 SMA support-resistance.
 pages: 21
-one_liner: "A discretionary forex/CFD system reading market 'mood' — trend, acceleration, volatility — via Bollinger/Keltner squeeze, an 88-EMA rainbow, and 100/200 SMA support-resistance."
-related: [bollinger-band, king-keltner-trading-strategy, john-bollinger-bollinger-on-bollinger-band, trading-bollinger-john-bollinger-bands-done]
-source_file: "Not_so_squeezy.pdf"
+related:
+- bollinger-band
+- king-keltner-trading-strategy
+- john-bollinger-bollinger-on-bollinger-band
+- trading-bollinger-john-bollinger-bands-done
+reviewed_pdf_pages: 2, 4, 7, 13 (the indicator settings, the RMMA description and
+  the entry rules)
+slug: not-so-squeezy
+source_file: Not_so_squeezy.pdf
+source_review: partial
+tags:
+- bollinger-bands
+- keltner-channel
+- moving-averages
+- forex
+- volatility
+- entry-timing
+tier: B
+title: Not So Squeezy
+year: 2009
 ---
 
 ## Summary

@@ -1,17 +1,35 @@
 ---
-title: "Fibonacci and Gann Applications in Financial Markets"
 author: George Alexander MacLean
-year: 2005
-slug: george-alexander-maclean-fibonacci-and-gann-applications
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [fibonacci-retracement, fibonacci-extension, fibonacci-fanline, fibonacci-arc, gann-angles, gann-square, synthetic-ratios, technical-analysis]
 difficulty: advanced
 doc_type: book
+one_liner: A practitioner's field guide to Fibonacci and Gann drawing tools (retracements,
+  extensions, fanlines, arcs, timelines, angles) with worked bond/futures/FX chart
+  examples and an honest catalog of failure modes.
 pages: 241
-one_liner: "A practitioner's field guide to Fibonacci and Gann drawing tools (retracements, extensions, fanlines, arcs, timelines, angles) with worked bond/futures/FX chart examples and an honest catalog of failure modes."
-related: [fischer-robert-fibonacci-applications-and-strategies-for, fibonacci-ratios-with-pattern-recognition, elliott-waves-principle, gann-w-d-new-stock-trend-detector, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci]
-source_file: "George Alexander MacLean - Fibonacci_and_Gann_Applications.pdf"
+related:
+- fischer-robert-fibonacci-applications-and-strategies-for
+- fibonacci-ratios-with-pattern-recognition
+- elliott-waves-principle
+- gann-w-d-new-stock-trend-detector
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+reviewed_pdf_pages: 5-6, 14, 23, 77, 79, 161 (the ratio derivations, retracement and
+  extension level tables, and the fanline/timeline chapters)
+slug: george-alexander-maclean-fibonacci-and-gann-applications
+source_file: George Alexander MacLean - Fibonacci_and_Gann_Applications.pdf
+source_review: partial
+tags:
+- fibonacci-retracement
+- fibonacci-extension
+- fibonacci-fanline
+- fibonacci-arc
+- gann-angles
+- gann-square
+- synthetic-ratios
+- technical-analysis
+tier: A
+title: Fibonacci and Gann Applications in Financial Markets
+year: 2005
 ---
 
 ## Overview

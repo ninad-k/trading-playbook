@@ -1,0 +1,631 @@
+[
+  {
+    "slug": "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia",
+    "pages_inspected": "1-55",
+    "changes": [
+      "Expanded reviewed_pdf_pages to the complete 1-55 range; no substantive claim correction was needed."
+    ],
+    "evidence": [
+      "Title, authors, and June 2002 date appear on p. 1.",
+      "The event windows, daily Asian crisis sample, trade-link interpretation, and regression qualifications are documented on pp. 7-28 and 44-50."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market",
+    "pages_inspected": "1-54",
+    "changes": [
+      "Expanded reviewed_pdf_pages to 1-54 after reading both complete page ranges; retained the supported empirical findings."
+    ],
+    "evidence": [
+      "Title, authors, and 2001 publication details are on p. 1.",
+      "The 1999 overnight-market data, time-of-day patterns, ECB-event effects, and spread/volatility results are reported on pp. 8-39."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "currency-trader0205",
+    "pages_inspected": "1-52",
+    "changes": [
+      "Set source_review to full and reviewed_pdf_pages to 1-52.",
+      "Tightened the summary and caveats while preserving the source's separate inside-bar, pivot, macro-event, and moving-average studies."
+    ],
+    "evidence": [
+      "Inside-bar entry, 5-10 pip stop-and-reverse buffer, and half-at-1R management appear on pp. 24-26.",
+      "Pivot formulas appear on p. 28; the 43-release current-account results on pp. 32-36; and the 5/28 moving-average rules and test statistics on pp. 44-46."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "fx-wizard",
+    "pages_inspected": "1-52",
+    "changes": [
+      "Replaced an unrelated scheduled-news straddle description with the source's alert-swing, pivot, ADX, and directional-movement method.",
+      "Corrected the chart template, trading hours, 25-pip worked stops, and promotional compounding example; removed unsupported equity-risk and pending-order rules.",
+      "Corrected title, author, year, tags, category description, and full-review metadata."
+    ],
+    "evidence": [
+      "The 5/6/80 EMAs, Heikin-Ashi, pivots, alert, ADX, and DI template is shown on pp. 18-25.",
+      "Rising ADX and relevant DI above 20, alert/pivot entries, worked stops, and trailing logic appear on pp. 26-45; the 25% weekly illustration is on pp. 46-47."
+    ],
+    "unresolved": [
+      "The manual gives no percentage-of-equity position-sizing rule and no controlled performance record."
+    ]
+  },
+  {
+    "slug": "the-forex-market-phenomena",
+    "pages_inspected": "1-52",
+    "changes": [
+      "Expanded reviewed_pdf_pages to 1-52; retained the note because the news-range straddle rules and numerical example are supported here."
+    ],
+    "evidence": [
+      "FX mechanics, leverage, order types, and analysis overview occupy pp. 4-39.",
+      "The scheduled-news setup uses a 5-6 hour range, entries 15-20 pips outside it, a stop capped at 5% of equity, cancellation of unused orders, and trailing management on pp. 40-51."
+    ],
+    "unresolved": [
+      "No publication year is printed in the source."
+    ]
+  },
+  {
+    "slug": "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow",
+    "pages_inspected": "1-51",
+    "changes": [
+      "Set full-review metadata to pages 1-51.",
+      "Removed an unsupported J-Hook pullback-low stop and separated the short-term liquidation rule from the longer-term doji re-entry example.",
+      "Clarified the 20% bad-news-gap diagnostic and stated that the kicker section supplies no numeric stop or sizing rule."
+    ],
+    "evidence": [
+      "The unofficial 80% claim and bottom-gap setup appear on pp. 5-9; J-Hook entries on pp. 34-38.",
+      "Bad-news gap rules and the first-30-minute diagnostic appear on pp. 41-44; kicker construction and caveats on pp. 45-49."
+    ],
+    "unresolved": [
+      "The source's success-rate statement is explicitly informal and has no complete test sample."
+    ]
+  },
+  {
+    "slug": "amazing-forex-system",
+    "pages_inspected": "1-48",
+    "changes": [
+      "Set reviewed_pdf_pages to 1-48.",
+      "Corrected the stop-management sequence: move to breakeven after a 10-pip gain, then lock 20 pips after a 30-pip gain."
+    ],
+    "evidence": [
+      "The 10-pip stop, 20-pip default target, and news-order mechanics appear on pp. 4-5 and 41-46.",
+      "The breakeven, +20 lock, trailing, multi-day, and weekend instructions appear on pp. 35-38; equity guidance is on p. 8."
+    ],
+    "unresolved": [
+      "Win-rate and account-growth claims are promotional and unaudited."
+    ]
+  },
+  {
+    "slug": "practicalew",
+    "pages_inspected": "1-47",
+    "changes": [
+      "Expanded reviewed_pdf_pages to the complete 1-47 range and removed a redundant example bullet; the core rules and invalidation logic remain supported."
+    ],
+    "evidence": [
+      "The three Elliott rules and the probable/confirm/invalidate framework appear on pp. 3-11.",
+      "Wave-2 stop placement and fifth-wave pullback guidance are illustrated on pp. 35-42; alternate-count examples continue through p. 47."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "fernando-commonality-in-liquidity-transmission-of-liquidity-shocks-across-investors-and-se",
+    "pages_inspected": "1-45",
+    "changes": [
+      "Expanded reviewed_pdf_pages to 1-45; preserved the note's distinction between model implications and trader interpretation."
+    ],
+    "evidence": [
+      "Title, author, and November 2002 date appear on p. 3.",
+      "The systematic/idiosyncratic liquidity-shock model, volume implications, and volatility distinctions are developed on pp. 7-34; proofs and references occupy the remaining pages."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "cci-manual",
+    "pages_inspected": "1-29",
+    "changes": [
+      "Set full-review metadata to pages 1-29 and removed the unsupported ADX tag.",
+      "Added the source's special Hook-from-Extreme exit timing: exit on the first turn without waiting for bar close or the usual 20-second point."
+    ],
+    "evidence": [
+      "Indicator settings and the six-bar trend definition appear on pp. 3-7; ZLR and line-break patterns on pp. 8-14.",
+      "Beginner entry/stop rules are on pp. 15-16 and exit rules, including Hook from Extreme, on pp. 17-20."
+    ],
+    "unresolved": [
+      "The manual does not specify bar duration, contract, tick value, position sizing, or publication year."
+    ]
+  },
+  {
+    "slug": "competition-between-exchanges-euronext-versus-xetra",
+    "pages_inspected": "1-32",
+    "changes": [
+      "Corrected the PDF page count and reviewed_pdf_pages from 29 to 32; retained the matched-pair findings and their limitations."
+    ],
+    "evidence": [
+      "Title, authors, and January 2003 date appear on p. 1.",
+      "The 40-pair sample, effective-spread comparison, adverse-selection result, and regression controls appear on pp. 6-24; conclusions, references, and tables continue through p. 32."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "fairygoodtrader",
+    "pages_inspected": "1-29",
+    "changes": [
+      "Completed a full 1-29 review; no substantive changes were needed because the note already distinguishes the fable's advice from tested evidence."
+    ],
+    "evidence": [
+      "Rob Booker and the 2004 copyright appear on p. 1.",
+      "The Pip Auction Game, escalating-loss lesson, record review, and return-to-demo guidance run through pp. 5-28."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "t2w-trading-plan-template-2005-asb",
+    "pages_inspected": "1-29",
+    "changes": [
+      "Completed a full 1-29 review; no correction was needed to the template's planning fields or ten stated rules."
+    ],
+    "evidence": [
+      "Tim Wilcox, Trade2Win, and the 2005 date appear on p. 1.",
+      "Purpose, markets, risk, setups, journals, discipline, and the ten golden rules are presented across pp. 4-28."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "deutsche-bank-asset-valuation-allocation-models-2001",
+    "pages_inspected": "1-28",
+    "changes": [
+      "Expanded reviewed_pdf_pages to 1-28; retained the note's valuation equations and explicit warning that the allocation mapping is a model output."
+    ],
+    "evidence": [
+      "Title, Edward Yardeni, Amalia Quintana, Deutsche Bank, and 2001 date appear on p. 1.",
+      "Forward earnings-yield and bond-yield comparisons, valuation gaps, and stock/bond allocation mappings appear on pp. 3-24."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "morris-and-song-shin-liquidity-black-holes",
+    "pages_inspected": "1-28",
+    "changes": [
+      "Expanded reviewed_pdf_pages to 1-28 and retained the note's model-based framing rather than presenting it as a tested trading system."
+    ],
+    "evidence": [
+      "Title, authors, and June 20, 2003 date appear on p. 1.",
+      "The loss-limit coordination model, critical thresholds, and V-shaped liquidity event are developed on pp. 4-22; appendices and references run through p. 28."
+    ],
+    "unresolved": []
+  },
+  {
+    "slug": "secrets-of-the-millionaire-traders-vol-i",
+    "pages_inspected": "1-27",
+    "changes": [
+      "Set full-review metadata to pages 1-27.",
+      "Exposed the source's internal inconsistency: Rule 16 is titled as a previous-day range rule but its operative text first uses the previous close and later refers to the range.",
+      "Softened staged-entry language to identify four or more installments as the report's suggestion rather than a universal prescription."
+    ],
+    "evidence": [
+      "Capital, margin, sentiment, and liquidity rules appear on pp. 4-15.",
+      "Opening/daily/weekly/monthly breakout rules and the 4-3-2-1 pyramid example appear on pp. 17-20; no-averaging and loss-duration rules on pp. 21-24."
+    ],
+    "unresolved": [
+      "The report does not state a publication year, interview sample size, selection method, or audited results."
+    ]
+  },
+  {
+    "slug": "eleswarapu-and-venkataraman-the-impact-of-legal-and-political-institutions-on-equity-tradi",
+    "pages_inspected": "1-26",
+    "changes": [
+      "Recast Actionable rules as numbered research implications and stated that the paper supplies no trading strategy."
+    ],
+    "evidence": [
+      "The 412-ADR, 44-country January-March 2002 sample and controls are on pp. 2-10; univariate results on pp. 11-13; regressions and fitted-country estimates on pp. 14-16."
+    ],
+    "unresolved": [
+      "Observational ADR evidence does not establish causality or current executable costs."
+    ]
+  },
+  {
+    "slug": "forex-report-predicting-price-movement",
+    "pages_inspected": "1-25",
+    "changes": [
+      "Numbered the source-grounded research rules and separated report suggestions from missing spread, execution, and out-of-sample controls."
+    ],
+    "evidence": [
+      "Data period, trigger construction, 20-pip stop, and no-spread assumption are on pp. 3-4; full result tables on pp. 4-23; proposed uses on p. 24."
+    ],
+    "unresolved": [
+      "Descriptive continuation tables are not an independently validated strategy."
+    ]
+  },
+  {
+    "slug": "fx-engines-predicting-price-action",
+    "pages_inspected": "1-25",
+    "changes": [
+      "Confirmed this is a byte-for-content duplicate of the canonical Predicting Price Movement report and numbered its single de-duplication rule; retained the note as instructed."
+    ],
+    "evidence": [
+      "Title material, methods, tables, wording, and final disclaimer match the canonical 25-page source throughout."
+    ],
+    "unresolved": [
+      "Parent will handle archival or canonical-manifest treatment."
+    ]
+  },
+  {
+    "slug": "10keystosuccess",
+    "pages_inspected": "1-24",
+    "changes": [
+      "Replaced generic advice with the source's exact one-month practice, 20% margin-use, 5% exposure, OCO, and cancel-and-replace rules."
+    ],
+    "evidence": [
+      "Sizing and paper-trading limits are on p. 4; OCO and protective orders on pp. 21-22; the advancing-stop illustration on pp. 22-23."
+    ],
+    "unresolved": [
+      "The manual is promotional and gives no audited performance record."
+    ]
+  },
+  {
+    "slug": "brooks-and-kim-the-individual-investor-and-the-weekend-effect-a-reexamination-with-intrada",
+    "pages_inspected": "1-13",
+    "changes": [
+      "Numbered trader takeaways as research implications and explicitly stated that the study gives no trading or sizing rule."
+    ],
+    "evidence": [
+      "The 276-firm 1989 sample and trade-size proxies are on pp. 2-4; Monday returns on pp. 4-6; volume and selling results on pp. 8-11."
+    ],
+    "unresolved": [
+      "Trade size only proxies investor identity, and the historical effect may not persist."
+    ]
+  },
+  {
+    "slug": "inside-the-guru-mind-warren-buffet-r-heller",
+    "pages_inspected": "1-13",
+    "changes": [
+      "Converted broad advice into numbered rules with citations and identified concentration thresholds as principles reported by a secondary summary."
+    ],
+    "evidence": [
+      "Business-quality tests are on pp. 2-3; five-to-ten-stock concentration and at-least-10%-of-net-worth language on p. 3; accounting and capital allocation on pp. 4-13."
+    ],
+    "unresolved": [
+      "This is a secondary commercial summary rather than Buffett's complete primary text."
+    ]
+  },
+  {
+    "slug": "chart-formations",
+    "pages_inspected": "1-12",
+    "changes": [
+      "Replaced inferred backtesting prescriptions with the article's actual support, breakout, and opposite-order stop instructions."
+    ],
+    "evidence": [
+      "Support and resistance are defined on pp. 1-2; triangle, pennant, wedge, and flag rules on pp. 3-6; reversal patterns and retracements on pp. 6-11."
+    ],
+    "unresolved": [
+      "The article provides no performance sample or precise pattern-recognition specification."
+    ]
+  },
+  {
+    "slug": "forex-nfa",
+    "pages_inspected": "1-12",
+    "changes": [
+      "Corrected citations that had followed the booklet's printed pagination rather than PDF pages; numbered due-diligence rules with exact PDF references."
+    ],
+    "evidence": [
+      "Profit examples are on PDF p. 5, margin and 100:1 illustration on pp. 5-6, risk disclosures on p. 7, and registration/account checks on pp. 8-9."
+    ],
+    "unresolved": [
+      "The 2004 US regulatory details are historical and may no longer describe current rules."
+    ]
+  },
+  {
+    "slug": "nicktrader-on-no-price-trading",
+    "pages_inspected": "1-12",
+    "changes": [
+      "Replaced generic testing advice with the transcript's regular/reverse divergence, +/-100, five-bar, 10-12-bar, Turbo CCI, and fast-exit rules."
+    ],
+    "evidence": [
+      "Pattern distinctions are on pp. 1-4; the fixed 10-tick YM stop and numerical pattern conditions on pp. 5-8; Turbo and failure exits on pp. 9-11."
+    ],
+    "unresolved": [
+      "Screenshots are unavailable in extracted text and all performance claims are anecdotal."
+    ]
+  },
+  {
+    "slug": "a-realistic-and-effective-strategy-for-using-candlestick-sri-0032",
+    "pages_inspected": "1-11",
+    "changes": [
+      "Grounded the numbered rules in stock/sector trend, confluence, and signal-candle-high confirmation; stated that no universal stop or sizing rule is supplied."
+    ],
+    "evidence": [
+      "Trend-filter failures and moving-average examples are on pp. 4-6; breakout context on pp. 7-8; Fibonacci confluence on pp. 9-10."
+    ],
+    "unresolved": [
+      "Only selected charts are presented; no controlled win-rate study appears."
+    ]
+  },
+  {
+    "slug": "fabozzi-2004-default-rates-on-structured-finance-securities",
+    "pages_inspected": "1-11",
+    "changes": [
+      "Normalized the review range to 1-11 and recast Actionable rules as methodology checks rather than investment prescriptions."
+    ],
+    "evidence": [
+      "S&P comparisons and matrix multiplication are on pp. 3-6; Moody's cohort and impairment comparisons on pp. 6-9; blended rates and assumptions on p. 10."
+    ],
+    "unresolved": [
+      "Historical estimates rely on judgmental adjustments and do not model loss severity."
+    ]
+  },
+  {
+    "slug": "glossary-of-forex-terms",
+    "pages_inspected": "1-11",
+    "changes": [
+      "Changed unsupported publication year to unknown and converted Actionable rules to numbered, source-defined mechanics."
+    ],
+    "evidence": [
+      "No publication date is printed; pair/quote terms span pp. 1-3, forwards pp. 4-5, margin pp. 6-7, and spot, spread, settlement, and value date pp. 8-10."
+    ],
+    "unresolved": [
+      "Several institutional and market-convention definitions are dated or simplified."
+    ]
+  },
+  {
+    "slug": "learning-to-trade",
+    "pages_inspected": "1-11",
+    "changes": [
+      "Changed unsupported article year to unknown and replaced generic process advice with the author's independent-data, repeated-practice, and intuition cautions."
+    ],
+    "evidence": [
+      "The source prints no article publication date; research and overfitting discussion is on pp. 3-4, implicit-learning evidence on pp. 5-7, and applications on pp. 8-11."
+    ],
+    "unresolved": [
+      "Trading applications and brain-based interpretations are conceptual rather than profitability tests."
+    ]
+  },
+  {
+    "slug": "wolfe-waves",
+    "pages_inspected": "1-6",
+    "changes": [
+      "Corrected author attribution to the chapter narrator Linda Bradford Raschke, changed unsupported year to unknown, removed an invented partial-exit instruction, and specified exact point, entry, stop, and EPA rules."
+    ],
+    "evidence": [
+      "Page 1 identifies Linda's narration, credits Bill Wolfe as method developer, and states the complete point relationships, lines, stop, and breakeven rule; confirmation after overshoot is on p. 4."
+    ],
+    "unresolved": [
+      "The excerpt omits bibliographic front matter and provides selected charts rather than a systematic test."
+    ]
+  },
+  {
+    "slug": "barbara-star-hidden-divergence",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Replaced invented invalidation and sizing language with exact bullish, bearish, and second-point-lookback definitions."
+    ],
+    "evidence": [
+      "The 5-15 oscillator and bullish definition are on pp. 2-3; bearish definition, false example, and lookback logic on pp. 3-4; alternate indicators on p. 5."
+    ],
+    "unresolved": [
+      "The article gives no stops, sizing, costs, or statistical sample."
+    ]
+  },
+  {
+    "slug": "coreconcepts-automatedtrading",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Removed unsupported slippage, latency, rejected-order, and stop-deployment prescriptions; restored the report's exact build/test workflow and platform checklist."
+    ],
+    "evidence": [
+      "Four automation components and historical-tick/live-feed testing are on p. 3; hosted, tick-driven, partner, fee, and customization questions on p. 4; disclaimer on p. 5."
+    ],
+    "unresolved": [
+      "The vendor brief offers no independent performance comparison."
+    ]
+  },
+  {
+    "slug": "fi-lecture16-exotic-options-credit-derivatives",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Changed unsupported author and year to Unknown/unknown and replaced inferred advice with an explicit statement that the lecture supplies no trade rule."
+    ],
+    "evidence": [
+      "The five pages define barrier, Asian, binary, lookback, credit-linked, and default-swap structures but contain no authorship or publication date."
+    ],
+    "unresolved": [
+      "The slides give payoff sketches without implementation, pricing, or risk-management details."
+    ]
+  },
+  {
+    "slug": "fine-tuning-your-money-management",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Condensed the note to Tier B scope and corrected the sizing formula to use absolute entry-to-stop distance; preserved the source's 2% trade, 2% group, and 6% total-risk caps."
+    ],
+    "evidence": [
+      "The risk hierarchy and limits appear on pp. 1-3; position size and IBM worked examples, including 55% winners and 1.6 reward/risk, are on pp. 3-5."
+    ],
+    "unresolved": [
+      "The worked expectancy example is illustrative rather than a verified strategy record."
+    ]
+  },
+  {
+    "slug": "gimmibar",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Changed unsupported year to unknown and rewrote Actionable rules as the source's exact ADX/Gimme-bar process."
+    ],
+    "evidence": [
+      "ADX below 25, Bollinger-band contact, opposite-color bar, next-bar stop entry, and stop placement are described across pp. 1-4."
+    ],
+    "unresolved": [
+      "The short excerpt provides examples but no complete performance sample."
+    ]
+  },
+  {
+    "slug": "mindset-of-millionaire-traders",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Changed unsupported year to unknown and clarified that the cover advertises ten traits although the excerpt contains eight identifiable sections."
+    ],
+    "evidence": [
+      "The advertised count is on p. 1; the eight sections on focus, preparation, analysis, routine, technology, adaptability, motivation, and risk occupy pp. 2-5."
+    ],
+    "unresolved": [
+      "No interviews, sample method, or performance evidence supports the trait claims."
+    ]
+  },
+  {
+    "slug": "peaks-and-troughs-pring",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Specified the source's exact peak/trough confirmation and retracement interpretation as numbered rules."
+    ],
+    "evidence": [
+      "Rising and falling peak/trough definitions, confirmation, and retracement examples are presented throughout pp. 1-5."
+    ],
+    "unresolved": [
+      "Swing selection remains visual and no stop, sizing, or test statistics are supplied."
+    ]
+  },
+  {
+    "slug": "pivots",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Rebuilt Actionable rules around the exact pivot formulas, trend filters, and 20-30 minute waiting instruction."
+    ],
+    "evidence": [
+      "Classic pivot, support, and resistance formulas are on pp. 1-2; directional filters and opening-delay guidance on pp. 3-5."
+    ],
+    "unresolved": [
+      "No performance study or complete exit and sizing framework is provided."
+    ]
+  },
+  {
+    "slug": "sm-momentum-investing-screening-for",
+    "pages_inspected": "1-5",
+    "changes": [
+      "Specified the sequential EPS, 10% surprise, three-analyst, 26-week, capitalization, and volume filters exactly."
+    ],
+    "evidence": [
+      "The screening sequence and numerical thresholds appear across pp. 1-5, including $50 million-$3 billion capitalization and top-half relative volume."
+    ],
+    "unresolved": [
+      "The screen is presented without portfolio returns, costs, exits, or a validation sample."
+    ]
+  },
+  {
+    "slug": "sidus-method",
+    "pages_inspected": "1-3",
+    "changes": [
+      "Changed unsupported year to unknown and specified the 18/28 EMA, 5/8 WMA, entry, exit, and 10-15 pip stop instructions."
+    ],
+    "evidence": [
+      "All parameters and long/short rules appear on pp. 1-2; examples and qualifications continue on p. 3."
+    ],
+    "unresolved": [
+      "The source provides no sizing rule or verified results."
+    ]
+  },
+  {
+    "slug": "trend-vs-no-trend",
+    "pages_inspected": "1-3",
+    "changes": [
+      "Specified ADX above 25, below 20, and extreme-level interpretations with citations."
+    ],
+    "evidence": [
+      "ADX regime thresholds and the warning that very high ADX can precede consolidation or reversal appear on pp. 1-3."
+    ],
+    "unresolved": [
+      "The handout does not define a complete entry, exit, stop, or sizing system."
+    ]
+  },
+  {
+    "slug": "using-volatility-in-option-tradingpart-1",
+    "pages_inspected": "1-3",
+    "changes": [
+      "Changed unsupported year to unknown and stated that Part 1 defines volatility measures but supplies no trade setup."
+    ],
+    "evidence": [
+      "Historical, implied, and forecast volatility definitions and annualization discussion occupy pp. 1-3."
+    ],
+    "unresolved": [
+      "Trading applications are deferred to a later article."
+    ]
+  },
+  {
+    "slug": "volatility-part-2",
+    "pages_inspected": "1-3",
+    "changes": [
+      "Changed unsupported year to unknown and labeled option-volatility ideas as untested source suggestions."
+    ],
+    "evidence": [
+      "The three pages discuss comparing implied and historical volatility and selecting structures according to the volatility view."
+    ],
+    "unresolved": [
+      "No sample, costs, sizing, or tested decision thresholds are supplied."
+    ]
+  },
+  {
+    "slug": "15-minutestf",
+    "pages_inspected": "1-2",
+    "changes": [
+      "Corrected author to Claudia, changed unsupported year to unknown, and stated the exact RSI/LWMA entry and exit conditions without inventing a stop."
+    ],
+    "evidence": [
+      "PDF metadata identifies Claudia; the two pages contain the complete 15-minute indicators and crossover rules."
+    ],
+    "unresolved": [
+      "No stop, sizing model, or reliable performance sample is given."
+    ]
+  },
+  {
+    "slug": "automated-forex-ea",
+    "pages_inspected": "1-2",
+    "changes": [
+      "Changed unsupported year to unknown and kept only the source's six-month, fixed-lot, and vendor-review guidance."
+    ],
+    "evidence": [
+      "Both pages describe evaluating an EA across at least six months, using fixed lots for comparison, and scrutinizing vendor claims."
+    ],
+    "unresolved": [
+      "The document supplies no strategy logic or independently audited results."
+    ]
+  },
+  {
+    "slug": "bella-method",
+    "pages_inspected": "1-2",
+    "changes": [
+      "Changed author/year to Unknown/unknown, corrected consequential citations to p. 1 because p. 2 is blank, and retained only the short method's explicit rules."
+    ],
+    "evidence": [
+      "All meaningful text and numerical instructions occur on PDF p. 1; p. 2 contains no method content."
+    ],
+    "unresolved": [
+      "The one-page method omits evidence, position sizing, and robust execution details."
+    ]
+  },
+  {
+    "slug": "cai-discretionary-risk-matrix",
+    "pages_inspected": "1-2",
+    "changes": [
+      "Condensed an overlong note and distinguished the table's alternating 'risk' and 'entry size' labels instead of asserting that every percentage is capital at risk."
+    ],
+    "evidence": [
+      "The two-page matrix and its labels supply the full set of discretionary scores and percentage mappings."
+    ],
+    "unresolved": [
+      "The source does not define consistently whether each percentage means capital at risk, exposure, or entry size."
+    ]
+  },
+  {
+    "slug": "forex-trading-is-challenging",
+    "pages_inspected": "1-2",
+    "changes": [
+      "Changed unsupported year to unknown and separated vendor screening thresholds from any claim of proven trading performance."
+    ],
+    "evidence": [
+      "Both pages present the promotional selection checklist and its numerical thresholds but no audited results."
+    ],
+    "unresolved": [
+      "The source is vendor-oriented and does not substantiate its screening claims."
+    ]
+  }
+]

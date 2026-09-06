@@ -1,17 +1,32 @@
 ---
-title: "The Knife (Sundial System)"
-author: "Charles \"Diallist\" (James16 trading forum)"
-year: unknown
-slug: sundial-system
-tier: B
+author: Charles "Diallist" (James16 trading forum)
 category: Forex Mechanics & Macro Drivers
-tags: [forex, momentum, moving-averages, fibonacci, position-sizing, trend-following, mechanical-system]
 difficulty: intermediate
 doc_type: manual
+one_liner: Forex momentum system (nicknamed 'the Knife') combining weekly moving-average
+  momentum for trend and 4-hour moving-average slope changes for entries, with Fibonacci
+  profit targets.
 pages: 43
-one_liner: "Forex momentum system (nicknamed 'the Knife') combining weekly moving-average momentum for trend and 4-hour moving-average slope changes for entries, with Fibonacci profit targets."
-related: [forex-money-management, bill-poulos-the-truth-about-fibonacci-trading, van-tharp-the-flow-of-the-markets]
-source_file: "Sundial System.pdf"
+related:
+- forex-money-management
+- bill-poulos-the-truth-about-fibonacci-trading
+- van-tharp-the-flow-of-the-markets
+reviewed_pdf_pages: 4, 7 (the moving-average settings and the primary/secondary signal
+  rules)
+slug: sundial-system
+source_file: Sundial System.pdf
+source_review: partial
+tags:
+- forex
+- momentum
+- moving-averages
+- fibonacci
+- position-sizing
+- trend-following
+- mechanical-system
+tier: B
+title: The Knife (Sundial System)
+year: unknown
 ---
 
 ## Summary

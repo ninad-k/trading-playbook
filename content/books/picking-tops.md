@@ -1,17 +1,26 @@
 ---
-title: "Picking Tops And Bottoms With The Tick Index"
 author: Tim Ord
-year: 1991
-slug: picking-tops
-tier: B
 category: Indicators
-tags: [tick-index, contrarian, market-breadth, tops-and-bottoms, nyse, intraday]
 difficulty: intermediate
 doc_type: article
+one_liner: Stocks & Commodities article on using extreme NYSE uptick/downtick (TICK)
+  readings and a double-top/double-bottom pattern to call short-term market turns.
 pages: 4
-one_liner: "Stocks & Commodities article on using extreme NYSE uptick/downtick (TICK) readings and a double-top/double-bottom pattern to call short-term market turns."
 related: []
-source_file: "picking_tops.pdf"
+reviewed_pdf_pages: 1-4
+slug: picking-tops
+source_file: picking_tops.pdf
+source_review: full
+tags:
+- tick-index
+- contrarian
+- market-breadth
+- tops-and-bottoms
+- nyse
+- intraday
+tier: B
+title: Picking Tops And Bottoms With The Tick Index
+year: 1991
 ---
 
 ## Summary

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>McMillan&#39;s Volatility-Based Option Strategy Selection — Lawrence G. McMillan · Trading Playbook</title>
+<meta name="description" content="Rank implied volatility against its own history: buy straddles/backspreads under the 10th percentile, sell strangles/ratio spreads above the 90th, with explicit follow-up rules for both.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a> › <a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a></p>
+  <h1>McMillan&#39;s Volatility-Based Option Strategy Selection</h1>
+  <p class="byline">Lawrence G. McMillan · 2002 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Rank implied volatility against its own history: buy straddles/backspreads under the 10th percentile, sell strangles/ratio spreads above the 90th, with explicit follow-up rules for both.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=implied-volatility">implied-volatility</a> <a class="tag" href="../search.html?q=straddles">straddles</a> <a class="tag" href="../search.html?q=ratio-spreads">ratio-spreads</a> <a class="tag" href="../search.html?q=percentile-rank">percentile-rank</a> <a class="tag" href="../search.html?q=volatility-trading">volatility-trading</a> </td></tr>
+    <tr><th>Length</th><td>286 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “McMillan&#39;s Volatility-Based Option Strategy Selection” by Lawrence G. McMillan at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A rule-based method for choosing whether to buy or sell option premium, using each underlying&rsquo;s own historical implied volatility (IV) distribution rather than a universal &ldquo;cheap/expensive&rdquo; threshold. Daily IV (and historical volatility, HV) readings are ranked by percentile against 200–600+ past trading days; the percentile — not the raw IV number or a simple IV-vs-HV comparison — determines the strategy: straddle buying, backspreads, strangle selling, or ratio spreads.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Compute composite IV daily.</strong> Blend the individual option IVs for an underlying (weighted by volume and moneyness) into one daily composite reading; keep a running history of at least 200 trading days, ideally 600+.</p>
+<p><strong>Rank by percentile, not raw comparison.</strong> Place today&rsquo;s composite IV against its own historical distribution; separately rank the 10-, 20-, 50-, and 100-day HV readings the same way. A raw &ldquo;IV higher than HV&rdquo; reading alone is not sufficient — some underlyings (index options) structurally trade with IV persistently above HV, so only a percentile-versus-own-history reading is trusted.</p>
+<p><strong>Cheap options — buy volatility (IV ≈10th percentile or lower).</strong> Straddle purchase, or a backspread if a favorable skew is also present. Four criteria before entering:
+1. Composite IV at or below the 10th percentile, confirmed against current real-time prices.
+2. A Monte Carlo calculator shows ≥80% &ldquo;ever&rdquo; probability (touching either breakeven at any point before expiration — not the lower &ldquo;closing&rdquo; probability, which is just delta) using a conservative low-volatility input.
+3. Price history shows the underlying has actually moved the required distance in the required time before.
+4. Fundamentals rule out a structural reason IV is low (e.g. a pending cash-tender takeover).
+Buy options with at least three months of remaining life.</p>
+<p><strong>Expensive options — sell volatility (IV ≈90th percentile or higher).</strong> Naked strangle/combination sale, or a ratio spread; pick the skew-appropriate variant (positive skew → call ratio spread or put backspread; reverse skew → put ratio spread or call backspread, by whether IV is high or low). Two criteria:
+1. IV at or above the 90th percentile.
+2. A Monte Carlo calculator shows ≤25% &ldquo;ever&rdquo; probability of reaching the short strike (10–15% is safer) using a conservative high-volatility input.
+Confine naked selling mainly to index options, or stock options where the news behind the spike is already public. Never sell a naked option priced below about 1.5 points.</p>
+<p><strong>Check the reason before acting.</strong> Before selling elevated IV, rule out an undisclosed catalyst (FDA ruling, lawsuit, takeover rumor) — if one exists, consider an event-driven straddle buy instead. Before buying depressed IV, rule out a structural reason it&rsquo;s low (post-takeover-bid, permanently reduced volatility, a much higher stock price than its volatility history reflects) — not a genuine opportunity despite the cheap percentile.</p>
+<p><strong>Follow-up (straddle buys).</strong> Leave the position alone until a breakeven is approached; close if the straddle loses 60% of its cost. On a profitable breakout, close the losing side, take partial profit (e.g. one-third) on the winning side, trail the rest with a 20-day moving average stop on the underlying.</p>
+<p><strong>Follow-up (naked/strangle sales).</strong> Take defensive action as soon as the underlying reaches the short strike; hold margin sufficient for that scenario from the outset (estimate the option&rsquo;s value at the strike, not just the current OTM margin).</p>
+<h2 id="risk">Risk</h2>
+<p>Straddle-buying risk is capped at premium paid, tightened by the 60%-of-cost stop; the ≥80% ever-probability criterion is the main edge control, since delta alone understates true breakeven odds. Naked/strangle-selling risk is large or unlimited on a gap; controlled by confining it mainly to index options, requiring ≤25% ever-probability on the short strike, and over-funding margin for a worst-case move. Backspreads/ratio spreads bound risk structurally (a backspread nets a credit so one side is always defined-risk; a ratio spread has a defined max-risk zone) but still carry real loss near the short strikes at expiration.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The method needs a maintained IV/HV database and Monte Carlo software most retail traders must source independently; McMillan&rsquo;s examples lean on his firm&rsquo;s proprietary tools. The 80%/25% thresholds are personal guidelines, not a published backtest — he separately suggests 10–15% may be safer than 25% for naked selling. Straddle buying can produce long flat, decaying stretches (&ldquo;watching paint dry&rdquo;) even with correct entry criteria; the plan has no time stop beyond the 60%-of-cost loss limit and three-month minimum entry life.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,29 @@
 ---
-title: "241 Forex: Trading Systems Built to Change and Adapt to the Trader"
 author: Carl (241Forex.com)
-year: 2006
-slug: 241forex
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, swing-trading, intraday, weekly-pivots, position-sizing, trend-following]
 difficulty: intermediate
 doc_type: manual
+one_liner: Two rule-based forex systems (weekly Swing Trade Equation and daily Intraday
+  Trade Equation) with three risk tiers of entries, stops, and pip targets.
 pages: 21
-one_liner: "Two rule-based forex systems (weekly Swing Trade Equation and daily Intraday Trade Equation) with three risk tiers of entries, stops, and pip targets."
-related: [big-ben-breakout, forex-intraday-pivots-trading-system-complete-system]
-source_file: "241FOREX.pdf"
+related:
+- big-ben-breakout
+- forex-intraday-pivots-trading-system-complete-system
+reviewed_pdf_pages: 2-3, 10 (the contents, trader tiers and the swing-system rules
+  with the worked trade table)
+slug: 241forex
+source_file: 241FOREX.pdf
+source_review: partial
+tags:
+- forex
+- swing-trading
+- intraday
+- weekly-pivots
+- position-sizing
+- trend-following
+tier: B
+title: '241 Forex: Trading Systems Built to Change and Adapt to the Trader'
+year: 2006
 ---
 
 ## Summary

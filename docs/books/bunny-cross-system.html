@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunny Cross System — Lester · Trading Playbook</title>
+<meta name="description" content="A forum thread compiling one forex trader&#39;s WMA5/WMA20 crossover system for EUR/USD, GBP/USD and USD/CHF on 30-minute charts, with a pip-filter entry and multi-lot scale-out exits.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a></p>
+  <h1>Bunny Cross System</h1>
+  <p class="byline">Lester · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A forum thread compiling one forex trader&#39;s WMA5/WMA20 crossover system for EUR/USD, GBP/USD and USD/CHF on 30-minute charts, with a pip-filter entry and multi-lot scale-out exits.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-7. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=moving-average-cross">moving-average-cross</a> <a class="tag" href="../search.html?q=wma">wma</a> <a class="tag" href="../search.html?q=scalping">scalping</a> <a class="tag" href="../search.html?q=trailing-stop">trailing-stop</a> <a class="tag" href="../search.html?q=scaling-out">scaling-out</a> <a class="tag" href="../search.html?q=eur-usd">eur-usd</a> </td></tr>
+    <tr><th>Length</th><td>7 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Bunny Cross System” by Lester at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is a transcribed forum thread (attributed to a poster &ldquo;Lester&rdquo;), not a formal book — one trader&rsquo;s rules and Q&amp;A responses for a 30-minute-chart forex system built on a 5-period and 20-period weighted moving average (WMA) crossover, traded mainly on EUR/USD, GBP/USD and USD/CHF. Core idea: wait for WMA5 to cross WMA20, then enter only once price moves a further fixed pip &ldquo;filter&rdquo; beyond the crossed level (20 pips EUR/USD, 30 pips others) to avoid whipsaws from an incomplete cross. Risk is capped at the level of the original cross (the initial stop), managed with a step-ladder trailing stop and optional multi-lot scale-out.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>Entry filter</strong>: enter only once price is 20 pips beyond the WMA5/WMA20 cross (EUR/USD) or 30 pips (GBP/USD, USD/CHF); this buffer is the main defense against whipsaws.</li>
+<li><strong>Initial stop</strong>: set at the level of the moving-average cross itself, so it scales with how far price traveled before the filter triggered entry.</li>
+<li><strong>Trailing-stop ladder</strong>: breakeven at 10 pips profit, lock 10 at 30 pips, lock 30 at 30-50 pips, lock 50 at 50-100 pips, then lock 100 and trail by 10.</li>
+<li><strong>&ldquo;Dead cross&rdquo; filter</strong>: ignore a crossover where the two averages are moving in opposite directions; only trade crosses where both move the same direction.</li>
+<li><strong>WMA100 filter</strong>: only take crosses in the direction of the WMA100 (long above it, short below); avoid crosses that lead straight into it.</li>
+<li><strong>&ldquo;Mr Sheen&rdquo; re-entry</strong>: after a 30+ pip retrace off a strong move, re-enter on a 5-minute-chart breakout bounce off WMA20/WMA100 in the original trend direction, with a tight stop.</li>
+<li><strong>Scaling out</strong>: enter 2-3 lots at once, take partial profit on the first lot at a fixed target (e.g. 50 pips), and move remaining stops to breakeven.</li>
+<li><strong>Ranging-market warning</strong>: more than two crosses on one pair in a day signals a range and calls for caution on new signals.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Enter when price closes 20 pips (EUR/USD) or 30 pips (other pairs) beyond a confirmed WMA5/WMA20 cross on the 30-minute chart.</li>
+<li>Only treat the cross as valid if both WMAs move in the same direction (reject &ldquo;dead crosses&rdquo;).</li>
+<li>Set the initial stop at the cross level; trail per the ladder (breakeven at 10 pips, then lock 10/30/50/100 as profit milestones hit).</li>
+<li>Filter all crosses by WMA100: longs only above it, shorts only below it.</li>
+<li>Skip new signals after more than two same-day crosses on a pair.</li>
+<li>On a 30+ pip retracement, re-enter on a 5-minute breakout bounce off WMA20/WMA100 (&ldquo;Mr Sheen&rdquo;) with a tight 10-20 pip stop.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is an informal forum compilation, not a vetted publication — rules and pip values shift slightly across the thread as contributors refine them, and the win-rate claim (~90%) is self-reported with no verifiable backtest. No author surname, date, or independent track record is available; treat every numeric parameter as personal preference, not an optimized setting.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Discretionary forex swing/day-traders comfortable with moving-average crossover systems who want a fully worked example of pip filters, multi-lot scaling, and trailing-stop management on 30-minute major-pair charts.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fx10.html">FX10: 5 Minute or 10 Minute Chart Day Trading Method</a> — A four-indicator confluence method (WMA/SMA cross, Slow Stochastic, RSI, MACD) for day-trading any major forex pair on 5- or 10-minute charts, restricted to two specific session windows.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

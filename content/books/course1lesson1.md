@@ -1,17 +1,28 @@
 ---
-title: "Course #1, Lesson #1: Background of Futures Trading"
-author: "Jake Bernstein"
-year: 2000
-slug: course1lesson1
-tier: B
+author: Jake Bernstein
 category: Market Structure & Price Action
-tags: [futures, hedging, speculation, market-structure, beginner-education, risk-per-trade]
 difficulty: beginner
 doc_type: course
+one_liner: The opening lesson of Jake Bernstein's online futures trading course, covering
+  futures market history, participant roles, and the psychology of getting started.
 pages: 18
-one_liner: "The opening lesson of Jake Bernstein's online futures trading course, covering futures market history, participant roles, and the psychology of getting started."
-related: [money-management-risk-control-for-traders]
-source_file: "course1lesson1.pdf"
+related:
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 5 and the introductory sections checked against the note's participant
+  and capital rules
+slug: course1lesson1
+source_file: course1lesson1.pdf
+source_review: partial
+tags:
+- futures
+- hedging
+- speculation
+- market-structure
+- beginner-education
+- risk-per-trade
+tier: B
+title: 'Course #1, Lesson #1: Background of Futures Trading'
+year: 2000
 ---
 
 ## Summary

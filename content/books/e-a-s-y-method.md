@@ -1,17 +1,29 @@
 ---
-title: "E.A.S.Y. Trading Method"
 author: Dean Malone
-year: 2007
-slug: e-a-s-y-method
-tier: B
 category: Indicators
-tags: [forex, heiken-ashi, rsi, price-action-channel, traders-dynamic-index, mechanical-system]
 difficulty: beginner
 doc_type: manual
+one_liner: Slide-deck forex system combining Heiken Ashi bars, a price-action channel,
+  and the Traders Dynamic Index (RSI-based) into concrete entry/exit rules.
 pages: 88
-one_liner: "Slide-deck forex system combining Heiken Ashi bars, a price-action channel, and the Traders Dynamic Index (RSI-based) into concrete entry/exit rules."
-related: [jan-l-arps-surfing-the-market-waves-the-swing-trader-s, king-keltner-trading-strategy]
-source_file: "E.A.S.Y.Method.pdf"
+related:
+- jan-l-arps-surfing-the-market-waves-the-swing-trader-s
+- king-keltner-trading-strategy
+reviewed_pdf_pages: 40, 49, 53-54, 85 (the TDI settings and reading rules, entry conditions
+  and the performance table)
+slug: e-a-s-y-method
+source_file: E.A.S.Y.Method.pdf
+source_review: partial
+tags:
+- forex
+- heiken-ashi
+- rsi
+- price-action-channel
+- traders-dynamic-index
+- mechanical-system
+tier: B
+title: E.A.S.Y. Trading Method
+year: 2007
 ---
 
 ## Summary

@@ -1,17 +1,28 @@
 ---
-title: "Professional Traders Still Day Trade"
-author: "Linda Raschke and Christopher Terry"
-year: 2001
-slug: professional-traders-still-day-trade
-tier: B
+author: Linda Raschke and Christopher Terry
 category: Day Trading & Scalping
-tags: [day-trading, swing-trading, momentum-trading, position-trading, volatility, linda-raschke]
 difficulty: intermediate
 doc_type: article
+one_liner: Market Wizard Linda Raschke and Chris Terry argue day, swing, momentum,
+  and position trading overlap rather than compete, and that a market's historical-volatility-to-range
+  ratio decides which style fits it.
 pages: 4
-one_liner: "Market Wizard Linda Raschke and Chris Terry argue day, swing, momentum, and position trading overlap rather than compete, and that a market's historical-volatility-to-range ratio decides which style fits it."
-related: [futures-magazine-the-art-of-day-trading]
-source_file: "Professional_Traders_still_Day_Trade.pdf"
+related:
+- futures-magazine-the-art-of-day-trading
+reviewed_pdf_pages: 1-4
+slug: professional-traders-still-day-trade
+source_file: Professional_Traders_still_Day_Trade.pdf
+source_review: full
+tags:
+- day-trading
+- swing-trading
+- momentum-trading
+- position-trading
+- volatility
+- linda-raschke
+tier: B
+title: Professional Traders Still Day Trade
+year: 2001
 ---
 
 ## Summary

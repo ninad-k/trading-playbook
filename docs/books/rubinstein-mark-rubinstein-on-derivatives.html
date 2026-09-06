@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubinstein on Derivatives — Mark Rubinstein · Trading Playbook</title>
+<meta name="description" content="A state-price and replication-based path from forwards and options through volatility and dynamic strategies.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Rubinstein on Derivatives</h1>
+  <p class="byline">Mark Rubinstein · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">A state-price and replication-based path from forwards and options through volatility and dynamic strategies.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-8, 29, 49, 70, 90, 111, 131, 151, 172, 192, 233, 254, 274, 294, 315, 335, 356, 376, 396, 417, 437, 458, 478 (every page the scan yields text for; the remaining pages are image-only). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=arbitrage">arbitrage</a> <a class="tag" href="../search.html?q=hedging">hedging</a> </td></tr>
+    <tr><th>Length</th><td>498 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Rubinstein on Derivatives” by Mark Rubinstein at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#further-material-from-the-remaining-readable-pages">Further material from the remaining readable pages</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Rubinstein builds derivatives pricing around payoffs, replication, no-arbitrage, and risk-neutral probabilities. The sequence begins with assets, cash, states, and market organization; advances through forwards, futures, swaps, option combinations, binomial trees, and Black–Scholes; and closes with realized and implied volatility, dynamic asset allocation, portfolio insurance, and simulation. The approach is conceptual but mathematically demanding. Its recurring question is not whether a derivative “looks cheap,” but whether its payoff can be reproduced and therefore assigned a price consistent with other traded claims.</p>
+<p>This note is based on the OCR text actually available for selected pages, not a complete reading. Much of the 498-page scan has no extracted text, so the chapter architecture is reliable but some derivations and examples could not be checked line by line.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Derivative value follows from consistency across attainable state-contingent payoffs. If two portfolios produce the same future cash flows in every state, they should cost the same today; otherwise an arbitrage exists. Market prices of derivatives can also be read in reverse to infer the market&rsquo;s risk-neutral distribution. Rubinstein presents this inverse problem as a central task: learn as much as possible about state prices from a limited menu of traded contracts (PDF p. 29).</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>State-contingent payoff</strong> — Cash flow specified separately for each possible future state.</li>
+<li><strong>Replication</strong> — Combining the underlying asset, cash, and derivatives to match another claim&rsquo;s payoff.</li>
+<li><strong>No-arbitrage</strong> — The consistency condition that equal future payoffs carry equal current values.</li>
+<li><strong>Risk-neutral probability</strong> — Pricing weights implied by traded assets, distinct from forecasts of actual probabilities.</li>
+<li><strong>Forward contract</strong> — A bilateral obligation to transact later at a delivery price fixed today.</li>
+<li><strong>Futures contract</strong> — A standardized forward-like claim settled through daily marking to market (PDF p. 111).</li>
+<li><strong>Call and put</strong> — Cancellation rights to buy or sell the underlying at a strike price; unlike forwards, exercise is optional (PDF p. 49).</li>
+<li><strong>Binomial tree</strong> — A discrete state model used to value and hedge contingent claims by backward induction.</li>
+<li><strong>Delta hedge</strong> — An offsetting position in the underlying chosen to neutralize small price exposure.</li>
+<li><strong>Implied volatility</strong> — The volatility input that makes a model price equal the observed option price.</li>
+<li><strong>Realized volatility</strong> — A statistical estimate derived from observed returns.</li>
+<li><strong>Portfolio insurance</strong> — A dynamic strategy intended to impose a floor or reshape portfolio payoffs.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li>Describe the claim as a dated payoff across states before attempting valuation.</li>
+<li>Search for a portfolio of cash, underlying assets, and traded derivatives that reproduces that payoff. Price the claim from the replicating portfolio when the replication is exact.</li>
+<li>For forward valuation, include financing, payouts, storage costs, and any convenience yield. Commodity carry differs from financial-asset carry because physical inventory may be costly or beneficial to hold (PDF pp. 131, 396).</li>
+<li>Treat futures cash flows as daily changes in the futures price; the undiscounted sum of daily settlements equals the terminal spot price minus the initial futures price, per unit of exposure (PDF p. 111).</li>
+<li>Use binomial valuation by specifying state transitions, valuing terminal payoffs, and stepping backward under risk-neutral weights. Interest-rate trees additionally need to fit the observed term structure; the HJM illustration uses current zero-coupon bond prices and a volatility structure (PDF p. 274).</li>
+<li>Apply Black–Scholes only with its assumptions visible: no arbitrage, perfect markets, known future riskless and payout returns, known volatility, and no jumps. The text discusses futures and currency options through substitutions, and time-varying deterministic inputs through averages or maturity-matched bond returns (PDF p. 315).</li>
+<li>When estimating realized volatility from very high-frequency transactions, adjust for microstructure noise. Rubinstein&rsquo;s example shows bid–ask bounce can be comparable to true transaction-return variance and overwhelm the apparent gain from more observations (PDF p. 335).</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>This is a valuation text, not a discretionary trading manual. Risk is handled through payoff design, hedging parameters, diversification across states, and explicit model assumptions. The practical discipline is to identify exposures before trading: directional payoff, financing, payout or carry, volatility, path dependence, and liquidity. A model price is conditional on inputs and market structure; it does not remove gap, parameter, transaction-cost, or execution risk.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Psychology is largely outside the book&rsquo;s scope. Its substitute is analytical discipline: separate actual probabilities from pricing probabilities, refuse inconsistent cash-flow comparisons, and avoid treating a formula as valid after its assumptions fail. The chapters on volatility reinforce humility about estimation error.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Assets, Derivatives and Markets — State payoffs, asset classes, contracts, and trading venues.</li>
+<li>Ch 2 — Forwards and Futures — Carry pricing, replication, futures hedging, and swaps.</li>
+<li>Ch 3 — Introduction to Options — Basic and combined positions, valuation, and replication.</li>
+<li>Ch 4 — The Binomial Option Pricing Model — Single- and multi-period trees, hedging, extensions, and bond options.</li>
+<li>Ch 5 — The Black–Scholes Formula — Derivation, hedge sensitivities, and extensions.</li>
+<li>Ch 6 — Volatility — Realized estimation and volatility inferred from options.</li>
+<li>Ch 7 — Dynamic Strategies — Asset allocation, portfolio insurance, and simulation.</li>
+</ul>
+<h2 id="further-material-from-the-remaining-readable-pages">Further material from the remaining readable pages</h2>
+<ul>
+<li><strong>Swap valuation by replication</strong> — an interest-rate swap is valued by asking what portfolio replicates it: a long fixed-rate bond plus a short floating-rate bond, or the equivalent alternative decomposition (p. 151).</li>
+<li><strong>Payoff diagrams and standard-option tables</strong> — the protective put (asset plus put) and the other elementary combinations are presented as profit diagrams with a worked parameter set, alongside sample option values for S=100, t=1, r=1.15, d=1.00 and volatility 0.30 (pp. 172, 192).</li>
+<li><strong>Greeks from the tree</strong> — theta and the other sensitivities are read directly off the binomial lattice rather than from closed-form derivatives (p. 254).</li>
+<li><strong>Portfolio insurance algebra</strong> — the insured payoff max(K, alpha x S<em>) is rewritten as K + max(0, alpha x S</em> - K), i.e. cash plus a call, which is how the replicating strategy is derived; a strategy that dominated the underlying portfolio is ruled out by arbitrage (p. 356).</li>
+<li><strong>Market price of risk</strong> — defined on the binomial tree as the common ratio of expected excess return to standard deviation across all default-free securities at every node (p. 417).</li>
+<li><strong>Riskless return</strong> — short-term US Treasury bills are used as the archetypal zero-coupon, default-free security proxying the riskless rate (p. 437).</li>
+<li>The book closes with an annotated bibliography and an applications bibliography that summarise the primary literature paper by paper (pp. 458, 478).</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The state-payoff perspective unifies instruments that are often taught separately, and the progression from replication to implied distributions is unusually coherent. The book also flags model limitations rather than presenting Black–Scholes as an oracle. Some institutional details are dated: the scan describes floor exchanges, fractional stock spreads, and late-1990s market organization (PDF pp. 70, 335). More seriously, this source is sampled OCR: equations and symbols are often damaged, and most pages are blank in extracted text. Readers should use the original for any implementation or derivation.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Advanced students, derivatives traders, risk managers, and quantitative analysts who want a conceptual bridge between payoff engineering and formal pricing. It assumes comfort with algebra, probability, and option terminology.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/1-the-mathematics-of-financial-derivatives.html">The Mathematics of Financial Derivatives: A Student Introduction</a> — Develops the same pricing domain through stochastic calculus, PDEs, and numerical methods.</li>
+<li><a class="xref" href="../books/jake-bernstein-how-to-trade-the-new-single-stock-futures.html">How to Trade the New Single Stock Futures</a> — Applies futures mechanics to a specific retail instrument rather than general valuation theory.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/1-the-mathematics-of-financial-derivatives.html">The Mathematics of Financial Derivatives: A Student Introduction</a> — A student-oriented route from random walks and Black–Scholes PDEs to numerical and path-dependent option valuation.</li><li><a href="../books/jake-bernstein-how-to-trade-the-new-single-stock-futures.html">How to Trade the New Single Stock Futures</a> — A guide to early U.S. single-stock futures, including execution, hedging, gap trades, and momentum systems.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

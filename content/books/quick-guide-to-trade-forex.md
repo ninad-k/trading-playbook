@@ -1,17 +1,34 @@
 ---
-title: "The Forex Quick Guide for Beginners and Private Traders"
-author: "Easy-Forex"
-year: unknown
-slug: quick-guide-to-trade-forex
-tier: B
+author: Easy-Forex
 category: Forex Mechanics & Macro Drivers
-tags: [forex, technical-analysis, fundamental-analysis, leverage, stop-loss, take-profit, broker-selection, glossary]
 difficulty: beginner
 doc_type: manual
+one_liner: Broker-produced beginner's guide covering forex mechanics, a wide survey
+  of technical and fundamental analysis tools, and stop-loss/take-profit rules of
+  thumb, wrapped around Easy-Forex platform marketing.
 pages: 110
-one_liner: "Broker-produced beginner's guide covering forex mechanics, a wide survey of technical and fundamental analysis tools, and stop-loss/take-profit rules of thumb, wrapped around Easy-Forex platform marketing."
-related: [currency-trading-vehicles, 9-forex-systems, forex-money-management, glossary-of-forex-terms]
-source_file: "quick_guide_to_trade_forex.pdf"
+related:
+- currency-trading-vehicles
+- 9-forex-systems
+- forex-money-management
+- glossary-of-forex-terms
+reviewed_pdf_pages: 4, 7-8, 10, 30 (the leverage arithmetic, quoting mechanics and
+  the stop/target guidance)
+slug: quick-guide-to-trade-forex
+source_file: quick_guide_to_trade_forex.pdf
+source_review: partial
+tags:
+- forex
+- technical-analysis
+- fundamental-analysis
+- leverage
+- stop-loss
+- take-profit
+- broker-selection
+- glossary
+tier: B
+title: The Forex Quick Guide for Beginners and Private Traders
+year: unknown
 ---
 
 ## Summary

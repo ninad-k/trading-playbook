@@ -1,17 +1,30 @@
 ---
-title: "Explaining Intraday Pattern of Trading Volume from the Order Flow Data"
-author: "Yi-Tsung Lee, Robert C.W. Fok, Yu-Jane Liu"
-year: 2001
-slug: lee-fok-and-liu-explaining-intraday-pattern-of-trading-volume-from-the-order-flow-data
-tier: B
+author: Yi-Tsung Lee, Robert C.W. Fok, Yu-Jane Liu
 category: Quant, Microstructure & Academic Research
-tags: [order-flow, trading-volume, intraday-patterns, market-microstructure, information-asymmetry, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Taiwan Stock Exchange order-book data shows a J-shaped (not U-shaped) intraday
+  volume pattern, driven more by liquidity flow than informed trading.
 pages: 32
-one_liner: "Taiwan Stock Exchange order-book data shows a J-shaped (not U-shaped) intraday volume pattern, driven more by liquidity flow than informed trading."
-related: [supply-demand, foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity, the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex]
-source_file: "Lee, Fok And Liu - Explaining Intraday Pattern Of Trading Volume From The Order Flow Data.pdf"
+related:
+- supply-demand
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+- the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex
+reviewed_pdf_pages: 1-4 (the market structure, sample period and hypotheses)
+slug: lee-fok-and-liu-explaining-intraday-pattern-of-trading-volume-from-the-order-flow-data
+source_file: Lee, Fok And Liu - Explaining Intraday Pattern Of Trading Volume From
+  The Order Flow Data.pdf
+source_review: partial
+tags:
+- order-flow
+- trading-volume
+- intraday-patterns
+- market-microstructure
+- information-asymmetry
+- academic-paper
+tier: B
+title: Explaining Intraday Pattern of Trading Volume from the Order Flow Data
+year: 2001
 ---
 
 ## Summary

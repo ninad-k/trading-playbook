@@ -1,17 +1,31 @@
 ---
-title: "The Secret of Selecting Stocks for Immediate and Substantial Gains"
 author: Larry Williams
-year: 1972
-slug: larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains
-tier: A
 category: Indicators
-tags: [accumulation-distribution, volume, comparative-strength, market-timing, cycles, stops]
 difficulty: intermediate
 doc_type: book
+one_liner: Williams' original accumulation/distribution volume formula and comparative-price
+  screening method for finding stocks under professional buying or selling pressure.
 pages: 131
-one_liner: "Williams' original accumulation/distribution volume formula and comparative-price screening method for finding stocks under professional buying or selling pressure."
-related: [how-i-made-2-million-in-the-stock-market, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, a-short-course-in-technical-trading]
-source_file: "Larry Williams - The Secret Of Selecting Stocks For Immediate And Substantial Gains.pdf"
+related:
+- how-i-made-2-million-in-the-stock-market
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- a-short-course-in-technical-trading
+reviewed_pdf_pages: 2-4, 6, 8-9, 15, 29-30 (contents, the accumulation/distribution
+  formula chapter, the checklist, entry timing and the worked trade results)
+slug: larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains
+source_file: Larry Williams - The Secret Of Selecting Stocks For Immediate And Substantial
+  Gains.pdf
+source_review: partial
+tags:
+- accumulation-distribution
+- volume
+- comparative-strength
+- market-timing
+- cycles
+- stops
+tier: A
+title: The Secret of Selecting Stocks for Immediate and Substantial Gains
+year: 1972
 ---
 
 ## Overview

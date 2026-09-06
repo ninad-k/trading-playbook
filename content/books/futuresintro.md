@@ -1,17 +1,32 @@
 ---
-title: "Trading in Futures: An Introduction"
-author: "Chicago Board of Trade"
-year: 2004
-slug: futuresintro
-tier: B
+author: Chicago Board of Trade
 category: Options, Futures & Derivatives
-tags: [futures, margin, leverage, order-types, technical-analysis, fundamental-analysis, money-management]
 difficulty: beginner
 doc_type: manual
+one_liner: CBOT's official beginner primer on futures contracts, margin/leverage mechanics,
+  order types, and a 10-rule checklist for trading discipline.
 pages: 40
-one_liner: "CBOT's official beginner primer on futures contracts, margin/leverage mechanics, order types, and a 10-rule checklist for trading discipline."
-related: [futures-magazine-the-art-of-day-trading, commodity-futures-trading-for-beginners, jay-kaeppel-the-four-biggest-mistakes-in-futures-trading, cbot-a-six-part-study-guide-to-market-profile]
-source_file: "FuturesIntro.pdf"
+related:
+- futures-magazine-the-art-of-day-trading
+- commodity-futures-trading-for-beginners
+- jay-kaeppel-the-four-biggest-mistakes-in-futures-trading
+- cbot-a-six-part-study-guide-to-market-profile
+reviewed_pdf_pages: 3, 6, 12, 23 (the margin and contract-specification sections and
+  the indicator chapters)
+slug: futuresintro
+source_file: FuturesIntro.pdf
+source_review: partial
+tags:
+- futures
+- margin
+- leverage
+- order-types
+- technical-analysis
+- fundamental-analysis
+- money-management
+tier: B
+title: 'Trading in Futures: An Introduction'
+year: 2004
 ---
 
 ## Summary

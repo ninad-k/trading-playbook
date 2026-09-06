@@ -1,17 +1,30 @@
 ---
-title: "Liquidity in the Forward Exchange Market"
-author: "Michael J. Moore and Maurice J. Roche"
-year: 2001
-slug: liquidity-in-forex-markets
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [academic-paper, forward-exchange-rate, liquidity, cash-in-advance-model, forward-discount-puzzle, macro]
+author: Michael J. Moore and Maurice J. Roche
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Journal of Empirical Finance paper building a limited-participation two-country
+  model to explain spot-return autocorrelation, forward-discount persistence, and
+  the forward bias puzzle via a liquidity 'wedge.'
 pages: 14
-one_liner: "Journal of Empirical Finance paper building a limited-participation two-country model to explain spot-return autocorrelation, forward-discount persistence, and the forward bias puzzle via a liquidity 'wedge.'"
-related: [engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth, madhavan-market-microstructure-a-survey, international-macro-economics-and-finance]
-source_file: "Liquidity in Forex Markets.pdf"
+related:
+- engle-and-lange-predicting-vnet-a-model-of-the-dynamics-of-market-depth
+- madhavan-market-microstructure-a-survey
+- international-macro-economics-and-finance
+reviewed_pdf_pages: 7-11 (the calibration parameters and the model comparison results)
+slug: liquidity-in-forex-markets
+source_file: Liquidity in Forex Markets.pdf
+source_review: partial
+tags:
+- academic-paper
+- forward-exchange-rate
+- liquidity
+- cash-in-advance-model
+- forward-discount-puzzle
+- macro
+tier: B
+title: Liquidity in the Forward Exchange Market
+year: 2001
 ---
 
 ## Summary

@@ -1,17 +1,33 @@
 ---
-title: The Forex Chartist Companion
 author: Michael D. Archer, James L. Bickford
-year: 2007
-slug: the-forex-chartist-companion
-tier: A
 category: Market Structure & Price Action
-tags: [point-and-figure, swing-charts, chart-patterns, forex, fibonacci, elliott-wave, price-objectives]
 difficulty: intermediate
 doc_type: book
+one_liner: A catalog of forex-specific charting techniques (activity, P&F, swing charts,
+  Goodman Swing Count) rather than a trading system, heavy on statistics and light
+  on money management.
 pages: 382
-one_liner: "A catalog of forex-specific charting techniques (activity, P&F, swing charts, Goodman Swing Count) rather than a trading system, heavy on statistics and light on money management."
-related: [john-bollinger-bollinger-on-bollinger-band, new-concepts-in-technical-trading-systems-welles-wilder, michael-covel-trend-following, miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur, s-and-c--wyckoff-method]
-source_file: "The_Forex_Chartist_Companion.pdf"
+related:
+- john-bollinger-bollinger-on-bollinger-band
+- michael-covel-trend-following
+- miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur
+- s-and-c--wyckoff-method
+reviewed_pdf_pages: 5, 7-8, 10, 143-144 (contents, the 50 percent principle and Goodman
+  swing count chapters, and the Fibonacci retracement rules)
+slug: the-forex-chartist-companion
+source_file: The_Forex_Chartist_Companion.pdf
+source_review: partial
+tags:
+- point-and-figure
+- swing-charts
+- chart-patterns
+- forex
+- fibonacci
+- elliott-wave
+- price-objectives
+tier: A
+title: The Forex Chartist Companion
+year: 2007
 ---
 
 ## Overview
@@ -81,7 +97,7 @@ Useful for forex traders who want a deeper, more quantitative treatment of point
 ## Related books in this library
 
 - [[john-bollinger-bollinger-on-bollinger-band]] — another chart-pattern-driven approach with its own statistical validation, useful contrast in rigor and scope.
-- [[new-concepts-in-technical-trading-systems-welles-wilder]] — classical technical indicators (RSI, ATR) referenced in passing here as an alternative to the book's own trend oscillators.
+- **New Concepts in Technical Trading Systems** (no library summary: corrupt) — classical technical indicators (RSI, ATR) referenced in passing here as an alternative to the book's own trend oscillators.
 - [[michael-covel-trend-following]] — supplies the systematic money-management and psychology content this book omits.
 - [[miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur]] — a Fibonacci/Elliott-oriented forex and futures method that overlaps with this book's swing-chart Fibonacci chapters.
 - [[s-and-c--wyckoff-method]] — another pattern/price-structure school (accumulation, distribution, support/resistance) that complements the P&F chapter's support/resistance framing.

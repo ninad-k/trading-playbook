@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Profile — Construction and Reading Rules — Chicago Board of Trade · Trading Playbook</title>
+<meta name="description" content="Step-by-step rules for building a Market Profile graphic, classifying the day type, calculating the value area, and reading LDB volume for continuation/change.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a> › <a href="../books/cbot-a-six-part-study-guide-to-market-profile.html">A Six-Part Study Guide to Market Profile</a></p>
+  <h1>Market Profile — Construction and Reading Rules</h1>
+  <p class="byline">Chicago Board of Trade · 1996 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Step-by-step rules for building a Market Profile graphic, classifying the day type, calculating the value area, and reading LDB volume for continuation/change.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-profile">market-profile</a> <a class="tag" href="../search.html?q=tpo">tpo</a> <a class="tag" href="../search.html?q=value-area">value-area</a> <a class="tag" href="../search.html?q=initial-balance">initial-balance</a> <a class="tag" href="../search.html?q=day-types">day-types</a> <a class="tag" href="../search.html?q=liquidity-data-bank">liquidity-data-bank</a> </td></tr>
+    <tr><th>Length</th><td>346 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Market Profile — Construction and Reading Rules” by Chicago Board of Trade at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A codeable procedure for building the Market Profile graphic from price/volume data, classifying each session into one of four day types, computing the value area, and overlaying actual volume (the Liquidity Data Bank, LDB) to judge whether a move is being &ldquo;facilitated&rdquo; (likely to continue) or losing participation (likely to end). It is a market-reading and classification framework, not a signal generator — it identifies regime and who is in control, leaving entries/exits to the user.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Build the profile.</strong> Divide the session into fixed brackets (originally half-hour, one letter per bracket). For every price traded in a bracket, record that letter at that price; stacked letters form a histogram (one letter at one price = one TPO, Time/Price Opportunity). The first bracket(s) is the &ldquo;pioneer range.&rdquo;</li>
+<li><strong>Find the initial balance</strong>: the high-low range while only the short-term trader is active (empirically ~first hour; longer in extended electronic sessions).</li>
+<li><strong>Classify the day</strong> by comparing later range extension to the initial balance: ≥85% of range inside it → <strong>Normal day</strong> (short-term trader controls); extension up to ~2x, one direction → <strong>Normal Variation</strong> (control split); extension well beyond 2x, one direction, close on the extreme → <strong>Trend day</strong> (long-term trader controls); extension both directions → <strong>Neutral day</strong> (uncertainty, higher reversal risk).</li>
+<li><strong>Calculate the 70% value area</strong>: start at the highest-volume price; repeatedly add whichever adjacent price (above or below the band) has more volume; stop at ≥70% of session total. A cruder proxy, the TPO value area, is the range bounded by two-or-more single prints per side (a single print = a price touched by only one TPO letter — a rejection).</li>
+<li><strong>Classify initiating vs. responsive activity</strong>: buying above value or selling below = initiating (new money flow, the stronger signal); selling above value or buying below = responsive (fading back). Strong responsive activity at a fresh extreme warns the extension may fail.</li>
+<li><strong>Track control across sessions</strong>: plot each day&rsquo;s value-area range on a long-term chart. Value areas moving vertically = trend continuing; moving sideways = the auction stalled, favoring reversal or basing.</li>
+<li><strong>Overlay LDB volume</strong>: rising volume as price extends = facilitated move (favors continuation); falling volume = not facilitated (favors reversal). Commercial (CTI2) volume inside the value area is routine hedging; CTI2 buying above or selling below value is a deviation and a stronger signal. A value area sitting mid-range suggests the market is efficient there and more likely to start a new move than keep distributing.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>The framework has no position-sizing, stop, or target rules of its own — it is a market-structure lens layered under the trader&rsquo;s own system. Its practical risk use is regime identification: a Neutral day, a failed range extension, or a mid-range value area are all flagged as higher-uncertainty conditions warranting smaller size or no new directional entry until a fresh day type or value-area location clarifies control.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Construction assumes an official time-and-sales/TPO feed and CBOT&rsquo;s CTI-classified LDB volume; modern platforms replicate value-area and initial-balance mechanics via volume-profile tools, but commercial-vs-local classification has no standard retail equivalent. The half-hour bracket and &ldquo;first hour&rdquo; initial-balance convention is tuned to 1980s–1990s pit sessions and needs re-tuning per instrument for near-24-hour electronic markets. Day-type classification in the source&rsquo;s own examples is applied retrospectively, after the close — recognizing a Trend day while it is still forming requires judgment the text does not fully mechanize.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/dynamic-trading-by-robert-c-miner.html">Dynamic Trading</a> — Practical Elliott Wave pattern rules combined with Fibonacci time and price projections and a full set of daily-bar entry/stop trading strategies.</li><li><a href="../books/elder-alexander-trading-for-a-living.html">Trading for a Living</a> — Elder&#39;s original three-pillar framework (psychology, technical method, money management), introducing Triple Screen, Force Index, and Elder-ray.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

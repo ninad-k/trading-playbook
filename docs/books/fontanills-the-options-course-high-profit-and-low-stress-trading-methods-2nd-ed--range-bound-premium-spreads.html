@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Range-Bound Premium Spread System (Butterfly, Condor, Calendar, Collar) — George A. Fontanills · Trading Playbook</title>
+<meta name="description" content="A family of defined-risk spreads (butterfly, condor, calendar, diagonal, collar) built to profit from time decay when a stock is expected to stay inside a range, each with a numbered entry-to-exit road map.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a> › <a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a></p>
+  <h1>Range-Bound Premium Spread System (Butterfly, Condor, Calendar, Collar)</h1>
+  <p class="byline">George A. Fontanills · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A family of defined-risk spreads (butterfly, condor, calendar, diagonal, collar) built to profit from time decay when a stock is expected to stay inside a range, each with a numbered entry-to-exit road map.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=butterfly">butterfly</a> <a class="tag" href="../search.html?q=condor">condor</a> <a class="tag" href="../search.html?q=calendar-spread">calendar-spread</a> <a class="tag" href="../search.html?q=diagonal-spread">diagonal-spread</a> <a class="tag" href="../search.html?q=collar">collar</a> <a class="tag" href="../search.html?q=time-decay">time-decay</a> </td></tr>
+    <tr><th>Length</th><td>592 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Range-Bound Premium Spread System (Butterfly, Condor, Calendar, Collar)” by George A. Fontanills at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A set of limited-risk, limited-reward structures for markets expected to trade sideways, all sharing the same underlying logic: sell time-decaying premium near the current price, buy cheaper options further away to cap the risk, and let time erosion do the work. The <strong>long butterfly</strong> buys one lower-strike option, sells two middle-strike options, and buys one higher-strike option (all calls or all puts, same expiration) — maximum profit sits at the middle (short) strike. The <strong>long condor</strong> widens the body into two separate short strikes instead of one, trading a smaller maximum profit for a wider profit zone. The <strong>calendar spread</strong> sells a near-term option and buys a longer-term option at the same strike, profiting from the front option&rsquo;s faster time decay; the <strong>diagonal spread</strong> does the same across different strikes. The <strong>collar</strong> is a stock-plus-options overlay (long stock, long protective put, short covered call) used mainly to hedge an existing holding rather than to speculate on a range.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Long butterfly (14-step road map)</strong>
+1. Look for a sideways-moving market expected to stay within the breakevens; confirm listed, liquid options with adequate premium relative to commissions.
+2. Check implied volatility to see if the options are over- or under-priced, and review a year of price/volume history for context.
+3. Construct: buy one lower-strike option (support level), sell two middle-strike options (equilibrium), buy one higher-strike option (resistance) — all calls or all puts, same expiration, options with ≤45 days to expiration.
+4. Compute before placing: <strong>max risk</strong> = net debit paid; <strong>max reward</strong> = (difference between highest and short strike) − net debit, realized when the stock finishes exactly at the short strike; <strong>upside breakeven</strong> = highest strike − net debit; <strong>downside breakeven</strong> = lowest strike + net debit; reward/risk ratio.
+5. Place the full multi-leg trade as one limit order — never leg in or out.
+6. Plan the exit before entering: if price moves outside the breakevens, plan to cut losses.
+7. <strong>Exit:</strong> below the downside breakeven — let expire worthless (loss = net premium paid); inside the breakevens — sell the long options and let the short options expire worthless, ideally right at the short strike; above the upside breakeven — exit or exercise the long options to offset an assignment on the shorts.</p>
+<p><strong>Long condor</strong>
+8. Structure like a butterfly but with two separate short strikes instead of one (e.g., a 30-35-40-45 condor: buy the 30, sell the 35, sell the 40, buy the 45), widening the maximum-profit zone at the cost of a lower maximum reward-to-risk than a butterfly.
+9. Same debit-is-max-risk framing as the butterfly; exit logic mirrors the butterfly&rsquo;s (let expire worthless outside the range, otherwise manage toward the profit zone as expiration nears).</p>
+<p><strong>Calendar / diagonal spread</strong>
+10. Sell a shorter-term option and buy a longer-term option (calendar: same strike; diagonal: different strikes), both calls or both puts, aiming for the smallest possible net debit.
+11. Best placed where a <strong>time skew</strong> exists (front-month IV elevated relative to back-month IV, often from a rumor or event) — buy the low-IV (longer-dated) option, sell the high-IV (shorter-dated) one.
+12. Goal: the short-term option decays faster than the long-term option loses value, especially if the stock stays near the strike through the short option&rsquo;s expiration.
+13. <strong>Exit:</strong> when the short-term option expires (worthless, ideally), evaluate the long option&rsquo;s remaining value against the original debit; either close for a profit or roll into a new calendar spread by selling another near-term option against the same long leg.</p>
+<p><strong>Collar (hedge overlay on existing stock)</strong>
+14. On a stock already owned (or bought concurrently), buy an at-the-money or out-of-the-money protective put and sell an out-of-the-money covered call, sized so the call premium largely offsets the put&rsquo;s cost.
+15. <strong>Max risk</strong> = initial stock price − put strike + net debit (or − net credit); <strong>max profit</strong> = (call strike − initial stock price) − net debit (or + net credit); <strong>breakeven</strong> = initial stock price + [(put premium − call premium) ÷ shares].
+16. <strong>Exit:</strong> if the stock rallies to the strike of the short call and time value has fallen to roughly a quarter point or less, expect assignment — either let it happen or buy back the call to keep the shares. If the stock falls sharply, expect to exercise the put and close the (now-naked) short call rather than leave it open.
+17. <strong>Rebracketing (optional enhancement):</strong> if the stock rallies to the short call&rsquo;s strike well before expiration, close the existing put and call, then open a new collar one strike level higher (sell the old put, buy back the old call, buy a new higher-strike put, sell a new higher-strike call) to lock in the gain and keep participating in further upside — repeatable as the stock continues climbing.</p>
+<h2 id="risk">Risk</h2>
+<p>All of these structures are defined-risk except the bare collar, whose downside is bounded by the put strike (not the stock going to zero) and whose upside is capped at the call strike. For the butterfly and condor, maximum loss is the net debit paid, realized if the underlying finishes outside the wings at expiration; maximum gain is capped and occurs only in a narrow zone near the short strike(s) — these are precision trades that need the underlying to stay range-bound, unlike the directional or backspread strategies elsewhere in this book. Calendar/diagonal spread risk is limited to the net debit paid but is harder to state as a fixed number at entry because the long leg&rsquo;s value at the short leg&rsquo;s expiration depends on where implied volatility sits at that future date — the book recommends using options analysis software rather than a closed-form estimate. As elsewhere in the source, position sizing should respect the account-level caps: no more than 5% of capital on one trade, no more than 50% deployed at once.</p>
+<h2 id="caveats">Caveats</h2>
+<p>These are precision, narrow-profit-zone strategies — commissions on 3–4 leg spreads (butterfly, condor) can consume a meaningful share of the limited maximum profit, especially for retail-sized position counts, a cost the book&rsquo;s clean numeric examples don&rsquo;t fully stress-test. The road maps assume the trader can reliably judge &ldquo;sideways&rdquo; in advance; no systematic filter (e.g., a volatility or trend indicator threshold) is given for identifying range-bound candidates beyond &ldquo;review price/volume history.&rdquo; The rebracketing collar technique is presented anecdotally with a single worked example (AIG) rather than validated across multiple trades or market regimes.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

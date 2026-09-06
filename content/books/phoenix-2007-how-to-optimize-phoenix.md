@@ -1,17 +1,30 @@
 ---
-title: "How to Optimize Phoenix's Settings"
-author: "VinceTheBeast"
-year: 2007
-slug: phoenix-2007-how-to-optimize-phoenix
-tier: B
+author: VinceTheBeast
 category: Trend Following & Mechanical Systems
-tags: [forex, expert-advisor, metatrader, optimization, backtesting, envelope, walk-forward]
 difficulty: intermediate
 doc_type: manual
+one_liner: A forum-written walkthrough for optimizing the settings of the 'Phoenix'
+  MetaTrader expert advisor using the Strategy Tester's parameter-sweep function.
 pages: 10
-one_liner: "A forum-written walkthrough for optimizing the settings of the 'Phoenix' MetaTrader expert advisor using the Strategy Tester's parameter-sweep function."
-related: [automated-forex-ea, trade-easy-with-an-automated-forex-trading-system, how-effective-is-automated-forex-trading, jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual]
-source_file: "Phoenix-2007-How-To-Optimize-phoenix.pdf"
+related:
+- automated-forex-ea
+- trade-easy-with-an-automated-forex-trading-system
+- jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+reviewed_pdf_pages: 1, 8-9 (the prerequisites and the worked optimization sweeps)
+slug: phoenix-2007-how-to-optimize-phoenix
+source_file: Phoenix-2007-How-To-Optimize-phoenix.pdf
+source_review: partial
+tags:
+- forex
+- expert-advisor
+- metatrader
+- optimization
+- backtesting
+- envelope
+- walk-forward
+tier: B
+title: How to Optimize Phoenix's Settings
+year: 2007
 ---
 
 ## Summary

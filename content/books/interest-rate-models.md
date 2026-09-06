@@ -1,17 +1,32 @@
 ---
-title: "Interest-Rate Models"
-author: "Andrew J.G. Cairns"
-year: 2004
-slug: interest-rate-models
-tier: B
-category: "Quant, Microstructure & Academic Research"
+author: Andrew J.G. Cairns
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
-tags: [interest-rate-models, term-structure, vasicek, cir, hull-white, hjm, fixed-income, academic-reference]
 doc_type: paper
+one_liner: Encyclopedia article surveying arbitrage-free term-structure models from
+  Vasicek through Heath-Jarrow-Morton and Markov-functional approaches.
 pages: 19
-one_liner: "Encyclopedia article surveying arbitrage-free term-structure models from Vasicek through Heath-Jarrow-Morton and Markov-functional approaches."
-related: [the-mathematics-of-financial-modeling-and-investment-management, introduction-to-arbitrage-pricing-of-financial-derivatives, lehman-currency-hedging-in-fixed-income-portfolios]
-source_file: "Interest-Rate Models.pdf"
+related:
+- the-mathematics-of-financial-modeling-and-investment-management
+- introduction-to-arbitrage-pricing-of-financial-derivatives
+- lehman-currency-hedging-in-fixed-income-portfolios
+reviewed_pdf_pages: 8, 19 (the model taxonomy and references; the paper is algebraic
+  rather than numeric)
+slug: interest-rate-models
+source_file: Interest-Rate Models.pdf
+source_review: partial
+tags:
+- interest-rate-models
+- term-structure
+- vasicek
+- cir
+- hull-white
+- hjm
+- fixed-income
+- academic-reference
+tier: B
+title: Interest-Rate Models
+year: 2004
 ---
 
 ## Summary

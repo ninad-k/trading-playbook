@@ -2,7 +2,9 @@
 
 **Trading books, explained and connected.**
 
-Work in progress: 733 PDFs are recorded locally; 189 parent notes and 65 method sub-pages currently exist. See [the continuation plan](PLAN.md) and [the resumable backlog](data/resume_backlog.csv). The 401 missing manifest notes include 13 provisional skips, leaving 388 candidates pending review. Topic syntheses, reading paths and complete cross-platform publication remain planned work.
+Library snapshot, 6 September 2026: **582 parent notes, 151 method sub-pages, and 14 topic/glossary pages**. This resume added **148 parent notes**. All 733 saved source PDFs are accounted for: 582 have notes, 106 are duplicates, 41 are off-topic, and four are damaged. No eligible notes are missing. See the [completion report](data/resume_completion.md), [searchable index](docs/index.html), and [continuation plan](PLAN.md).
+
+Reading coverage is separate from file presence: all 582 parent notes now record what was read — **228 full source reviews and 354 partial**, each naming the exact PDF pages inspected. No note is left without recorded coverage. Long-book samples and OCR limitations are disclosed on each affected page and in the [coverage inventory](docs/coverage.html). The live source directory was not reverified.
 
 Structured study notes from a library of 733 trading and finance PDFs (forex, technical analysis, candlesticks, Elliott/Gann/Fibonacci, day and swing trading, mechanical systems, money management, psychology, options and derivatives, market microstructure research, and investing classics). The target is a page for every eligible readable document, major-book notes with method sub-pages, 13 topic syntheses and a glossary, connected through a searchable static site.
 
@@ -13,8 +15,8 @@ Structured study notes from a library of 733 trading and finance PDFs (forex, te
 | Path | What |
 |---|---|
 | `content/books/<slug>.md` | One markdown page per document (frontmatter + sections). `doc_type: system` pages are sub-pages of a book (`parent:`). |
-| `content/topics/<topic>.md` | 14 topic syntheses + glossary |
-| `content/paths.md` | Reading paths (beginner / intermediate / advanced / by goal) |
+| `content/topics/<topic>.md` | 13 topic syntheses and one glossary |
+| `content/paths.md` | Planned reading paths; generated only when this file exists |
 | `data/manifest.json` | Every source file: name, size, pages, text density, tier, duplicate-of, exclusion reason |
 | `data/tiers.json` | Tier decisions with reasons |
 | `docs/` | Generated static site (GitHub Pages source) |
@@ -26,7 +28,7 @@ Structured study notes from a library of 733 trading and finance PDFs (forex, te
 
 - **A** — major books: deep notes (overview, thesis, key concepts, rules and setups, risk, psychology, chapter map, caveats, who should read it, related) plus one sub-page per self-contained system.
 - **B** — everything else readable: concise page (summary, key points, actionable rules, caveats, who it is for).
-- **C** — no page: duplicates, off-topic titles, scanned PDFs without a text layer, corrupt files. Listed in the Index under "Excluded files".
+- **C** — documented duplicates, off-topic titles, or damaged files. Duplicate landing pages point to canonical notes. Missing native text alone is not an exclusion: recovered scans use OCR.
 
 ## Build
 
@@ -39,18 +41,23 @@ python scripts/03_triage.py --apply data/tiers.json   # after review
 python scripts/04_chunk.py <slug>   # what the note-writing agents read
 python scripts/05_validate.py       # schema + reconciliation
 python scripts/06_build_site.py     # -> docs/
-python scripts/07_export_medium.py  # -> export/medium/
+python scripts/12_check_site.py     # local links, fragments, search and PDF inventory
+python scripts/07_export_medium.py --all-books  # -> export/medium/ drafts
+python scripts/09_resume_inventory.py
+python scripts/13_completion_report.py
 ```
 
 Open `docs/index.html` locally, or serve `docs/`.
 
 ## Publish
 
-**GitHub Pages (one-time):** repo *Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, folder `/docs` → Save*. The site appears at `https://ninad-k.github.io/trading-playbook/` within a minute or two of every push.
+**GitHub Pages:** `docs/` is the static output, with relative navigation, a `.nojekyll` marker and local search assets. The destination is `github.com/ninad-k/trading-playbook` — the configured `origin` remote — served at `https://ninad-k.github.io/trading-playbook/`. Two steps publish it: push `main`, then set Pages to *Deploy from a branch* / branch `main` / folder `/docs` in repository settings. The URL returns 404 until both are done. The source mirror `downloads/` is git-ignored and is never published.
 
-**Medium:** files in `export/medium/` are ready to paste into a new story (Medium's write API no longer issues tokens). Alternatively use *Medium → Write → Import a story* with the GitHub Pages URL of any page; Medium imports it and sets the canonical link back to the site.
+**Medium:** `export/medium/` contains editable Markdown drafts, including source-coverage labels. Review them before posting. Drafts already point at `https://ninad-k.github.io/trading-playbook/`, which matches the repository above; pass `--site` only if the public URL changes.
 
 **Notion:** payload generation exists for a "Trading Playbook" page tree (Books database + Topics + Index). `data/notion_ids.json` currently records one synced book page; a complete mirror has not been verified. Confirm the destination before syncing more pages. Stored IDs allow updates without duplicating pages.
+
+**OCR recovery:** `scripts/10_recover_scans.py` preserves old extraction and records exact PDF-page coverage. Job JSON can select `engine: tesseract` using PyMuPDF and the official English model from `tesseract-ocr/tessdata_fast`, stored locally as `downloads/tessdata/eng.traineddata`; `rotation: 180` handles inverted scans. RapidOCR remains available as the original optional backend. Saved recovery jobs and review decisions are in `data/resume_assignments/`.
 
 ## Content rules
 

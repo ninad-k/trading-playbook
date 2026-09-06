@@ -1,17 +1,34 @@
 ---
-title: "Just One Thing: Twelve of the World's Best Investors Reveal the One Strategy You Can't Overlook"
-author: "Various (edited by John Mauldin)"
-year: 2006
-slug: john-mauldin-just-one-thing-twelve-of-the-world-s-best-investors-reveal-the-one-strategy-y
-tier: A
+author: Various (edited by John Mauldin)
 category: Trading Psychology & Discipline
-tags: [behavioral-finance, trading-rules, risk-management, compounding, macro-investing, discipline]
 difficulty: intermediate
 doc_type: book
+one_liner: Twelve professional investors and writers each distill their career down
+  to one core rule, spanning trading discipline, behavioral bias, risk, and macro
+  theme selection.
 pages: 273
-one_liner: "Twelve professional investors and writers each distill their career down to one core rule, spanning trading discipline, behavioral bias, risk, and macro theme selection."
-related: [jack-schwager-stock-market-wizards, trading-in-the-zone, brett-steenbarger-psychology-of-trading, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, money-management-report-van-tharp]
-source_file: "John Mauldin - Just_One_Thing_Twelve_Of_The_World_s_Best_Investors_Reveal_The_One_Strategy_You_Can_t_Overlook.pdf"
+related:
+- jack-schwager-stock-market-wizards
+- trading-in-the-zone
+- brett-steenbarger-psychology-of-trading
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- money-management-report-van-tharp
+reviewed_pdf_pages: 5, 7, 44, 46, 53, 61, 213 (contents, the Bayesian manager-evaluation
+  weights, the compounding tables and the Gartman rules chapter)
+slug: john-mauldin-just-one-thing-twelve-of-the-world-s-best-investors-reveal-the-one-strategy-y
+source_file: John Mauldin - Just_One_Thing_Twelve_Of_The_World_s_Best_Investors_Reveal_The_One_Strategy_You_Can_t_Overlook.pdf
+source_review: partial
+tags:
+- behavioral-finance
+- trading-rules
+- risk-management
+- compounding
+- macro-investing
+- discipline
+tier: A
+title: 'Just One Thing: Twelve of the World''s Best Investors Reveal the One Strategy
+  You Can''t Overlook'
+year: 2006
 ---
 
 ## Overview

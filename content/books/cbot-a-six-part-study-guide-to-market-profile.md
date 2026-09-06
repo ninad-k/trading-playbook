@@ -1,17 +1,30 @@
 ---
-title: A Six-Part Study Guide to Market Profile
 author: Chicago Board of Trade
-year: 1996
-slug: cbot-a-six-part-study-guide-to-market-profile
-tier: A
 category: Market Structure & Price Action
-tags: [market-profile, tpo, value-area, auction-theory, order-flow, futures, volume]
 difficulty: intermediate
 doc_type: book
+one_liner: The CBOT's own seminar-based home-study course on reading the Market Profile
+  graphic, value area, day types, and Liquidity Data Bank volume.
 pages: 346
-one_liner: "The CBOT's own seminar-based home-study course on reading the Market Profile graphic, value area, day types, and Liquidity Data Bank volume."
-related: [dynamic-trading-by-robert-c-miner, elder-alexander-trading-for-a-living]
-source_file: "Cbot - A Six-Part Study Guide To Market Profile.pdf"
+related:
+- dynamic-trading-by-robert-c-miner
+- elder-alexander-trading-for-a-living
+reviewed_pdf_pages: 5-6, 15, 21-22 (profile construction, the initial balance, the
+  70% value area and the day-type definitions)
+slug: cbot-a-six-part-study-guide-to-market-profile
+source_file: Cbot - A Six-Part Study Guide To Market Profile.pdf
+source_review: partial
+tags:
+- market-profile
+- tpo
+- value-area
+- auction-theory
+- order-flow
+- futures
+- volume
+tier: A
+title: A Six-Part Study Guide to Market Profile
+year: 1996
 ---
 
 ## Overview

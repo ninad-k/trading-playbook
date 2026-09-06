@@ -1,17 +1,31 @@
 ---
-title: "Take the Money and Run: A True Scalping System"
 author: Dean
-year: unknown
-slug: take-the-money-and-run
-tier: B
 category: Day Trading & Scalping
 difficulty: beginner
-doc_type: system
-tags: [scalping, forex, bollinger-bands, rsi, eur-usd, money-management]
+doc_type: manual
+one_liner: Free EUR/USD scalping system using Bollinger Bands (21,2) and RSI(14) on
+  a 1-minute chart, targeting 5-10 pips per day with a fixed 5-pip stop.
 pages: 14
-one_liner: "Free EUR/USD scalping system using Bollinger Bands (21,2) and RSI(14) on a 1-minute chart, targeting 5-10 pips per day with a fixed 5-pip stop."
-related: [lbr-scalp-setups, stops, bollingerbands, forex-money-management]
-source_file: "Take The Money and Run.pdf"
+related:
+- lbr-scalp-setups
+- stops
+- bollingerbands
+- forex-money-management
+reviewed_pdf_pages: 3-5, 11 (the platform setup, session windows, news filter and
+  the Bollinger/RSI signal rules)
+slug: take-the-money-and-run
+source_file: Take The Money and Run.pdf
+source_review: partial
+tags:
+- scalping
+- forex
+- bollinger-bands
+- rsi
+- eur-usd
+- money-management
+tier: B
+title: 'Take the Money and Run: A True Scalping System'
+year: unknown
 ---
 
 ## Summary

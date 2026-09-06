@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modeling Financial Markets: Using Visual Basic.NET and Databases to Create Pricing, Trading, and Risk Management Models — Benjamin Van Vliet and Robert Hendry · Trading Playbook</title>
+<meta name="description" content="Financial-engineering textbook teaching the Kumiega-Van Vliet trading-system development methodology (research, backtest, implement, manage risk) alongside VB.NET, databases, and exchange API programming.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Modeling Financial Markets: Using Visual Basic.NET and Databases to Create Pricing, Trading, and Risk Management Models</h1>
+  <p class="byline">Benjamin Van Vliet and Robert Hendry · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">Financial-engineering textbook teaching the Kumiega-Van Vliet trading-system development methodology (research, backtest, implement, manage risk) alongside VB.NET, databases, and exchange API programming.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 381 and the design-process chapters checked against the note. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=system-development">system-development</a> <a class="tag" href="../search.html?q=financial-engineering">financial-engineering</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> <a class="tag" href="../search.html?q=automated-trading">automated-trading</a> <a class="tag" href="../search.html?q=vb-net">vb-net</a> <a class="tag" href="../search.html?q=software-methodology">software-methodology</a> <a class="tag" href="../search.html?q=apis">apis</a> </td></tr>
+    <tr><th>Length</th><td>401 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Modeling Financial Markets: Using Visual Basic.NET and Databases to Create Pricing, Trading, and Risk Management Models” by Benjamin Van Vliet and Robert Hendry at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is a financial-engineering textbook (McGraw-Hill, 2004) using a programming-book structure (VB.NET, arrays, objects, SQL, XML, UML) to teach how automated trading and risk systems are actually built. Chapters 1-2 lay out the &ldquo;Kumiega-Van Vliet Trading System Development Methodology,&rdquo; combining the software waterfall model with the iterative spiral model into a four-phase process: research/document calculations, back-test, implement, and manage portfolio/risk. The remaining ~300 of 401 pages teach the VB.NET, database, and connectivity/XML/UML skills to execute that methodology. For trading-notes purposes, the highest-value content is the methodology itself, which frames system building as an engineering discipline rather than a set of technical-analysis rules.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Financial engineering combines four disciplines: computer science, quantitative finance, trading strategy, and quality/process development.</li>
+<li>Waterfall model (sequential analysis/design/implementation/testing with a go/no-go gate each phase) forces upfront planning but can&rsquo;t adapt to late-surfacing problems; spiral model (repeated research/plan/implement/test cycles) allows feedback but risks unbounded &ldquo;scope creep.&rdquo;</li>
+<li>Kumiega-Van Vliet combines both: four phases proceed in a waterfall, each internally cycling through a mini-spiral, with management approving progression at each gate.</li>
+<li><strong>Phase I — Research/Document</strong>: describe the trading idea in writing; research quantitative methods; prototype in Excel; check profitability before proceeding.</li>
+<li><strong>Phase II — Back-Test</strong>: gather and clean data; run in-sample/out-of-sample tests (a well-built system performs similarly out-of-sample); check profitability, looping back to Phase I if it fails.</li>
+<li><strong>Phase III — Implement</strong>: build a vision document (high-level) and scope document (detailed, iteratively revised); build object/program design; program and document; paper-trade and check profitability before going live.</li>
+<li><strong>Phase IV — Manage Portfolio/Risk</strong>: monitor portfolio statistics; run value-at-risk calculations; document P&amp;L attribution; determine causes of profitability variation — then repeat the whole cycle for continuous improvement.</li>
+<li>Cited estimate: a proprietary automated system from scratch (infrastructure, quant/programmer staff, ≥1 year R&amp;D before the first trade) can require on the order of $10 million; licensing third-party front-end software and connecting proprietary analytics via its API is the less capital-intensive alternative.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Before coding or committing capital, write a one-paragraph description of the trading idea: market, capital and time horizon, whose capital, success benchmark (e.g., Sharpe ratio), competitive edge, and launch timeline.</li>
+<li>Always reserve out-of-sample data; require comparable out-of-sample performance before advancing past back-testing.</li>
+<li>Write separate vision (high-level) and scope (detailed, revised iteratively) documents before implementation, rather than coding directly from an idea.</li>
+<li>Paper-trade and re-verify profitability after implementation, before committing live capital — recheck profitability at the end of every phase, not just once.</li>
+<li>After going live, continuously monitor portfolio statistics and VaR, and attribute P&amp;L to specific causes so the four-phase process can repeat.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>The book&rsquo;s second half is a VB.NET/ADO.NET/XML programming tutorial tied to now-superseded technology (2003-era VB.NET, specific vendor APIs like MicroHedge and Trading Technologies X_Trader) with limited current relevance. The Chapter 1-2 methodology, however, is technology-agnostic. The book contains no specific trading strategies or entries/exits of its own; &ldquo;trading strategy&rdquo; content is limited to the process for developing and testing one.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Financial engineers, quant developers, and systematic-trading teams who want a structured project-management framework for taking a trading idea from concept through backtesting to live implementation and ongoing risk monitoring, rather than a book of trading signals.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/ghost-trader-trading-strategy.html">The Ghost Trader Trading Strategy</a> — Excerpt from Building Winning Trading Systems with TradeStation showing a template that only issues a real trade signal after a simulated &#39;ghost&#39; trade on the same rules has lost.</li><li><a href="../books/turtletrader.html">TurtleTrader.com Site Archive</a> — A 2003 scrape of the TurtleTrader.com marketing site: trend-following philosophy, Market Wizard profiles, and money-management math, without the actual Turtle entry/exit rules.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

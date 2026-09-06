@@ -1,17 +1,34 @@
 ---
-title: Jack Schwager's Guide to Winning with Automated Trading Systems
 author: Jack Schwager
-year: unknown
-slug: jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [mechanical-systems, trend-following, counter-trend, breakout, system-design, backtesting, whipsaw]
 difficulty: intermediate
 doc_type: course
+one_liner: A slide-driven course surveying trend-following, counter-trend, and pattern-based
+  mechanical systems, and how to read a system's backtest performance report.
 pages: 95
-one_liner: "A slide-driven course surveying trend-following, counter-trend, and pattern-based mechanical systems, and how to read a system's backtest performance report."
-related: [jack-schwager-stock-market-wizards, michael-covel-trend-following, richard-l-weissman-mechanical-trading-systems, mechanical-trading-systems, position-sizing]
-source_file: "Jack Schwager - Guide To Winning With Automated Trading Systems (Course Manual).pdf"
+related:
+- jack-schwager-stock-market-wizards
+- michael-covel-trend-following
+- richard-l-weissman-mechanical-trading-systems
+- mechanical-trading-systems
+- position-sizing
+reviewed_pdf_pages: 1-95 (all extractable text; the manual is scanned slides, so most
+  pages carry only chart captions)
+slug: jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+source_file: Jack Schwager - Guide To Winning With Automated Trading Systems (Course
+  Manual).pdf
+source_review: full
+tags:
+- mechanical-systems
+- trend-following
+- counter-trend
+- breakout
+- system-design
+- backtesting
+- whipsaw
+tier: A
+title: Jack Schwager's Guide to Winning with Automated Trading Systems
+year: unknown
 ---
 
 ## Overview
@@ -78,4 +95,4 @@ Traders who want a concrete, visual introduction to the major families of mechan
 
 ## Caveats
 
-These notes are based on OCR of a sampled subset of pages of a scanned, slide-heavy course manual; total extractable text across all 95 pages was only about 1,400 words, consisting almost entirely of chart titles, axis labels, brief captions, and performance-report screenshots rather than connected narrative. Most explanatory content in this course likely lives in the accompanying video, not in this manual, so these notes describe only what could be reconstructed from the sampled slide text and chart captions and should be treated as a skeleton of the course's content rather than a complete summary.
+These notes are based on the OCR text of a scanned, slide-heavy course manual. All 95 pages of extracted text have now been read end to end; the total is only about 1,400 words, consisting almost entirely of chart titles, axis labels, brief captions, and performance-report screenshots rather than connected narrative. Most explanatory content in this course likely lives in the accompanying video, not in this manual, so these notes describe only what could be reconstructed from the sampled slide text and chart captions and should be treated as a skeleton of the course's content rather than a complete summary.

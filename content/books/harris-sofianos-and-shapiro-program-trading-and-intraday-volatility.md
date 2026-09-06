@@ -1,17 +1,30 @@
 ---
-title: "Program Trading and Intraday Volatility"
-author: "Lawrence Harris, George Sofianos, James E. Shapiro"
-year: 1994
-slug: harris-sofianos-and-shapiro-program-trading-and-intraday-volatility
-tier: B
+author: Lawrence Harris, George Sofianos, James E. Shapiro
 category: Quant, Microstructure & Academic Research
-tags: [program-trading, index-arbitrage, volatility, liquidity, microstructure, s-and-p-500, academic]
 difficulty: advanced
 doc_type: paper
+one_liner: NYSE-affiliated researchers find program trades follow (more than lead)
+  S&P 500 price moves and show little reversal, contradicting the claim that program
+  trading destabilizes markets.
 pages: 33
-one_liner: "NYSE-affiliated researchers find program trades follow (more than lead) S&P 500 price moves and show little reversal, contradicting the claim that program trading destabilizes markets."
-related: [frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity]
-source_file: "Harris, Sofianos And Shapiro-Program Trading And Intraday Volatility.pdf"
+related:
+- frino-mcinish-and-toner-the-liquidity-of-automated-exchanges-new-evidence-from-german-bund
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+reviewed_pdf_pages: 1-3, 9, 11 (the sample description and the price-impact results)
+slug: harris-sofianos-and-shapiro-program-trading-and-intraday-volatility
+source_file: Harris, Sofianos And Shapiro-Program Trading And Intraday Volatility.pdf
+source_review: partial
+tags:
+- program-trading
+- index-arbitrage
+- volatility
+- liquidity
+- microstructure
+- s-and-p-500
+- academic
+tier: B
+title: Program Trading and Intraday Volatility
+year: 1994
 ---
 
 ## Summary

@@ -1,17 +1,30 @@
 ---
-title: Introduction to Monte Carlo Methods
 author: Computational Science Education Project
-year: unknown
-slug: introduction-to-monte-carlo-methods
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [monte-carlo, simulation, probability, statistics, numerical-methods, random-sampling]
 difficulty: advanced
 doc_type: manual
+one_liner: General-purpose scientific-computing primer on Monte Carlo simulation and
+  probability theory, with physics examples; contains no finance or trading content.
 pages: 30
-one_liner: "General-purpose scientific-computing primer on Monte Carlo simulation and probability theory, with physics examples; contains no finance or trading content."
-related: [black-scholes-option-pricing-model, derivatives-pricing-and-financial-modelling, hull-options-futures-and-other-derivative-securities-5th-ed]
-source_file: "Introduction To Monte Carlo Methods.pdf"
+related:
+- black-scholes-option-pricing-model
+- derivatives-pricing-and-financial-modelling
+- hull-options-futures-and-other-derivative-securities-5th-ed
+reviewed_pdf_pages: 4 and the method sections checked against the note; the tutorial's
+  worked example is physical rather than financial
+slug: introduction-to-monte-carlo-methods
+source_file: Introduction To Monte Carlo Methods.pdf
+source_review: partial
+tags:
+- monte-carlo
+- simulation
+- probability
+- statistics
+- numerical-methods
+- random-sampling
+tier: B
+title: Introduction to Monte Carlo Methods
+year: unknown
 ---
 
 ## Summary

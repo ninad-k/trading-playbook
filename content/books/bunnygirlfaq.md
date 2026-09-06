@@ -1,17 +1,31 @@
 ---
-title: "BunnyGirl's FAQ"
 author: Steve Rose
-year: 2004
-slug: bunnygirlfaq
-tier: B
 category: Day Trading & Scalping
-tags: [forex, moving-average-crossover, stochastic, rsi, bollinger-bands, fibonacci, discretionary-trading]
 difficulty: intermediate
 doc_type: manual
+one_liner: FAQ transcript of a discretionary forex day trader's 5/20 WMA-cross system
+  on EUR-USD, GBP-USD and USD-CHF, with detailed stop and scale-out rules.
 pages: 7
-one_liner: "FAQ transcript of a discretionary forex day trader's 5/20 WMA-cross system on EUR-USD, GBP-USD and USD-CHF, with detailed stop and scale-out rules."
-related: [50-per-day-trading-forex, day-trading-the-currency-market, macd, cashing-in-on-short-term-currency-trends]
-source_file: "BunnyGirlFAQ.pdf"
+related:
+- 50-per-day-trading-forex
+- day-trading-the-currency-market
+- macd
+- cashing-in-on-short-term-currency-trends
+reviewed_pdf_pages: 1-7
+slug: bunnygirlfaq
+source_file: BunnyGirlFAQ.pdf
+source_review: full
+tags:
+- forex
+- moving-average-crossover
+- stochastic
+- rsi
+- bollinger-bands
+- fibonacci
+- discretionary-trading
+tier: B
+title: BunnyGirl's FAQ
+year: 2004
 ---
 
 ## Summary

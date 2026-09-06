@@ -1,17 +1,35 @@
 ---
-title: Fibonacci Ratios with Pattern Recognition
 author: Larry Pesavento
-year: 1997
-slug: fibonacci-ratios-with-pattern-recognition
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [fibonacci, gartley-pattern, butterfly-pattern, harmonic-patterns, pattern-recognition, opening-price, day-trading]
 difficulty: intermediate
 doc_type: book
+one_liner: Ten chart patterns defined purely by Fibonacci price and time ratios between
+  an X-A-B-C-D swing sequence, led by the Gartley '222' and the Butterfly.
 pages: 184
-one_liner: "Ten chart patterns defined purely by Fibonacci price and time ratios between an X-A-B-C-D swing sequence, led by the Gartley '222' and the Butterfly."
-related: [dynamic-trading-by-robert-c-miner, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, george-alexander-maclean-fibonacci-and-gann-applications, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci, advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys, bill-poulos-the-truth-about-fibonacci-trading]
-source_file: "Fibonacci Ratios with Pattern Recognition.pdf"
+related:
+- dynamic-trading-by-robert-c-miner
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- george-alexander-maclean-fibonacci-and-gann-applications
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+- advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys
+- bill-poulos-the-truth-about-fibonacci-trading
+reviewed_pdf_pages: 2, 4, 7, 9, 11, 18, 20, 41-42, 56, 64, 108 (ratio derivations,
+  harmonic numbers, the Gartley 222 statistics and the Opening Price Principle)
+slug: fibonacci-ratios-with-pattern-recognition
+source_file: Fibonacci Ratios with Pattern Recognition.pdf
+source_review: partial
+tags:
+- fibonacci
+- gartley-pattern
+- butterfly-pattern
+- harmonic-patterns
+- pattern-recognition
+- opening-price
+- day-trading
+tier: A
+title: Fibonacci Ratios with Pattern Recognition
+year: 1997
 ---
 
 ## Overview

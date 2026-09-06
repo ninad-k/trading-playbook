@@ -1,17 +1,31 @@
 ---
-title: "Automated Intraday Open Pivot Setup"
-author: "Jeff Reimer"
-year: 2005
-slug: automated-intraday-open-pivot-setup
-tier: B
+author: Jeff Reimer
 category: Day Trading & Scalping
-tags: [forex, pivot-points, intraday, spreadsheet-system, money-management, gbpusd]
 difficulty: beginner
 doc_type: manual
+one_liner: A spreadsheet-driven forex system that compares the daily pivot point to
+  the previous session's open to pick direction, then trades a fixed 20-pip limit/20-pip
+  stop, best tested on GBP/USD.
 pages: 9
-one_liner: "A spreadsheet-driven forex system that compares the daily pivot point to the previous session's open to pick direction, then trades a fixed 20-pip limit/20-pip stop, best tested on GBP/USD."
-related: [pivots, camarilla-levels, forex-intraday-pivots-trading-system-complete-system, forex-money-management]
-source_file: "Automated_Intraday_Open_Pivot_Setup.pdf"
+related:
+- pivots
+- camarilla-levels
+- forex-intraday-pivots-trading-system-complete-system
+- forex-money-management
+reviewed_pdf_pages: 1-9
+slug: automated-intraday-open-pivot-setup
+source_file: Automated_Intraday_Open_Pivot_Setup.pdf
+source_review: full
+tags:
+- forex
+- pivot-points
+- intraday
+- spreadsheet-system
+- money-management
+- gbpusd
+tier: B
+title: Automated Intraday Open Pivot Setup
+year: 2005
 ---
 
 ## Summary

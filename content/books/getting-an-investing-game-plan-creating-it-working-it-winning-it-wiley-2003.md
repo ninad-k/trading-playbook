@@ -1,17 +1,31 @@
 ---
-title: "Getting an Investing Game Plan: Creating It, Working It, Winning It"
 author: Vern C. Hayden with Maura Webber and Jamie Heller
-year: 2003
-slug: getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003
-tier: A
 category: Investing, Value & Market History
-tags: [asset-allocation, mutual-funds, financial-planning, risk-tolerance, rebalancing, diversification]
 difficulty: beginner
 doc_type: book
+one_liner: A certified financial planner's 10-step framework for building, allocating,
+  monitoring, and writing up a personal mutual-fund investing plan.
 pages: 255
-one_liner: "A certified financial planner's 10-step framework for building, allocating, monitoring, and writing up a personal mutual-fund investing plan."
-related: [the-intelligent-investor-benjamin-graham, money-management-report-van-tharp, jack-schwager-stock-market-wizards]
-source_file: "Getting An Investing Game Plan - Creating It Working It Winning It (Wiley - 2003).pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- money-management-report-van-tharp
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 5, 15 (contents and the allocation chapters carrying the Brinson
+  finding and the plan-level rules)
+slug: getting-an-investing-game-plan-creating-it-working-it-winning-it-wiley-2003
+source_file: Getting An Investing Game Plan - Creating It Working It Winning It (Wiley
+  - 2003).pdf
+source_review: partial
+tags:
+- asset-allocation
+- mutual-funds
+- financial-planning
+- risk-tolerance
+- rebalancing
+- diversification
+tier: A
+title: 'Getting an Investing Game Plan: Creating It, Working It, Winning It'
+year: 2003
 ---
 
 ## Overview

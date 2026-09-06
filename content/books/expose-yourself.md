@@ -1,17 +1,30 @@
 ---
-title: "Expose Yourself! A Powerful Technique for Breaking Emotional Patterns in Trading"
-author: "Brett Steenbarger"
-year: 2005
-slug: expose-yourself
-tier: B
+author: Brett Steenbarger
 category: Trading Psychology & Discipline
-tags: [trading-psychology, exposure-therapy, cognitive-behavioral, discipline, self-coaching, imaginal-rehearsal]
 difficulty: intermediate
 doc_type: article
+one_liner: Clinical psychologist and trader Brett Steenbarger adapts cognitive-behavioral
+  exposure therapy into a self-coaching method for breaking repetitive trading-emotion
+  patterns like hesitation and impulsive exits.
 pages: 9
-one_liner: "Clinical psychologist and trader Brett Steenbarger adapts cognitive-behavioral exposure therapy into a self-coaching method for breaking repetitive trading-emotion patterns like hesitation and impulsive exits."
-related: [trading-in-the-zone, learning-to-trade, martin-j-pring-investment-psychology-part-1]
-source_file: "Expose-Yourself.pdf"
+related:
+- trading-in-the-zone
+- learning-to-trade
+- martin-j-pring-investment-psychology-part-1
+reviewed_pdf_pages: 1-9
+slug: expose-yourself
+source_file: Expose-Yourself.pdf
+source_review: full
+tags:
+- trading-psychology
+- exposure-therapy
+- cognitive-behavioral
+- discipline
+- self-coaching
+- imaginal-rehearsal
+tier: B
+title: Expose Yourself! A Powerful Technique for Breaking Emotional Patterns in Trading
+year: 2005
 ---
 
 ## Summary

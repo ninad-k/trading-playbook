@@ -1,17 +1,30 @@
 ---
-title: "Cashing In on Short-Term Currency Trends"
-author: "Timothy O'Sullivan"
-year: 2002
-slug: cashing-in-on-short-term-currency-trends
-tier: B
+author: Timothy O'Sullivan
 category: Forex Mechanics & Macro Drivers
-tags: [forex, trend-following, stochastics, moving-average, multi-timeframe, trailing-stop]
 difficulty: beginner
 doc_type: article
+one_liner: Active Trader magazine system that uses a 200-bar moving average on two
+  timeframes plus a 14-bar slow stochastic to enter major-currency trends and a trailing
+  stop to ride them.
 pages: 4
-one_liner: "Active Trader magazine system that uses a 200-bar moving average on two timeframes plus a 14-bar slow stochastic to enter major-currency trends and a trailing stop to ride them."
-related: [5-13-62, forex-money-management, day-trading-the-currency-market]
-source_file: "Cashing_In_On_Short-Term_Currency_Trends.pdf"
+related:
+- 5-13-62
+- forex-money-management
+- day-trading-the-currency-market
+reviewed_pdf_pages: 1-4
+slug: cashing-in-on-short-term-currency-trends
+source_file: Cashing_In_On_Short-Term_Currency_Trends.pdf
+source_review: full
+tags:
+- forex
+- trend-following
+- stochastics
+- moving-average
+- multi-timeframe
+- trailing-stop
+tier: B
+title: Cashing In on Short-Term Currency Trends
+year: 2002
 ---
 
 ## Summary

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MQL4 - MetaTrader 4 Development Course — Coders&#39; Guru · Trading Playbook</title>
+<meta name="description" content="Free web-published MQL4 tutorial series covering syntax through building a first custom indicator, Expert Advisor, and script in MetaTrader 4.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>MQL4 - MetaTrader 4 Development Course</h1>
+  <p class="byline">Coders&#39; Guru · 2006 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Free web-published MQL4 tutorial series covering syntax through building a first custom indicator, Expert Advisor, and script in MetaTrader 4.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 9-10 and the lesson chapters checked against the note&#39;s description of the language and examples. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=mql4">mql4</a> <a class="tag" href="../search.html?q=metatrader">metatrader</a> <a class="tag" href="../search.html?q=expert-advisor">expert-advisor</a> <a class="tag" href="../search.html?q=custom-indicator">custom-indicator</a> <a class="tag" href="../search.html?q=automation">automation</a> <a class="tag" href="../search.html?q=programming">programming</a> </td></tr>
+    <tr><th>Length</th><td>258 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “MQL4 - MetaTrader 4 Development Course” by Coders&#39; Guru at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A lesson-by-lesson programming course teaching MQL4, the C-like language used to automate trading in MetaTrader 4. It is not a strategy book; it teaches the mechanics of writing Expert Advisors (EAs), Custom Indicators, and Scripts so a trader can code rules instead of trading manually. Lessons progress from syntax, data types, operators, and loops through functions and preprocessor directives, then apply those fundamentals to build a first custom indicator, a first Expert Advisor (four parts), and a first script, finishing with chart templates.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>MQL4 has three output types: Expert Advisors (automate order entry/management), Custom Indicators (display only, cannot trade), and Scripts (run once on demand).</li>
+<li>Syntax closely follows C/C++: free-form whitespace, <code>//</code> and <code>/* */</code> comments, identifiers up to 31 characters, case-sensitive names, and reserved words that cannot be used as identifiers.</li>
+<li>Code compiles the &ldquo;hard way&rdquo; via the command-line <code>metalang.exe</code> or the &ldquo;easy way&rdquo; via the built-in MetaEditor IDE (F5 to compile, integrated error tab, F1 help).</li>
+<li>Core data types (int, double, string, bool, color, datetime), expressions, and control flow are taught before any trading code appears.</li>
+<li>The first custom indicator example computes a simple volatility measure (high minus low) purely as a teaching exercise, not a usable signal.</li>
+<li>An EA is framed as the automation fix for the limits of manual chart-watching, coded to place, modify, and close orders without constant monitoring.</li>
+<li>Building the first EA spans four lessons, progressively adding order logic and stops; later lessons cover a first Script and chart templates.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a programming reference, not a trading system. It teaches the tools (MQL4 syntax, indicator/EA/script structure) needed to implement a trader&rsquo;s own entry, exit, and sizing rules in code.</p>
+<h2 id="caveats">Caveats</h2>
+<p>A mid-2000s MetaTrader 4 web tutorial (metatrader.info); syntax and IDE details apply to classic MQL4, not MQL5, and predate later MetaEditor changes. No trading edge or strategy is presented — the example indicator is explicitly not a usable signal. As a sequence of short web lessons, coverage of any one topic is brief; best used as a primer before the official MQL4/MQL5 reference docs.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders with little or no programming background who want to automate a strategy in MetaTrader 4 and need a plain-language, example-driven starting point before diving into MetaQuotes&rsquo; own documentation.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,27 @@
 ---
-title: "SPECTRE Level IV (SL4) Trading Platform Memorandum"
 author: Unknown
-year: 2001
-slug: ebook-finance-trading-ebook-stock-trading-system-sl4-confidential-proprietary
-tier: B
 category: Day Trading & Scalping
-doc_type: manual
 difficulty: intermediate
-tags: [day-trading, level-ii, market-makers, order-flow, trading-software, depth-of-book]
+doc_type: manual
+one_liner: Sales memorandum for a proprietary Level II/depth-of-book day-trading platform
+  (SL4), plus an unrelated 2001 Bear Stearns note on day-trader demographics.
 pages: 4
-one_liner: "Sales memorandum for a proprietary Level II/depth-of-book day-trading platform (SL4), plus an unrelated 2001 Bear Stearns note on day-trader demographics."
-related: [jack-schwager-stock-market-wizards]
-source_file: "(eBook) - Finance - Trading ebook] Stock_Trading_System_SL4_Confidential_Proprietary.pdf"
+related:
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 1-4
+slug: ebook-finance-trading-ebook-stock-trading-system-sl4-confidential-proprietary
+source_file: (eBook) - Finance - Trading ebook] Stock_Trading_System_SL4_Confidential_Proprietary.pdf
+source_review: full
+tags:
+- day-trading
+- level-ii
+- market-makers
+- order-flow
+- trading-software
+- depth-of-book
+tier: B
+title: SPECTRE Level IV (SL4) Trading Platform Memorandum
+year: 2001
 ---
 
 ## Summary

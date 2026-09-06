@@ -1,17 +1,27 @@
 ---
-title: "How to Make Money Shorting Stocks in Up and Down Markets"
-author: "Pristine Capital Holdings"
-year: 1998
-slug: trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets
-tier: B
+author: Pristine Capital Holdings
 category: Day Trading & Scalping
-tags: [short-selling, bollinger-bands, gap-down, market-makers, swing-trading, stocks]
 difficulty: intermediate
 doc_type: article
+one_liner: 'Pristine.com report describing a short-selling setup: fade an upper-Bollinger-Band
+  close followed by a gap-down open, on the theory that market makers are net short
+  and want the stock lower.'
 pages: 7
-one_liner: "Pristine.com report describing a short-selling setup: fade an upper-Bollinger-Band close followed by a gap-down open, on the theory that market makers are net short and want the stock lower."
 related: []
-source_file: "[Trading eBook] How to Make Money Shorting Stocks in Up and Down Markets.pdf"
+reviewed_pdf_pages: 1-7
+slug: trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets
+source_file: '[Trading eBook] How to Make Money Shorting Stocks in Up and Down Markets.pdf'
+source_review: full
+tags:
+- short-selling
+- bollinger-bands
+- gap-down
+- market-makers
+- swing-trading
+- stocks
+tier: B
+title: How to Make Money Shorting Stocks in Up and Down Markets
+year: 1998
 ---
 
 ## Summary

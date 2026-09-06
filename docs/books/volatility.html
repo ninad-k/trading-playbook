@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volatility — Guy Bower · Trading Playbook</title>
+<meta name="description" content="CDM Trading primer distinguishing historical from implied volatility and outlining basic strategies for trading high vs. low volatility with options.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Volatility</h1>
+  <p class="byline">Guy Bower · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">beginner</span></p>
+  <p class="lead">CDM Trading primer distinguishing historical from implied volatility and outlining basic strategies for trading high vs. low volatility with options.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-2 (the volatility definitions and the worked option-pricing example). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=implied-volatility">implied-volatility</a> <a class="tag" href="../search.html?q=historical-volatility">historical-volatility</a> <a class="tag" href="../search.html?q=theta">theta</a> <a class="tag" href="../search.html?q=strangle">strangle</a> <a class="tag" href="../search.html?q=ratio-spread">ratio-spread</a> </td></tr>
+    <tr><th>Length</th><td>4 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Volatility” by Guy Bower at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A short educational piece from CDM Trading (Guy Bower) introducing option volatility for beginners. It distinguishes historical volatility (the standard deviation of the underlying&rsquo;s price changes over a chosen lookback) from implied volatility (the volatility figure an option&rsquo;s market price implies when run backward through a pricing model such as Black-Scholes). It then covers how to judge whether options are cheap or expensive and sketches basic strategies for high- and low-volatility environments.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Historical volatility is computed from the standard deviation of daily percentage price changes over a chosen period (e.g., 30 days); shorter windows reveal extremes, longer windows give an average.</li>
+<li>Implied volatility is backed out of an option&rsquo;s market price using a pricing model, holding the other four inputs (futures price, strike, rate, expiration) as known.</li>
+<li>Worked example: S&amp;P 500 futures at 1,100, a 1,120 call trading at 20.70 with 30 days to expiry prices out to about 40% implied volatility versus a 30% theoretical value of 16.50.</li>
+<li>Options should be judged cheap/expensive both against their own past IV levels and against the underlying&rsquo;s historical volatility.</li>
+<li>Selling strategies for high IV: short volatility positions such as a naked strangle (sell OTM put and call) or a ratio spread (buy near-the-money, sell two or more further OTM).</li>
+<li>Buying strategies for low IV: near-the-money long option or straddle-like structure with plenty of time to expiration, since time decay is offset by the underlying&rsquo;s ongoing movement.</li>
+<li>Short volatility positions tend to show small steady gains punctuated by sudden losses on sharp moves; long volatility positions tend to slowly bleed value before gaining suddenly.</li>
+<li>Deciding whether to hold a long volatility position often comes down to whether IV has returned to &ldquo;normal&rdquo; levels.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Compare current implied volatility to (a) its own recent history and (b) the underlying&rsquo;s historical volatility before entering a volatility trade; the best opportunities occur when both flag the same direction (cheap or expensive).</li>
+<li>When selling volatility, prefer out-of-the-money strikes (naked strangle or ratio spread) to give the underlying room to move and to reduce the odds of costly adjustments.</li>
+<li>When buying volatility, buy near-the-money options with ample time to expiration rather than far OTM or near-dated contracts.</li>
+<li>Hold a mix of long- and short-volatility positions in a portfolio given their opposite risk/reward and psychological profiles.</li>
+<li>Close (or rebalance) a long volatility position once volatility has normalized; keep an adjusted position open if it has not.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>Extremely brief and introductory; gives no numeric thresholds for what counts as &ldquo;high&rdquo; or &ldquo;low&rdquo; IV, no position-sizing guidance, and the worked example uses one illustrative option-pricing scenario rather than backtested results. Includes a standard risk disclaimer noting it is not personalized advice.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders new to options who need a plain-language first pass at historical vs. implied volatility before moving to more technical volatility-trading material.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/using-volatility-in-option-tradingpart-1.html">Using Volatility in Options Trading, Part 1</a> — An introduction distinguishes statistical volatility from option-specific implied volatility.</li><li><a href="../books/volatility-part-2.html">Using Volatility Information for Trading</a> — A soybean example uses volatility level, range, consolidation, and speed of change to frame option strategies.</li><li><a href="../books/mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures.html">The Options Edge: Winning the Volatility Game with Options on Futures</a> — An empirical, 1996-data-driven study of commodity option pricing that finds no inherent writer&#39;s edge, then builds one through defensive straddle writing.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

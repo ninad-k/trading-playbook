@@ -1,17 +1,30 @@
 ---
-title: "The New Laws of the Stock Market Jungle"
 author: Michael J. Panzner
-year: 2005
-slug: michael-panzner-the-new-laws-of-the-stock-market-jungle
-tier: B
 category: Market Structure & Price Action
-tags: [market-structure, volatility, derivatives, globalization, institutional-trading, market-psychology]
 difficulty: intermediate
 doc_type: book
+one_liner: A 20-year Wall Street trader argues 10 structural 'New Laws' — rising volatility,
+  commoditized stocks, derivatives-driven prices — have replaced older market assumptions.
 pages: 316
-one_liner: "A 20-year Wall Street trader argues 10 structural 'New Laws' — rising volatility, commoditized stocks, derivatives-driven prices — have replaced older market assumptions."
-related: [elder-alexander-trading-for-a-living, come-into-my-trading-room-elder-alexander, morris-and-song-shin-liquidity-black-holes, persaud-liquidity-black-holes]
-source_file: "Michael Panzner - The New Laws of the Stock Market Jungle.pdf"
+related:
+- elder-alexander-trading-for-a-living
+- come-into-my-trading-room-elder-alexander
+- morris-and-song-shin-liquidity-black-holes
+- persaud-liquidity-black-holes
+reviewed_pdf_pages: 3, 5 and the structural-change chapters checked against the note
+slug: michael-panzner-the-new-laws-of-the-stock-market-jungle
+source_file: Michael Panzner - The New Laws of the Stock Market Jungle.pdf
+source_review: partial
+tags:
+- market-structure
+- volatility
+- derivatives
+- globalization
+- institutional-trading
+- market-psychology
+tier: B
+title: The New Laws of the Stock Market Jungle
+year: 2005
 ---
 
 ## Summary

@@ -1,17 +1,29 @@
 ---
-title: "Measuring Internal Strength: Wilder's RSI Indicator"
-author: "Wayne A. Thorp"
-year: 2000
-slug: wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
-tier: B
+author: Wayne A. Thorp
 category: Indicators
-tags: [rsi, oscillators, overbought-oversold, divergence, wilder, momentum]
 difficulty: beginner
 doc_type: article
+one_liner: AAII Journal primer on Wilder's RSI covering its calculation, overbought/oversold
+  use, divergence signals, failure swings, and the indicator's breakdown in trending
+  markets.
 pages: 5
-one_liner: "AAII Journal primer on Wilder's RSI covering its calculation, overbought/oversold use, divergence signals, failure swings, and the indicator's breakdown in trending markets."
-related: [new-concepts-in-technical-trading-systems-welles-wilder, the-nyse-tick-index-and-candlesticks, market-turns]
-source_file: "Wayne A. Thorp - Measuring Internal Strength - Wilders RSI Indicator.pdf"
+related:
+- the-nyse-tick-index-and-candlesticks
+- market-turns
+reviewed_pdf_pages: 1-5
+slug: wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+source_file: Wayne A. Thorp - Measuring Internal Strength - Wilders RSI Indicator.pdf
+source_review: full
+tags:
+- rsi
+- oscillators
+- overbought-oversold
+- divergence
+- wilder
+- momentum
+tier: B
+title: 'Measuring Internal Strength: Wilder''s RSI Indicator'
+year: 2000
 ---
 
 ## Summary

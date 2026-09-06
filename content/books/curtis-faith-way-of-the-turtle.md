@@ -1,17 +1,32 @@
 ---
-title: Way of the Turtle
 author: Curtis M. Faith
-year: 2007
-slug: curtis-faith-way-of-the-turtle
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [turtle-trading, trend-following, breakout, position-sizing, backtesting, robustness, psychology]
 difficulty: intermediate
 doc_type: book
+one_liner: The youngest Turtle's own account of the original Turtle rules, plus his
+  later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).
 pages: 313
-one_liner: "The youngest Turtle's own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe)."
-related: [the-complete-turtletrader-the-legend-the-lessons-the-results, turtlerules, michael-covel-trend-following, trading-in-the-zone]
-source_file: "Curtis Faith - Way of the Turtle.pdf"
+related:
+- the-complete-turtletrader-the-legend-the-lessons-the-results
+- turtlerules
+- michael-covel-trend-following
+- trading-in-the-zone
+reviewed_pdf_pages: 3, 6, 34, 49, 61, 65, 69 (the N and unit definitions, System 1/2
+  descriptions, the win-rate discussion and the execution chapters)
+slug: curtis-faith-way-of-the-turtle
+source_file: Curtis Faith - Way of the Turtle.pdf
+source_review: partial
+tags:
+- turtle-trading
+- trend-following
+- breakout
+- position-sizing
+- backtesting
+- robustness
+- psychology
+tier: A
+title: Way of the Turtle
+year: 2007
 ---
 
 ## Overview

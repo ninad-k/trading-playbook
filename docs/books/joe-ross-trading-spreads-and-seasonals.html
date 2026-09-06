@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading Spreads and Seasonals — Joe Ross · Trading Playbook</title>
+<meta name="description" content="Joe Ross&#39;s course on constructing and filtering futures spreads and seasonal trades, using fundamentals, a defined time window, chart patterns, and Bollinger Band/RSI confirmation.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>Trading Spreads and Seasonals</h1>
+  <p class="byline">Joe Ross · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Joe Ross&#39;s course on constructing and filtering futures spreads and seasonal trades, using fundamentals, a defined time window, chart patterns, and Bollinger Band/RSI confirmation.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2, 5-9, 14, 19, 30, 90, 140 (contents, spread construction and ratio worked examples, the technical-filter chapter and the cattle seasonal spread results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=spreads">spreads</a> <a class="tag" href="../search.html?q=seasonality">seasonality</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=intermarket-spread">intermarket-spread</a> <a class="tag" href="../search.html?q=intramarket-spread">intramarket-spread</a> <a class="tag" href="../search.html?q=filtering">filtering</a> <a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=joe-ross">joe-ross</a> </td></tr>
+    <tr><th>Length</th><td>161 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Trading Spreads and Seasonals” by Joe Ross at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>A two-part course: the first half (roughly chapters 1–15) covers futures spreads — what they are, why and where to use them, how to construct and chart them, and how to filter and time entries/exits with fundamentals, chart patterns, Bollinger Bands, and RSI; the second half (chapters 16 onward) applies the same filtering framework to outright seasonal futures trades. Ross&rsquo;s own Ross Hook pattern from <a class="xref" href="../books/joe-ross-trading-the-ross-hook.html">Trading the Ross Hook</a> is used throughout as the chart-pattern entry/exit signal for both spreads and outright seasonal positions. The book is built around worked examples in named markets (grains, cattle, metals, currencies, financials) with real contract months and dollar figures, plus decision-table backtests for specific seasonal spreads.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Seasonal tendencies in futures — driven by recurring annual supply/demand rhythms (harvest timing, weather cycles, gestation periods, tax-driven capital flows) — persist over decades and are underused by modern traders, who Ross argues have shifted to indicator- and system-driven trading and largely abandoned fundamentals-based seasonal analysis. Spreads (the price difference between two related contracts) express this seasonality with less absolute volatility and lower margin than outright futures, because a spread is effectively a hedged position most of the time. Neither seasonality nor any single technical band or oscillator is sufficient alone: Ross&rsquo;s method layers (1) a fundamental/seasonal rationale, (2) a defined calendar time window in which the trade has historically worked, and (3) a technical trigger (chart pattern, Bollinger Bands, RSI) to time entry and exit within that window.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Spread</strong> — the price differential between two related futures contracts (intramarket: two delivery months of the same commodity; intermarket: two related commodities), computed by subtracting the closing price of the contract you are short from the closing price of the contract you are long.</li>
+<li><strong>Legging in / legging out</strong> — putting on or taking off the two sides of a spread at different times rather than simultaneously; Ross avoids this in his listed &ldquo;no-leg&rdquo; markets (Orange Juice, Heating Oil, Unleaded Gas, Copper, Coffee, Cotton, Live Hogs, T-Bills, Feeder Cattle) and prefers to enter/exit as a single spread order.</li>
+<li><strong>Exchange-recognized spread</strong> — a spread combination the exchange itself margins as a unit (lower initial/maintenance margin than the two legs held separately), such as the MOB, NOB, or TED spread.</li>
+<li><strong>Seasonal window</strong> — a defined, historically-derived date range (e.g., a 20-day bracketed window) during which a specific seasonal spread or outright trade has tended to move in a particular direction.</li>
+<li><strong>Optimized entry/exit date</strong> — the single best-performing historical date for entering or exiting a seasonal trade, computed after the fact; Ross repeatedly shows this is inferior in practice to a chart-pattern-based entry/exit taken inside the seasonal window.</li>
+<li><strong>Ledge</strong> — a short sideways congestion (up to about ten bars) where two matching highs and two matching lows can be connected with a ruler; Ross enters only on a genuine breakout through the Ledge&rsquo;s high or low, never on a gap past it.</li>
+<li><strong>Trend definition rule</strong> — an emerging trend requires four consecutive closes beyond the open (or three plus a gap-confirmed open) in one direction; the breakout of that emerging trend&rsquo;s extreme makes it a &ldquo;defined&rdquo; trend, and the breakout of the following correction&rsquo;s extreme makes it an &ldquo;established&rdquo; trend. A correction lasting more than three bars becomes congestion or a new trend.</li>
+<li><strong>Bollinger Bands on the spread line</strong> — applied directly to the spread&rsquo;s own price series (not the outright futures) using two standard deviations, which Ross notes contains roughly 95%+ of the spread line&rsquo;s movement; used only in combination with a chart pattern or oscillator, never alone.</li>
+<li><strong>RSI divergence on spreads</strong> — used as a momentum confirmation: in choppy/sideways spreads, buy when price diverges lower while RSI is rising, and sell when price diverges higher while RSI is falling.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>Market selection for spreads</strong>: Ross restricts spread trading to a defined list of liquid markets (currencies, energies, grains, financial instruments, meats, metals, softs) and explicitly avoids outright spread trades in Orange Juice and Cotton, and avoids or refuses to leg into Lumber, Value Line, Canadian Dollar, and Pork Bellies.</li>
+<li><strong>Constructing a spread chart</strong>: subtract the closing price of the short-side contract from the closing price of the long-side contract for each bar to build the spread line; a rising line means the spread favors the long side.</li>
+<li><strong>Spread ratio</strong>: when the two legs are not naturally 1:1 in dollar value (e.g., Gold vs. Silver), multiply one side&rsquo;s contract count to match dollar-value risk — Ross&rsquo;s worked example uses 2 short Silver contracts against 1 long Gold contract.</li>
+<li><strong>Fundamentals filter</strong>: before entering a seasonal spread, check weather, crop/production conditions, and relative price moves of both legs over the proposed window; reject the trade if the two legs&rsquo; fundamentals are moving the &ldquo;wrong way&rdquo; relative to the expected seasonal differential (a worked Corn/Wheat example shows the trade skipped for exactly this reason).</li>
+<li><strong>Time-window filter</strong>: only take the trade within its historically defined seasonal window (bracketed date range, often about 20 days); a signal outside that window is not treated as a seasonal trade.</li>
+<li><strong>Entry signal within the window</strong>: use a chart pattern breakout (commonly the Ross Hook / 1-2-3&rsquo;s number-2 point) or an RSI-crosses-50%-with-price-above-its-moving-average combination as the trigger, not a mechanical &ldquo;enter on date X&rdquo; rule.</li>
+<li><strong>Exit preference</strong>: exit via chart pattern (a new opposing signal or hook) rather than a fixed &ldquo;optimized&rdquo; calendar exit date; Ross&rsquo;s own comparison shows the chart-pattern exit outperforming the optimized-date exit in a worked April/August Live Cattle example ($1,525 gross gain vs. $625).</li>
+<li><strong>Named seasonal spread example</strong>: long April Live Cattle / short August Live Cattle, entered around the third Friday in March, historically about 93% accurate and profitable 14 of 15 years in Ross&rsquo;s sample; a second Cattle example (long October Live Cattle / short February Live Cattle) is put on in the last week of June with an optimized exit around the first week of August.</li>
+<li><strong>Ledge/breakout entry (non-seasonal spreads and outright trades)</strong>: mark a Ledge (matching highs/lows over up to ten bars), enter only on a clean breakout through the marked level, and skip the trade if price gaps past the entry rather than trading through it.</li>
+<li><strong>Bollinger Band signal on the spread line</strong>: treat a sharp move outside the bands after a period of band-tightening as confirmation of trend continuation (not exhaustion); treat a sharp move outside the bands immediately followed by a retracement back inside as a sign of exhaustion instead.</li>
+<li><strong>Filter combination rule</strong>: never rely on Bollinger Bands (or any band study) alone — pair them with either a chart pattern or a non-correlated oscillator (Ross specifically warns against pairing Bollinger Bands with CCI, since both measure price deviation and are multicollinear).</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Spreads are framed as an inherent risk-reduction tool rather than a source of leverage: because a spread position is effectively hedged, it carries lower exchange margin requirements and lower volatility than the equivalent outright futures position, and Ross describes using a spread specifically to hedge an existing outright position ahead of a scheduled fundamental report (a worked Crude Oil / API-report example). No explicit percent-of-equity position-sizing formula is given in the sampled pages; risk control is expressed instead through market selection (avoiding thin/treacherous markets), the no-legging rule for volatile spread pairs, and entering only within a confirmed seasonal window with a chart-pattern trigger rather than trading the calendar blindly. The one quantified backtest sampled (an April/August Live Cattle decision table) shows year-by-year worst-equity and best-equity swings alongside win-rate and average profit-per-trade statistics, used as the model for how Ross expects a seasonal spread to be vetted before being traded live.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Little dedicated psychology material was recovered in the sampled pages; the book&rsquo;s discipline content is procedural rather than emotional — favoring rules-based fundamentals/window/pattern filtering over &ldquo;black box&rdquo; mechanical signals, and repeatedly demonstrating (via the optimized-date-vs-pattern-exit comparisons) that a trader who mechanically chases a historically optimal date will underperform one who waits for the market&rsquo;s own chart-pattern confirmation within the window.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1–2 — What is a Spread? / Why Use Spreads?: definitions, suitable markets, legging in/out, advantages (lower margin, lower volatility, insensitivity to outright trend direction).</li>
+<li>Ch 3 — How to Trade Spreads to Reduce Risk: using a spread to hedge an existing outright futures position (worked Crude Oil/API report example).</li>
+<li>Ch 4–7 — Seasonal Spread Trade Selection, Filtering Process (Fundamentals, Time Window, Entry/Exit Signals): the core three-layer filter.</li>
+<li>Ch 8–9 — Seasonal Spread Examples; Non-Seasonal Spreads: worked currency and Cattle/Cattle spread cases.</li>
+<li>Ch 10–12 — Fractional Spreads, Conversions, Using Spreads to Reduce Volatility.</li>
+<li>Ch 13–15 — Trading Spreads Using Technical Indicators; Technical Filtering; Seasonal Spread Trading with Bollinger Bands and RSI.</li>
+<li>Ch 16–19 — Introducing Seasonals / What is a Seasonal? / Seasonal Futures Market Selection / Seasonal Futures Trade Selection: shifting the same framework to outright seasonal futures.</li>
+<li>Ch 20–22 — Outright Seasonal Futures: Checking Fundamentals; Time Window; Trading with Chart Patterns and Bollinger Bands.</li>
+<li>Ch 23–27 — Thinking and Trading Go Together; Beware of Stop Running; Carrying Charge Spreads; Converting Daytrades to Spreads; Wrap-Up.</li>
+<li>Appendices — Chart patterns for outright seasonal futures; decision tables (backtested seasonal spread statistics); resources.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>This book is from a scanned copy with OCR run only on a sample of pages (front matter plus evenly spaced pages), so these notes reflect what was recoverable; entire chapters in the seasonal-futures half of the book (roughly chapters 16–27, corresponding to the later printed-page range) fell in the unsampled gaps and are represented here only by their table-of-contents titles rather than worked content. Within what was recovered, the book&rsquo;s strength is showing real backtested decision tables (year-by-year win rate, best/worst equity, average profit) for at least one named spread rather than asserting seasonality without evidence — a rarer feature than in most seasonality books. The repeated finding that pattern-based exits beat &ldquo;optimized&rdquo; calendar-date exits is a useful, falsifiable claim rather than vague seasonal folklore. Caveats: seasonal relationships (crop cycles, old-style carrying-charge markets, pre-2000s spread margining) can shift with changes in production geography, ethanol/biofuel demand, or exchange margin rules, and the book does not address this risk of seasonal decay; some fundamentals discussion (calling brokers for CBOT/CME printed spread yearbooks, phone-based order entry) is dated.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Futures traders already comfortable with outright positions who want a structured way to reduce volatility and use recurring calendar effects, and who are willing to combine fundamentals research, a defined seasonal window, and a chart-pattern trigger rather than trade a seasonal calendar mechanically.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/joe-ross-trading-the-ross-hook.html">Trading the Ross Hook</a> — the Ross Hook pattern used throughout this book as the chart-pattern entry/exit trigger for spreads and seasonal trades.</li>
+<li><a class="xref" href="../books/tte.html">The Traders Trick Entry (TTE)</a> — Ross&rsquo;s Traders Trick Entry, applicable to the same hook-based entries referenced here.</li>
+<li><a class="xref" href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — for contrast, a fully mechanical, backtested systems approach versus this book&rsquo;s fundamentals-plus-pattern discretionary filtering.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/joe-ross-trading-the-ross-hook.html">Trading the Ross Hook</a> — Joe Ross&#39;s book-length treatment of the Ross Hook, a trend-continuation correction pattern, with entry filters, natural-support stop placement, and money/trade management rules.</li><li><a href="../books/tte.html">The Traders Trick Entry (TTE)</a> — Joe Ross&#39;s Traders University slide deck teaching the Traders Trick Entry (TTE): entering ahead of a 1-2-3 or Ross Hook breakout by buying the violation of a correcting bar&#39;s extreme.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

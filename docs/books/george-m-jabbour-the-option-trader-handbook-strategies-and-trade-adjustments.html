@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Option Trader Handbook: Strategies and Trade Adjustments — George M. Jabbour and Philip H. Budwick · Trading Playbook</title>
+<meta name="description" content="A trade-management manual devoted entirely to adjusting existing stock and option positions — rolling, collars, ratio spreads, and repair strategies — as the underlying moves.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>The Option Trader Handbook: Strategies and Trade Adjustments</h1>
+  <p class="byline">George M. Jabbour and Philip H. Budwick · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A trade-management manual devoted entirely to adjusting existing stock and option positions — rolling, collars, ratio spreads, and repair strategies — as the underlying moves.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 8, 10 and the adjustment chapters checked against the note&#39;s repair, ratio-write and exit rules. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=adjustments">adjustments</a> <a class="tag" href="../search.html?q=rolling">rolling</a> <a class="tag" href="../search.html?q=collars">collars</a> <a class="tag" href="../search.html?q=ratio-spreads">ratio-spreads</a> <a class="tag" href="../search.html?q=repair-strategies">repair-strategies</a> <a class="tag" href="../search.html?q=risk-management">risk-management</a> <a class="tag" href="../search.html?q=hedging">hedging</a> </td></tr>
+    <tr><th>Length</th><td>355 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Option Trader Handbook: Strategies and Trade Adjustments” by George M. Jabbour and Philip H. Budwick at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/george-m-jabbour-the-option-trader-handbook-strategies-and-trade-adjustments--trade-adjustment-playbook.html">Trade Adjustment Playbook: Rolling, Collars, Ratio Spreads, and Repairs</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>Jabbour (a finance professor) and Budwick wrote this as a reference handbook, not an introductory options text — it assumes the reader already knows basic strategies (calls, puts, covered calls, spreads) and instead focuses entirely on what to do <em>after</em> a position is open. Each chapter takes one starting position (long stock, short stock, long call, long put, spreads, combinations) and walks through every direction the underlying can move, showing a specific numeric adjustment for each scenario: rolling into a different strike or spread, adding a collar, converting a spread into a ratio spread, or &ldquo;repairing&rdquo; a losing position back toward breakeven. Every example uses a worked numeric case (mostly a hypothetical stock like EBAY, YHOO, or COST) with exact strikes, premiums, and breakeven arithmetic, and each chapter builds on strategies introduced earlier.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Strategy selection at entry is only half of trading; the other half — arguably the more overlooked half — is actively managing the position afterward through adjustments. Because options can be recombined in near-limitless ways, almost any losing or stalled position can be reshaped (not necessarily saved) into one with a better risk/reward profile than simply holding or closing outright. The authors frame this as &ldquo;the art of trade adjustments&rdquo;: a disciplined trader first fixes risk management principles (know max risk, max reward, and breakeven before entering), then uses a repertoire of mechanical adjustment techniques — rolling, collaring, ratio-spreading, and repairing — to lock in gains, reduce losses, or restructure a position&rsquo;s risk profile as the underlying stock, time, or volatility changes.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>SCORE formula</strong> — the book&rsquo;s five-step trading-success process: Select the investment, Choose the best strategy, Open the trade with a plan, Remember your plan and stick to it, Exit your trade.</li>
+<li><strong>Trading as a business</strong> — treating a trading account like a company with start-up, growth, and mature phases; positions are &ldquo;employees&rdquo; that get &ldquo;fired&rdquo; (closed) when they underperform against a predetermined exit rule.</li>
+<li><strong>Trade adjustment</strong> — any change made to an open position (adding, removing, or replacing legs) to alter its risk/reward profile in response to a stock move, time decay, or a change in outlook.</li>
+<li><strong>Rolling</strong> — closing one option leg and opening another at a different strike and/or expiration on the same underlying position to reset the risk/reward profile (e.g., rolling a protective put into a bear put spread, or a long call into a bull call spread).</li>
+<li><strong>Call/put ratio spread adjustment</strong> — converting a long option or a vertical spread into a ratio spread (selling additional out-of-the-money options against an existing long) to collect extra premium, boost profit around a target strike, or reduce cost basis — at the expense of unlimited/naked risk beyond a new breakeven.</li>
+<li><strong>Collar</strong> — combining a protective put with a covered call (both usually one strike out-of-the-money) to cap both loss and gain, often for a small net credit or at no cost; a &ldquo;profit collar&rdquo; applies the same structure after a stock has already gained to lock in a minimum profit.</li>
+<li><strong>Stock/position repair strategy</strong> — adding a 1:2 (or higher) call ratio spread to a losing long-stock or long-call position, structured for a net credit or zero cost, to lower the breakeven point without committing new capital; the short strike is chosen as the price target for where the stock is expected to recover to, not a runaway rally target.</li>
+<li><strong>Christmas tree spread</strong> — a repair variant with short calls at two different (non-identical) strikes rather than the same strike, created by rolling a losing bull call spread down to a lower long strike.</li>
+<li><strong>Ratio write</strong> — long stock plus more short calls than shares owned (e.g., 1:2 or 1:3), generating extra premium for a stock expected to trade in a range, at the cost of unlimited upside risk beyond a calculated breakeven.</li>
+<li><strong>Call/put replacement therapy</strong> — selling a profitable long stock or option position and replacing it with a cheaper, farther out-of-the-money option to lock in gains while keeping exposure to further favorable movement.</li>
+<li><strong>Synthetic conversions</strong> — recognizing that a long stock plus long put equals a synthetic long call, or a short stock plus long call equals a synthetic long put, so that adjustments to one position type can be re-expressed as another (e.g., rolling a losing long call into a synthetic straddle).</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>The book is organized as adjustment recipes rather than a single unified entry system; the most codeable, recurring numeric rules:</p>
+<ol>
+<li><strong>Pre-trade risk quantification.</strong> Before every trade, calculate maximum risk, maximum reward, and breakeven point(s), in that order, before committing capital.</li>
+<li><strong>Predetermined exit rule.</strong> Set an exit trigger before entry — a stock price, a percentage loss (the book&rsquo;s own worked example uses a 15% stop), or a technical support/resistance level — and follow it regardless of hope that &ldquo;it has to come back.&rdquo;</li>
+<li><strong>Repair/adjustment credit rule.</strong> When adding a repair ratio spread or converting a spread into a ratio spread, only do so for a net credit or, at worst, a very small net debit; a repair that costs meaningful capital is not a true repair.</li>
+<li><strong>Ratio spread sizing.</strong> Do not exceed roughly a 1:3 ratio (one long option to three short options) on an initial adjustment; higher ratios (1:4+) are reserved for cases where an existing unrealized stock gain provides a buffer against the added naked risk, and even then are discouraged.</li>
+<li><strong>Stock repair strike selection.</strong> When repairing a losing long-stock position with a call ratio spread (e.g., buy 1 near-the-money call, sell 2 calls at a higher strike), set the short strike at the price you expect the stock to recover to — not necessarily back to the original purchase price — and keep the long call&rsquo;s strike near the current stock price so it generates value to offset the existing loss.</li>
+<li><strong>Collar construction.</strong> Sell a covered call and buy a protective put, typically both one strike out-of-the-money, sized so the position opens near breakeven or for a small credit; this caps both the maximum loss and maximum gain until expiration (&ldquo;set and forget&rdquo;).</li>
+<li><strong>Profit collar timing.</strong> After a long stock position has an unrealized gain, add a collar (call sold above market, put bought below market) to lock in a minimum guaranteed profit while retaining limited further upside to the short call&rsquo;s strike.</li>
+<li><strong>No naked legs in a repair.</strong> When repairing a losing position, size the short option leg so it is fully covered by the long option and/or the underlying stock — never leave a naked leg, since that adds risk to an already-losing position instead of reducing it.</li>
+<li><strong>Roll-down criterion for call verticals.</strong> If a bull call spread&rsquo;s underlying has fallen and a recovery (but not a full round-trip) is expected, roll the long strike down (financed by selling the original long call and opening a lower-strike long call, funded by additional short calls at the original strikes) to lower the breakeven; choose between a multi-strike (&ldquo;Christmas tree&rdquo;) ratio spread (lower breakeven, added naked-call risk above the upper short strike) or a straight lower-strike vertical (smaller debit added, no naked risk) based on risk tolerance.</li>
+<li><strong>Time-based exit for time-decay strategies.</strong> For adjustments that depend on selling premium (ratio writes, collars, repair spreads), prefer shorter-dated options so time decay works in the adjusted position&rsquo;s favor, and reassess or roll at expiration rather than letting the hedge silently expire.</li>
+</ol>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>There is no single portfolio-level position-sizing rule (no fixed &ldquo;risk 2% per trade&rdquo; prescription); risk management is taught instead as a discipline applied trade-by-trade: always derive maximum risk, maximum reward, and breakeven before entering, and always set a predetermined percentage- or price-based exit before capital is at risk. The book explicitly warns against selling naked/uncovered options without appreciating that &ldquo;unlimited risk&rdquo; is a real outcome, using Nick Leeson&rsquo;s 1995 Barings Bank collapse (from selling naked Nikkei options ahead of the Kobe earthquake, roughly $1.3 billion in losses) as a cautionary case. A recurring quantitative discipline throughout the adjustment chapters is that any defensive adjustment (repair spread, roll, collar) should be evaluated by its effect on the position&rsquo;s breakeven point and be entered for a net credit or minimal debit — adjustments that lock in a guaranteed loss regardless of a stock&rsquo;s recovery are explicitly flagged as poor risk management. Margin is treated qualitatively: ratio spreads and ratio writes with naked legs carry a margin requirement (and the naked exposure that comes with it) that covered structures (verticals, collars, stock-covered ratio spreads) do not.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>The opening chapter frames risk management as psychological armor, using a boxing/martial-arts analogy (&ldquo;defense wins championships&rdquo;) — most traders rush to learn offense (entries) and ignore defense (exits and adjustments) until a single bad trade erases a string of gains. The authors identify &ldquo;trade freeze&rdquo; (refusing to close a losing position out of hope it will recover — &ldquo;the stock has to move back higher, it cannot just keep falling forever&rdquo;) as a named failure mode, and counter it with the principle that &ldquo;the market will tell you which way the stock is moving, you cannot tell the market where you want it to move.&rdquo; Trading is framed as a business with distinct start-up, growth, and mature phases, in which positions are &ldquo;employees&rdquo; fired (closed) according to a predetermined performance standard rather than emotion; taking losses personally is described as leading to &ldquo;revenge trading&rdquo; that compounds the original loss. A trading journal — recording the thesis, strategy, max risk/reward/breakeven, exit plan, and lessons learned after the fact — is recommended as the practical tool for keeping this discipline consistent across trades.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Trade and Risk Management: philosophy of risk and reward, breakeven points, trading as a business (start-up/growth/mature phases), and the SCORE formula for trading success.</li>
+<li>Ch 2 — Tools of the Trader: option pricing factors, time decay, early assignment, implied volatility, synthetic positions, and a review of basic-to-advanced strategies (verticals, straddles/strangles, ratio spreads, backspreads, butterflies) used as building blocks for later adjustments.</li>
+<li>Ch 3 — Long Stock: adjustments to a long stock position as it moves higher, lower, or sideways — protective puts, rolling between puts and bear put spreads, call replacement, covered calls (strike/expiration selection, scaling out), collars and profit collars, ratio writes, short straddles/strangles (including the stock-repair use case), call ratio spreads (including the stock repair ratio spread), and call calendar spreads.</li>
+<li>Ch 4 — Short Stock: the mirror-image adjustment set for short stock — protective calls and protective call spreads, put replacement, covered puts, short collars, put ratio writes, and put ratio spreads (including a short-position repair strategy).</li>
+<li>Ch 5 — Calls and Puts: adjustments to standalone long/short calls and puts — protective puts/calls added to calls, call/put replacement, rolling into verticals, ratio spreads (with the 1:2 vs. 1:3 YHOO worked examples), calendar spreads, synthetic straddles, and repair strategies for losing long calls and puts.</li>
+<li>Ch 6 — Spreads: adjustments to existing vertical and calendar spreads — adding protective legs, converting bull call/bear put spreads into ratio spreads or butterflies, and the Christmas tree repair technique for a losing bull call spread.</li>
+<li>Ch 7 — Combinations: adjustments to straddles and strangles — straps/strips, calendar straddles/strangles, rolling a long straddle into an iron butterfly (regular, diagonal, and partial variants), and defensive adjustments to short straddles/strangles.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s core strength is depth on a topic most options texts treat as an afterthought: every adjustment is shown with exact strikes, premiums, and breakeven math on a consistent example stock, which makes the logic easy to verify and reapply to other numbers. The tradeoff is that this makes the book dense and repetitive — the same handful of adjustment mechanics (roll, collar, ratio-spread, repair) recur across every chapter applied to a different starting position, so a reader can extract the general technique after two or three chapters. All profit/loss calculations assume options are held to expiration and ignore commissions, bid/ask spreads, and the time value of money, which understates real-world adjustment costs — a concern given how many of the strategies involve multiple sequential trades (each with its own slippage). The 2004 publication date means margin-requirement specifics (stated in qualitative &ldquo;check with your broker&rdquo; terms, appropriately) and any references to trading infrastructure should not be relied on as current. The book also does not provide backtested win-rate or expectancy statistics for any adjustment; effectiveness is demonstrated case-by-case rather than statistically.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Best suited to an intermediate-to-advanced options trader who already trades directional and simple spread strategies and wants a systematic reference for what to do when a position moves against (or strongly in favor of) their thesis, rather than a first exposure to options mechanics. Less useful as an entry-strategy or stock-selection guide — it has almost nothing to say about how to pick the underlying trade in the first place, focusing entirely on the follow-up.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — broader options curriculum (Greeks, delta-neutral trading, spread construction) that this book&rsquo;s adjustment techniques assume as background knowledge.</li>
+<li><a class="xref" href="../books/george-a-fontanills-the-option-course-with-exercise.html">The Options Course Workbook, 2nd Edition</a> — companion options-strategy primer from the same strategy family (spreads, straddles, ratio backspreads) referenced throughout this handbook&rsquo;s adjustment chains.</li>
+<li><a class="xref" href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — a reference catalog of the base strategies (verticals, collars, ratio spreads, straddles) this book assumes and then shows how to adjust.</li>
+<li><a class="xref" href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — another practitioner-oriented options strategy and management text that overlaps on collars, spreads, and risk-defined structures.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed.html">The Options Course: High Profit &amp; Low Stress Trading Methods</a> — Full options curriculum built around delta-neutral trading: Greeks, straddles/strangles, ratio backspreads, and range-bound spreads, each with numbered entry/adjustment/exit road maps.</li><li><a href="../books/george-a-fontanills-the-option-course-with-exercise.html">The Options Course Workbook, 2nd Edition</a> — A 19-chapter study workbook companion to The Options Course: chapter summaries, worked formula problems, and Q&amp;A drills covering options basics through delta-neutral spreads, margin, and broker/tool selection.</li><li><a href="../books/guy-cohen-the-bible-of-options-strategies.html">The Bible of Options Strategies</a> — A 58-strategy options reference giving construction, Greeks, risk/reward, and exit rules for every strategy from a long call to iron condors and synthetics.</li><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

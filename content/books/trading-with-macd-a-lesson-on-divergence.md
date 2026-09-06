@@ -1,17 +1,29 @@
 ---
-title: "Trading with MACD: A Lesson on Divergence"
-author: "Kevin Riordan"
-year: 2001
-slug: trading-with-macd-a-lesson-on-divergence
-tier: B
+author: Kevin Riordan
 category: Indicators
-tags: [macd, divergence, histogram, trend-reversal, futures, exponential-moving-average]
 difficulty: beginner
 doc_type: article
+one_liner: A commodities-trading newsletter lesson that teaches how to spot and trade
+  bullish/bearish MACD-histogram divergence as an early, low-lag trend-reversal signal.
 pages: 10
-one_liner: "A commodities-trading newsletter lesson that teaches how to spot and trade bullish/bearish MACD-histogram divergence as an early, low-lag trend-reversal signal."
-related: [macd, wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds]
-source_file: "Trading with MACD - a lesson on divergence.pdf"
+related:
+- macd
+- wayne-a-thorp-the-macd-a-combo-of-indicators-for-the-best-of-both-worlds
+reviewed_pdf_pages: the divergence-rule pages checked against the note; the lesson
+  states no numeric parameters
+slug: trading-with-macd-a-lesson-on-divergence
+source_file: Trading with MACD - a lesson on divergence.pdf
+source_review: partial
+tags:
+- macd
+- divergence
+- histogram
+- trend-reversal
+- futures
+- exponential-moving-average
+tier: B
+title: 'Trading with MACD: A Lesson on Divergence'
+year: 2001
 ---
 
 ## Summary

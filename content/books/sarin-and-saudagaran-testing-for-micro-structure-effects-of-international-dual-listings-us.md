@@ -1,17 +1,30 @@
 ---
-title: "Testing for Micro-Structure Effects of International Dual Listings Using Intraday Data"
-author: "Gregory M. Noronha, Atulya Sarin, Shahrokh M. Saudagaran"
-year: 1996
-slug: sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [market-microstructure, bid-ask-spread, liquidity, dual-listing, informed-trading, academic-research]
+author: Gregory M. Noronha, Atulya Sarin, Shahrokh M. Saudagaran
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Academic study finds dual-listing US stocks in London or Tokyo does not
+  narrow bid-ask spreads because increased informed trading offsets the added market-maker
+  competition.
 pages: 19
-one_liner: "Academic study finds dual-listing US stocks in London or Tokyo does not narrow bid-ask spreads because increased informed trading offsets the added market-maker competition."
-related: [deutsche-borse-group-from-trading-floor-to-virtual-marketplace]
-source_file: "Sarin And Saudagaran-Testing For Micro-Structure Effects Of International Dual Listings Using Int.pdf"
+related:
+- deutsche-borse-group-from-trading-floor-to-virtual-marketplace
+reviewed_pdf_pages: 10 (the pre/post-listing spread and depth tables)
+slug: sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us
+source_file: Sarin And Saudagaran-Testing For Micro-Structure Effects Of International
+  Dual Listings Using Int.pdf
+source_review: partial
+tags:
+- market-microstructure
+- bid-ask-spread
+- liquidity
+- dual-listing
+- informed-trading
+- academic-research
+tier: B
+title: Testing for Micro-Structure Effects of International Dual Listings Using Intraday
+  Data
+year: 1996
 ---
 
 ## Summary

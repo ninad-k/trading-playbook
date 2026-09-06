@@ -1,17 +1,35 @@
 ---
-title: "Aspects of Investor Psychology: Beliefs, Preferences, and Biases Investment Advisors Should Know About"
-author: "Daniel Kahneman and Mark W. Riepe"
-year: 1998
-slug: kahneman-daniel-investor-psychology
-tier: B
+author: Daniel Kahneman and Mark W. Riepe
 category: Trading Psychology & Discipline
-tags: [behavioral-finance, cognitive-bias, overconfidence, loss-aversion, prospect-theory, regret, mental-accounting, academic]
 difficulty: intermediate
 doc_type: paper
+one_liner: Kahneman and Riepe's Journal of Portfolio Management paper catalogs investor
+  judgment and preference biases (overconfidence, hindsight, loss aversion, narrow
+  framing, regret) with advisor recommendations for each.
 pages: 22
-one_liner: "Kahneman and Riepe's Journal of Portfolio Management paper catalogs investor judgment and preference biases (overconfidence, hindsight, loss aversion, narrow framing, regret) with advisor recommendations for each."
-related: [prospect-theory, disciplined-trader, trading-in-the-zone, position-sizing]
-source_file: "Kahneman_ Daniel - Investor Psychology.pdf"
+related:
+- prospect-theory
+- disciplined-trader
+- trading-in-the-zone
+- position-sizing
+reviewed_pdf_pages: 4, 8, 11-12 (the calibration evidence, the value function and
+  the loss-aversion ratio)
+slug: kahneman-daniel-investor-psychology
+source_file: Kahneman_ Daniel - Investor Psychology.pdf
+source_review: partial
+tags:
+- behavioral-finance
+- cognitive-bias
+- overconfidence
+- loss-aversion
+- prospect-theory
+- regret
+- mental-accounting
+- academic
+tier: B
+title: 'Aspects of Investor Psychology: Beliefs, Preferences, and Biases Investment
+  Advisors Should Know About'
+year: 1998
 ---
 
 ## Summary

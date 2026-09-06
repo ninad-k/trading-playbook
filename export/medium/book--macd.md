@@ -1,0 +1,42 @@
+# Moving Average Convergence-Divergence (MACD): the trader's summary
+
+*Brief primer on the MACD indicator's construction, crossover/overbought-oversold/divergence uses, and the author's own multi-timeframe trend-filter approach.*
+
+**Mark McRae** · Indicators · beginner
+
+*Source coverage: full. PDF pages inspected: 1-3. These are study notes, not verified trading results.*
+
+## Summary
+
+A very short lesson on the MACD indicator, originally constructed by analyst Gerald Appel. It explains how MACD is built (the difference between two moving averages, plus a signal line that is a moving average of that difference), standard default settings, and three common uses: line crossovers as buy/sell signals, distance from the zero line as an overbought/oversold gauge, and price/indicator divergence as a reversal warning. The author then describes his own variant: using MACD on a higher timeframe purely as a trend filter while executing trades on a lower timeframe, illustrated with a same-day 30-minute/5-minute Cash DJIA example.
+
+## Key points
+
+- MACD is the difference between two EMAs, plotted as a fast line, against a signal line that is itself an EMA of that difference.
+- Standard settings: 12 and 26-period EMAs for the MACD line, with a 9-period EMA signal line.
+- **Crossover** — buy when the signal line crosses above the MACD line; sell on the reverse cross.
+- **Overbought/oversold** — the further both lines move from the zero line, the more overbought/oversold.
+- A crossover from an overbought/oversold zone is described as a stronger signal than a crossover alone.
+- **Divergence** — bullish: MACD makes a new low while price does not; bearish: MACD turns down from a high while price keeps rising — both flagged as reversal warnings.
+- Author's personal settings: 8 and 18-period EMAs with a 9-period signal, used as a higher-timeframe trend filter rather than for direct entries.
+
+## Actionable rules
+
+1. Standard MACD settings: 12/26-period EMA with a 9-period signal line.
+2. Enter long on a signal-line cross above the MACD line; short on the reverse.
+3. Treat a crossover from overbought/oversold as higher-conviction.
+4. Watch for bullish/bearish divergence between MACD and price as an early reversal warning.
+5. Multi-timeframe filter: use MACD (8, 18, 9) on a higher timeframe to define tradeable direction; only take same-direction entries lower down; close if the higher-timeframe signal line crosses back.
+
+## Caveats
+
+Extremely short (3 pages) and introductory; no stop-loss, position-sizing, or backtested statistics, and the multi-timeframe example is a single anecdote, not a tested track record. Standard educational-only disclaimer included.
+
+## Who it is for
+
+Beginners wanting a concise introduction to MACD's three basic uses, plus one trader's simple multi-timeframe filter application.
+
+---
+*Educational summary of ideas from the book, written in my own words. Not financial advice. Please buy the book if these notes are useful.*
+
+More notes like this: [https://ninad-k.github.io/trading-playbook/](https://ninad-k.github.io/trading-playbook/) · Tags: macd, moving-averages, momentum, divergence, multi-timeframe, oscillator

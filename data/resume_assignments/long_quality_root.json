@@ -1,0 +1,115 @@
+{
+  "scope": "Independent targeted verification of consequential claims; not a second full reading of every long book.",
+  "reviews": [
+    {
+      "slug": "rubinstein-mark-rubinstein-on-derivatives",
+      "pages_checked": "2-4, 6, 8, 29, 49, 70, 90, 111, 131, 274, 294, 315, 335, 396",
+      "finding": "Corrected printed-page references mislabeled as PDF pages; replaced inaccurate reading ranges with inspected PDF pages; qualified settlement cash-flow sum."
+    },
+    {
+      "slug": "walter-bressert-intraday-timing-for-low-risk-swing-trading",
+      "pages_checked": "1-20 (available OCR)",
+      "finding": "Cycle hierarchy and timing claims checked; coverage changed to partial because chart detail is unresolved."
+    },
+    {
+      "slug": "1-the-mathematics-of-financial-derivatives",
+      "pages_checked": "36, 50",
+      "finding": "Checked volatility estimation and spread payoff claims."
+    },
+    {
+      "slug": "fc-power-trading-course-forex-capital-markets-2003",
+      "pages_checked": "126 (text and rendered page)",
+      "finding": "Confirmed 4-5 consecutive losses, not OCR 45; breakout invalidation checked."
+    },
+    {
+      "slug": "forex-trading-machine-ebook",
+      "pages_checked": "94-109, 128-136",
+      "finding": "Corrected six-hour breakeven condition, runner resets/reversal rules and clarified ambiguous Cash Cow threshold."
+    },
+    {
+      "slug": "fractal",
+      "pages_checked": "41-45",
+      "finding": "Checked two-tick entries, momentum/average filter and initial stop formula."
+    },
+    {
+      "slug": "georgemuzea-the-vital-few-vs-the-trivial-many-invest-with-the-insiders-not-the-masses",
+      "pages_checked": "153-156, 170-171",
+      "finding": "Checked confirmation and contrarian interpretation; removed unsupported fewer-new-lows criterion."
+    },
+    {
+      "slug": "handbook-for-investment-committee-members-how-to-make-prudent-investments-for-your-organiz",
+      "pages_checked": "75-81",
+      "finding": "Checked cash allocation, sensitivity and style-cycle discussion."
+    },
+    {
+      "slug": "jake-bernstein-dearborn-trade-publishing-no-bull-investing",
+      "pages_checked": "117-123",
+      "finding": "Flagged conflicting source subtraction/arithmetic; labeled corrected momentum convention and 28-week setting."
+    },
+    {
+      "slug": "jake-bernstein-how-to-trade-the-new-single-stock-futures",
+      "pages_checked": "155-159",
+      "finding": "Checked gap threshold and momentum; existing source typo caveat retained."
+    },
+    {
+      "slug": "john-wiley-sons-stock-trader-almanac-2005-38th-ed",
+      "pages_checked": "51-55",
+      "finding": "Checked fixed seasonal and MACD seasonal timing; historical caveats retained."
+    },
+    {
+      "slug": "john-wiley-sons-valuation-maximizing-corporate-value",
+      "pages_checked": "52-56",
+      "finding": "Checked cash-flow components, perpetuity calculation and financing separation."
+    },
+    {
+      "slug": "mcgraw-hill-stock-options-and-the-new-rules",
+      "pages_checked": "107-109",
+      "finding": "Checked expected exercise term and company-versus-employee value distinction."
+    },
+    {
+      "slug": "money-management1",
+      "pages_checked": "1-8, 10-17 (available OCR)",
+      "finding": "Checked roulette expectation and attribution evidence; distinguished editorial sizing precautions."
+    },
+    {
+      "slug": "profitfromprices",
+      "pages_checked": "53-56",
+      "finding": "Checked U-Turn buy conditions, volume and low-based stop."
+    },
+    {
+      "slug": "r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies",
+      "pages_checked": "168-171",
+      "finding": "Checked development-stage half-sale convention and PIPE framing."
+    },
+    {
+      "slug": "staying-out-of-trouble-trading-currencies-with-channels",
+      "pages_checked": "1-28 (available OCR)",
+      "finding": "Changed coverage to partial; clarified source doubling instruction and labeled mirrored long setup as inference."
+    },
+    {
+      "slug": "tfefuturecourse",
+      "pages_checked": "25-37",
+      "finding": "Corrected Picket Fence/Tripwire stop tightness; removed unsupported cancellation rule and marked implementation gap."
+    },
+    {
+      "slug": "wiley-trading-study-guide-for-come-into-my-trading-room-a-complete-guide-to-trading-2002-i",
+      "pages_checked": "139-141",
+      "finding": "Added rest-of-month halt after realized 6% equity decline and clarified prospective risk budget."
+    },
+    {
+      "slug": "forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional",
+      "pages_checked": "79",
+      "finding": "Checked fast-trend short entries, stops and three exit conditions."
+    },
+    {
+      "slug": "forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005",
+      "pages_checked": "27-28",
+      "finding": "Checked asymmetric stop buffers and trailing steps; corrected risk:reward notation."
+    },
+    {
+      "slug": "forex-trading-with-candlestick-and-pattern-2",
+      "pages_checked": "23-24",
+      "finding": "Checked setup, stop and exit rules; corrected risk:reward wording."
+    }
+  ]
+}

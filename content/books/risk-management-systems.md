@@ -1,17 +1,30 @@
 ---
-title: "Risk Management Systems: Process, Technology and Trends"
 author: Martin Gorrod
-year: 2004
-slug: risk-management-systems
-tier: B
 category: Money Management & Position Sizing
-tags: [enterprise-risk, var, risk-technology, project-management, financial-institutions, systems-design]
 difficulty: advanced
 doc_type: manual
+one_liner: A practitioner's guide to building and running institutional risk-management
+  technology, from VaR concepts to software delivery and project management.
 pages: 316
-one_liner: "A practitioner's guide to building and running institutional risk-management technology, from VaR concepts to software delivery and project management."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, douglas-hubbard-the-failure-of-risk-management, money-management-risk-control-for-traders]
-source_file: "Risk Management Systems.pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- douglas-hubbard-the-failure-of-risk-management
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 19, 82, 225 (the stress-testing and scenario-analysis chapters
+  and the references)
+slug: risk-management-systems
+source_file: Risk Management Systems.pdf
+source_review: partial
+tags:
+- enterprise-risk
+- var
+- risk-technology
+- project-management
+- financial-institutions
+- systems-design
+tier: B
+title: 'Risk Management Systems: Process, Technology and Trends'
+year: 2004
 ---
 
 ## Summary

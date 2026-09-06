@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Limit Orders, Depth, and Volatility — Hee-Joon Ahn, Kee-Hong Bae &amp; Kalok Chan · Trading Playbook</title>
+<meta name="description" content="Academic study of the Hong Kong Stock Exchange finding transitory volatility and market depth move inversely, and volatility side determines limit-order flow direction.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Limit Orders, Depth, and Volatility</h1>
+  <p class="byline">Hee-Joon Ahn, Kee-Hong Bae &amp; Kalok Chan · 1999 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Academic study of the Hong Kong Stock Exchange finding transitory volatility and market depth move inversely, and volatility side determines limit-order flow direction.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-4 (the hypotheses and the regression results). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=limit-orders">limit-orders</a> <a class="tag" href="../search.html?q=liquidity">liquidity</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=order-driven-market">order-driven-market</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> </td></tr>
+    <tr><th>Length</th><td>39 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Limit Orders, Depth, and Volatility” by Hee-Joon Ahn, Kee-Hong Bae &amp; Kalok Chan at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: in a pure order-driven market with no designated market maker, how does short-term (&ldquo;transitory&rdquo;) volatility interact with the depth of the limit-order book and the mix of limit versus market orders? Data: intraday trade and quote records (best five bid/ask queues, 30-second snapshots) for the 33 Hang Seng Index component stocks on the Stock Exchange of Hong Kong, July 1996–June 1997. Method: cross-sectional time-series regressions of upside and downside volatility on lagged bid/ask depth, buy/sell order-flow imbalance, and time-of-day dummies, averaged across the 33 stocks. Finding: consistent with Handa and Schwartz (1996), a rise in transitory volatility is followed by an increase in market depth, and a rise in depth is followed by a decline in subsequent volatility — the two variables self-correct. Volatility arising specifically from the bid side draws more limit buy orders (relative to market buy orders), while ask-side volatility draws more limit sell orders, consistent with liquidity providers stepping in on whichever side is currently paying for immediacy.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>All liquidity in this market comes from public limit orders; there is no designated market maker (unlike NYSE or NASDAQ dealers).</li>
+<li>Hypothesis 1 (supported): higher transitory volatility → more limit-order submission → higher subsequent market depth.</li>
+<li>Hypothesis 2 (supported): higher market depth → lower subsequent transitory volatility.</li>
+<li>Effect is asymmetric by side: bid-side volatility spurs limit buy orders; ask-side volatility spurs limit sell orders.</li>
+<li>Regression coefficients on lagged &ldquo;best depth&rdquo; and &ldquo;best 5 depths&rdquo; are negative and statistically significant (t-stats in the −2 to −6 range) for both upside and downside volatility.</li>
+<li>Findings support the view that an order-driven market without market makers can be self-sustaining because natural liquidity suppliers step in exactly when liquidity is scarce.</li>
+<li>Sample: 33 most liquid HSI stocks, averaging 346–387 trades/stock/day, with average percentage bid-ask spread of about 0.39–0.47%.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given as trading rules — this is a market-microstructure research paper, not a system. Practical takeaway for traders: in a pure limit-order market, expect a burst of short-term volatility to be met by an influx of resting limit orders that dampens follow-through volatility shortly after, and expect the side (bid or ask) generating the volatility to indicate where new liquidity/limit orders will appear next.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Findings are specific to the Hong Kong market structure (fully transparent, discriminatory-execution, price-time-priority electronic limit order book) in 1996–97 and may not generalize to dealer/specialist markets or to modern high-frequency environments with different order types (icebergs, hidden orders, co-located HFT).</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers and microstructure-focused traders interested in the empirical dynamics between order-book depth and short-term volatility in electronic limit-order markets.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/foucault-and-kadan-limit-order-book-as-a-market-for-liquidity.html">Limit Order Book as a Market for Liquidity</a> — A dynamic microstructure model showing how the mix of patient vs. impatient traders, tick size, and order arrival rate jointly determine spreads and limit-order execution time.</li><li><a href="../books/how-large-is-liquidity-risk-in-an-automated.html">How Large Is Liquidity Risk in an Automated Auction Market?</a> — Discussion paper introducing a Value-at-Risk methodology that prices in liquidity risk (price impact of liquidation) for portfolios traded on the Xetra automated auction market.</li><li><a href="../books/chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity.html">Market Liquidity and Trading Activity</a> — Journal of Finance (2001) study of 11 years of NYSE data finding aggregate market liquidity and trading volume are highly volatile, decline sharply in down markets, and show strong day-of-week patterns (weak on Fridays, strong on Tuesdays).</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

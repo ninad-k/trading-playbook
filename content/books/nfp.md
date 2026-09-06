@@ -1,17 +1,32 @@
 ---
-title: Trading the Non Farm Payroll Report Like a Savage Pip Fiend
 author: Rob Booker
-year: 2006
-slug: nfp
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [nfp, non-farm-payroll, news-trading, forex, breakout, risk-management]
 difficulty: intermediate
 doc_type: article
+one_liner: Rob Booker's research notes on trading the monthly US Non-Farm Payroll
+  release for the longer term via a box-breakout method, rather than the risky seconds-after-release
+  scalp.
 pages: 15
-one_liner: "Rob Booker's research notes on trading the monthly US Non-Farm Payroll release for the longer term via a box-breakout method, rather than the risky seconds-after-release scalp."
-related: [u-s-key-economic-indica, norman-frumkin-guide-to-economic-indicators, forex-intraday-pivots-trading-system-complete-system, forex-report-predicting-price-movement]
-source_file: "NFP.pdf"
+related:
+- u-s-key-economic-indica
+- norman-frumkin-guide-to-economic-indicators
+- forex-intraday-pivots-trading-system-complete-system
+- forex-report-predicting-price-movement
+reviewed_pdf_pages: 3, 5-8 (the two systems' rules, the New York Box definition and
+  the results discussion)
+slug: nfp
+source_file: NFP.pdf
+source_review: partial
+tags:
+- nfp
+- non-farm-payroll
+- news-trading
+- forex
+- breakout
+- risk-management
+tier: B
+title: Trading the Non Farm Payroll Report Like a Savage Pip Fiend
+year: 2006
 ---
 
 ## Summary

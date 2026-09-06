@@ -1,17 +1,34 @@
 ---
-title: Bollinger on Bollinger Bands
 author: John Bollinger
-year: 2002
-slug: john-bollinger-bollinger-on-bollinger-band
-tier: A
 category: Indicators
-tags: [bollinger-bands, volatility, percent-b, bandwidth, the-squeeze, pattern-recognition, volume-indicators, mean-reversion]
 difficulty: intermediate
 doc_type: book
+one_liner: 'The creator''s own manual for Bollinger Bands: construction, the %b and
+  BandWidth indicators, The Squeeze, and three complete trading methods.'
 pages: 264
-one_liner: "The creator's own manual for Bollinger Bands: construction, the %b and BandWidth indicators, The Squeeze, and three complete trading methods."
-related: [alan-farley-the-master-swing-trader, street-smarts-laurence-connors, elder-alexander-trading-for-a-living, candlestick-charting-explained, curtis-faith-way-of-the-turtle]
-source_file: "John Bollinger - Bollinger On Bollinger Band.pdf"
+related:
+- alan-farley-the-master-swing-trader
+- street-smarts-laurence-connors
+- elder-alexander-trading-for-a-living
+- candlestick-charting-explained
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 4, 9-10, 13-14, 75, 82-83, 92, 119, 194 (construction and containment
+  percentages, %b and BandWidth formulas, and the Method I/II/III rule pages)
+slug: john-bollinger-bollinger-on-bollinger-band
+source_file: John Bollinger - Bollinger On Bollinger Band.pdf
+source_review: partial
+tags:
+- bollinger-bands
+- volatility
+- percent-b
+- bandwidth
+- the-squeeze
+- pattern-recognition
+- volume-indicators
+- mean-reversion
+tier: A
+title: Bollinger on Bollinger Bands
+year: 2002
 ---
 
 ## Overview

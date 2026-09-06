@@ -1,17 +1,29 @@
 ---
-title: "New Twist on an Old Indicator"
 author: Joe Krutsinger
-year: 2005
-slug: new-twist-on-an-old-indicator
-tier: B
 category: Indicators
-tags: [moving-average, displaced-moving-average, neural-network, intermarket-analysis, stop-placement]
 difficulty: intermediate
 doc_type: article
+one_liner: Futures Magazine article on turning the lagging moving average into a leading
+  signal via Louis Mendelsohn's neural-network intermarket 'predicted' moving average
+  (VantagePoint).
 pages: 4
-one_liner: "Futures Magazine article on turning the lagging moving average into a leading signal via Louis Mendelsohn's neural-network intermarket 'predicted' moving average (VantagePoint)."
-related: [dynamic-breakout-ii-strategy, king-keltner-trading-strategy]
-source_file: "new_twist_on_an_old_indicator.pdf"
+related:
+- dynamic-breakout-ii-strategy
+- king-keltner-trading-strategy
+reviewed_pdf_pages: 1-4 (the predicted-moving-average method and the 18-week euro
+  test results)
+slug: new-twist-on-an-old-indicator
+source_file: new_twist_on_an_old_indicator.pdf
+source_review: partial
+tags:
+- moving-average
+- displaced-moving-average
+- neural-network
+- intermarket-analysis
+- stop-placement
+tier: B
+title: New Twist on an Old Indicator
+year: 2005
 ---
 
 ## Summary

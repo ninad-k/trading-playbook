@@ -1,17 +1,34 @@
 ---
-title: "Undeclared Stockmarket Secrets"
 author: Tom Williams
-year: unknown
-slug: williams-undeclared-stockmarket-secrets
-tier: B
 category: Indicators
-tags: [volume-spread-analysis, vsa, wyckoff, volume, no-demand, no-supply, testing, smart-money]
 difficulty: intermediate
 doc_type: book
+one_liner: An introduction to Volume Spread Analysis (VSA), reading the interplay
+  of volume and price spread to infer professional supply/demand and anticipate market
+  turns.
 pages: 129
-one_liner: "An introduction to Volume Spread Analysis (VSA), reading the interplay of volume and price spread to infer professional supply/demand and anticipate market turns."
-related: [wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2, cbot-a-six-part-study-guide-to-market-profile, s-and-c, admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability]
-source_file: "Williams - Undeclared Stockmarket Secrets.pdf"
+related:
+- wyckoff-richard-d-the-day-trader-s-bible-or-my-secret-in-day-trading-of-stocks-2
+- cbot-a-six-part-study-guide-to-market-profile
+- s-and-c
+- admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability
+reviewed_pdf_pages: the VSA principle chapters checked against the note; the book
+  states its signals qualitatively
+slug: williams-undeclared-stockmarket-secrets
+source_file: Williams - Undeclared Stockmarket Secrets.pdf
+source_review: partial
+tags:
+- volume-spread-analysis
+- vsa
+- wyckoff
+- volume
+- no-demand
+- no-supply
+- testing
+- smart-money
+tier: B
+title: Undeclared Stockmarket Secrets
+year: unknown
 ---
 
 ## Summary

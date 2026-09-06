@@ -1,17 +1,33 @@
 ---
-title: "The New Technical Trader: Boost Your Profit by Plugging Into the Latest Indicators"
-author: "Tushar S. Chande and Stanley Kroll"
-year: 1994
-slug: chande-kroll-the-new-technical-trader
-tier: A
+author: Tushar S. Chande and Stanley Kroll
 category: Indicators
-tags: [momentum, moving-average, volatility, stops, oscillators, mechanical-system]
 difficulty: intermediate
 doc_type: book
+one_liner: Introduces VIDYA, Qstick, the Chande Momentum Oscillator, StochRSI, Market
+  Thrust, and a volatility-based (Chande Kroll) stop, with backtested trading rules
+  for each.
 pages: 115
-one_liner: "Introduces VIDYA, Qstick, the Chande Momentum Oscillator, StochRSI, Market Thrust, and a volatility-based (Chande Kroll) stop, with backtested trading rules for each."
-related: [new-concepts-in-technical-trading-systems-welles-wilder, perry-kaufman-smarter-trading, john-hayden-how-to-use-the-rsi, wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator, money-management-report-van-tharp]
-source_file: "Chande Kroll - The New Technical Trader.pdf"
+related:
+- perry-kaufman-smarter-trading
+- john-hayden-how-to-use-the-rsi
+- wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+- money-management-report-van-tharp
+reviewed_pdf_pages: 6, 12, 15, 22, 25, 29, 39, 45, 49, 52, 55, 62, 65, 75, 92, 102,
+  109 (indicator construction and trading-rule pages for VIDYA, Qstick, CMO/StochRSI,
+  Market Thrust and the volatility stop)
+slug: chande-kroll-the-new-technical-trader
+source_file: Chande Kroll - The New Technical Trader.pdf
+source_review: partial
+tags:
+- momentum
+- moving-average
+- volatility
+- stops
+- oscillators
+- mechanical-system
+tier: A
+title: 'The New Technical Trader: Boost Your Profit by Plugging Into the Latest Indicators'
+year: 1994
 ---
 
 ## Overview
@@ -73,7 +89,7 @@ Best suited to traders already comfortable with standard indicators (RSI, moving
 
 ## Related books in this library
 
-- [[new-concepts-in-technical-trading-systems-welles-wilder]] — the origin of RSI, ADX/DMI, and ATR, all of which this book directly builds on or compares its new indicators against.
+- **New Concepts in Technical Trading Systems** (no library summary: corrupt) — the origin of RSI, ADX/DMI, and ATR, all of which this book directly builds on or compares its new indicators against.
 - [[perry-kaufman-smarter-trading]] — another adaptive/volatility-indexed moving-average approach, useful for comparing against VIDYA's design.
 - [[john-hayden-how-to-use-the-rsi]] — background on standard RSI, the base indicator StochRSI and CMO are built to improve on.
 - [[wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator]] — further RSI background relevant to the StochRSI and CMO chapters.

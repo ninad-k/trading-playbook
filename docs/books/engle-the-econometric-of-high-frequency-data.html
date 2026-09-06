@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Econometrics of Ultra-High Frequency Data — Robert F. Engle · Trading Playbook</title>
+<meta name="description" content="Engle models irregular transaction arrivals with conditional durations and links IBM trade timing to instantaneous quote volatility.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>The Econometrics of Ultra-High Frequency Data</h1>
+  <p class="byline">Robert F. Engle · 1996 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Engle models irregular transaction arrivals with conditional durations and links IBM trade timing to instantaneous quote volatility.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-19. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=high-frequency-data">high-frequency-data</a> <a class="tag" href="../search.html?q=acd">acd</a> <a class="tag" href="../search.html?q=transaction-duration">transaction-duration</a> <a class="tag" href="../search.html?q=volatility">volatility</a> </td></tr>
+    <tr><th>Length</th><td>19 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Econometrics of Ultra-High Frequency Data” by Robert F. Engle at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Engle defines ultra-high-frequency data as complete transaction records whose observations arrive at random times. Rather than forcing them into fixed calendar intervals, he represents each event by its duration since the previous trade and by “marks” such as price, volume, bid, and ask (pp. 3-6). This framework supports questions about the next event’s arrival rate, its marks, and the interaction between transaction intensity and volatility.</p>
+<p>The paper develops a semiparametric hazard estimator around Engle and Russell’s Autoregressive Conditional Duration (ACD) model, then applies it to 15,000 IBM trades. Intraday seasonality is removed before estimating an ACD(1,1). The fitted duration coefficients are .056 and .933, and the standardized durations show little residual serial dependence: the 15-lag Ljung-Box statistic falls from 1,209 for adjusted durations to 17.7 after standardization (pp. 10-11).</p>
+<p>Engle next combines ACD timing with a GARCH-style model for midquote returns. Longer trade durations are associated with lower instantaneous volatility, consistent with the Easley-O’Hara “no trade means no news” model rather than the Diamond-Verrecchia “no trade means bad news” prediction. Expected duration has a nonlinear forecasting relation: both very long and very short expected durations imply lower volatility in this sample (pp. 12-17).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Aggregating to fixed intervals discards information and complicates very short-interval analysis (p. 3).</li>
+<li>Duration and marks can be modeled jointly, or separately under stated exogeneity conditions (pp. 4-8).</li>
+<li>The ACD model captures persistent clustering in IBM intertrade durations (pp. 10-11).</li>
+<li>Calendar-time volatility fits slightly better than a plain transaction-time GARCH model, although the difference is small (pp. 16-17).</li>
+<li>Results concern quote volatility conditional on timing, not a directional trading signal.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Preserve event timestamps and model intertrade durations directly when timing may contain information (pp. 3-6).</li>
+<li>Remove deterministic time-of-day duration patterns before estimating persistence, as in the IBM application (p. 10).</li>
+<li>Diagnose standardized durations and volatility residuals for remaining serial dependence before interpreting coefficients (pp. 11, 15-16).</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>The empirical application uses one 15,000-trade IBM sample and preliminary model specifications. Some duration effects weaken with robust standard errors, and quote discreteness leaves residual mean dependence. The paper does not test returns after costs.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Market-microstructure researchers and quantitative analysts modeling irregular trades, transaction intensity, and intraday volatility.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li><li><a href="../books/mcmillan-and-speight-nonlinear-dynamics-in-high-frequency-intra-day-financial-data.html">Nonlinear Dynamics in High Frequency Intra-Day Financial Data</a> — STAR models of UK long-gilt futures find short-horizon nonlinearities that fade for larger moves and after friction costs.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

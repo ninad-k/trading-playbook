@@ -1,17 +1,35 @@
 ---
-title: Day Trading the Currency Market
 author: Kathy Lien
-year: 2006
-slug: day-trading-the-currency-market
-tier: A
 category: Day Trading & Scalping
-tags: [forex, day-trading, technical-analysis, carry-trade, risk-management, trading-journal, breakout, moving-averages]
 difficulty: intermediate
 doc_type: book
+one_liner: Seven concrete, rule-based FX day-trading strategies (double zeros, breakouts,
+  perfect order, carry trade) built on a trading-journal and trend/range classification
+  framework.
 pages: 259
-one_liner: "Seven concrete, rule-based FX day-trading strategies (double zeros, breakouts, perfect order, carry trade) built on a trading-journal and trend/range classification framework."
-related: [icwr-forex-trading-strategy, elder-alexander-trading-for-a-living, come-into-my-trading-room-elder-alexander, jack-schwager-stock-market-wizards, cashing-in-on-short-term-currency-trends]
-source_file: "Day Trading the Currency Market.pdf"
+related:
+- icwr-forex-trading-strategy
+- elder-alexander-trading-for-a-living
+- come-into-my-trading-room-elder-alexander
+- jack-schwager-stock-market-wizards
+- cashing-in-on-short-term-currency-trends
+reviewed_pdf_pages: 7-12 (contents and strategy-rule listings, the perfect-order and
+  multiple-time-frame chapters and the ADX filter)
+slug: day-trading-the-currency-market
+source_file: Day Trading the Currency Market.pdf
+source_review: partial
+tags:
+- forex
+- day-trading
+- technical-analysis
+- carry-trade
+- risk-management
+- trading-journal
+- breakout
+- moving-averages
+tier: A
+title: Day Trading the Currency Market
+year: 2006
 ---
 
 ## Overview

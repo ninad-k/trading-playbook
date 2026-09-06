@@ -1,17 +1,34 @@
 ---
-title: "The Ultimate Trading Guide"
-author: "John R. Hill, George Pruitt, Lundy Hill"
-year: 2000
-slug: j-r-hill-g-pruitt-and-l-hill-the-ultimate-trading-guide
-tier: A
+author: John R. Hill, George Pruitt, Lundy Hill
 category: Trend Following & Mechanical Systems
-tags: [chart-patterns, mechanical-systems, money-management, backtesting, swing-trading, wyckoff, elliott-wave, futures]
 difficulty: intermediate
 doc_type: book
+one_liner: Futures Truth's founders teach supply/demand chart reading, then walk through
+  building, testing, and money-managing mechanical trading systems.
 pages: 302
-one_liner: "Futures Truth's founders teach supply/demand chart reading, then walk through building, testing, and money-managing mechanical trading systems."
-related: [curtis-faith-way-of-the-turtle, turtletrader, george-pruitt-building-winning-trading-systems-with-tradestation, elder-alexander-trading-for-a-living, elliott-waves-principle]
-source_file: "J R Hill G Pruitt And L Hill - The Ultimate Trading Guide.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- turtletrader
+- george-pruitt-building-winning-trading-systems-with-tradestation
+- elder-alexander-trading-for-a-living
+- elliott-waves-principle
+reviewed_pdf_pages: 3-4, 6-7, 13 (contents, market-stage definitions, the capital
+  allocation model and the case-study entry rules)
+slug: j-r-hill-g-pruitt-and-l-hill-the-ultimate-trading-guide
+source_file: J R Hill G Pruitt And L Hill - The Ultimate Trading Guide.pdf
+source_review: partial
+tags:
+- chart-patterns
+- mechanical-systems
+- money-management
+- backtesting
+- swing-trading
+- wyckoff
+- elliott-wave
+- futures
+tier: A
+title: The Ultimate Trading Guide
+year: 2000
 ---
 
 ## Overview

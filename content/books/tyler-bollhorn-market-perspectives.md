@@ -1,17 +1,32 @@
 ---
-title: "Market Perspectives"
 author: Tyler Bollhorn
-year: 2000
-slug: tyler-bollhorn-market-perspectives
-tier: B
 category: Swing Trading
-tags: [swing-trading, stockscores, support-resistance, momentum, scanning, market-psychology, breakout]
 difficulty: intermediate
 doc_type: manual
+one_liner: A Stockscores.com collection of short swing-trading strategy write-ups
+  covering bottom fishing, support/resistance, fading euphoric spikes, and the emotional
+  adoption cycle of stocks.
 pages: 62
-one_liner: "A Stockscores.com collection of short swing-trading strategy write-ups covering bottom fishing, support/resistance, fading euphoric spikes, and the emotional adoption cycle of stocks."
-related: [trade-breakouts, mindset-of-millionaire-traders, pivots]
-source_file: "Tyler Bollhorn - Market Perspectives.pdf"
+related:
+- trade-breakouts
+- mindset-of-millionaire-traders
+- pivots
+reviewed_pdf_pages: 3, 10-11 (the two scan definitions with their thresholds and the
+  worked examples)
+slug: tyler-bollhorn-market-perspectives
+source_file: Tyler Bollhorn - Market Perspectives.pdf
+source_review: partial
+tags:
+- swing-trading
+- stockscores
+- support-resistance
+- momentum
+- scanning
+- market-psychology
+- breakout
+tier: B
+title: Market Perspectives
+year: 2000
 ---
 
 ## Summary

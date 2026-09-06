@@ -1,17 +1,29 @@
 ---
-title: "Exchange Traded Funds: What's the (Big) Deal?"
 author: Unknown
-year: 2005
-slug: exchange-traded-funds
-tier: B
 category: Investing, Value & Market History
-tags: [etfs, index-investing, mutual-funds, market-makers, tax-efficiency, amex]
 difficulty: beginner
 doc_type: article
+one_liner: 'Knowledge@Wharton article explaining why ETFs grew explosively in the
+  early 2000s: intraday trading, low expense ratios, tax efficiency, and creation/redemption
+  arbitrage.'
 pages: 3
-one_liner: "Knowledge@Wharton article explaining why ETFs grew explosively in the early 2000s: intraday trading, low expense ratios, tax efficiency, and creation/redemption arbitrage."
-related: [nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng, m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti]
-source_file: "Exchange-Traded-Funds.pdf"
+related:
+- nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng
+- m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti
+reviewed_pdf_pages: 1-3
+slug: exchange-traded-funds
+source_file: Exchange-Traded-Funds.pdf
+source_review: full
+tags:
+- etfs
+- index-investing
+- mutual-funds
+- market-makers
+- tax-efficiency
+- amex
+tier: B
+title: 'Exchange Traded Funds: What''s the (Big) Deal?'
+year: 2005
 ---
 
 ## Summary

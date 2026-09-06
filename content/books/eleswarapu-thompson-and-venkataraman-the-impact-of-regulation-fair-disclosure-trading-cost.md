@@ -1,17 +1,33 @@
 ---
-title: "The Impact of Regulation Fair Disclosure: Trading Costs and Information Asymmetry"
-author: "Venkat R. Eleswarapu, Rex Thompson, Kumar Venkataraman"
-year: 2003
-slug: eleswarapu-thompson-and-venkataraman-the-impact-of-regulation-fair-disclosure-trading-cost
-tier: B
+author: Venkat R. Eleswarapu, Rex Thompson, Kumar Venkataraman
 category: Quant, Microstructure & Academic Research
-tags: [regulation-fd, information-asymmetry, bid-ask-spread, earnings-announcements, event-study, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Event study finding that SEC Regulation FD (2000) lowered information-asymmetry-driven
+  trading costs around NYSE earnings announcements, most for small, less-liquid stocks,
+  without raising volatility.
 pages: 31
-one_liner: "Event study finding that SEC Regulation FD (2000) lowered information-asymmetry-driven trading costs around NYSE earnings announcements, most for small, less-liquid stocks, without raising volatility."
-related: [madhavan-market-microstructure-a-survey, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro, parlour-and-seppi-liquidity-based-competition-for-order-flow]
-source_file: "Eleswarapu, Thompson And Venkataraman-The Impact Of Regulation Fair Disclosure Trading Costs And .pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- mann-venkataraman-and-waisburd-stock-liquidity-and-the-value-of-a-designated-liquidity-pro
+- parlour-and-seppi-liquidity-based-competition-for-order-flow
+reviewed_pdf_pages: 10-11, 23, 26 (the descriptive statistics and the spread comparisons
+  around Reg FD)
+slug: eleswarapu-thompson-and-venkataraman-the-impact-of-regulation-fair-disclosure-trading-cost
+source_file: Eleswarapu, Thompson And Venkataraman-The Impact Of Regulation Fair Disclosure
+  Trading Costs And .pdf
+source_review: partial
+tags:
+- regulation-fd
+- information-asymmetry
+- bid-ask-spread
+- earnings-announcements
+- event-study
+- academic-paper
+tier: B
+title: 'The Impact of Regulation Fair Disclosure: Trading Costs and Information Asymmetry'
+year: 2003
 ---
 
 ## Summary

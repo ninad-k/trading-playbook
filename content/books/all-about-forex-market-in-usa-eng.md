@@ -1,17 +1,32 @@
 ---
-title: "All About the Foreign Exchange Market in the United States"
-author: "Federal Reserve Bank of New York"
-year: 1998
-slug: all-about-forex-market-in-usa-eng
-tier: B
+author: Federal Reserve Bank of New York
 category: Forex Mechanics & Macro Drivers
-tags: [forex, market-structure, central-banks, spot-forward-swaps, currency-options, intervention, macro]
 difficulty: intermediate
 doc_type: manual
+one_liner: The New York Fed's institutional primer on how the U.S. segment of the
+  global FX market is structured, who trades it, what instruments exist, and how the
+  Fed and Treasury intervene.
 pages: 98
-one_liner: "The New York Fed's institutional primer on how the U.S. segment of the global FX market is structured, who trades it, what instruments exist, and how the Fed and Treasury intervene."
-related: [i-guide-to-currency-trading-forex, currency-trading-vehicles, welcometoforex]
-source_file: "All About Forex Market In Usa (Eng).pdf"
+related:
+- i-guide-to-currency-trading-forex
+- currency-trading-vehicles
+- welcometoforex
+reviewed_pdf_pages: 4, 13, 15, 19 (the market-structure, participant and forward-pricing
+  sections)
+slug: all-about-forex-market-in-usa-eng
+source_file: All About Forex Market In Usa (Eng).pdf
+source_review: partial
+tags:
+- forex
+- market-structure
+- central-banks
+- spot-forward-swaps
+- currency-options
+- intervention
+- macro
+tier: B
+title: All About the Foreign Exchange Market in the United States
+year: 1998
 ---
 
 ## Summary

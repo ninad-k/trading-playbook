@@ -1,17 +1,33 @@
 ---
-title: "Contrarian Investment Strategies: The Next Generation"
 author: David Dreman
-year: 1998
-slug: david-dreman-contrarian-investment-strategies-the-next-generation
-tier: A
 category: Investing, Value & Market History
-tags: [contrarian, value-investing, price-earnings, dividend-yield, behavioral-finance, low-pe, price-to-book]
 difficulty: intermediate
 doc_type: book
+one_liner: Behavioral-finance case for buying statistically cheap, out-of-favor stocks
+  (low P/E, P/CF, P/BV, high yield) because analysts and the market systematically
+  overreact.
 pages: 478
-one_liner: "Behavioral-finance case for buying statistically cheap, out-of-favor stocks (low P/E, P/CF, P/BV, high yield) because analysts and the market systematically overreact."
-related: [the-intelligent-investor-benjamin-graham, kahneman-daniel-investor-psychology, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "David Dreman - Contrarian Investment Strategies - The Next Generation.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- kahneman-daniel-investor-psychology
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 3-5, 59, 76, 109, 126, 193, 210, 244, 277, 294, 378, 411, 445
+  (the quintile-return tables, holding-period odds, analyst-error chapters, historical
+  return series and the diversification endnote)
+slug: david-dreman-contrarian-investment-strategies-the-next-generation
+source_file: David Dreman - Contrarian Investment Strategies - The Next Generation.pdf
+source_review: partial
+tags:
+- contrarian
+- value-investing
+- price-earnings
+- dividend-yield
+- behavioral-finance
+- low-pe
+- price-to-book
+tier: A
+title: 'Contrarian Investment Strategies: The Next Generation'
+year: 1998
 ---
 
 ## Overview

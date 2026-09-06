@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns — Efstathios Kalyvas · Trading Playbook</title>
+<meta name="description" content="MSc thesis testing whether autoregressive and neural-network models can predict daily FTSE/S&amp;P excess returns; neither beats naive random-walk benchmarks.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns</h1>
+  <p class="byline">Efstathios Kalyvas · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">MSc thesis testing whether autoregressive and neural-network models can predict daily FTSE/S&amp;P excess returns; neither beats naive random-walk benchmarks.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 6, 11 and the results chapters checked against the note&#39;s benchmark findings. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=neural-networks">neural-networks</a> <a class="tag" href="../search.html?q=genetic-algorithms">genetic-algorithms</a> <a class="tag" href="../search.html?q=stock-prediction">stock-prediction</a> <a class="tag" href="../search.html?q=autoregressive">autoregressive</a> <a class="tag" href="../search.html?q=academic-research">academic-research</a> <a class="tag" href="../search.html?q=efficient-markets">efficient-markets</a> </td></tr>
+    <tr><th>Length</th><td>166 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Using Neural Networks and Genetic Algorithms to Predict Stock Market Returns” by Efstathios Kalyvas at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>A University of Manchester MSc thesis asking whether daily excess returns (stock index return minus the Treasury Bill rate) of the FTSE 500 and S&amp;P 500 can be predicted using historical data. Data spans roughly eleven years of daily prices for model fitting plus about one year held out for testing. Method: first run two randomness tests (the Run test and the BDS test) on the excess-returns series to confirm they are not purely random; then fit two model families — univariate/multivariate autoregressive (AR) models, with lag length chosen via Akaike and Bayesian information criteria, and feed-forward neural networks (NN), with a genetic algorithm (GA) searching the space of network topologies (neuron counts, hidden layers) for the best structure. Both model types are evaluated against three naive benchmarks (random walk on price level, random walk on returns, and a &ldquo;same return as bonds&rdquo; model) using mean absolute error and three Theil-style benchmark ratios.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Both randomness tests reject pure randomness for the FTSE and S&amp;P excess-returns series — the data does contain some structure, so prediction is not a priori hopeless.</li>
+<li>Despite that, neither the AR models nor the GA-optimized NN models beat the naive &ldquo;no change in market value&rdquo; and &ldquo;same return as bonds&rdquo; benchmarks; only the weakest naive benchmark (random walk on returns) was reliably beaten.</li>
+<li>The GA did not converge on one dominant network topology; instead several different structures performed comparably well, with a consistent pattern of few neurons in the second hidden layer.</li>
+<li>NN mean absolute error was close to figures reported in comparable studies (e.g., Steiner &amp; Wittkemper on Frankfurt data), suggesting the result is not an artifact of this particular dataset.</li>
+<li>Mean absolute error alone is judged a misleading metric — models can look good on MAE while still failing to beat a &ldquo;no change&rdquo; naive predictor, which the study argues is the harder, more meaningful bar.</li>
+<li>NN models are judged theoretically superior to AR models because they can capture nonlinear as well as linear patterns, but this advantage did not translate into a practical edge in these experiments, and NN results are sensitive to random weight initialization.</li>
+<li>The authors&rsquo; interpretation: daily data may be too noisy, and any real patterns may be &ldquo;local&rdquo; (stable only over short sub-periods) rather than the stable &ldquo;global&rdquo; patterns these models are built to find.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — no tradable entry/exit system is proposed. The transferable takeaway for a trader evaluating any predictive model (ML-based or otherwise) is:
+1. Always benchmark against naive predictors, especially a &ldquo;no significant change&rdquo; random-walk model — the paper found these surprisingly hard to beat.
+2. Don&rsquo;t rely on mean absolute error alone to judge a forecasting model; use directional/benchmark-ratio metrics as well.
+3. Be skeptical of &ldquo;global&rdquo; pattern-mining over long historical windows given markets&rsquo; evolving regimes; consider testing on shorter, adaptive windows instead.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is an academic MSc thesis, not a trading manual — there is no discussion of transaction costs, position sizing, or live execution. The dataset and NN architectures (2001-era feed-forward nets) are dated relative to modern deep-learning approaches; conclusions about NN inability to beat naive predictors may not generalize to more recent architectures, features, or higher-frequency data. Findings support (rather than refute) a broadly efficient-markets view for the specific setup tested — daily excess returns using only lagged own-history as input.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quantitatively minded readers or systematic traders evaluating whether generic ML/NN forecasting on daily index data can produce an edge, and who want a rigorous, benchmark-driven cautionary study before building a return-prediction model.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/neural-prediction-of-weekly-stock-market-index-1.html">Application of Neural Networks to Stock Market Prediction</a> — A feedforward neural network using detrended S&amp;P 500 history plus lagged interest rates predicts next week&#39;s index one week ahead, tested on the 1987 crash and 1994 bull run.</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

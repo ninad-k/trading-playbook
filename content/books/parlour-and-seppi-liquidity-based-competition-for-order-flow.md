@@ -1,17 +1,33 @@
 ---
-title: Liquidity-Based Competition for Order Flow
-author: "Christine A. Parlour, Duane J. Seppi"
-year: 2003
-slug: parlour-and-seppi-liquidity-based-competition-for-order-flow
-tier: B
+author: Christine A. Parlour, Duane J. Seppi
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, limit-order-book, liquidity, order-preferencing, specialist-market, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Theoretical model of exchange competition showing that neither a pure limit-order
+  market nor a hybrid specialist/limit-order market is inherently 'competition-proof'
+  for order flow.
 pages: 43
-one_liner: "Theoretical model of exchange competition showing that neither a pure limit-order market nor a hybrid specialist/limit-order market is inherently 'competition-proof' for order flow."
-related: [exchange-rules-for-the-frankfurt-stock-exchange, madhavan-market-microstructure-a-survey, foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets]
-source_file: "Parlour And Seppi-Liquidity-Based Competition For Order Flow.pdf"
+related:
+- exchange-rules-for-the-frankfurt-stock-exchange
+- madhavan-market-microstructure-a-survey
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- hollifield-miller-sandas-and-slive-liquidity-supply-and-demand-in-limit-order-markets
+reviewed_pdf_pages: the model and results sections checked against the note; the paper
+  is analytical rather than numeric
+slug: parlour-and-seppi-liquidity-based-competition-for-order-flow
+source_file: Parlour And Seppi-Liquidity-Based Competition For Order Flow.pdf
+source_review: partial
+tags:
+- market-microstructure
+- limit-order-book
+- liquidity
+- order-preferencing
+- specialist-market
+- academic-paper
+tier: B
+title: Liquidity-Based Competition for Order Flow
+year: 2003
 ---
 
 ## Summary

@@ -1,17 +1,32 @@
 ---
-title: U.S. Key Economic Indicators
 author: Unknown
-year: unknown
-slug: u-s-key-economic-indica
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [economic-indicators, macro-data, cpi, gdp, employment, release-calendar, market-impact]
 difficulty: intermediate
 doc_type: manual
+one_liner: Reference glossary (Briefing.com-style) rating roughly 30 US economic releases
+  A-F for market impact, with source, release timing, and how each feeds forecasts
+  of the next.
 pages: 24
-one_liner: "Reference glossary (Briefing.com-style) rating roughly 30 US economic releases A-F for market impact, with source, release timing, and how each feeds forecasts of the next."
-related: [norman-frumkin-guide-to-economic-indicators, pocketbook-of-economic-indicator, the-pocketbook-of-economic-indicators-2, nfp]
-source_file: "U.S._KEY_ECONOMIC_INDICA.pdf"
+related:
+- norman-frumkin-guide-to-economic-indicators
+- pocketbook-of-economic-indicator
+- the-pocketbook-of-economic-indicators-2
+- nfp
+reviewed_pdf_pages: 1-3, 6-7 (the indicator grades and the release-timing details)
+slug: u-s-key-economic-indica
+source_file: U.S._KEY_ECONOMIC_INDICA.pdf
+source_review: partial
+tags:
+- economic-indicators
+- macro-data
+- cpi
+- gdp
+- employment
+- release-calendar
+- market-impact
+tier: B
+title: U.S. Key Economic Indicators
+year: unknown
 ---
 
 ## Summary

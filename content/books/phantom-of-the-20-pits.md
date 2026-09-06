@@ -1,17 +1,31 @@
 ---
-title: Phantom of the Pits
-author: "Phantom of the Pits (as told to Art Simpson)"
-year: 2000
-slug: phantom-of-the-20-pits
-tier: A
+author: Phantom of the Pits (as told to Art Simpson)
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, risk-management, pyramiding, behavior-modification, position-management]
 difficulty: intermediate
 doc_type: book
+one_liner: 'An anonymous veteran trader''s two-rule (later three-rule) behavioral
+  framework: assume every position is wrong until the market proves it correct, then
+  press proven winners without exception.'
 pages: 110
-one_liner: "An anonymous veteran trader's two-rule (later three-rule) behavioral framework: assume every position is wrong until the market proves it correct, then press proven winners without exception."
-related: [trading-in-the-zone, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, jack-schwager-stock-market-wizards]
-source_file: "Phantom of the 20 Pits.pdf"
+related:
+- trading-in-the-zone
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: the rules chapters checked against the note; the book states its
+  three rules without numeric parameters
+slug: phantom-of-the-20-pits
+source_file: Phantom of the 20 Pits.pdf
+source_review: partial
+tags:
+- psychology
+- discipline
+- risk-management
+- pyramiding
+- behavior-modification
+- position-management
+tier: A
+title: Phantom of the Pits
+year: 2000
 ---
 
 ## Overview

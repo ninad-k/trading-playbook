@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NDR Crowd Sentiment Indicators (Contrarian Extremes) — Ned Davis · Trading Playbook</title>
+<meta name="description" content="A set of quantified sentiment indicators with stated overbought/oversold thresholds for taking contrarian long/short or long/cash positions in the S&amp;P 500.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a> › <a href="../books/mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go.html">The Triumph of Contrarian Investing: Crowds, Manias, and Beating the Market by Going Against the Grain</a></p>
+  <h1>NDR Crowd Sentiment Indicators (Contrarian Extremes)</h1>
+  <p class="byline">Ned Davis · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A set of quantified sentiment indicators with stated overbought/oversold thresholds for taking contrarian long/short or long/cash positions in the S&amp;P 500.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=sentiment-indicators">sentiment-indicators</a> <a class="tag" href="../search.html?q=contrarian-investing">contrarian-investing</a> <a class="tag" href="../search.html?q=market-timing">market-timing</a> <a class="tag" href="../search.html?q=valuation">valuation</a> </td></tr>
+    <tr><th>Length</th><td>194 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “NDR Crowd Sentiment Indicators (Contrarian Extremes)” by Ned Davis at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A family of related sentiment-timing indicators, developed by Ned Davis Research (NDR), that convert survey data, fund-flow data, and futures positioning into a single bullish-percentage reading, then flag &ldquo;excessive optimism&rdquo; or &ldquo;excessive pessimism&rdquo; once that reading crosses a back-tested threshold. The underlying logic is the same across all of them: when a large majority of a given group (individual investors, newsletter writers, leveraged-fund investors, futures speculators) is already positioned or opinionated one way, there is little incremental buying or selling power left to extend the move, and historically the market has performed better than average after pessimism extremes and worse than average after optimism extremes. The indicators are meant to be combined (the book&rsquo;s own composite, the NDR Crowd Sentiment Poll, averages seven of them) and paired with a trend filter rather than traded individually or purely on a threshold cross.</p>
+<h2 id="rules">Rules</h2>
+<p>For each indicator, compute the stated ratio, compare it to the fixed or dynamic threshold, and treat a crossing as an &ldquo;extreme&rdquo; flag rather than an automatic trade trigger:</p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Data source</th>
+<th>Extreme pessimism (bullish signal)</th>
+<th>Extreme optimism (bearish signal)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AAII sentiment</td>
+<td>American Association of Individual Investors weekly survey; % bullish of (bullish+bearish), 2-week average</td>
+<td>below 44%</td>
+<td>above 61%</td>
+</tr>
+<tr>
+<td>Investors Intelligence advisors, falling-rate regime</td>
+<td>Newsletter writer poll; bulls/(bulls+bears)</td>
+<td>below 51%</td>
+<td>above 81%</td>
+</tr>
+<tr>
+<td>Investors Intelligence advisors, rising-rate regime</td>
+<td>same poll</td>
+<td>below 31%</td>
+<td>above 58%</td>
+</tr>
+<tr>
+<td>Rydex bull/bear fund assets</td>
+<td>Assets in leveraged/inverse index funds; bull assets / (bull+bear assets)</td>
+<td>below 51%</td>
+<td>above 82.5%</td>
+</tr>
+<tr>
+<td>COT Speculator Index (S&amp;P futures)</td>
+<td>CFTC noncommercial net position as % of trailing 78-week range, 6-week smoothed</td>
+<td>below 40%</td>
+<td>above 60%</td>
+</tr>
+<tr>
+<td>NDR Crowd Sentiment Poll</td>
+<td>Composite of 7 sentiment series</td>
+<td>decline below 55.5% (with 10-point reversal to confirm)</td>
+<td>rise above 61.5% (with 10-point reversal to confirm)</td>
+</tr>
+<tr>
+<td>S&amp;P 500 P/E</td>
+<td>Trailing 12-month reported earnings</td>
+<td>below 9.3</td>
+<td>above 20.2</td>
+</tr>
+<tr>
+<td>Bond yield / earnings yield</td>
+<td>10-yr Treasury yield ÷ S&amp;P 500 earnings yield</td>
+<td>1.2 and below (favors stocks)</td>
+<td>1.45 and above (favors bonds)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regime switch (Investors Intelligence example).</strong> Determine whether short-term interest rates are currently in a falling or rising 26-week trend, then apply the corresponding pair of thresholds from the table above — the same raw sentiment reading is not evaluated against a fixed bar across all monetary regimes.</p>
+<p><strong>Entry/exit for the illustrated Investors Intelligence strategy.</strong> Buy the S&amp;P 500 (from cash/commercial paper) when the applicable &ldquo;extreme pessimism&rdquo; threshold is crossed; sell out of the S&amp;P 500 into commercial paper when the applicable &ldquo;extreme optimism&rdquo; threshold is crossed. This produces a long/cash rotation rather than a long/short position. The book reports this specific rule set produced zero losing round-trip trades and a higher annualized return than buy-and-hold over 1968-2003 (hypothetical, in-sample).</p>
+<p><strong>Individual-stock version.</strong> For a single stock, test each of 7 valuation ratios (price to: dividends, sales, earnings, cashflow, 20-quarter average earnings, 20-quarter average cashflow, book value) against a range of threshold levels using that stock&rsquo;s own historical data, and keep whichever ratio/threshold pair best separated subsequent good and bad forward returns historically. Combine the resulting &ldquo;overconfident&rdquo; / &ldquo;overly fearful&rdquo; valuation zone with a 39-week simple moving average trend filter: after the stock shows an &ldquo;overly fearful&rdquo; valuation reading, wait for price to cross back above its 39-week moving average before buying; after an &ldquo;overconfident&rdquo; reading, wait for a cross back below the 39-week average before selling.</p>
+<p><strong>Confirmation rule for the composite poll.</strong> Do not treat a threshold cross on the NDR Crowd Sentiment Poll alone as a signal; the book only marks a confirmed extreme once the indicator has additionally reversed by 10 percentage points off its extreme reading, and states plainly that the arrows shown in its own charts are placed in hindsight and &ldquo;do not represent buy and sell signals&rdquo; that could have been followed in real time.</p>
+<h2 id="risk">Risk</h2>
+<p>No explicit stop-loss or position-sizing rule is given for any of these indicators. The book&rsquo;s implicit risk control is being out of the market (in cash/commercial paper) during the &ldquo;extreme optimism&rdquo; phase rather than short, which caps downside participation without adding short-side risk. Two risk warnings are stated directly in the text: (1) sentiment extremes &ldquo;can persist for frustratingly long periods&rdquo; — a stock or index can stay in an extreme-pessimism or extreme-optimism valuation zone for a large share of its history (one example cited spent roughly 60% of the time outside its &ldquo;reasonable&rdquo; valuation band), so a threshold cross alone is not a precisely timed entry; and (2) threshold levels themselves are not static — advisor and investor sentiment &ldquo;normal ranges&rdquo; have shifted over multi-decade samples, which is why the book applies a regime-dependent (dynamic bracket) adjustment for at least one of the series rather than a single fixed number for all market environments.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The COT Speculator Index, Rydex fund ratio, and NDR Crowd Sentiment Poll all draw on data histories under 20 years (Rydex funds only existed from the mid-1990s at publication), which is a small sample for setting &ldquo;extreme&rdquo; thresholds meant to hold across future decades and regimes. The book&rsquo;s own strongest performance claim (the Investors Intelligence dynamic-bracket strategy with zero losing trades, 1968-2003) is a single-market, single-period, in-sample backtest with no out-of-sample validation shown, and past 2003 the retail brokerage, options, and ETF landscape changed enough (proliferation of leveraged and inverse products, options market growth, algorithmic flow) that some of these specific series&rsquo; historical thresholds likely need re-calibration rather than direct reuse. The individual-stock valuation-band approach explicitly requires re-optimizing per stock from that stock&rsquo;s own history — it has no universal threshold — and the authors state outright that it is intended as a sentiment-perspective tool, not as a standalone trading system, so treat it as a filter to be combined with independent price/trend signals rather than a complete method on its own.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

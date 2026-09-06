@@ -1,17 +1,31 @@
 ---
-title: "Back to Basics: Historical Option Pricing Revisited"
-author: "Jean-Philippe Bouchaud, Marc Potters"
-year: 1999
-slug: back-to-basics-historical-option-pricing-revisited
-tier: B
-category: "Options, Futures & Derivatives"
-tags: [option-pricing, black-scholes, volatility-smile, kurtosis, risk-minimization, academic-research]
+author: Jean-Philippe Bouchaud, Marc Potters
+category: Options, Futures & Derivatives
 difficulty: advanced
 doc_type: paper
+one_liner: Physicists Bouchaud and Potters re-derive option pricing from historical
+  (not risk-neutral) probability using a risk-minimization framework, and show the
+  resulting volatility smile matches real BUND option data.
 pages: 10
-one_liner: "Physicists Bouchaud and Potters re-derive option pricing from historical (not risk-neutral) probability using a risk-minimization framework, and show the resulting volatility smile matches real BUND option data."
-related: [kiesel-financial-mathematics, black-scholes-option-pricing-model, hull-options-futures-and-other-derivative-securities-5th-ed]
-source_file: "Back To Basics -- Historical Option Pricing Revisited.pdf"
+related:
+- kiesel-financial-mathematics
+- black-scholes-option-pricing-model
+- hull-options-futures-and-other-derivative-securities-5th-ed
+reviewed_pdf_pages: 1, 5, 8 (the residual-risk result, the empirical Bund-future study
+  and the model assumptions)
+slug: back-to-basics-historical-option-pricing-revisited
+source_file: Back To Basics -- Historical Option Pricing Revisited.pdf
+source_review: partial
+tags:
+- option-pricing
+- black-scholes
+- volatility-smile
+- kurtosis
+- risk-minimization
+- academic-research
+tier: B
+title: 'Back to Basics: Historical Option Pricing Revisited'
+year: 1999
 ---
 
 ## Summary

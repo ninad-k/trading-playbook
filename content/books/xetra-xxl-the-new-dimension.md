@@ -1,17 +1,31 @@
 ---
-title: "Xetra XXL: The New Dimension"
-author: "Deutsche Börse AG"
-year: 2001
-slug: xetra-xxl-the-new-dimension
-tier: B
+author: Deutsche Börse AG
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, block-trading, xetra, crossing-network, transaction-costs, exchange-mechanics]
 difficulty: advanced
 doc_type: manual
+one_liner: Deutsche Börse sales deck explaining Xetra XXL, its periodic crossing-auction
+  block-trading platform for large stock orders on DAX/MDAX/TecDAX names.
 pages: 33
-one_liner: "Deutsche Börse sales deck explaining Xetra XXL, its periodic crossing-auction block-trading platform for large stock orders on DAX/MDAX/TecDAX names."
-related: [competition-between-exchanges-euronext-versus-xetra, xetraxxl-marketmodel, exchange-rules-for-the-frankfurt-stock-exchange, madhavan-market-microstructure-a-survey]
-source_file: "Xetra Xxl The New Dimension.pdf"
+related:
+- competition-between-exchanges-euronext-versus-xetra
+- xetraxxl-marketmodel
+- exchange-rules-for-the-frankfurt-stock-exchange
+- madhavan-market-microstructure-a-survey
+reviewed_pdf_pages: 10-11, 29 (the crossing-auction schedule, order-book design and
+  the fee model)
+slug: xetra-xxl-the-new-dimension
+source_file: Xetra Xxl The New Dimension.pdf
+source_review: partial
+tags:
+- market-microstructure
+- block-trading
+- xetra
+- crossing-network
+- transaction-costs
+- exchange-mechanics
+tier: B
+title: 'Xetra XXL: The New Dimension'
+year: 2001
 ---
 
 ## Summary

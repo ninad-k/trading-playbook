@@ -1,17 +1,33 @@
 ---
-title: "EZ Trade FOREX"
-author: "Beau Diamond"
-year: 2003
-slug: ez-trade-forex
-tier: B
+author: Beau Diamond
 category: Trend Following & Mechanical Systems
-tags: [forex, mechanical-system, dpo, macd, dmi, moving-average-crossover, day-trading]
 difficulty: beginner
 doc_type: manual
+one_liner: A complete mechanical day-trading system for EUR/USD, USD/CHF, GBP/USD,
+  AUD/USD and USD/JPY built on a four-indicator confirmation stack (DPO, MACD, DMI,
+  3/15 MA cross) with fixed pip stops.
 pages: 67
-one_liner: "A complete mechanical day-trading system for EUR/USD, USD/CHF, GBP/USD, AUD/USD and USD/JPY built on a four-indicator confirmation stack (DPO, MACD, DMI, 3/15 MA cross) with fixed pip stops."
-related: [macd, forex-money-management, trading-with-macd-a-lesson-on-divergence, forex-intraday-pivots-trading-system-complete-system]
-source_file: "EZ Trade forex.pdf"
+related:
+- macd
+- forex-money-management
+- trading-with-macd-a-lesson-on-divergence
+- forex-intraday-pivots-trading-system-complete-system
+reviewed_pdf_pages: 10-11, 13-16 (the 3/15 moving-average crossover rules, trailing-stop
+  schedule and the worked trades)
+slug: ez-trade-forex
+source_file: EZ Trade forex.pdf
+source_review: partial
+tags:
+- forex
+- mechanical-system
+- dpo
+- macd
+- dmi
+- moving-average-crossover
+- day-trading
+tier: B
+title: EZ Trade FOREX
+year: 2003
 ---
 
 ## Summary

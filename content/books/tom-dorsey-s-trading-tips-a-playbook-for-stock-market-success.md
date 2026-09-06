@@ -1,17 +1,33 @@
 ---
-title: "Tom Dorsey's Trading Tips: A Playbook for Stock Market Success"
 author: Thomas J. Dorsey and the DWA Analysts
-year: 2001
-slug: tom-dorsey-s-trading-tips-a-playbook-for-stock-market-success
-tier: A
-category: "Market Structure & Price Action"
+category: Market Structure & Price Action
 difficulty: intermediate
 doc_type: book
+one_liner: A football-themed collection of 70+ short 'plays' built around point-and-figure
+  charting, bullish percent sector timing, relative strength, and disciplined position
+  sizing/exits.
 pages: 246
-tags: [point-and-figure, bullish-percent, relative-strength, technical-analysis, position-sizing, stock-selection, sector-rotation]
-one_liner: "A football-themed collection of 70+ short 'plays' built around point-and-figure charting, bullish percent sector timing, relative strength, and disciplined position sizing/exits."
-related: [the-forex-chartist-companion, jack-schwager-stock-market-wizards, how-to-make-money-in-stocks-pdf-forex, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]
-source_file: "Tom Dorsey's Trading Tips - A Playbook for Stock Market Success.pdf"
+related:
+- the-forex-chartist-companion
+- jack-schwager-stock-market-wizards
+- how-to-make-money-in-stocks-pdf-forex
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+reviewed_pdf_pages: 3, 5, 7-10, 21, 25, 35, 40 (contents, the bullish-percent and
+  relative-strength chapters, trendline construction and the pole-warning patterns)
+slug: tom-dorsey-s-trading-tips-a-playbook-for-stock-market-success
+source_file: Tom Dorsey's Trading Tips - A Playbook for Stock Market Success.pdf
+source_review: partial
+tags:
+- point-and-figure
+- bullish-percent
+- relative-strength
+- technical-analysis
+- position-sizing
+- stock-selection
+- sector-rotation
+tier: A
+title: 'Tom Dorsey''s Trading Tips: A Playbook for Stock Market Success'
+year: 2001
 ---
 
 ## Overview

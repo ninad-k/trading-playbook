@@ -1,17 +1,32 @@
 ---
-title: "3 Swing Trading Examples, With Charts, Instructions, and Definitions to Get You Started"
-author: "Alan Farley"
-year: 2001
-slug: alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s
-tier: B
+author: Alan Farley
 category: Swing Trading
-tags: [swing-trading, chart-patterns, short-selling, head-and-shoulders, moving-average, glossary]
 difficulty: beginner
 doc_type: article
+one_liner: Alan Farley walks through three live swing-trade setups (Amazon, Nvidia,
+  Alkermes) and closes with an extensive glossary of his swing-trading terminology.
 pages: 16
-one_liner: "Alan Farley walks through three live swing-trade setups (Amazon, Nvidia, Alkermes) and closes with an extensive glossary of his swing-trading terminology."
-related: [alan-farley-the-master-swing-trader, a-practical-guide-to-swing-trading, barry-rudd-stock-patterns-for-day-trading-and-swing-trading]
-source_file: "Alan Farley - 3 Swing Trading Examples, With Charts, Instructions, And Definitions To Get You Sta.pdf"
+related:
+- alan-farley-the-master-swing-trader
+- a-practical-guide-to-swing-trading
+- barry-rudd-stock-patterns-for-day-trading-and-swing-trading
+reviewed_pdf_pages: 2-5, 7-8 (the worked swing examples and the market-number and
+  stochastic discussions)
+slug: alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s
+source_file: Alan Farley - 3 Swing Trading Examples, With Charts, Instructions, And
+  Definitions To Get You Sta.pdf
+source_review: partial
+tags:
+- swing-trading
+- chart-patterns
+- short-selling
+- head-and-shoulders
+- moving-average
+- glossary
+tier: B
+title: 3 Swing Trading Examples, With Charts, Instructions, and Definitions to Get
+  You Started
+year: 2001
 ---
 
 ## Summary

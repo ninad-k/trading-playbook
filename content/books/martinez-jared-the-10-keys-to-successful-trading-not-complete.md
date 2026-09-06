@@ -1,17 +1,33 @@
 ---
-title: "The 10 Keys to Successful Trading (Introductory Manual, Incomplete)"
 author: Jared F. Martinez
-year: 2002
-slug: martinez-jared-the-10-keys-to-successful-trading-not-complete
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, candlesticks, order-types, equity-management, market-traders-institute, beginner]
 difficulty: beginner
 doc_type: manual
+one_liner: 'Incomplete introductory manual for Market Traders Institute''s forex course:
+  what the FOREX is, candlestick pattern reading, and the mechanics of market/limit/stop/OCO
+  orders; the actual ''10 Keys'' chapter is omitted from this excerpt.'
 pages: 24
-one_liner: "Incomplete introductory manual for Market Traders Institute's forex course: what the FOREX is, candlestick pattern reading, and the mechanics of market/limit/stop/OCO orders; the actual '10 Keys' chapter is omitted from this excerpt."
-related: [forex-manual-10-keys-to-successful-trading, 10keystosuccess, jp-candlesticks, trading-hill-arthur-introduction-to-candlesticks, glossary-of-forex-terms]
-source_file: "Martinez_ Jared - The 10 Keys to Successful Trading (not complete).pdf"
+related:
+- forex-manual-10-keys-to-successful-trading
+- 10keystosuccess
+- jp-candlesticks
+- trading-hill-arthur-introduction-to-candlesticks
+- glossary-of-forex-terms
+reviewed_pdf_pages: 5-7 (the market-structure introduction and trader-level progression;
+  the file is an incomplete excerpt)
+slug: martinez-jared-the-10-keys-to-successful-trading-not-complete
+source_file: Martinez_ Jared - The 10 Keys to Successful Trading (not complete).pdf
+source_review: partial
+tags:
+- forex
+- candlesticks
+- order-types
+- equity-management
+- market-traders-institute
+- beginner
+tier: B
+title: The 10 Keys to Successful Trading (Introductory Manual, Incomplete)
+year: 2002
 ---
 
 ## Summary

@@ -37,6 +37,9 @@ def main():
         "missing_by_tier": dict(Counter(r["tier"] for r in backlog)),
         "provisional_skips": sum(r["slug"] in skips for r in backlog),
         "remaining_candidates": sum(r["slug"] not in skips for r in backlog),
+        "source_review": dict(Counter(p.get("source_review", "unrecorded") for p in notes.values() if p.get("doc_type") != "system")),
+        "excluded_pdfs": dict(Counter(r.get("c_status", "excluded") for r in manifest if r.get("ext") == "pdf" and r.get("tier") == "C")),
+        "unresolved_scans": [r["slug"] for r in manifest if r.get("tier") == "C" and r.get("c_status") == "no_text"],
         "backlog": backlog,
     }
     (DATA / "resume_inventory.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")

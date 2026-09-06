@@ -1,17 +1,28 @@
 ---
-title: "Maitei MA Method"
-author: "Maitei (forum handle)"
-year: unknown
-slug: maitei-ma-method
-tier: B
+author: Maitei (forum handle)
 category: Trend Following & Mechanical Systems
-tags: [forex, moving-averages, ema-crossover, trend-following, candlesticks, beginner-system]
 difficulty: beginner
 doc_type: manual
+one_liner: A one-page forum post describing a two-EMA (16/55) trend-and-signal forex
+  system confirmed by candle closes.
 pages: 1
-one_liner: "A one-page forum post describing a two-EMA (16/55) trend-and-signal forex system confirmed by candle closes."
-related: [5-13-62, understanding-forex-candlestick]
-source_file: "Maitei MA Method.pdf"
+related:
+- 5-13-62
+- understanding-forex-candlestick
+reviewed_pdf_pages: '1'
+slug: maitei-ma-method
+source_file: Maitei MA Method.pdf
+source_review: full
+tags:
+- forex
+- moving-averages
+- ema-crossover
+- trend-following
+- candlesticks
+- beginner-system
+tier: B
+title: Maitei MA Method
+year: unknown
 ---
 
 ## Summary

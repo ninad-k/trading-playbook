@@ -1,17 +1,31 @@
 ---
-title: "Pristine's Cardinal Rules of Trading"
-author: "Pristine Capital Holdings"
-year: unknown
-slug: pristine-s-cardinal-rules-of-trading
-tier: B
-category: "Day Trading & Scalping"
-tags: [gap-trading, stop-loss, order-types, short-selling, swing-trading, bollinger-bands, channel-trading]
+author: Pristine Capital Holdings
+category: Day Trading & Scalping
 difficulty: intermediate
 doc_type: manual
+one_liner: Pristine Day Trader subscriber report compiling concrete gap-trading, stop-loss,
+  and order-entry rules alongside short-selling, channel, and cycle-counting tactics.
 pages: 44
-one_liner: "Pristine Day Trader subscriber report compiling concrete gap-trading, stop-loss, and order-entry rules alongside short-selling, channel, and cycle-counting tactics."
-related: [candlestick-patterns-for-day-trading, disciplined-trader, barry-rudd-stock-patterns-for-day-trading-and-swing-trading]
-source_file: "Pristine's Cardinal Rules Of Trading.pdf"
+related:
+- candlestick-patterns-for-day-trading
+- disciplined-trader
+- barry-rudd-stock-patterns-for-day-trading-and-swing-trading
+reviewed_pdf_pages: 1, 3, 8-10 (the stop-loss and time-stop rules and the Bollinger-band
+  short setup)
+slug: pristine-s-cardinal-rules-of-trading
+source_file: Pristine's Cardinal Rules Of Trading.pdf
+source_review: partial
+tags:
+- gap-trading
+- stop-loss
+- order-types
+- short-selling
+- swing-trading
+- bollinger-bands
+- channel-trading
+tier: B
+title: Pristine's Cardinal Rules of Trading
+year: unknown
 ---
 
 ## Summary

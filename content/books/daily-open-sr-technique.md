@@ -1,17 +1,29 @@
 ---
-title: "DOSR: The Daily Open Support and Resistance Technique"
 author: Unknown
-year: 2007
-slug: daily-open-sr-technique
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, support-resistance, day-trading, intraday, pivot, eur-usd]
 difficulty: beginner
 doc_type: manual
+one_liner: A short forex intraday technique that draws support/resistance from the
+  daily candle's open, high, and low to trade 5-minute breakouts.
 pages: 3
-one_liner: "A short forex intraday technique that draws support/resistance from the daily candle's open, high, and low to trade 5-minute breakouts."
-related: [pivots, forex-intraday-pivots-trading-system-complete-system, automated-intraday-open-pivot-setup]
-source_file: "Daily Open-SR Technique.pdf"
+related:
+- pivots
+- forex-intraday-pivots-trading-system-complete-system
+- automated-intraday-open-pivot-setup
+reviewed_pdf_pages: 1-3
+slug: daily-open-sr-technique
+source_file: Daily Open-SR Technique.pdf
+source_review: full
+tags:
+- forex
+- support-resistance
+- day-trading
+- intraday
+- pivot
+- eur-usd
+tier: B
+title: 'DOSR: The Daily Open Support and Resistance Technique'
+year: 2007
 ---
 
 ## Summary

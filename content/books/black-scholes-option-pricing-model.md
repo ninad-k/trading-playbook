@@ -1,17 +1,29 @@
 ---
-title: "Black-Scholes Option Pricing Model"
 author: Nathan Coelen
-year: 2002
-slug: black-scholes-option-pricing-model
-tier: B
 category: Options, Futures & Derivatives
-tags: [options-pricing, black-scholes, stochastic-calculus, brownian-motion, derivatives, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: A step-by-step mathematical derivation of the Black-Scholes PDE and its
+  closed-form solution for a European call option.
 pages: 19
-one_liner: "A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option."
-related: [introduction-to-arbitrage-pricing-of-financial-derivatives, the-mathematics-of-financial-modeling-and-investment-management]
-source_file: "Black-Scholes Option Pricing Model.pdf"
+related:
+- introduction-to-arbitrage-pricing-of-financial-derivatives
+- the-mathematics-of-financial-modeling-and-investment-management
+reviewed_pdf_pages: the derivation sections checked against the note; the paper is
+  algebraic rather than numeric
+slug: black-scholes-option-pricing-model
+source_file: Black-Scholes Option Pricing Model.pdf
+source_review: partial
+tags:
+- options-pricing
+- black-scholes
+- stochastic-calculus
+- brownian-motion
+- derivatives
+- academic-paper
+tier: B
+title: Black-Scholes Option Pricing Model
+year: 2002
 ---
 
 ## Summary

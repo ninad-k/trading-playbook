@@ -1,17 +1,26 @@
 ---
-title: Performance of ASX Resource Stocks
 author: Noll Moriarty
-year: 2003
-slug: performance-asx-resources
-tier: B
 category: Investing, Value & Market History
-tags: [sector-analysis, resources, commodities, asx, microcaps, cross-correlation]
 difficulty: intermediate
 doc_type: article
+one_liner: Short ASX sector study arguing average resource-sector returns mislead,
+  and that resource investors correctly lead commodity prices by 1-2 years.
 pages: 4
-one_liner: "Short ASX sector study arguing average resource-sector returns mislead, and that resource investors correctly lead commodity prices by 1-2 years."
 related: []
-source_file: "Performance Asx Resources.pdf"
+reviewed_pdf_pages: 1-4
+slug: performance-asx-resources
+source_file: Performance Asx Resources.pdf
+source_review: full
+tags:
+- sector-analysis
+- resources
+- commodities
+- asx
+- microcaps
+- cross-correlation
+tier: B
+title: Performance of ASX Resource Stocks
+year: 2003
 ---
 
 ## Summary

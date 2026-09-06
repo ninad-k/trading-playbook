@@ -1,17 +1,35 @@
 ---
-title: "Trade Your Way to Riches Now! Video Seminar: Introduction to Technical Analysis (Training Manual)"
 author: Jake Bernstein
-year: 1996
-slug: jake-bernstein-trade-your-way-to-riches
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [seasonals, cycles, technical-analysis, sentiment, moving-averages, futures, key-date-seasonal]
 difficulty: intermediate
 doc_type: manual
+one_liner: Slide-deck training manual for Bernstein's four-part video seminar covering
+  futures basics, market cycles, seasonal price tendencies, and his back-tested Key
+  Date Seasonal calendar system.
 pages: 105
-one_liner: "Slide-deck training manual for Bernstein's four-part video seminar covering futures basics, market cycles, seasonal price tendencies, and his back-tested Key Date Seasonal calendar system."
-related: [jake-bernstein-market-masters, jake-bernstein-stock-market-strategies-that-work, jake-bernstein-trade-your-way-to-riches--key-date-seasonals, bernstein-jake-the-compleat-day-trader-vol-i]
-source_file: "Jake Bernstein - Trade Your Way To Riches.pdf"
+related:
+- jake-bernstein-market-masters
+- jake-bernstein-stock-market-strategies-that-work
+- jake-bernstein-trade-your-way-to-riches--key-date-seasonals
+- bernstein-jake-the-compleat-day-trader-vol-i
+reviewed_pdf_pages: 1-18, 56, 94-99 (slide manual; the Key Date Seasonal result tables
+  and module-1 slides were read in full, the remaining pages are chart plates and
+  DSI tables)
+slug: jake-bernstein-trade-your-way-to-riches
+source_file: Jake Bernstein - Trade Your Way To Riches.pdf
+source_review: partial
+tags:
+- seasonals
+- cycles
+- technical-analysis
+- sentiment
+- moving-averages
+- futures
+- key-date-seasonal
+tier: A
+title: 'Trade Your Way to Riches Now! Video Seminar: Introduction to Technical Analysis
+  (Training Manual)'
+year: 1996
 ---
 
 ## Overview

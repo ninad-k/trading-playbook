@@ -1,17 +1,27 @@
 ---
-title: "Superior Returns from Average Indicators"
 author: Easan Katir
-year: 2005
-slug: optimal-ma-crossovers
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [moving-averages, crossover-system, backtesting, trend-following, drawdown-control]
 difficulty: beginner
 doc_type: article
+one_liner: A backtest of moving-average crossover systems on QQQQ (1990-2004) showing
+  multiple MA combinations beating buy-and-hold with smaller drawdowns.
 pages: 4
-one_liner: "A backtest of moving-average crossover systems on QQQQ (1990-2004) showing multiple MA combinations beating buy-and-hold with smaller drawdowns."
-related: [1-a-mehanical-trading-system-tom-joseph, 5-13-62]
-source_file: "Optimal MA Crossovers.pdf"
+related:
+- 1-a-mehanical-trading-system-tom-joseph
+- 5-13-62
+reviewed_pdf_pages: 1-4
+slug: optimal-ma-crossovers
+source_file: Optimal MA Crossovers.pdf
+source_review: full
+tags:
+- moving-averages
+- crossover-system
+- backtesting
+- trend-following
+- drawdown-control
+tier: B
+title: Superior Returns from Average Indicators
+year: 2005
 ---
 
 ## Summary
@@ -21,7 +31,7 @@ source_file: "Optimal MA Crossovers.pdf"
 ## Key points
 
 - Buy-and-hold control: $1,000,000 → $7,001,754 over 15 years.
-- A 60-day/120-day EMA crossover is shown as the representative example: long at the start of uptrends, whipsaws in chop, but avoids catastrophic drawdowns.
+- A 60-day/120-day moving-average crossover is shown as the representative example (the article does not say whether the averages are simple or exponential): long at the start of uptrends, whipsaws in chop, but avoids catastrophic drawdowns.
 - Result matrix (short MA 10-60 days vs. long MA 120-240 days) ranges roughly $8.5M-$17.5M, all beating BAH; the best "plateau" zone averages around $16M.
 - Only ~25 trades occurred over 15 years for the most active combination, making commissions immaterial.
 - BAH is highly sensitive to starting date; the crossover method reduces that sensitivity by holding cash during downtrends.

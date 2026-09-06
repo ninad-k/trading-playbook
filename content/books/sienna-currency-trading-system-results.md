@@ -1,17 +1,26 @@
 ---
-title: "Sienna Currency Trading System Results"
-author: "Unknown"
-year: unknown
-slug: sienna-currency-trading-system-results
-tier: B
+author: Unknown
 category: Forex Mechanics & Macro Drivers
-tags: [forex, performance-report, leaderboard, risk-adjusted-return, managed-accounts]
 difficulty: beginner
 doc_type: manual
+one_liner: A single-page leaderboard of live FX managed-account results ranked by
+  risk-adjusted return, with no narrative or method disclosed.
 pages: 1
-one_liner: "A single-page leaderboard of live FX managed-account results ranked by risk-adjusted return, with no narrative or method disclosed."
-related: [money-management-risk-control-for-traders]
-source_file: "Sienna currency trading system results.pdf"
+related:
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: '1'
+slug: sienna-currency-trading-system-results
+source_file: Sienna currency trading system results.pdf
+source_review: full
+tags:
+- forex
+- performance-report
+- leaderboard
+- risk-adjusted-return
+- managed-accounts
+tier: B
+title: Sienna Currency Trading System Results
+year: unknown
 ---
 
 ## Summary

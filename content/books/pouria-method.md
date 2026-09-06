@@ -1,17 +1,29 @@
 ---
-title: "The Pouria Method"
 author: Unknown
-year: unknown
-slug: pouria-method
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, scalping, macd, moving-average, fixed-stop, fixed-target]
 difficulty: beginner
 doc_type: manual
+one_liner: 'A one-page forex scalping method: two red weighted moving averages plus
+  a yellow exponential average, MACD-confirmed, with a 14-pip stop and 10-15 pip target
+  on 30m/1H charts.'
 pages: 1
-one_liner: "A one-page forex scalping method: two red weighted moving averages plus a yellow exponential average, MACD-confirmed, with a 14-pip stop and 10-15 pip target on 30m/1H charts."
-related: [fx10, bunny-cross-system]
-source_file: "Pouria Method.pdf"
+related:
+- fx10
+- bunny-cross-system
+reviewed_pdf_pages: '1'
+slug: pouria-method
+source_file: Pouria Method.pdf
+source_review: full
+tags:
+- forex
+- scalping
+- macd
+- moving-average
+- fixed-stop
+- fixed-target
+tier: B
+title: The Pouria Method
+year: unknown
 ---
 
 ## Summary

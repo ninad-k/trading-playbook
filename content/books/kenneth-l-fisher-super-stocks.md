@@ -1,17 +1,32 @@
 ---
-title: Super Stocks
 author: Kenneth L. Fisher
-year: 1984
-slug: kenneth-l-fisher-super-stocks
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, growth-stocks, price-sales-ratio, valuation, fundamental-analysis, small-cap, super-stocks]
 difficulty: intermediate
 doc_type: book
+one_liner: Introduces the Price/Sales Ratio and Price/Research Ratio to find 'Super
+  Companies' bought cheap right after an earnings 'glitch'.
 pages: 289
-one_liner: "Introduces the Price/Sales Ratio and Price/Research Ratio to find 'Super Companies' bought cheap right after an earnings 'glitch'."
-related: [the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "KENNETH L. FISHER - Super Stocks.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- r-imperiale-the-micro-cap-investor-strategies-for-making-big-returns-in-small-companies
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 5, 10, 13, 58-59, 63, 66 (the PSR definition and threshold tables,
+  the PRR cross-check and the buy/sell rules)
+slug: kenneth-l-fisher-super-stocks
+source_file: KENNETH L. FISHER - Super Stocks.pdf
+source_review: partial
+tags:
+- value-investing
+- growth-stocks
+- price-sales-ratio
+- valuation
+- fundamental-analysis
+- small-cap
+- super-stocks
+tier: A
+title: Super Stocks
+year: 1984
 ---
 
 ## Overview

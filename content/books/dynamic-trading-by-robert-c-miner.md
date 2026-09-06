@@ -1,17 +1,33 @@
 ---
-title: Dynamic Trading
 author: Robert C. Miner
-year: 1997
-slug: dynamic-trading-by-robert-c-miner
-tier: A
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, time-cycles, price-projection, entry-triggers, trade-management, gann]
 difficulty: advanced
 doc_type: book
+one_liner: Practical Elliott Wave pattern rules combined with Fibonacci time and price
+  projections and a full set of daily-bar entry/stop trading strategies.
 pages: 505
-one_liner: "Practical Elliott Wave pattern rules combined with Fibonacci time and price projections and a full set of daily-bar entry/stop trading strategies."
-related: [miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur, elliott-waves-principle, fischer-robert-fibonacci-applications-and-strategies-for, fibonacci-ratios-with-pattern-recognition, gann-w-d-new-stock-trend-detector]
-source_file: "Dynamic.Trading.by.Robert.C..Miner.pdf"
+related:
+- miner-robert-high-probability-trading-strategies-entry-to-exit-tactics-for-the-forex-futur
+- elliott-waves-principle
+- fischer-robert-fibonacci-applications-and-strategies-for
+- fibonacci-ratios-with-pattern-recognition
+- gann-w-d-new-stock-trend-detector
+reviewed_pdf_pages: 2-3, 106, 232 (contents, the Elliott rules, and the Time Rhythm
+  Zone and time-cycle chapters)
+slug: dynamic-trading-by-robert-c-miner
+source_file: Dynamic.Trading.by.Robert.C..Miner.pdf
+source_review: partial
+tags:
+- elliott-wave
+- fibonacci
+- time-cycles
+- price-projection
+- entry-triggers
+- trade-management
+- gann
+tier: A
+title: Dynamic Trading
+year: 1997
 ---
 
 ## Overview

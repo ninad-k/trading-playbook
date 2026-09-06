@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paul Wilmott Introduces Quantitative Finance — Paul Wilmott · Trading Playbook</title>
+<meta name="description" content="A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Paul Wilmott Introduces Quantitative Finance</h1>
+  <p class="byline">Paul Wilmott · 2001 · <span class="badge tier-A">Tier A</span> <span class="badge">book</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A gentle, discursive intro to quant finance: products and no-arbitrage, option jargon and payoff diagrams, then a skeptical tour of technical analysis and market microstructure.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-11, 43, 59, 70 (products/markets front matter, the speculation-and-gearing worked example, and the technical-analysis chapter checked against the note&#39;s claims). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=quantitative-finance">quantitative-finance</a> <a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=no-arbitrage">no-arbitrage</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=technical-analysis">technical-analysis</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> </td></tr>
+    <tr><th>Length</th><td>72 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Paul Wilmott Introduces Quantitative Finance” by Paul Wilmott at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is Wilmott&rsquo;s introductory quant-finance text, aimed at readers who know little or no finance mathematics. The sampled pages cover its first three chapters: an introduction to financial products and the time value of money, a chapter on derivatives (option definitions, payoff diagrams, put-call parity, basic strategies), and a chapter that surveys traditional technical analysis and market microstructure modeling from a skeptical, probabilistic point of view. Wilmott uses Bloomberg screens, The Wall Street Journal listings, and a simple coin-tossing spreadsheet exercise to build intuition before introducing any formal mathematics. The tone throughout is conversational and pedagogical — sidebars (&ldquo;Time Out&hellip;&rdquo;) walk through symbols and concepts step by step for readers intimidated by notation.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Prices are best modeled probabilistically, not treated as deterministically predictable. Wilmott&rsquo;s opening move is to simulate a stock-like path by repeatedly multiplying a starting value by 1.01 (up) or 0.99 (down) on a coin flip — a multiplicative (lognormal/geometric) random walk, distinct from an additive (arithmetic/Normal) one. He is explicit that this is a modeling choice, not a claim that markets are literally unpredictable: manipulation and structural effects exist, but a probabilistic model is the practical foundation for pricing derivatives. The book&rsquo;s other organizing idea is no-arbitrage: prices of related instruments (spot vs. forward, call vs. put) must satisfy consistency relationships or riskless profit would be available; this idea does the heavy lifting throughout, well before any stochastic calculus is introduced.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>No-arbitrage / &ldquo;no free lunch&rdquo;</strong> — if two portfolios have identical payoffs in every future state, they must have the same price today, or a riskless profit is available. Used to derive the forward price and put-call parity without probability assumptions.</li>
+<li><strong>Lognormal (geometric) vs. Normal (arithmetic) random walk</strong> — multiplying by a random factor each period versus adding a random amount; the multiplicative version keeps prices positive and is Wilmott&rsquo;s default toy model.</li>
+<li><strong>Cum-dividend / ex-dividend</strong> — the stock&rsquo;s price drops around the ex-dividend date to offset the dividend the new buyer will not receive.</li>
+<li><strong>Forward price relation</strong> — F = S(t)·e^{r(T−t)} for a non-dividend asset, derived by hedging a forward against the underlying and cash rather than by forecasting; extended to F = S(t)·e^{(r+s−c)(T−t)} for commodities (storage cost s, convenience yield c), F = S(t)·e^{(r−r_f)(T−t)} for FX, and F = S(t)·e^{(r−q)(T−t)} for index futures with dividend yield q.</li>
+<li><strong>Backwardation / contango</strong> — futures price below vs. above the no-arbitrage spot-plus-carry level.</li>
+<li><strong>Payoff vs. profit diagrams</strong> — payoff = contract value at expiry as a function of the underlying (e.g., max(S−E,0) for a call); profit diagrams net out the premium paid, shifting the break-even point.</li>
+<li><strong>Intrinsic value vs. time value</strong> — intrinsic value is what the option would be worth if it expired today at the current level; time value is anything above that, driven by uncertainty until expiry.</li>
+<li><strong>Put-call parity</strong> — C − P = S − E·e^{−r(T−t)}, a model-independent relationship from a hedged portfolio of long call/short put replicating a forward.</li>
+<li><strong>Gearing (leverage)</strong> — an out-of-the-money option can produce a far higher percentage return than owning the underlying outright if the move is large enough, at the cost of a higher chance of the option expiring worthless.</li>
+<li><strong>Straddle / strangle</strong> — combinations (long call + long put, same or different strikes) used to speculate on volatility direction rather than price direction.</li>
+<li><strong>Efficiency of markets vs. technical analysis</strong> — Wilmott repeatedly flags that classic charting concepts (support/resistance, Elliott wave, Gann) lack a rigorous statistical foundation even though they are widely used.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<p>The book gives no complete, codeable trading system — it is a finance-theory primer, not a trading manual. It does document mechanics practitioners use:
+1. <strong>Coin-toss price simulation</strong>: start at 100, multiply by 1.01 on a head or 0.99 on a tail each period (p = 0.5 default) to generate a toy lognormal path — used purely as a teaching device, not a forecasting tool.
+2. <strong>Support and resistance, moving averages, oscillators, candlesticks, point-and-figure charts</strong> — described as commonly used technical tools (Section 3.2), presented descriptively rather than endorsed with specific entry/exit numbers.
+3. <strong>Elliott wave / Fibonacci</strong> — five up-wave / three down-wave pattern; peak ratios &ldquo;supposed&rdquo; to run near 1.618 and 2.618, which Wilmott explicitly flags as coincidental with the Fibonacci sequence&rsquo;s limiting ratio rather than causal (&ldquo;unfortunately&hellip; people extrapolate wildly from this&rdquo;).
+4. <strong>Volume and open interest</strong> — rising price with high volume signals trend strength; rising price with low volume can signal an impending reversal; rising open interest during a trend signals the trend is being reinforced by new positions rather than short-covering.</p>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>Not a focus of the sampled chapters. The book&rsquo;s closest treatment is structural: it explains gearing/leverage quantitatively (an example compares a 9.6% return on outright stock ownership to a 28% return on a call option for the same underlying move) and flags that the leverage cutting in favor of the option buyer on a big move cuts against a naked option seller symmetrically. No stop-loss, position-sizing, or capital-allocation rules are given in the sampled pages; if later chapters (options Greeks, hedging, risk-neutral valuation — outside the 72-page sample) address this more systematically, it is not visible here.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Largely absent from the sampled material; this is a technical primer, not a psychology-of-trading book. The one recurring behavioral note is a warning about survivorship bias in market-prediction claims: &ldquo;we&rsquo;ve all done it,&rdquo; Wilmott writes of confident post-hoc predictions, &ldquo;though it&rsquo;s nothing to be proud of&rdquo; — people who called a move loudly are remembered, while the many wrong calls are quietly forgotten.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Products and markets: equities, commodities, exchange rates, forwards and futures — instrument definitions, dividends, stock splits, fixed and floating interest rates, the time value of money, and the no-arbitrage derivation of the forward price.</li>
+<li>Ch 2 — Derivatives — call/put definitions and jargon, payoff and profit diagrams, writing vs. buying options, speculation and gearing, put-call parity, straddles/strangles/combinations, binary options, LEAPS/FLEX.</li>
+<li>Ch 3 — Predicting the markets? — technical analysis survey (charting, moving averages, oscillators, candlesticks, point-and-figure, Elliott wave, Fibonacci, Gann), volume and open interest, and an introduction to market microstructure modeling (producers, speculators, market makers).</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>The book&rsquo;s Bloomberg screenshots, quoted option prices, and newspaper listings are all dated late 1999/early 2000 (pre-decimalization US options quotes in fractions, not decimals), which dates the material but does not undermine the theory. Wilmott is unusually candid about the limits of technical analysis and chart-pattern folklore for a book that still describes them at length — he presents Elliott wave and Gann analysis descriptively while explicitly questioning their statistical grounding (&ldquo;Gann charts&hellip; need I say more?&rdquo;), a useful model of how to discuss popular-but-unproven methods without either dismissing or endorsing them uncritically. The sampled 72 pages only reach the end of the technical-analysis/microstructure section of Chapter 3; the book&rsquo;s more mathematically demanding later material (stochastic calculus, the Black-Scholes derivation, the Greeks, exotic options) that presumably follows is not represented in this sample.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders and analysts who want the conceptual scaffolding behind options and forwards (no-arbitrage reasoning, payoff diagrams, put-call parity) explained in plain language before tackling denser texts. Less useful for a reader who already knows options mechanics and wants either trading rules or the full mathematical derivation of pricing models — for the latter, this text is explicitly a stepping stone to Wilmott&rsquo;s more advanced books.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/rubinstein-mark-rubinstein-on-derivatives.html">Rubinstein on Derivatives</a> — covers the same no-arbitrage and payoff-diagram territory in more depth, plus the binomial model and Black-Scholes derivation this sample doesn&rsquo;t reach.</li>
+<li><a class="xref" href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — the standard, more comprehensive derivatives textbook Wilmott himself cites as one of &ldquo;the best books on options.&rdquo;</li>
+<li><a class="xref" href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — a focused treatment of the pricing model this introductory text sets up but does not derive in the sampled chapters.</li>
+<li><a class="xref" href="../books/chart-formations.html">Chart Formations</a> — a deeper dive into the chart patterns Wilmott surveys briefly and skeptically in Chapter 3.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/rubinstein-mark-rubinstein-on-derivatives.html">Rubinstein on Derivatives</a> — A state-price and replication-based path from forwards and options through volatility and dynamic strategies.</li><li><a href="../books/hull-options-futures-and-other-derivative-securities-5th-ed.html">Options, Futures, and Other Derivatives (5th Edition)</a> — The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.</li><li><a href="../books/black-scholes-option-pricing-model.html">Black-Scholes Option Pricing Model</a> — A step-by-step mathematical derivation of the Black-Scholes PDE and its closed-form solution for a European call option.</li><li><a href="../books/chart-formations.html">Chart Formations</a> — A reference sheet defining trendlines, channels, chart patterns, gaps, and Fibonacci retracements.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

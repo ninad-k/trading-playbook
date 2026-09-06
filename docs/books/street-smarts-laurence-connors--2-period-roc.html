@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2-Period ROC — Laurence A. Connors and Linda Bradford Raschke · Trading Playbook</title>
+<meta name="description" content="Calculates a short-term pivot from a 2-period rate of change to decide, by the close each day, whether to carry a long or short position home overnight.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/swing-trading.html">Swing Trading</a> › <a href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a></p>
+  <h1>2-Period ROC</h1>
+  <p class="byline">Laurence A. Connors and Linda Bradford Raschke · 1995 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Calculates a short-term pivot from a 2-period rate of change to decide, by the close each day, whether to carry a long or short position home overnight.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/swing-trading.html">Swing Trading</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=rate-of-change">rate-of-change</a> <a class="tag" href="../search.html?q=pivot-point">pivot-point</a> <a class="tag" href="../search.html?q=taylor-trading-technique">taylor-trading-technique</a> <a class="tag" href="../search.html?q=overnight-hold">overnight-hold</a> </td></tr>
+    <tr><th>Length</th><td>145 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “2-Period ROC” by Laurence A. Connors and Linda Bradford Raschke at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>Described by the authors as &ldquo;Pinball, Part 2,&rdquo; this pattern replaces Momentum Pinball&rsquo;s 1-period rate of change with a 2-period version and derives a daily pivot price rather than an RSI reading, to mechanically answer the question Taylor&rsquo;s original method left ambiguous — whether tomorrow should be a buying day or a selling day. It is meant to be used alongside Taylor&rsquo;s swing-trading framework (buy days find support at the previous day&rsquo;s low and close on the day&rsquo;s high; sell-short days test the previous day&rsquo;s high and reverse), concentrating on a single overnight decision rather than intraday entry and exit management.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li>Subtract today&rsquo;s close from the close two days ago (not yesterday) to get the 2-period rate of change: close(day one) minus close(day three, i.e., two sessions back).</li>
+<li>Add this value to yesterday&rsquo;s closing price (day two) to obtain the short-term pivot number for monitoring today&rsquo;s close.</li>
+<li>Go home <strong>long</strong> by the close if price is trading above this pivot; go home <strong>short</strong> by the close if price is trading below it. Look to exit the position the next day.</li>
+<li>If the 2-period rate of change flips from a buy to a sell signal and price closes below the pivot, reverse to short (and vice versa for a flip to a buy signal above the pivot).</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>The source presents this as a discretionary decision aid rather than a standalone system with a defined stop-loss rule of its own — the authors state explicitly they &ldquo;do not recommend trading this way on a mechanical basis.&rdquo; A worked S&amp;P example shows a fresh signal flip capturing a profitable next-day close in 8 of 11 trades when entered and exited purely on the close-to-close pivot flip, but no formal stop-loss, position size, or risk-per-trade figure is specified in the chapter; risk management is left to Taylor&rsquo;s underlying buy-day/sell-day support-and-resistance levels (the previous day&rsquo;s low for a buy day, the previous day&rsquo;s high for a sell-short day) referenced narratively rather than restated as hard rules here. The authors caution the underlying 2-period rate-of-change oscillator is &ldquo;noisy&rdquo; and prone to whipsaw in flat, quiet markets (illustratively, when ADX is below 16) and unreliable in a strongly trending market (ADX above 30 and rising) — meaning the tool should be filtered by a trend-strength reading before being used to time overnight holds.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This chapter&rsquo;s own 8-of-11 track record is a single illustrative example, not a formal backtest, and the authors are explicit that the indicator &ldquo;gives many false signals in quiet markets and encourages a trader to make too many marginal trades&rdquo; — a caution aimed specifically at beginners. It is presented as a discretionary overlay on Taylor&rsquo;s method rather than a mechanical trading system in its own right; the authors suggest it becomes a &ldquo;fine mechanical trading system&rdquo; only once combined with a longer-term trend indicator, a volatility filter, and a money-management algorithm — none of which are specified in this chapter. The appendix&rsquo;s Moore Research Center statistical studies are cited as showing the underlying short-term momentum function carries a statistically significant edge, but that study covers the raw indicator, not this chapter&rsquo;s specific pivot-based execution rule.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

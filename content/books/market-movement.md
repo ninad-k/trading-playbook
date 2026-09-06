@@ -1,17 +1,31 @@
 ---
-title: "Fundamentals + Investor Perception = Market Movement"
 author: Unknown
-year: 2003
-slug: market-movement
-tier: B
 category: Trading Psychology & Discipline
-tags: [contrarian, crowd-psychology, market-history, manias, sentiment, fundamentals]
 difficulty: beginner
 doc_type: article
+one_liner: A Windsor Advisory Services essay arguing price is set by emotional crowd
+  behavior more than fundamentals, using historical manias to make the case for contrarian
+  trading.
 pages: 10
-one_liner: "A Windsor Advisory Services essay arguing price is set by emotional crowd behavior more than fundamentals, using historical manias to make the case for contrarian trading."
-related: [mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go, david-dreman-contrarian-investment-strategies-the-next-generation, kahneman-daniel-investor-psychology, trade-breakouts]
-source_file: "Market_Movement.pdf"
+related:
+- mcgraw-hill-the-triumph-of-contrarian-investing-crowds-manias-and-beating-the-market-by-go
+- david-dreman-contrarian-investment-strategies-the-next-generation
+- kahneman-daniel-investor-psychology
+- trade-breakouts
+reviewed_pdf_pages: 1-10
+slug: market-movement
+source_file: Market_Movement.pdf
+source_review: full
+tags:
+- contrarian
+- crowd-psychology
+- market-history
+- manias
+- sentiment
+- fundamentals
+tier: B
+title: Fundamentals + Investor Perception = Market Movement
+year: 2003
 ---
 
 ## Summary

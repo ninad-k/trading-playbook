@@ -1,17 +1,28 @@
 ---
-title: "Application of Multi-Agent Games to the Prediction of Financial Time-Series"
-author: "Neil F. Johnson, David Lamper, Paul Jefferies, Michael L. Hart, Sam Howison"
-year: 2001
-slug: application-of-multi-agent-games-to-the-prediction-of-financial-time-series
-tier: B
+author: Neil F. Johnson, David Lamper, Paul Jefferies, Michael L. Hart, Sam Howison
 category: Quant, Microstructure & Academic Research
-tags: [agent-based-models, minority-game, econophysics, time-series-prediction, forex, market-microstructure]
 difficulty: advanced
 doc_type: paper
+one_liner: Oxford physicists show a Minority-Game-based multi-agent model trained
+  on price history can predict next-tick and multi-step FX direction better than chance.
 pages: 7
-one_liner: "Oxford physicists show a Minority-Game-based multi-agent model trained on price history can predict next-tick and multi-step FX direction better than chance."
-related: [kalman-filter-for-arbitrage-identification-in-high-frequency-data]
-source_file: "Application Of Multi-Agent Games To The Prediction Of Financial Time-Series.pdf"
+related:
+- kalman-filter-for-arbitrage-identification-in-high-frequency-data
+reviewed_pdf_pages: 2-3, 6 (the results section with the 54%-versus-random-walk comparison
+  and the references)
+slug: application-of-multi-agent-games-to-the-prediction-of-financial-time-series
+source_file: Application Of Multi-Agent Games To The Prediction Of Financial Time-Series.pdf
+source_review: partial
+tags:
+- agent-based-models
+- minority-game
+- econophysics
+- time-series-prediction
+- forex
+- market-microstructure
+tier: B
+title: Application of Multi-Agent Games to the Prediction of Financial Time-Series
+year: 2001
 ---
 
 ## Summary

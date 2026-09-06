@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Turtle Trading System (Original Rules) — Curtis Faith · Trading Playbook</title>
+<meta name="description" content="The master reference for the Turtle system: N-based unit sizing, System 1 (20-day) and System 2 (55-day) breakout entries, 2N stops, ½N unit-adding, and 10/20-day breakout exits.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/turtlerules.html">The Original Turtle Trading Rules</a></p>
+  <h1>The Turtle Trading System (Original Rules)</h1>
+  <p class="byline">Curtis Faith · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">The master reference for the Turtle system: N-based unit sizing, System 1 (20-day) and System 2 (55-day) breakout entries, 2N stops, ½N unit-adding, and 10/20-day breakout exits.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=turtle-trading">turtle-trading</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=atr">atr</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=pyramiding">pyramiding</a> <a class="tag" href="../search.html?q=stops">stops</a> </td></tr>
+    <tr><th>Length</th><td>37 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Turtle Trading System (Original Rules)” by Curtis Faith at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>The mechanical trend-following system Richard Dennis and William Eckhardt taught the Turtles in December 1983, released directly by an Original Turtle. A volatility-normalized, dual channel-breakout system: two Donchian-style entries (20-day and 55-day breakouts), a single volatility unit (N) driving both position size and stops, and rule-based pyramiding and exits, traded unchanged across roughly two dozen liquid U.S. futures markets. This page is the canonical rule set that <a class="xref" href="../books/curtis-faith-way-of-the-turtle--turtle-system.html">The Original Turtle System (Faith&#x27;s Account)</a> and <a class="xref" href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results--turtle-trading-system.html">The Turtle Trading System</a> independently corroborate.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Markets.</strong> Liquid U.S. futures only: T-bond, T-note, Eurodollar, T-bill, currencies (Swiss franc, Deutschmark, British pound, French franc, yen, Canadian dollar), S&amp;P 500, coffee, cocoa, sugar, cotton, gold, silver, copper, crude oil, heating oil, unleaded gas. Grains and meats excluded. Once a trader opted out of a market, they stayed out consistently.</p>
+<p><strong>N (volatility unit).</strong> True Range = max(H−L, H−PDC, PDC−L). N = (19 × previous N + today&rsquo;s TR) / 20 — a 20-day EMA of true range, seeded with a 20-day simple average.</p>
+<p><strong>Unit size.</strong> Dollar volatility = N × dollars-per-point. Unit = (1% of equity) ÷ dollar volatility, truncated to whole contracts. Example: $1M account, heating oil N=0.0141, $42,000/point → unit ≈ 16.88 → 16 contracts. Recomputed weekly.</p>
+<p><strong>Entries — System 1 (20-day breakout).</strong> Buy/sell 1 unit on a 1-tick breakout of the 20-day high/low, intraday. Skip the signal if the last S1 breakout in that market (either direction) would have won — a profitable 10-day exit reached before moving 2N against it. A skipped signal is replaced by the 55-day (System 2) breakout as failsafe.</p>
+<p><strong>Entries — System 2 (55-day breakout).</strong> Buy/sell on a 1-tick breakout of the 55-day high/low; every signal taken regardless of the prior trade&rsquo;s outcome. Equity may be split freely between S1 and S2.</p>
+<p><strong>Adding units.</strong> Add 1 unit each ½N of favorable movement from the previous fill, up to 4 units/market — possibly all 4 in one day. Example (crude oil, N=1.20, entry 28.30): adds at 28.90, 29.50, 30.10.</p>
+<p><strong>Stops.</strong> Initial stop = 2N against entry (≈2% equity). Each add raises earlier units&rsquo; stops by ½N, so stops normally converge to 2N below the newest unit. Stops were mental price levels, not resting broker orders; once hit, exit without exception.</p>
+<p><strong>Whipsaw alternative.</strong> Tighter ½N stop (≈0.5% risk), re-entering at the original signal price if stopped out — more trades, lower win rate, reported better net results for some Turtles; worst-case 4-unit risk still ≤2%.</p>
+<p><strong>Exits.</strong> S1 positions exit fully on a 10-day opposite breakout; S2 on a 20-day opposite breakout — whichever comes first with the stop, and intraday like entries.</p>
+<p><strong>Position/correlation limits.</strong> Max 4 units/market; 6 units one-direction across closely correlated markets (e.g. heating oil/crude, gold/silver, Swiss franc/Deutschmark, T-bill/Eurodollar); 10 across loosely correlated markets (e.g. gold/copper); 12 total long or short portfolio-wide.</p>
+<p><strong>Execution tactics.</strong> Prefer limit orders near the market over market orders. In fast markets, wait for stabilization before entering. On simultaneous correlated signals, take one contract-month per market, buying the strongest and selling the weakest in the group. Roll contracts a few weeks before expiration unless the near month is notably stronger.</p>
+<h2 id="risk">Risk</h2>
+<p>Per-unit risk is capped near 2% of equity by the 2N stop; the 4/6/10/12 ladder caps aggregate exposure. Notional account equity was cut 20% for every 10% drawdown, so sizing shrinks automatically in losing periods. The edge depends on a low win rate offset by rare large trend winners — exiting early or slow-rolling adds hurts returns even though it &ldquo;feels&rdquo; safer. Gap risk is real: the October 1987 rate-cut shock cost Turtles loaded in rate futures 20–40% of equity in a day despite the unit limits.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Real slippage and gap risk (scheduled events especially) run higher than the formulas imply. Dollar-volatility examples use early-2000s contract sizes and need rescaling. No formal backtest or win-rate data is given — only the anecdotal 80% average annual return across Turtles as a group, masking wide dispersion between individuals on the same rules. The S1 &ldquo;skip on a winner&rdquo; rule and 55-day failsafe are easy to misimplement; use the exact logic above, not a paraphrase.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/curtis-faith-way-of-the-turtle--turtle-system.html">The Original Turtle System (Faith&#39;s Account)</a> — Faith&#39;s own reprint of the Turtles&#39; N-based sizing, System 1/System 2 breakout entries, 2N stops, and 1/2N pyramiding, as he traded it.</li><li><a href="../books/the-complete-turtletrader-the-legend-the-lessons-the-results--turtle-trading-system.html">The Turtle Trading System</a> — The full System One/System Two breakout rules, N-based unit sizing, 2N stops, and five-unit pyramiding taught to Richard Dennis&#39;s Turtles.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

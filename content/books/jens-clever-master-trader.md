@@ -1,17 +1,29 @@
 ---
-title: "Master Trader"
 author: Jens Clever
-year: unknown
-slug: jens-clever-master-trader
-tier: B
 category: Day Trading & Scalping
-tags: [direct-access-trading, level-2, momentum, breakouts, candlesticks, trade-management]
 difficulty: beginner
 doc_type: manual
+one_liner: A direct-access day trading coach's manual covering level 2 tape reading,
+  ten core setups, and a 2%-per-trade risk framework.
 pages: 93
-one_liner: "A direct-access day trading coach's manual covering level 2 tape reading, ten core setups, and a 2%-per-trade risk framework."
-related: [candlestick-patterns-for-day-trading, trade-book]
-source_file: "Jens Clever - Master Trader.pdf"
+related:
+- candlestick-patterns-for-day-trading
+- trade-book
+reviewed_pdf_pages: 2-3, 21, 50 (contents, the Level 2 chapter and the whole-number
+  support/resistance discussion)
+slug: jens-clever-master-trader
+source_file: Jens Clever - Master Trader.pdf
+source_review: partial
+tags:
+- direct-access-trading
+- level-2
+- momentum
+- breakouts
+- candlesticks
+- trade-management
+tier: B
+title: Master Trader
+year: unknown
 ---
 
 ## Summary

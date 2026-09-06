@@ -1,17 +1,27 @@
 ---
-title: The Miracle of Discipline
 author: Rob Booker
-year: 2003
-slug: miracle-of-discipline
-tier: B
 category: Trading Psychology & Discipline
-tags: [discipline, forex, trading-psychology, self-help, mindset]
 difficulty: beginner
 doc_type: article
+one_liner: Free promotional excerpt (chapter 1 of a 74-page ebook) arguing discipline,
+  not strategy, is the deciding factor between trading success and failure.
 pages: 10
-one_liner: "Free promotional excerpt (chapter 1 of a 74-page ebook) arguing discipline, not strategy, is the deciding factor between trading success and failure."
-related: [disciplined-trader, van-tharp-stop-worrying-yourself-out-of-profits]
-source_file: "Miracle_of_Discipline.pdf"
+related:
+- disciplined-trader
+- van-tharp-stop-worrying-yourself-out-of-profits
+reviewed_pdf_pages: 1-10
+slug: miracle-of-discipline
+source_file: Miracle_of_Discipline.pdf
+source_review: full
+tags:
+- discipline
+- forex
+- trading-psychology
+- self-help
+- mindset
+tier: B
+title: The Miracle of Discipline
+year: 2003
 ---
 
 ## Summary

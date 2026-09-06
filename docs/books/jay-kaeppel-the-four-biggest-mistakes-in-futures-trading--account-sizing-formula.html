@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Blended Account-Sizing Formula — Jay Kaeppel · Trading Playbook</title>
+<meta name="description" content="A worked, three-input formula for how much capital to allocate per futures contract, then blended into an &#39;optimum&#39; whole-portfolio account size.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a> › <a href="../books/jay-kaeppel-the-four-biggest-mistakes-in-futures-trading.html">The Four Biggest Mistakes in Futures Trading</a></p>
+  <h1>The Blended Account-Sizing Formula</h1>
+  <p class="byline">Jay Kaeppel · 2000 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A worked, three-input formula for how much capital to allocate per futures contract, then blended into an &#39;optimum&#39; whole-portfolio account size.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=optimal-f">optimal-f</a> <a class="tag" href="../search.html?q=drawdown">drawdown</a> <a class="tag" href="../search.html?q=leverage">leverage</a> </td></tr>
+    <tr><th>Length</th><td>123 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Blended Account-Sizing Formula” by Jay Kaeppel at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A step-by-step method for answering &ldquo;how much capital do I need to trade this market/system?&rdquo; by combining three risk measures — Optimal f, the largest historical overnight gap, and maximum drawdown — into a suggested capital figure per contract, then rolling per-market figures into a whole-portfolio account size via two methods (&ldquo;aggressive&rdquo; and &ldquo;conservative&rdquo;) that are averaged. It answers only the sizing question and applies to any entry/exit approach the trader has already chosen.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Step 1 — single-market capital (per contract):</strong>
+- <strong>Optimal f</strong> (Ralph Vince): from ≥30 trades, compute <code>PR = -(P/L) / largest losing trade</code> per trade, <code>HPR = 1 + f×PR</code>, and find the f (0.01–1.00) that maximizes the product of all HPRs; suggested capital = largest losing trade ÷ f (e.g., loss $2,000, f=0.40 → $5,000). Without a backtest, substitute <code>margin × 3</code>.
+- <strong>Largest overnight gap ($)</strong>: biggest historical open-vs-prior-close jump (Crude Oil gapped $7,500/contract in the 1991 Gulf War air raid); limit-move markets can still lock against you, non-limit markets have no bound.
+- <strong>Maximum drawdown ($)</strong>: worst peak-to-trough equity decline in testing; prefer out-of-sample data, since over-optimized results understate future drawdowns.
+- <strong>Combine (Optimal f available)</strong>: <code>(Optimal f $ + Largest Gap $ + (Max Drawdown $ + Margin)) / 3</code>. Yen example: (3,457 + 5,938 + (4,124+3,000)) / 3 = <strong>$5,506</strong>.
+- <strong>Combine (no Optimal f)</strong>: <code>((Margin × 3) + Largest Gap $) / 2</code>. Yen example: ((3,000×3) + 5,938) / 2 = <strong>$7,469</strong>.</p>
+<p><strong>Step 2 — portfolio sizing:</strong>
+- <strong>&ldquo;Aggressive&rdquo;</strong>: sum per-contract capital across markets. Example (Yen $5,506 + T-Bonds $5,982 + Soybeans $5,076 + Nat Gas $4,241) = <strong>$20,805</strong>.
+- <strong>&ldquo;Conservative&rdquo;</strong> (needs ≥30 months of P/L data): (σ of monthly returns × 3) / 0.1, targeting a 99% chance of not exceeding a 10% monthly drawdown. Example: σ=$1,500 → $45,000.
+- <strong>&ldquo;Optimum&rdquo;</strong>: average the two. Example: (20,805+45,000)/2 = <strong>$32,903</strong>.</p>
+<p><strong>Step 3 — optional sanity checks</strong> (same ≥30-month data set): Expected Annual % Return (monthly % compounded ×12); Expected Max Drawdown $ (σ×4) and %; P/L-to-σ Ratio (&gt;0.5 outstanding); Profit/Drawdown Ratio (Annual %/Drawdown %, ≥1 minimum, &gt;1.5 outstanding); % of profitable rolling 3- and 12-month periods, as a gauge of how easy the approach is to stick with.</p>
+<h2 id="risk">Risk</h2>
+<p>The method is a pre-trade sizing exercise, not an in-trade control — its output sets a ceiling on leverage, but stop-losses and position management still have to be layered on separately (see Mistake #3 in the parent book). The margin-to-equity ratio (open margin ÷ equity) is offered as an ongoing check that trading hasn&rsquo;t drifted past the implied sizing; Kaeppel&rsquo;s rule of thumb caps it below roughly 30% for non-aggressive trading. The method assumes future results resemble past results — every input is backward-looking, and the book notes &ldquo;previous records are made to be broken,&rdquo; so outputs should be treated as a floor, not a guarantee.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Optimal f by itself is explicitly flagged as dangerous for single-market use because its calculation only considers the single largest losing trade and ignores drawdown entirely, which is precisely why it is blended with the drawdown and overnight-gap terms rather than used alone. The conservative-sizing and sanity-check steps require at least 30 months of real or hypothetical monthly data; smaller samples aren&rsquo;t statistically meaningful by the book&rsquo;s own standard-deviation logic. All dollar inputs (margins, historical gaps) are specific to the markets and year (2000) the book was written in and must be refreshed with current data before use — the formulas themselves, not the numbers, are the durable part.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

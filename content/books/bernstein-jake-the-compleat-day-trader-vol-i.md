@@ -1,17 +1,34 @@
 ---
-title: "The Compleat Day Trader, Volume I"
 author: Jake Bernstein
-year: 1995
-slug: bernstein-jake-the-compleat-day-trader-vol-i
-tier: A
 category: Day Trading & Scalping
-tags: [day-trading, futures, gap-trading, moving-average-channel, stochastics, seasonality, scalping, order-types]
 difficulty: intermediate
 doc_type: book
+one_liner: A futures day-trading toolkit of roughly twenty short-term systems and
+  indicators (gaps, moving-average channel, RSI, stochastic pop, channel breakout,
+  seasonality, CTOD) plus order mechanics and trading psychology.
 pages: 242
-one_liner: "A futures day-trading toolkit of roughly twenty short-term systems and indicators (gaps, moving-average channel, RSI, stochastic pop, channel breakout, seasonality, CTOD) plus order mechanics and trading psychology."
-related: [jake-bernstein-stock-market-strategies-that-work, bernstein-jake-the-compleat-day-trader-vol-ii, jake-bernstein-trade-your-way-to-riches, turtlerules]
-source_file: "Bernstein, Jake - The Compleat Day Trader Vol I.pdf"
+related:
+- jake-bernstein-stock-market-strategies-that-work
+- bernstein-jake-the-compleat-day-trader-vol-ii
+- jake-bernstein-trade-your-way-to-riches
+- turtlerules
+reviewed_pdf_pages: 3-7, 50, 59, 126, 142, 201-202 (contents, the Stochastic Pop parameters,
+  technical-analysis chapter, spread economics and the full CTOD rule set)
+slug: bernstein-jake-the-compleat-day-trader-vol-i
+source_file: Bernstein, Jake - The Compleat Day Trader Vol I.pdf
+source_review: partial
+tags:
+- day-trading
+- futures
+- gap-trading
+- moving-average-channel
+- stochastics
+- seasonality
+- scalping
+- order-types
+tier: A
+title: The Compleat Day Trader, Volume I
+year: 1995
 ---
 
 ## Overview

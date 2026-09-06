@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Dynamic Break Out II Strategy (Full System) — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="A Donchian channel breakout whose look-back length adapts daily to changes in 30-day price volatility, filtered by an adaptive Bollinger Band and exited on an adaptive moving-average trailing stop.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a></p>
+  <h1>The Dynamic Break Out II Strategy (Full System)</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A Donchian channel breakout whose look-back length adapts daily to changes in 30-day price volatility, filtered by an adaptive Bollinger Band and exited on an adaptive moving-average trailing stop.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=donchian-channel">donchian-channel</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=adaptive-parameters">adaptive-parameters</a> <a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=seasonality">seasonality</a> </td></tr>
+    <tr><th>Length</th><td>406 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Dynamic Break Out II Strategy (Full System)” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>An upgraded version of George Pruitt&rsquo;s original 1996 Dynamic Break Out system (published in Futures Magazine), built on a standard Donchian channel breakout — buy on a new N-day high, sell on a new N-day low — but where N is not fixed. Instead, an &ldquo;adaptive engine&rdquo; changes the look-back length every day based on the percentage change in 30-day standard deviation of closing prices: rising volatility (associated with market indecision) widens the look-back, making entries harder to trigger; falling volatility (associated with a trending market) narrows the look-back, making entries easier. Version II adds an adaptive Bollinger Band filter on top of the raw breakout, and replaces the original&rsquo;s flat $1,500 money-management stop with a dynamic trailing stop set at the moving average of closes over the same adaptive window.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Adaptive look-back engine</strong>
+1. Initialize <code>lookBackDays = 20</code> on the first bar.
+2. Each subsequent day: <code>todayVolatility</code> = 30-day standard deviation of closes; <code>yesterdayVolatility</code> = the same calculation one bar back.
+3. <code>deltaVolatility = (todayVolatility − yesterdayVolatility) / todayVolatility</code>.
+4. <code>lookBackDays = lookBackDays × (1 + deltaVolatility)</code>, rounded to the nearest whole number.
+5. Clip <code>lookBackDays</code> to the range [20, 60] — the floor and ceiling the authors found necessary through testing, since values outside this band produced unacceptable results.</p>
+<p><strong>Bollinger filter and breakout levels (recomputed daily using the current <code>lookBackDays</code>)</strong>
+6. <code>upBand</code> = Bollinger Band of closes over <code>lookBackDays</code>, +2.0 standard deviations.
+7. <code>dnBand</code> = Bollinger Band of closes over <code>lookBackDays</code>, −2.0 standard deviations.
+8. <code>buyPoint</code> = highest high over <code>lookBackDays</code>; <code>sellPoint</code> = lowest low over <code>lookBackDays</code>.</p>
+<p><strong>Entry</strong>
+9. Go long on a stop at <code>buyPoint</code>, next bar, only if today&rsquo;s close is above <code>upBand</code>.
+10. Go short on a stop at <code>sellPoint</code>, next bar, only if today&rsquo;s close is below <code>dnBand</code>.
+11. Both the raw N-day breakout AND the Bollinger Band condition must agree before a signal fires — the band filter is what distinguishes Version II from the original 1996 system.</p>
+<p><strong>Exit</strong>
+12. <code>longLiqPoint</code> = <code>shortLiqPoint</code> = moving average of closes over the current (adaptive) <code>lookBackDays</code>.
+13. Exit a long (sell) on a stop at this liquidation point whenever price trades at or below it.
+14. Exit a short (buy to cover) on a stop at this liquidation point whenever price trades at or above it.
+15. This replaces the original Dynamic Break Out&rsquo;s flat $1,500 money-management stop entirely — the exit level is now volatility-adaptive, like the entry.</p>
+<p><strong>Parameters</strong>
+16. Look-back floor/ceiling = 20/60 days; Bollinger width = 2.0 standard deviations; volatility measurement window = 30 days. All held constant across every market traded.</p>
+<h2 id="risk">Risk</h2>
+<p>No account-level position sizing is specified. In the 1982-2002, 17-market backtest ($75 commission/slippage), the system made $452,504 net over 1,820 trades — fewer than King Keltner, Bollinger Bandit, or Thermostat, since the adaptive filter is more selective. Best: Japanese Yen (+$118,200), U.S. Bonds (+$67,094), Swiss Franc (+$57,338); worst: Copper (−$25,175), Live Cattle (−$17,397), Soybeans (−$9,681), Wheat (−$14,831). Two follow-up experiments on the soybean weakness both failed: fading every signal still lost money (−$1,681 net over 128 trades, 64% win rate, but losses outweighed wins), and a March-July-long/July-February-short seasonal filter also lost money (−$4,363 net, 36% win rate, 1996-2002).</p>
+<h2 id="caveats">Caveats</h2>
+<p>Same backtest limitations as the rest of the book: flat $75 commission/slippage, fixed window, no walk-forward validation, per-market rather than portfolio-level reporting. The authors are candid that trend-following systems generally can&rsquo;t capture grain markets&rsquo; cyclical, seasonality-driven behavior, and that neither a naive fade nor a seasonal filter fixed it in their own tests — readers shouldn&rsquo;t assume a similarly simple patch exists. The 20/60-day bounds on the adaptive engine were chosen empirically (&ldquo;through optimization&hellip; look-back lengths that fell beyond these boundaries did not generate acceptable expectations&rdquo;) rather than derived from theory, itself a mild form of the curve-fitting the book otherwise argues against.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/dynamic-breakout-ii-strategy.html">The Dynamic Break Out II Strategy</a> — A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

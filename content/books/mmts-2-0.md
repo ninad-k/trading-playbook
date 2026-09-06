@@ -1,17 +1,33 @@
 ---
-title: "MMTS 2.0: Get 20+ Pips Per Day"
 author: Monika Korzec
-year: 2006
-slug: mmts-2-0
-tier: B
 category: Day Trading & Scalping
-tags: [forex, gbp-usd, news-trading, money-management, trendlines, candlesticks, intraday]
 difficulty: intermediate
 doc_type: course
+one_liner: GBP/USD day-trading course built around two fixed daily windows — the 8:30am
+  NY news release and the London open — using pre-window candle ranges to trigger
+  mechanical entries.
 pages: 130
-one_liner: "GBP/USD day-trading course built around two fixed daily windows — the 8:30am NY news release and the London open — using pre-window candle ranges to trigger mechanical entries."
-related: [nfp, forex-money-management, forex-misc-money-management-ryan-jones, day-trading-the-currency-market]
-source_file: "MMTS 2.0.pdf"
+related:
+- nfp
+- forex-money-management
+- forex-misc-money-management-ryan-jones
+- day-trading-the-currency-market
+reviewed_pdf_pages: 3, 11-12 (contents, the news-trading results and the compounding
+  tables)
+slug: mmts-2-0
+source_file: MMTS 2.0.pdf
+source_review: partial
+tags:
+- forex
+- gbp-usd
+- news-trading
+- money-management
+- trendlines
+- candlesticks
+- intraday
+tier: B
+title: 'MMTS 2.0: Get 20+ Pips Per Day'
+year: 2006
 ---
 
 ## Summary

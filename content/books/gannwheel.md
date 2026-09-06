@@ -1,17 +1,28 @@
 ---
-title: "The Gann Wheel"
-author: "Unknown"
-year: unknown
-slug: gannwheel
-tier: B
+author: Unknown
 category: Fibonacci, Gann & Elliott Wave
-tags: [gann, square-of-nine, gann-wheel, support-resistance, price-forecasting, angles]
 difficulty: intermediate
 doc_type: manual
+one_liner: A short primer on the Gann Wheel / Square of Nine as a square-root-based
+  calculator for projecting price support and resistance via angular rotation.
 pages: 4
-one_liner: "A short primer on the Gann Wheel / Square of Nine as a square-root-based calculator for projecting price support and resistance via angular rotation."
-related: [gann-w-d-new-stock-trend-detector, gann-w-d-1953-magic-words, george-alexander-maclean-fibonacci-and-gann-applications]
-source_file: "GannWheel.pdf"
+related:
+- gann-w-d-new-stock-trend-detector
+- george-alexander-maclean-fibonacci-and-gann-applications
+reviewed_pdf_pages: 1-7 (all pages carrying extractable text; pages 2-5 are grid illustrations)
+slug: gannwheel
+source_file: GannWheel.pdf
+source_review: full
+tags:
+- gann
+- square-of-nine
+- gann-wheel
+- support-resistance
+- price-forecasting
+- angles
+tier: B
+title: The Gann Wheel
+year: unknown
 ---
 
 ## Summary

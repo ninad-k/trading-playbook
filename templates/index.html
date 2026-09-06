@@ -2,7 +2,8 @@
 {% block content %}
 <article class="index">
   <h1>{{ site_title }}</h1>
-  <p class="lead">{{ tagline }} The source inventory contains {{ counts.pdfs }} PDFs. This site currently has {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries and {{ counts.systems }} system write-ups; {{ counts.pending }} manifest notes remain in the review backlog.</p>
+  <p class="lead">{{ tagline }} The source inventory contains {{ counts.pdfs }} PDFs. This site currently has {{ counts.tier_a }} deep book notes, {{ counts.tier_b }} concise summaries and {{ counts.systems }} system write-ups; {{ counts.pending }} eligible sources await a note.</p>
+  <p class="muted">{{ counts.partial }} notes explicitly use partial source coverage. Older notes may not record the pages inspected. <a href="coverage.html">See reviewed pages, duplicates and exclusions for every PDF.</a></p>
   <div class="stats">
     <div><b>{{ counts.tier_a }}</b><span>deep notes</span></div>
     <div><b>{{ counts.tier_b }}</b><span>concise notes</span></div>

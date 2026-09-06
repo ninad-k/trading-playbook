@@ -1,17 +1,32 @@
 ---
-title: "All About Stocks"
-author: "Esmé Faerber"
-year: 2008
-slug: all-about-stocks-esme-faerber
-tier: B
+author: Esmé Faerber
 category: Investing, Value & Market History
-tags: [stocks, fundamental-analysis, technical-analysis, valuation, mutual-funds, etfs, portfolio-management]
 difficulty: beginner
 doc_type: book
+one_liner: 'Broad beginner-to-intermediate primer on stocks: risk/return, valuation,
+  financial statement analysis, technical analysis basics, funds, and portfolio management.'
 pages: 322
-one_liner: "Broad beginner-to-intermediate primer on stocks: risk/return, valuation, financial statement analysis, technical analysis basics, funds, and portfolio management."
-related: [10-minute-guide-to-investing-in-stocks, mcgraw-hill-understanding-stocks, jack-schwager-stock-market-wizards, economics-how-the-stock-market-works]
-source_file: "All About Stocks-ESME FAERBER.pdf"
+related:
+- 10-minute-guide-to-investing-in-stocks
+- mcgraw-hill-understanding-stocks
+- jack-schwager-stock-market-wizards
+- economics-how-the-stock-market-works
+reviewed_pdf_pages: 5, 8, 44, 62 (the contents, the quotation and financial-statement
+  chapters)
+slug: all-about-stocks-esme-faerber
+source_file: All About Stocks-ESME FAERBER.pdf
+source_review: partial
+tags:
+- stocks
+- fundamental-analysis
+- technical-analysis
+- valuation
+- mutual-funds
+- etfs
+- portfolio-management
+tier: B
+title: All About Stocks
+year: 2008
 ---
 
 ## Summary

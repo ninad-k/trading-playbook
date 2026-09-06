@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Testing the Markov Property with Ultra-High Frequency Financial Data — Joao Amaro de Matos, Marcelo Fernandes · Trading Playbook</title>
+<meta name="description" content="Academic paper developing a nonparametric test for whether bid-ask spreads follow a Markov process, rejecting the assumption for 3 of 5 NYSE stocks tested.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Testing the Markov Property with Ultra-High Frequency Financial Data</h1>
+  <p class="byline">Joao Amaro de Matos, Marcelo Fernandes · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Academic paper developing a nonparametric test for whether bid-ask spreads follow a Markov process, rejecting the assumption for 3 of 5 NYSE stocks tested.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: the methodology and results sections checked against the note; the paper reports test statistics rather than trading parameters. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=markov-process">markov-process</a> <a class="tag" href="../search.html?q=nonparametric-testing">nonparametric-testing</a> <a class="tag" href="../search.html?q=academic">academic</a> <a class="tag" href="../search.html?q=nyse">nyse</a> <a class="tag" href="../search.html?q=ultra-high-frequency">ultra-high-frequency</a> </td></tr>
+    <tr><th>Length</th><td>24 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Testing the Markov Property with Ultra-High Frequency Financial Data” by Joao Amaro de Matos, Marcelo Fernandes at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: many financial-economics models assume asset prices or spreads follow a Markov process (future behavior depends only on the current state, not the full history) — but is this testable, and does it hold for real transaction data? Prior tests required evenly time-spaced observations, unsuited to trade-by-trade data. Data: bid and ask price series for five actively traded NYSE stocks — Boeing, Coca-Cola, Disney, Exxon, IBM. Method: the authors model price as a continuous-time Markov process observed only when it crosses a discrete level (a &ldquo;subordinated&rdquo; Markov process), naturally handling irregular spacing and tick discreteness, and build a nonparametric test of the resulting conditional-independence property. Finding: raw bid/ask prices are nonstationary, so the test is applied to bid-ask spreads instead; the Markov assumption is not rejected for Disney and Exxon but is rejected for Boeing, Coca-Cola, and IBM.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Only two prior nonparametric Markov tests existed, both requiring evenly spaced data — unsuitable for irregularly spaced transaction records.</li>
+<li>The test exploits &ldquo;subordination&rdquo;: prices observed only on moves of at least a fixed tick, making consecutive price durations conditionally independent under the Markov null.</li>
+<li>Raw bid/ask price levels for all five stocks appear nonstationary, so the spread (ask minus bid) is the stationary series actually tested.</li>
+<li>Results are mixed: Markov not rejected for Disney and Exxon spreads, rejected for Boeing, Coca-Cola, and IBM.</li>
+<li>Non-Markovian spread behavior is linked to asymmetric-information microstructure theory: high adverse-selection costs make the spread depend on full trading history, breaking the Markov property.</li>
+<li>Asymptotic normality of the test statistic is formally derived under both the null and local alternatives, making this a methodological as well as empirical contribution.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — a pure econometric methodology paper, not a strategy source. Practical implication: a Markov (memoryless) assumption for bid-ask spread dynamics is not safe by default — it failed for 3 of 5 stocks here — meaning spread history may carry predictive information beyond the current level.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Highly technical (nonparametric kernel testing, mixing conditions, asymptotic theory), requiring econometrics background. Sample of five large-cap NYSE names from a pre-decimalization, pre-HFT era; results may not generalize to modern tick regimes.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quantitative researchers interested in bid-ask spread statistics and nonparametric time-series testing, not discretionary or retail traders.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the.html">Securities Trading in the Absence of Dealers: Trades and Quotes on the Tokyo Stock Exchange</a> — Academic microstructure study finding that Tokyo Stock Exchange&#39;s pure limit-order-book system (no dealers) supplies immediacy nearly as well as dealer markets, using warning/special quotes to slow large orders.</li><li><a href="../books/madhavan-market-microstructure-a-survey.html">Market Microstructure: A Survey</a> — A broad review connects trading institutions, information, liquidity, price formation, and empirical tests of market microstructure.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,17 +1,29 @@
 ---
-title: "The Trader Business-Plan"
-author: "Chris Terry"
-year: 2003
-slug: professional-trader-business-plan
-tier: B
+author: Chris Terry
 category: Trading Psychology & Discipline
-tags: [business-plan, trading-plan, money-management, drawdown-rules, discipline, record-keeping]
 difficulty: beginner
 doc_type: article
+one_liner: 'A magazine article outlining a seven-part template for a personal trader
+  business plan: mission, goals, capital, record-keeping, methodology, drawdown rules,
+  and compensation.'
 pages: 4
-one_liner: "A magazine article outlining a seven-part template for a personal trader business plan: mission, goals, capital, record-keeping, methodology, drawdown rules, and compensation."
-related: [van-tharp-trading-systems, t2w-trading-plan-template-2005-asb]
-source_file: "Professional_Trader_Business_Plan.pdf"
+related:
+- van-tharp-trading-systems
+- t2w-trading-plan-template-2005-asb
+reviewed_pdf_pages: 1-4
+slug: professional-trader-business-plan
+source_file: Professional_Trader_Business_Plan.pdf
+source_review: full
+tags:
+- business-plan
+- trading-plan
+- money-management
+- drawdown-rules
+- discipline
+- record-keeping
+tier: B
+title: The Trader Business-Plan
+year: 2003
 ---
 
 ## Summary

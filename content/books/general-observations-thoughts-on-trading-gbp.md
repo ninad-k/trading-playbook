@@ -1,17 +1,34 @@
 ---
-title: "General Observations and Thoughts on Trading GBP"
-author: "Marc (MakoForex)"
-year: 2004
-slug: general-observations-thoughts-on-trading-gbp
-tier: B
+author: Marc (MakoForex)
 category: Swing Trading
-tags: [forex, gbp-usd, gbp-jpy, ema, stochastics, fibonacci, carry-trade, stop-loss]
 difficulty: intermediate
 doc_type: article
+one_liner: A GBP-focused forex trader's informal notes on EMA pullback entries, stop
+  sizing, Fibonacci targets, and the GBP-JPY carry trade, written for an online trading
+  forum.
 pages: 3
-one_liner: "A GBP-focused forex trader's informal notes on EMA pullback entries, stop sizing, Fibonacci targets, and the GBP-JPY carry trade, written for an online trading forum."
-related: [forex-education-seminar2, trend-determination, glossary-of-forex-terms, forex-money-management, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci]
-source_file: "General_Observations___Thoughts_On_Trading_GBP.pdf"
+related:
+- forex-education-seminar2
+- trend-determination
+- glossary-of-forex-terms
+- forex-money-management
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+reviewed_pdf_pages: 1-3
+slug: general-observations-thoughts-on-trading-gbp
+source_file: General_Observations___Thoughts_On_Trading_GBP.pdf
+source_review: full
+tags:
+- forex
+- gbp-usd
+- gbp-jpy
+- ema
+- stochastics
+- fibonacci
+- carry-trade
+- stop-loss
+tier: B
+title: General Observations and Thoughts on Trading GBP
+year: 2004
 ---
 
 ## Summary

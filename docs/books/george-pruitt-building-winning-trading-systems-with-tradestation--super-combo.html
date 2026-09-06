@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Super Combo Day Trading Strategy (Full System) — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="An intraday stock-index system combining an open-range breakout with failed-breakout reversal logic on 5-minute bars, using daily-bar statistics to set the day&#39;s trigger levels.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a> › <a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a></p>
+  <h1>The Super Combo Day Trading Strategy (Full System)</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">An intraday stock-index system combining an open-range breakout with failed-breakout reversal logic on 5-minute bars, using daily-bar statistics to set the day&#39;s trigger levels.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=day-trading">day-trading</a> <a class="tag" href="../search.html?q=open-range-breakout">open-range-breakout</a> <a class="tag" href="../search.html?q=failed-breakout">failed-breakout</a> <a class="tag" href="../search.html?q=stock-indices">stock-indices</a> <a class="tag" href="../search.html?q=multi-timeframe">multi-timeframe</a> <a class="tag" href="../search.html?q=tradestation-easylanguage">tradestation-easylanguage</a> </td></tr>
+    <tr><th>Length</th><td>406 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Super Combo Day Trading Strategy (Full System)” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A day-trading system for stock indices combining two entry concepts the authors say dominate the best-performing day systems tracked by Futures Truth: an open-range breakout (buying/selling a thrust away from the open) and failed-breakout logic (reversing when an initial breakout doesn&rsquo;t hold). It runs on two simultaneous data streams — daily bars to calculate the day&rsquo;s trigger levels, 5-minute bars to place and manage orders — and is presented as a &ldquo;kitchen sink&rdquo; template demonstrating TradeStation&rsquo;s multi-timeframe capability as much as a finished edge. No trade is taken in the first 30 minutes, and at most one long and one short attempt are taken per day.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Daily-bar calculations (computed once per day, using the prior day&rsquo;s data)</strong>
+1. <code>averageRange</code> = 10-day average of (daily High − Low).
+2. <code>averageOCRange</code> = 10-day average of |Open − Close|.
+3. Tradeable-day filter: only trade today if yesterday&rsquo;s |Open − Close| was less than 85% of <code>averageOCRange</code> — a small-range bar (SRB) yesterday is treated as a precondition for today&rsquo;s setup; if yesterday was a wide-range bar, skip the day.
+4. Classify today as a &ldquo;buy easier day&rdquo; if yesterday&rsquo;s close ≤ the close two days ago, else a &ldquo;sell easier day.&rdquo;
+5. On a buy-easier day: <code>buyBOPoint</code> = today&rsquo;s open + 30% of <code>averageRange</code>; <code>sellBOPoint</code> = today&rsquo;s open − 60% of <code>averageRange</code>.
+6. On a sell-easier day: <code>sellBOPoint</code> = today&rsquo;s open − 30% of <code>averageRange</code>; <code>buyBOPoint</code> = today&rsquo;s open + 60% of <code>averageRange</code>.
+7. <code>longBreakPt</code> = yesterday&rsquo;s high + 25% of <code>averageRange</code> (confirms an upside breakout has &ldquo;achieved&rdquo; enough follow-through); <code>shortBreakPt</code> = yesterday&rsquo;s low − 25% of <code>averageRange</code>.
+8. <code>longFBOPoint</code> = yesterday&rsquo;s low + 25% of <code>averageRange</code> (failed-breakout buy level); <code>shortFBOPoint</code> = yesterday&rsquo;s high − 25% of <code>averageRange</code> (failed-breakout sell level).</p>
+<p><strong>Intraday entries (5-minute bars, using the daily levels above)</strong>
+9. Skip the first 30 minutes (first six 5-minute bars).
+10. If no long/short taken yet today and time is before 2:30pm CT: buy stop at <code>buyBOPoint</code>, sell stop at <code>sellBOPoint</code> (initial breakout entries).
+11. Failed-breakout entries: if intraday high exceeds <code>longBreakPt</code> and no short taken yet, sell short at <code>shortFBOPoint</code> (betting the upside thrust fails); mirror for the downside (intraday low below <code>shortBreakPt</code> → buy at <code>longFBOPoint</code>).
+12. Stop-reversal failed breakout: if a long is stopped out, ≥4 bars have passed since entry, and it&rsquo;s before noon CT, allow a short reversal at the long&rsquo;s liquidation point (mirror for a stopped-out short) — catches failures too fast for the intraday-high/low trigger.
+13. At most one long and one short attempt per day; once both sides have been tried, stop looking for new entries.</p>
+<p><strong>Exit / trade management</strong>
+14. Initial protective stop = entry price minus 25% of <code>averageRange</code> or 3.00 full points, whichever is greater (a 3-point floor applies when 25% of range is smaller).
+15. If entered via a stop-reversal failed breakout (rule 12), use 15% of <code>averageRange</code> instead of 25% for the protective stop, reflecting the entry&rsquo;s higher uncertainty.
+16. Move the stop to breakeven once open profit reaches 50% of <code>averageRange</code>.
+17. After 2:30pm CT, trail the stop to the low (longs) or high (shorts) of the prior three 5-minute bars, anticipating the tendency for moves to fade late in the session.
+18. Exit all open positions at the close (no overnight holds).</p>
+<h2 id="risk">Risk</h2>
+<p>No percent-of-equity position sizing is given; risk per trade is set by the protective-stop distance (25% or 15% of the 10-day average daily range, floored at 3 points). In a 2001-2002 S&amp;P backtest ($100 commission/slippage), the system made $27,175 net over 155 trades (38% win rate, average win $2,148 vs. average loss $1,037, 2.07 win/loss ratio, $13,725 max intraday drawdown). A longer 1986-2002 test (via the authors&rsquo; Excalibur software) showed $188,913 total profit over 2,129 trades, 42.4% win rate, 1.3 profit-to-loss ratio, and 24% time-in-market — consistent with a selective approach rather than one constantly positioned.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Presented explicitly as &ldquo;the kitchen sink day trader&rdquo; — a demonstration of technique (multi-data-stream programming, modular trade-management state machines) more than a polished strategy; the authors did no optimization before publishing results. The trade-management logic is the most complex in the book, with interacting special cases (tracking which entry type triggered a position to pick the right stop percentage) that are easy to mis-implement. Backtests use only a few years of intraday data on a single instrument (S&amp;P/stock indices), so the 17-market, 20-year validation applied elsewhere in the book does not apply here.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

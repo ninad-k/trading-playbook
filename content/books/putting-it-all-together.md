@@ -1,17 +1,28 @@
 ---
-title: "Putting It All Together"
 author: Ed Ponsi
-year: 2005
-slug: putting-it-all-together
-tier: B
 category: Trading Psychology & Discipline
-tags: [multiple-timeframes, support-resistance, goal-setting, discipline, trading-plan, rsi]
 difficulty: beginner
 doc_type: article
+one_liner: Transcript of the closing session of Ed Ponsi's FXEducator seminar series,
+  tying together multi-timeframe analysis with goal-setting and trading discipline.
 pages: 5
-one_liner: "Transcript of the closing session of Ed Ponsi's FXEducator seminar series, tying together multi-timeframe analysis with goal-setting and trading discipline."
-related: [van-tharp-trading-systems, fundamentalsoftradingplan]
-source_file: "Putting_it_all_together.pdf"
+related:
+- van-tharp-trading-systems
+- fundamentalsoftradingplan
+reviewed_pdf_pages: 1-5
+slug: putting-it-all-together
+source_file: Putting_it_all_together.pdf
+source_review: full
+tags:
+- multiple-timeframes
+- support-resistance
+- goal-setting
+- discipline
+- trading-plan
+- rsi
+tier: B
+title: Putting It All Together
+year: 2005
 ---
 
 ## Summary

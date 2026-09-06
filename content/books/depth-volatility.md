@@ -1,17 +1,31 @@
 ---
-title: Limit Orders, Depth, and Volatility
 author: Hee-Joon Ahn, Kee-Hong Bae & Kalok Chan
-year: 1999
-slug: depth-volatility
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, limit-orders, liquidity, volatility, order-driven-market, academic-research]
 difficulty: advanced
 doc_type: paper
+one_liner: Academic study of the Hong Kong Stock Exchange finding transitory volatility
+  and market depth move inversely, and volatility side determines limit-order flow
+  direction.
 pages: 39
-one_liner: "Academic study of the Hong Kong Stock Exchange finding transitory volatility and market depth move inversely, and volatility side determines limit-order flow direction."
-related: [madhavan-market-microstructure-a-survey, foucault-and-kadan-limit-order-book-as-a-market-for-liquidity, how-large-is-liquidity-risk-in-an-automated, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity]
-source_file: "depth_volatility.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- foucault-and-kadan-limit-order-book-as-a-market-for-liquidity
+- how-large-is-liquidity-risk-in-an-automated
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+reviewed_pdf_pages: 2-4 (the hypotheses and the regression results)
+slug: depth-volatility
+source_file: depth_volatility.pdf
+source_review: partial
+tags:
+- market-microstructure
+- limit-orders
+- liquidity
+- volatility
+- order-driven-market
+- academic-research
+tier: B
+title: Limit Orders, Depth, and Volatility
+year: 1999
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "Strategy, Value and Risk: The Real Options Approach"
 author: Jamie Rogers
-year: 2002
-slug: jamie-rogers-strategy-value-and-risk-the-real-options-approach
-tier: B
 category: Options, Futures & Derivatives
-tags: [real-options, valuation, option-pricing, risk-management, corporate-finance, binomial-model]
 difficulty: advanced
 doc_type: book
+one_liner: Corporate-finance text applying financial option-pricing theory (real options)
+  to strategic investment decisions, valuation, and risk management.
 pages: 156
-one_liner: "Corporate-finance text applying financial option-pricing theory (real options) to strategic investment decisions, valuation, and risk management."
-related: [real-options-in-practice, hull-options-futures-and-other-derivative-securities-5th-ed, black-scholes-option-pricing-model, derivatives-pricing-and-financial-modelling, credit-risk-modeling-and-valuation-an-introduction]
-source_file: "Jamie Rogers - Strategy, Value And Risk-The Real Options Approach.pdf"
+related:
+- real-options-in-practice
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- black-scholes-option-pricing-model
+- derivatives-pricing-and-financial-modelling
+- credit-risk-modeling-and-valuation-an-introduction
+reviewed_pdf_pages: 41-42 and the valuation chapters checked against the note
+slug: jamie-rogers-strategy-value-and-risk-the-real-options-approach
+source_file: Jamie Rogers - Strategy, Value And Risk-The Real Options Approach.pdf
+source_review: partial
+tags:
+- real-options
+- valuation
+- option-pricing
+- risk-management
+- corporate-finance
+- binomial-model
+tier: B
+title: 'Strategy, Value and Risk: The Real Options Approach'
+year: 2002
 ---
 
 ## Summary

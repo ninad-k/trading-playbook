@@ -1,0 +1,195 @@
+{
+  "scope": {
+    "description": "Independent spot-check of eight short_b notes selected for consequential rules, sizing, indicator parameters, and paper statistics, plus the requested Gann and Kase checks. This is not a certification of the corpus.",
+    "short_b_notes_sampled": 8,
+    "additional_root_notes_sampled": 2,
+    "method": "Compared note claims with the cited or otherwise relevant PDF pages through scripts/04_chunk.py only. source_review labels were assessed against each note's explicit reviewed_pdf_pages value; no unrecorded reading history was inferred."
+  },
+  "sampled_slugs": [
+    "amazing-forex-system",
+    "fx-wizard",
+    "cci-manual",
+    "forex-report-predicting-price-movement",
+    "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow",
+    "10keystosuccess",
+    "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia",
+    "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market",
+    "gann-how-to-trade",
+    "cynthia-kase-multi-dimensional-trading"
+  ],
+  "assessments": [
+    {
+      "slug": "amazing-forex-system",
+      "sample_class": "strategy rule",
+      "pages_inspected": "5, 8, 19-26, 35-36, 41-46",
+      "status": "content_and_metadata_discrepancy",
+      "findings": [
+        {
+          "severity": "high",
+          "note_claim": "After a 20-pip gain, move the stop to breakeven.",
+          "source_evidence": "The source says to move the stop to entry as soon as the active trade has moved at least 10 pips; at a 30-pip gain it moves the stop to lock 20 pips.",
+          "source_pages": "35",
+          "proposed_correction": "Change both the Key points bullet and the related management wording to: After a 10-pip favorable move, move the stop to breakeven; after a 30-pip move, lock 20 pips."
+        },
+        {
+          "severity": "high",
+          "note_claim": "source_review is full while reviewed_pdf_pages is 2-11, 13-18, 27-48.",
+          "source_evidence": "The recorded range omits pages 19-26, which contain the announcement-selection discussion and the exact two-order setup, including the one-minute chart, high/low plus or minus 10 pips, 10-pip stops, optional 20-pip limits, and cancellation of the other order.",
+          "source_pages": "19-26",
+          "proposed_correction": "Use source_review: partial unless the recorded review range is expanded to include the omitted core pages after they are actually inspected; also cite pages 22-24 for the exact setup mechanics."
+        }
+      ]
+    },
+    {
+      "slug": "fx-wizard",
+      "sample_class": "strategy and sizing rules",
+      "pages_inspected": "13-47, plus a source-wide keyword index for risk, margin, 5%, 5000, and news",
+      "status": "major_content_and_metadata_discrepancy",
+      "findings": [
+        {
+          "severity": "high",
+          "note_claim": "The method is built around scheduled news, a tight 5-6 hour range, and buy/sell entries 15-20 pips outside that range.",
+          "source_evidence": "Pages 26-35 describe a 15-minute/one-hour alert, pivot, ADX, and DI method. Page 29 requires rising ADX above 20; pages 31-34 derive directional entries from alert extremes or pivots. The source-wide search found no scheduled-news straddle or 5-6 hour/15-20 pip rule.",
+          "source_pages": "26-35, 45",
+          "proposed_correction": "Remove news-trading from the one_liner, Summary, tags, Key points, Actionable rule 1, and Caveats. Describe the method as a Trendsignal alert plus pivot entry, confirmed by rising ADX above 20 and the rising directional DI above 20, during 08:00-16:00 GMT (optionally to 21:00 GMT)."
+        },
+        {
+          "severity": "high",
+          "note_claim": "Risk is capped at 5% of equity, with page 30 equating 5% of a $5,000 account to 25 pips.",
+          "source_evidence": "Page 30 discusses dropping from the hourly chart to the 15-minute chart; it contains no account-risk example. The source-wide search finds a virtual-account maximum of $5,000,000 on page 13 and a 25% weekly compounding illustration on pages 46-47, but no 5% equity-risk rule or $5,000/25-pip calculation. A 25-pip stop appears only as a worked trade distance on pages 32 and 38.",
+          "source_pages": "13, 30, 32, 38, 46-47",
+          "proposed_correction": "Delete Actionable rule 2 and the Caveats sentence calling 5% the recommended risk. If retained as an example, say only that worked trades use a 25-pip stop; the manual does not supply a valid percentage-of-equity sizing rule."
+        },
+        {
+          "severity": "high",
+          "note_claim": "After one side of a two-sided order pair fills, cancel the other pending order.",
+          "source_evidence": "The worked method plans potential buy and sell levels but waits for ADX/DI to confirm direction; it does not instruct the trader to place a simultaneous two-sided straddle or cancel an opposing live order.",
+          "source_pages": "31-35, 45",
+          "proposed_correction": "Replace Actionable rule 4 with directional management from the source: enter only after ADX and the relevant DI are rising above 20, then trail roughly one pivot or about 25 pips behind price in the worked examples."
+        },
+        {
+          "severity": "high",
+          "note_claim": "source_review is full while reviewed_pdf_pages omits pages 13-25.",
+          "source_evidence": "Pages 18-25 specify the 5/6/80 EMAs, Heikin-Ashi, pivots, Trendsignal, ADX, DI, and 20/30/40 guide levels. These are substantive setup pages, not front matter.",
+          "source_pages": "18-25",
+          "proposed_correction": "Use source_review: partial unless the reviewed range is expanded after complete inspection."
+        }
+      ]
+    },
+    {
+      "slug": "cci-manual",
+      "sample_class": "indicator and exit rules",
+      "pages_inspected": "3-5, 7, 9, 12-20",
+      "status": "minor_content_discrepancy",
+      "verified_claims": "The 14-period CCI, 6-period Turbo CCI, 25-period LSMA, +/-100 and +/-200 levels, six-bar trend definition, 20-second beginner entry timing, and one-to-two-tick stop all match the source.",
+      "findings": [
+        {
+          "severity": "medium",
+          "note_claim": "The HFE exit is summarized only as exiting when CCI hooks after crossing +/-200.",
+          "source_evidence": "For Hook From Extremes, the manual explicitly says not to wait for the bar close or even the normal 20-second point; exit at the first hint of a turn.",
+          "source_pages": "20",
+          "proposed_correction": "Add the timing qualifier to Actionable rule 4: for an HFE beyond +/-200, exit on the first hint of a hook without waiting for bar completion."
+        }
+      ]
+    },
+    {
+      "slug": "forex-report-predicting-price-movement",
+      "sample_class": "quantitative strategy research",
+      "pages_inspected": "2-4, 20, 24-25",
+      "status": "pass",
+      "verified_claims": "The January 2000-May 2004 tick sample, daily extension through October 2004, six intervals, 24-interval horizon, 20-pip stop, no-spread assumption, and the quoted EURUSD continuation probabilities (32.4%, 68.4%, 17.1%, and 78.1%) match pages 3-4 and 20. source_review and reviewed_pdf_pages are internally consistent."
+    },
+    {
+      "slug": "big-profit-patterns-using-candlestick-signals-and-gaps-stephen-w-bigalow",
+      "sample_class": "pattern and stop rules",
+      "pages_inspected": "5-9, 14-17, 34-50, plus a source-wide keyword index for stops and pullbacks",
+      "status": "content_and_metadata_discrepancy",
+      "findings": [
+        {
+          "severity": "medium",
+          "note_claim": "For a J-Hook, use the pullback low as the logical invalidation point.",
+          "source_evidence": "Pages 34-38 define the J-Hook entry context and aggressive/conservative entries but give no pullback-low stop. The source's stop-at-the-low instruction is on page 43 for a different setup: re-entry after a bad-news gap and Doji.",
+          "source_pages": "34-38, 43",
+          "proposed_correction": "Remove the pullback-low stop from the J-Hook rule, or label it explicitly as an added testing hypothesis rather than a rule from this source."
+        },
+        {
+          "severity": "medium",
+          "note_claim": "source_review is full while reviewed_pdf_pages omits pages 14-17.",
+          "source_evidence": "Pages 14-17 contain substantive gap-at-the-top exit procedures: stops at the previous close or gap open, partial liquidation after a substantial gap, and moving stops as price advances.",
+          "source_pages": "14-17",
+          "proposed_correction": "Use source_review: partial unless the recorded review range is expanded after those pages are inspected."
+        }
+      ]
+    },
+    {
+      "slug": "10keystosuccess",
+      "sample_class": "sizing and order rules",
+      "pages_inspected": "4-8, 21-23",
+      "status": "pass",
+      "verified_claims": "The one-month paper-trading period, no more than 20% of margin-account funds in use, no more than 5% exposure on one trade, dated $1.5 trillion market-size and approximately four-pip spread claims, and the OCO/cancel-and-replace examples match the source. source_review and reviewed_pdf_pages are internally consistent."
+    },
+    {
+      "slug": "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia",
+      "sample_class": "academic paper",
+      "pages_inspected": "3, 8, 11-15, 18-19, 24-36, 47",
+      "status": "numerical_pass_with_metadata_concern",
+      "verified_claims": "The six-country sample dates, five-day weights, 2% origin threshold, contagion-coefficient formula and sign, pooled 0.12-0.19 coefficient range with insignificant Taiwan result, and four correlations (0.329, 0.258, 0.357, 0.384) match the source.",
+      "findings": [
+        {
+          "severity": "low",
+          "note_claim": "source_review is full while reviewed_pdf_pages omits pages 28-36.",
+          "source_evidence": "Pages 28-30 are references, but pages 31-36 contain Figures 1-6, including the plots underlying the trade-link correlation discussion.",
+          "source_pages": "28-36",
+          "proposed_correction": "If reviewed_pdf_pages is exhaustive, use source_review: partial; otherwise record 28-36 if the reference and figure pages were in fact inspected. No correction to the quoted statistics is needed."
+        }
+      ]
+    },
+    {
+      "slug": "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market",
+      "sample_class": "academic paper",
+      "pages_inspected": "1-3, 11-15, 35-43, 48-51",
+      "status": "numerical_pass_with_metadata_discrepancy",
+      "verified_claims": "The five-month sample, six voice brokers in four euro-area countries plus the UK and Italian MID, 1:45 p.m. policy-release time, M3 half-hour quoting slump, 11:15 a.m. MRO result, EUR 6.2 billion Tuesday lunch turnover, and 7.7 versus 5.6 basis-point end-maintenance spreads match the source. The Y2K characterization also matches pages 48-51.",
+      "findings": [
+        {
+          "severity": "high",
+          "note_claim": "source_review is full while reviewed_pdf_pages is 1-6, 35-54.",
+          "source_evidence": "The recorded range omits pages 7-34, which contain most of the institutional framework, data construction, measures, normal-day benchmarks, and early event results. The note also cites page 34 even though that page is absent from reviewed_pdf_pages.",
+          "source_pages": "7-34",
+          "proposed_correction": "Change source_review to partial and remove page 34 from claimed reviewed evidence, unless pages 7-34 are actually inspected and added to reviewed_pdf_pages."
+        }
+      ]
+    },
+    {
+      "slug": "gann-how-to-trade",
+      "sample_class": "requested root spot-check",
+      "pages_inspected": "1-5",
+      "status": "pass",
+      "verified_claims": "The three-point initial stop, division of capital into ten parts, reduction after three consecutive losses, second equal lot after a five-point favorable move, two-point first-lot gain plus three-point second-lot loss for a one-point net loss, and 100/50/30/20 share sequence at successive five-point moves all match the OCR. source_review and reviewed_pdf_pages cover all five pages."
+    },
+    {
+      "slug": "cynthia-kase-multi-dimensional-trading",
+      "sample_class": "requested root spot-check",
+      "pages_inspected": "1-3",
+      "status": "pass",
+      "verified_claims": "The rolling nine five-minute bars for a synthetic 45-minute OHLC series, O[8] oldest-bar open, 20-80 example neutral zone, 2%-5% closeness range, at-least-5% PK/PD separation, nine/18 moving-average example, and three-period smoothing of PeakOscillator minus its eight-period average match the OCR. source_review and reviewed_pdf_pages cover all three pages."
+    }
+  ],
+  "summary": {
+    "content_discrepancies": 6,
+    "source_review_metadata_findings": 5,
+    "clean_numerical_spot_checks": [
+      "forex-report-predicting-price-movement",
+      "10keystosuccess",
+      "ito-and-hashimoto-high-frequency-contagion-of-currency-crises-in-asia",
+      "hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market",
+      "gann-how-to-trade",
+      "cynthia-kase-multi-dimensional-trading"
+    ],
+    "highest_priority_corrections": [
+      "Remove the unsupported news-straddle and 5% sizing material from fx-wizard and rewrite it around ADX, DI, alerts, and pivots.",
+      "Correct amazing-forex-system's breakeven trigger from +20 pips to +10 pips.",
+      "Downgrade or substantiate full-review metadata where recorded page ranges omit core content, especially fx-wizard, amazing-forex-system, and the Hartmann paper."
+    ]
+  }
+}

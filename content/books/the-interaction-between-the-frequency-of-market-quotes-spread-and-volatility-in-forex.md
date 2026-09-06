@@ -1,17 +1,32 @@
 ---
-title: "The Interaction Between the Frequency of Market Quotations, Spread and Volatility in the Foreign Exchange Market"
-author: "Antonis A. Demos, Charles A. E. Goodhart"
-year: 1996
-slug: the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex
-tier: B
+author: Antonis A. Demos, Charles A. E. Goodhart
 category: Quant, Microstructure & Academic Research
-tags: [forex, volatility, bid-ask-spread, quote-frequency, market-microstructure, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency
+  are simultaneously determined, with time-of-day dummies removing much of the GARCH-type
+  clustering in returns.
 pages: 10
-one_liner: "Half-hourly Reuters FX quote data shows volatility, spread, and quote frequency are simultaneously determined, with time-of-day dummies removing much of the GARCH-type clustering in returns."
-related: [supply-demand, foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity, liquidity-in-forex-markets]
-source_file: "The Interaction Between The Frequency Of Market Quotes Spread And Volatility In Forex.pdf"
+related:
+- supply-demand
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+- liquidity-in-forex-markets
+reviewed_pdf_pages: 1-3, 5 (the data description and the intraday estimation results)
+slug: the-interaction-between-the-frequency-of-market-quotes-spread-and-volatility-in-forex
+source_file: The Interaction Between The Frequency Of Market Quotes Spread And Volatility
+  In Forex.pdf
+source_review: partial
+tags:
+- forex
+- volatility
+- bid-ask-spread
+- quote-frequency
+- market-microstructure
+- academic-paper
+tier: B
+title: The Interaction Between the Frequency of Market Quotations, Spread and Volatility
+  in the Foreign Exchange Market
+year: 1996
 ---
 
 ## Summary

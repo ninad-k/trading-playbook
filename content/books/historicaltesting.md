@@ -1,17 +1,31 @@
 ---
-title: "Historical Testing"
 author: Scott Owens
-year: 2005
-slug: historicaltesting
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [backtesting, curve-fitting, drawdown, forex, system-optimization, risk-assessment]
 difficulty: beginner
 doc_type: article
+one_liner: FX Engines' Core Concepts brief on using historical (backtest) data to
+  assess a system's risk before trading it live, and the five main ways backtests
+  mislead.
 pages: 6
-one_liner: "FX Engines' Core Concepts brief on using historical (backtest) data to assess a system's risk before trading it live, and the five main ways backtests mislead."
-related: [mechanical-trading-systems, richard-l-weissman-mechanical-trading-systems, george-pruitt-building-winning-trading-systems-with-tradestation]
-source_file: "historicaltesting.pdf"
+related:
+- mechanical-trading-systems
+- richard-l-weissman-mechanical-trading-systems
+- george-pruitt-building-winning-trading-systems-with-tradestation
+reviewed_pdf_pages: 2-3 (the analysis and optimization sections; the remainder is
+  product marketing)
+slug: historicaltesting
+source_file: historicaltesting.pdf
+source_review: partial
+tags:
+- backtesting
+- curve-fitting
+- drawdown
+- forex
+- system-optimization
+- risk-assessment
+tier: B
+title: Historical Testing
+year: 2005
 ---
 
 ## Summary

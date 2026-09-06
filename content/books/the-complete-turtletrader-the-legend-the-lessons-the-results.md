@@ -1,17 +1,34 @@
 ---
-title: "The Complete TurtleTrader: The Legend, the Lessons, the Results"
 author: Michael W. Covel
-year: 2007
-slug: the-complete-turtletrader-the-legend-the-lessons-the-results
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [turtle-trading, trend-following, breakout, position-sizing, money-management, risk-of-ruin, market-wizards]
 difficulty: intermediate
 doc_type: book
+one_liner: Tells the Richard Dennis/William Eckhardt Turtle experiment and, unlike
+  the earlier Covel site archive, publishes the actual N/ATR-based System One and
+  System Two breakout rules.
 pages: 269
-one_liner: "Tells the Richard Dennis/William Eckhardt Turtle experiment and, unlike the earlier Covel site archive, publishes the actual N/ATR-based System One and System Two breakout rules."
-related: [curtis-faith-way-of-the-turtle, turtlerules, turtletrader, michael-covel-trend-following, jack-schwager-stock-market-wizards]
-source_file: "The Complete TurtleTrader - The Legend, the Lessons, the Results.pdf"
+related:
+- curtis-faith-way-of-the-turtle
+- turtlerules
+- turtletrader
+- michael-covel-trend-following
+- jack-schwager-stock-market-wizards
+reviewed_pdf_pages: 7-10, 42, 56, 65, 71-73, 86 (the system description with its 2%-unit
+  sizing, expectation arithmetic and the per-Turtle performance tables)
+slug: the-complete-turtletrader-the-legend-the-lessons-the-results
+source_file: The Complete TurtleTrader - The Legend, the Lessons, the Results.pdf
+source_review: partial
+tags:
+- turtle-trading
+- trend-following
+- breakout
+- position-sizing
+- money-management
+- risk-of-ruin
+- market-wizards
+tier: A
+title: 'The Complete TurtleTrader: The Legend, the Lessons, the Results'
+year: 2007
 ---
 
 ## Overview

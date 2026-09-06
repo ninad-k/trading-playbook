@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modeling Liquidity Risk, With Implications for Traditional Market Risk Measurement and Management — Anil Bangia, Francis X. Diebold, Til Schuermann, John D. Stroughair · Trading Playbook</title>
+<meta name="description" content="Wharton working paper proposing a liquidity-adjusted VaR that adds a spread-based cost-of-liquidity term and a kurtosis correction to standard parametric VaR, showing large underestimation of risk in emerging-market FX without it.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Modeling Liquidity Risk, With Implications for Traditional Market Risk Measurement and Management</h1>
+  <p class="byline">Anil Bangia, Francis X. Diebold, Til Schuermann, John D. Stroughair · 1998 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Wharton working paper proposing a liquidity-adjusted VaR that adds a spread-based cost-of-liquidity term and a kurtosis correction to standard parametric VaR, showing large underestimation of risk in emerging-market FX without it.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 4, 7, 11-13, 15-16 (the liquidity-risk model and the currency spread and worst-case tables). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=value-at-risk">value-at-risk</a> <a class="tag" href="../search.html?q=liquidity-risk">liquidity-risk</a> <a class="tag" href="../search.html?q=bid-ask-spread">bid-ask-spread</a> <a class="tag" href="../search.html?q=fat-tails">fat-tails</a> <a class="tag" href="../search.html?q=emerging-markets">emerging-markets</a> <a class="tag" href="../search.html?q=var-backtesting">var-backtesting</a> </td></tr>
+    <tr><th>Length</th><td>18 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Modeling Liquidity Risk, With Implications for Traditional Market Risk Measurement and Management” by Anil Bangia, Francis X. Diebold, Til Schuermann, John D. Stroughair at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: does ignoring the bid-ask spread cause standard Value-at-Risk (VaR) to understate market risk, especially in emerging markets? Method: the authors split market-value uncertainty into pure return volatility plus an exogenous liquidity-risk term (driven by bid-ask spread volatility), add a kurtosis-based fat-tail correction to parametric VaR, and test the combined model on FX (Yen vs. Thai Baht) and four backtested portfolios around the 1997-98 Asia crisis. Finding: liquidity risk is negligible for the highly liquid Yen (~1-1.5% of total VaR) but reached 16% of total VaR for the Baht pre-crisis; adding both adjustments moved all four backtested portfolios into the BIS &ldquo;green zone&rdquo; where the unadjusted model did not.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Standard VaR marks to the bid-ask midpoint; actual liquidation happens at the bid, so ignoring the spread understates realizable loss.</li>
+<li>Two liquidity types: exogenous (market-wide) and endogenous (position-size-driven); the paper models only exogenous risk, since it has available data.</li>
+<li>Cost of liquidity (COL) = price × ½(average relative spread + a × spread volatility); the scaling factor &ldquo;a&rdquo; ranges 2.0-4.5 empirically, since spread distributions are far from normal.</li>
+<li>Fat-tail correction θ = 1.0 + φ·ln(kurtosis/3), φ ≈ 0.4 for 1% VaR; θ=1 for a normal distribution.</li>
+<li>FX kurtosis varies widely: Japanese Yen 7.0, British Pound 5.4, up to Indian Rupee 23.2 and Mexican Peso 20.5 (1995-97 sample).</li>
+<li>Worked example: liquidity&rsquo;s share of total VaR was 1.5% (JPY) vs. 16% (THB) pre-crisis (May 1997), falling to 1.0% and 5% post-crisis as pure return volatility rose faster than spread volatility.</li>
+<li>Backtesting four portfolios over 240 days: the liquidity add-on cut VaR violations most in emerging-market portfolios; adding kurtosis on top moved all four into the BIS green zone.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Add a liquidity cost term (average spread plus ~2-4.5x spread volatility) to VaR rather than relying on the mid-price alone.</li>
+<li>For thinly-traded or emerging-market instruments, expect liquidity risk to materially inflate true risk (up to ~16% in this paper) relative to liquid instruments.</li>
+<li>Adjust standard-deviation-based VaR multiples upward for high-kurtosis return series instead of assuming normality.</li>
+<li>Recompute liquidity and kurtosis adjustments after a regime change (e.g., a currency depegging), since both can shift sharply.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>A technical 1998 working paper for bank risk managers, assuming familiarity with parametric VaR, EWMA/GARCH, and BIS backtesting. It models only exogenous liquidity risk (no position-size effects), and its constants (a = 2.0-4.5, φ ≈ 0.4) were fit to late-1990s FX data and are illustrative, not universal.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers, quants, or advanced traders needing a concrete way to incorporate bid-ask spread risk and fat tails into VaR, especially for emerging-market or thinly-traded exposure.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/evaluation-of-value-at-risk-models.html">Guidelines on Market Risk, Volume 3: Evaluation of Value-at-Risk Models</a> — Austrian central bank regulatory guideline specifying how bank-internal VaR models must be built, validated, and backtested for market-risk capital approval.</li><li><a href="../books/exploring-value-at-risk.html">Exploring the Limitations of Value at Risk: How Good Is It in Practice?</a> — Journal of Risk Finance article showing Value at Risk is not a coherent risk measure, is prone to large estimation error and downward bias, and can be deliberately manipulated by traders.</li><li><a href="../books/fallon-w-calculating-value-at-risk.html">Calculating Value-at-Risk</a> — Wharton working paper comparing six VaR models, finding second-order (gamma) approximations paired with multivariate GARCH beat the first-order delta models used by most practitioners.</li><li><a href="../books/how-large-is-liquidity-risk-in-an-automated.html">How Large Is Liquidity Risk in an Automated Auction Market?</a> — Discussion paper introducing a Value-at-Risk methodology that prices in liquidity risk (price impact of liquidation) for portfolios traded on the Xetra automated auction market.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

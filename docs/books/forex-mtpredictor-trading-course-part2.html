@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MTPredictor Trading Course — Part 2 — Steve Griffiths · Trading Playbook</title>
+<meta name="description" content="Advanced manual on MTPredictor&#39;s Elliott wave software: manual wave counting, Wave Price Targets, coloured Reversal Bars, and a strict 2:1 risk/reward filter for every trade.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a></p>
+  <h1>MTPredictor Trading Course — Part 2</h1>
+  <p class="byline">Steve Griffiths · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">course</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Advanced manual on MTPredictor&#39;s Elliott wave software: manual wave counting, Wave Price Targets, coloured Reversal Bars, and a strict 2:1 risk/reward filter for every trade.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-3, 9, 12, 14-16 (the ratio set, Elliott module description, connected pivots and the 2-3 initial-risk zone). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=elliott-wave">elliott-wave</a> <a class="tag" href="../search.html?q=fibonacci">fibonacci</a> <a class="tag" href="../search.html?q=wave-price-targets">wave-price-targets</a> <a class="tag" href="../search.html?q=reversal-bars">reversal-bars</a> <a class="tag" href="../search.html?q=risk-reward">risk-reward</a> <a class="tag" href="../search.html?q=mtpredictor">mtpredictor</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=futures">futures</a> </td></tr>
+    <tr><th>Length</th><td>396 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “MTPredictor Trading Course — Part 2” by Steve Griffiths at your bookseller or library.</td></tr>
+  </table>
+  <div class="callout"><strong>Systems and methods from this book:</strong> <a href="../books/forex-mtpredictor-trading-course-part2--wpt-reversal-bar-system.html">MTPredictor — WPT / Reversal Bar Trade Set-Up (TS)</a></div>
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#core-thesis">Core thesis</a></li>
+<li><a href="#key-concepts">Key concepts</a></li>
+<li><a href="#rules-and-setups">Rules and setups</a></li>
+<li><a href="#risk-and-money-management">Risk and money management</a></li>
+<li><a href="#psychology-and-discipline">Psychology and discipline</a></li>
+<li><a href="#chapter-map">Chapter map</a></li>
+<li><a href="#strengths-and-caveats">Strengths and caveats</a></li>
+<li><a href="#who-should-read-it">Who should read it</a></li>
+<li><a href="#related-books-in-this-library">Related books in this library</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="overview">Overview</h2>
+<p>This is the second, advanced volume of Steve Griffiths&rsquo; training course for the MTPredictor charting software (MTPredictor Ltd, third edition October 2004). Where Part 1 covers the software&rsquo;s automatic trade set-ups, Part 2 opens the analysis &ldquo;black box&rdquo;: how the underlying Elliott wave counts, Fibonacci-derived Wave Price Targets (WPTs), and coloured Reversal Bars are built, so a trader can perform the same analysis manually when the automatic routines fail. It then adds discretionary set-ups (minor pullback, 80/20 day, inside/outside day), trade management (pyramiding, multi-unit exits, the 2-3 profit zone), and applications to day trading, weekly charts, and stocks — all subordinated to one filter: only take a trade whose projected profit is at least twice the initial risk.</p>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Markets unfold in a clear, tradable Elliott wave pattern only about half the time; the discipline is to act solely when the pattern is obvious, at a price zone independently projected by Fibonacci-ratio Wave Price Targets, and confirmed by the market&rsquo;s own reversal action (a coloured Reversal Bar), with the trade sized so that potential profit is at least twice the risk of the protective stop. Predicting reversals is possible only within this narrow, rules-based window — WPTs are meant to be &ldquo;leading indicators&rdquo; that prepare a trader in advance, not a signal to force trades on ambiguous charts.</p>
+<h2 id="key-concepts">Key concepts</h2>
+<ul>
+<li><strong>Wave Price Target (WPT)</strong> — a support/resistance projection from multiplying a prior swing by core ratios (0.382, 0.5, 0.618, 0.786, 1.00, 1.272, 1.618, 2.618, 4.236) and clustering the results; each Elliott wave label (1orA, 2orB, 3, 4, 5, C, E) has its own swing set and click sequence.</li>
+<li><strong>Coloured Reversal Bar</strong> — a bar marked blue (buy) or red (sell) when price reacts inside a WPT zone; confirmed only once price exceeds that bar&rsquo;s high (buy) or low (sell).</li>
+<li><strong>Show Elliott Waves module</strong> — automatic pattern recognition across Minor/Intermediate/Major degree, shown only when a valid count exists (roughly 50% of the time), paired with automatic WPTs and Reversal Bars.</li>
+<li><strong>Near-miss</strong> — price slightly exceeding a WPT zone (up to about half its width), or immediately closing back inside it, still counts as a valid reaction.</li>
+<li><strong>Connected Pivots</strong> — the software&rsquo;s Intermediate-degree swing markers, used to hand-label a wave count when the automatic module fails, checked against Elliott rules (wave 3 not shortest, wave 4 doesn&rsquo;t overlap wave 1, alternation between waves 2 and 4).</li>
+<li><strong>2-3 initial risk zone</strong> — the area where profit equals roughly 2–3× initial risk, used both as a numeric risk/reward check and later as a place to bank profit or tighten stops.</li>
+<li><strong>Minor pullback</strong> — a Gann-derived, single-swing correction against an established trend, used to add a position mid-trend.</li>
+<li><strong>80/20 day</strong> — a Connors/Raschke (&ldquo;Street Smarts&rdquo;) day-trading pattern adapted with WPT confirmation.</li>
+<li><strong>Inside day / outside day</strong> — trend-continuation entries, occasionally reversal entries when combined with WPT support/resistance.</li>
+<li><strong>Pyramiding</strong> — treating a trade as a sequence of add-on entries (initial set-up plus later inside-day or pullback triggers) rather than one static position.</li>
+</ul>
+<h2 id="rules-and-setups">Rules and setups</h2>
+<ol>
+<li><strong>WPT projection</strong> — select the relevant WPT (e.g. Wave 5 WPT needs 5 clicks across waves 1–4), click the defining pivots; software draws minimum/typical/maximum target zones. Best support/resistance = clusters of several ratios in a small area.</li>
+<li><strong>Reversal Bar confirmation</strong> — a valid signal needs all three: price inside a WPT zone, a coloured Reversal Bar forming there, and price then exceeding that bar&rsquo;s high (buy) or low (sell).</li>
+<li><strong>Minor pullback trade</strong> — valid only as a single-swing correction (verified with connected pivots) that doesn&rsquo;t exceed the prior swing extreme. Entry: break of the pullback bar&rsquo;s high/low. Stop: just beyond its opposite extreme.</li>
+<li><strong>80/20 day (day-trading)</strong> — a day where open/close sit in opposite 20% extremes of a wider-than-recent range, using day-session data only. Enter on a small break back through the 80/20 day&rsquo;s extreme the next day; strongest when it falls inside a WPT zone.</li>
+<li><strong>Inside day / outside day (trend continuation)</strong> — enter as the prior bar&rsquo;s high/low is exceeded (inside day) or, best, when a narrow inside day is followed by a break of its high after price first dips below its low (outside day). Stop just beyond the triggering bar&rsquo;s extreme.</li>
+<li><strong>Risk/reward filter (applies to every set-up above)</strong> — project the first profit target (nearest WPT) against initial risk; minimum acceptable ratio 2:1. The 2-3 zone is then used to bank partial profit or tighten the stop.</li>
+<li><strong>Pyramiding (worked Corn trade)</strong> — with a $25,000 account risking a fixed 3% of capital per position, take an initial TS1 entry, then add further units on later inside-day triggers, each sized to the same 3% risk cap with its own stop.</li>
+<li><strong>Stop management as a trade matures</strong> — initial stop just beyond the triggering bar&rsquo;s extreme; once in the 2-3 zone, bank part of the position or tighten the stop; avoid parking stops at obvious minor swing points.</li>
+</ol>
+<p>If &ldquo;Show Elliott waves&rdquo; finds no valid pattern, the explicit fallback is not to force a trade — wait, or repeat the WPT/Reversal Bar analysis manually on a hand-drawn count.</p>
+<h2 id="risk-and-money-management">Risk and money management</h2>
+<p>The book&rsquo;s single money-management constant is the 2:1 minimum profit-to-initial-risk ratio, checked with the Initial Risk to Reward module before every entry; trades that don&rsquo;t clear it are skipped regardless of how good the pattern looks. The one explicit position-sizing rule appears in the pyramiding chapter: risk a fixed 3% of account equity per position (used identically for the initial entry and for each pyramided add-on), with the initial protective stop placed at the pattern-defined level (just beyond the triggering bar), not a fixed dollar or percentage stop distance. The 2-3 initial risk zone is used as a secondary tool for scaling out of winners or trailing stops once a trade is comfortably in profit.</p>
+<h2 id="psychology-and-discipline">Psychology and discipline</h2>
+<p>Griffiths repeatedly frames restraint as the core discipline: because a valid Elliott wave count exists only about half the time, most days should produce no trade at all, and forcing WPT analysis onto an unclear or choppy chart is explicitly called out as a common and costly error. He also stresses accepting smaller-than-hoped profits (e.g., a trade that returns only 0.8× initial risk) as a normal cost of following the system, arguing that consistently keeping losses small and profits at least 2× risk compounds into profitability even without a high win rate.</p>
+<h2 id="chapter-map">Chapter map</h2>
+<ul>
+<li>Ch 1 — Introduction — roadmap, reiterating the small-initial-risk principle from Part 1.</li>
+<li>Ch 2 — Important numbers — Fibonacci sequence and ratio derivations (0.382–4.236) underlying all WPTs; Gann&rsquo;s 50%/100% numbers.</li>
+<li>Ch 3 — WPTs — click sequences and ratio sets per wave label; price clustering; the near-miss rule.</li>
+<li>Ch 4 — Coloured Reversal Bars — how bar colour confirms a WPT reaction.</li>
+<li>Ch 5 — Show Elliott Waves — automatic multi-degree wave recognition, paired WPTs/Reversal Bars, worked examples.</li>
+<li>Ch 6 — Manual Analysis — connected pivots for hand-labelling counts when the automatic module fails.</li>
+<li>Ch 7 — Advanced Elliott Wave Analysis — guidelines (5-wave sequences get corrected; waves subdivide into minor patterns) and how to trade them.</li>
+<li>Ch 8 — Initial Risk to Reward module — the 2-3 profit zone and exact risk/reward calculation.</li>
+<li>Ch 9 — Training Mode — software feature for practising wave labelling.</li>
+<li>Ch 10 — Advanced Trading Strategies — minor pullback, 80/20 day, inside/outside day, Doji, 20-period EMA.</li>
+<li>Ch 11 — Advanced Trade Management — wave 3 vs. wave C decisions, the 2-3 zone, multi-unit trading, pyramiding, gap openings.</li>
+<li>Ch 12 — Time analysis — dynamic and static time retracements/projections/clusters.</li>
+<li>Ch 13–14 — Day trading and Weekly charts — applying the method intraday and on longer-term charts.</li>
+<li>Ch 15 — Trading stocks with MTPredictor — equity-specific notes.</li>
+<li>Ch 16–17 — Trend and the &ldquo;Techniques Curve&rdquo; self-assessment framework.</li>
+<li>Ch 18 — Daily routine — a suggested end-of-day analysis workflow.</li>
+<li>Ch 19 — Studies — moving averages, moving-average oscillator, Stochastic, Stochastic RSI, Strong Trend Filter.</li>
+<li>Ch 20–23 — Case study, Summary, Q&amp;A, Conclusion.</li>
+</ul>
+<h2 id="strengths-and-caveats">Strengths and caveats</h2>
+<p>Unusually explicit and mechanical for an Elliott wave text — every WPT has a defined click sequence and ratio set, and every entry has a stated stop, making the &ldquo;TS&rdquo; set-ups genuinely codeable. But it is a software manual first: much of the value depends on owning MTPredictor, since manual replication of WPT clustering is described as impractically tedious. Performance claims rely on hand-picked chart examples (SPY, FTSE, IBM, Corn, Soybean Meal), some drawn from the author&rsquo;s own prior public calls, with no aggregate win-rate or drawdown statistics. The 80/20 day is explicitly borrowed from Connors and Raschke&rsquo;s &ldquo;Street Smarts.&rdquo; Wave counting retains an irreducibly discretionary element — deciding which pivots define a &ldquo;clear and obvious&rdquo; wave — despite the software layer.</p>
+<h2 id="who-should-read-it">Who should read it</h2>
+<p>Traders already comfortable with basic Elliott wave and Fibonacci concepts (e.g., from Part 1 of this course or a general Elliott wave text) who want a fully specified, mechanical entry/stop/target framework rather than pure discretionary wave counting. Less useful to traders unwilling to learn wave labelling by hand, since several techniques assume the reader can verify or override the software&rsquo;s automatic count.</p>
+<h2 id="related-books-in-this-library">Related books in this library</h2>
+<ul>
+<li><a class="xref" href="../books/forex-mtpredictor-trading-course-part-1a.html">MTPredictor Trading Course — Part 1</a> — Part 1 covers the automatic trade set-ups this volume explains and extends.</li>
+<li><a class="xref" href="../books/elliott-waves-principle.html">Elliott Wave Principle</a> — the foundational wave-counting rules this course applies with added Fibonacci price targets.</li>
+<li><a class="xref" href="../books/fischer-robert-fibonacci-applications-and-strategies-for.html">Fibonacci Applications and Strategies for Traders</a> — a deeper, software-independent treatment of the same Fibonacci ratio families used for WPTs.</li>
+<li><a class="xref" href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — original source of the 80/20 day set-up adapted in Chapter 10.</li>
+<li><a class="xref" href="../books/gann-w-d-new-stock-trend-detector.html">New Stock Trend Detector</a> — origin of the minor-pullback observation and the 50%/100% numbers discussed in Chapter 2.</li>
+</ul></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/forex-mtpredictor-trading-course-part-1a.html">MTPredictor Trading Course — Part 1</a> — Introductory volume of Steve Griffiths&#39; MTPredictor manual: basic Elliott wave rules, the software&#39;s three automatic trade set-ups (TS1/TS2/TS3), and a strict initial-risk-first approach to trade sizing.</li><li><a href="../books/elliott-waves-principle.html">Elliott Wave Principle</a> — The foundational course on R.N. Elliott&#39;s Wave Principle: motive/corrective wave structure, the three inviolable rules, Fibonacci ratio relationships, alternation, and channeling.</li><li><a href="../books/fischer-robert-fibonacci-applications-and-strategies-for.html">Fibonacci Applications and Strategies for Traders</a> — Replaces Elliott&#39;s subjective wave count with mechanical Fibonacci rules for corrections, extensions, and time-goal days, ending in a logarithmic-spiral price/time tool.</li><li><a href="../books/street-smarts-laurence-connors.html">Street Smarts: High Probability Short-Term Trading Strategies</a> — A catalogue of fully specified short-term swing-trading setups (Turtle Soup, 80-20&#39;s, the Anti, Holy Grail, Wolfe Waves, and more) built on tests, retracements, and climax reversals.</li><li><a href="../books/gann-w-d-new-stock-trend-detector.html">New Stock Trend Detector</a> — Gann&#39;s post-1929 trend-detection manual: chart-hierarchy rules, single/double/triple top-bottom setups, a 3-point stop rule, volume confirmation, and a pyramiding money-management method.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

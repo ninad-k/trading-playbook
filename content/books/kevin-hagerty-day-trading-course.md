@@ -1,17 +1,34 @@
 ---
-title: "Day Trading Course"
 author: Kevin Haggerty
-year: unknown
-slug: kevin-hagerty-day-trading-course
-tier: A
 category: Day Trading & Scalping
-tags: [day-trading, swing-points, momentum, relative-strength, trap-door, opening-reversal, breakout-patterns, money-management]
 difficulty: intermediate
 doc_type: course
+one_liner: A five-week TradingMarkets.com day-trading course teaching swing-point
+  structure, institutional-momentum stock selection, and named intraday setups (Trap
+  Door, Opening Reversal, BP1-4, Dynamite Triangle, Slim Jim).
 pages: 66
-one_liner: "A five-week TradingMarkets.com day-trading course teaching swing-point structure, institutional-momentum stock selection, and named intraday setups (Trap Door, Opening Reversal, BP1-4, Dynamite Triangle, Slim Jim)."
-related: [joe-ross-trading-the-ross-hook, oliver-velez-swing-trading-tactics, trading-in-the-zone, richard-l-weissman-mechanical-trading-systems]
-source_file: "Kevin Hagerty - Day Trading Course.pdf"
+related:
+- joe-ross-trading-the-ross-hook
+- oliver-velez-swing-trading-tactics
+- trading-in-the-zone
+- richard-l-weissman-mechanical-trading-systems
+reviewed_pdf_pages: 2-6, 9, 13, 27, 41, 50 (Week 1 Traders Equation and loss-size
+  discipline, stock-selection filters, sector-index list and worked trade examples)
+slug: kevin-hagerty-day-trading-course
+source_file: Kevin Hagerty - Day Trading Course.pdf
+source_review: partial
+tags:
+- day-trading
+- swing-points
+- momentum
+- relative-strength
+- trap-door
+- opening-reversal
+- breakout-patterns
+- money-management
+tier: A
+title: Day Trading Course
+year: unknown
 ---
 
 ## Overview

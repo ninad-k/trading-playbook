@@ -1,17 +1,34 @@
 ---
-title: The Right Stock at the Right Time
 author: Larry Williams
-year: 2003
-slug: l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years
-tier: A
 category: Investing, Value & Market History
-tags: [market-cycles, seasonality, sentiment, stock-selection, money-management, decennial-pattern, dow-theory]
 difficulty: intermediate
 doc_type: book
+one_liner: Long-term cycle timing (decennial pattern, four-year phenomenon, October
+  effect) combined with earnings-based stock selection and named position-sizing formulas.
 pages: 239
-one_liner: "Long-term cycle timing (decennial pattern, four-year phenomenon, October effect) combined with earnings-based stock selection and named position-sizing formulas."
-related: [steven-bolten-stock-market-cycles, larry-williams-long-term-secrets-to-short-term-trading, larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains, the-intelligent-investor-benjamin-graham, a-new-interprtation-of-information-rate-kelly]
-source_file: "L Williams - The Right Stock At The Right Time - Prospering In The Coming Good Years.pdf"
+related:
+- steven-bolten-stock-market-cycles
+- larry-williams-long-term-secrets-to-short-term-trading
+- larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains
+- the-intelligent-investor-benjamin-graham
+- kellybetting
+reviewed_pdf_pages: 6, 36-37, 41-42, 47-49 (the decennial and seasonal studies, the
+  October-effect statistics and the valuation-rule chapters)
+slug: l-williams-the-right-stock-at-the-right-time-prospering-in-the-coming-good-years
+source_file: L Williams - The Right Stock At The Right Time - Prospering In The Coming
+  Good Years.pdf
+source_review: partial
+tags:
+- market-cycles
+- seasonality
+- sentiment
+- stock-selection
+- money-management
+- decennial-pattern
+- dow-theory
+tier: A
+title: The Right Stock at the Right Time
+year: 2003
 ---
 
 ## Overview
@@ -87,4 +104,4 @@ Long-term investors and swing traders interested in a cycle- and seasonality-bas
 - [[larry-williams-long-term-secrets-to-short-term-trading]] — Williams' better-known short-term commodity trading book, useful for contrasting his short-term system-building approach with this book's long-term cycle focus.
 - [[larry-williams-the-secret-of-selecting-stocks-for-immediate-and-substantial-gains]] — another Williams stock-selection text, a direct companion to Chapter 8's earnings-discount method here.
 - [[the-intelligent-investor-benjamin-graham]] — the value-investing tradition (earnings yield, margin of safety) this book's Chapter 11 value-ratio screens draw on.
-- [[a-new-interprtation-of-information-rate-kelly]] — the original Kelly criterion paper referenced directly in Chapter 12's position-sizing discussion.
+- [[kellybetting]] — the original Kelly criterion paper referenced directly in Chapter 12's position-sizing discussion.

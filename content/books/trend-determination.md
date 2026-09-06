@@ -1,17 +1,32 @@
 ---
-title: "Trend Determination: A Quick, Accurate & Effective Methodology"
 author: John Hayden
-year: 1999
-slug: trend-determination
-tier: B
 category: Indicators
-tags: [rsi, cardwell-rsi, trend-analysis, divergence, moving-averages, oscillators]
 difficulty: intermediate
 doc_type: article
+one_liner: John Hayden's Cardwell-style RSI method for reading trend from range shifts,
+  support/resistance on the RSI itself, and 'reverse' divergence interpretation.
 pages: 11
-one_liner: "John Hayden's Cardwell-style RSI method for reading trend from range shifts, support/resistance on the RSI itself, and 'reverse' divergence interpretation."
-related: [john-hayden-how-to-use-the-rsi, wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator, trading-with-macd-a-lesson-on-divergence, macd, general-observations-thoughts-on-trading-gbp]
-source_file: "Trend_Determination.pdf"
+related:
+- john-hayden-how-to-use-the-rsi
+- wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator
+- trading-with-macd-a-lesson-on-divergence
+- macd
+- general-observations-thoughts-on-trading-gbp
+reviewed_pdf_pages: 1, 4-6, 9-10 (the RSI range-shift rules, the divergence discussion
+  and the moving-average trend filter)
+slug: trend-determination
+source_file: Trend_Determination.pdf
+source_review: partial
+tags:
+- rsi
+- cardwell-rsi
+- trend-analysis
+- divergence
+- moving-averages
+- oscillators
+tier: B
+title: 'Trend Determination: A Quick, Accurate & Effective Methodology'
+year: 1999
 ---
 
 ## Summary

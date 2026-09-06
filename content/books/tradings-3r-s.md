@@ -1,17 +1,30 @@
 ---
-title: "Maintain Your Mindset: Using the Three R's & Positive Thinking"
-author: "Linda Bradford Raschke"
-year: 2004
-slug: tradings-3r-s
-tier: B
+author: Linda Bradford Raschke
 category: Trading Psychology & Discipline
-tags: [psychology, discipline, record-keeping, burnout, positive-thinking, routine]
 difficulty: beginner
 doc_type: article
+one_liner: 'Veteran trader Linda Bradford Raschke''s SFO Magazine essay on avoiding
+  burnout via three habits: record keeping, rituals/routines, and ongoing research.'
 pages: 4
-one_liner: "Veteran trader Linda Bradford Raschke's SFO Magazine essay on avoiding burnout via three habits: record keeping, rituals/routines, and ongoing research."
-related: [personal-trading-behaviour, professional-traders-still-day-trade, disciplined-trader, trading-psychology]
-source_file: "Tradings_3R_s.pdf"
+related:
+- personal-trading-behaviour
+- professional-traders-still-day-trade
+- disciplined-trader
+- trading-psychology
+reviewed_pdf_pages: 1-4
+slug: tradings-3r-s
+source_file: Tradings_3R_s.pdf
+source_review: full
+tags:
+- psychology
+- discipline
+- record-keeping
+- burnout
+- positive-thinking
+- routine
+tier: B
+title: 'Maintain Your Mindset: Using the Three R''s & Positive Thinking'
+year: 2004
 ---
 
 ## Summary

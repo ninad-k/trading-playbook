@@ -1,17 +1,32 @@
 ---
-title: "L'ABC del Forex: Tutto Ciò Che Occorre Sapere"
 author: Gabriele Coppini
-year: unknown
-slug: abcdelforex
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex-basics, pips, leverage, margin, pivot-points, moving-averages, bollinger-bands, macd, elliott-wave]
 difficulty: beginner
 doc_type: manual
+one_liner: Italian-language beginner primer on forex mechanics (pips, leverage, margin,
+  order types, sessions) plus a tour of core technical tools and chart patterns.
 pages: 39
-one_liner: "Italian-language beginner primer on forex mechanics (pips, leverage, margin, order types, sessions) plus a tour of core technical tools and chart patterns."
-related: [9-forex-systems, forex-money-management, welcometoforex]
-source_file: "abcdelforex.pdf"
+related:
+- 9-forex-systems
+- forex-money-management
+- welcometoforex
+reviewed_pdf_pages: 10-11 (the Fibonacci level tables and the pivot-point formulas)
+slug: abcdelforex
+source_file: abcdelforex.pdf
+source_review: partial
+tags:
+- forex-basics
+- pips
+- leverage
+- margin
+- pivot-points
+- moving-averages
+- bollinger-bands
+- macd
+- elliott-wave
+tier: B
+title: 'L''ABC del Forex: Tutto Ciò Che Occorre Sapere'
+year: unknown
 ---
 
 ## Summary

@@ -1,17 +1,31 @@
 ---
-title: "CatFX50 Rules"
-author: "Unknown"
-year: 2007
-slug: catfx50-rules
-tier: B
+author: Unknown
 category: Day Trading & Scalping
-tags: [forex, ema, stochastic, pivot-points, scalping, eurusd, gbpusd]
 difficulty: intermediate
 doc_type: manual
+one_liner: A four-level EMA50/EMA120-plus-stochastic forex scalping system on the
+  30-minute chart for EURUSD, USDCHF and GBPUSD, with a 34-pip stop.
 pages: 4
-one_liner: "A four-level EMA50/EMA120-plus-stochastic forex scalping system on the 30-minute chart for EURUSD, USDCHF and GBPUSD, with a 34-pip stop."
-related: [5-13-62, camarilla-levels, 9-forex-systems, king-keltner-trading-strategy]
-source_file: "CatFX50 rules.pdf"
+related:
+- 5-13-62
+- camarilla-levels
+- 9-forex-systems
+- king-keltner-trading-strategy
+reviewed_pdf_pages: 1-4
+slug: catfx50-rules
+source_file: CatFX50 rules.pdf
+source_review: full
+tags:
+- forex
+- ema
+- stochastic
+- pivot-points
+- scalping
+- eurusd
+- gbpusd
+tier: B
+title: CatFX50 Rules
+year: 2007
 ---
 
 ## Summary

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ghost Trader Trading Strategy (Full System) — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="A trade-filtering template that runs a base EMA/RSI system as a hidden paper-trade simulation and only fires a real order when the most recent simulated-or-real trade on that logic was a loser.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a></p>
+  <h1>The Ghost Trader Trading Strategy (Full System)</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">A trade-filtering template that runs a base EMA/RSI system as a hidden paper-trade simulation and only fires a real order when the most recent simulated-or-real trade on that logic was a loser.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=trade-filtering">trade-filtering</a> <a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=simulated-trading">simulated-trading</a> <a class="tag" href="../search.html?q=tradestation-easylanguage">tradestation-easylanguage</a> </td></tr>
+    <tr><th>Length</th><td>406 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Ghost Trader Trading Strategy (Full System)” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A coding template, more than a finished strategy, demonstrating how to make a system&rsquo;s real trade signals depend on the outcome of the prior trade. Some traders believe a loss is more likely to be followed by a win (or vice versa); testing this historically is awkward because &ldquo;skip the next trade if the last one was a winner&rdquo; requires tracking hypothetical trades never actually taken. Ghost Trader solves this by running a &ldquo;ghost&rdquo; (simulated/paper) copy of a base EMA/RSI system on every bar — tracking a shadow position, entry price, and realized P&amp;L as if every signal had been traded — and only submitting a real order when the most recently closed trade in that shadow record (real or simulated) was a loser.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Base entry/exit logic (the underlying system being filtered)</strong>
+1. Long entry: 9-period exponential moving average of closes greater than the 19-period EMA of highs, and the 9-period RSI of closes crossing below 70 → buy stop at today&rsquo;s high, filled next bar.
+2. Short entry: 9-period EMA of closes less than the 19-period EMA of lows, and the 9-period RSI of closes crossing above 30 → sell stop at today&rsquo;s low, filled next bar.
+3. Exit: a long is liquidated when price breaks the lowest low of the past 20 days; a short is liquidated when price breaks the highest high of the past 20 days.</p>
+<p><strong>Ghost (simulated) tracking — runs every bar regardless of whether a real trade is taken</strong>
+4. Maintain <code>myPosition</code> (0/1/−1), <code>myEntryPrice</code>, and <code>myProfit</code> as ordinary variables, not real orders.
+5. When yesterday&rsquo;s data would have generated a long signal (condition 1, evaluated one bar back) and today&rsquo;s high confirms the stop would have filled: set <code>myPosition = 1</code> and <code>myEntryPrice</code> = the greater of today&rsquo;s open or yesterday&rsquo;s high (accounts for a gap-open fill).
+6. When a simulated long&rsquo;s 20-day-low exit would have triggered: set <code>myProfit</code> = exit price − <code>myEntryPrice</code>, and reset <code>myPosition = 0</code>. Mirror logic applies to simulated shorts (using the 20-day-high exit and <code>myEntryPrice</code> − exit price for <code>myProfit</code>).
+7. This shadow bookkeeping runs continuously and independently of whether the real system below is currently in a position.</p>
+<p><strong>Real trade-gating logic</strong>
+8. Submit a real buy stop at today&rsquo;s high (next bar) only if the base long-entry condition fires AND <code>myProfit &lt; 0</code> (the last tracked simulated-or-real trade was a loser).
+9. Submit a real sell stop at today&rsquo;s low (next bar) only if the base short-entry condition fires AND <code>myProfit &lt; 0</code>.
+10. Exit real positions using the identical 20-day high/low breakout rule used for the simulated trades (rule 3).
+11. The template is explicitly extensible — the authors note it can be adapted to require two (or more) consecutive simulated losers before re-enabling real trades, or to gate on winners instead of losers if that is the hypothesis being tested.</p>
+<h2 id="risk">Risk</h2>
+<p>No position sizing, stop-loss distance, or account-level risk rule is specified — Ghost Trader is a filtering layer bolted onto a base system&rsquo;s existing entries and 20-day breakout exits, inheriting that base system&rsquo;s risk profile entirely. In the authors&rsquo; illustrative 2000-2002 comparison on a single instrument, taking every base signal produced a mix of wins and losses across roughly a dozen trades; filtering to &ldquo;only trade after a loser&rdquo; produced fewer total trades but a higher realized net result in that sample (several of the base system&rsquo;s losers were the ones skipped, while its winners were largely preserved).</p>
+<h2 id="caveats">Caveats</h2>
+<p>The authors are explicit this is a coding demonstration of a trade-filtering technique, not a validated system: the &ldquo;losses cluster and reverse&rdquo; premise is asserted, not statistically tested, and the one illustrative backtest window is far too short (and un-replicated across markets) to generalize from. EasyLanguage has no built-in way to identify which entry rule triggered a position, so the shadow-tracking code must reconstruct gap-open fills and exits manually — a source of subtle bugs if adapted carelessly. Because the base system&rsquo;s entry and exit are not otherwise validated here, any performance gain from the &ldquo;trade only after a loss&rdquo; filter is confounded with the base system&rsquo;s own edge or lack of one.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

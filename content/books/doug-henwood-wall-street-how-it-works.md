@@ -1,17 +1,30 @@
 ---
-title: "Wall Street: How It Works and for Whom"
-author: "Doug Henwood"
-year: 1997
-slug: doug-henwood-wall-street-how-it-works
-tier: B
-category: "Investing, Value & Market History"
-tags: [market-structure, efficient-market-hypothesis, derivatives, institutional-investors, political-economy, financial-history]
+author: Doug Henwood
+category: Investing, Value & Market History
 difficulty: advanced
 doc_type: book
+one_liner: 'Left political-economy critique of the U.S. financial system: how stocks,
+  bonds, and derivatives actually work, who the major players are, and why efficient-market
+  theory misdescribes how markets behave.'
 pages: 382
-one_liner: "Left political-economy critique of the U.S. financial system: how stocks, bonds, and derivatives actually work, who the major players are, and why efficient-market theory misdescribes how markets behave."
-related: [the-intelligent-investor-benjamin-graham, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore]
-source_file: "Doug Henwood - Wall Street - How It Works.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+reviewed_pdf_pages: 14, 18, 20, 26 (the derivatives and market-structure chapters
+  and the wealth-distribution tables)
+slug: doug-henwood-wall-street-how-it-works
+source_file: Doug Henwood - Wall Street - How It Works.pdf
+source_review: partial
+tags:
+- market-structure
+- efficient-market-hypothesis
+- derivatives
+- institutional-investors
+- political-economy
+- financial-history
+tier: B
+title: 'Wall Street: How It Works and for Whom'
+year: 1997
 ---
 
 ## Summary

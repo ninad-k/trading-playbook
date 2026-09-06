@@ -1,17 +1,32 @@
 ---
-title: "Trading Strategies: John Murphy's Ten Laws of Technical Trading"
 author: Various
-year: 2000
-slug: trading-strategies-john-murphy-s-ten-laws-of-technical-trading
-tier: B
 category: Trend Following & Mechanical Systems
-tags: [technical-analysis, moving-averages, macd, adx, stochastic, gap-trading, trend-following, murphy]
 difficulty: beginner
 doc_type: article
+one_liner: 'StockCharts.com compendium: Murphy''s Ten Laws of trend trading plus Richard
+  Rhodes'' trading rules, a 39-period stochastic technique, moving-average crossover
+  systems, and eight gap-trading strategies.'
 pages: 36
-one_liner: "StockCharts.com compendium: Murphy's Ten Laws of trend trading plus Richard Rhodes' trading rules, a 39-period stochastic technique, moving-average crossover systems, and eight gap-trading strategies."
-related: [turtletrader, dynamic-breakout-ii-strategy, picking-tops]
-source_file: "Trading Strategies - John Murphy S Ten Laws Of Technical Trading.pdf"
+related:
+- turtletrader
+- dynamic-breakout-ii-strategy
+- picking-tops
+reviewed_pdf_pages: 3, 5-6, 8-10 (the ten laws and the K39 stochastic technique)
+slug: trading-strategies-john-murphy-s-ten-laws-of-technical-trading
+source_file: Trading Strategies - John Murphy S Ten Laws Of Technical Trading.pdf
+source_review: partial
+tags:
+- technical-analysis
+- moving-averages
+- macd
+- adx
+- stochastic
+- gap-trading
+- trend-following
+- murphy
+tier: B
+title: 'Trading Strategies: John Murphy''s Ten Laws of Technical Trading'
+year: 2000
 ---
 
 ## Summary

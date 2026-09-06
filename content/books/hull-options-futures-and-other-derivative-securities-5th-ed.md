@@ -1,17 +1,33 @@
 ---
-title: Options, Futures, and Other Derivatives (5th Edition)
 author: John C. Hull
-year: 2003
-slug: hull-options-futures-and-other-derivative-securities-5th-ed
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, futures, derivatives, greeks, black-scholes, hedging, put-call-parity, value-at-risk]
 difficulty: advanced
 doc_type: book
+one_liner: 'The standard academic/professional derivatives textbook: pricing theory,
+  hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement.'
 pages: 756
-one_liner: "The standard academic/professional derivatives textbook: pricing theory, hedging, the Greeks, binomial and Black-Scholes models, swaps, and risk measurement."
-related: [fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options, derivatives-pricing-and-financial-modelling]
-source_file: "Hull-Options_ Futures And Other Derivative Securities_ 5Th Ed.pdf"
+related:
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- guy-cohen-the-bible-of-options-strategies
+- lawrence-g-mcmillan-profit-with-options
+- derivatives-pricing-and-financial-modelling
+reviewed_pdf_pages: 5-9, 71, 133, 299, 341, 346, 362 (contents, the margin rules,
+  the Greeks chapters and the VaR/regulatory-capital sections)
+slug: hull-options-futures-and-other-derivative-securities-5th-ed
+source_file: Hull-Options_ Futures And Other Derivative Securities_ 5Th Ed.pdf
+source_review: partial
+tags:
+- options
+- futures
+- derivatives
+- greeks
+- black-scholes
+- hedging
+- put-call-parity
+- value-at-risk
+tier: A
+title: Options, Futures, and Other Derivatives (5th Edition)
+year: 2003
 ---
 
 ## Overview

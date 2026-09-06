@@ -1,17 +1,34 @@
 ---
-title: 101 Option Trading Secrets
 author: Kenneth R. Trester
-year: 2004
-slug: 101-option-trading-secrets-kenneth-r-trester
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, option-buying, option-writing, credit-spreads, diagonal-spread, delta, volatility, risk-management]
 difficulty: intermediate
 doc_type: book
+one_liner: 101 short, numbered rules on buying, writing and spreading options, built
+  around cheap options, stop-losses, credit spreads and a 'find your edge' philosophy.
 pages: 336
-one_liner: "101 short, numbered rules on buying, writing and spreading options, built around cheap options, stop-losses, credit spreads and a 'find your edge' philosophy."
-related: [elder-alexander-trading-for-a-living, guy-cohen-the-bible-of-options-strategies, lawrence-g-mcmillan-profit-with-options, jack-schwager-stock-market-wizards, using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital]
-source_file: "101 Option Trading Secrets - Kenneth.R.Trester.pdf"
+related:
+- elder-alexander-trading-for-a-living
+- guy-cohen-the-bible-of-options-strategies
+- lawrence-g-mcmillan-profit-with-options
+- jack-schwager-stock-market-wizards
+- using-options-to-buy-stocks-build-wealth-with-little-risk-and-no-capital
+reviewed_pdf_pages: 4, 7-8, 11, 17, 72, 108, 196 (contents, the 60% Rule, cheap-option
+  cost caps, debit-spread targets and the volatility chapters)
+slug: 101-option-trading-secrets-kenneth-r-trester
+source_file: 101 Option Trading Secrets - Kenneth.R.Trester.pdf
+source_review: partial
+tags:
+- options
+- option-buying
+- option-writing
+- credit-spreads
+- diagonal-spread
+- delta
+- volatility
+- risk-management
+tier: A
+title: 101 Option Trading Secrets
+year: 2004
 ---
 
 ## Overview

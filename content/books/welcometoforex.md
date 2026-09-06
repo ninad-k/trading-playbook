@@ -1,17 +1,30 @@
 ---
-title: "Welcome to Forex"
-author: "Scott Owens"
-year: 2005
-slug: welcometoforex
-tier: B
+author: Scott Owens
 category: Forex Mechanics & Macro Drivers
-tags: [forex, beginner, pips, leverage, margin, fundamental-analysis, technical-analysis]
 difficulty: beginner
 doc_type: article
+one_liner: FX Engines beginner FAQ-style brief covering forex market structure, pairs/pips,
+  leverage/margin mechanics, and a three-step learn-build-begin plan for new traders.
 pages: 7
-one_liner: "FX Engines beginner FAQ-style brief covering forex market structure, pairs/pips, leverage/margin mechanics, and a three-step learn-build-begin plan for new traders."
-related: [10keystosuccess, forex-manual-10-keys-to-successful-trading, forex-nfa]
-source_file: "welcometoforex.pdf"
+related:
+- 10keystosuccess
+- forex-manual-10-keys-to-successful-trading
+- forex-nfa
+reviewed_pdf_pages: 1-7
+slug: welcometoforex
+source_file: welcometoforex.pdf
+source_review: full
+tags:
+- forex
+- beginner
+- pips
+- leverage
+- margin
+- fundamental-analysis
+- technical-analysis
+tier: B
+title: Welcome to Forex
+year: 2005
 ---
 
 ## Summary

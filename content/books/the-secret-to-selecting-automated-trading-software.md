@@ -1,17 +1,30 @@
 ---
-title: The Secret to Selecting Automated Trading Software
 author: Winsor A.G.A. Hoang
-year: unknown
-slug: the-secret-to-selecting-automated-trading-software
-tier: B
 category: Trading Psychology & Discipline
 difficulty: beginner
-tags: [automated-trading, expectations, discipline, forex, marketing-hype, realistic-returns]
 doc_type: article
+one_liner: Short promotional article arguing that patience, low return expectations,
+  and sticking with one system for 6-12 months matter more than any automated trading
+  software.
 pages: 2
-one_liner: "Short promotional article arguing that patience, low return expectations, and sticking with one system for 6-12 months matter more than any automated trading software."
-related: [how-effective-is-automated-forex-trading, jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual, 10-bankrupt, coreconcepts-automatedtrading]
-source_file: "The Secret To Selecting Automated Trading Software.pdf"
+related:
+- jack-schwager-guide-to-winning-with-automated-trading-systems-course-manual
+- 10-bankrupt
+- coreconcepts-automatedtrading
+reviewed_pdf_pages: 1-2
+slug: the-secret-to-selecting-automated-trading-software
+source_file: The Secret To Selecting Automated Trading Software.pdf
+source_review: full
+tags:
+- automated-trading
+- expectations
+- discipline
+- forex
+- marketing-hype
+- realistic-returns
+tier: B
+title: The Secret to Selecting Automated Trading Software
+year: unknown
 ---
 
 ## Summary

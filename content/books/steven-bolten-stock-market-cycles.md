@@ -1,17 +1,35 @@
 ---
-title: "Stock Market Cycles: A Practical Explanation"
 author: Steven E. Bolten
-year: 2000
-slug: steven-bolten-stock-market-cycles
-tier: A
-category: "Investing, Value & Market History"
-doc_type: book
-pages: 184
-one_liner: "An academic dividend-discount-model explanation of bull/bear cycles as the interaction of the rate of change in expected earnings versus interest rates, with a market-timing indicator and asset-allocation backtest."
-tags: [valuation, dividend-discount-model, business-cycle, interest-rates, asset-allocation, price-earnings-ratio, sector-rotation, academic-research]
+category: Investing, Value & Market History
 difficulty: advanced
-related: [damodaran-aswath-investment-fables, investment-valuation-damodaran, the-intelligent-investor-benjamin-graham, marcel-petro-market-timing, leslie-n-masonson-all-about-market-timing]
-source_file: "Steven Bolten - Stock Market Cycles.pdf"
+doc_type: book
+one_liner: An academic dividend-discount-model explanation of bull/bear cycles as
+  the interaction of the rate of change in expected earnings versus interest rates,
+  with a market-timing indicator and asset-allocation backtest.
+pages: 184
+related:
+- damodaran-aswath-investment-fables
+- investment-valuation-damodaran
+- the-intelligent-investor-benjamin-graham
+- marcel-petro-market-timing
+- leslie-n-masonson-all-about-market-timing
+reviewed_pdf_pages: 5-6, 13-14 (contents, the valuation framework and Table 1.1's
+  earnings/risk-change matrix)
+slug: steven-bolten-stock-market-cycles
+source_file: Steven Bolten - Stock Market Cycles.pdf
+source_review: partial
+tags:
+- valuation
+- dividend-discount-model
+- business-cycle
+- interest-rates
+- asset-allocation
+- price-earnings-ratio
+- sector-rotation
+- academic-research
+tier: A
+title: 'Stock Market Cycles: A Practical Explanation'
+year: 2000
 ---
 
 ## Overview

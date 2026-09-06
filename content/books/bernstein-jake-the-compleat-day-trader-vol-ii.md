@@ -1,17 +1,35 @@
 ---
-title: "The Compleat Day Trader II"
 author: Jake Bernstein
-year: 1998
-slug: bernstein-jake-the-compleat-day-trader-vol-ii
-tier: A
 category: Day Trading & Scalping
-tags: [day-trading, futures, breakout, opening-range, gap-trading, seasonality, psychology, order-types]
 difficulty: intermediate
 doc_type: book
+one_liner: Bernstein's 1998 sequel introduces the 30-Minute Breakout and Dual Breakout
+  day-trading systems alongside refined gap methods, the inside-day pattern, an A/D
+  oscillator, and expanded day-trading psychology.
 pages: 260
-one_liner: "Bernstein's 1998 sequel introduces the 30-Minute Breakout and Dual Breakout day-trading systems alongside refined gap methods, the inside-day pattern, an A/D oscillator, and expanded day-trading psychology."
-related: [bernstein-jake-the-compleat-day-trader-vol-i, jake-bernstein-stock-market-strategies-that-work, turtlerules, curtis-faith-way-of-the-turtle]
-source_file: "Bernstein, Jake - The Compleat Day Trader Vol II.pdf"
+related:
+- bernstein-jake-the-compleat-day-trader-vol-i
+- jake-bernstein-stock-market-strategies-that-work
+- turtlerules
+- curtis-faith-way-of-the-turtle
+reviewed_pdf_pages: 3-8, 18, 36, 45, 54, 63, 72, 90, 99, 234-235 (contents, the 30-Minute
+  Breakout rules, Dual Breakout and inside-day sections, S&P stop-size discussion
+  and the pyramiding chapter)
+slug: bernstein-jake-the-compleat-day-trader-vol-ii
+source_file: Bernstein, Jake - The Compleat Day Trader Vol II.pdf
+source_review: partial
+tags:
+- day-trading
+- futures
+- breakout
+- opening-range
+- gap-trading
+- seasonality
+- psychology
+- order-types
+tier: A
+title: The Compleat Day Trader II
+year: 1998
 ---
 
 ## Overview
@@ -40,7 +58,7 @@ The same discipline-over-discretion thesis as Volume I, sharpened with more emph
 3. **Inside-day breakout** — after an inside day, buy at its high plus a tick offset, or sell at its low minus a tick offset; the offset must be large enough to avoid whipsaws and small enough to give sufficient trades, but no specific value is given, and a separate risk-management stop is called for.
 4. **Gap methods** — basic signals mirror Volume I (enter on a penetration back through the prior day's extreme by a given number of ticks, exit at a fixed-dollar stop, a stop beyond the day's extreme, or MOC); the multigap variant used a 9-day lookback for buy signals and 2-day for sell signals in S&P testing, averaging about $482 per trade same-day or $780 held to the next profitable opening (after slippage/commission).
 5. **S&P stop-sizing caution** — even a 500-point ($1,250) stop can be insufficient given S&P's roughly 600-point average daily range; undersized stops are cited as a primary reason many S&P day traders lose.
-6. **Pyramiding rule** — add a shrinking size sequence to a working position (e.g., 5 contracts, then 3, then 2, then 1), never an escalating one.
+6. **Pyramiding rule** — if a position is built up at all, add successively smaller numbers of units, never larger ones; Bernstein calls the conventional escalating pyramid "clearly built upside down," heaviest at the top and liable to violent collapse on the first reversal. No specific size sequence is given in the text.
 7. **Order-handling discipline** — insist on prompt fill confirmations (especially in currencies, T-bonds, S&P, petroleum), know which order types an exchange accepts, and treat the broker as an employee executing decisions, not a source of opinion.
 
 ## Risk and money management

@@ -1,17 +1,29 @@
 ---
-title: Building Wealth with Pristine's Guerilla Trading Tactics
 author: Oliver L. Velez
-year: 1995
-slug: ebook-building-wealth-with-pristine-s-guerilla-trading-tactics
-tier: B
 category: Day Trading & Scalping
-tags: [breakout-trading, moving-average-bounce, stop-loss, pristine-capital, momentum, market-breadth]
 difficulty: beginner
 doc_type: article
+one_liner: 'First issue of Pristine''s ''Pristine Tips'' newsletter (Dec 1995): two
+  ''no-brainer'' setups (6-8 week breakout, 50-day MA bounce) plus a 4-step entry/stop/adjust/exit
+  trade plan.'
 pages: 4
-one_liner: "First issue of Pristine's 'Pristine Tips' newsletter (Dec 1995): two 'no-brainer' setups (6-8 week breakout, 50-day MA bounce) plus a 4-step entry/stop/adjust/exit trade plan."
-related: [oliver-velez-swing-trading-tactics, pristine-s-cardinal-rules-of-trading]
-source_file: "ebook - BUILDING WEALTH WITH PRISTINE_S GUERILLA TRADING TACTICS.pdf"
+related:
+- oliver-velez-swing-trading-tactics
+- pristine-s-cardinal-rules-of-trading
+reviewed_pdf_pages: 1-4
+slug: ebook-building-wealth-with-pristine-s-guerilla-trading-tactics
+source_file: ebook - BUILDING WEALTH WITH PRISTINE_S GUERILLA TRADING TACTICS.pdf
+source_review: full
+tags:
+- breakout-trading
+- moving-average-bounce
+- stop-loss
+- pristine-capital
+- momentum
+- market-breadth
+tier: B
+title: Building Wealth with Pristine's Guerilla Trading Tactics
+year: 1995
 ---
 
 ## Summary

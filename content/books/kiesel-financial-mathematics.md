@@ -1,17 +1,33 @@
 ---
-title: "Financial Mathematics"
-author: "Rüdiger Kiesel"
-year: unknown
-slug: kiesel-financial-mathematics
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [arbitrage-theory, derivative-pricing, black-scholes, stochastic-calculus, interest-rate-models, martingale-pricing]
+author: Rüdiger Kiesel
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: course
+one_liner: 'Graduate-level lecture notes deriving derivative pricing from first principles:
+  arbitrage theory, single- and multi-period market models, Black-Scholes, and interest-rate/HJM
+  models.'
 pages: 142
-one_liner: "Graduate-level lecture notes deriving derivative pricing from first principles: arbitrage theory, single- and multi-period market models, Black-Scholes, and interest-rate/HJM models."
-related: [bass-financial-mathematics-2003-lecture-notes-series, bass-the-basics-of-financial-mathematics, paul-wilmott-quantitative-finance, hull-options-futures-and-other-derivative-securities-5th-ed, back-to-basics-historical-option-pricing-revisited]
-source_file: "Kiesel_ Financial mathematics.pdf"
+related:
+- bass-financial-mathematics-2003-lecture-notes-series
+- bass-the-basics-of-financial-mathematics
+- paul-wilmott-quantitative-finance
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- back-to-basics-historical-option-pricing-revisited
+reviewed_pdf_pages: the four parts' derivation chapters checked against the note;
+  the notes are algebraic and state no trading parameters
+slug: kiesel-financial-mathematics
+source_file: Kiesel_ Financial mathematics.pdf
+source_review: partial
+tags:
+- arbitrage-theory
+- derivative-pricing
+- black-scholes
+- stochastic-calculus
+- interest-rate-models
+- martingale-pricing
+tier: B
+title: Financial Mathematics
+year: unknown
 ---
 
 ## Summary

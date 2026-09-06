@@ -1,18 +1,25 @@
 ---
-title: "The CMO-Driven VIDYA Trading System"
-author: "Tushar S. Chande and Stanley Kroll"
-year: 1994
-slug: chande-kroll-the-new-technical-trader--cmo-vidya-trading-system
-tier: A
+author: Tushar S. Chande and Stanley Kroll
 category: Indicators
-tags: [momentum, moving-average, mechanical-system, backtesting]
 difficulty: intermediate
 doc_type: system
-parent: chande-kroll-the-new-technical-trader
+one_liner: 'A fully backtested trend system: buy/sell stop when price closes on the
+  same side of a CMO-indexed VIDYA for two consecutive days, reverse on the opposite
+  signal, flat $1,500 stop.'
 pages: 115
-one_liner: "A fully backtested trend system: buy/sell stop when price closes on the same side of a CMO-indexed VIDYA for two consecutive days, reverse on the opposite signal, flat $1,500 stop."
-related: [new-concepts-in-technical-trading-systems-welles-wilder, perry-kaufman-smarter-trading]
-source_file: "Chande Kroll - The New Technical Trader.pdf"
+parent: chande-kroll-the-new-technical-trader
+related:
+- perry-kaufman-smarter-trading
+slug: chande-kroll-the-new-technical-trader--cmo-vidya-trading-system
+source_file: Chande Kroll - The New Technical Trader.pdf
+tags:
+- momentum
+- moving-average
+- mechanical-system
+- backtesting
+tier: A
+title: The CMO-Driven VIDYA Trading System
+year: 1994
 ---
 
 ## What it is

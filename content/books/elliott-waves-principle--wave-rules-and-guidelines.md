@@ -1,18 +1,28 @@
 ---
-title: "Elliott Wave Rules and Guidelines"
-author: "A.J. Frost and Robert R. Prechter, Jr."
-year: 1978
-slug: elliott-waves-principle--wave-rules-and-guidelines
-tier: A
+author: A.J. Frost and Robert R. Prechter, Jr.
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, wave-principle, chart-patterns, cycle-theory, technical-analysis]
 difficulty: advanced
 doc_type: system
-parent: elliott-waves-principle
+one_liner: 'The codeable core of Elliott Wave analysis: the three inviolable wave
+  rules, the alternation and channeling guidelines, and the Fibonacci ratios used
+  to project wave targets.'
 pages: 111
-one_liner: "The codeable core of Elliott Wave analysis: the three inviolable wave rules, the alternation and channeling guidelines, and the Fibonacci ratios used to project wave targets."
-related: [walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time, jen-matshall-practical-fibonacci-methode-for-forex-trading]
-source_file: "Elliott Waves Principle.pdf"
+parent: elliott-waves-principle
+related:
+- walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+slug: elliott-waves-principle--wave-rules-and-guidelines
+source_file: Elliott Waves Principle.pdf
+tags:
+- elliott-wave
+- fibonacci
+- wave-principle
+- chart-patterns
+- cycle-theory
+- technical-analysis
+tier: A
+title: Elliott Wave Rules and Guidelines
+year: 1978
 ---
 
 ## What it is

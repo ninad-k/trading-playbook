@@ -1,17 +1,33 @@
 ---
-title: "Elliott Wave Principle"
-author: "A.J. Frost and Robert R. Prechter, Jr."
-year: 1978
-slug: elliott-waves-principle
-tier: A
+author: A.J. Frost and Robert R. Prechter, Jr.
 category: Fibonacci, Gann & Elliott Wave
-tags: [elliott-wave, fibonacci, wave-principle, chart-patterns, cycle-theory, technical-analysis]
 difficulty: advanced
 doc_type: book
+one_liner: 'The foundational course on R.N. Elliott''s Wave Principle: motive/corrective
+  wave structure, the three inviolable rules, Fibonacci ratio relationships, alternation,
+  and channeling.'
 pages: 111
-one_liner: "The foundational course on R.N. Elliott's Wave Principle: motive/corrective wave structure, the three inviolable rules, Fibonacci ratio relationships, alternation, and channeling."
-related: [walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time, basic-guide-to-understanding-elliot-wave, advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys, jen-matshall-practical-fibonacci-methode-for-forex-trading, impulsive-wave]
-source_file: "Elliott Waves Principle.pdf"
+related:
+- walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time
+- basic-guide-to-understanding-elliot-wave
+- advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+- impulsive-wave
+reviewed_pdf_pages: 1-5, 19, 42, 47 (the lesson structure, wave definitions and subdivisions,
+  and the Fibonacci ratio chapters)
+slug: elliott-waves-principle
+source_file: Elliott Waves Principle.pdf
+source_review: partial
+tags:
+- elliott-wave
+- fibonacci
+- wave-principle
+- chart-patterns
+- cycle-theory
+- technical-analysis
+tier: A
+title: Elliott Wave Principle
+year: 1978
 ---
 
 ## Overview
@@ -89,5 +105,5 @@ Best suited to intermediate-to-advanced technical analysts who already understan
 - [[walker-myles-wilson-how-to-indentify-high-profit-elliott-wave-trades-in-real-time]] — a practical, trade-execution-focused companion to this book's theoretical wave-counting framework.
 - [[basic-guide-to-understanding-elliot-wave]] — a shorter, more introductory treatment for readers who find this course's full rule set overwhelming.
 - [[advanced-channeling-patterns-advanced-channeling-patterns-wolfe-waves-and-gartleys]] — extends this book's channeling guideline (Lesson 12) into related pattern-based projection techniques.
-- [[jen-matshall-practical-fibonacci-methode-for-forex-trading]] — applies this book's Fibonacci ratio analysis (Lessons 20-25) specifically to forex trading.
+- [[forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005]] — applies this book's Fibonacci ratio analysis (Lessons 20-25) specifically to forex trading.
 - [[impulsive-wave]] — a focused treatment of the impulse/motive wave structure covered in Lessons 4-5 here.

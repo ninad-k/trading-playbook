@@ -1,17 +1,32 @@
 ---
-title: "Does an Electronic Stock Exchange Need an Upstairs Market?"
-author: "Hendrik Bessembinder, Kumar Venkataraman"
-year: 2002
-slug: bessembinder-and-venkataraman-does-an-electronic-stock-exchange-need-an-upstairs-market
-tier: B
-category: "Quant, Microstructure & Academic Research"
-tags: [market-microstructure, block-trading, upstairs-market, paris-bourse, execution-costs, academic-research]
+author: Hendrik Bessembinder, Kumar Venkataraman
+category: Quant, Microstructure & Academic Research
 difficulty: advanced
 doc_type: paper
+one_liner: Study of 92,170 Paris Bourse block trades finds upstairs (broker-negotiated)
+  markets lower execution costs by tapping unexpressed liquidity and certifying trades
+  as uninformed, even alongside a modern electronic order book.
 pages: 43
-one_liner: "Study of 92,170 Paris Bourse block trades finds upstairs (broker-negotiated) markets lower execution costs by tapping unexpressed liquidity and certifying trades as uninformed, even alongside a modern electronic order book."
-related: [madhavan-market-microstructure-a-survey, hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the, competition-between-exchanges-euronext-versus-xetra]
-source_file: "Bessembinder And Venkataraman-Does An Electronic Stock Exchange Need An Upstairs Market.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- hamao-and-hasbrouck-securities-trading-in-the-absence-of-dealers-trades-and-quotes-on-the
+- competition-between-exchanges-euronext-versus-xetra
+reviewed_pdf_pages: 1-4, 6, 14 (the sample description and the upstairs-market volume
+  and cost results)
+slug: bessembinder-and-venkataraman-does-an-electronic-stock-exchange-need-an-upstairs-market
+source_file: Bessembinder And Venkataraman-Does An Electronic Stock Exchange Need
+  An Upstairs Market.pdf
+source_review: partial
+tags:
+- market-microstructure
+- block-trading
+- upstairs-market
+- paris-bourse
+- execution-costs
+- academic-research
+tier: B
+title: Does an Electronic Stock Exchange Need an Upstairs Market?
+year: 2002
 ---
 
 ## Summary

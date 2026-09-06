@@ -1,17 +1,30 @@
 ---
-title: Fibonacci Studies (AIQ TradingExpert Pro Reference Manual excerpt)
 author: Unknown
-year: unknown
-slug: fibonacci-studies
-tier: B
 category: Fibonacci, Gann & Elliott Wave
-tags: [fibonacci, arcs, fans, retracements, time-zones, charting-software, support-resistance]
 difficulty: beginner
 doc_type: manual
+one_liner: Software-manual chapter (AIQ TradingExpert Pro) explaining how to draw
+  and interpret Fibonacci Arcs, Fans, Retracements, and Time Zones.
 pages: 9
-one_liner: "Software-manual chapter (AIQ TradingExpert Pro) explaining how to draw and interpret Fibonacci Arcs, Fans, Retracements, and Time Zones."
-related: [wayne-gorman-how-you-can-identify-turning-points-using-fibonacci, george-alexander-maclean-fibonacci-and-gann-applications, fischer-robert-fibonacci-applications-and-strategies-for]
-source_file: "Fibonacci_Studies.pdf"
+related:
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+- george-alexander-maclean-fibonacci-and-gann-applications
+- fischer-robert-fibonacci-applications-and-strategies-for
+reviewed_pdf_pages: 1-9
+slug: fibonacci-studies
+source_file: Fibonacci_Studies.pdf
+source_review: full
+tags:
+- fibonacci
+- arcs
+- fans
+- retracements
+- time-zones
+- charting-software
+- support-resistance
+tier: B
+title: Fibonacci Studies (AIQ TradingExpert Pro Reference Manual excerpt)
+year: unknown
 ---
 
 ## Summary

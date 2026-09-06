@@ -1,17 +1,33 @@
 ---
-title: How I Made $2,000,000 in the Stock Market
 author: Nicolas Darvas
-year: 1960
-slug: how-i-made-2-million-in-the-stock-market
-tier: A
 category: Trend Following & Mechanical Systems
-tags: [box-theory, breakout, stop-loss, pyramiding, growth-stocks, trend-following, momentum]
 difficulty: beginner
 doc_type: book
+one_liner: A professional dancer turns $36,000 into $2M in 18 months trading by cables,
+  using a self-taught box-breakout system with a hard trailing stop.
 pages: 120
-one_liner: "A professional dancer turns $36,000 into $2M in 18 months trading by cables, using a self-taught box-breakout system with a hard trailing stop."
-related: [how-i-made-2-million-in-the-stock-market--box-theory, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, richard-smitten-trade-like-jesse-livermore-2005, elder-alexander-trading-for-a-living, michael-covel-trend-following]
-source_file: "How I Made 2 Million In The Stock Market.pdf"
+related:
+- how-i-made-2-million-in-the-stock-market--box-theory
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- richard-smitten-trade-like-jesse-livermore-2005
+- elder-alexander-trading-for-a-living
+- michael-covel-trend-following
+reviewed_pdf_pages: 3, 6-7, 20, 46, 55 (box-theory chapters, the trailing stop-loss
+  method and the worked box examples)
+slug: how-i-made-2-million-in-the-stock-market
+source_file: How I Made 2 Million In The Stock Market.pdf
+source_review: partial
+tags:
+- box-theory
+- breakout
+- stop-loss
+- pyramiding
+- growth-stocks
+- trend-following
+- momentum
+tier: A
+title: How I Made $2,000,000 in the Stock Market
+year: 1960
 ---
 
 ## Overview

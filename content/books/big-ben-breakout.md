@@ -1,17 +1,28 @@
 ---
-title: "Day Trading the FX Market: The Big Ben Breakout"
 author: Kristian Kerr
-year: 2004
-slug: big-ben-breakout
-tier: B
 category: Day Trading & Scalping
-tags: [forex, gbpusd, opening-range-breakout, day-trading, london-open, stop-hunt]
 difficulty: intermediate
 doc_type: article
+one_liner: 'Currency Trader magazine strategy article: a GBP/USD opening-range-breakout
+  system that trades the stop-hunt reversal around the Frankfurt/London open.'
 pages: 4
-one_liner: "Currency Trader magazine strategy article: a GBP/USD opening-range-breakout system that trades the stop-hunt reversal around the Frankfurt/London open."
-related: [241forex, congestion-markets-estimating-a-breakout-target]
-source_file: "Big_Ben_Breakout.pdf"
+related:
+- 241forex
+- congestion-markets-estimating-a-breakout-target
+reviewed_pdf_pages: 1-4
+slug: big-ben-breakout
+source_file: Big_Ben_Breakout.pdf
+source_review: full
+tags:
+- forex
+- gbpusd
+- opening-range-breakout
+- day-trading
+- london-open
+- stop-hunt
+tier: B
+title: 'Day Trading the FX Market: The Big Ben Breakout'
+year: 2004
 ---
 
 ## Summary

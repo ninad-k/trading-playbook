@@ -1,17 +1,33 @@
 ---
-title: "Options and Options Trading: A Simplified Course"
 author: Robert W. Ward
-year: 2004
-slug: options-and-options-trading-a-simplified-course
-tier: A
 category: Options, Futures & Derivatives
-tags: [options, black-scholes, binomial-model, greeks, delta-hedging, volatility, probability, derivatives]
 difficulty: beginner
 doc_type: book
+one_liner: Builds option pricing from coin-toss probability up through the Black-Scholes
+  formula, then argues no strategy is an automatic winner and the real edge is order
+  flow, customer business, and reading volatility.
 pages: 405
-one_liner: "Builds option pricing from coin-toss probability up through the Black-Scholes formula, then argues no strategy is an automatic winner and the real edge is order flow, customer business, and reading volatility."
-related: [black-scholes-option-pricing-model, fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, hull-options-futures-and-other-derivative-securities-5th-ed]
-source_file: "Options And Options Trading A Simplified Course.pdf"
+related:
+- black-scholes-option-pricing-model
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- hull-options-futures-and-other-derivative-securities-5th-ed
+reviewed_pdf_pages: 3-4, 25, 27-29, 36, 71, 75 (moneyness and Greeks definitions,
+  the binomial chapters and the conversion/reversal mechanics)
+slug: options-and-options-trading-a-simplified-course
+source_file: Options And Options Trading A Simplified Course.pdf
+source_review: partial
+tags:
+- options
+- black-scholes
+- binomial-model
+- greeks
+- delta-hedging
+- volatility
+- probability
+- derivatives
+tier: A
+title: 'Options and Options Trading: A Simplified Course'
+year: 2004
 ---
 
 ## Overview

@@ -1,17 +1,31 @@
 ---
-title: "Are Supply and Demand Driving Stock Prices?"
 author: Carl Hopman
-year: 2002
-slug: supply-demand
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [order-flow, price-impact, market-microstructure, limit-order-book, bubbles, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Paris Bourse order-flow data shows order imbalance explains ~50% of return
+  variance, with a higher R² for market-wide moves than stock-specific ones — pointing
+  to mechanical price pressure, not just information.
 pages: 41
-one_liner: "Paris Bourse order-flow data shows order imbalance explains ~50% of return variance, with a higher R² for market-wide moves than stock-specific ones — pointing to mechanical price pressure, not just information."
-related: [foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity, chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity, madhavan-market-microstructure-a-survey]
-source_file: "supply_demand.pdf"
+related:
+- foucault-kadan-and-kandel-limit-order-book-as-a-market-for-liquidity
+- chordia-roll-and-subrahmanyam-market-liquidity-and-trading-activity
+- madhavan-market-microstructure-a-survey
+reviewed_pdf_pages: 5, 9, 12-13 (the price-impact estimation and the order-flow autocorrelation
+  results)
+slug: supply-demand
+source_file: supply_demand.pdf
+source_review: partial
+tags:
+- order-flow
+- price-impact
+- market-microstructure
+- limit-order-book
+- bubbles
+- academic-paper
+tier: B
+title: Are Supply and Demand Driving Stock Prices?
+year: 2002
 ---
 
 ## Summary

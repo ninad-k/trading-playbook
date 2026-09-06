@@ -1,17 +1,30 @@
 ---
-title: "Detecting Breakouts From Flags & Pennants"
-author: "Markos Katsanos"
-year: 2005
-slug: detecting-breakouts-from-flags-pennants
-tier: B
+author: Markos Katsanos
 category: Candlesticks & Chart Patterns
-tags: [flags, pennants, breakouts, metastock, backtesting, volume, exit-rules]
 difficulty: advanced
 doc_type: article
+one_liner: A Stocks & Commodities article coding a mechanical MetaStock system to
+  detect and trade flag/pennant breakouts, backtested with a 187% return on Blue Coat
+  Systems.
 pages: 9
-one_liner: "A Stocks & Commodities article coding a mechanical MetaStock system to detect and trade flag/pennant breakouts, backtested with a 187% return on Blue Coat Systems."
-related: [trade-breakouts, chart-patterns-and-technical-indicators]
-source_file: "Detecting_Breakouts_From_Flags___Pennants.pdf"
+related:
+- trade-breakouts
+- chart-patterns-and-technical-indicators
+reviewed_pdf_pages: 1-9
+slug: detecting-breakouts-from-flags-pennants
+source_file: Detecting_Breakouts_From_Flags___Pennants.pdf
+source_review: full
+tags:
+- flags
+- pennants
+- breakouts
+- metastock
+- backtesting
+- volume
+- exit-rules
+tier: B
+title: Detecting Breakouts From Flags & Pennants
+year: 2005
 ---
 
 ## Summary

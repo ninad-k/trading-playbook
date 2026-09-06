@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ghost Trader Trading Strategy — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="Excerpt from Building Winning Trading Systems with TradeStation showing a template that only issues a real trade signal after a simulated &#39;ghost&#39; trade on the same rules has lost.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></p>
+  <h1>The Ghost Trader Trading Strategy</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2002 · <span class="badge tier-B">Tier B</span> <span class="badge">article</span> <span class="badge">advanced</span></p>
+  <p class="lead">Excerpt from Building Winning Trading Systems with TradeStation showing a template that only issues a real trade signal after a simulated &#39;ghost&#39; trade on the same rules has lost.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-4. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=tradestation-easylanguage">tradestation-easylanguage</a> <a class="tag" href="../search.html?q=mechanical-system">mechanical-system</a> <a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=trade-filtering">trade-filtering</a> <a class="tag" href="../search.html?q=backtesting">backtesting</a> </td></tr>
+    <tr><th>Length</th><td>4 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Ghost Trader Trading Strategy” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This excerpt from Pruitt and Hill&rsquo;s TradeStation programming book presents the &ldquo;Ghost Trader&rdquo; as a coding template, not a complete standalone strategy. The premise: some traders believe a loss is more likely followed by a win, so the system keeps a hidden (&ldquo;ghost&rdquo;) record of every hypothetical trade a base EMA/RSI system would take, and only fires a real order when the last simulated-or-real trade on that logic was a loser. The article walks through the EasyLanguage code for tracking simulated positions and gating real signals on prior outcome.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li><strong>Base long entry</strong> — 9-period EMA of closes above the 19-period EMA of highs, and 9-period RSI of closes crossing below 70, triggers a buy-stop at today&rsquo;s high for tomorrow.</li>
+<li><strong>Base short entry</strong> — mirror condition: 9 EMA of closes below 19 EMA of lows, RSI crossing above 30, triggers a sell-stop at today&rsquo;s low.</li>
+<li><strong>Exit</strong> — longs exit on a break of the lowest low of the past 20 days; shorts exit on a break of the highest high of 20 days.</li>
+<li><strong>Ghost-tracking</strong> — variables <code>myPosition</code>, <code>myEntryPrice</code>, <code>myProfit</code> simulate every trade the base logic would generate, whether or not a real order was placed.</li>
+<li><strong>Gating rule</strong> — a real order fires only when <code>myProfit &lt; 0</code>, i.e., the last tracked simulated-or-real trade was a loss.</li>
+<li><strong>Illustrative result</strong> — over a 2000-2002 sample, filtering to &ldquo;only trade after a loser&rdquo; produced fewer trades but a better net result than taking every signal, in the authors&rsquo; own example.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Track a simulated position/P&amp;L using the base EMA(9)/EMA(19)/RSI(9) entries and 20-day-breakout exits on every bar, regardless of whether a real trade is taken.</li>
+<li>Only submit a real buy-stop/sell-stop when the base rules trigger AND the last closed simulated-or-real trade was a loss.</li>
+<li>Exit real positions using the same 20-day high/low breakout used for the simulated trades.</li>
+<li>Account for gap opens with <code>MaxList</code>/<code>MinList</code> between the stop price and the actual open when recording simulated entry/exit prices.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is a coding template to illustrate a trade-filtering technique, not a validated system — one illustrative backtest window is shown, with no out-of-sample testing, no risk/sizing rules, and no proof that &ldquo;trade only after a loss&rdquo; holds statistically beyond the example given.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>TradeStation/EasyLanguage programmers wanting a worked example of trade-outcome-dependent filtering logic layered on a base mechanical system, not traders looking for a ready-to-use strategy.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

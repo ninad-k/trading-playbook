@@ -1,17 +1,29 @@
 ---
-title: Hedge Fund Course
 author: Stuart A. McCrary
-year: 2005
-slug: s-a-mccrary-hedge-fund-course
-tier: B
 category: Money Management & Position Sizing
-tags: [hedge-funds, risk-management, leverage, performance-measurement, fees, institutional]
 difficulty: advanced
 doc_type: course
+one_liner: Textbook-style survey of hedge fund structures, strategies, leverage, fees,
+  taxation, and performance/risk measurement for industry professionals.
 pages: 305
-one_liner: "Textbook-style survey of hedge fund structures, strategies, leverage, fees, taxation, and performance/risk measurement for industry professionals."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, jack-schwager-stock-market-wizards, exploring-value-at-risk]
-source_file: "S A Mccrary - Hedge Fund Course.pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- jack-schwager-stock-market-wizards
+- exploring-value-at-risk
+reviewed_pdf_pages: 10, 24, 28-29 (the fee, lockup and redemption chapters)
+slug: s-a-mccrary-hedge-fund-course
+source_file: S A Mccrary - Hedge Fund Course.pdf
+source_review: partial
+tags:
+- hedge-funds
+- risk-management
+- leverage
+- performance-measurement
+- fees
+- institutional
+tier: B
+title: Hedge Fund Course
+year: 2005
 ---
 
 ## Summary

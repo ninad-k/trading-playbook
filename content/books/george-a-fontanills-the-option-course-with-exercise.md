@@ -1,17 +1,32 @@
 ---
-title: "The Options Course Workbook, 2nd Edition"
 author: George A. Fontanills
-year: 2005
-slug: george-a-fontanills-the-option-course-with-exercise
-tier: A
-category: "Options, Futures & Derivatives"
-tags: [options, workbook, delta-neutral, greeks, ratio-backspread, margin, broker-selection, technical-analysis]
+category: Options, Futures & Derivatives
 difficulty: beginner
 doc_type: course
+one_liner: 'A 19-chapter study workbook companion to The Options Course: chapter summaries,
+  worked formula problems, and Q&A drills covering options basics through delta-neutral
+  spreads, margin, and broker/tool selection.'
 pages: 237
-one_liner: "A 19-chapter study workbook companion to The Options Course: chapter summaries, worked formula problems, and Q&A drills covering options basics through delta-neutral spreads, margin, and broker/tool selection."
-related: [fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, black-scholes-option-pricing-model]
-source_file: "GEORGE A. FONTANILLS - The Option Course With Exercise.pdf"
+related:
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- black-scholes-option-pricing-model
+reviewed_pdf_pages: 6, 9-10, 19, 22 (contents and workbook structure, delta-neutral
+  definitions, and the ratio spread/backspread valuation formulas)
+slug: george-a-fontanills-the-option-course-with-exercise
+source_file: GEORGE A. FONTANILLS - The Option Course With Exercise.pdf
+source_review: partial
+tags:
+- options
+- workbook
+- delta-neutral
+- greeks
+- ratio-backspread
+- margin
+- broker-selection
+- technical-analysis
+tier: A
+title: The Options Course Workbook, 2nd Edition
+year: 2005
 ---
 
 ## Overview

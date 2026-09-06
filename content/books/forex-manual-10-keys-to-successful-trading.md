@@ -1,17 +1,32 @@
 ---
-title: "10 Keys to Successful Trading: Introductory Manual"
 author: Jared F. Martinez
-year: 2002
-slug: forex-manual-10-keys-to-successful-trading
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, beginner, candlesticks, order-types, equity-management, market-structure]
 difficulty: beginner
 doc_type: manual
+one_liner: Market Traders Institute's introductory FOREX manual covering market structure,
+  candlestick reading, and order types as groundwork before its '10 Keys' course.
 pages: 24
-one_liner: "Market Traders Institute's introductory FOREX manual covering market structure, candlestick reading, and order types as groundwork before its '10 Keys' course."
-related: [understanding-forex-candlestick, candlestick-charting-explained, forex-education-seminar2, glossary-of-forex-terms, chart-patterns-tutorial]
-source_file: "FOREX Manual - 10 keys to successful trading.pdf"
+related:
+- understanding-forex-candlestick
+- candlestick-charting-explained
+- forex-education-seminar2
+- glossary-of-forex-terms
+- chart-patterns-tutorial
+reviewed_pdf_pages: 5-7 (the market-structure introduction and trader-level progression;
+  the excerpt stops before the ten keys themselves)
+slug: forex-manual-10-keys-to-successful-trading
+source_file: FOREX Manual - 10 keys to successful trading.pdf
+source_review: partial
+tags:
+- forex
+- beginner
+- candlesticks
+- order-types
+- equity-management
+- market-structure
+tier: B
+title: '10 Keys to Successful Trading: Introductory Manual'
+year: 2002
 ---
 
 ## Summary

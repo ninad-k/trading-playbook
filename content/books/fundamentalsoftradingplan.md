@@ -1,17 +1,29 @@
 ---
-title: Fundamentals Of A Trading Plan
 author: Mark Crisp
-year: unknown
-slug: fundamentalsoftradingplan
-tier: B
 category: Trading Psychology & Discipline
-tags: [trading-plan, discipline, risk-management, diversification, beginner]
 difficulty: beginner
 doc_type: article
+one_liner: Three-page checklist of 20 numbered trading-plan maxims covering discipline,
+  risk sizing, diversification, and trend-following, from tradingforbeginners.com.
 pages: 3
-one_liner: "Three-page checklist of 20 numbered trading-plan maxims covering discipline, risk sizing, diversification, and trend-following, from tradingforbeginners.com."
-related: [10-bankrupt, your-trading-plan, t2w-trading-plan-template-2005-asb, money-management-risk-control-for-traders]
-source_file: "FundamentalsOfTradingPlan.pdf"
+related:
+- 10-bankrupt
+- your-trading-plan
+- t2w-trading-plan-template-2005-asb
+- money-management-risk-control-for-traders
+reviewed_pdf_pages: 1-3
+slug: fundamentalsoftradingplan
+source_file: FundamentalsOfTradingPlan.pdf
+source_review: full
+tags:
+- trading-plan
+- discipline
+- risk-management
+- diversification
+- beginner
+tier: B
+title: Fundamentals Of A Trading Plan
+year: unknown
 ---
 
 ## Summary
@@ -42,7 +54,7 @@ A brief promotional lesson (credited to both "Mark Crisp" and "Mark McRae" in th
 
 ## Caveats
 
-Undated tearsheet-style document with no publisher information, and the numbers given (six-way capital split, one-tenth max risk per trade — i.e., roughly 16-17% of one-sixth per trade, not the more common 1-2% of total equity) are looser than typical modern risk guidance and are not derived from any backtest or case study in the text. Item 15 ("trade at the market whenever possible") is generic advice that predates decimalization and modern electronic execution, and is dated given today's tighter spreads and slippage concerns. No entry/exit signal, indicator, or timeframe is specified anywhere in the document.
+Undated tearsheet-style document with no publisher information, and the two sizing numbers given are internally inconsistent (item 11 says to divide capital into six equal parts, implying about 16.7% per position, and in the same breath caps risk at one-tenth of capital per trade) and both are far looser than the 1-2%-of-equity risk now standard and are not derived from any backtest or case study in the text. Item 15 ("trade at the market whenever possible") is generic advice that predates decimalization and modern electronic execution, and is dated given today's tighter spreads and slippage concerns. No entry/exit signal, indicator, or timeframe is specified anywhere in the document.
 
 ## Who it is for
 

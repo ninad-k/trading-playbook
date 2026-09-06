@@ -1,17 +1,32 @@
 ---
-title: The Affluent Desktop Currency Trader
 author: Amin Sadak
-year: 2006
-slug: adct-trader
-tier: B
 category: Day Trading & Scalping
-tags: [forex, day-trading, breakout, moving-averages, stochastic, candlesticks, risk-reward, trailing-stop]
 difficulty: beginner
 doc_type: manual
+one_liner: Retail forex day-trading manual covering pip/lot mechanics, order types,
+  and four short-term systems (Bollinger/MA/PSAR/MACD/RSI/Stochastic confluence, Inner
+  Bar breakout, MA crossover, candlestick+stochastic) targeting 10-25 pips per trade.
 pages: 83
-one_liner: "Retail forex day-trading manual covering pip/lot mechanics, order types, and four short-term systems (Bollinger/MA/PSAR/MACD/RSI/Stochastic confluence, Inner Bar breakout, MA crossover, candlestick+stochastic) targeting 10-25 pips per trade."
-related: [17-money-making-candlestick-formations2, van-tharp-trading-systems]
-source_file: "ADCT_Trader.pdf"
+related:
+- 17-money-making-candlestick-formations2
+- van-tharp-trading-systems
+reviewed_pdf_pages: 15-16, 40, 48-51 (the risk-per-trade and reward/risk rules and
+  the moving-average chapters)
+slug: adct-trader
+source_file: ADCT_Trader.pdf
+source_review: partial
+tags:
+- forex
+- day-trading
+- breakout
+- moving-averages
+- stochastic
+- candlesticks
+- risk-reward
+- trailing-stop
+tier: B
+title: The Affluent Desktop Currency Trader
+year: 2006
 ---
 
 ## Summary

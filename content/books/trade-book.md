@@ -1,17 +1,31 @@
 ---
-title: "Trade Book: Forex Fundamentals and Technical Analysis"
 author: Unknown
-year: unknown
-slug: trade-book
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, fundamental-analysis, technical-analysis, elliott-wave, fibonacci, money-management, oscillators]
 difficulty: beginner
 doc_type: manual
+one_liner: A compact forex primer covering market mechanics, quoting conventions,
+  central-bank drivers, classical/mathematical technical analysis, and basic capital-management
+  rules.
 pages: 36
-one_liner: "A compact forex primer covering market mechanics, quoting conventions, central-bank drivers, classical/mathematical technical analysis, and basic capital-management rules."
-related: [5-13-62, candlestick-patterns-for-day-trading]
-source_file: "Trade_Book.pdf"
+related:
+- 5-13-62
+- candlestick-patterns-for-day-trading
+reviewed_pdf_pages: 6-7, 17, 29 (the contract mechanics and the Fibonacci and Elliott
+  rules)
+slug: trade-book
+source_file: Trade_Book.pdf
+source_review: partial
+tags:
+- forex
+- fundamental-analysis
+- technical-analysis
+- elliott-wave
+- fibonacci
+- money-management
+- oscillators
+tier: B
+title: 'Trade Book: Forex Fundamentals and Technical Analysis'
+year: unknown
 ---
 
 ## Summary

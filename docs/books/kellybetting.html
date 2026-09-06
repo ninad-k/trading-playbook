@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A New Interpretation of Information Rate — J. L. Kelly Jr. · Trading Playbook</title>
+<meta name="description" content="The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></p>
+  <h1>A New Interpretation of Information Rate</h1>
+  <p class="byline">J. L. Kelly Jr. · 1956 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">The original Bell System Technical Journal paper deriving the Kelly criterion: bet a fraction of capital proportional to your edge to maximize long-run exponential growth.</p>
+  <div class="callout"><strong>Source coverage: full review.</strong> PDF pages inspected: 1-10. Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=kelly-criterion">kelly-criterion</a> <a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=information-theory">information-theory</a> <a class="tag" href="../search.html?q=bankroll-growth">bankroll-growth</a> <a class="tag" href="../search.html?q=probability">probability</a> <a class="tag" href="../search.html?q=academic-paper">academic-paper</a> </td></tr>
+    <tr><th>Length</th><td>10 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “A New Interpretation of Information Rate” by J. L. Kelly Jr. at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: if a gambler (or investor) has an information advantage over posted odds and can reinvest winnings repeatedly, how much of his capital should he bet on each event to grow his fortune fastest over the long run? Method: Kelly models a gambler receiving symbols over a noisy communication channel (an analogy for &ldquo;inside information&rdquo;) who bets a fixed fraction of capital each round at given odds, and derives the betting fraction that maximizes the expected exponential growth rate, G, of capital as the number of bets goes to infinity. Data: purely mathematical/theoretical (information theory and probability), not an empirical market study. Finding: betting a fixed fraction ℓ = 2q−1 on a fair-odds even-money bet with win probability q (equivalently, the general Kelly fraction f* = edge/odds for arbitrary odds) maximizes long-run growth, and this maximum growth rate equals Shannon&rsquo;s channel transmission rate — i.e., the value of &ldquo;inside information&rdquo; to a reinvesting gambler is mathematically identical to its information-theoretic bit rate.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Betting the gambler&rsquo;s entire capital every round maximizes expected capital in a single step but leads to eventual ruin with probability one over repeated bets — expectation-maximizing and growth-maximizing are different objectives.</li>
+<li>The correct objective is to maximize the expected value of the logarithm of capital (not the expected capital itself), because log-capital is additive across repeated bets and obeys the law of large numbers.</li>
+<li>For a simple even-money bet with win probability q and loss probability p=1−q, the optimal fraction to bet is ℓ = q − p; betting this fraction each round yields the maximum growth rate G = 1 + p·log(p) + q·log(q), which equals Shannon&rsquo;s information rate R for that channel.</li>
+<li>For arbitrary &ldquo;fair&rdquo; odds (odds equal to 1/probability), the optimal betting fraction on each outcome equals the gambler&rsquo;s own estimated conditional probability of that outcome given his information — i.e., bet in proportion to true probability, ignoring the posted odds entirely.</li>
+<li>If odds are not fair (mispriced relative to true probabilities), any deviation from fair odds increases the gambler&rsquo;s achievable growth rate — mispricing is where the edge comes from.</li>
+<li>When there is a &ldquo;track take&rdquo; (a transaction cost / house edge deducted from the pool), the optimal strategy becomes more complex: bets are only placed on outcomes where the perceived edge (p(s)·odds) exceeds a threshold, and some capital may be optimally left unbet.</li>
+<li>The paper explicitly notes the model requires two conditions to apply beyond gambling: (1) the ability to reinvest profits, and (2) the ability to vary the amount invested across different opportunities — conditions satisfied by trading/investing generally, not just wagers.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Do not size a bet/position to maximize expected value alone; maximizing expected value each round leads to ruin with repeated bets — maximize expected log-capital instead.</li>
+<li>For a binary bet at even odds, the growth-optimal fraction of capital to risk is ℓ = (probability of winning) − (probability of losing); e.g., a 60%/40% edge implies risking 20% of capital, not 100% or an arbitrary fixed amount.</li>
+<li>In the general case (arbitrary payout odds), size each bet in proportion to your estimated true probability of that outcome, not the posted/market odds — this is the growth-maximizing allocation regardless of what the market is pricing.</li>
+<li>Only take a bet/position where your edge is genuinely positive after costs; when a &ldquo;track take&rdquo; (transaction costs, spread, commission) is present, the model shows it is sometimes optimal to leave capital unbet on marginal-edge opportunities rather than force a bet.</li>
+<li>No specific market-trading numbers (stops, entries, timeframes) are given — this is a mathematical foundation for position sizing that must be paired with an actual edge-estimation method to be applied to trading.</li>
+</ol>
+<h2 id="caveats">Caveats</h2>
+<p>This is the original 1956 information-theory paper (not a trading book) — it uses the language of a gambler with a private communication channel as an analogy, and the math assumes known, stable probabilities and repeatable, independent bets, none of which hold exactly in real markets where edge estimates are themselves uncertain and returns are not simple win/loss outcomes. Full Kelly sizing is also known (from later literature, not stated here) to produce large drawdowns in practice, which is why traders commonly use a fraction of the full Kelly bet. Readers should treat this as the theoretical foundation for the wider Kelly-criterion literature applied to trading, not a ready-to-use position-sizing formula.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quantitatively-inclined traders and researchers who want the original derivation behind the Kelly criterion for position sizing; not a practical how-to guide on its own.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/money-management-report-van-tharp.html">Special Report on Money Management</a> — A two-part course update defining nine position-sizing models — from units-per-fixed-dollars through percent-risk and portfolio heat — each illustrated on the same 55/21-day breakout system.</li><li><a href="../books/forex-money-management.html">Forex Money Management</a> — A forex primer defines core equity, caps per-trade risk, scales size to stop distance, and warns against correlated exposure and Martingale sizing.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

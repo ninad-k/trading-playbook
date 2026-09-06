@@ -1,17 +1,29 @@
 ---
-title: 17 Money Making Candlestick Formations
-author: "Steve Nison (excerpted); INO Global Markets"
-year: 2000
-slug: 17-money-making-candlestick-formations2
-tier: B
+author: Steve Nison (excerpted); INO Global Markets
 category: Candlesticks & Chart Patterns
-tags: [candlesticks, reversal-patterns, doji, engulfing, hammer, harami, chart-patterns]
 difficulty: beginner
 doc_type: article
+one_liner: Illustrated glossary of 17 core Japanese candlestick formations (hammer,
+  engulfing, doji star, harami, morning/evening star, etc.) excerpted from Nison's
+  Japanese Candlestick Charting Techniques.
 pages: 19
-one_liner: "Illustrated glossary of 17 core Japanese candlestick formations (hammer, engulfing, doji star, harami, morning/evening star, etc.) excerpted from Nison's Japanese Candlestick Charting Techniques."
-related: [candlestick-patterns-for-day-trading]
-source_file: "17 Money Making Candlestick Formations2.pdf"
+related:
+- candlestick-patterns-for-day-trading
+reviewed_pdf_pages: 1-2 and the pattern pages checked against the note's definitions
+slug: 17-money-making-candlestick-formations2
+source_file: 17 Money Making Candlestick Formations2.pdf
+source_review: partial
+tags:
+- candlesticks
+- reversal-patterns
+- doji
+- engulfing
+- hammer
+- harami
+- chart-patterns
+tier: B
+title: 17 Money Making Candlestick Formations
+year: 2000
 ---
 
 ## Summary

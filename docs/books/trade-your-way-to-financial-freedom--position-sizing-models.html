@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Van Tharp&#39;s Four Position-Sizing Models — Van K. Tharp · Trading Playbook</title>
+<meta name="description" content="Four ways to answer &#39;how many shares or contracts&#39; from account equity: fixed units per dollar amount, equal value units, percent risk, and percent volatility — demonstrated on identical backtests to isolate the sizing effect.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a> › <a href="../books/trade-your-way-to-financial-freedom.html">Trade Your Way to Financial Freedom</a></p>
+  <h1>Van Tharp&#39;s Four Position-Sizing Models</h1>
+  <p class="byline">Van K. Tharp · 1998 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">Four ways to answer &#39;how many shares or contracts&#39; from account equity: fixed units per dollar amount, equal value units, percent risk, and percent volatility — demonstrated on identical backtests to isolate the sizing effect.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=position-sizing">position-sizing</a> <a class="tag" href="../search.html?q=percent-risk">percent-risk</a> <a class="tag" href="../search.html?q=percent-volatility">percent-volatility</a> <a class="tag" href="../search.html?q=money-management">money-management</a> <a class="tag" href="../search.html?q=anti-martingale">anti-martingale</a> </td></tr>
+    <tr><th>Length</th><td>181 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Van Tharp&#39;s Four Position-Sizing Models” by Van K. Tharp at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A comparison of four &ldquo;anti-martingale&rdquo; position-sizing algorithms — methods that increase bet size as equity grows, never after a loss — each answering the single question &ldquo;how much/how many?&rdquo; from current account equity. Tharp holds entry and exit logic completely constant (a 55-day/21-day channel breakout on 10 commodities, 1981-1991, starting at $1 million, plus a separate 1992-1997 Dow-30 stock test) and varies only the sizing model, producing results from a $32,567 baseline (fixed 100 shares/trade) to $2,109,266 (percent volatility at 0.5%) on identical signals. The lesson: &ldquo;how much&rdquo; typically explains more of the variance in real-world trading results than the entry signal itself.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Model 1 — One unit per fixed amount of money</strong>
+1. Trade one unit (100 shares, one contract) per fixed dollar amount X of equity (e.g., one contract per $50,000); recompute only when equity crosses the next multiple of X.
+2. Never rejects a trade as &ldquo;too risky,&rdquo; but treats all instruments as equivalent regardless of actual dollar volatility, and a small account must roughly double before adding a unit — near-zero effective sizing at small equity.</p>
+<p><strong>Model 2 — Equal value units (stock/unleveraged traders)</strong>
+3. Divide capital into a fixed number of equal-dollar units (e.g., five $10,000 units on $50,000); buy as much of each candidate as one unit affords, rounded down.
+4. For futures, cap total dollar value willing to be controlled, divide into units, and only trade an instrument if one unit covers at least one contract.
+5. Gives equal portfolio weighting and transparent leverage, but still scales slowly for small accounts and equalizes face value, not actual risk.</p>
+<p><strong>Model 3 — The percent risk model</strong>
+6. Per-unit risk (&ldquo;1R&rdquo;) = dollar distance from entry to protective stop × contract/point value.
+7. Fix a percentage of equity to risk per position: under 1% managing others&rsquo; money, up to ~3% trading your own is comfortable, beyond 3% is &ldquo;gunslinger&rdquo; territory.
+8. Position size = (equity × risk %) ÷ per-unit dollar risk, rounded down; recompute per signal so total open risk stays capped regardless of instrument volatility.
+9. First model to make &ldquo;1R&rdquo; mean the same thing across every market, which is what makes R-multiples comparable system-wide.</p>
+<p><strong>Model 4 — The percent volatility model</strong>
+10. Measure volatility as average true range over a lookback (Tharp uses 10-20 days); convert to a dollar figure per contract/100 shares.
+11. Fix a percentage of equity to expose to one day&rsquo;s normal volatility swing (Tharp&rsquo;s tested range ~0.1% to several percent; 0.5-1.0% suited his breakout system).
+12. Position size = (equity × volatility %) ÷ dollar volatility per unit, rounded down; best for tight-stop systems where percent risk would oversize positions.</p>
+<h2 id="risk">Risk</h2>
+<p>The fixed-amount model broke down entirely below roughly $20,000-$30,000 starting equity, while a $1 million account produced $13.5-30 million at aggressive per-unit-dollar settings. On the 10-commodity futures test, percent risk at 0.10% returned almost nothing (0.7% annualized, negligible drawdown), while 25% risk gave the best reward-to-risk ratio but an 84% max drawdown and margin calls above 10%. On the Dow-30 test (identical signals across all models), percent risk at 1% returned 20.9% annually (14.1% max drawdown) and percent volatility at 0.5% returned 22.9% annually (16.6% max drawdown) — both far ahead of fixed-amount (5.75%) and equal-value (3.86%). Tharp&rsquo;s recommendation: percent risk suits long-term trend followers with wide trailing stops; percent volatility suits tight-stop traders, since it avoids oversizing relative to typical daily price swings.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The specific percentages that &ldquo;worked&rdquo; (1% risk, 0.5% volatility) are period- and system-specific, not universal — Tharp says the right percentage depends on your own system&rsquo;s expectancy and stop width. A cited critique (trader Gallacher): a fixed percent risk can correspond to one contract or many depending on stop distance, so two &ldquo;equal risk&rdquo; positions can carry very different real exposure. None of the four models accounts for correlation between simultaneously held positions — sizing is computed per instrument independently, so a portfolio of correlated markets (e.g., several currencies at once) can carry more aggregate risk than any single position&rsquo;s calculation suggests.</p></div>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

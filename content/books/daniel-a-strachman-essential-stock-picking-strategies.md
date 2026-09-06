@@ -1,17 +1,33 @@
 ---
-title: "Essential Stock Picking Strategies: What Works on Wall Street"
 author: Daniel A. Strachman
-year: 2002
-slug: daniel-a-strachman-essential-stock-picking-strategies
-tier: A
 category: Investing, Value & Market History
-tags: [value-investing, growth-investing, money-managers, stock-picking, mutual-funds, sector-funds, fundamental-analysis]
 difficulty: beginner
 doc_type: book
+one_liner: Profiles of eleven growth, value, and sector-fund managers, each explaining
+  their own stock-selection criteria in their own words.
 pages: 240
-one_liner: "Profiles of eleven growth, value, and sector-fund managers, each explaining their own stock-selection criteria in their own words."
-related: [the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, jack-schwager-stock-market-wizards, j-k-lasser-pick-stocks-like-warren-buffett, n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks]
-source_file: "Daniel A Strachman - Essential Stock Picking Strategies.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- jack-schwager-stock-market-wizards
+- j-k-lasser-pick-stocks-like-warren-buffett
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+reviewed_pdf_pages: 4, 7, 9, 14, 22-23, 33, 95, 103 (the manager profiles with their
+  screening criteria and diversification caps)
+slug: daniel-a-strachman-essential-stock-picking-strategies
+source_file: Daniel A Strachman - Essential Stock Picking Strategies.pdf
+source_review: partial
+tags:
+- value-investing
+- growth-investing
+- money-managers
+- stock-picking
+- mutual-funds
+- sector-funds
+- fundamental-analysis
+tier: A
+title: 'Essential Stock Picking Strategies: What Works on Wall Street'
+year: 2002
 ---
 
 ## Overview

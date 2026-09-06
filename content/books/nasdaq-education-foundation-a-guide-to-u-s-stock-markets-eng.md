@@ -1,17 +1,31 @@
 ---
-title: "Market Mechanics: A Guide to U.S. Stock Markets"
-author: "James J. Angel"
-year: 2002
-slug: nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng
-tier: B
+author: James J. Angel
 category: Market Structure & Price Action
-tags: [market-structure, nasdaq, nyse, order-types, market-makers, ecns, settlement]
 difficulty: beginner
 doc_type: manual
+one_liner: Nasdaq Education Foundation primer by Georgetown finance professor James
+  Angel explaining how U.S. stock trades actually get filled — market makers, ECNs,
+  order types, and settlement.
 pages: 24
-one_liner: "Nasdaq Education Foundation primer by Georgetown finance professor James Angel explaining how U.S. stock trades actually get filled — market makers, ECNs, order types, and settlement."
-related: [exchange-traded-funds, economics-how-the-stock-market-works, the-stock-market-for-dummies]
-source_file: "Nasdaq Education Foundation - A Guide to U.S. Stock Markets(eng) .pdf"
+related:
+- exchange-traded-funds
+- economics-how-the-stock-market-works
+- the-stock-market-for-dummies
+reviewed_pdf_pages: 3-7 (the order-handling, market-maker and settlement sections)
+slug: nasdaq-education-foundation-a-guide-to-u-s-stock-markets-eng
+source_file: Nasdaq Education Foundation - A Guide to U.S. Stock Markets(eng) .pdf
+source_review: partial
+tags:
+- market-structure
+- nasdaq
+- nyse
+- order-types
+- market-makers
+- ecns
+- settlement
+tier: B
+title: 'Market Mechanics: A Guide to U.S. Stock Markets'
+year: 2002
 ---
 
 ## Summary

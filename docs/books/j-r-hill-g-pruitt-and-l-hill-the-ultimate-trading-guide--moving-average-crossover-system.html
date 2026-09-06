@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Moving Average Crossover System — John R. Hill, George Pruitt, Lundy Hill · Trading Playbook</title>
+<meta name="description" content="A 13/39-day moving-average crossover with a 40-day close filter and a 5x-ATR initial and trailing stop, backtested 1983-1999.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/j-r-hill-g-pruitt-and-l-hill-the-ultimate-trading-guide.html">The Ultimate Trading Guide</a></p>
+  <h1>Simple Moving Average Crossover System</h1>
+  <p class="byline">John R. Hill, George Pruitt, Lundy Hill · 2000 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A 13/39-day moving-average crossover with a 40-day close filter and a 5x-ATR initial and trailing stop, backtested 1983-1999.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=mechanical-systems">mechanical-systems</a> <a class="tag" href="../search.html?q=futures">futures</a> <a class="tag" href="../search.html?q=atr-stop">atr-stop</a> </td></tr>
+    <tr><th>Length</th><td>302 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Simple Moving Average Crossover System” by John R. Hill, George Pruitt, Lundy Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A fully mechanical, long-term trend-following system from Chapter 9, the book&rsquo;s &ldquo;Donchian and moving-average&rdquo; style example. It buys or sells on a crossover of a 13-day and 39-day simple moving average of closes, gated by a 40-day close filter to avoid signals against the larger trend. Risk is defined entirely by a volatility-scaled stop built from the 20-day average true range (ATR), so both the initial and trailing stop widen or narrow with current volatility rather than a fixed dollar amount. The authors chose 13/39/40/5-ATR as reasonable, un-optimized defaults, and back-tested it one-contract-per-trade across a futures portfolio, 1/1/1983-8/31/1999, $75 commission/slippage assumed per round turn.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Entry (long)</strong>: buy on the open when the 13-day MA of closes crosses from below to above the 39-day MA, and yesterday&rsquo;s close exceeds the close 40 trading days ago.</p>
+<p><strong>Entry (short)</strong>: sell on the open when the 13-day MA crosses from above to below the 39-day MA, and yesterday&rsquo;s close is less than the close 40 trading days ago.</p>
+<p><strong>Initial stop</strong>: calculate the ATR over the past 20 days (true range = max(high, prior close) - min(low, prior close), not simply high - low); set the initial stop at 5x this 20-day ATR from entry.</p>
+<p><strong>Trailing stop</strong>: once the trade is 5 ATRs into profit, trail a stop 5 ATRs behind the high (longs) or low (shorts) of the day that first reached that threshold, recalculating the distance as the 20-day ATR evolves.</p>
+<p><strong>Stop selection</strong>: use whichever stop is closer to the market — the protective stop, the trailing stop (once activated), or the reversal stop implied by the opposite crossover signal.</p>
+<p><strong>Reversal</strong>: if the opposite crossover-plus-filter condition triggers while a position is open, exit and reverse on that signal rather than waiting for a stop to be hit separately.</p>
+<p><strong>Position sizing</strong>: the backtest uses one contract per trade per market; sizing beyond that is left to the Capital Allocation Model (equity x acceptable risk % / current ATR-based market risk).</p>
+<h2 id="risk">Risk</h2>
+<p>Risk per trade is intentionally wide (5x a 20-day ATR) because the entry is a long-term trend filter — a market crossing two multi-week moving averages is expected to move against the position by more than one or two ATRs before the trend asserts itself, so a tight stop would cause premature whipsaw exits. The trade-off is a lower win rate: this style of system typically wins under 50% of trades, relies on a handful of large winners to offset frequent small losses, and strings together consecutive losers when a market is range-bound (~85% of the time, by the book&rsquo;s own market-stage framework). No fixed profit target is used; profits run until the trailing stop or an opposite signal exits. Because the stop is volatility-scaled, dollar risk varies significantly across markets and over time as ATR expands and contracts.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The 13/39/40/5 parameter set is explicitly a reasonable, un-optimized starting point, not a curve-fit result, so backtested performance is illustrative rather than a forward-edge claim. Results are one-contract-per-market and pre-diversification; the book&rsquo;s own portfolio chapter shows drawdown falls faster than profit when combined with anti-correlated markets and systems, so single-market numbers understate what diversified deployment could achieve. Results are tested only through August 1999 on futures data with $75 commission/slippage assumed — no exchange-fee, margin, or rollover mechanics are discussed in the rule set itself.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/curtis-faith-way-of-the-turtle.html">Way of the Turtle</a> — The youngest Turtle&#39;s own account of the original Turtle rules, plus his later work on robust backtest statistics (RAR%, R-cubed, robust Sharpe).</li><li><a href="../books/turtletrader.html">TurtleTrader.com Site Archive</a> — A 2003 scrape of the TurtleTrader.com marketing site: trend-following philosophy, Market Wizard profiles, and money-management math, without the actual Turtle entry/exit rules.</li><li><a href="../books/macd.html">Moving Average Convergence-Divergence (MACD)</a> — Brief primer on the MACD indicator&#39;s construction, crossover/overbought-oversold/divergence uses, and the author&#39;s own multi-timeframe trend-filter approach.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Bollinger Bandit Trading Strategy (Full System) — George Pruitt, John R. Hill · Trading Playbook</title>
+<meta name="description" content="A Bollinger Band breakout system with a trend filter and a decaying trailing stop that tightens the longer a trade is held, up to a floor of 10 days.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/george-pruitt-building-winning-trading-systems-with-tradestation.html">Building Winning Trading Systems with TradeStation</a></p>
+  <h1>The Bollinger Bandit Trading Strategy (Full System)</h1>
+  <p class="byline">George Pruitt, John R. Hill · 2003 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A Bollinger Band breakout system with a trend filter and a decaying trailing stop that tightens the longer a trade is held, up to a floor of 10 days.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=bollinger-bands">bollinger-bands</a> <a class="tag" href="../search.html?q=standard-deviation">standard-deviation</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=breakout">breakout</a> <a class="tag" href="../search.html?q=trailing-stop">trailing-stop</a> <a class="tag" href="../search.html?q=futures">futures</a> </td></tr>
+    <tr><th>Length</th><td>406 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Bollinger Bandit Trading Strategy (Full System)” by George Pruitt, John R. Hill at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A &ldquo;first cousin&rdquo; of the King Keltner system that trades breakouts of a 50-day Bollinger Band (a moving average of closes plus/minus 1.25 standard deviations) rather than a true-range channel. Unlike King Keltner&rsquo;s flat moving-average exit, Bollinger Bandit uses a shrinking trailing stop: the moving-average look-back used for the exit starts at 50 days and decrements by one day for every day the trade stays open, down to a floor of 10 days — so the exit tightens the longer a position runs, giving back less of a large profit than a static exit would. A 30-day rate-of-change filter (today&rsquo;s close vs. the close 30 days ago) confirms the position is only taken in the direction of an existing trend.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Indicators needed</strong>
+1. <code>upBand</code> = 50-day moving average of closes + (50-day standard deviation of closes × 1.25).
+2. <code>dnBand</code> = 50-day moving average of closes − (50-day standard deviation of closes × 1.25).
+3. <code>rocCalc</code> = today&rsquo;s close − close 30 days ago (a simple rate-of-change / trend filter).
+4. <code>liqDays</code>, a counter initialized to 50 whenever flat, that decrements by 1 for every additional day a trade stays open.</p>
+<p><strong>Entry</strong>
+5. Go long on a stop at <code>upBand</code>, next bar, only if <code>rocCalc</code> is positive (today&rsquo;s close is above the close 30 days ago — an uptrend confirmation).
+6. Go short on a stop at <code>dnBand</code>, next bar, only if <code>rocCalc</code> is negative (close is below the close 30 days ago — a downtrend confirmation).
+7. The potential band penetration is necessary but not sufficient — the 30-day rate-of-change trend filter must also agree with the direction of the breakout before a position is opened.</p>
+<p><strong>Exit / trailing stop</strong>
+8. While flat, reset <code>liqDays</code> to 50.
+9. On each day a position is held, decrement <code>liqDays</code> by 1, with a floor of 10 (i.e., <code>liqDays = MaxList(liqDays − 1, 10)</code>) — the exit moving-average length shortens as the trade ages, tracking price more closely over time and locking in more of an open profit.
+10. Compute the liquidation point as the moving average of closes over the current (shrinking) <code>liqDays</code> length.
+11. Exit a long (sell) on a stop at this liquidation point only if it is currently below <code>upBand</code> — this condition prevents the system from immediately re-entering the same long it just exited.
+12. Exit a short (buy to cover) on a stop at the liquidation point only if it is currently above <code>dnBand</code>, for the symmetric reason.</p>
+<p><strong>Parameters</strong>
+13. Use 50 days for the Bollinger Band length, 1.25 standard deviations for band width, 30 days for the rate-of-change filter, and a 10-day floor on the trailing-stop length — unchanged across every market traded.</p>
+<h2 id="risk">Risk</h2>
+<p>No account-level position sizing is specified; the authors&rsquo; own testing found the shrinking trailing stop &ldquo;only marginally increased profit and decreased drawdown&rdquo; versus a flat exit, but argue it adds comfort because risk visibly tightens as a trade ages. In the 1982-2002, 17-market backtest ($75 commission/slippage), net profit was $537,822 over 3,092 trades. Best: Japanese Yen (+$121,938), Natural Gas (+$85,898); worst: Wheat (−$20,038), Live Cattle (−$16,868), Soybeans (−$15,925) — the same grain/meat weakness as the book&rsquo;s other trend systems. The authors note it is highly correlated with King Keltner (profitable and unprofitable in the same markets), so trading both together adds little diversification.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Backtest assumptions match the rest of the book: flat $75 commission/slippage, a fixed window, no walk-forward test, per-market rather than portfolio-level reporting. Because the exit look-back shrinks over time, a trade stalled near breakeven for many days can be exited by an increasingly short, more reactive moving average even without a sharp adverse move — a subtlety the source doesn&rsquo;t address. The authors concede the trailing-stop refinement&rsquo;s edge over a flat exit is marginal, so the real edge is the same Bollinger Band breakout-plus-trend-filter logic as its Keltner-based sibling, not the exit mechanism.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/dynamic-breakout-ii-strategy.html">The Dynamic Break Out II Strategy</a> — A Donchian-style breakout system that adapts its look-back length daily to market volatility, adding a Bollinger Band filter and dynamic trailing stop.</li><li><a href="../books/king-keltner-trading-strategy.html">The King Keltner Trading Strategy</a> — A 1960s Chester Keltner moving-average-band breakout system, modernized with a true-range channel and a moving-average liquidation stop.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

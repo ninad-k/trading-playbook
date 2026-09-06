@@ -1,0 +1,38 @@
+# Got Your Trading Style Figured Out?: the trader's summary
+
+*Christopher Terry argues that identifying a compatible style and enforcing discipline matter as much as chart skill and timing.*
+
+**Christopher Terry** · 2004 · Trading Psychology & Discipline · intermediate
+
+*Source coverage: full. PDF pages inspected: 1-5. These are study notes, not verified trading results.*
+
+## Summary
+
+Terry distinguishes traders who have a coherent style, preferred markets, timeframes, and discipline from traders who possess chart skill but execute inconsistently. He describes his own weaknesses as overtrading and boredom trading, and credits partners with teaching him when to stay out, scalp, or exit quickly (p. 3). The article recommends asking who, what, when, where, why, and how before every trade, especially when commission and size make mistakes expensive (p. 4). Market internals such as TRIN, TICK, advancing/declining issues, volume, and relative index strength are presented as context for selecting spots, not as automatic signals (pp. 3-4).
+
+## Key points
+
+- Style should fit temperament, market, and timeframe (p. 1).
+- Discipline includes waiting and exiting when a trade is not working.
+- Low-volume range conditions can produce repeated chop and emotional fatigue (p. 3).
+- Tape reading includes index relationships and internals, not just displayed size (p. 3).
+- The article’s examples are personal experience, not a statistical study.
+
+## Actionable rules
+
+1. Know the reason for entry and ask the six who/what/when/where/why/how questions before acting (p. 4).
+2. Match strategy to market regime and personal style; avoid boredom trades (pp. 3-4).
+3. Exit and reassess when the anticipated behavior does not appear; do not let a losing trade become a commitment.
+
+## Caveats
+
+The guidance is anecdotal and omits a complete setup, stop, target, or position formula. References to large lot examples should not be copied into a smaller account.
+
+## Who it is for
+
+Discretionary traders who know charting but struggle with consistency and overtrading.
+
+---
+*Educational summary of ideas from the book, written in my own words. Not financial advice. Please buy the book if these notes are useful.*
+
+More notes like this: [https://ninad-k.github.io/trading-playbook/](https://ninad-k.github.io/trading-playbook/) · Tags: discipline, trading-style, scalping, market-context

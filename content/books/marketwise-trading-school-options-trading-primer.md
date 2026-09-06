@@ -1,17 +1,32 @@
 ---
-title: Options Primer
 author: MarketWise Trading School
-year: 2002
-slug: marketwise-trading-school-options-trading-primer
-tier: B
-category: "Options, Futures & Derivatives"
-tags: [options, greeks, pricing-models, spreads, straddles, trade-management, money-management]
+category: Options, Futures & Derivatives
 difficulty: intermediate
 doc_type: manual
+one_liner: Course handout covering option mechanics, pricing models, the Greeks, and
+  a full strategy catalog from covered calls to iron condors, plus stop and profit-taking
+  rules.
 pages: 61
-one_liner: "Course handout covering option mechanics, pricing models, the Greeks, and a full strategy catalog from covered calls to iron condors, plus stop and profit-taking rules."
-related: [guy-cohen-the-bible-of-options-strategies, fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed, the-equity-options-strategy-guide]
-source_file: "Marketwise Trading School - Options Trading Primer .pdf"
+related:
+- guy-cohen-the-bible-of-options-strategies
+- fontanills-the-options-course-high-profit-and-low-stress-trading-methods-2nd-ed
+- the-equity-options-strategy-guide
+reviewed_pdf_pages: 9, 11, 35, 54 (the exchange listings, the worked payoff examples
+  and the risk rules)
+slug: marketwise-trading-school-options-trading-primer
+source_file: Marketwise Trading School - Options Trading Primer .pdf
+source_review: partial
+tags:
+- options
+- greeks
+- pricing-models
+- spreads
+- straddles
+- trade-management
+- money-management
+tier: B
+title: Options Primer
+year: 2002
 ---
 
 ## Summary

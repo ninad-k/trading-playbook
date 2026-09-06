@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volatility-Selective Defensive Straddle Writing — William R. Gallacher · Trading Playbook</title>
+<meta name="description" content="Write at-the-money straddles only when implied volatility exceeds MAD-based market volatility, then hedge the losing side with futures once price closes past strike ± premium.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a> › <a href="../books/mcgraw-hill-the-options-edge-winning-the-volatility-game-with-options-on-futures.html">The Options Edge: Winning the Volatility Game with Options on Futures</a></p>
+  <h1>Volatility-Selective Defensive Straddle Writing</h1>
+  <p class="byline">William R. Gallacher · 1999 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">advanced</span></p>
+  <p class="lead">Write at-the-money straddles only when implied volatility exceeds MAD-based market volatility, then hedge the losing side with futures once price closes past strike ± premium.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=straddle-writing">straddle-writing</a> <a class="tag" href="../search.html?q=volatility">volatility</a> <a class="tag" href="../search.html?q=options-on-futures">options-on-futures</a> <a class="tag" href="../search.html?q=defensive-hedging">defensive-hedging</a> <a class="tag" href="../search.html?q=implied-volatility">implied-volatility</a> </td></tr>
+    <tr><th>Length</th><td>294 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Volatility-Selective Defensive Straddle Writing” by William R. Gallacher at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A systematic, technical (non-fundamental) approach to writing at-the-money straddles on commodity futures options, developed and backtested by William Gallacher across a 1996-98, 15-commodity, 3,781-observation database. The system has two independent layers: a volatility-based filter that decides which straddles are worth writing, and a mechanical defensive hedge that caps losses on straddles that move against the writer. Tested alone, indiscriminate straddle writing is break-even (payout ratio ≈ 1.00); the defensive hedge alone moves the ratio to about 0.90; adding the volatility filter moves it to about 0.88, i.e., an edge of roughly 12% of premium before transaction costs.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Volatility measurement.</strong> Compute the mean absolute deviation (MAD) of daily percentage price changes over a 30-day lookback (fixed in advance, not optimized). Market volatility = 22 × MAD (as a percentage of futures price). Implied volatility for an at-the-money option ≈ 40 × (ATM straddle premium ÷ 2) ÷ (futures price × √(trading days to expiry)).</p>
+<p><strong>Selection filter.</strong> Write a straddle only when implied volatility &gt; market volatility. This filter alone moved the tested payout ratio only modestly, from 0.902 (defended, unfiltered) to 0.884 (defended, filtered) — most of the edge comes from the defensive hedge, not the filter.</p>
+<p><strong>Entry.</strong> Write the at-the-money put and call together at the same strike (a straddle, not a strangle, to capture maximum premium). Enter with a limit order near the true bid-ask midpoint; exit hedges at the market.</p>
+<p><strong>Defensive triggers.</strong> At the moment of writing, set upper trigger = strike + total premium received, lower trigger = strike − total premium received. If the future closes above the upper trigger, buy one futures contract at that close to hedge the losing call; if it closes below the lower trigger, sell one futures contract to hedge the losing put. Protect the hedge itself: close a long futures hedge if the future closes back below the original strike, or a short hedge if it closes back above — locking in a bounded loss and resetting to the pre-hedge state, ready to re-hedge again if needed.</p>
+<p><strong>Exit.</strong> Hold the straddle and any hedge to option expiry unless a hedge-protection trigger fires first.</p>
+<p><strong>Position sizing.</strong> Only write straddles yielding at least $2,500 in premium (below which ~$130 of round-trip commission erodes most of the edge); this excludes most low-premium markets (sugar, cocoa, cattle, corn, gold) unless expiry is distant. Diversify across as many of the 15 tested commodities as possible — independent straddle losses keep aggregate equity variability low enough to finance a large book on comparatively little margin.</p>
+<h2 id="risk">Risk</h2>
+<p>Per-position risk is open-ended until a trigger fires — futures can gap through a trigger level, so realized loss can exceed the theoretical bound. Portfolio risk is controlled mainly through diversification, not an explicit total-equity stop. Execution costs matter more than in most systems given the thin edge: Gallacher&rsquo;s own accounting takes the 15% gross edge down to ~12% after slippage and ~8% net after commissions. The system has no defined variant for strangles, deep-in-the-money adjustments, or partial scale-outs — it is all-or-nothing straddle-and-hedge.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The defensive-hedge rule was tested on closing prices only, not intraday highs/lows, so the backtest cannot capture same-day whipsaws through both triggers. The $2,500 premium floor and $130 commission reflect late-1990s brokerage pricing and need recalibration. The volatility filter&rsquo;s improvement (0.902 → 0.884) is based on a reduced sample (2,627 of 3,781 observations) that Gallacher flags as suggestive, not statistically strong; a more aggressive filter (implied volatility ≥ 1.5× market volatility) dropped the ratio further to 0.851 but on too small and skewed a sample (315 observations) to trust.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/balsara-nauzer-j-money-management-strategies-for-futures-traders.html">Money Management Strategies for Futures Traders</a> — An academic but practitioner-oriented treatment of risk of ruin, fixed-fractional and optimal-f position sizing, diversification, and capital allocation across futures trades.</li><li><a href="../books/position-sizing.html">Position-Sizing Effects on Trader Performance: An Experimental Analysis</a> — A simulated trading experiment finds smaller positions reduced bankruptcy risk, although training did not produce significantly higher profits.</li><li><a href="../books/lawrence-g-mcmillan-profit-with-options.html">Profit With Options</a> — McMillan&#39;s applied option-strategy text: reading options as sentiment indicators, selecting strategies by where implied volatility sits versus its own history, and mechanical system trading.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mathematics of Financial Derivatives: A Student Introduction — Paul Wilmott, Sam Howison, and Jeff Dewynne · Trading Playbook</title>
+<meta name="description" content="A student-oriented route from random walks and Black–Scholes PDEs to numerical and path-dependent option valuation.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></p>
+  <h1>The Mathematics of Financial Derivatives: A Student Introduction</h1>
+  <p class="byline">Paul Wilmott, Sam Howison, and Jeff Dewynne · 1995 · <span class="badge tier-B">Tier B</span> <span class="badge">book</span> <span class="badge">advanced</span></p>
+  <p class="lead">A student-oriented route from random walks and Black–Scholes PDEs to numerical and path-dependent option valuation.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 1-9, 22, 36, 50, 64, 77, 91, 105, 119, 132, 146, 160, 174, 187, 201, 215, 229, 242, 256, 270, 284, 297, 311, 325 (every page the scan yields text for; the remaining pages are image-only). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=derivatives">derivatives</a> <a class="tag" href="../search.html?q=options">options</a> <a class="tag" href="../search.html?q=black-scholes">black-scholes</a> <a class="tag" href="../search.html?q=pde">pde</a> <a class="tag" href="../search.html?q=numerical-methods">numerical-methods</a> </td></tr>
+    <tr><th>Length</th><td>338 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Mathematics of Financial Derivatives: A Student Introduction” by Paul Wilmott, Sam Howison, and Jeff Dewynne at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#chapter-coverage-recovered-from-the-scan">Chapter coverage recovered from the scan</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Wilmott, Howison, and Dewynne introduce derivative valuation from an applied-mathematics perspective. The organizing tool is the partial differential equation: model a random underlying, remove hedgeable randomness, impose payoff and boundary conditions, then solve analytically or numerically. The book moves from Black–Scholes through finite differences and binomial trees to American, exotic, path-dependent, interest-rate, and convertible claims. Its stated preference is an accurate numerical solution of a realistic model over a closed-form solution obtained by distorting the problem (PDF pp. 6-9).</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Asset-price uncertainty is modeled with a continuous-time random walk; Itô&rsquo;s lemma supplies the calculus for functions of that process (PDF p. 36).</li>
+<li>Dynamic hedging converts the pricing problem into a deterministic no-arbitrage relation.</li>
+<li>European values follow from the Black–Scholes PDE plus final and boundary conditions.</li>
+<li>American early exercise creates a free-boundary or complementarity problem.</li>
+<li>Explicit, fully implicit, and Crank–Nicolson finite differences are treated as practical solvers.</li>
+<li>Binomial trees are presented as popular but more limited discrete alternatives.</li>
+<li>General payoff construction redirects risk: a bull call spread buys one call and writes a higher-strike call with the same expiry (PDF p. 50).</li>
+<li>Later chapters extend the framework to barriers, Asians, lookbacks, transaction costs, stochastic rates, and convertibles.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<ol>
+<li>Specify the contract payoff and all boundary or early-exercise conditions before selecting a solver.</li>
+<li>Estimate annualized variance from equally spaced returns only with explicit awareness that dataset length and parameter instability remain unresolved in this introductory treatment (PDF p. 36).</li>
+<li>Use closed form where assumptions fit; otherwise use a stable numerical method on the correct model.</li>
+<li>For a same-expiry bull call spread, buy strike (E_1) and sell higher strike (E_2); maximum loss is the net premium and upside is capped by the strike gap (PDF p. 50).</li>
+</ol>
+<h2 id="chapter-coverage-recovered-from-the-scan">Chapter coverage recovered from the scan</h2>
+<p>The sampled pages confirm the book&rsquo;s full arc, chapter by chapter: options and their uses including margin for writers (Ch. 1); the random walk, Ito&rsquo;s lemma and the derivation of the Black-Scholes equation with a discussion of implied versus historic volatility, which the text says is plainly not constant over long periods (Ch. 2-3); partial differential equations and the diffusion equation (Ch. 4-5); the Black-Scholes formulae and their Greeks, including the put delta (Ch. 6); variations on the model - dividends, the American option&rsquo;s optimal exercise boundary S_f(t), and an optional analytical treatment of the American call with dividends (Ch. 6-7); finite-difference methods, covering explicit, fully-implicit (with its tridiagonal storage advantage) and Crank-Nicolson schemes (Ch. 8); projected SOR for the linear complementarity problems that American options generate, given as working pseudocode (Ch. 9); binomial methods derived by matching moments (Ch. 10); exotic and path-dependent options, starting from binaries (Ch. 11-13); barrier options, where the contract reverts to a vanilla Black-Scholes call once the barrier is crossed (Ch. 13); Asian options with continuously and discretely sampled arithmetic averages (Ch. 14); lookbacks and options on the running maximum, including the similarity reductions available for certain payoffs (Ch. 15-16); interest-rate models, which the book introduces by explicitly retiring the constant-rate assumption (Ch. 17); and convertible bonds under stochastic rates (Ch. 18). The volume closes with exercises and hints to selected exercises.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is a mathematics textbook, not a signal system. The OCR is sampled and equations are sometimes corrupted, so this note does not certify implementation details. Models still depend on volatility, transaction-cost, continuity, and hedge assumptions.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Mathematics, physics, engineering, and quantitative-finance students who know calculus, algebra, and basic probability and want a PDE-centered introduction.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/rubinstein-mark-rubinstein-on-derivatives.html">Rubinstein on Derivatives</a> — A state-price and replication-based path from forwards and options through volatility and dynamic strategies.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

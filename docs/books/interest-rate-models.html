@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interest-Rate Models — Andrew J.G. Cairns · Trading Playbook</title>
+<meta name="description" content="Encyclopedia article surveying arbitrage-free term-structure models from Vasicek through Heath-Jarrow-Morton and Markov-functional approaches.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Interest-Rate Models</h1>
+  <p class="byline">Andrew J.G. Cairns · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Encyclopedia article surveying arbitrage-free term-structure models from Vasicek through Heath-Jarrow-Morton and Markov-functional approaches.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 8, 19 (the model taxonomy and references; the paper is algebraic rather than numeric). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=interest-rate-models">interest-rate-models</a> <a class="tag" href="../search.html?q=term-structure">term-structure</a> <a class="tag" href="../search.html?q=vasicek">vasicek</a> <a class="tag" href="../search.html?q=cir">cir</a> <a class="tag" href="../search.html?q=hull-white">hull-white</a> <a class="tag" href="../search.html?q=hjm">hjm</a> <a class="tag" href="../search.html?q=fixed-income">fixed-income</a> <a class="tag" href="../search.html?q=academic-reference">academic-reference</a> </td></tr>
+    <tr><th>Length</th><td>19 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Interest-Rate Models” by Andrew J.G. Cairns at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>An academic reference article (prepared for the Encyclopaedia of Actuarial Science) that surveys, in historical sequence, the main continuous-time, arbitrage-free models for the full term structure of interest rates. It starts by defining precise notation for zero-coupon bond prices, spot rates, forward rates, and the instantaneous risk-free rate, then works through short-rate models (Vasicek, Cox-Ingersoll-Ross, Ho-Lee, Hull-White), the Heath-Jarrow-Morton (HJM) framework for modeling the entire forward-rate curve, the Flesaker-Hughston/Potential approach using state-price deflators, and finally Markov-functional models, which are presented as a unifying framework that many earlier models fit into.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Distinguishes precisely between yield-to-maturity, the spot-rate curve, instantaneous forward rates, and the par-yield curve — a common source of confusion the article explicitly calls out.</li>
+<li>The Vasicek (1977) model was the first major arbitrage-free short-rate model and derives a Black-Scholes-type PDE for bond prices; it and the CIR model are both &ldquo;time-homogeneous, equilibrium&rdquo; short-rate models.</li>
+<li>Short-rate models (Vasicek, CIR, Ho-Lee, Hull-White) price contingent claims as functions of a low-dimensional Markov state variable, making them computationally tractable.</li>
+<li>The HJM framework instead models the dynamics of the entire forward-rate curve directly, offering more flexibility to fit the observed initial curve exactly but at greater computational cost.</li>
+<li>The Flesaker-Hughston (Potential) approach reformulates pricing using positive state-price deflators, guaranteeing positive interest rates by construction.</li>
+<li>Markov-functional models are presented as a general class requiring only that the model be describable through a low-dimensional Markov process, which many named models (Vasicek, CIR, Ho-Lee, Hull-White) already satisfy.</li>
+<li>The article restricts itself to default-free government debt; credit risk is explicitly left to a separate reference.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a pure modeling/pricing-theory reference for fixed-income derivatives, not a trading rulebook. Its practical value for a trader is understanding which term-structure model family (equilibrium short-rate vs. HJM vs. Markov-functional) underlies a given interest-rate derivative&rsquo;s pricing or a hedging desk&rsquo;s risk system.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Densely mathematical (stochastic calculus, PDEs, measure theory) and written for an actuarial/quant audience; not accessible without a graduate-level quantitative finance background. It focuses purely on model theory and offers no empirical calibration results, backtests, or practical parameter values, so it cannot be used directly to build a live pricing model without substantial additional work.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quants and fixed-income derivatives specialists who need a concise, historically organized map of term-structure model families (Vasicek, CIR, Hull-White, HJM, Markov-functional) before diving into a specific model&rsquo;s full derivation.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/the-mathematics-of-financial-modeling-and-investment-management.html">The Mathematics of Financial Modeling and Investment Management</a> — 801-page graduate reference covering the full math toolkit behind modern portfolio theory, derivatives pricing, and fixed-income modeling.</li><li><a href="../books/introduction-to-arbitrage-pricing-of-financial-derivatives.html">Introduction to Arbitrage Pricing of Financial Derivatives</a> — Lecture-note derivation of no-arbitrage option pricing via replicating portfolios and martingale measures, from a one-period binomial model up through futures markets.</li><li><a href="../books/lehman-currency-hedging-in-fixed-income-portfolios.html">Currency Hedging in Fixed Income Portfolios</a> — Lehman Brothers research note on how FX forward hedges change a bond portfolio&#39;s duration and create tracking error versus hedged benchmarks.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

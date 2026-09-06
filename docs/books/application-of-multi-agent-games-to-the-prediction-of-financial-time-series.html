@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application of Multi-Agent Games to the Prediction of Financial Time-Series — Neil F. Johnson, David Lamper, Paul Jefferies, Michael L. Hart, Sam Howison · Trading Playbook</title>
+<meta name="description" content="Oxford physicists show a Minority-Game-based multi-agent model trained on price history can predict next-tick and multi-step FX direction better than chance.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></p>
+  <h1>Application of Multi-Agent Games to the Prediction of Financial Time-Series</h1>
+  <p class="byline">Neil F. Johnson, David Lamper, Paul Jefferies, Michael L. Hart, Sam Howison · 2001 · <span class="badge tier-B">Tier B</span> <span class="badge">paper</span> <span class="badge">advanced</span></p>
+  <p class="lead">Oxford physicists show a Minority-Game-based multi-agent model trained on price history can predict next-tick and multi-step FX direction better than chance.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-3, 6 (the results section with the 54%-versus-random-walk comparison and the references). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=agent-based-models">agent-based-models</a> <a class="tag" href="../search.html?q=minority-game">minority-game</a> <a class="tag" href="../search.html?q=econophysics">econophysics</a> <a class="tag" href="../search.html?q=time-series-prediction">time-series-prediction</a> <a class="tag" href="../search.html?q=forex">forex</a> <a class="tag" href="../search.html?q=market-microstructure">market-microstructure</a> </td></tr>
+    <tr><th>Length</th><td>7 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Application of Multi-Agent Games to the Prediction of Financial Time-Series” by Neil F. Johnson, David Lamper, Paul Jefferies, Michael L. Hart, Sam Howison at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>Question: can a multi-agent &ldquo;game&rdquo; model trained purely on a price series&rsquo; history be run forward to predict future movement? Data: hourly USD/JPY, 1990–1999. Method: the authors treat an observed price series as if produced by an unknown &ldquo;black-box&rdquo; multi-agent game (their Grand Canonical Minority Game), fit a &ldquo;third-party&rdquo; game to the historical data, then drive it forward to generate next-tick predictions and multi-step probability &ldquo;corridors.&rdquo; Finding: the trained game predicted next-hour USD/JPY direction correctly ~54% of the time (vs. ~50% for a genuine random walk control), and a naive trading rule using its predictions substantially outperformed acting on the same information independently. Ten-step-ahead corridors bracketed roughly half of the large subsequent price swings within tight, high-confidence bands.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>The model (Grand Canonical Minority Game): agents choose buy/sell based on which strategy recently won; the minority side wins each round.</li>
+<li>The simulated game reproduces real-market &ldquo;stylized facts&rdquo;: fat tails, volatility clustering, volume autocorrelation.</li>
+<li>The fitted game achieved ~54% next-hour direction accuracy on real USD/JPY versus ~50% on a random-walk control.</li>
+<li>A naive hourly trading rule using the collective prediction beat the same capital split across independently-acting agents.</li>
+<li>Multi-step forecasts are probability &ldquo;corridors,&rdquo; not point forecasts; about half of large observed swings occurred within narrow, high-confidence corridors.</li>
+<li>The authors argue most high-frequency movement is self-generated by agent interaction rather than driven by external news.</li>
+<li>Results are explicitly preliminary; the reported profit excludes transaction costs, which the authors call prohibitive in reality.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None as a tradable system — this is exploratory research demonstrating an approach, not entry/exit rules, and the 54% edge excludes costs. Takeaways: agent-based/game-theoretic models are a legitimate alternative to statistical time-series models for short-horizon FX direction forecasting, and probabilistic &ldquo;corridor&rdquo; forecasts may be more useful than single-point predictions for gauging when large moves are likelier.</p>
+<h2 id="caveats">Caveats</h2>
+<p>A very short paper (7 pages) with a small, dated dataset and no out-of-sample validation on other pairs or eras. The authors note a patent covers the full methodology and that key implementation details are &ldquo;presented elsewhere,&rdquo; not in this document. The reported edge is modest and, by the authors&rsquo; own admission, ignores transaction costs.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Quant researchers interested in agent-based/econophysics approaches to short-horizon FX prediction, as an entry point into Minority-Game-style modeling rather than a source of deployable rules.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/kalman-filter-for-arbitrage-identification-in-high-frequency-data.html">A Robust Non-Linear Multivariate Kalman Filter for Arbitrage Identification in High Frequency Data</a> — London Business School paper using a robust multivariate Kalman filter to detect FX triangular-arbitrage mispricings in erratic 1990s tick data.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

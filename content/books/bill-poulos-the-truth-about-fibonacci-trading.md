@@ -1,17 +1,30 @@
 ---
-title: The Truth About Fibonacci Trading
 author: Bill Poulos
-year: 2004
-slug: bill-poulos-the-truth-about-fibonacci-trading
-tier: B
-category: "Fibonacci, Gann & Elliott Wave"
-tags: [fibonacci, retracement, price-extension, swing-high-swing-low, support-resistance, confluence]
+category: Fibonacci, Gann & Elliott Wave
 difficulty: beginner
 doc_type: article
+one_liner: Short free report walking through Fibonacci retracement and extension levels
+  with chart examples, concluding they are a supporting tool, not a standalone system.
 pages: 22
-one_liner: "Short free report walking through Fibonacci retracement and extension levels with chart examples, concluding they are a supporting tool, not a standalone system."
-related: [fibonacci-studies, fibonacci-ratios-with-pattern-recognition, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci]
-source_file: "Bill Poulos The Truth About Fibonacci Trading.pdf"
+related:
+- fibonacci-studies
+- fibonacci-ratios-with-pattern-recognition
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+reviewed_pdf_pages: 2-3, 6, 13 (the ratio definitions and the worked retracement and
+  extension examples)
+slug: bill-poulos-the-truth-about-fibonacci-trading
+source_file: Bill Poulos The Truth About Fibonacci Trading.pdf
+source_review: partial
+tags:
+- fibonacci
+- retracement
+- price-extension
+- swing-high-swing-low
+- support-resistance
+- confluence
+tier: B
+title: The Truth About Fibonacci Trading
+year: 2004
 ---
 
 ## Summary

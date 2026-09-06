@@ -1,17 +1,36 @@
 ---
-title: "Currency Strategy: The Practitioner's Guide to Currency Investing, Hedging and Forecasting"
 author: Callum Henderson
-year: 2002
-slug: wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting
-tier: A
 category: Forex Mechanics & Macro Drivers
-tags: [fundamental-analysis, currency-hedging, flow-analysis, technical-analysis, carry-trade, emerging-markets, risk-appetite]
 difficulty: advanced
 doc_type: book
+one_liner: A four-discipline (economics, flow, technical, valuation) framework for
+  analyzing, trading, and hedging currencies, written for corporate treasurers, institutional
+  investors, and speculators.
 pages: 235
-one_liner: "A four-discipline (economics, flow, technical, valuation) framework for analyzing, trading, and hedging currencies, written for corporate treasurers, institutional investors, and speculators."
-related: [dynamic-trading-by-robert-c-miner, lehman-currency-hedging-in-fixed-income-portfolios, what-moves-the-currency-market, day-trading-the-currency-market, forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional]
-source_file: "Wiley - Currency Strategy A Practitioner's Guide To Currency Trading, Hedging And Forecasting.pdf"
+related:
+- dynamic-trading-by-robert-c-miner
+- lehman-currency-hedging-in-fixed-income-portfolios
+- what-moves-the-currency-market
+- day-trading-the-currency-market
+- forex-for-everyone-learn-to-trade-the-forex-market-like-a-professional
+reviewed_pdf_pages: 5, 9-11, 67, 118 (contents, the flow-model chapters, the Fibonacci
+  retracement discussion and the hedging-strategy sections)
+slug: wiley-currency-strategy-a-practitioner-s-guide-to-currency-trading-hedging-and-forecasting
+source_file: Wiley - Currency Strategy A Practitioner's Guide To Currency Trading,
+  Hedging And Forecasting.pdf
+source_review: partial
+tags:
+- fundamental-analysis
+- currency-hedging
+- flow-analysis
+- technical-analysis
+- carry-trade
+- emerging-markets
+- risk-appetite
+tier: A
+title: 'Currency Strategy: The Practitioner''s Guide to Currency Investing, Hedging
+  and Forecasting'
+year: 2002
 ---
 
 ## Overview

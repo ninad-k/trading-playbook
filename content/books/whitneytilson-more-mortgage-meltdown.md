@@ -1,17 +1,33 @@
 ---
-title: "More Mortgage Meltdown: 6 Ways to Profit in These Bad Times"
-author: "Whitney Tilson, Glenn Tongue"
-year: 2009
-slug: whitneytilson-more-mortgage-meltdown
-tier: B
+author: Whitney Tilson, Glenn Tongue
 category: Investing, Value & Market History
-tags: [value-investing, short-selling, housing-bubble, 2008-crisis, hedging, mbia, case-studies, macro]
 difficulty: intermediate
 doc_type: book
+one_liner: Two hedge fund managers explain the 2008 housing/credit bubble's mechanics
+  and lay out value-investing and shorting rules through six real long/short case
+  studies.
 pages: 323
-one_liner: "Two hedge fund managers explain the 2008 housing/credit bubble's mechanics and lay out value-investing and shorting rules through six real long/short case studies."
-related: [the-intelligent-investor-benjamin-graham, trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets, david-dreman-contrarian-investment-strategies-the-next-generation]
-source_file: "WhitneyTilson - More Mortgage Meltdown.pdf"
+related:
+- the-intelligent-investor-benjamin-graham
+- trading-ebook-how-to-make-money-shorting-stocks-in-up-and-down-markets
+- david-dreman-contrarian-investment-strategies-the-next-generation
+reviewed_pdf_pages: 6, 11-12, 14, 20, 24, 27 (the crisis narrative and the mortgage-debt
+  and credit-score data)
+slug: whitneytilson-more-mortgage-meltdown
+source_file: WhitneyTilson - More Mortgage Meltdown.pdf
+source_review: partial
+tags:
+- value-investing
+- short-selling
+- housing-bubble
+- 2008-crisis
+- hedging
+- mbia
+- case-studies
+- macro
+tier: B
+title: 'More Mortgage Meltdown: 6 Ways to Profit in These Bad Times'
+year: 2009
 ---
 
 ## Summary

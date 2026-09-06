@@ -1,17 +1,30 @@
 ---
-title: "Myths of the Free Market"
-author: "Kenneth S. Friedman"
-year: 2003
-slug: algora-myths-of-the-free-market-2003-isbn0875862233
-tier: B
-category: "Investing, Value & Market History"
-tags: [economic-history, laissez-faire, wealth-inequality, macro, political-economy, non-trading]
+author: Kenneth S. Friedman
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: Political-economy book arguing, from historical and statistical evidence,
+  that unregulated laissez-faire capitalism underperforms mixed economies and tends
+  to produce destabilizing wealth concentration.
 pages: 277
-one_liner: "Political-economy book arguing, from historical and statistical evidence, that unregulated laissez-faire capitalism underperforms mixed economies and tends to produce destabilizing wealth concentration."
-related: [n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks, international-macro-economics-and-finance, economics-how-the-stock-market-works]
-source_file: "Algora, Myths Of The Free Market [2003 Isbn0875862233].pdf"
+related:
+- n-tengler-new-era-value-investing-a-disciplined-approach-to-buying-value-and-growth-stocks
+- international-macro-economics-and-finance
+- economics-how-the-stock-market-works
+reviewed_pdf_pages: 27, 30 (the growth-rate and compensation comparison tables)
+slug: algora-myths-of-the-free-market-2003-isbn0875862233
+source_file: Algora, Myths Of The Free Market [2003 Isbn0875862233].pdf
+source_review: partial
+tags:
+- economic-history
+- laissez-faire
+- wealth-inequality
+- macro
+- political-economy
+- non-trading
+tier: B
+title: Myths of the Free Market
+year: 2003
 ---
 
 ## Summary

@@ -1,17 +1,30 @@
 ---
-title: "Fibonacci and the Financial Revolution"
 author: William N. Goetzmann
-year: 2003
-slug: william-n-goetzmann-fibonacci-and-the-financial-revolution
-tier: B
-category: "Investing, Value & Market History"
-tags: [financial-history, present-value, fibonacci-liber-abaci, interest-rates, academic]
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: paper
+one_liner: Yale working paper arguing Leonardo of Pisa's 1202 'Liber Abaci' contains
+  the earliest known present-value analysis, more historically influential than the
+  Fibonacci sequence itself.
 pages: 44
-one_liner: "Yale working paper arguing Leonardo of Pisa's 1202 'Liber Abaci' contains the earliest known present-value analysis, more historically influential than the Fibonacci sequence itself."
-related: [george-alexander-maclean-fibonacci-and-gann-applications, fischer-robert-fibonacci-applications-and-strategies-for, wayne-gorman-how-you-can-identify-turning-points-using-fibonacci]
-source_file: "William N. Goetzmann - Fibonacci and the Financial Revolution.pdf"
+related:
+- george-alexander-maclean-fibonacci-and-gann-applications
+- fischer-robert-fibonacci-applications-and-strategies-for
+- wayne-gorman-how-you-can-identify-turning-points-using-fibonacci
+reviewed_pdf_pages: 2-3, 14, 21-22, 30 (the historical argument and the documented
+  early contracts)
+slug: william-n-goetzmann-fibonacci-and-the-financial-revolution
+source_file: William N. Goetzmann - Fibonacci and the Financial Revolution.pdf
+source_review: partial
+tags:
+- financial-history
+- present-value
+- fibonacci-liber-abaci
+- interest-rates
+- academic
+tier: B
+title: Fibonacci and the Financial Revolution
+year: 2003
 ---
 
 ## Summary

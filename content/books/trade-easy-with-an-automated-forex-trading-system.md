@@ -1,17 +1,27 @@
 ---
-title: "Trade Easy with an Automated Forex Trading System"
 author: Winsor A.G.A. Hoang
-year: unknown
-slug: trade-easy-with-an-automated-forex-trading-system
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [forex, automated-trading, expert-advisor, drawdown, risk-diversification]
 difficulty: beginner
 doc_type: article
+one_liner: Short promotional article on the case for automated forex trading, ending
+  with a rule on riding out a system's drawdown rather than chasing hot streaks.
 pages: 2
-one_liner: "Short promotional article on the case for automated forex trading, ending with a rule on riding out a system's drawdown rather than chasing hot streaks."
-related: [forex-gladiator, automated-forex-ea, how-effective-is-automated-forex-trading]
-source_file: "Trade Easy with an Automated Forex Trading System.pdf"
+related:
+- forex-gladiator
+- automated-forex-ea
+reviewed_pdf_pages: 1-2
+slug: trade-easy-with-an-automated-forex-trading-system
+source_file: Trade Easy with an Automated Forex Trading System.pdf
+source_review: full
+tags:
+- forex
+- automated-trading
+- expert-advisor
+- drawdown
+- risk-diversification
+tier: B
+title: Trade Easy with an Automated Forex Trading System
+year: unknown
 ---
 
 ## Summary

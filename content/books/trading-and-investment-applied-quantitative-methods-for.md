@@ -1,17 +1,32 @@
 ---
-title: "Applications of Advanced Regression Analysis for Trading and Investment"
-author: "Christian L. Dunis, Mark Williams"
-year: 2003
-slug: trading-and-investment-applied-quantitative-methods-for
-tier: B
+author: Christian L. Dunis, Mark Williams
 category: Quant, Microstructure & Academic Research
-tags: [neural-networks, regression, forex, eur-usd, backtesting, sharpe-ratio, forecasting, academic]
 difficulty: advanced
 doc_type: paper
+one_liner: A book chapter benchmarks a Neural Network Regression model against naive,
+  ARMA, logit, and MACD models forecasting EUR/USD, finding NNR gives the best risk-adjusted
+  trading returns.
 pages: 41
-one_liner: "A book chapter benchmarks a Neural Network Regression model against naive, ARMA, logit, and MACD models forecasting EUR/USD, finding NNR gives the best risk-adjusted trading returns."
-related: [using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns, 5-13-62]
-source_file: "Trading And Investment - Applied Quantitative Methods For.pdf"
+related:
+- using-neural-networks-and-genetic-algorithms-to-predict-stock-market-returns
+- 5-13-62
+reviewed_pdf_pages: 7, 9, 14-15, 36 (the ARMA estimation tables and the strategy performance
+  comparison)
+slug: trading-and-investment-applied-quantitative-methods-for
+source_file: Trading And Investment - Applied Quantitative Methods For.pdf
+source_review: partial
+tags:
+- neural-networks
+- regression
+- forex
+- eur-usd
+- backtesting
+- sharpe-ratio
+- forecasting
+- academic
+tier: B
+title: Applications of Advanced Regression Analysis for Trading and Investment
+year: 2003
 ---
 
 ## Summary

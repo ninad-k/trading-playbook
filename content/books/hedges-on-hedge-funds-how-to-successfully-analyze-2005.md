@@ -1,17 +1,32 @@
 ---
-title: "Hedges on Hedge Funds: How to Successfully Analyze and Select an Investment"
 author: James R. Hedges IV
-year: 2005
-slug: hedges-on-hedge-funds-how-to-successfully-analyze-2005
-tier: B
 category: Investing, Value & Market History
-tags: [hedge-funds, due-diligence, manager-selection, global-macro, operational-risk, fund-of-funds]
 difficulty: intermediate
 doc_type: book
+one_liner: A fund-of-funds manager's guide to evaluating and selecting hedge funds,
+  covering strategy types, transparency, valuation, and operational-risk red flags.
 pages: 258
-one_liner: "A fund-of-funds manager's guide to evaluating and selecting hedge funds, covering strategy types, transparency, valuation, and operational-risk red flags."
-related: [armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide, s-a-mccrary-hedge-fund-course, article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000, krugman-hedge-funds, m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti]
-source_file: "Hedges On Hedge Funds How To Successfully Analyze (2005).pdf"
+related:
+- armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide
+- s-a-mccrary-hedge-fund-course
+- article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000
+- krugman-hedge-funds
+- m-wolfinger-create-your-own-hedge-fund-increase-profits-and-reduce-risk-with-etfs-and-opti
+reviewed_pdf_pages: 6, 15, 29, 65 (the definitions, investor limits and fee-structure
+  sections)
+slug: hedges-on-hedge-funds-how-to-successfully-analyze-2005
+source_file: Hedges On Hedge Funds How To Successfully Analyze (2005).pdf
+source_review: partial
+tags:
+- hedge-funds
+- due-diligence
+- manager-selection
+- global-macro
+- operational-risk
+- fund-of-funds
+tier: B
+title: 'Hedges on Hedge Funds: How to Successfully Analyze and Select an Investment'
+year: 2005
 ---
 
 ## Summary

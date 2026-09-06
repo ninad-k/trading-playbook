@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Adaptive Moving Average (KAMA) — Perry J. Kaufman · Trading Playbook</title>
+<meta name="description" content="A trendline that automatically speeds up in trending markets and slows down in noisy/sideways markets, driven by an Efficiency Ratio measuring net direction versus total price movement.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/perry-kaufman-smarter-trading.html">Smarter Trading</a></p>
+  <h1>The Adaptive Moving Average (KAMA)</h1>
+  <p class="byline">Perry J. Kaufman · 1995 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">A trendline that automatically speeds up in trending markets and slows down in noisy/sideways markets, driven by an Efficiency Ratio measuring net direction versus total price movement.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=kama">kama</a> <a class="tag" href="../search.html?q=adaptive-moving-average">adaptive-moving-average</a> <a class="tag" href="../search.html?q=efficiency-ratio">efficiency-ratio</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=moving-average">moving-average</a> <a class="tag" href="../search.html?q=exponential-smoothing">exponential-smoothing</a> </td></tr>
+    <tr><th>Length</th><td>257 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “The Adaptive Moving Average (KAMA)” by Perry J. Kaufman at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>The Adaptive Moving Average (AMA), widely known outside this book as KAMA (Kaufman&rsquo;s Adaptive Moving Average), is an exponential moving average whose smoothing constant is not fixed but recalculated on every bar from a measure of trend &ldquo;efficiency.&rdquo; When the market is moving cleanly in one direction, the smoothing constant rises toward a fast setting so the trendline tracks price closely; when the market is choppy/sideways, the smoothing constant falls toward a slow setting so the trendline flattens and resists whipsaws. The trend signal itself is simply the direction the AMA line is moving — no separate price-crossing rule is used.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Step 1 — Efficiency Ratio (ER).</strong> Choose a lookback period (Kaufman&rsquo;s own TradeStation-style code example uses period = 10 days):
+- <code>signal</code> = |close − close[period periods ago]| (net directional price change over the period)
+- <code>noise</code> = sum of |close − close[1 bar ago]| over every bar in the period (total path length traveled, including back-and-forth movement)
+- <code>ER = signal / noise</code></p>
+<p>ER ranges from 0 (pure noise — no net progress despite lots of movement) to 1 (perfectly directional — every bar moved the same way).</p>
+<p><strong>Step 2 — Smoothing constant (SC).</strong> Map ER onto a smoothing constant bounded by a fastest and slowest exponential-average speed:
+- Fastest constant: <code>fastest = 2/(2+1) = 0.6667</code> (equivalent to a 2-period EMA)
+- Slowest constant: <code>slowest = 2/(30+1) = 0.0645</code> (equivalent to a 30-period EMA)
+- <code>SC = [ER × (fastest − slowest) + slowest]²</code> — the squaring (applied after the linear interpolation) makes the constant fall toward the slow end quickly and rise toward the fast end more gradually, so the AMA is conservative about speeding up but decisive about slowing down.</p>
+<p><strong>Step 3 — The AMA line itself</strong>, computed like a standard exponential moving average but with the period-by-period recalculated SC in place of a fixed constant:
+<code>AMA[today] = AMA[yesterday] + SC × (close[today] − AMA[yesterday])</code></p>
+<p><strong>Basic trading rule</strong> — Kaufman&rsquo;s stated system: buy when the AMA line turns up; sell (go short, or exit long) when the AMA line turns down. Signals are based on the direction of the trendline itself, not on price crossing the line, because the formula already limits how much the line can move bar to bar.</p>
+<p><strong>Filter for false signals</strong> — because a flat/sideways AMA can still wiggle slightly, Kaufman&rsquo;s own code example (TradeTrac/EasyLanguage-style, reproduced from the book) adds a noise filter before acting on a direction change:
+- Compute <code>dama = AMA − AMA[1 bar ago]</code>, and also the two- and three-bar-back differences <code>dama2</code>, <code>dama3</code>.
+- Compute <code>sdama</code> = standard deviation of <code>dama</code> over a lookback (book&rsquo;s example: 20 bars) multiplied by a filter constant (book&rsquo;s example: 0.10).
+- Only signal a new long when <code>dama ≥ 0</code> <strong>and</strong> at least one of <code>dama</code>, <code>dama2</code>, <code>dama3</code> exceeds <code>sdama</code> (the line has moved up by more than the filtered noise threshold recently).
+- Only signal a new short symmetrically, when <code>dama &lt; 0</code> and at least one of the three back-differences is more negative than <code>−sdama</code>.
+- Period (10), filter (0.10), and sdays (20) are treated as optimizable coefficients in Kaufman&rsquo;s own code, not fixed constants.</p>
+<p><strong>Parameter defaults given in the text</strong>: ER lookback = 10 days; fastest EMA equivalent = 2 days; slowest EMA equivalent = 30 days; noise-filter lookback = 20 days; filter multiplier = 0.10.</p>
+<h2 id="risk">Risk</h2>
+<p>Kaufman presents the AMA as a trend-following trendline only — a basic system, not a complete trading strategy. He explicitly separates it from entry/exit refinements, profit-taking, and stop-loss logic, which he treats as independent (&ldquo;lateral&rdquo;) components to be designed and tested separately rather than folded into the AMA formula itself. No specific stop-loss size or position-sizing rule is given for AMA specifically; the book&rsquo;s general risk-control guidance (Chapter 6/10 in the parent book) — normalize to a fixed maximum drawdown, prefer deleveraging over reliance on tight stops, and size positions from a measured combination of drawdown and equity-change standard deviation — applies to AMA as it would to any trend system. Because AMA is fundamentally a trend-following method, it carries the standard trend-following risk profile: frequent small losses during transitions between trending and choppy regimes (mitigated, not eliminated, by the noise filter above), and full exposure to a sharp reversal immediately after the smoothing constant has sped up into a fast-tracking state.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This description is drawn from the sampled OCR pages of the book (roughly pages 133–156 of a 257-page book whose text was OCR&rsquo;d only for a spaced sample of pages); some surrounding explanatory text — for example, the fuller &ldquo;Testing the AMA&rdquo; results section and additional discussion of &ldquo;Programming the Adaptive Moving Average&rdquo; — falls on pages that were not part of the OCR sample and so is not reflected here. The formula and defaults above are reconstructed directly from Kaufman&rsquo;s own reproduced source code (Box 8-4 in the book) and are consistent with the standard published KAMA formula used elsewhere in the industry. The squaring step in the smoothing-constant calculation is a specific design choice by Kaufman (biasing the line toward caution) rather than a mathematical necessity of the efficiency-ratio concept — a linear (unsquared) mapping is a documented variant used by other implementations. As with any trend method, KAMA&rsquo;s speed still lags at the very start of a new trend and can whip back and forth during a slow transition from a trending to a choppy regime before the Efficiency Ratio fully registers the change.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/perry-kaufman-smarter-trading.html">Smarter Trading</a> — A systems-development handbook centered on the Adaptive Moving Average (KAMA) and a rigorous, skeptical process for testing trading strategies for robustness rather than curve-fit profitability.</li><li><a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a> — Matches three trader personality types (trend-following, mean-reversion, short-term) to fully coded, backtested mechanical systems and the specific risk-management math each requires.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

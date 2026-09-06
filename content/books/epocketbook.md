@@ -1,17 +1,30 @@
 ---
-title: The Pocketbook Of Economic Indicators
 author: Manuel Jesus-Backus
-year: 2002
-slug: epocketbook
-tier: B
 category: Forex Mechanics & Macro Drivers
-tags: [economic-indicators, macro, fundamentals, calendar, forex, gdp, cpi, ism]
 difficulty: beginner
 doc_type: manual
+one_liner: A 20-indicator glossary (Beige Book to Trade Balance) explaining what each
+  U.S. economic release measures, why it moves markets, and when it's released.
 pages: 39
-one_liner: "A 20-indicator glossary (Beige Book to Trade Balance) explaining what each U.S. economic release measures, why it moves markets, and when it's released."
-related: [international-macro-economics-and-finance]
-source_file: "Epocketbook.pdf"
+related:
+- international-macro-economics-and-finance
+reviewed_pdf_pages: 17, 20, 22 and the indicator entries checked against the note's
+  thresholds
+slug: epocketbook
+source_file: Epocketbook.pdf
+source_review: partial
+tags:
+- economic-indicators
+- macro
+- fundamentals
+- calendar
+- forex
+- gdp
+- cpi
+- ism
+tier: B
+title: The Pocketbook Of Economic Indicators
+year: 2002
 ---
 
 ## Summary

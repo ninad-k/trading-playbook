@@ -1,17 +1,32 @@
 ---
-title: "Sure-Fire Forex Trading"
-author: "Mark McRae"
-year: 2005
-slug: mcrae-mark-sure-fire-forex-trading
-tier: B
+author: Mark McRae
 category: Forex Mechanics & Macro Drivers
-tags: [forex, ema-crossover, fibonacci-retracement, money-management, risk-reward, multi-timeframe]
 difficulty: beginner
 doc_type: manual
+one_liner: Multi-timeframe forex method combining 89/144-period EMA trend filters
+  with 38.2%/61.8% Fibonacci entries and strict 2:1+ risk/reward, 3%-of-equity money
+  management.
 pages: 113
-one_liner: "Multi-timeframe forex method combining 89/144-period EMA trend filters with 38.2%/61.8% Fibonacci entries and strict 2:1+ risk/reward, 3%-of-equity money management."
-related: [5-13-62, forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005, forex-money-management, fischer-robert-fibonacci-applications-and-strategies-for]
-source_file: "Mcrae, Mark - Sure-Fire Forex Trading.pdf"
+related:
+- 5-13-62
+- forex-systems-research-practical-fibonacci-methods-for-forex-trading-2005
+- forex-money-management
+- fischer-robert-fibonacci-applications-and-strategies-for
+reviewed_pdf_pages: 15-16, 55-56, 59-60 (the quoting mechanics and the Fibonacci target
+  formulas with worked examples)
+slug: mcrae-mark-sure-fire-forex-trading
+source_file: Mcrae, Mark - Sure-Fire Forex Trading.pdf
+source_review: partial
+tags:
+- forex
+- ema-crossover
+- fibonacci-retracement
+- money-management
+- risk-reward
+- multi-timeframe
+tier: B
+title: Sure-Fire Forex Trading
+year: 2005
 ---
 
 ## Summary

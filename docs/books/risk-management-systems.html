@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Risk Management Systems: Process, Technology and Trends — Martin Gorrod · Trading Playbook</title>
+<meta name="description" content="A practitioner&#39;s guide to building and running institutional risk-management technology, from VaR concepts to software delivery and project management.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></p>
+  <h1>Risk Management Systems: Process, Technology and Trends</h1>
+  <p class="byline">Martin Gorrod · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">advanced</span></p>
+  <p class="lead">A practitioner&#39;s guide to building and running institutional risk-management technology, from VaR concepts to software delivery and project management.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 19, 82, 225 (the stress-testing and scenario-analysis chapters and the references). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=enterprise-risk">enterprise-risk</a> <a class="tag" href="../search.html?q=var">var</a> <a class="tag" href="../search.html?q=risk-technology">risk-technology</a> <a class="tag" href="../search.html?q=project-management">project-management</a> <a class="tag" href="../search.html?q=financial-institutions">financial-institutions</a> <a class="tag" href="../search.html?q=systems-design">systems-design</a> </td></tr>
+    <tr><th>Length</th><td>316 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Risk Management Systems: Process, Technology and Trends” by Martin Gorrod at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>This is not a trading strategy book: it is a guide, aimed at banks, asset managers, and hedge funds, for designing and delivering the software and processes that measure and control firm-wide financial risk. It covers what risk management is and why it matters (citing LTCM&rsquo;s 1998 near-collapse as a cautionary case), how risk is modeled and measured (VaR, stress testing, scenario analysis, limit structures), and then spends its second half on the software development lifecycle for risk systems — requirements gathering, architecture, data warehousing, testing, deployment, and change management — before closing with a chapter on future trends in risk technology.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>Risk management quantifies exposure to uncertain financial outcomes (market, credit, operational) so an organization can control rather than eliminate risk.</li>
+<li>Different market participants (hedgers, speculators, arbitrageurs, market makers, brokers) take on different risk profiles, so no single risk system design fits every institution.</li>
+<li>Value at Risk (VaR) estimates the loss level a portfolio will not exceed over a given horizon at a given confidence level; the book covers variance/covariance, historical simulation, and Monte Carlo approaches, each with distinct trade-offs.</li>
+<li>Stress testing shifts individual pricing variables to gauge low-probability, high-impact losses; scenario analysis evolves multiple variables together (e.g., a 1987-style crash) for a more complete picture.</li>
+<li>Limit structures cascade risk appetite down an organizational hierarchy (desk, business line, firm), with a mix of hard limits (cannot be breached) and soft limits (breachable with approval).</li>
+<li>Risk data has to be aggregated from disparate transactional and warehousing systems, which is described as one of the hardest practical problems in building a risk system.</li>
+<li>The book frames software delivery for risk systems as itself a risk-management exercise: buy-versus-build decisions, prototyping, agile versus waterfall/V-model lifecycles, and formal change control all reduce the risk of project failure.</li>
+<li>A recurring theme is that risk management is as much an organizational and data-quality problem as a modeling problem — inaccurate or stale inputs make even sophisticated VaR models useless.</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given in position-sizing or entry/exit terms — this is an institutional systems and process manual, not a trading rulebook. The closest actionable takeaways for a trader or allocator are conceptual: (1) treat a risk model&rsquo;s output as only as good as its inputs and its correlation with subsequent realized losses; (2) use VaR to size aggregate exposure but pair it with stress/scenario testing, since VaR alone understates tail risk; (3) define hard limits you will not override under any market conditions, mirroring the book&rsquo;s hard-versus-soft limit distinction.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Written in 2004 for enterprise IT audiences (bank risk desks, project managers, software architects); much of the technology discussion (CORBA, DCOM, J2EE-era middleware, data-warehouse architectures) is dated and no longer representative of current risk-system stacks. It contains essentially no discussion of individual position sizing, stop-losses, or trade-level risk control, so it is a poor fit for a retail trader looking for practical rules — its value here is background on how institutions formalize the risk concepts (VaR, stress testing, limits) that also appear, in simplified form, in retail risk-management literature.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Risk managers, project managers, and technologists tasked with building or evaluating an institutional risk-management system; of limited direct use to a discretionary or retail trader, though the VaR/stress-testing/limit-structure background is useful context.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/armelle-guizot-the-hedge-fund-compliance-and-risk-management-guide.html">The Hedge Fund Compliance and Risk Management Guide</a> — A Wiley Finance reference covering hedge fund strategies, risk types, VaR/stress-testing methodology, fraud detection, ratings, and the compliance/regulatory landscape circa 2006-2007.</li><li><a href="../books/douglas-hubbard-the-failure-of-risk-management.html">The Failure of Risk Management: Why It&#39;s Broken and How to Fix It</a> — Hubbard argues most corporate/financial risk management — subjective scoring matrices especially — is unvalidated and often worse than no method at all, and prescribes calibrated probabilities plus Monte Carlo modeling as the fix.</li><li><a href="../books/money-management-risk-control-for-traders.html">Money Management and Risk Control for Traders</a> — Short web report on percent-risk position sizing, stop placement, and drawdown limits, illustrated with a running $50,000-account example.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

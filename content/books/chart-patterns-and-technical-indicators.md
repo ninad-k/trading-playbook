@@ -1,17 +1,34 @@
 ---
-title: "Chart Patterns and Technical Indicators"
 author: Unknown
-year: unknown
-slug: chart-patterns-and-technical-indicators
-tier: B
 category: Candlesticks & Chart Patterns
-tags: [chart-patterns, continuation-patterns, reversal-patterns, triangles, head-and-shoulders, macd, rsi, stochastic]
 difficulty: beginner
 doc_type: manual
+one_liner: A reference catalog of roughly 20 classic bar-chart continuation/reversal
+  patterns plus brief write-ups of DMI, MACD, Slow Stochastic, and RSI.
 pages: 41
-one_liner: "A reference catalog of roughly 20 classic bar-chart continuation/reversal patterns plus brief write-ups of DMI, MACD, Slow Stochastic, and RSI."
-related: [john-j-murphy-charting-made-easy, metastock-chart-patterns-tutorial, chart-formations, technical-indicators-tutorial, macd]
-source_file: "Chart_Patterns_and_technical_indicators.pdf"
+related:
+- john-j-murphy-charting-made-easy
+- metastock-chart-patterns-tutorial
+- chart-formations
+- technical-indicators-tutorial
+- macd
+reviewed_pdf_pages: 2-3, 31, 41 (the pattern duration and target rules and the indicator
+  thresholds)
+slug: chart-patterns-and-technical-indicators
+source_file: Chart_Patterns_and_technical_indicators.pdf
+source_review: partial
+tags:
+- chart-patterns
+- continuation-patterns
+- reversal-patterns
+- triangles
+- head-and-shoulders
+- macd
+- rsi
+- stochastic
+tier: B
+title: Chart Patterns and Technical Indicators
+year: unknown
 ---
 
 ## Summary

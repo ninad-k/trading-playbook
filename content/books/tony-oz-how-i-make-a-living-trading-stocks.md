@@ -1,17 +1,34 @@
 ---
-title: "The Stock Trader: How I Make a Living Trading Stocks"
 author: Tony Oz
-year: 2000
-slug: tony-oz-how-i-make-a-living-trading-stocks
-tier: A
 category: Day Trading & Scalping
-tags: [support-resistance, day-trading, scanning, level-ii, risk-reward-ratio, trading-diary, nasdaq]
 difficulty: beginner
 doc_type: book
+one_liner: A real-time, 116-trade trading diary from the April 2000 Nasdaq crash showing
+  a long-only support/resistance day-trading system, its scan formulas, and every
+  stop and target used.
 pages: 146
-one_liner: "A real-time, 116-trade trading diary from the April 2000 Nasdaq crash showing a long-only support/resistance day-trading system, its scan formulas, and every stop and target used."
-related: [jack-schwager-stock-market-wizards, reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore, elder-alexander-trading-for-a-living, come-into-my-trading-room-elder-alexander, john-j-murphy-charting-made-easy]
-source_file: "Tony Oz - How I Make A Living Trading Stocks.pdf"
+related:
+- jack-schwager-stock-market-wizards
+- reminiscences-of-a-stock-operator-by-edwin-lefevre-to-jesse-livermore
+- elder-alexander-trading-for-a-living
+- come-into-my-trading-room-elder-alexander
+- john-j-murphy-charting-made-easy
+reviewed_pdf_pages: 1, 3, 5, 7, 9, 15, 21, 132 (the scan definitions with their volume
+  and price filters, and the trade-diary chapters)
+slug: tony-oz-how-i-make-a-living-trading-stocks
+source_file: Tony Oz - How I Make A Living Trading Stocks.pdf
+source_review: partial
+tags:
+- support-resistance
+- day-trading
+- scanning
+- level-ii
+- risk-reward-ratio
+- trading-diary
+- nasdaq
+tier: A
+title: 'The Stock Trader: How I Make a Living Trading Stocks'
+year: 2000
 ---
 
 ## Overview

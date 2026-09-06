@@ -1,17 +1,33 @@
 ---
-title: "The Intraday Patterns of the Spread and Depth in a Market Without Market Makers: The Stock Exchange of Hong Kong"
-author: "Hee-Joon Ahn and Yan-Leung Cheung"
-year: 1999
-slug: ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma
-tier: B
+author: Hee-Joon Ahn and Yan-Leung Cheung
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, bid-ask-spread, market-depth, limit-order-book, liquidity, adverse-selection, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Empirical study of 471 Hong Kong stocks finding U-shaped intraday/intraweek
+  spreads and reverse-U-shaped depth, proving these patterns arise from limit-order
+  traders alone, without any specialist market maker.
 pages: 18
-one_liner: "Empirical study of 471 Hong Kong stocks finding U-shaped intraday/intraweek spreads and reverse-U-shaped depth, proving these patterns arise from limit-order traders alone, without any specialist market maker."
-related: [admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability, sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us]
-source_file: "Ahn And Cheung-The Intraday Patterns Of The Spread And Depth In A Market Without Market Makers - .pdf"
+related:
+- admati-and-pfleiderer-a-theory-of-intraday-patterns-volume-and-price-variability
+- sarin-and-saudagaran-testing-for-micro-structure-effects-of-international-dual-listings-us
+reviewed_pdf_pages: 7-9, 16-17 (the descriptive statistics and the spread/depth correlation
+  tables)
+slug: ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma
+source_file: Ahn And Cheung-The Intraday Patterns Of The Spread And Depth In A Market
+  Without Market Makers - .pdf
+source_review: partial
+tags:
+- market-microstructure
+- bid-ask-spread
+- market-depth
+- limit-order-book
+- liquidity
+- adverse-selection
+- academic-paper
+tier: B
+title: 'The Intraday Patterns of the Spread and Depth in a Market Without Market Makers:
+  The Stock Exchange of Hong Kong'
+year: 1999
 ---
 
 ## Summary

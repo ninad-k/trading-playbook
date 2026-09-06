@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "bollinger-band",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-5",
+    "limitations": "Visual source review; historical illustrations, no full trading system."
+  },
+  {
+    "slug": "gann-how-to-trade",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-5",
+    "limitations": "Visual review; short1935 lesson, prerequisite angle/cycle methods absent; reclassified concise B."
+  },
+  {
+    "slug": "cynthia-kase-multi-dimensional-trading",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-3",
+    "limitations": "Visual review; article not book; proprietary inputs absent; reclassified concise B."
+  },
+  {
+    "slug": "investment-vehicles",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1",
+    "limitations": "OCR and chart/footnotes; historical assumptions and ambiguous printed return figure."
+  },
+  {
+    "slug": "aust-vs-int-l-equity-portfolio-journal",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-4",
+    "limitations": "OCR plus visual tables/endnotes; historical allocation research."
+  },
+  {
+    "slug": "trading-psychology",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-2",
+    "limitations": "OCR; publication date conflict identified."
+  },
+  {
+    "slug": "new-concepts-in-technical-trading-systems-welles-wilder",
+    "outcome": "corrupt",
+    "pages_reviewed": "none; file structure inspected",
+    "limitations": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+  },
+  {
+    "slug": "daytrading-university-trading-course",
+    "outcome": "corrupt",
+    "pages_reviewed": "none; file structure inspected",
+    "limitations": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+  },
+  {
+    "slug": "money-management-for-gambler",
+    "outcome": "corrupt",
+    "pages_reviewed": "none; file structure inspected",
+    "limitations": "Local PDF yields zero pages in PyMuPDF. Damaged/truncated bytes; replacement HEAD request failed DNS on 2026-09-05. No summary invented."
+  },
+  {
+    "slug": "place-of-insurance",
+    "outcome": "off_topic",
+    "pages_reviewed": "1",
+    "limitations": "OCR full page is personal life/income insurance primer, not trading."
+  },
+  {
+    "slug": "insurances-strategies",
+    "outcome": "off_topic",
+    "pages_reviewed": "1",
+    "limitations": "OCR full page is personal insurance adviser checklist, no trading method."
+  },
+  {
+    "slug": "basic-financial-strategies",
+    "outcome": "off_topic",
+    "pages_reviewed": "1",
+    "limitations": "OCR full page is household budget/debt/life-planning checklist, no trading analysis."
+  },
+  {
+    "slug": "derivatives-pricing-and-financial-modelling",
+    "outcome": "written",
+    "tier": "B",
+    "pages_reviewed": "1-3",
+    "limitations": "Unsolved advanced tutorial; scope summarized without inventing solutions. Restored as relevant educational content."
+  }
+]

@@ -1,17 +1,29 @@
 ---
-title: "Why Smart Traders Do Dumb Things: Understanding Prospect Theory"
-author: "David Silverman"
-year: 2005
-slug: prospect-theory
-tier: B
+author: David Silverman
 category: Trading Psychology & Discipline
-tags: [prospect-theory, behavioral-finance, kahneman, loss-aversion, cognitive-bias, psychology]
 difficulty: beginner
 doc_type: article
+one_liner: SFO Magazine article explaining Kahneman and Tversky's prospect theory
+  and applying loss aversion, framing, and the two-system mind model to trading decisions.
 pages: 6
-one_liner: "SFO Magazine article explaining Kahneman and Tversky's prospect theory and applying loss aversion, framing, and the two-system mind model to trading decisions."
-related: [kahneman-daniel-investor-psychology, trading-psychology, disciplined-trader]
-source_file: "Prospect Theory.pdf"
+related:
+- kahneman-daniel-investor-psychology
+- trading-psychology
+- disciplined-trader
+reviewed_pdf_pages: 1-6
+slug: prospect-theory
+source_file: Prospect Theory.pdf
+source_review: full
+tags:
+- prospect-theory
+- behavioral-finance
+- kahneman
+- loss-aversion
+- cognitive-bias
+- psychology
+tier: B
+title: 'Why Smart Traders Do Dumb Things: Understanding Prospect Theory'
+year: 2005
 ---
 
 ## Summary

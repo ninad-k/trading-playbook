@@ -1,17 +1,32 @@
 ---
-title: Price Discovery and Trading After Hours
 author: Michael J. Barclay and Terrence Hendershott
-year: 2003
-slug: barclay-and-hendershott-price-discovery-and-trading-after-hours
-tier: B
 category: Quant, Microstructure & Academic Research
-tags: [market-microstructure, after-hours-trading, price-discovery, nasdaq, informed-trading, ecn, academic-paper]
 difficulty: advanced
 doc_type: paper
+one_liner: Academic study of the 250 largest Nasdaq stocks finding most after-hours
+  price discovery happens in the preopen via ECNs, with postclose trades noisy and
+  often reversed.
 pages: 33
-one_liner: "Academic study of the 250 largest Nasdaq stocks finding most after-hours price discovery happens in the preopen via ECNs, with postclose trades noisy and often reversed."
-related: [madhavan-market-microstructure-a-survey, aggarwal-and-conroy-price-discovery-in-initial-public-offerings-and-the-role-of-the-lead-u, hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market]
-source_file: "Barclay And Hendershott-Price Discovery And Trading After Hours.pdf"
+related:
+- madhavan-market-microstructure-a-survey
+- aggarwal-and-conroy-price-discovery-in-initial-public-offerings-and-the-role-of-the-lead-u
+- hartmann-manna-and-manzanares-the-microstructure-of-the-euro-money-market
+reviewed_pdf_pages: 5, 7-8, 13, 15-16 (the sample description and the price-discovery
+  decomposition)
+slug: barclay-and-hendershott-price-discovery-and-trading-after-hours
+source_file: Barclay And Hendershott-Price Discovery And Trading After Hours.pdf
+source_review: partial
+tags:
+- market-microstructure
+- after-hours-trading
+- price-discovery
+- nasdaq
+- informed-trading
+- ecn
+- academic-paper
+tier: B
+title: Price Discovery and Trading After Hours
+year: 2003
 ---
 
 ## Summary

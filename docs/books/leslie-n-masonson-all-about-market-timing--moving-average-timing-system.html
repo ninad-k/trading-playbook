@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moving Average Crossover Timing System — Leslie N. Masonson · Trading Playbook</title>
+<meta name="description" content="Single- and dual-moving-average crossover rules for timing index funds/ETFs, with multiple researchers&#39; backtested optimal lookback lengths across the DJIA, S&amp;P 500 and Nasdaq.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/leslie-n-masonson-all-about-market-timing.html">All About Market Timing</a></p>
+  <h1>Moving Average Crossover Timing System</h1>
+  <p class="byline">Leslie N. Masonson · 2004 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">beginner</span></p>
+  <p class="lead">Single- and dual-moving-average crossover rules for timing index funds/ETFs, with multiple researchers&#39; backtested optimal lookback lengths across the DJIA, S&amp;P 500 and Nasdaq.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=moving-averages">moving-averages</a> <a class="tag" href="../search.html?q=trend-following">trend-following</a> <a class="tag" href="../search.html?q=market-timing">market-timing</a> <a class="tag" href="../search.html?q=mechanical-systems">mechanical-systems</a> <a class="tag" href="../search.html?q=whipsaw">whipsaw</a> </td></tr>
+    <tr><th>Length</th><td>275 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Moving Average Crossover Timing System” by Leslie N. Masonson at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>A trend-following timing system that uses a simple moving average (SMA) of an index&rsquo;s closing price to generate long/cash (or long/short) signals: buy when price crosses above the moving average, exit when price crosses back below it. A &ldquo;dual&rdquo; variant instead crosses two moving averages of different lengths against each other. The book compiles independent backtests from five researchers (Robert Colby on the DJIA 1900–2001, Michael McDonald on the S&amp;P 500, Paul Merriman and Dennis Tilley on the Nasdaq 100/S&amp;P 500 Total Return, John Murphy on the Nasdaq Composite) plus the author&rsquo;s own TradeStation tests, converging on the finding that shorter-to-intermediate SMA lengths (roughly 18–130 days, depending on the index) mechanically beat buy-and-hold over multi-decade periods, generally with lower risk, despite a minority of trades being profitable.</p>
+<h2 id="rules">Rules</h2>
+<ol>
+<li><strong>Single moving-average crossover (base rule).</strong> Choose an index/ETF (S&amp;P 500, Nasdaq Composite, DJIA proxy) and a moving-average length. Buy when the closing price crosses above the moving average. Sell to cash when the price crosses below the moving average; aggressive/short-capable investors may instead sell short (using inverse/bear funds or by shorting the ETF directly, where permitted) rather than just moving to cash.</li>
+<li><strong>Dual moving-average crossover.</strong> Track two SMAs of different lengths on the same index (a common pairing is 50-day and 200-day). Buy when the faster average (50-day) crosses above the slower average (200-day). Sell/short when the faster average crosses back below the slower average.</li>
+<li><strong>Choosing a lookback length — backtested candidates.</strong> Robert Colby&rsquo;s 1900–2001 DJIA test found all SMA lengths from 1 to 385 days beat buy-and-hold, with the 66-day SMA about 31x more profitable than buy-and-hold ($639,933 vs. $20,105 net profit per $100 invested) and the 126-day SMA the most profitable long-term length tested (2022.5% better than buy-and-hold). Michael McDonald&rsquo;s S&amp;P 500 (with dividends) tests found the 72-day and 132-day SMAs superior, with the 130-day producing a 12.5% annualized return vs. 10.3% for buy-and-hold over 71 years. The author&rsquo;s own TradeStation optimization on the Nasdaq Composite (1971–2002) found the 18- to 22-day SMA range most profitable, with an 18-day SMA producing a 22.47% annualized return (best single result found).</li>
+<li><strong>20-day SMA — Nasdaq Composite (specific worked system).</strong> Buy when the Nasdaq Composite closing price crosses above its 20-day SMA; sell short when it crosses below. Backtest (Feb. 1971–Dec. 2002, $100,000 starting capital, no dividends): $46,563,046 net profit vs. $1,139,260 for buy-and-hold (46:1 ratio), from 664 trades (about 21/year) with only 38% of trades profitable.</li>
+<li><strong>25-week SMA — Nasdaq Composite (lower-maintenance variant).</strong> Same crossover logic as rule 4 but using weekly closes and a 25-week SMA (≈125 trading days), checked only once a week. Backtest (same period): $4,274,870 net profit vs. $968,400 for buy-and-hold, from only 97 trades (≈3/year) with 42% profitable — a large majority of the 20-day system&rsquo;s total return with roughly 1/7th the trade frequency and monitoring burden.</li>
+<li><strong>100-day SMA — Nasdaq 100 (Merriman).</strong> Buy the Nasdaq 100 (or a Nasdaq 100 index/leveraged fund) when price crosses above its 100-day SMA; sell to cash (not short) on a cross below. 1972–2001 backtest: 18.9% annualized ($180,476 on $1,000) vs. 11.8%/$28,396 for buy-and-hold, with lower standard deviation (19.3% vs. 28.0%) and less than half the drawdown. A 50%-leveraged version returned 23.2% annualized ($522,782); a 100%-leveraged (beta 2.0) version returned 26.9% annualized ($1,270,131), both with higher standard deviation than the unlevered version but still better drawdowns than buy-and-hold.</li>
+<li><strong>Whipsaw filter (general rule).</strong> Because shorter SMAs generate more signals and more false breakouts in sideways markets, and longer SMAs react more slowly (giving back more of a move before signaling), select the SMA length to match investing horizon (shorter for active traders willing to accept more whipsaws, longer for lower-maintenance investors) and, once chosen, take every signal without selectively skipping ones that &ldquo;feel&rdquo; wrong.</li>
+<li><strong>Stop-loss overlay.</strong> Apply an 8–10% trailing stop on unrealized gains so a sharp reversal does not give back most of an open profit before the moving-average signal itself triggers an exit.</li>
+</ol>
+<h2 id="risk">Risk</h2>
+<p>The single largest quantified risk in every backtest reported is the low percentage of winning trades (21% for Colby&rsquo;s 66-day DJIA system, 38–42% for the Nasdaq 20-day/25-week systems) — the system&rsquo;s profitability depends entirely on winners being much larger than losers (Colby&rsquo;s average winner was $6,886 vs. an average loser of –$1,238), so a trader must be able to tolerate a majority of trades closing at a loss without abandoning the system. Whipsaws in sideways/trading-range markets are explicitly flagged as the main failure mode: the book notes there were &ldquo;many buy and sell signals (whipsaws)&rdquo; using the 50-day SMA from January through September 2000 alone, and shorter SMAs are systematically more exposed to this than longer ones. Leverage (used in Merriman&rsquo;s 50%/100%-leveraged Nasdaq 100 variants) proportionally increases both the annualized return and the standard deviation/drawdown, so leveraged versions should only be used by investors who have already accepted the higher risk tolerance this implies.</p>
+<h2 id="caveats">Caveats</h2>
+<p>Results are highly sensitive to the exact index, time period, and SMA length tested — Colby&rsquo;s DJIA-based optimal lengths (66-day, 126-day) differ from McDonald&rsquo;s S&amp;P-500-based optimal lengths (72-day, 132-day) and from the author&rsquo;s own Nasdaq-Composite-based optimal length (18-day), so there is no single universally &ldquo;best&rdquo; moving-average length; a trader must re-optimize (or at minimum re-validate) for the specific index and vehicle being traded rather than assume the numbers transfer directly. All-shorting variants (using every sell signal to go short rather than to cash) materially changed results in at least one test — Colby notes that the short side of his DJIA system stopped being profitable after the 1987 crash — indicating the long and short legs of these systems do not necessarily have equal edge over time. As with the book&rsquo;s other systems, most backtests exclude dividends, transaction costs and taxes, and use unleveraged historical index data that in some cases was not itself directly tradable over the full test period.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/michael-covel-trend-following.html">Trend Following</a> — Profiles of top CTAs plus the shared rulebook of trend followers: cut losses fast, let winners run, risk a fixed % per trade, ignore forecasts.</li><li><a href="../books/marcel-petro-market-timing.html">Market Timing</a> — Self-published technical-analysis manual treating the market as a cyclic/harmonic system, using Bollinger Bands, MACD, moving-average crossovers, and Fibonacci objective points to time turns.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

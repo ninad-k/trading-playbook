@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "new-concepts-in-technical-trading-systems-welles-wilder",
+    "tier": "A",
+    "filename": "New Concepts in Technical Trading Systems (Welles Wilder).pdf",
+    "pages": 0,
+    "text_status": "no_text",
+    "pdf_present": true,
+    "text_present": false,
+    "status": "needs_source_review"
+  },
+  {
+    "slug": "bollinger-band",
+    "tier": "B",
+    "filename": "bollinger_band.pdf",
+    "pages": 5,
+    "text_status": "no_text",
+    "pdf_present": true,
+    "text_present": true,
+    "status": "needs_source_review"
+  },
+  {
+    "slug": "daytrading-university-trading-course",
+    "tier": "B",
+    "filename": "Daytrading University Trading Course.pdf",
+    "pages": 0,
+    "text_status": "no_text",
+    "pdf_present": true,
+    "text_present": false,
+    "status": "needs_source_review"
+  },
+  {
+    "slug": "money-management-for-gambler",
+    "tier": "B",
+    "filename": "money_management_for_gambler.pdf",
+    "pages": 0,
+    "text_status": "no_text",
+    "pdf_present": true,
+    "text_present": false,
+    "status": "needs_source_review"
+  }
+]

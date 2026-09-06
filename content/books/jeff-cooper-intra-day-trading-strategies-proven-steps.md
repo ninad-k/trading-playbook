@@ -1,17 +1,32 @@
 ---
-title: "Intra-Day Trading Strategies: Proven Steps to Short-Term Trading Profits"
 author: Jeff Cooper
-year: 2003
-slug: jeff-cooper-intra-day-trading-strategies-proven-steps
-tier: A
 category: Day Trading & Scalping
-tags: [chart-patterns, momentum, day-trading, short-term-trading, setups, gap-trading, breakouts]
 difficulty: advanced
 doc_type: book
+one_liner: A chart-annotated catalog of Jeff Cooper's named short-term setups (1-2-3,
+  Lizard, TNT, Expansion Breakout, Bubble Oops, and more), illustrated on daily, hourly,
+  and 10-minute charts.
 pages: 48
-one_liner: "A chart-annotated catalog of Jeff Cooper's named short-term setups (1-2-3, Lizard, TNT, Expansion Breakout, Bubble Oops, and more), illustrated on daily, hourly, and 10-minute charts."
-related: [alan-farley-the-master-swing-trader, barry-rudd-stock-patterns-for-day-trading-and-swing-trading, ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading, kevin-hagerty-day-trading-course]
-source_file: "Jeff Cooper - Intra-Day Trading Strategies, Proven Steps.pdf"
+related:
+- alan-farley-the-master-swing-trader
+- barry-rudd-stock-patterns-for-day-trading-and-swing-trading
+- ken-wolff-2002-trading-on-momentum-advanced-techniques-for-high-percentage-day-trading
+- kevin-hagerty-day-trading-course
+reviewed_pdf_pages: 1-48 (all extractable text; annotated chart plates A-1 to A-47)
+slug: jeff-cooper-intra-day-trading-strategies-proven-steps
+source_file: Jeff Cooper - Intra-Day Trading Strategies, Proven Steps.pdf
+source_review: full
+tags:
+- chart-patterns
+- momentum
+- day-trading
+- short-term-trading
+- setups
+- gap-trading
+- breakouts
+tier: A
+title: 'Intra-Day Trading Strategies: Proven Steps to Short-Term Trading Profits'
+year: 2003
 ---
 
 ## Overview
@@ -64,7 +79,7 @@ The sampled material has no chapter divisions or section headings beyond a singl
 
 ## Strengths and caveats
 
-The chart annotations are concrete and grounded in real, dated examples (all charts appear to be from late 2001 through April 2003), which makes pattern recognition tangible in a way that prose description alone cannot. However, this is a significant limitation for these notes: the sampled OCR pages consist almost entirely of chart labels and short captions, with essentially no connected explanatory prose defining any setup's precise entry trigger, stop-loss rule, or profit target. Terms like "Rule of 4," "Angular Rule of 4," "Jesse James Pivot," "Grenade," and "Triangle Pendulum" are used as if previously defined elsewhere (likely in the main body of a companion Cooper book, such as Hit and Run Trading, that this appendix may have been excerpted from), but that defining text was not present in this scan. Readers should treat every named pattern in these notes as a labeled chart observation, not a validated, backtested rule; no win rates, sample sizes, or performance statistics are given anywhere in the sampled pages. All examples are single-stock, single-instance illustrations from a roughly 18-month window in 2001-2003 — no discussion of how the patterns perform in aggregate, across market regimes, or after transaction costs is present.
+The chart annotations are concrete and grounded in real, dated examples (all charts appear to be from late 2001 through April 2003), which makes pattern recognition tangible in a way that prose description alone cannot. However, this is a significant limitation for these notes: all 48 pages of OCR text have been read, and they consist almost entirely of chart labels and short captions, with essentially no connected explanatory prose defining any setup's precise entry trigger, stop-loss rule, or profit target. Terms like "Rule of 4," "Angular Rule of 4," "Jesse James Pivot," "Grenade," and "Triangle Pendulum" are used as if previously defined elsewhere (likely in the main body of a companion Cooper book, such as Hit and Run Trading, that this appendix may have been excerpted from), but that defining text was not present in this scan. Readers should treat every named pattern in these notes as a labeled chart observation, not a validated, backtested rule; no win rates, sample sizes, or performance statistics are given anywhere in the sampled pages. All examples are single-stock, single-instance illustrations from a roughly 18-month window in 2001-2003 — no discussion of how the patterns perform in aggregate, across market regimes, or after transaction costs is present.
 
 ## Who should read it
 

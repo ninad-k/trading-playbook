@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSI Extremes with 200-Day Moving Average Filter (Full System) — Richard L. Weissman · Trading Playbook</title>
+<meta name="description" content="An intermediate-term mean-reversion system that only fades RSI extremes in the direction of the 200-day trend, exiting at a partial RSI retracement or a 2.5% fail-safe stop.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a> › <a href="../books/richard-l-weissman-mechanical-trading-systems.html">Mechanical Trading Systems: Pairing Trader Psychology with Technical Analysis</a></p>
+  <h1>RSI Extremes with 200-Day Moving Average Filter (Full System)</h1>
+  <p class="byline">Richard L. Weissman · 2005 · <span class="badge tier-A">Tier A</span> <span class="badge">system</span> <span class="badge">intermediate</span></p>
+  <p class="lead">An intermediate-term mean-reversion system that only fades RSI extremes in the direction of the 200-day trend, exiting at a partial RSI retracement or a 2.5% fail-safe stop.</p>
+  
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=mean-reversion">mean-reversion</a> <a class="tag" href="../search.html?q=moving-average-filter">moving-average-filter</a> <a class="tag" href="../search.html?q=intermediate-term">intermediate-term</a> <a class="tag" href="../search.html?q=stop-loss">stop-loss</a> <a class="tag" href="../search.html?q=oscillator">oscillator</a> </td></tr>
+    <tr><th>Length</th><td>241 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “RSI Extremes with 200-Day Moving Average Filter (Full System)” by Richard L. Weissman at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#caveats">Caveats</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="what-it-is">What it is</h2>
+<p>Weissman&rsquo;s best-performing intermediate-term &ldquo;trend-following mean reversion&rdquo; system: it buys oversold dips only when the market is above its 200-day moving average (and sells overbought rallies only when below it), so every trade is a pullback entry in the direction of the dominant long-term trend rather than a pure countertrend bet. Because the trade is aligned with the longer-term trend, the profit exit is set beyond the midline (60/40 instead of 50) rather than at dead-center reversion, and a fixed-percentage fail-safe stop caps the risk if the market keeps trending against the entry instead of reverting.</p>
+<h2 id="rules">Rules</h2>
+<p><strong>Indicators needed</strong>
+1. A 9-day RSI (Wilder&rsquo;s relative strength index) for entry signals.
+2. A 14-day RSI for the profit-exit signal.
+3. A 200-day simple moving average (SMA) of closing price, used only as a directional filter.</p>
+<p><strong>Entry</strong>
+4. Go long when the 9-day RSI closes below 35 AND the close is above the 200-day SMA.
+5. Go short when the 9-day RSI closes above 65 AND the close is below the 200-day SMA.
+6. No trade is taken against the 200-day trend filter — an oversold reading below the 200-day average, or an overbought reading above it, is ignored.</p>
+<p><strong>Exit — profit target</strong>
+7. Exit a long when the 14-day RSI crosses back above 60.
+8. Exit a short when the 14-day RSI crosses back below 40.</p>
+<p><strong>Exit — fail-safe stop</strong>
+9. Exit a long if price falls to entry price minus 2.5% of entry price.
+10. Exit a short if price rises to entry price plus 2.5% of entry price.
+11. For instruments where a percentage-of-value stop is unreliable (e.g., back-adjusted continuous futures data that can go to zero or negative), substitute a fixed-dollar stop sized to the instrument&rsquo;s typical volatility (the book&rsquo;s tested portfolio used stops ranging from $500 to $2,500 depending on the asset).</p>
+<p><strong>Portfolio construction (as tested)</strong>
+12. Trade a portfolio weighted toward non-U.S.-dollar currency cross rates and one trending asset (e.g., a dollar pair) for balance, since major currency crosses historically showed the strongest mean-reversion tendency in the book&rsquo;s data; avoid low-volatility instruments (the book specifically flags eurodollars as too low-volatility to profit after a flat $100 round-turn cost).
+13. Deduct a flat $100 per round-turn trade for slippage and commissions in backtesting.</p>
+<h2 id="risk">Risk</h2>
+<p>Per-trade risk is explicitly capped at the 2.5% fail-safe stop distance from entry (or the equivalent fixed-dollar amount). In the book&rsquo;s 10-year (1992–2002) backtest on a nine-instrument, mostly-FX-cross portfolio, the system produced $100,188 total net profit, a 2.27 profit-to-maximum-drawdown ratio, and a 54.57% win rate over 372 trades — a higher win rate but a lower P:MD than the book&rsquo;s trend-following systems (e.g., the two moving average crossover&rsquo;s 4.24 P:MD), which Weissman attributes to mean-reversion systems structurally cutting profits short at the mean rather than letting them run. On the same portfolio without the 200-day trend filter (an ADX-filtered nondirectional variant), results were worse in nearly every category, reinforcing that the directional filter is what makes this version work.</p>
+<h2 id="caveats">Caveats</h2>
+<p>The book cautions that this system&rsquo;s exit condition (14-day RSI crossing 60/40) produced an average trade duration similar to the intermediate-term trend-following systems in the same book — a longer holding period than many mean-reversion traders expect — and that a stochastics-based variant with a tighter exit (20-day moving average) trades faster with a higher win rate but lower per-trade profit. The fixed 2.5% stop is tuned to daily-bar volatility; the book demonstrates elsewhere that the same percentage produced an outright losing system when applied unchanged to 30-minute bars, and had to be reduced to 1.5% to restore performance — so the stop distance must be rescaled to whatever bar interval and instrument volatility is actually being traded, not copied as a universal constant. As with all systems in this source, results reflect a single vendor&rsquo;s data (CQG), a single backtested decade, and flat commission/slippage assumptions.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/john-bollinger-bollinger-on-bollinger-band.html">Bollinger on Bollinger Bands</a> — The creator&#39;s own manual for Bollinger Bands: construction, the %b and BandWidth indicators, The Squeeze, and three complete trading methods.</li><li><a href="../books/van-tharp-trading-systems.html">What Is a Trading System?</a> — Defines the 8 components of a trading strategy and 8 sections of a full trading business plan, plus a system-development framework from an Army systems-design interview.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

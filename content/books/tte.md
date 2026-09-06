@@ -1,17 +1,30 @@
 ---
-title: "The Traders Trick Entry (TTE)"
-author: "Joe Ross"
-year: unknown
-slug: tte
-tier: B
+author: Joe Ross
 category: Trend Following & Mechanical Systems
-tags: [joe-ross, traders-trick-entry, ross-hook, law-of-charts, 1-2-3-pattern, breakout, futures]
 difficulty: intermediate
 doc_type: manual
+one_liner: 'Joe Ross''s Traders University slide deck teaching the Traders Trick Entry
+  (TTE): entering ahead of a 1-2-3 or Ross Hook breakout by buying the violation of
+  a correcting bar''s extreme.'
 pages: 80
-one_liner: "Joe Ross's Traders University slide deck teaching the Traders Trick Entry (TTE): entering ahead of a 1-2-3 or Ross Hook breakout by buying the violation of a correcting bar's extreme."
-related: [1-a-mehanical-trading-system-tom-joseph]
-source_file: "TTE.pdf"
+related:
+- 1-a-mehanical-trading-system-tom-joseph
+reviewed_pdf_pages: the rule slides checked against the note; the deck states its
+  provisions qualitatively
+slug: tte
+source_file: TTE.pdf
+source_review: partial
+tags:
+- joe-ross
+- traders-trick-entry
+- ross-hook
+- law-of-charts
+- 1-2-3-pattern
+- breakout
+- futures
+tier: B
+title: The Traders Trick Entry (TTE)
+year: unknown
 ---
 
 ## Summary

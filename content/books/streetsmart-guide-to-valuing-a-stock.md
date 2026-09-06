@@ -1,17 +1,33 @@
 ---
-title: "Streetsmart Guide to Valuing a Stock"
-author: "Gary Gray, Patrick J. Cusatis, J. Randall Woolridge"
-year: 2004
-slug: streetsmart-guide-to-valuing-a-stock
-tier: A
-category: "Investing, Value & Market History"
-tags: [valuation, dcf, fundamental-analysis, wacc, free-cash-flow, capm, stock-picking]
+author: Gary Gray, Patrick J. Cusatis, J. Randall Woolridge
+category: Investing, Value & Market History
 difficulty: intermediate
 doc_type: book
+one_liner: A four-step discounted free-cash-flow-to-the-firm procedure for estimating
+  a stock's intrinsic value, worked through real 2002-2003 companies.
 pages: 290
-one_liner: "A four-step discounted free-cash-flow-to-the-firm procedure for estimating a stock's intrinsic value, worked through real 2002-2003 companies."
-related: [investment-valuation-damodaran, the-intelligent-investor-benjamin-graham, r-g-hagstrom-the-warren-buffett-way-2nd-edition, damodaran-aswath-investment-fables, asset-valuation-allocation-models]
-source_file: "Streetsmart Guide To Valuing A Stock.pdf"
+related:
+- investment-valuation-damodaran
+- the-intelligent-investor-benjamin-graham
+- r-g-hagstrom-the-warren-buffett-way-2nd-edition
+- damodaran-aswath-investment-fables
+- asset-valuation-allocation-models
+reviewed_pdf_pages: 6, 10, 37, 41 (contents, the DCF framework, cost-of-capital inputs
+  and the residual-value share of total value)
+slug: streetsmart-guide-to-valuing-a-stock
+source_file: Streetsmart Guide To Valuing A Stock.pdf
+source_review: partial
+tags:
+- valuation
+- dcf
+- fundamental-analysis
+- wacc
+- free-cash-flow
+- capm
+- stock-picking
+tier: A
+title: Streetsmart Guide to Valuing a Stock
+year: 2004
 ---
 
 ## Overview

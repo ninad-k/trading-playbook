@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Duplicate source · {{ site_title }}{% endblock %}
+{% block content %}
+<article>
+  <h1>Duplicate source</h1>
+  <p>{{ item.title }}</p>
+  <p>This source duplicates material covered by an available library note.</p>
+  <p><a class="btn" href="{{ root }}books/{{ item.target }}.html">Read {{ item.target_title }}</a></p>
+  <p class="muted">{{ item.detail }}</p>
+  <p><a href="{{ root }}coverage.html#{{ item.slug }}">View source coverage</a></p>
+</article>
+{% endblock %}

@@ -1,17 +1,34 @@
 ---
-title: "Lecture Notes in Mathematical Finance"
-author: "X. Sheldon Lin"
-year: 1996
-slug: lecture-notes-in-mathematical-finance-lin-1996
-tier: B
+author: X. Sheldon Lin
 category: Quant, Microstructure & Academic Research
-tags: [arbitrage-pricing, stochastic-calculus, option-pricing, interest-rate-models, risk-neutral-valuation, academic-research]
 difficulty: advanced
 doc_type: course
+one_liner: University graduate-course lecture notes building arbitrage-free asset
+  pricing from discrete one-period models up through Ito calculus, Black-Scholes-style
+  dynamic hedging, and interest-rate/swap models.
 pages: 339
-one_liner: "University graduate-course lecture notes building arbitrage-free asset pricing from discrete one-period models up through Ito calculus, Black-Scholes-style dynamic hedging, and interest-rate/swap models."
-related: [derivatives-pricing-and-financial-modelling, introduction-to-arbitrage-pricing-of-financial-derivatives, 1-the-mathematics-of-financial-derivatives, black-scholes-option-pricing-model, hull-options-futures-and-other-derivative-securities-5th-ed, paul-wilmott-quantitative-finance]
-source_file: "Lecture Notes In Mathematical Finance (Lin_1996).pdf"
+related:
+- derivatives-pricing-and-financial-modelling
+- introduction-to-arbitrage-pricing-of-financial-derivatives
+- 1-the-mathematics-of-financial-derivatives
+- black-scholes-option-pricing-model
+- hull-options-futures-and-other-derivative-securities-5th-ed
+- paul-wilmott-quantitative-finance
+reviewed_pdf_pages: the derivation chapters checked against the note; the notes are
+  algebraic and state no trading parameters
+slug: lecture-notes-in-mathematical-finance-lin-1996
+source_file: Lecture Notes In Mathematical Finance (Lin_1996).pdf
+source_review: partial
+tags:
+- arbitrage-pricing
+- stochastic-calculus
+- option-pricing
+- interest-rate-models
+- risk-neutral-valuation
+- academic-research
+tier: B
+title: Lecture Notes in Mathematical Finance
+year: 1996
 ---
 
 ## Summary

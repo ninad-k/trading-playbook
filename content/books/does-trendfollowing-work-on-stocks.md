@@ -1,17 +1,30 @@
 ---
-title: "Does Trend Following Work on Stocks?"
-author: "Cole Wilcox and Eric Crittenden"
-year: 2005
-slug: does-trendfollowing-work-on-stocks
-tier: B
+author: Cole Wilcox and Eric Crittenden
 category: Trend Following & Mechanical Systems
-tags: [trend-following, backtesting, atr-stop, survivorship-bias, stocks, expectancy, blackstar-funds]
 difficulty: intermediate
 doc_type: paper
+one_liner: Blackstar Funds' study buying 24,000+ US stocks at all-time highs with
+  a 10-ATR trailing stop over 1983-2004, finding a positive expectancy despite realistic
+  costs and survivorship correction.
 pages: 20
-one_liner: "Blackstar Funds' study buying 24,000+ US stocks at all-time highs with a 10-ATR trailing stop over 1983-2004, finding a positive expectancy despite realistic costs and survivorship correction."
-related: [1-a-mehanical-trading-system-tom-joseph]
-source_file: "Does trendfollowing work on stocks.pdf"
+related:
+- 1-a-mehanical-trading-system-tom-joseph
+reviewed_pdf_pages: 3, 7-8, 11 (the universe construction, the expectancy and holding-period
+  statistics and the year-by-year trade counts)
+slug: does-trendfollowing-work-on-stocks
+source_file: Does trendfollowing work on stocks.pdf
+source_review: partial
+tags:
+- trend-following
+- backtesting
+- atr-stop
+- survivorship-bias
+- stocks
+- expectancy
+- blackstar-funds
+tier: B
+title: Does Trend Following Work on Stocks?
+year: 2005
 ---
 
 ## Summary

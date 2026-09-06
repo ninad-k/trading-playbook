@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Time Series Toolbox for MATLAB: User&#39;s Guide — The MathWorks, Inc. · Trading Playbook</title>
+<meta name="description" content="MATLAB toolbox reference for building and analyzing financial time series objects, with worked examples computing MACD, Williams %R, RSI, and On-Balance Volume.">
+<link rel="stylesheet" href="../assets/site.css?v=963628019642">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menu" aria-label="Menu">☰</button>
+  <a class="brand" href="../index.html">📈 Trading Playbook</a>
+  <form class="hsearch" action="../search.html" method="get" role="search">
+    <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
+  </form>
+</header>
+<div class="layout">
+<nav class="side" id="side">
+  <div class="sgroup">
+    <a href="../index.html">Index</a>
+    <a href="../search.html">Search</a>
+    <a href="../coverage.html">Source coverage</a>
+    <a href="../paths.html">Reading paths</a>
+  </div>
+  <div class="sgroup">
+    <div class="slabel">Topics</div>
+    <a href="../topics/market-structure-price-action.html">Market Structure &amp; Price Action</a><a href="../topics/candlesticks-chart-patterns.html">Candlesticks &amp; Chart Patterns</a><a href="../topics/indicators.html">Indicators</a><a href="../topics/fibonacci-gann-elliott-wave.html">Fibonacci, Gann &amp; Elliott Wave</a><a href="../topics/trend-following-mechanical-systems.html">Trend Following &amp; Mechanical Systems</a><a href="../topics/day-trading-scalping.html">Day Trading &amp; Scalping</a><a href="../topics/swing-trading.html">Swing Trading</a><a href="../topics/forex-mechanics-macro-drivers.html">Forex Mechanics &amp; Macro Drivers</a><a href="../topics/options-futures-derivatives.html">Options, Futures &amp; Derivatives</a><a href="../topics/money-management-position-sizing.html">Money Management &amp; Position Sizing</a><a href="../topics/trading-psychology-discipline.html">Trading Psychology &amp; Discipline</a><a href="../topics/quant-microstructure-academic-research.html">Quant, Microstructure &amp; Academic Research</a><a href="../topics/investing-value-market-history.html">Investing, Value &amp; Market History</a><a href="../topics/glossary.html">Glossary</a>
+  </div>
+</nav>
+<main class="content">
+
+<article class="book">
+  <p class="crumbs"><a href="../index.html">Index</a> › <a href="../topics/indicators.html">Indicators</a></p>
+  <h1>Financial Time Series Toolbox for MATLAB: User&#39;s Guide</h1>
+  <p class="byline">The MathWorks, Inc. · 2004 · <span class="badge tier-B">Tier B</span> <span class="badge">manual</span> <span class="badge">intermediate</span></p>
+  <p class="lead">MATLAB toolbox reference for building and analyzing financial time series objects, with worked examples computing MACD, Williams %R, RSI, and On-Balance Volume.</p>
+  <div class="callout"><strong>Source coverage: partial review.</strong> PDF pages inspected: 2-3, 11-14 (the function reference and the worked indicator examples). Page references in these notes identify source locations, not independently verified trading results.</div>
+  <table class="facts">
+    <tr><th>Category</th><td><a href="../topics/indicators.html">Indicators</a></td></tr>
+    <tr><th>Tags</th><td><a class="tag" href="../search.html?q=matlab">matlab</a> <a class="tag" href="../search.html?q=technical-indicators">technical-indicators</a> <a class="tag" href="../search.html?q=macd">macd</a> <a class="tag" href="../search.html?q=rsi">rsi</a> <a class="tag" href="../search.html?q=williams-pctr">williams-pctr</a> <a class="tag" href="../search.html?q=on-balance-volume">on-balance-volume</a> <a class="tag" href="../search.html?q=data-tools">data-tools</a> <a class="tag" href="../search.html?q=quant">quant</a> </td></tr>
+    <tr><th>Length</th><td>286 pages</td></tr>
+    <tr><th>Find the book</th><td>Search for “Financial Time Series Toolbox for MATLAB: User&#39;s Guide” by The MathWorks, Inc. at your bookseller or library.</td></tr>
+  </table>
+  
+  <details class="toc"><summary>On this page</summary><div class="toc">
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#key-points">Key points</a></li>
+<li><a href="#actionable-rules">Actionable rules</a></li>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#who-it-is-for">Who it is for</a></li>
+</ul>
+</div>
+</details>
+  <div class="prose"><h2 id="summary">Summary</h2>
+<p>The official MathWorks user&rsquo;s guide (Version 2, 2004) for the Financial Time Series Toolbox, an add-on for MATLAB. It documents the <code>fints</code> financial time series object (dates, frequency, and one or more data series), the functions for building, indexing, transforming, and visualizing it, a chapter of worked technical-analysis examples, a point-and-click GUI, and a full alphabetical function reference. It is a software manual, not a trading strategy source, but its Technical Analysis chapter is directly relevant to traders who want to compute standard indicators programmatically.</p>
+<h2 id="key-points">Key points</h2>
+<ul>
+<li>A financial time series object (<code>fints</code>) is built from a <code>fints(dates, data)</code> constructor or from a text file via <code>ascii2fts</code>; it always carries <code>desc</code>, <code>freq</code>, and <code>dates</code> fields plus one or more named data series (defaulting to <code>series1</code>, <code>series2</code>, &hellip;).</li>
+<li>Frequency must be set explicitly (e.g., <code>fts.freq = 'daily'</code>) before most operations will run correctly.</li>
+<li>Built-in technical analysis functions are grouped into oscillators (accumulation/distribution oscillator, Chaikin oscillator, <code>macd</code>, stochastic oscillator, acceleration, momentum), stochastics (Chaikin volatility, fast/slow stochastics, <code>willpctr</code> for Williams %R), indexes (negative/positive volume index, <code>rsindex</code> for RSI), and indicators (accumulation/distribution line, <code>bollinger</code> bands, highest high, lowest low, median/typical/weighted price, <code>onbalvol</code>, price/volume rate of change).</li>
+<li><code>rsindex</code> (RSI) defaults to a 14-period lookback, matching the standard textbook convention; the period is configurable via a second argument.</li>
+<li><code>macd</code> requires a series named <code>Close</code> (case-insensitive) by default and returns both the MACD line and a 9-period signal line.</li>
+<li><code>willpctr</code> (Williams %R) is conventionally read against the -20/-80 overbought/oversold levels; <code>rsindex</code> against the 30/70 levels.</li>
+<li><code>onbalvol</code> (On-Balance Volume) requires both <code>Close</code> and <code>Volume</code> series present in the object.</li>
+<li><code>fillts</code> interpolates missing values in a time series (e.g., filling gaps from holidays) using several interpolation methods.</li>
+<li>The toolbox includes frequency-conversion functions (e.g., <code>todaily</code>) to align series of different native frequencies (e.g., weekly economic data against daily price data) before analysis such as regression.</li>
+<li>A worked demo program shows constructing a dividend-adjusted &ldquo;spot price&rdquo; series, a return series, and regressing returns against an explanatory index — a template for simple factor-style analysis.</li>
+<li>A GUI (<code>ftsgui</code>) provides menu-driven access to the same load, fill, frequency-conversion, technical-analysis, and charting functions without writing code, including a candlestick plot and an interactive zoomable chart tool (<code>chartfts</code>).</li>
+</ul>
+<h2 id="actionable-rules">Actionable rules</h2>
+<p>None given — this is a software reference manual, not a trading system. The closest actionable content: the toolbox&rsquo;s default indicator parameters (14-period RSI, 9-period MACD signal line, -20/-80 Williams %R bands, 30/70 RSI bands) match conventional technical-analysis defaults and can be used as starting points for programmatic indicator calculation.</p>
+<h2 id="caveats">Caveats</h2>
+<p>This is MATLAB software documentation from 2004 (Financial Time Series Toolbox, since superseded/renamed within MATLAB&rsquo;s Financial Toolbox family), not a trading book — most of its content (object construction syntax, GUI menus, file I/O) is programming reference with no trading-relevance beyond the indicator formulas and default parameters used. Requires a MATLAB license and the toolbox itself to be useful; the discussion here paraphrases the documented indicator conventions only.</p>
+<h2 id="who-it-is-for">Who it is for</h2>
+<p>Traders or analysts with MATLAB access who want to compute standard technical indicators (MACD, RSI, Williams %R, OBV, Bollinger Bands) programmatically against historical price data rather than relying on charting-software defaults.</p></div>
+  
+  <section class="related"><h2>Related in this library</h2><ul><li><a href="../books/macd.html">Moving Average Convergence-Divergence (MACD)</a> — Brief primer on the MACD indicator&#39;s construction, crossover/overbought-oversold/divergence uses, and the author&#39;s own multi-timeframe trend-filter approach.</li><li><a href="../books/trading-with-macd-a-lesson-on-divergence.html">Trading with MACD: A Lesson on Divergence</a> — A commodities-trading newsletter lesson that teaches how to spot and trade bullish/bearish MACD-histogram divergence as an early, low-lag trend-reversal signal.</li><li><a href="../books/wayne-a-thorp-measuring-internal-strength-wilders-rsi-indicator.html">Measuring Internal Strength: Wilder&#39;s RSI Indicator</a> — AAII Journal primer on Wilder&#39;s RSI covering its calculation, overbought/oversold use, divergence signals, failure swings, and the indicator&#39;s breakdown in trending markets.</li><li><a href="../books/candlestick-charting-explained.html">Candlestick Charting Explained</a> — An introductory primer explains candle bodies and shadows and uses changing open-close relationships to read sentiment.</li></ul></section>
+  
+</article>
+
+<footer class="foot">
+  <p>Educational summaries only. Nothing here is financial advice. Test every rule before risking capital.</p>
+  <p>Trading Playbook · Trading books, explained and connected. · Summaries are paraphrased study notes; please buy the books you find useful.</p>
+</footer>
+</main>
+</div>
+<script>
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+</script>
+
+</body>
+</html>

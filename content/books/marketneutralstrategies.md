@@ -1,17 +1,35 @@
 ---
-title: Market Neutral Strategies
 author: Bruce I. Jacobs and Kenneth N. Levy (editors)
-year: 2005
-slug: marketneutralstrategies
-tier: A
 category: Quant, Microstructure & Academic Research
-tags: [market-neutral, long-short, pairs-trading, arbitrage, convertible-arbitrage, merger-arbitrage, hedge-funds, leverage]
 difficulty: advanced
 doc_type: book
+one_liner: 'Institutional anthology on market neutral investing: equity long-short,
+  convertible, sovereign bond, MBS and merger arbitrage, plus the Askin and LTCM collapses
+  as risk-management case studies.'
 pages: 304
-one_liner: "Institutional anthology on market neutral investing: equity long-short, convertible, sovereign bond, MBS and merger arbitrage, plus the Askin and LTCM collapses as risk-management case studies."
-related: [wyser-pratte-guy-risk-arbitrage, paul-wilmott-quantitative-finance, article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000, hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies, trading-and-investment-applied-quantitative-methods-for]
-source_file: "Marketneutralstrategies.pdf"
+related:
+- wyser-pratte-guy-risk-arbitrage
+- paul-wilmott-quantitative-finance
+- article-market-neutral-investing-long-short-hedge-fund-strategies-joseph-g-nicholas-2000
+- hedge-fund-risk-factors-and-value-at-risk-of-credit-trading-strategies
+- trading-and-investment-applied-quantitative-methods-for
+reviewed_pdf_pages: 4, 10, 14, 18, 43, 55-57, 73, 298 (the margin rules, the worked
+  equity-market-neutral capital deployment example and the strategy chapters)
+slug: marketneutralstrategies
+source_file: Marketneutralstrategies.pdf
+source_review: partial
+tags:
+- market-neutral
+- long-short
+- pairs-trading
+- arbitrage
+- convertible-arbitrage
+- merger-arbitrage
+- hedge-funds
+- leverage
+tier: A
+title: Market Neutral Strategies
+year: 2005
 ---
 
 ## Overview

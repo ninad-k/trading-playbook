@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "article-finance-some-quantitative-tests-for-stock-price-generating-models-and-trading-folk",
+    "pages": 21,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as M. F. M. Osborne, Some Quantitative Tests for Stock Price Generating Models and Trading Folklore, Journal of the American Statistical Association 62:318 (June 1967), pp. 321-340. Native extraction is empty and no matching note or duplicate hash was found.",
+    "reason": "Readable, unique, trading-relevant empirical paper."
+  },
+  {
+    "slug": "ben-branch-the-predictive-power-of-stock-market-indicator",
+    "pages": 18,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as Ben Branch, The Predictive Power of Stock Market Indicators, Journal of Financial and Quantitative Analysis 11:2 (June 1976), pp. 269-285. Native extraction is empty and no matching note or duplicate hash was found.",
+    "reason": "Readable, unique, trading-relevant indicator paper."
+  },
+  {
+    "slug": "cantor-1997-split-ratings-and-the-pricing-of-credit-risk",
+    "pages": 30,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "The rendered title page and PDF metadata identify Richard Cantor, Frank Packer, and Kevin Cole, Federal Reserve Bank of New York Research Paper 9711, March 1997. Native extraction has metadata only; no matching note or duplicate hash was found.",
+    "reason": "Readable, unique credit-pricing research paper."
+  },
+  {
+    "slug": "chinn",
+    "pages": 41,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "Native text on pp. 1-2 identifies Yin-Wong Cheung and Menzie D. Chinn, Macroeconomic Implications of the Beliefs and Behavior of Foreign Exchange Traders, NBER Working Paper 7417, November 1999; the remaining pages lack usable native text. No matching note or duplicate hash was found.",
+    "reason": "Readable, unique FX trader-survey paper; requires OCR beyond the front matter."
+  },
+  {
+    "slug": "day-trading-university",
+    "pages": 352,
+    "proposed_outcome": "recover_ocr_then_compare",
+    "canonical_candidate": "daytrading-university-advanced-daytrading-two-day-seminar",
+    "evidence": "The first page renders as a Daytrading University campus/course map and the scan is readable. A separate 31-page Advanced Daytrading seminar note exists, while daytrading-university-trading-course is a corrupt one-page parse; hashes and page counts differ.",
+    "reason": "Likely a larger course compilation or alternate edition. Recover representative/full text, then retain only content materially beyond the existing seminar note."
+  },
+  {
+    "slug": "engle-the-econometric-of-high-frequency-data",
+    "pages": 19,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "The rendered title page identifies Robert F. Engle, The Econometrics of Ultra-High-Frequency Data, NBER Working Paper 816, November 1996. Native extraction is empty and no matching note or duplicate hash was found.",
+    "reason": "Readable, unique high-frequency econometrics paper."
+  },
+  {
+    "slug": "f-e-james-jr-monthly-moving-averages-an-effective-investment-tool",
+    "pages": 13,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as F. E. James, Jr., Monthly Moving Averages-An Effective Investment Tool?, Journal of Financial and Quantitative Analysis 3:3 (September 1968), pp. 315-326. Native extraction is empty and no matching note or duplicate hash was found.",
+    "reason": "Readable, unique moving-average research article."
+  },
+  {
+    "slug": "fisher-mark-b-1-the-logical-trader-applying-a-method-to-the-madness",
+    "pages": 0,
+    "proposed_outcome": "duplicate_corrupt",
+    "canonical_candidate": "mark-b-fisher-the-logical-trader-applying-a-method-to-the-madness",
+    "evidence": "The PDF reports no parseable pages, produces no native text, and fails first-page rendering. A complete note and ACD method page already exist for the same Mark B. Fisher title under the canonical candidate.",
+    "reason": "Corrupt duplicate adds no recoverable evidence."
+  },
+  {
+    "slug": "fx-crossing-over-to-the-forex-market",
+    "pages": 3,
+    "proposed_outcome": "recover_ocr_canonical",
+    "canonical_candidate": "fx-crossing-over-to-the-forex-market",
+    "evidence": "The scan renders clearly as Gary Tilkin, Crossing over to the forex market, Futures, May 2000. It has the exact SHA-1 5515fd0f16ea41d7ebe8a04de76fff25bf7d5915 shared with fx-crossing-over-to-the-forex-market-2; neither has a note.",
+    "reason": "Recover one copy and treat the -2 record as an exact duplicate."
+  },
+  {
+    "slug": "glenn-neely-masterelliotwav-low-quality",
+    "pages": 168,
+    "proposed_outcome": "recover_ocr_canonical",
+    "canonical_candidate": "glenn-neely-masterelliotwav-low-quality",
+    "evidence": "Cover and sampled pages 50, 100, and 160 render legibly as Glenn Neely with Eric Hall, Mastering Elliott Wave. The same page count, PDF title, cover, and sampled interiors occur in masteelliowav, although compression hashes differ.",
+    "reason": "Recover one of the two visually matching scans; this descriptive slug is the proposed canonical record."
+  },
+  {
+    "slug": "investment-performance-and-investor-behavior",
+    "pages": 30,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as Wilbur G. Lewellen, Ronald C. Lease, and Gary G. Schlarbaum, Investment Performance and Investor Behavior, Journal of Financial and Quantitative Analysis 14:1 (March 1979), pp. 29-57. No matching note or duplicate hash was found.",
+    "reason": "Readable, unique investor-behavior research paper."
+  },
+  {
+    "slug": "investment-science",
+    "pages": 510,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "Rendered pp. 3-10 identify David G. Luenberger's Investment Science and show sections on interest rates, fixed-income securities, bond portfolio management, mean-variance theory, CAPM, arbitrage pricing, and derivatives. The scan is rotated 180 degrees relative to the page canvas. Native extraction is empty and no same-title note or duplicate hash was found.",
+    "reason": "Unique and relevant quantitative-investment text; OCR must account for rotation and the large page count."
+  },
+  {
+    "slug": "jaeckel-p-monte-carlo-methods-in-finance-wiley-2002-t-c-232s",
+    "pages": 232,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "The cover renders clearly as Peter Jaeckel, Monte Carlo Methods in Finance, Wiley, 2002. The existing Introduction to Monte Carlo Methods note is a different short source, and no duplicate hash was found.",
+    "reason": "Readable, unique quantitative-finance book."
+  },
+  {
+    "slug": "market-making-and-reversal-on-the-stock-exchange",
+    "pages": 21,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as Victor Niederhoffer and M. F. M. Osborne, Market Making and Reversal on the Stock Exchange, Journal of the American Statistical Association 61:316 (December 1966), pp. 897-916. No matching note or duplicate hash was found.",
+    "reason": "Readable, unique market-microstructure paper."
+  },
+  {
+    "slug": "masteelliowav",
+    "pages": 168,
+    "proposed_outcome": "probable_visual_duplicate",
+    "canonical_candidate": "glenn-neely-masterelliotwav-low-quality",
+    "evidence": "It has the same 168 pages, PDF title metadata, cover, and visually matching sampled pages 50, 100, and 160 as the proposed canonical Glenn Neely scan; differing hashes appear to reflect scan/compression differences.",
+    "reason": "Do not create a second note unless OCR comparison reveals substantive differences."
+  },
+  {
+    "slug": "patterns-in-three-centuries-of-stock-market-prices",
+    "pages": 23,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as William N. Goetzmann, Patterns in Three Centuries of Stock Market Prices, Journal of Business 66:2 (April 1993), pp. 249-270. No matching note or duplicate hash was found.",
+    "reason": "Readable, unique long-history market research paper."
+  },
+  {
+    "slug": "prechter-robert-the-major-works-of-r-n-elliott-low-quality",
+    "pages": 126,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "The title page renders clearly as The Major Works of R. N. Elliott, edited with foreword and biography by Robert R. Prechter, Jr. It is distinct in title, page count, and hash from the existing 111-page Elliott Wave Principle note.",
+    "reason": "Readable, distinct primary-work compilation relevant to Elliott-wave study."
+  },
+  {
+    "slug": "speculative-investor-behavior-in-a-stock-market",
+    "pages": 15,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": null,
+    "evidence": "First page renders clearly as J. Michael Harrison and David M. Kreps, Speculative Investor Behavior in a Stock Market with Heterogeneous Expectations, Quarterly Journal of Economics 92:2 (May 1978), pp. 323-336. No matching note or duplicate hash was found.",
+    "reason": "Readable, unique theoretical market paper."
+  },
+  {
+    "slug": "you-can-choose-to-be-rich-workbook-by-robert-t-kiyosaki",
+    "pages": 399,
+    "proposed_outcome": "recover_ocr",
+    "canonical_candidate": "rich-dad-poor-dad-by-robert-t-kiyosaki",
+    "evidence": "Rendered pp. 5-9 identify Robert T. Kiyosaki with Sharon L. Lechter and show a three-part Think, Learn, Do structure. The contents include investor types, financial literacy, cash flow, debt, real estate, securities, mutual funds, risk, and action exercises. A separate Rich Dad Poor Dad note exists, but this is a distinct companion workbook rather than a duplicate hash.",
+    "reason": "The table of contents demonstrates material general-investing coverage; recover representative sections and write a focused partial-review note."
+  }
+]
