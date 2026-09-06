@@ -6,7 +6,12 @@
 <title>How the Stock Market Works — Mark A. Bradley · Trading Playbook</title>
 <meta name="description" content="A beginner tutorial on stock market mechanics: why companies issue stock, how IPOs and underwriting work, who the market participants are, and how an order becomes a filled trade.">
 <meta name="author" content="Ninad K">
-<link rel="stylesheet" href="../assets/site.css?v=e8f383bb9a8c">
+<link rel="stylesheet" href="../assets/site.css?v=8abff60e9650">
+<script>
+/* Apply the saved theme before first paint, so the page never flashes the wrong one. */
+(function(){try{var t=localStorage.getItem('tp-theme');
+if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
 </head>
 <body>
@@ -16,6 +21,7 @@
   <form class="hsearch" action="../search.html" method="get" role="search">
     <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
   </form>
+  <button class="theme" id="theme" type="button" aria-label="Colour theme" title="Colour theme">◐</button>
 </header>
 <div class="layout">
 <nav class="side" id="side">
@@ -91,6 +97,23 @@
 </div>
 <script>
 document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+/* Three states, cycled by the header button: follow the system, force light, force dark. */
+(function(){
+  var btn=document.getElementById('theme'), root=document.documentElement;
+  var ICON={system:'◐',light:'☀',dark:'☾'};
+  var LABEL={system:'Colour theme: following your system',light:'Colour theme: light',dark:'Colour theme: dark'};
+  function read(){try{var t=localStorage.getItem('tp-theme');return t==='dark'||t==='light'?t:'system';}catch(e){return 'system';}}
+  function show(t){
+    if(t==='system'){root.removeAttribute('data-theme');}else{root.setAttribute('data-theme',t);}
+    btn.textContent=ICON[t]; btn.title=LABEL[t]; btn.setAttribute('aria-label',LABEL[t]);
+  }
+  show(read());
+  btn.addEventListener('click',function(){
+    var next={system:'light',light:'dark',dark:'system'}[read()];
+    try{next==='system'?localStorage.removeItem('tp-theme'):localStorage.setItem('tp-theme',next);}catch(e){}
+    show(next);
+  });
+})();
 </script>
 
 </body>

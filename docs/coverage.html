@@ -6,7 +6,12 @@
 <title>Source coverage · Trading Playbook</title>
 <meta name="description" content="Trading books, explained and connected.">
 <meta name="author" content="Ninad K">
-<link rel="stylesheet" href="assets/site.css?v=e8f383bb9a8c">
+<link rel="stylesheet" href="assets/site.css?v=8abff60e9650">
+<script>
+/* Apply the saved theme before first paint, so the page never flashes the wrong one. */
+(function(){try{var t=localStorage.getItem('tp-theme');
+if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
 </head>
 <body>
@@ -16,6 +21,7 @@
   <form class="hsearch" action="search.html" method="get" role="search">
     <input type="search" name="q" placeholder="Search notes, books, systems…" aria-label="Search">
   </form>
+  <button class="theme" id="theme" type="button" aria-label="Colour theme" title="Colour theme">◐</button>
 </header>
 <div class="layout">
 <nav class="side" id="side">
@@ -197,7 +203,7 @@
       <td>The Intraday Patterns of the Spread and Depth in a Market Without Market Makers: The Stock Exchange of Hong Kong</td><td>Partial source review</td><td>7-9, 16-17 (the descriptive statistics and the spread/depth correlation tables)</td>
       <td><a href="books/ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma.html">The Intraday Patterns of the Spread and Depth in a Market Without Market Makers: The Stock Exchange of Hong Kong</a></td>
     </tr><tr id="ahn-and-cheung-the-intraday-patterns-of-the-spread-and-depth-in-a-market-without-market-ma-2">
-      <td>Ahn And Cheung -The Intraday Patterns Of The Spread And Depth In A Market Without Market Makers - The Stock Exchange Of Hong Kong</td><td>Corrupt</td><td>triage: C</td>
+      <td>Ahn And Cheung-The Intraday Patterns Of The Spread And Depth In A Market Without Market Makers - The Stock Exchange Of Hong Kong</td><td>Corrupt</td><td>triage: C</td>
       <td>No summary</td>
     </tr><tr id="alan-farley-3-swing-trading-examples-with-charts-instructions-and-definitions-to-get-you-s">
       <td>3 Swing Trading Examples, With Charts, Instructions, and Definitions to Get You Started</td><td>Partial source review</td><td>2-5, 7-8 (the worked swing examples and the market-number and stochastic discussions)</td>
@@ -206,7 +212,7 @@
       <td>The Master Swing Trader</td><td>Partial source review</td><td>2-4, 7 (contents and the cross-verification, 3D-charting, trend-range and moving-average-ribbon definitions)</td>
       <td><a href="books/alan-farley-the-master-swing-trader.html">The Master Swing Trader</a></td>
     </tr><tr id="alex-saenz-10-minute-guide-to-investing-in-stocks">
-      <td>Alex -Saenz-10 -Minute -Guide -To -Investing -In -Stocks</td><td>Duplicate</td><td>triage: C</td>
+      <td>Alex-Saenz-10-Minute-Guide-To-Investing-In-Stocks</td><td>Duplicate</td><td>triage: C</td>
       <td><a href="books/10-minute-guide-to-investing-in-stocks.html">10 Minute Guide to Investing in Stocks</a></td>
     </tr><tr id="algora-myths-of-the-free-market-2003-isbn0875862233">
       <td>Myths of the Free Market</td><td>Partial source review</td><td>27, 30 (the growth-rate and compensation comparison tables)</td>
@@ -548,7 +554,7 @@
       <td>Daytrading University</td><td>Partial source review</td><td>1-9, 26, 43, 60, 77, 95, 112, 129, 146, 163, 181, 198, 215, 232, 249, 267, 284, 301, 318, 335 (every page the scan yields text for; the remaining pages are image-only)</td>
       <td><a href="books/day-trading-university.html">Daytrading University</a></td>
     </tr><tr id="daytradeforex-com-the-day-trade-forex-system-the-ultimate-step-by-step-guide-to-online-cur">
-      <td>DayTradeForex.com - The Day Trade Forex System The Ultimate Step-by -Step Guide to Online Currency Trading</td><td>Duplicate</td><td>triage: C</td>
+      <td>DayTradeForex.com - The Day Trade Forex System The Ultimate Step-by-Step Guide to Online Currency Trading</td><td>Duplicate</td><td>triage: C</td>
       <td><a href="books/50-per-day-trading-forex.html">The Day Trade Forex System: $50 to $500 a Day Trading Forex</a></td>
     </tr><tr id="daytrading-university-advanced-daytrading-two-day-seminar">
       <td>Advanced Daytrading: Two-Day Seminar Workbook</td><td>Partial source review</td><td>1-2, 10, 12-13 (the intraday time-window map and the breakout setup rules)</td>
@@ -968,7 +974,7 @@
       <td>Gimmee Bars</td><td>Full source review</td><td>1-5</td>
       <td><a href="books/gimmibar.html">Gimmee Bars</a></td>
     </tr><tr id="giot-and-grammig-how-large-is-liquidity-risk-in-an-automated-auction-market">
-      <td>Giot And Grammig -How Large Is Liquidity Risk In An Automated Auction Market</td><td>Duplicate</td><td>Previously reviewed duplicate</td>
+      <td>Giot And Grammig-How Large Is Liquidity Risk In An Automated Auction Market</td><td>Duplicate</td><td>Previously reviewed duplicate</td>
       <td><a href="books/how-large-is-liquidity-risk-in-an-automated.html">How Large Is Liquidity Risk in an Automated Auction Market?</a></td>
     </tr><tr id="giuciao-atspace-org-building-your-e-mini-trading-strategy">
       <td>Building Your E-mini Trading Strategy</td><td>Partial source review</td><td>2, 5, 12-14, 88 (the contract specifications, the swing entry rules and the risk/heat discussion)</td>
@@ -1469,10 +1475,10 @@
       <td>The Encyclopedia of Trading Strategies</td><td>Partial source review</td><td>4-5, 7, 10, 23, 27, 31, 35, 60, 63-64, 69, 73, 77, 95, 133, 157 (the test methodology chapters and the per-family results tables for breakouts, moving averages, oscillators, cycles and AI models)</td>
       <td><a href="books/mcgraw-hill-encyclopedia-of-trading-strategies.html">The Encyclopedia of Trading Strategies</a></td>
     </tr><tr id="mcgraw-hill-finance-for-the-non-financial-manager-ebook-lib">
-      <td>Finance.For.The.Non -Financial.Manager.eBook -LiB</td><td>Off topic</td><td>manual: not trading related</td>
+      <td>Finance.For.The.Non-Financial.Manager.eBook-LiB</td><td>Off topic</td><td>manual: not trading related</td>
       <td>No summary</td>
     </tr><tr id="mcgraw-hill-the-new-reality-of-wall-street-ebook-lib">
-      <td>The.New.Reality.Of.Wall.Street.Ebook -Lib</td><td>Duplicate</td><td>triage: C</td>
+      <td>The.New.Reality.Of.Wall.Street.Ebook-Lib</td><td>Duplicate</td><td>triage: C</td>
       <td><a href="books/donald-coxe-the-new-reality-of-wall-street.html">The New Reality of Wall Street: An Investor&#39;s Survival Guide to Triple Waterfalls and Other Stock Market Perils</a></td>
     </tr><tr id="mcmillan-and-speight-nonlinear-dynamics-in-high-frequency-intra-day-financial-data">
       <td>Nonlinear Dynamics in High Frequency Intra-Day Financial Data</td><td>Full source review</td><td>1-30</td>
@@ -1970,7 +1976,7 @@
       <td>The Superstock Investor: Profiting from Wall Street&#39;s Best Undervalued Companies</td><td>Partial source review</td><td>13-14 (the track-record tables and the ownership and buyback signal chapters)</td>
       <td><a href="books/the-superstock-investor-profiting-from-wall-streets-best-undervalued-companies.html">The Superstock Investor: Profiting from Wall Street&#39;s Best Undervalued Companies</a></td>
     </tr><tr id="the-ultimate-step-by-step-guide-to-online-currency-trading">
-      <td>The Ultimate Step-by -Step Guide to Online Currency Trading</td><td>Duplicate</td><td>triage: C</td>
+      <td>The Ultimate Step-by-Step Guide to Online Currency Trading</td><td>Duplicate</td><td>triage: C</td>
       <td><a href="books/50-per-day-trading-forex.html">The Day Trade Forex System: $50 to $500 a Day Trading Forex</a></td>
     </tr><tr id="the-nyse-tick-index-and-candlesticks">
       <td>The NYSE Tick Index and Candlesticks</td><td>Partial source review</td><td>2-4, 9 (the tick thresholds, the double-top/bottom setup rules and the closing-tick statistics)</td>
@@ -2280,6 +2286,23 @@
 </div>
 <script>
 document.getElementById('menu').addEventListener('click',()=>document.getElementById('side').classList.toggle('open'));
+/* Three states, cycled by the header button: follow the system, force light, force dark. */
+(function(){
+  var btn=document.getElementById('theme'), root=document.documentElement;
+  var ICON={system:'◐',light:'☀',dark:'☾'};
+  var LABEL={system:'Colour theme: following your system',light:'Colour theme: light',dark:'Colour theme: dark'};
+  function read(){try{var t=localStorage.getItem('tp-theme');return t==='dark'||t==='light'?t:'system';}catch(e){return 'system';}}
+  function show(t){
+    if(t==='system'){root.removeAttribute('data-theme');}else{root.setAttribute('data-theme',t);}
+    btn.textContent=ICON[t]; btn.title=LABEL[t]; btn.setAttribute('aria-label',LABEL[t]);
+  }
+  show(read());
+  btn.addEventListener('click',function(){
+    var next={system:'light',light:'dark',dark:'system'}[read()];
+    try{next==='system'?localStorage.removeItem('tp-theme'):localStorage.setItem('tp-theme',next);}catch(e){}
+    show(next);
+  });
+})();
 </script>
 
 <script>

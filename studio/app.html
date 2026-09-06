@@ -4,9 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Book Studio · Trading Playbook</title>
+<script>
+/* Apply the saved theme before first paint, so the page never flashes the wrong one. */
+(function(){try{var t=localStorage.getItem('tp-theme');
+if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
 <style>
 :root{--bg:#fafaf7;--fg:#1c1c1a;--muted:#6b6b66;--line:#e4e2dc;--card:#fff;--accent:#0b6e4f;--accent2:#b8862b;--a:#0a5f8f;--side:#f2f1ec;--bad:#a33;--ok:#0b6e4f}
-@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916;--bad:#e08585;--ok:#4fc39a}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916;--bad:#e08585;--ok:#4fc39a}}
+:root[data-theme="dark"]{--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916;--bad:#e08585;--ok:#4fc39a}
+:root{color-scheme:light}:root[data-theme="dark"]{color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 header{position:sticky;top:0;z-index:5;display:flex;gap:14px;align-items:baseline;padding:12px 22px;background:var(--card);border-bottom:1px solid var(--line)}
@@ -43,6 +51,8 @@ th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;le
 .note{background:var(--side);border-left:3px solid var(--accent2);padding:11px 15px;border-radius:6px;margin:14px 0;font-size:13.5px}
 .small{font-size:12.5px;color:var(--muted)}
 ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
+.theme{display:inline-grid;place-items:center;width:32px;height:32px;flex:none;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px;line-height:1;cursor:pointer;padding:0;margin-left:14px}
+.theme:hover{border-color:var(--accent);color:var(--accent)}
 </style>
 </head>
 <body>
@@ -50,6 +60,7 @@ ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
   <b>Book Studio</b>
   <span>local only · Ollama · nothing here is published</span>
   <span style="margin-left:auto" id="conn"><span class="dot down"></span>checking…</span>
+  <button class="theme" id="theme" type="button" aria-label="Colour theme" title="Colour theme">◐</button>
 </header>
 
 <main>
@@ -114,6 +125,29 @@ ul.novel{margin:6px 0 0;padding-left:18px;font-size:12.5px;color:var(--muted)}
 
 <script>
 const $ = s => document.querySelector(s);
+
+/* Three states, cycled by the header button: follow the system, force light, force dark.
+   Same key and behaviour as the published site, but localStorage is per-origin, so the studio
+   keeps its own choice rather than inheriting the site's. */
+(function () {
+  const btn = document.getElementById('theme'), root = document.documentElement;
+  const ICON = {system: '◐', light: '☀', dark: '☾'};
+  const LABEL = {system: 'Colour theme: following your system', light: 'Colour theme: light',
+                 dark: 'Colour theme: dark'};
+  const read = () => { try { const t = localStorage.getItem('tp-theme');
+    return t === 'dark' || t === 'light' ? t : 'system'; } catch (e) { return 'system'; } };
+  function show(t) {
+    if (t === 'system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', t);
+    btn.textContent = ICON[t]; btn.title = LABEL[t]; btn.setAttribute('aria-label', LABEL[t]);
+  }
+  show(read());
+  btn.addEventListener('click', () => {
+    const next = {system: 'light', light: 'dark', dark: 'system'}[read()];
+    try { next === 'system' ? localStorage.removeItem('tp-theme')
+                            : localStorage.setItem('tp-theme', next); } catch (e) {}
+    show(next);
+  });
+})();
 let staged = [], analysis = [], drafts = [];
 
 function log(msg, cls) {

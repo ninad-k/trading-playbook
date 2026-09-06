@@ -1,11 +1,16 @@
 :root{--bg:#fafaf7;--fg:#1c1c1a;--muted:#6b6b66;--line:#e4e2dc;--card:#fff;--accent:#0b6e4f;--accent2:#b8862b;--a:#0a5f8f;--side:#f2f1ec}
-@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916}}
+/* Dark tokens twice: once for viewers on the system default, once for an explicit choice.
+   The :not() keeps a viewer who picked light from being overridden by their OS. */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916}}
+:root[data-theme="dark"]{--bg:#141412;--fg:#e8e6e0;--muted:#9a9891;--line:#2c2b27;--card:#1c1c19;--accent:#4fc39a;--accent2:#e0b45a;--a:#7cc0ea;--side:#191916}
+:root{color-scheme:light}:root[data-theme="dark"]{color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 a{color:var(--a);text-decoration:none}a:hover{text-decoration:underline}
 .top{position:sticky;top:0;z-index:5;display:flex;gap:12px;align-items:center;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--line)}
 .brand{font-weight:700;color:var(--fg);white-space:nowrap}
-.hsearch{flex:1;max-width:520px;margin-left:auto}.hsearch input{width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+.hsearch{flex:1;max-width:520px}.hsearch input{width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
 .menu{display:none;background:none;border:1px solid var(--line);border-radius:6px;color:var(--fg);font-size:18px;padding:2px 8px}
 .layout{display:flex;min-height:calc(100vh - 52px)}
 .side{width:260px;flex:none;padding:16px;background:var(--side);border-right:1px solid var(--line);position:sticky;top:52px;height:calc(100vh - 52px);overflow:auto}
@@ -55,3 +60,6 @@ h1{font-size:2rem;line-height:1.2;margin:.2em 0 .3em}h2{font-size:1.35rem;margin
 .lesson .prose h2{margin-top:2em}
 .drill{background:var(--side);border-left:3px solid var(--accent2);padding:12px 16px;border-radius:6px;margin:18px 0}
 .drill h3{margin:0 0 .4em}
+.theme{margin-left:auto;display:inline-grid;place-items:center;width:34px;height:34px;flex:none;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:15px;line-height:1;cursor:pointer;padding:0}
+.theme:hover{border-color:var(--accent);color:var(--accent)}
+.theme:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
